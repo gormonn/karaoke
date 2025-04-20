@@ -13,7 +13,7 @@ export const RemotionRoot: React.FC = () => {
 				fps={fps}
 				calculateMetadata={async () => {
 					const duration = await getAudioDurationInSeconds(
-						staticFile('music.mp3')
+						staticFile('home-office.mp3')
 					);
 					return {
 						durationInFrames: Math.round(duration * fps),

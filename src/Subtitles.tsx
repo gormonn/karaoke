@@ -7,7 +7,7 @@ export const Subtitles: React.FC = () => {
 	const [subtitles, setSubtitles] = useState<WhisperResponse | null>(null);
 
 	useEffect(() => {
-		fetch(staticFile('music.json'))
+		fetch(staticFile('home-office-converted.json'))
 			.then((res) => res.json())
 			.then((data) => {
 				setSubtitles(data);

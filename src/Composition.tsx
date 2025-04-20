@@ -3,7 +3,7 @@ import {Audio} from 'remotion';
 import {AbsoluteFill, staticFile} from 'remotion';
 import {Bottom} from './Bottom';
 import {fontSize} from './Dots';
-import {Subtitles} from './Subtitles';
+import {Subtitles} from './Subtitles'; 
 
 export const MyComposition = () => {
 	return (
@@ -16,9 +16,9 @@ export const MyComposition = () => {
 		>
 			<AbsoluteFill>
 				<Img src={staticFile('background.jpg')} />
-			</AbsoluteFill>
+			</AbsoluteFill> 
 			<Subtitles />
-			<Audio src={staticFile('music.mp3')} />
+			<Audio src={staticFile('home-office.mp3')} />
 			<Bottom />
 		</AbsoluteFill>
 	);

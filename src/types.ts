@@ -16,6 +16,7 @@ export interface Segment {
 	compression_ratio: number;
 	no_speech_prob: number;
 	words: Word[];
+	lines?: Word[][];
 }
 
 export interface Word {

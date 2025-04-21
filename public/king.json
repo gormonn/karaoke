@@ -1,0 +1,2025 @@
+[
+  {
+      "word": "[Dark Industrial Intro]\n\n\n[Verse]\nГо",
+      "success": true,
+      "start_s": 27.76595744680851,
+      "end_s": 27.845744680851062,
+      "p_align": 1
+  },
+  {
+      "word": "р",
+      "success": true,
+      "start_s": 27.845744680851062,
+      "end_s": 27.925531914893618,
+      "p_align": 1
+  },
+  {
+      "word": "дый",
+      "success": true,
+      "start_s": 28.00531914893617,
+      "end_s": 28.24468085106383,
+      "p_align": 1
+  },
+  {
+      "word": " ко",
+      "success": true,
+      "start_s": 28.404255319148938,
+      "end_s": 28.56382978723404,
+      "p_align": 1
+  },
+  {
+      "word": "ро",
+      "success": true,
+      "start_s": 28.56382978723404,
+      "end_s": 28.72340425531915,
+      "p_align": 1
+  },
+  {
+      "word": "ль",
+      "success": true,
+      "start_s": 28.72340425531915,
+      "end_s": 28.882978723404257,
+      "p_align": 1
+  },
+  {
+      "word": " на",
+      "success": true,
+      "start_s": 29.52127659574468,
+      "end_s": 29.680851063829788,
+      "p_align": 1
+  },
+  {
+      "word": " т",
+      "success": true,
+      "start_s": 29.680851063829788,
+      "end_s": 29.76063829787234,
+      "p_align": 1
+  },
+  {
+      "word": "ро",
+      "success": true,
+      "start_s": 29.76063829787234,
+      "end_s": 29.920212765957448,
+      "p_align": 1
+  },
+  {
+      "word": "н",
+      "success": true,
+      "start_s": 30.159574468085108,
+      "end_s": 30.23936170212766,
+      "p_align": 1
+  },
+  {
+      "word": "е",
+      "success": true,
+      "start_s": 30.319148936170212,
+      "end_s": 30.398936170212767,
+      "p_align": 1
+  },
+  {
+      "word": " в",
+      "success": true,
+      "start_s": 30.398936170212767,
+      "end_s": 30.47872340425532,
+      "p_align": 1
+  },
+  {
+      "word": "ла",
+      "success": true,
+      "start_s": 30.47872340425532,
+      "end_s": 30.638297872340427,
+      "p_align": 1
+  },
+  {
+      "word": "сти",
+      "success": true,
+      "start_s": 30.877659574468087,
+      "end_s": 31.117021276595747,
+      "p_align": 1
+  },
+  {
+      "word": "\nЗо",
+      "success": true,
+      "start_s": 31.356382978723406,
+      "end_s": 31.595744680851062,
+      "p_align": 1
+  },
+  {
+      "word": "ло",
+      "success": true,
+      "start_s": 31.595744680851062,
+      "end_s": 31.75531914893617,
+      "p_align": 1
+  },
+  {
+      "word": "то",
+      "success": true,
+      "start_s": 31.914893617021278,
+      "end_s": 32.07446808510638,
+      "p_align": 1
+  },
+  {
+      "word": " да",
+      "success": true,
+      "start_s": 32.23404255319149,
+      "end_s": 32.473404255319146,
+      "p_align": 1
+  },
+  {
+      "word": "ви",
+      "success": true,
+      "start_s": 32.63297872340426,
+      "end_s": 32.712765957446805,
+      "p_align": 1
+  },
+  {
+      "word": "т",
+      "success": true,
+      "start_s": 32.712765957446805,
+      "end_s": 32.79255319148936,
+      "p_align": 1
+  },
+  {
+      "word": " - ста",
+      "success": true,
+      "start_s": 33.111702127659576,
+      "end_s": 33.191489361702125,
+      "p_align": 1
+  },
+  {
+      "word": "ль",
+      "success": true,
+      "start_s": 33.191489361702125,
+      "end_s": 33.351063829787236,
+      "p_align": 1
+  },
+  {
+      "word": "ная",
+      "success": true,
+      "start_s": 33.430851063829785,
+      "end_s": 33.670212765957444,
+      "p_align": 1
+  },
+  {
+      "word": " стра",
+      "success": true,
+      "start_s": 34.069148936170215,
+      "end_s": 34.388297872340424,
+      "p_align": 1
+  },
+  {
+      "word": "сть",
+      "success": true,
+      "start_s": 34.388297872340424,
+      "end_s": 34.62765957446808,
+      "p_align": 1
+  },
+  {
+      "word": "\nШ",
+      "success": true,
+      "start_s": 34.86702127659574,
+      "end_s": 34.9468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "то",
+      "success": true,
+      "start_s": 34.9468085106383,
+      "end_s": 35.1063829787234,
+      "p_align": 1
+  },
+  {
+      "word": "р",
+      "success": true,
+      "start_s": 35.1063829787234,
+      "end_s": 35.18617021276596,
+      "p_align": 1
+  },
+  {
+      "word": "м",
+      "success": true,
+      "start_s": 35.18617021276596,
+      "end_s": 35.265957446808514,
+      "p_align": 1
+  },
+  {
+      "word": " и",
+      "success": true,
+      "start_s": 35.34574468085106,
+      "end_s": 35.505319148936174,
+      "p_align": 1
+  },
+  {
+      "word": " пла",
+      "success": true,
+      "start_s": 35.82446808510638,
+      "end_s": 36.1436170212766,
+      "p_align": 1
+  },
+  {
+      "word": "м",
+      "success": true,
+      "start_s": 36.223404255319146,
+      "end_s": 36.3031914893617,
+      "p_align": 1
+  },
+  {
+      "word": "я",
+      "success": true,
+      "start_s": 36.3031914893617,
+      "end_s": 36.38297872340426,
+      "p_align": 1
+  },
+  {
+      "word": ", я",
+      "success": true,
+      "start_s": 36.702127659574465,
+      "end_s": 36.941489361702125,
+      "p_align": 1
+  },
+  {
+      "word": "ро",
+      "success": true,
+      "start_s": 36.941489361702125,
+      "end_s": 37.101063829787236,
+      "p_align": 1
+  },
+  {
+      "word": "сть",
+      "success": true,
+      "start_s": 37.101063829787236,
+      "end_s": 37.340425531914896,
+      "p_align": 1
+  },
+  {
+      "word": " бу",
+      "success": true,
+      "start_s": 37.420212765957444,
+      "end_s": 37.659574468085104,
+      "p_align": 1
+  },
+  {
+      "word": "ри",
+      "success": true,
+      "start_s": 37.819148936170215,
+      "end_s": 37.97872340425532,
+      "p_align": 1
+  },
+  {
+      "word": "\nПу",
+      "success": true,
+      "start_s": 38.537234042553195,
+      "end_s": 38.6968085106383,
+      "p_align": 1
+  },
+  {
+      "word": "ть",
+      "success": true,
+      "start_s": 38.6968085106383,
+      "end_s": 38.8563829787234,
+      "p_align": 1
+  },
+  {
+      "word": " из",
+      "success": true,
+      "start_s": 39.17553191489362,
+      "end_s": 39.41489361702128,
+      "p_align": 1
+  },
+  {
+      "word": "бра",
+      "success": true,
+      "start_s": 39.65425531914894,
+      "end_s": 39.73404255319149,
+      "p_align": 1
+  },
+  {
+      "word": "н",
+      "success": true,
+      "start_s": 39.73404255319149,
+      "end_s": 39.81382978723404,
+      "p_align": 1
+  },
+  {
+      "word": " - в",
+      "success": true,
+      "start_s": 39.81382978723404,
+      "end_s": 40.13297872340426,
+      "p_align": 1
+  },
+  {
+      "word": "рем",
+      "success": true,
+      "start_s": 40.29255319148936,
+      "end_s": 40.53191489361702,
+      "p_align": 1
+  },
+  {
+      "word": "я па",
+      "success": true,
+      "start_s": 40.930851063829785,
+      "end_s": 41.170212765957444,
+      "p_align": 1
+  },
+  {
+      "word": "сть",
+      "success": true,
+      "start_s": 41.170212765957444,
+      "end_s": 41.409574468085104,
+      "p_align": 1
+  },
+  {
+      "word": "\n\n[Power Chorus]\nСУ",
+      "success": true,
+      "start_s": 41.72872340425532,
+      "end_s": 41.888297872340424,
+      "p_align": 1
+  },
+  {
+      "word": "ДЬ",
+      "success": true,
+      "start_s": 41.888297872340424,
+      "end_s": 42.047872340425535,
+      "p_align": 1
+  },
+  {
+      "word": "БА",
+      "success": true,
+      "start_s": 42.12765957446808,
+      "end_s": 42.287234042553195,
+      "p_align": 1
+  },
+  {
+      "word": "! До",
+      "success": true,
+      "start_s": 43.48404255319149,
+      "end_s": 43.72340425531915,
+      "p_align": 1
+  },
+  {
+      "word": "ро",
+      "success": true,
+      "start_s": 43.72340425531915,
+      "end_s": 43.88297872340426,
+      "p_align": 1
+  },
+  {
+      "word": "га",
+      "success": true,
+      "start_s": 44.12234042553192,
+      "end_s": 44.28191489361702,
+      "p_align": 1
+  },
+  {
+      "word": " лишь",
+      "success": true,
+      "start_s": 44.52127659574468,
+      "end_s": 44.920212765957444,
+      "p_align": 1
+  },
+  {
+      "word": " од",
+      "success": true,
+      "start_s": 45,
+      "end_s": 45.23936170212766,
+      "p_align": 1
+  },
+  {
+      "word": "на",
+      "success": true,
+      "start_s": 45.47872340425532,
+      "end_s": 45.638297872340424,
+      "p_align": 1
+  },
+  {
+      "word": "!\nО",
+      "success": true,
+      "start_s": 48.909574468085104,
+      "end_s": 49.148936170212764,
+      "p_align": 1
+  },
+  {
+      "word": "ГО",
+      "success": true,
+      "start_s": 49.308510638297875,
+      "end_s": 49.388297872340424,
+      "p_align": 1
+  },
+  {
+      "word": "Н",
+      "success": true,
+      "start_s": 49.388297872340424,
+      "end_s": 49.46808510638298,
+      "p_align": 1
+  },
+  {
+      "word": "Ь!",
+      "success": true,
+      "start_s": 50.505319148936174,
+      "end_s": 50.58510638297872,
+      "p_align": 1
+  },
+  {
+      "word": " С",
+      "success": true,
+      "start_s": 50.58510638297872,
+      "end_s": 50.66489361702128,
+      "p_align": 1
+  },
+  {
+      "word": "жи",
+      "success": true,
+      "start_s": 50.66489361702128,
+      "end_s": 50.82446808510638,
+      "p_align": 1
+  },
+  {
+      "word": "га",
+      "success": true,
+      "start_s": 50.90425531914894,
+      "end_s": 51.06382978723404,
+      "p_align": 1
+  },
+  {
+      "word": "ет",
+      "success": true,
+      "start_s": 51.38297872340426,
+      "end_s": 51.54255319148936,
+      "p_align": 1
+  },
+  {
+      "word": " с",
+      "success": true,
+      "start_s": 51.78191489361702,
+      "end_s": 51.861702127659576,
+      "p_align": 1
+  },
+  {
+      "word": "вет",
+      "success": true,
+      "start_s": 51.861702127659576,
+      "end_s": 52.101063829787236,
+      "p_align": 1
+  },
+  {
+      "word": " у",
+      "success": true,
+      "start_s": 52.180851063829785,
+      "end_s": 52.340425531914896,
+      "p_align": 1
+  },
+  {
+      "word": "тра",
+      "success": true,
+      "start_s": 52.659574468085104,
+      "end_s": 52.898936170212764,
+      "p_align": 1
+  },
+  {
+      "word": "!\nВ",
+      "success": true,
+      "start_s": 56.01063829787234,
+      "end_s": 56.170212765957444,
+      "p_align": 1
+  },
+  {
+      "word": "че",
+      "success": true,
+      "start_s": 56.170212765957444,
+      "end_s": 56.329787234042556,
+      "p_align": 1
+  },
+  {
+      "word": "ра",
+      "success": true,
+      "start_s": 56.569148936170215,
+      "end_s": 56.72872340425532,
+      "p_align": 1
+  },
+  {
+      "word": " всё",
+      "success": true,
+      "start_s": 57.92553191489362,
+      "end_s": 58.24468085106383,
+      "p_align": 1
+  },
+  {
+      "word": " зо",
+      "success": true,
+      "start_s": 58.40425531914894,
+      "end_s": 58.6436170212766,
+      "p_align": 1
+  },
+  {
+      "word": "ло",
+      "success": true,
+      "start_s": 58.6436170212766,
+      "end_s": 58.8031914893617,
+      "p_align": 1
+  },
+  {
+      "word": "том",
+      "success": true,
+      "start_s": 59.04255319148936,
+      "end_s": 59.28191489361702,
+      "p_align": 1
+  },
+  {
+      "word": " си",
+      "success": true,
+      "start_s": 59.52127659574468,
+      "end_s": 59.76063829787234,
+      "p_align": 1
+  },
+  {
+      "word": "я",
+      "success": true,
+      "start_s": 60,
+      "end_s": 60.079787234042556,
+      "p_align": 1
+  },
+  {
+      "word": "ло",
+      "success": true,
+      "start_s": 60.398936170212764,
+      "end_s": 60.558510638297875,
+      "p_align": 1
+  },
+  {
+      "word": "\nСе",
+      "success": true,
+      "start_s": 63.351063829787236,
+      "end_s": 63.590425531914896,
+      "p_align": 1
+  },
+  {
+      "word": "го",
+      "success": true,
+      "start_s": 63.75,
+      "end_s": 63.829787234042556,
+      "p_align": 1
+  },
+  {
+      "word": "д",
+      "success": true,
+      "start_s": 63.829787234042556,
+      "end_s": 63.909574468085104,
+      "p_align": 1
+  },
+  {
+      "word": "ня",
+      "success": true,
+      "start_s": 64.06914893617021,
+      "end_s": 64.22872340425532,
+      "p_align": 1
+  },
+  {
+      "word": " - пра",
+      "success": true,
+      "start_s": 64.46808510638299,
+      "end_s": 64.62765957446808,
+      "p_align": 1
+  },
+  {
+      "word": "х",
+      "success": true,
+      "start_s": 64.62765957446808,
+      "end_s": 64.70744680851064,
+      "p_align": 1
+  },
+  {
+      "word": ", и",
+      "success": true,
+      "start_s": 65.1063829787234,
+      "end_s": 65.34574468085107,
+      "p_align": 1
+  },
+  {
+      "word": " с",
+      "success": true,
+      "start_s": 65.50531914893617,
+      "end_s": 65.58510638297872,
+      "p_align": 1
+  },
+  {
+      "word": "мер",
+      "success": true,
+      "start_s": 65.58510638297872,
+      "end_s": 65.74468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "ть",
+      "success": true,
+      "start_s": 65.74468085106383,
+      "end_s": 65.90425531914893,
+      "p_align": 1
+  },
+  {
+      "word": " б",
+      "success": true,
+      "start_s": 65.98404255319149,
+      "end_s": 66.06382978723404,
+      "p_align": 1
+  },
+  {
+      "word": "ли",
+      "success": true,
+      "start_s": 66.06382978723404,
+      "end_s": 66.1436170212766,
+      "p_align": 1
+  },
+  {
+      "word": "з",
+      "success": true,
+      "start_s": 66.1436170212766,
+      "end_s": 66.22340425531915,
+      "p_align": 1
+  },
+  {
+      "word": "ка",
+      "success": true,
+      "start_s": 66.30319148936171,
+      "end_s": 66.4627659574468,
+      "p_align": 1
+  },
+  {
+      "word": "!\n\n[Industrial Break]\n\n\n[Verse]\nМа",
+      "success": true,
+      "start_s": 81.78191489361703,
+      "end_s": 81.94148936170212,
+      "p_align": 1
+  },
+  {
+      "word": "р",
+      "success": true,
+      "start_s": 81.94148936170212,
+      "end_s": 82.02127659574468,
+      "p_align": 1
+  },
+  {
+      "word": "ш",
+      "success": true,
+      "start_s": 82.02127659574468,
+      "end_s": 82.10106382978724,
+      "p_align": 1
+  },
+  {
+      "word": " п",
+      "success": true,
+      "start_s": 82.18085106382979,
+      "end_s": 82.26063829787235,
+      "p_align": 1
+  },
+  {
+      "word": "о",
+      "success": true,
+      "start_s": 82.26063829787235,
+      "end_s": 82.34042553191489,
+      "p_align": 1
+  },
+  {
+      "word": "бе",
+      "success": true,
+      "start_s": 82.65957446808511,
+      "end_s": 82.81914893617021,
+      "p_align": 1
+  },
+  {
+      "word": "д",
+      "success": true,
+      "start_s": 82.81914893617021,
+      "end_s": 82.89893617021276,
+      "p_align": 1
+  },
+  {
+      "word": "ы",
+      "success": true,
+      "start_s": 83.45744680851064,
+      "end_s": 83.5372340425532,
+      "p_align": 1
+  },
+  {
+      "word": ", со",
+      "success": true,
+      "start_s": 83.6968085106383,
+      "end_s": 83.77659574468085,
+      "p_align": 1
+  },
+  {
+      "word": "л",
+      "success": true,
+      "start_s": 83.77659574468085,
+      "end_s": 83.8563829787234,
+      "p_align": 1
+  },
+  {
+      "word": "н",
+      "success": true,
+      "start_s": 83.8563829787234,
+      "end_s": 83.93617021276596,
+      "p_align": 1
+  },
+  {
+      "word": "це",
+      "success": true,
+      "start_s": 83.93617021276596,
+      "end_s": 84.09574468085107,
+      "p_align": 1
+  },
+  {
+      "word": " в",
+      "success": true,
+      "start_s": 84.25531914893617,
+      "end_s": 84.41489361702128,
+      "p_align": 1
+  },
+  {
+      "word": " не",
+      "success": true,
+      "start_s": 84.41489361702128,
+      "end_s": 84.65425531914893,
+      "p_align": 1
+  },
+  {
+      "word": "бе",
+      "success": true,
+      "start_s": 84.81382978723404,
+      "end_s": 84.97340425531915,
+      "p_align": 1
+  },
+  {
+      "word": "\nТо",
+      "success": true,
+      "start_s": 85.45212765957447,
+      "end_s": 85.61170212765957,
+      "p_align": 1
+  },
+  {
+      "word": "л",
+      "success": true,
+      "start_s": 85.61170212765957,
+      "end_s": 85.69148936170212,
+      "p_align": 1
+  },
+  {
+      "word": "п",
+      "success": true,
+      "start_s": 85.69148936170212,
+      "end_s": 85.77127659574468,
+      "p_align": 1
+  },
+  {
+      "word": "ы",
+      "success": true,
+      "start_s": 85.77127659574468,
+      "end_s": 85.85106382978724,
+      "p_align": 1
+  },
+  {
+      "word": " р",
+      "success": true,
+      "start_s": 86.01063829787235,
+      "end_s": 86.17021276595744,
+      "p_align": 1
+  },
+  {
+      "word": "в",
+      "success": true,
+      "start_s": 86.17021276595744,
+      "end_s": 86.25,
+      "p_align": 1
+  },
+  {
+      "word": "ут",
+      "success": true,
+      "start_s": 86.25,
+      "end_s": 86.40957446808511,
+      "p_align": 1
+  },
+  {
+      "word": "ся",
+      "success": true,
+      "start_s": 86.56914893617021,
+      "end_s": 86.72872340425532,
+      "p_align": 1
+  },
+  {
+      "word": ", с",
+      "success": true,
+      "start_s": 87.20744680851064,
+      "end_s": 87.2872340425532,
+      "p_align": 1
+  },
+  {
+      "word": "ла",
+      "success": true,
+      "start_s": 87.2872340425532,
+      "end_s": 87.4468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "в",
+      "success": true,
+      "start_s": 87.52659574468085,
+      "end_s": 87.6063829787234,
+      "p_align": 1
+  },
+  {
+      "word": "ят",
+      "success": true,
+      "start_s": 87.6063829787234,
+      "end_s": 87.76595744680851,
+      "p_align": 1
+  },
+  {
+      "word": " день",
+      "success": true,
+      "start_s": 87.92553191489361,
+      "end_s": 88.32446808510639,
+      "p_align": 1
+  },
+  {
+      "word": "\nН",
+      "success": true,
+      "start_s": 88.88297872340425,
+      "end_s": 89.04255319148936,
+      "p_align": 1
+  },
+  {
+      "word": "о",
+      "success": true,
+      "start_s": 89.12234042553192,
+      "end_s": 89.20212765957447,
+      "p_align": 1
+  },
+  {
+      "word": " во",
+      "success": true,
+      "start_s": 89.52127659574468,
+      "end_s": 89.76063829787235,
+      "p_align": 1
+  },
+  {
+      "word": " т",
+      "success": true,
+      "start_s": 89.76063829787235,
+      "end_s": 89.84042553191489,
+      "p_align": 1
+  },
+  {
+      "word": "ь",
+      "success": true,
+      "start_s": 89.84042553191489,
+      "end_s": 89.92021276595744,
+      "p_align": 1
+  },
+  {
+      "word": "м",
+      "success": true,
+      "start_s": 89.92021276595744,
+      "end_s": 90,
+      "p_align": 1
+  },
+  {
+      "word": "е",
+      "success": true,
+      "start_s": 90,
+      "end_s": 90.07978723404256,
+      "p_align": 1
+  },
+  {
+      "word": " кра",
+      "success": true,
+      "start_s": 90.39893617021276,
+      "end_s": 90.63829787234043,
+      "p_align": 1
+  },
+  {
+      "word": "д",
+      "success": true,
+      "start_s": 90.63829787234043,
+      "end_s": 90.71808510638299,
+      "p_align": 1
+  },
+  {
+      "word": "ёт",
+      "success": true,
+      "start_s": 90.71808510638299,
+      "end_s": 90.87765957446808,
+      "p_align": 1
+  },
+  {
+      "word": "ся",
+      "success": true,
+      "start_s": 91.0372340425532,
+      "end_s": 91.1968085106383,
+      "p_align": 1
+  },
+  {
+      "word": " ти",
+      "success": true,
+      "start_s": 91.51595744680851,
+      "end_s": 91.75531914893617,
+      "p_align": 1
+  },
+  {
+      "word": "хо",
+      "success": true,
+      "start_s": 91.99468085106383,
+      "end_s": 92.15425531914893,
+      "p_align": 1
+  },
+  {
+      "word": "\nЧ",
+      "success": true,
+      "start_s": 92.63297872340425,
+      "end_s": 92.7127659574468,
+      "p_align": 1
+  },
+  {
+      "word": "ёр",
+      "success": true,
+      "start_s": 92.7127659574468,
+      "end_s": 92.87234042553192,
+      "p_align": 1
+  },
+  {
+      "word": "ной",
+      "success": true,
+      "start_s": 93.03191489361703,
+      "end_s": 93.27127659574468,
+      "p_align": 1
+  },
+  {
+      "word": " с",
+      "success": true,
+      "start_s": 93.51063829787235,
+      "end_s": 93.59042553191489,
+      "p_align": 1
+  },
+  {
+      "word": "мер",
+      "success": true,
+      "start_s": 93.59042553191489,
+      "end_s": 93.82978723404256,
+      "p_align": 1
+  },
+  {
+      "word": "т",
+      "success": true,
+      "start_s": 93.82978723404256,
+      "end_s": 93.90957446808511,
+      "p_align": 1
+  },
+  {
+      "word": "и",
+      "success": true,
+      "start_s": 93.98936170212767,
+      "end_s": 94.06914893617021,
+      "p_align": 1
+  },
+  {
+      "word": " з",
+      "success": true,
+      "start_s": 94.38829787234043,
+      "end_s": 94.46808510638299,
+      "p_align": 1
+  },
+  {
+      "word": "ла",
+      "success": true,
+      "start_s": 94.46808510638299,
+      "end_s": 94.62765957446808,
+      "p_align": 1
+  },
+  {
+      "word": "я",
+      "success": true,
+      "start_s": 94.70744680851064,
+      "end_s": 94.7872340425532,
+      "p_align": 1
+  },
+  {
+      "word": " т",
+      "success": true,
+      "start_s": 95.1063829787234,
+      "end_s": 95.18617021276596,
+      "p_align": 1
+  },
+  {
+      "word": "ень",
+      "success": true,
+      "start_s": 95.18617021276596,
+      "end_s": 95.42553191489361,
+      "p_align": 1
+  },
+  {
+      "word": "\nТа",
+      "success": true,
+      "start_s": 96.30319148936171,
+      "end_s": 96.4627659574468,
+      "p_align": 1
+  },
+  {
+      "word": "й",
+      "success": true,
+      "start_s": 96.4627659574468,
+      "end_s": 96.54255319148936,
+      "p_align": 1
+  },
+  {
+      "word": "ны",
+      "success": true,
+      "start_s": 96.70212765957447,
+      "end_s": 96.86170212765957,
+      "p_align": 1
+  },
+  {
+      "word": " ш",
+      "success": true,
+      "start_s": 97.02127659574468,
+      "end_s": 97.10106382978724,
+      "p_align": 1
+  },
+  {
+      "word": "е",
+      "success": true,
+      "start_s": 97.10106382978724,
+      "end_s": 97.18085106382979,
+      "p_align": 1
+  },
+  {
+      "word": "п",
+      "success": true,
+      "start_s": 97.34042553191489,
+      "end_s": 97.42021276595744,
+      "p_align": 1
+  },
+  {
+      "word": "ч",
+      "success": true,
+      "start_s": 97.57978723404256,
+      "end_s": 97.65957446808511,
+      "p_align": 1
+  },
+  {
+      "word": "ут",
+      "success": true,
+      "start_s": 97.65957446808511,
+      "end_s": 97.81914893617021,
+      "p_align": 1
+  },
+  {
+      "word": " в",
+      "success": true,
+      "start_s": 97.89893617021276,
+      "end_s": 98.05851063829788,
+      "p_align": 1
+  },
+  {
+      "word": " ко",
+      "success": true,
+      "start_s": 98.13829787234043,
+      "end_s": 98.37765957446808,
+      "p_align": 1
+  },
+  {
+      "word": "ри",
+      "success": true,
+      "start_s": 98.37765957446808,
+      "end_s": 98.5372340425532,
+      "p_align": 1
+  },
+  {
+      "word": "до",
+      "success": true,
+      "start_s": 98.6968085106383,
+      "end_s": 98.8563829787234,
+      "p_align": 1
+  },
+  {
+      "word": "ра",
+      "success": true,
+      "start_s": 99.17553191489361,
+      "end_s": 99.25531914893617,
+      "p_align": 1
+  },
+  {
+      "word": "х",
+      "success": true,
+      "start_s": 99.25531914893617,
+      "end_s": 99.33510638297872,
+      "p_align": 1
+  },
+  {
+      "word": "\nМа",
+      "success": true,
+      "start_s": 99.81382978723404,
+      "end_s": 100.05319148936171,
+      "p_align": 1
+  },
+  {
+      "word": "ски",
+      "success": true,
+      "start_s": 100.13297872340425,
+      "end_s": 100.37234042553192,
+      "p_align": 1
+  },
+  {
+      "word": " пря",
+      "success": true,
+      "start_s": 100.53191489361703,
+      "end_s": 100.85106382978724,
+      "p_align": 1
+  },
+  {
+      "word": "ч",
+      "success": true,
+      "start_s": 100.93085106382979,
+      "end_s": 101.01063829787235,
+      "p_align": 1
+  },
+  {
+      "word": "ут",
+      "success": true,
+      "start_s": 101.01063829787235,
+      "end_s": 101.17021276595744,
+      "p_align": 1
+  },
+  {
+      "word": " ло",
+      "success": true,
+      "start_s": 101.64893617021276,
+      "end_s": 101.72872340425532,
+      "p_align": 1
+  },
+  {
+      "word": "ж",
+      "success": true,
+      "start_s": 101.72872340425532,
+      "end_s": 101.80851063829788,
+      "p_align": 1
+  },
+  {
+      "word": "ь ",
+      "success": true,
+      "start_s": 101.88829787234043,
+      "end_s": 101.96808510638299,
+      "p_align": 1
+  },
+  {
+      "word": "и",
+      "success": true,
+      "start_s": 101.96808510638299,
+      "end_s": 102.04787234042553,
+      "p_align": 1
+  },
+  {
+      "word": " стра",
+      "success": true,
+      "start_s": 102.2872340425532,
+      "end_s": 102.4468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "х",
+      "success": true,
+      "start_s": 102.4468085106383,
+      "end_s": 102.52659574468085,
+      "p_align": 1
+  },
+  {
+      "word": "\nПра",
+      "success": true,
+      "start_s": 103.48404255319149,
+      "end_s": 103.6436170212766,
+      "p_align": 1
+  },
+  {
+      "word": "в",
+      "success": true,
+      "start_s": 103.6436170212766,
+      "end_s": 103.72340425531915,
+      "p_align": 1
+  },
+  {
+      "word": "д",
+      "success": true,
+      "start_s": 103.88297872340425,
+      "end_s": 103.9627659574468,
+      "p_align": 1
+  },
+  {
+      "word": "а",
+      "success": true,
+      "start_s": 104.28191489361703,
+      "end_s": 104.36170212765957,
+      "p_align": 1
+  },
+  {
+      "word": " г",
+      "success": true,
+      "start_s": 104.36170212765957,
+      "end_s": 104.44148936170212,
+      "p_align": 1
+  },
+  {
+      "word": "и",
+      "success": true,
+      "start_s": 104.44148936170212,
+      "end_s": 104.52127659574468,
+      "p_align": 1
+  },
+  {
+      "word": "б",
+      "success": true,
+      "start_s": 104.60106382978724,
+      "end_s": 104.68085106382979,
+      "p_align": 1
+  },
+  {
+      "word": "нет",
+      "success": true,
+      "start_s": 104.84042553191489,
+      "end_s": 105.07978723404256,
+      "p_align": 1
+  },
+  {
+      "word": " в",
+      "success": true,
+      "start_s": 105.07978723404256,
+      "end_s": 105.23936170212767,
+      "p_align": 1
+  },
+  {
+      "word": " т",
+      "success": true,
+      "start_s": 105.23936170212767,
+      "end_s": 105.39893617021276,
+      "p_align": 1
+  },
+  {
+      "word": "ём",
+      "success": true,
+      "start_s": 105.39893617021276,
+      "end_s": 105.55851063829788,
+      "p_align": 1
+  },
+  {
+      "word": "ных",
+      "success": true,
+      "start_s": 105.55851063829788,
+      "end_s": 105.79787234042553,
+      "p_align": 1
+  },
+  {
+      "word": " за",
+      "success": true,
+      "start_s": 105.95744680851064,
+      "end_s": 106.1968085106383,
+      "p_align": 1
+  },
+  {
+      "word": "ла",
+      "success": true,
+      "start_s": 106.43617021276596,
+      "end_s": 106.51595744680851,
+      "p_align": 1
+  },
+  {
+      "word": "х",
+      "success": true,
+      "start_s": 106.51595744680851,
+      "end_s": 106.59574468085107,
+      "p_align": 1
+  },
+  {
+      "word": "\nСвет",
+      "success": true,
+      "start_s": 107.47340425531915,
+      "end_s": 107.87234042553192,
+      "p_align": 1
+  },
+  {
+      "word": " и",
+      "success": true,
+      "start_s": 107.95212765957447,
+      "end_s": 108.11170212765957,
+      "p_align": 1
+  },
+  {
+      "word": "сти",
+      "success": true,
+      "start_s": 108.27127659574468,
+      "end_s": 108.43085106382979,
+      "p_align": 1
+  },
+  {
+      "word": "ны",
+      "success": true,
+      "start_s": 108.43085106382979,
+      "end_s": 108.59042553191489,
+      "p_align": 1
+  },
+  {
+      "word": " - лишь",
+      "success": true,
+      "start_s": 109.30851063829788,
+      "end_s": 109.7872340425532,
+      "p_align": 1
+  },
+  {
+      "word": " пра",
+      "success": true,
+      "start_s": 109.7872340425532,
+      "end_s": 109.86702127659575,
+      "p_align": 1
+  },
+  {
+      "word": "х",
+      "success": true,
+      "start_s": 109.86702127659575,
+      "end_s": 109.9468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "\n\n[Heavy Breakdown]\n\n\n[Final Verse]\nРо",
+      "success": true,
+      "start_s": 125.18617021276596,
+      "end_s": 125.58510638297872,
+      "p_align": 1
+  },
+  {
+      "word": "за",
+      "success": true,
+      "start_s": 125.58510638297872,
+      "end_s": 125.74468085106383,
+      "p_align": 1
+  },
+  {
+      "word": " бе",
+      "success": true,
+      "start_s": 125.98404255319149,
+      "end_s": 126.22340425531915,
+      "p_align": 1
+  },
+  {
+      "word": "ла",
+      "success": true,
+      "start_s": 126.4627659574468,
+      "end_s": 126.62234042553192,
+      "p_align": 1
+  },
+  {
+      "word": "я",
+      "success": true,
+      "start_s": 126.86170212765957,
+      "end_s": 126.94148936170212,
+      "p_align": 1
+  },
+  {
+      "word": " в",
+      "success": true,
+      "start_s": 127.10106382978724,
+      "end_s": 127.26063829787235,
+      "p_align": 1
+  },
+  {
+      "word": " ба",
+      "success": true,
+      "start_s": 127.26063829787235,
+      "end_s": 127.5,
+      "p_align": 1
+  },
+  {
+      "word": "г",
+      "success": true,
+      "start_s": 127.5,
+      "end_s": 127.57978723404256,
+      "p_align": 1
+  },
+  {
+      "word": "р",
+      "success": true,
+      "start_s": 127.57978723404256,
+      "end_s": 127.65957446808511,
+      "p_align": 1
+  },
+  {
+      "word": "о",
+      "success": true,
+      "start_s": 127.65957446808511,
+      "end_s": 127.73936170212767,
+      "p_align": 1
+  },
+  {
+      "word": "во",
+      "success": true,
+      "start_s": 128.05851063829786,
+      "end_s": 128.13829787234042,
+      "p_align": 1
+  },
+  {
+      "word": "м",
+      "success": true,
+      "start_s": 128.13829787234042,
+      "end_s": 128.21808510638297,
+      "p_align": 1
+  },
+  {
+      "word": "\nКро",
+      "success": true,
+      "start_s": 128.6968085106383,
+      "end_s": 128.85638297872342,
+      "p_align": 1
+  },
+  {
+      "word": "вь",
+      "success": true,
+      "start_s": 128.85638297872342,
+      "end_s": 129.0159574468085,
+      "p_align": 1
+  },
+  {
+      "word": " на",
+      "success": true,
+      "start_s": 129.1755319148936,
+      "end_s": 129.41489361702128,
+      "p_align": 1
+  },
+  {
+      "word": " с",
+      "success": true,
+      "start_s": 129.5744680851064,
+      "end_s": 129.65425531914894,
+      "p_align": 1
+  },
+  {
+      "word": "не",
+      "success": true,
+      "start_s": 129.65425531914894,
+      "end_s": 129.81382978723406,
+      "p_align": 1
+  },
+  {
+      "word": "г",
+      "success": true,
+      "start_s": 129.81382978723406,
+      "end_s": 129.89361702127658,
+      "p_align": 1
+  },
+  {
+      "word": " - после",
+      "success": true,
+      "start_s": 130.0531914893617,
+      "end_s": 130.45212765957447,
+      "p_align": 1
+  },
+  {
+      "word": "д",
+      "success": true,
+      "start_s": 130.45212765957447,
+      "end_s": 130.53191489361703,
+      "p_align": 1
+  },
+  {
+      "word": "ний",
+      "success": true,
+      "start_s": 130.7712765957447,
+      "end_s": 131.01063829787233,
+      "p_align": 1
+  },
+  {
+      "word": " з",
+      "success": true,
+      "start_s": 131.0904255319149,
+      "end_s": 131.17021276595744,
+      "p_align": 1
+  },
+  {
+      "word": "н",
+      "success": true,
+      "start_s": 131.17021276595744,
+      "end_s": 131.25,
+      "p_align": 1
+  },
+  {
+      "word": "ак",
+      "success": true,
+      "start_s": 131.25,
+      "end_s": 131.32978723404256,
+      "p_align": 1
+  },
+  {
+      "word": "\nК",
+      "success": true,
+      "start_s": 131.32978723404256,
+      "end_s": 131.48936170212767,
+      "p_align": 1
+  },
+  {
+      "word": "о",
+      "success": true,
+      "start_s": 132.36702127659575,
+      "end_s": 132.4468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "л",
+      "success": true,
+      "start_s": 132.52659574468086,
+      "end_s": 132.60638297872342,
+      "p_align": 1
+  },
+  {
+      "word": "о",
+      "success": true,
+      "start_s": 132.60638297872342,
+      "end_s": 132.68617021276597,
+      "p_align": 1
+  },
+  {
+      "word": "ко",
+      "success": true,
+      "start_s": 132.7659574468085,
+      "end_s": 132.9255319148936,
+      "p_align": 1
+  },
+  {
+      "word": "л",
+      "success": true,
+      "start_s": 132.9255319148936,
+      "end_s": 133.00531914893617,
+      "p_align": 1
+  },
+  {
+      "word": " з",
+      "success": true,
+      "start_s": 133.64361702127658,
+      "end_s": 133.72340425531914,
+      "p_align": 1
+  },
+  {
+      "word": "ву",
+      "success": true,
+      "start_s": 133.72340425531914,
+      "end_s": 133.88297872340425,
+      "p_align": 1
+  },
+  {
+      "word": "чит",
+      "success": true,
+      "start_s": 134.12234042553192,
+      "end_s": 134.36170212765958,
+      "p_align": 1
+  },
+  {
+      "word": " на",
+      "success": true,
+      "start_s": 134.5212765957447,
+      "end_s": 134.76063829787233,
+      "p_align": 1
+  },
+  {
+      "word": "ба",
+      "success": true,
+      "start_s": 134.8404255319149,
+      "end_s": 135,
+      "p_align": 1
+  },
+  {
+      "word": "том",
+      "success": true,
+      "start_s": 135.23936170212767,
+      "end_s": 135.47872340425533,
+      "p_align": 1
+  },
+  {
+      "word": "\nНо",
+      "success": true,
+      "start_s": 135.71808510638297,
+      "end_s": 135.95744680851064,
+      "p_align": 1
+  },
+  {
+      "word": "я",
+      "success": true,
+      "start_s": 135.95744680851064,
+      "end_s": 136.0372340425532,
+      "p_align": 1
+  },
+  {
+      "word": "б",
+      "success": true,
+      "start_s": 136.1968085106383,
+      "end_s": 136.27659574468086,
+      "p_align": 1
+  },
+  {
+      "word": "р",
+      "success": true,
+      "start_s": 136.27659574468086,
+      "end_s": 136.35638297872342,
+      "p_align": 1
+  },
+  {
+      "word": "ь",
+      "success": true,
+      "start_s": 136.35638297872342,
+      "end_s": 136.43617021276597,
+      "p_align": 1
+  },
+  {
+      "word": " пла",
+      "success": true,
+      "start_s": 136.59574468085106,
+      "end_s": 136.91489361702128,
+      "p_align": 1
+  },
+  {
+      "word": "чет",
+      "success": true,
+      "start_s": 136.99468085106383,
+      "end_s": 137.2340425531915,
+      "p_align": 1
+  },
+  {
+      "word": "... Всё",
+      "success": true,
+      "start_s": 137.7127659574468,
+      "end_s": 138.03191489361703,
+      "p_align": 1
+  },
+  {
+      "word": " во",
+      "success": true,
+      "start_s": 138.03191489361703,
+      "end_s": 138.2712765957447,
+      "p_align": 1
+  },
+  {
+      "word": " м",
+      "success": true,
+      "start_s": 138.35106382978722,
+      "end_s": 138.43085106382978,
+      "p_align": 1
+  },
+  {
+      "word": "ра",
+      "success": true,
+      "start_s": 138.43085106382978,
+      "end_s": 138.51063829787233,
+      "p_align": 1
+  },
+  {
+      "word": "к",
+      "success": true,
+      "start_s": 138.51063829787233,
+      "end_s": 138.5904255319149,
+      "p_align": 1
+  },
+  {
+      "word": "!\n\n[Final Chorus]\n(с",
+      "success": true,
+      "start_s": 139.46808510638297,
+      "end_s": 139.54787234042553,
+      "p_align": 1
+  },
+  {
+      "word": " м",
+      "success": true,
+      "start_s": 139.54787234042553,
+      "end_s": 139.70744680851064,
+      "p_align": 1
+  },
+  {
+      "word": "ак",
+      "success": true,
+      "start_s": 139.7872340425532,
+      "end_s": 139.9468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "си",
+      "success": true,
+      "start_s": 139.9468085106383,
+      "end_s": 140.10638297872342,
+      "p_align": 1
+  },
+  {
+      "word": "ма",
+      "success": true,
+      "start_s": 140.2659574468085,
+      "end_s": 140.4255319148936,
+      "p_align": 1
+  },
+  {
+      "word": "ль",
+      "success": true,
+      "start_s": 140.4255319148936,
+      "end_s": 140.58510638297872,
+      "p_align": 1
+  },
+  {
+      "word": "ной",
+      "success": true,
+      "start_s": 140.66489361702128,
+      "end_s": 140.90425531914894,
+      "p_align": 1
+  },
+  {
+      "word": " мо",
+      "success": true,
+      "start_s": 141.14361702127658,
+      "end_s": 141.3031914893617,
+      "p_align": 1
+  },
+  {
+      "word": "щ",
+      "success": true,
+      "start_s": 141.3031914893617,
+      "end_s": 141.38297872340425,
+      "p_align": 1
+  },
+  {
+      "word": "но",
+      "success": true,
+      "start_s": 141.54255319148936,
+      "end_s": 141.70212765957447,
+      "p_align": 1
+  },
+  {
+      "word": "сть",
+      "success": true,
+      "start_s": 141.86170212765958,
+      "end_s": 141.94148936170214,
+      "p_align": 1
+  },
+  {
+      "word": "ю",
+      "success": true,
+      "start_s": 141.94148936170214,
+      "end_s": 142.0212765957447,
+      "p_align": 1
+  },
+  {
+      "word": ")\nКО",
+      "success": true,
+      "start_s": 142.73936170212767,
+      "end_s": 142.97872340425533,
+      "p_align": 1
+  },
+  {
+      "word": "Р",
+      "success": true,
+      "start_s": 142.97872340425533,
+      "end_s": 143.05851063829786,
+      "p_align": 1
+  },
+  {
+      "word": "О",
+      "success": true,
+      "start_s": 143.29787234042553,
+      "end_s": 143.37765957446808,
+      "p_align": 1
+  },
+  {
+      "word": "ЛЬ",
+      "success": true,
+      "start_s": 143.45744680851064,
+      "end_s": 143.61702127659575,
+      "p_align": 1
+  },
+  {
+      "word": "! Ко",
+      "success": true,
+      "start_s": 144.5744680851064,
+      "end_s": 144.81382978723406,
+      "p_align": 1
+  },
+  {
+      "word": "ро",
+      "success": true,
+      "start_s": 144.81382978723406,
+      "end_s": 144.97340425531914,
+      "p_align": 1
+  },
+  {
+      "word": "на",
+      "success": true,
+      "start_s": 145.2127659574468,
+      "end_s": 145.37234042553192,
+      "p_align": 1
+  },
+  {
+      "word": " из",
+      "success": true,
+      "start_s": 145.69148936170214,
+      "end_s": 145.93085106382978,
+      "p_align": 1
+  },
+  {
+      "word": " о",
+      "success": true,
+      "start_s": 146.17021276595744,
+      "end_s": 146.32978723404256,
+      "p_align": 1
+  },
+  {
+      "word": "г",
+      "success": true,
+      "start_s": 146.48936170212767,
+      "end_s": 146.56914893617022,
+      "p_align": 1
+  },
+  {
+      "word": "ня",
+      "success": true,
+      "start_s": 146.56914893617022,
+      "end_s": 146.72872340425533,
+      "p_align": 1
+  },
+  {
+      "word": "!\nВО",
+      "success": true,
+      "start_s": 147.2872340425532,
+      "end_s": 147.60638297872342,
+      "p_align": 1
+  },
+  {
+      "word": "ПРО",
+      "success": true,
+      "start_s": 147.68617021276597,
+      "end_s": 147.84574468085106,
+      "p_align": 1
+  },
+  {
+      "word": "С",
+      "success": true,
+      "start_s": 147.84574468085106,
+      "end_s": 147.9255319148936,
+      "p_align": 1
+  },
+  {
+      "word": "! Без",
+      "success": true,
+      "start_s": 148.16489361702128,
+      "end_s": 148.56382978723406,
+      "p_align": 1
+  },
+  {
+      "word": " пра",
+      "success": true,
+      "start_s": 148.64361702127658,
+      "end_s": 148.88297872340425,
+      "p_align": 1
+  },
+  {
+      "word": "ва",
+      "success": true,
+      "start_s": 148.88297872340425,
+      "end_s": 149.04255319148936,
+      "p_align": 1
+  },
+  {
+      "word": " на",
+      "success": true,
+      "start_s": 149.28191489361703,
+      "end_s": 149.5212765957447,
+      "p_align": 1
+  },
+  {
+      "word": " от",
+      "success": true,
+      "start_s": 149.76063829787233,
+      "end_s": 150,
+      "p_align": 1
+  },
+  {
+      "word": "вет",
+      "success": true,
+      "start_s": 150.23936170212767,
+      "end_s": 150.47872340425533,
+      "p_align": 1
+  },
+  {
+      "word": "!\nВремя",
+      "success": true,
+      "start_s": 154.06914893617022,
+      "end_s": 154.62765957446808,
+      "p_align": 1
+  },
+  {
+      "word": " раз",
+      "success": true,
+      "start_s": 154.86702127659575,
+      "end_s": 155.18617021276597,
+      "p_align": 1
+  },
+  {
+      "word": "би",
+      "success": true,
+      "start_s": 155.34574468085106,
+      "end_s": 155.50531914893617,
+      "p_align": 1
+  },
+  {
+      "word": "ва",
+      "success": true,
+      "start_s": 155.66489361702128,
+      "end_s": 155.8244680851064,
+      "p_align": 1
+  },
+  {
+      "word": "ет",
+      "success": true,
+      "start_s": 156.06382978723406,
+      "end_s": 156.22340425531914,
+      "p_align": 1
+  },
+  {
+      "word": " т",
+      "success": true,
+      "start_s": 156.38297872340425,
+      "end_s": 156.4627659574468,
+      "p_align": 1
+  },
+  {
+      "word": "ро",
+      "success": true,
+      "start_s": 156.4627659574468,
+      "end_s": 156.62234042553192,
+      "p_align": 1
+  },
+  {
+      "word": "ны",
+      "success": true,
+      "start_s": 156.94148936170214,
+      "end_s": 157.10106382978722,
+      "p_align": 1
+  },
+  {
+      "word": "\nПро",
+      "success": true,
+      "start_s": 158.05851063829786,
+      "end_s": 158.37765957446808,
+      "p_align": 1
+  },
+  {
+      "word": "щ",
+      "success": true,
+      "start_s": 158.45744680851064,
+      "end_s": 158.5372340425532,
+      "p_align": 1
+  },
+  {
+      "word": "ень",
+      "success": true,
+      "start_s": 158.77659574468086,
+      "end_s": 158.85638297872342,
+      "p_align": 1
+  },
+  {
+      "word": "я",
+      "success": true,
+      "start_s": 158.85638297872342,
+      "end_s": 158.93617021276597,
+      "p_align": 1
+  },
+  {
+      "word": " па",
+      "success": true,
+      "start_s": 159.1755319148936,
+      "end_s": 159.41489361702128,
+      "p_align": 1
+  },
+  {
+      "word": "в",
+      "success": true,
+      "start_s": 159.41489361702128,
+      "end_s": 159.49468085106383,
+      "p_align": 1
+  },
+  {
+      "word": "ши",
+      "success": true,
+      "start_s": 159.5744680851064,
+      "end_s": 159.65425531914894,
+      "p_align": 1
+  },
+  {
+      "word": "м",
+      "success": true,
+      "start_s": 159.65425531914894,
+      "end_s": 159.7340425531915,
+      "p_align": 1
+  },
+  {
+      "word": " - НЕТ!\n\n",
+      "success": true,
+      "start_s": 160.29255319148936,
+      "end_s": 161.01063829787233,
+      "p_align": 1
+  }
+]

@@ -4,6 +4,7 @@
 	"description": "My Remotion video",
 	"scripts": {
 		"examples":"serve src/lib/letterize/examples",
+		"convert": "node converter.js",
 		"start": "remotion studio",
 		"build": "remotion render MyComp out/video.mp4",
 		"upgrade": "remotion upgrade",

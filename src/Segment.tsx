@@ -55,6 +55,9 @@ const InnerComponent: React.FC<{
 		[]
 	);
 
+	// Проверяем, есть ли структура строк в сегменте
+	const hasLines = segment.lines && segment.lines.length > 0;
+
 	return (
 		<AbsoluteFill
 			style={{
@@ -63,20 +66,51 @@ const InnerComponent: React.FC<{
 				padding,
 			}}
 		>
-			<Dots layouts={layouts} words={segment.words} />
-			<div>
-				{segment.words.map((word, i) => {
-					return (
-						<WordComponent
-							ref={wordRefs[i]}
-							key={i}
-							index={i}
-							word={word}
-							onWordLayout={onWordLayout}
-						/>
-					);
-				})}
-			</div>
+			{/* <Dots layouts={layouts} words={segment.words} /> */}
+			{hasLines ? (
+				<div>
+					{segment.lines?.map((line, lineIndex) => (
+						<div key={lineIndex} className="line">
+							{line.map((word, wordIndex) => {
+								// Находим глобальный индекс слова в оригинальном массиве слов
+								const globalIndex = segment.words.findIndex(
+									(w) => w.start === word.start && w.end === word.end
+								);
+								
+								return (
+									<WordComponent
+										ref={wordRefs[globalIndex]}
+										key={wordIndex}
+										index={globalIndex}
+										word={word}
+										onWordLayout={onWordLayout}
+									/>
+								);
+							})}
+						</div>
+					))}
+				</div>
+			) : (
+				// Запасной вариант для старого формата
+				<div>
+					{segment.words.map((word, i) => {
+						const hasNewLine = word.word.includes('\n');
+						
+						return (
+							<>
+								{hasNewLine && i > 0 && <br />}
+								<WordComponent
+									ref={wordRefs[i]}
+									key={i}
+									index={i}
+									word={word}
+									onWordLayout={onWordLayout}
+								/>
+							</>
+						);
+					})}
+				</div>
+			)}
 		</AbsoluteFill>
 	);
 };

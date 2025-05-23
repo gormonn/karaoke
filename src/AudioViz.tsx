@@ -1,11 +1,11 @@
 import {useAudioData, visualizeAudio} from '@remotion/media-utils';
 import {Audio, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-const music = staticFile('home-office.mp3');
+import { SONG_TARGET } from './_song'; 
 
 export const AudioViz: React.FC = () => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
-	const audioData = useAudioData(music);
+	const audioData = useAudioData(SONG_TARGET.music);
 	if (!audioData) {
 		return null;
 	}

@@ -3,8 +3,9 @@
 	"version": "1.0.0",
 	"description": "My Remotion video",
 	"scripts": {
-		"examples":"serve src/lib/letterize/examples",
+		"examples": "serve src/lib/letterize/examples",
 		"convert": "node converter.js",
+		"format": "node create_empty_files.js",
 		"start": "remotion studio",
 		"build": "remotion render MyComp out/video.mp4",
 		"upgrade": "remotion upgrade",
@@ -16,6 +17,7 @@
 		"@remotion/cli": "4.0.29",
 		"@remotion/media-utils": "4.0.29",
 		"animejs": "^4.0.1",
+		"gsap": "^3.13.0",
 		"letterizejs": "^2.0.1",
 		"lottie-react": "^2.4.1",
 		"react": "^18.0.0",

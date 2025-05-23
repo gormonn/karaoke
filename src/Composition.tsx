@@ -1,9 +1,10 @@
 import {Img} from 'remotion';
 import {Audio} from 'remotion';
-import {AbsoluteFill, staticFile} from 'remotion';
+import {AbsoluteFill} from 'remotion';
 import {Bottom} from './Bottom';
 import {fontSize} from './Dots';
 import {Subtitles} from './Subtitles'; 
+import { SONG_TARGET } from './_song';
 
 export const MyComposition = () => {
 	return (
@@ -15,10 +16,10 @@ export const MyComposition = () => {
 			}}
 		>
 			<AbsoluteFill>
-				<Img src={staticFile('background.jpg')} />
+				<Img src={SONG_TARGET.background} />
 			</AbsoluteFill> 
-			<Subtitles />
-			<Audio src={staticFile('home-office.mp3')} />
+			<Subtitles src={SONG_TARGET.segments}/>
+			<Audio src={SONG_TARGET.music} />
 			<Bottom />
 		</AbsoluteFill>
 	);

@@ -1,7 +1,7 @@
-import {getAudioDurationInSeconds} from '@remotion/media-utils';
-import {Composition, staticFile} from 'remotion';
+import {Composition} from 'remotion';
 import {MyComposition} from './Composition';
-
+import { SONG_TARGET } from './_song';
+import { getAudioDurationInSeconds } from '@remotion/media-utils';
 const fps = 30;
 
 export const RemotionRoot: React.FC = () => {
@@ -13,7 +13,7 @@ export const RemotionRoot: React.FC = () => {
 				fps={fps}
 				calculateMetadata={async () => {
 					const duration = await getAudioDurationInSeconds(
-						staticFile('home-office.mp3')
+						SONG_TARGET.music
 					);
 					return {
 						durationInFrames: Math.round(duration * fps),

@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import {AbsoluteFill, staticFile} from 'remotion';
+import {AbsoluteFill} from 'remotion';
 import {SegmentComp} from './Segment';
-import {WhisperResponse} from './types';
+import {WhisperResponse} from './types'; 
 
-export const Subtitles: React.FC = () => {
+export const Subtitles: React.FC<{src: string}> = ({src}) => {
 	const [subtitles, setSubtitles] = useState<WhisperResponse | null>(null);
 
 	useEffect(() => {
-		fetch(staticFile('home-office-converted.json'))
+		fetch(src)
 			.then((res) => res.json())
 			.then((data) => {
 				setSubtitles(data);

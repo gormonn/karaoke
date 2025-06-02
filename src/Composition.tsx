@@ -18,9 +18,9 @@ export const MyComposition = () => {
 			<AbsoluteFill>
 				<Img src={SONG_TARGET.background} />
 			</AbsoluteFill> 
+			<Bottom />
 			<Subtitles src={SONG_TARGET.segments}/>
 			<Audio src={SONG_TARGET.music} />
-			<Bottom />
 		</AbsoluteFill>
 	);
 };

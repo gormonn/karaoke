@@ -27,6 +27,7 @@ export const AudioViz: React.FC = () => {
 			{visualization.map((v) => {
 				return (
 					<div
+						key={v}
 						style={{
 							height: 200 * v,
 							width: 15,

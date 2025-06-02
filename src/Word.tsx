@@ -1,7 +1,7 @@
 import React, {useEffect, useImperativeHandle, useRef, useState} from 'react';
 import {useCurrentFrame, useVideoConfig} from 'remotion';
 import {Word} from './types';
-import Letterize from 'letterizejs';
+import Letterize from 'letterizejs'; // Возвращаем импорт
 import {stagger, createTimeline, utils} from 'animejs';
 
 const WordComp: React.ForwardRefRenderFunction<
@@ -16,8 +16,14 @@ const WordComp: React.ForwardRefRenderFunction<
 			height: number;
 			index: number;
 		}) => void;
+		isPartOfGroup?: boolean;
+		groupInfo?: {
+			fullText: string;
+			partIndex: number;
+			totalParts: number;
+		};
 	}
-> = ({word, onWordLayout, index}, ref) => {
+> = ({word, onWordLayout, index, isPartOfGroup = false, groupInfo}, ref) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	const timeInSeconds = frame / fps;
@@ -29,26 +35,41 @@ const WordComp: React.ForwardRefRenderFunction<
 
 	const isShown = timeInSeconds >= word.start;
 
-	// Проверяем, является ли слово фрагментом (частью) большего слова
-	const isWordFragment = word.word.trim().length > 0 && (
-		(!word.word.startsWith(' ') && !word.word.startsWith('\n')) || 
-		word.word === 'ffee' || // Специальные случаи из JSON
-		word.word === 'lls' ||
-		word.word === 'ir' ||
-		word.word === 's' ||
-		word.word.startsWith("'") || 
-		word.word.startsWith("et'") || 
-		word.word.startsWith("r") || 
-		word.word.startsWith("ink")
-	);
-	
-	// Если слово - фрагмент, не добавляем пробел между ним и следующим словом
-	const needsSpace = !isWordFragment && 
-		!word.word.startsWith('\n') && 
-		!word.word.endsWith('\n') && 
-		word.word.trim() !== '';
+	// todo: переделать на более простую логику
+	// Используем новую логику для определения фрагментов слов
+	const isWordFragment = React.useMemo(() => {
+		// Если явно указано, что это часть группы - это фрагмент
+		if (isPartOfGroup) {
+			return true;
+		}
+		
+		// Если это НЕ часть группы - это НЕ фрагмент, независимо от содержимого
+		return false;
+	}, [word.word, isPartOfGroup]);
 
-	// Функция создания анимации, идентичная примеру
+	// Определяем, нужен ли пробел после слова
+	const needsSpace = React.useMemo(() => {
+		if (!word.word) return false;
+
+		// Если это часть группы - проверяем, последняя ли это часть
+		if (isPartOfGroup && groupInfo) {
+			// Пробел нужен только после последней части группы
+			const isLastPart = groupInfo.partIndex === groupInfo.totalParts - 1;
+			if (!isLastPart) {
+				return false; // Между частями одного слова пробелов нет
+			}
+			
+			// Для последней части проверяем, есть ли пробел в конце
+			const endsWithWhitespace = /[\s\n]$/.test(word.word);
+			return !endsWithWhitespace;
+		}
+		
+		// Для обычных слов (не части группы) - проверяем пробелы в конце
+		const endsWithWhitespace = /[\s\n]$/.test(word.word);
+		return !endsWithWhitespace;
+	}, [word.word, isPartOfGroup, groupInfo]);
+
+	// Функция создания анимации
 	const createAnimation = (
 		element: HTMLElement,
 		type: string,
@@ -61,24 +82,55 @@ const WordComp: React.ForwardRefRenderFunction<
 		
 		const isOut = type === 'out';
 		
+		// === ВРЕМЕННО ОТКЛЮЧЕНО: Letterize анимация ===
 		// Создаем Letterize инстанс для выбранного текста
-		const text = new Letterize({
-			targets: element
-		});
+		// const text = new Letterize({
+		// 	targets: element
+		// });
+		// 
+		// // Создаем таймлайн с настройками
+		// const animation = createTimeline({
+		// 	defaults: {
+		// 		duration,
+		// 		ease: 'inOutQuad',
+		// 		delay: stagger(duration / 10),
+		// 	},
+		// 	autoplay: false, // Изначально не запускаем, запустим когда слово будет показано
+		// }).add(text.listAll, {delay: 100}); // Уменьшаем задержку чтобы анимация началась быстрее
+		//
+		// // Добавляем анимацию в зависимости от типа (in или out)
+		// if (isOut) {
+		// 	animation.add(text.listAll, {
+		// 		translateY: { from: '0px', to: `${charTranslateY}px` },
+		// 		rotateX: { from: '0deg', to: '90deg' },
+		// 		filter: { from: 'blur(0px)', to: 'blur(4px)' },
+		// 		opacity: { from: 1, to: 0 },
+		// 		color: { from: 'rgb(255, 255, 255)', to: 'rgb(0, 0, 0)' },
+		// 	});
+		// } else {
+		// 	animation.add(text.listAll, {
+		// 		translateY: { from: `-${charTranslateY}px`, to: '0px' },
+		// 		rotateX: { from: '-90deg', to: '0deg' },
+		// 		filter: { from: 'blur(4px)', to: 'blur(0px)' },
+		// 		opacity: { from: 0, to: 1 },
+		// 		color: { from: 'hsl(109, 97%, 88%)', to: 'hsl(350, 46%, 47%)' },
+		// 	});
+		// }
+		// === КОНЕЦ ОТКЛЮЧЕННОГО КОДА ===
 		
-		// Создаем таймлайн с настройками
+		// === ВРЕМЕННОЕ РЕШЕНИЕ: Простая анимация без букв ===
+		// Создаем простую анимацию без разбивки на буквы
 		const animation = createTimeline({
 			defaults: {
 				duration,
 				ease: 'inOutQuad',
-				delay: stagger(duration / 10),
 			},
-			autoplay: false, // Изначально не запускаем, запустим когда слово будет показано
-		}).add(text.listAll, {delay: 100}); // Уменьшаем задержку чтобы анимация началась быстрее
-		
-		// Добавляем анимацию в зависимости от типа (in или out)
+			autoplay: false,
+		});
+
+		// Добавляем анимацию напрямую к элементу (без букв)
 		if (isOut) {
-			animation.add(text.listAll, {
+			animation.add(element, {
 				translateY: { from: '0px', to: `${charTranslateY}px` },
 				rotateX: { from: '0deg', to: '90deg' },
 				filter: { from: 'blur(0px)', to: 'blur(4px)' },
@@ -86,7 +138,7 @@ const WordComp: React.ForwardRefRenderFunction<
 				color: { from: 'rgb(255, 255, 255)', to: 'rgb(0, 0, 0)' },
 			});
 		} else {
-			animation.add(text.listAll, {
+			animation.add(element, {
 				translateY: { from: `-${charTranslateY}px`, to: '0px' },
 				rotateX: { from: '-90deg', to: '0deg' },
 				filter: { from: 'blur(4px)', to: 'blur(0px)' },
@@ -94,6 +146,7 @@ const WordComp: React.ForwardRefRenderFunction<
 				color: { from: 'hsl(109, 97%, 88%)', to: 'hsl(350, 46%, 47%)' },
 			});
 		}
+		// === КОНЕЦ ВРЕМЕННОГО РЕШЕНИЯ ===
 		
 		return animation;
 	};
@@ -164,8 +217,9 @@ const WordComp: React.ForwardRefRenderFunction<
 		position: 'relative',
 		display: 'inline-block',
 		whiteSpace: 'pre-wrap',
-		marginRight: needsSpace ? '0.3em' : 0, // Добавляем отступ только для слов, которые не являются фрагментами
+		marginRight: needsSpace ? '0.3em' : 0,
 		visibility: isShown ? 'visible' : 'hidden',
+		fontSize: isPartOfGroup ? '1rem' : 'inherit',
 	};
 	
 	const textStyle: React.CSSProperties = {
@@ -183,17 +237,41 @@ const WordComp: React.ForwardRefRenderFunction<
 		transformStyle: 'preserve-3d',
 	};
 
-	// Корректируем подход к определению ширины слова
-	// Для фрагментов слов устанавливаем близко к содержимому
-	const wordWidth = isWordFragment 
-		? word.word.length * 0.5 + 'em' 
-		: word.word.length * 0.6 + 'em';
+	// Улучшенная логика определения ширины
+	const wordWidth = React.useMemo(() => {
+		if (isPartOfGroup && groupInfo) {
+			// Для частей группы используем ширину пропорционально длине части
+			const partLength = word.word.trim().length;
+			return partLength * 0.6 + 'em';
+		}
+		
+		// Для обычных слов
+		return word.word.length * 0.6 + 'em';
+	}, [word.word, isPartOfGroup, groupInfo]);
+
+	// Определяем CSS класс для части слова
+	const getWordClassName = () => {
+		if (isPartOfGroup && groupInfo) {
+			const {partIndex, totalParts} = groupInfo;
+			const classes = ['word-part'];
+			
+			if (partIndex === 0) classes.push('word-part-first');
+			if (partIndex === totalParts - 1) classes.push('word-part-last');
+			if (totalParts > 1) classes.push('word-part-grouped');
+			
+			return classes.join(' ');
+		}
+		
+		return isWordFragment ? 'word-fragment' : 'word-full';
+	};
 
 	return (
 		<span 
 			ref={componentRef} 
 			style={containerStyle}
-			className={isWordFragment ? 'word-fragment' : 'word-full'}
+			className={getWordClassName()}
+			data-word-part={isPartOfGroup ? `${groupInfo?.partIndex}/${groupInfo?.totalParts}` : undefined}
+			data-full-text={isPartOfGroup ? groupInfo?.fullText : undefined}
 		>
 			<div ref={internalRef} style={{position: 'relative', minWidth: wordWidth}}>
 				<div className="word-in" style={textStyle}>

@@ -6,7 +6,12 @@
       "seek": 0,
       "start": 0.79787,
       "end": 20.90426,
-      "text": "Spotlight finds your silhouette\nDancing shadows in your eyes\nTime slows down when our glances meet\nSuch beauty under neon skies",
+      "text": [
+        "Spotlight finds your silhouette",
+        "Dancing shadows in your eyes",
+        "Time slows down when our glances meet",
+        "Such beauty under neon skies"
+      ],
       "words": [
         {
           "word": "\nSpot",
@@ -387,7 +392,12 @@
       "seek": 0,
       "start": 22.10106,
       "end": 38.85638,
-      "text": "Who knew that I could feel this way?\nMy heart awake for the first time\nEverything before was shades of gray\nNow colors bloom in my mind",
+      "text": [
+        "Who knew that I could feel this way?",
+        "My heart awake for the first time",
+        "Everything before was shades of gray",
+        "Now colors bloom in my mind"
+      ],
       "words": [
         {
           "word": "\nWho",
@@ -780,7 +790,14 @@
       "seek": 0,
       "start": 41.17021,
       "end": 72.28723,
-      "text": "You're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home",
+      "text": [
+        "You're my first light in a darkened room",
+        "A gentle touch I never knew I needed",
+        "Your smile outshines the crescent moon",
+        "As we dance, my walls defeated",
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
       "words": [
         {
           "word": "\nYou",
@@ -1391,194 +1408,14 @@
     {
       "id": 3,
       "seek": 0,
-      "start": 63.03191,
-      "end": 72.28723,
-      "text": "In your eyes, I find myself\nIn your arms, I find my home",
-      "words": [
-        {
-          "word": "\nIn",
-          "start": 63.03191,
-          "end": 63.27128,
-          "probability": 1
-        },
-        {
-          "word": " your",
-          "start": 63.43085,
-          "end": 63.82979,
-          "probability": 1
-        },
-        {
-          "word": " eyes",
-          "start": 63.82979,
-          "end": 64.22872,
-          "probability": 1
-        },
-        {
-          "word": ", I",
-          "start": 64.78723,
-          "end": 65.0266,
-          "probability": 1
-        },
-        {
-          "word": " find",
-          "start": 65.18617,
-          "end": 65.58511,
-          "probability": 1
-        },
-        {
-          "word": " myself",
-          "start": 66.46277,
-          "end": 67.02128,
-          "probability": 1
-        },
-        {
-          "word": "\nIn",
-          "start": 68.29787,
-          "end": 68.53723,
-          "probability": 1
-        },
-        {
-          "word": " your",
-          "start": 68.7766,
-          "end": 69.17553,
-          "probability": 1
-        },
-        {
-          "word": " arms",
-          "start": 69.17553,
-          "end": 69.57447,
-          "probability": 1
-        },
-        {
-          "word": ", I",
-          "start": 69.9734,
-          "end": 70.21277,
-          "probability": 1
-        },
-        {
-          "word": " find",
-          "start": 70.45213,
-          "end": 70.85106,
-          "probability": 1
-        },
-        {
-          "word": " my",
-          "start": 71.25,
-          "end": 71.48936,
-          "probability": 1
-        },
-        {
-          "word": " home",
-          "start": 71.8883,
-          "end": 72.28723,
-          "probability": 1
-        }
-      ],
-      "lines": [
-        [
-          {
-            "word": "",
-            "start": 63.03191,
-            "end": 63.27128,
-            "probability": 1
-          }
-        ],
-        [
-          {
-            "word": "In",
-            "start": 63.03191,
-            "end": 63.27128,
-            "probability": 1
-          },
-          {
-            "word": " your",
-            "start": 63.43085,
-            "end": 63.82979,
-            "probability": 1
-          },
-          {
-            "word": " eyes",
-            "start": 63.82979,
-            "end": 64.22872,
-            "probability": 1
-          },
-          {
-            "word": ", I",
-            "start": 64.78723,
-            "end": 65.0266,
-            "probability": 1
-          },
-          {
-            "word": " find",
-            "start": 65.18617,
-            "end": 65.58511,
-            "probability": 1
-          },
-          {
-            "word": " myself",
-            "start": 66.46277,
-            "end": 67.02128,
-            "probability": 1
-          },
-          {
-            "word": "",
-            "start": 68.29787,
-            "end": 68.53723,
-            "probability": 1
-          }
-        ],
-        [
-          {
-            "word": "In",
-            "start": 68.29787,
-            "end": 68.53723,
-            "probability": 1
-          },
-          {
-            "word": " your",
-            "start": 68.7766,
-            "end": 69.17553,
-            "probability": 1
-          },
-          {
-            "word": " arms",
-            "start": 69.17553,
-            "end": 69.57447,
-            "probability": 1
-          },
-          {
-            "word": ", I",
-            "start": 69.9734,
-            "end": 70.21277,
-            "probability": 1
-          },
-          {
-            "word": " find",
-            "start": 70.45213,
-            "end": 70.85106,
-            "probability": 1
-          },
-          {
-            "word": " my",
-            "start": 71.25,
-            "end": 71.48936,
-            "probability": 1
-          },
-          {
-            "word": " home",
-            "start": 71.8883,
-            "end": 72.28723,
-            "probability": 1
-          }
-        ]
-      ]
-    },
-    {
-      "id": 4,
-      "seek": 0,
       "start": 73.16489,
       "end": 92.95213,
-      "text": "Whispered words across the table\nYour laugh like music to my ears\nI never thought I'd be so capable\nOf feeling something this sincere",
+      "text": [
+        "Whispered words across the table",
+        "Your laugh like music to my ears",
+        "I never thought I'd be so capable",
+        "Of feeling something this sincere"
+      ],
       "words": [
         {
           "word": "\nWhis",
@@ -1967,11 +1804,16 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "seek": 0,
       "start": 94.54787,
       "end": 112.34043,
-      "text": "Strange how life can change so fast\nWhen someone truly sees your soul\nEverything I thought I was fades past\nAs you make me feeling whole",
+      "text": [
+        "Strange how life can change so fast",
+        "When someone truly sees your soul",
+        "Everything I thought I was fades past",
+        "As you make me feeling whole"
+      ],
       "words": [
         {
           "word": "\nStrange",
@@ -2360,11 +2202,18 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "seek": 0,
       "start": 113.21809,
       "end": 144.33511,
-      "text": "You're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home",
+      "text": [
+        "You're my first light in a darkened room",
+        "A gentle touch I never knew I needed",
+        "Your smile outshines the crescent moon",
+        "As we dance, my walls defeated",
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
       "words": [
         {
           "word": "\nYou",
@@ -2973,196 +2822,18 @@
       ]
     },
     {
-      "id": 7,
-      "seek": 0,
-      "start": 135,
-      "end": 144.33511,
-      "text": "In your eyes, I find myself\nIn your arms, I find my home",
-      "words": [
-        {
-          "word": "\nIn",
-          "start": 135,
-          "end": 135.23936,
-          "probability": 1
-        },
-        {
-          "word": " your",
-          "start": 135.39894,
-          "end": 135.79787,
-          "probability": 1
-        },
-        {
-          "word": " eyes",
-          "start": 135.79787,
-          "end": 136.19681,
-          "probability": 1
-        },
-        {
-          "word": ", I",
-          "start": 136.75532,
-          "end": 136.99468,
-          "probability": 1
-        },
-        {
-          "word": " find",
-          "start": 137.31383,
-          "end": 137.71277,
-          "probability": 1
-        },
-        {
-          "word": " myself",
-          "start": 138.51064,
-          "end": 139.06915,
-          "probability": 1
-        },
-        {
-          "word": "\nIn",
-          "start": 140.42553,
-          "end": 140.66489,
-          "probability": 1
-        },
-        {
-          "word": " your",
-          "start": 140.82447,
-          "end": 141.2234,
-          "probability": 1
-        },
-        {
-          "word": " arms",
-          "start": 141.2234,
-          "end": 141.62234,
-          "probability": 1
-        },
-        {
-          "word": ", I",
-          "start": 141.94149,
-          "end": 142.18085,
-          "probability": 1
-        },
-        {
-          "word": " find",
-          "start": 142.5,
-          "end": 142.89894,
-          "probability": 1
-        },
-        {
-          "word": " my",
-          "start": 143.29787,
-          "end": 143.53723,
-          "probability": 1
-        },
-        {
-          "word": " home",
-          "start": 143.93617,
-          "end": 144.33511,
-          "probability": 1
-        }
-      ],
-      "lines": [
-        [
-          {
-            "word": "",
-            "start": 135,
-            "end": 135.23936,
-            "probability": 1
-          }
-        ],
-        [
-          {
-            "word": "In",
-            "start": 135,
-            "end": 135.23936,
-            "probability": 1
-          },
-          {
-            "word": " your",
-            "start": 135.39894,
-            "end": 135.79787,
-            "probability": 1
-          },
-          {
-            "word": " eyes",
-            "start": 135.79787,
-            "end": 136.19681,
-            "probability": 1
-          },
-          {
-            "word": ", I",
-            "start": 136.75532,
-            "end": 136.99468,
-            "probability": 1
-          },
-          {
-            "word": " find",
-            "start": 137.31383,
-            "end": 137.71277,
-            "probability": 1
-          },
-          {
-            "word": " myself",
-            "start": 138.51064,
-            "end": 139.06915,
-            "probability": 1
-          },
-          {
-            "word": "",
-            "start": 140.42553,
-            "end": 140.66489,
-            "probability": 1
-          }
-        ],
-        [
-          {
-            "word": "In",
-            "start": 140.42553,
-            "end": 140.66489,
-            "probability": 1
-          },
-          {
-            "word": " your",
-            "start": 140.82447,
-            "end": 141.2234,
-            "probability": 1
-          },
-          {
-            "word": " arms",
-            "start": 141.2234,
-            "end": 141.62234,
-            "probability": 1
-          },
-          {
-            "word": ", I",
-            "start": 141.94149,
-            "end": 142.18085,
-            "probability": 1
-          },
-          {
-            "word": " find",
-            "start": 142.5,
-            "end": 142.89894,
-            "probability": 1
-          },
-          {
-            "word": " my",
-            "start": 143.29787,
-            "end": 143.53723,
-            "probability": 1
-          },
-          {
-            "word": " home",
-            "start": 143.93617,
-            "end": 144.33511,
-            "probability": 1
-          }
-        ]
-      ]
-    },
-    {
-      "id": 8,
+      "id": 6,
       "seek": 0,
       "start": 144.9734,
       "end": 178.80319,
-      "text": "They won't understand what we have found\nThis connection rare and pure\nBut nothing else seems to matter now\nWhen I'm standing here with you\nTime stands still when you're near\nThe world outside just disappears",
+      "text": [
+        "They won't understand what we have found",
+        "This connection rare and pure",
+        "But nothing else seems to matter now",
+        "When I'm standing here with you",
+        "Time stands still when you're near",
+        "The world outside just disappears"
+      ],
       "words": [
         {
           "word": "\nThey",
@@ -3723,11 +3394,18 @@
       ]
     },
     {
-      "id": 9,
+      "id": 7,
       "seek": 0,
       "start": 179.92021,
       "end": 210.95745,
-      "text": "You're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home",
+      "text": [
+        "You're my first light in a darkened room",
+        "A gentle touch I never knew I needed",
+        "Your smile outshines the crescent moon",
+        "As we dance, my walls defeated",
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
       "words": [
         {
           "word": "\nYou",
@@ -4336,196 +4014,14 @@
       ]
     },
     {
-      "id": 10,
-      "seek": 0,
-      "start": 201.70213,
-      "end": 210.95745,
-      "text": "In your eyes, I find myself\nIn your arms, I find my home",
-      "words": [
-        {
-          "word": "\nIn",
-          "start": 201.70213,
-          "end": 201.94149,
-          "probability": 1
-        },
-        {
-          "word": " your",
-          "start": 202.10106,
-          "end": 202.5,
-          "probability": 1
-        },
-        {
-          "word": " eyes",
-          "start": 202.5,
-          "end": 202.89894,
-          "probability": 1
-        },
-        {
-          "word": ", I",
-          "start": 203.45745,
-          "end": 203.69681,
-          "probability": 1
-        },
-        {
-          "word": " find",
-          "start": 203.93617,
-          "end": 204.33511,
-          "probability": 1
-        },
-        {
-          "word": " myself",
-          "start": 205.13298,
-          "end": 205.69149,
-          "probability": 1
-        },
-        {
-          "word": "\nIn",
-          "start": 207.04787,
-          "end": 207.28723,
-          "probability": 1
-        },
-        {
-          "word": " your",
-          "start": 207.44681,
-          "end": 207.84574,
-          "probability": 1
-        },
-        {
-          "word": " arms",
-          "start": 207.84574,
-          "end": 208.24468,
-          "probability": 1
-        },
-        {
-          "word": ", I",
-          "start": 208.64362,
-          "end": 208.88298,
-          "probability": 1
-        },
-        {
-          "word": " find",
-          "start": 209.20213,
-          "end": 209.60106,
-          "probability": 1
-        },
-        {
-          "word": " my",
-          "start": 209.92021,
-          "end": 210.15957,
-          "probability": 1
-        },
-        {
-          "word": " home",
-          "start": 210.55851,
-          "end": 210.95745,
-          "probability": 1
-        }
-      ],
-      "lines": [
-        [
-          {
-            "word": "",
-            "start": 201.70213,
-            "end": 201.94149,
-            "probability": 1
-          }
-        ],
-        [
-          {
-            "word": "In",
-            "start": 201.70213,
-            "end": 201.94149,
-            "probability": 1
-          },
-          {
-            "word": " your",
-            "start": 202.10106,
-            "end": 202.5,
-            "probability": 1
-          },
-          {
-            "word": " eyes",
-            "start": 202.5,
-            "end": 202.89894,
-            "probability": 1
-          },
-          {
-            "word": ", I",
-            "start": 203.45745,
-            "end": 203.69681,
-            "probability": 1
-          },
-          {
-            "word": " find",
-            "start": 203.93617,
-            "end": 204.33511,
-            "probability": 1
-          },
-          {
-            "word": " myself",
-            "start": 205.13298,
-            "end": 205.69149,
-            "probability": 1
-          },
-          {
-            "word": "",
-            "start": 207.04787,
-            "end": 207.28723,
-            "probability": 1
-          }
-        ],
-        [
-          {
-            "word": "In",
-            "start": 207.04787,
-            "end": 207.28723,
-            "probability": 1
-          },
-          {
-            "word": " your",
-            "start": 207.44681,
-            "end": 207.84574,
-            "probability": 1
-          },
-          {
-            "word": " arms",
-            "start": 207.84574,
-            "end": 208.24468,
-            "probability": 1
-          },
-          {
-            "word": ", I",
-            "start": 208.64362,
-            "end": 208.88298,
-            "probability": 1
-          },
-          {
-            "word": " find",
-            "start": 209.20213,
-            "end": 209.60106,
-            "probability": 1
-          },
-          {
-            "word": " my",
-            "start": 209.92021,
-            "end": 210.15957,
-            "probability": 1
-          },
-          {
-            "word": " home",
-            "start": 210.55851,
-            "end": 210.95745,
-            "probability": 1
-          }
-        ]
-      ]
-    },
-    {
-      "id": 11,
+      "id": 8,
       "seek": 0,
       "start": 212.31383,
       "end": 222.12766,
-      "text": "In your eyes, I find myself\nIn your arms, I find my home",
+      "text": [
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
       "words": [
         {
           "word": "\nIn",

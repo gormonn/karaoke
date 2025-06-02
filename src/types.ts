@@ -9,7 +9,7 @@ export interface Segment {
 	seek: number;
 	start: number;
 	end: number;
-	text: string;
+	text: string[];
 	tokens: number[];
 	temperature: number;
 	avg_logprob: number;

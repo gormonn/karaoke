@@ -10,49 +10,90 @@ import {Dots, LayoutsState, lineHeight, padding} from './Dots';
 import {Segment, Word} from './types';
 import {WordComponent} from './Word';
 
-// Новый тип для карты символов
-interface CharTiming {
-	char: string;
-	charIndex: number; // Позиция в общем тексте
-	wordIndex: number; // Индекс слова в исходном массиве
-	start: number;
-	end: number;
-}
+// Импортируем настроенный GSAP из библиотеки
+import { gsap, SplitText } from './lib/gsap';
 
-// Функция для создания карты временных меток символов
-const createCharTimingMap = (words: Word[]): {
-	fullText: string;
-	charTimings: CharTiming[];
-} => {
-	let fullText = '';
-	const charTimings: CharTiming[] = [];
-	let charIndex = 0;
+// Компонент для одного слова с GSAP анимацией символов
+const WordWithGSAP: React.FC<{
+	word: Word;
+	timeInSeconds: number;
+}> = ({ word, timeInSeconds }) => {
+	const wordRef = useRef<HTMLSpanElement>(null);
+	const splitRef = useRef<SplitText | null>(null);
 
-	words.forEach((word, wordIndex) => {
-		// Фильтруем пустые слова
-		if (!word.word || word.word.trim() === '') return;
-
-		// Добавляем каждый символ с его временными метками
-		for (let i = 0; i < word.word.length; i++) {
-			const char = word.word[i];
-			fullText += char;
-
-			charTimings.push({
-				char,
-				charIndex,
-				wordIndex,
-				start: word.start,
-				end: word.end,
+	// Создаем SplitText для этого слова
+	useEffect(() => {
+		if (wordRef.current && !splitRef.current && word.word) {
+			splitRef.current = new SplitText(wordRef.current, {
+				type: "chars",
+				charsClass: "char"
 			});
-
-			charIndex++;
 		}
-	});
+		
+		return () => {
+			if (splitRef.current) {
+				splitRef.current.revert();
+				splitRef.current = null;
+			}
+		};
+	}, [word.word]);
 
-	return { fullText, charTimings };
+	// Анимируем символы этого слова
+	useEffect(() => {
+		if (!splitRef.current || !word.word) return;
+
+		const isActive = timeInSeconds >= word.start && timeInSeconds <= word.end;
+		const isVisible = timeInSeconds >= word.start;
+		
+		if (isActive) {
+			// Прогресс внутри слова
+			const wordProgress = (timeInSeconds - word.start) / (word.end - word.start);
+			
+			splitRef.current.chars.forEach((char, charIndex) => {
+				const charProgress = Math.max(0, Math.min(1, 
+					wordProgress * word.word!.length - charIndex
+				));
+				
+				gsap.set(char, {
+					opacity: 1,
+					color: charProgress > 0.5 ? '#FFD700' : '#FFFFFF',
+					scale: 1 + charProgress * 0.1,
+					textShadow: charProgress > 0.5 ? '0 0 10px #FFD700' : 'none'
+				});
+			});
+		} else if (isVisible) {
+			// Уже пропетое слово
+			splitRef.current.chars.forEach((char) => {
+				gsap.set(char, {
+					opacity: 0.7,
+					color: '#888888',
+					scale: 1,
+					textShadow: 'none'
+				});
+			});
+		} else {
+			// Еще не пропетое слово
+			splitRef.current.chars.forEach((char) => {
+				gsap.set(char, {
+					opacity: 0.3,
+					color: '#444444',
+					scale: 1,
+					textShadow: 'none'
+				});
+			});
+		}
+	}, [timeInSeconds, word]);
+
+	if (!word.word || word.word.trim() === '') return null;
+
+	return (
+		<span ref={wordRef} style={{ marginRight: '0.3em' }}>
+			{word.word}
+		</span>
+	);
 };
 
-// Новый компонент для строки с побуквенной анимацией
+// Новый компонент для строки с GSAP SplitText анимацией
 const LineComponent: React.FC<{
 	words: Word[];
 	lineIndex: number;
@@ -61,31 +102,22 @@ const LineComponent: React.FC<{
 	const {fps} = useVideoConfig();
 	const timeInSeconds = frame / fps;
 
-	// Фильтруем пустые слова перед созданием карты
+	// Фильтруем пустые слова
 	const filteredWords = words.filter(word => word.word && word.word.trim() !== '');
 
-	// Создаём карту символов
-	const {fullText, charTimings} = useMemo(() =>
-		createCharTimingMap(filteredWords), [filteredWords]
-	);
-
 	// Логирование для отладки
-	// useEffect(() => {
-	// 	console.log(`Line ${lineIndex}:`, {
-	// 		originalWordsCount: words.length,
-	// 		filteredWordsCount: filteredWords.length,
-	// 		fullText: `"${fullText}"`,
-	// 		charCount: charTimings.length,
-	// 		timeInSeconds,
-	// 		emptyWords: words.filter(w => !w.word || w.word.trim() === '').length
-	// 	});
-	// }, [fullText, charTimings, lineIndex, timeInSeconds, words.length, filteredWords.length]);
+	useEffect(() => {
+		console.log(`GSAP Line ${lineIndex}:`, {
+			originalWordsCount: words.length,
+			filteredWordsCount: filteredWords.length,
+			timeInSeconds
+		});
+	}, [lineIndex, timeInSeconds, words.length, filteredWords.length]);
 
 	// Проверяем, должна ли строка быть видна
 	const isLineVisible = filteredWords.some(word => timeInSeconds >= word.start);
 
 	if (!isLineVisible || filteredWords.length === 0) {
-		// console.log(`Line ${lineIndex} hidden: time=${timeInSeconds}, visible=${isLineVisible}, hasWords=${filteredWords.length > 0}`);
 		return null;
 	}
 
@@ -96,10 +128,16 @@ const LineComponent: React.FC<{
 				fontSize: '3rem',
 				lineHeight: lineHeight,
 				whiteSpace: 'pre-wrap',
-				color: 'white', // Убеждаемся что текст виден
+				fontWeight: 'bold',
 			}}
 		>
-			{fullText}
+			{filteredWords.map((word, index) => (
+				<WordWithGSAP 
+					key={`${lineIndex}-${index}`}
+					word={word}
+					timeInSeconds={timeInSeconds}
+				/>
+			))}
 		</div>
 	);
 };

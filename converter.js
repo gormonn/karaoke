@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
 
+const CONFIG_FILE = '_config.ts';
+
 /**
  * Конвертер файлов для караоке-системы
  *
@@ -66,7 +68,7 @@ if (!arg) {
 
 // Функция для обновления SONG_NAME в _song.ts
 function updateSongName(filename) {
-    const songFilePath = path.join(__dirname, 'src', '_song.ts');
+    const songFilePath = path.join(__dirname, 'src', CONFIG_FILE);
     let content = fs.readFileSync(songFilePath, 'utf8');
 
     // Экранируем специальные символы в filename для использования в регулярном выражении
@@ -266,6 +268,8 @@ async function convert(filename) {
             continue;
           }
 
+          // console.log('cleanParagraph', cleanParagraph);
+          // process.exit(1);
           // Создаем сегмент для текущего вхождения абзаца
           const segment = {
             id: segmentId++,
@@ -273,6 +277,7 @@ async function convert(filename) {
             start: startTime,
             end: endTime,
             text: cleanParagraph.split("\n"),
+            paragraph: cleanParagraph,
             words: []
           };
 

@@ -13,20 +13,71 @@ import {WordComponent} from './Word';
 // Импортируем настроенный GSAP из библиотеки
 import { gsap, SplitText } from './lib/gsap';
 
-// Компонент для одного слова с GSAP анимацией символов
-const WordWithGSAP: React.FC<{
-	word: Word;
-	timeInSeconds: number;
-}> = ({ word, timeInSeconds }) => {
-	const wordRef = useRef<HTMLSpanElement>(null);
+// Функция для создания карты символов со временными метками для целой строки
+const createLineCharMap = (words: Word[]) => {
+	const filteredWords = words.filter(word => word.word && word.word.trim() !== '');
+	
+	let fullLineText = '';
+	const charTimingMap: Array<{
+		char: string;
+		start: number;
+		end: number;
+		wordPart: Word;
+	}> = [];
+
+	filteredWords.forEach((wordPart, wordIndex) => {
+		const cleanedWord = wordPart.word.replace(/^\n/, '');
+		
+		// Добавляем символы слова
+		for (let i = 0; i < cleanedWord.length; i++) {
+			const char = cleanedWord[i];
+			fullLineText += char;
+			
+			if(char !== ' ') {
+				charTimingMap.push({
+					char,
+					start: wordPart.start,
+					end: wordPart.end,
+					wordPart
+				});
+			}
+		}
+	});
+
+	const result = { fullLineText, charTimingMap };
+	if(fullLineText.length > 0) {
+		console.log('createLineCharMap',{words,...result});
+	}
+	return result;
+};
+
+// Новый компонент для строки с GSAP SplitText на целой строке
+const LineComponent: React.FC<{
+	words: Word[];
+	lineIndex: number;
+}> = ({words, lineIndex}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const timeInSeconds = frame / fps;
+	const lineRef = useRef<HTMLDivElement>(null);
 	const splitRef = useRef<SplitText | null>(null);
 
-	// Создаем SplitText для этого слова
+	// Создаем карту символов для целой строки
+	const { fullLineText, charTimingMap } = useMemo(() => 
+		createLineCharMap(words), [words]
+	);
+
+	// useEffect(() => {
+	// 	console.log('charTimingMap',charTimingMap);
+	// }, [charTimingMap]);
+
+	// Создаем SplitText для целой строки
 	useEffect(() => {
-		if (wordRef.current && !splitRef.current && word.word) {
-			splitRef.current = new SplitText(wordRef.current, {
+		if (lineRef.current && !splitRef.current && fullLineText) {
+			splitRef.current = new SplitText(lineRef.current, {
 				type: "chars",
-				charsClass: "char"
+				charsClass: "char",
+				reduceWhiteSpace: false
 			});
 		}
 		
@@ -36,93 +87,84 @@ const WordWithGSAP: React.FC<{
 				splitRef.current = null;
 			}
 		};
-	}, [word.word]);
+	}, [fullLineText]);
 
-	// Анимируем символы этого слова
+	// 🎵 Анимируем символы строки по временным меткам
 	useEffect(() => {
-		if (!splitRef.current || !word.word) return;
+		if (!splitRef.current || !charTimingMap.length) return;
 
-		const isActive = timeInSeconds >= word.start && timeInSeconds <= word.end;
-		const isVisible = timeInSeconds >= word.start;
-		
-		if (isActive) {
-			// Прогресс внутри слова
-			const wordProgress = (timeInSeconds - word.start) / (word.end - word.start);
+		// Группируем символы по словам для правильной анимации
+		const wordGroups: { [key: string]: number[] } = {};
+		charTimingMap.forEach((timing, charIndex) => {
+			const wordKey = `${timing.start}-${timing.end}`;
+			if (!wordGroups[wordKey]) {
+				wordGroups[wordKey] = [];
+			}
+			wordGroups[wordKey].push(charIndex);
+		});
+
+		console.log('splitRef.current',splitRef.current);
+		// проблема в том, что splitRef.current.chars.length не совпадает с charTimingMap.length
+		// и в итоге не все символы анимируются
+		// нужно найти причину и исправить
+		// возможно, нужно добавить пробелы в charTimingMap
+		// или как-то еще
+
+		splitRef.current.chars.forEach((char, charIndex) => {
+			const timing = charTimingMap[charIndex];
+			if (!timing) return;
+
+			const isActive = timeInSeconds >= timing.start && timeInSeconds <= timing.end;
+			const hasWordStarted = timeInSeconds >= timing.start;
 			
-			splitRef.current.chars.forEach((char, charIndex) => {
-				const charProgress = Math.max(0, Math.min(1, 
-					wordProgress * word.word!.length - charIndex
-				));
-				
+			if (isActive) {
+				// Активное слово - золотой с эффектами
 				gsap.set(char, {
 					opacity: 1,
-					color: charProgress > 0.5 ? '#FFD700' : '#FFFFFF',
-					scale: 1 + charProgress * 0.1,
-					textShadow: charProgress > 0.5 ? '0 0 10px #FFD700' : 'none'
+					color: '#FFD700',
+					scale: 1.15,
+					textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700'
 				});
-			});
-		} else if (isVisible) {
-			// Уже пропетое слово
-			splitRef.current.chars.forEach((char) => {
+			} else if (hasWordStarted) {
+				// Уже пропетое слово - белый, нормальный
 				gsap.set(char, {
-					opacity: 0.7,
-					color: '#888888',
+					opacity: 1,
+					color: '#FFFFFF',
 					scale: 1,
 					textShadow: 'none'
 				});
-			});
-		} else {
-			// Еще не пропетое слово
-			splitRef.current.chars.forEach((char) => {
+			} else {
+				// Еще не пропетое слово - серый, полупрозрачный
 				gsap.set(char, {
-					opacity: 0.3,
-					color: '#444444',
+					opacity: 0.4,
+					color: '#666666',
 					scale: 1,
 					textShadow: 'none'
 				});
-			});
-		}
-	}, [timeInSeconds, word]);
-
-	if (!word.word || word.word.trim() === '') return null;
-
-	return (
-		<span ref={wordRef} style={{ marginRight: '0.3em' }}>
-			{word.word}
-		</span>
-	);
-};
-
-// Новый компонент для строки с GSAP SplitText анимацией
-const LineComponent: React.FC<{
-	words: Word[];
-	lineIndex: number;
-}> = ({words, lineIndex}) => {
-	const frame = useCurrentFrame();
-	const {fps} = useVideoConfig();
-	const timeInSeconds = frame / fps;
-
-	// Фильтруем пустые слова
-	const filteredWords = words.filter(word => word.word && word.word.trim() !== '');
+			}
+		});
+	}, [timeInSeconds, charTimingMap]);
 
 	// Логирование для отладки
 	useEffect(() => {
 		console.log(`GSAP Line ${lineIndex}:`, {
 			originalWordsCount: words.length,
-			filteredWordsCount: filteredWords.length,
+			fullLineText: `"${fullLineText}"`,
+			charCount: charTimingMap.length,
 			timeInSeconds
 		});
-	}, [lineIndex, timeInSeconds, words.length, filteredWords.length]);
+	}, [lineIndex, timeInSeconds, words.length, fullLineText, charTimingMap.length]);
 
 	// Проверяем, должна ли строка быть видна
-	const isLineVisible = filteredWords.some(word => timeInSeconds >= word.start);
+	const isLineVisible = charTimingMap.some(timing => timeInSeconds >= timing.start);
 
-	if (!isLineVisible || filteredWords.length === 0) {
+	if (!isLineVisible || !fullLineText) {
 		return null;
 	}
 
 	return (
 		<div
+			ref={lineRef}
 			className="line"
 			style={{
 				fontSize: '3rem',
@@ -131,13 +173,7 @@ const LineComponent: React.FC<{
 				fontWeight: 'bold',
 			}}
 		>
-			{filteredWords.map((word, index) => (
-				<WordWithGSAP 
-					key={`${lineIndex}-${index}`}
-					word={word}
-					timeInSeconds={timeInSeconds}
-				/>
-			))}
+			{fullLineText}
 		</div>
 	);
 };
@@ -169,6 +205,7 @@ const InnerComponent: React.FC<{
 			{hasLines ? (
 				// Новый подход: простые строки с картой символов
 				<div>
+					{/* {[(segment?.lines?.[1] || []) as Word[]]?.map((line, lineIndex) => ( */}
 					{segment.lines?.map((line, lineIndex) => (
 						<LineComponent
 							key={lineIndex}

@@ -4,7 +4,7 @@ import {AbsoluteFill} from 'remotion';
 import {Bottom} from './Bottom';
 import {fontSize} from './Dots';
 import {Subtitles} from './Subtitles'; 
-import { SONG_TARGET } from './_song';
+import { SONG_TARGET } from './_config';
 
 export const MyComposition = () => {
 	return (

@@ -10,14 +10,9 @@ export const Subtitles: React.FC<{src: string}> = ({src}) => {
 		fetch(src)
 			.then((res) => res.json())
 			.then((data) => {
-				console.log('data', data);
 				setSubtitles(data);
 			});
 	}, []);
-
-	useEffect(() => {
-		console.log('subtitles', subtitles);
-	}, [subtitles]);
 
 	if (subtitles === null) {
 		return null;

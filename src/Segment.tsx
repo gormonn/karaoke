@@ -67,10 +67,6 @@ const LineComponent: React.FC<{
 		createLineCharMap(words), [words]
 	);
 
-	// useEffect(() => {
-	// 	console.log('charTimingMap',charTimingMap);
-	// }, [charTimingMap]);
-
 	// Создаем SplitText для целой строки
 	useEffect(() => {
 		if (lineRef.current && !splitRef.current && fullLineText) {
@@ -102,13 +98,6 @@ const LineComponent: React.FC<{
 			}
 			wordGroups[wordKey].push(charIndex);
 		});
-
-		console.log('splitRef.current',splitRef.current);
-		// проблема в том, что splitRef.current.chars.length не совпадает с charTimingMap.length
-		// и в итоге не все символы анимируются
-		// нужно найти причину и исправить
-		// возможно, нужно добавить пробелы в charTimingMap
-		// или как-то еще
 
 		splitRef.current.chars.forEach((char, charIndex) => {
 			const timing = charTimingMap[charIndex];
@@ -145,16 +134,6 @@ const LineComponent: React.FC<{
 		});
 	}, [timeInSeconds, charTimingMap]);
 
-	// Логирование для отладки
-	useEffect(() => {
-		console.log(`GSAP Line ${lineIndex}:`, {
-			originalWordsCount: words.length,
-			fullLineText: `"${fullLineText}"`,
-			charCount: charTimingMap.length,
-			timeInSeconds
-		});
-	}, [lineIndex, timeInSeconds, words.length, fullLineText, charTimingMap.length]);
-
 	// Проверяем, должна ли строка быть видна
 	const isLineVisible = charTimingMap.some(timing => timeInSeconds >= timing.start);
 
@@ -183,16 +162,6 @@ const InnerComponent: React.FC<{
 }> = ({segment}) => {
 	// Проверяем, есть ли структура строк в сегменте
 	const hasLines = segment.lines && segment.lines.length > 0;
-
-	// Логирование для отладки
-	useEffect(() => {
-		console.log('Segment rendering:', {
-			hasLines,
-			linesCount: segment.lines?.length || 0,
-			wordsCount: segment.words.length,
-			segmentId: segment.id
-		});
-	}, [hasLines, segment.lines?.length, segment.words.length, segment.id]);
 
 	return (
 		<AbsoluteFill

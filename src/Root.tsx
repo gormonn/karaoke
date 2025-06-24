@@ -1,6 +1,6 @@
 import {Composition} from 'remotion';
 import {MyComposition} from './Composition';
-import { SONG_TARGET } from './_song';
+import { SONG_TARGET } from './_config';
 import { getAudioDurationInSeconds } from '@remotion/media-utils';
 const fps = 30;
 

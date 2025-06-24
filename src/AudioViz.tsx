@@ -1,6 +1,6 @@
 import {useAudioData, visualizeAudio} from '@remotion/media-utils';
 import {Audio, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import { SONG_TARGET } from './_song'; 
+import { SONG_TARGET } from './_config'; 
 
 export const AudioViz: React.FC = () => {
 	const frame = useCurrentFrame();

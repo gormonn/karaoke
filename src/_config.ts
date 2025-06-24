@@ -1,6 +1,6 @@
 import { staticFile } from "remotion"
 
-const SONG_NAME = '3\. First Light'
+export const SONG_NAME = '3\. First Light'
 
 export const SONG_TARGET = {
   segments: staticFile(`${SONG_NAME}-converted.json`),

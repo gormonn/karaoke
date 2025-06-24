@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill} from 'remotion';
 import {AudioViz} from './AudioViz';
 import {padding} from './Dots';
+import { SONG_NAME } from './_config';
 
 export const Bottom: React.FC = () => {
 	return (
@@ -25,7 +26,7 @@ export const Bottom: React.FC = () => {
 						marginLeft: 20,
 					}}
 				>
-					NEFFEX - Grateful
+					{SONG_NAME}
 				</h1>
 			</div>
 		</AbsoluteFill>

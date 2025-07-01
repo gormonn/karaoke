@@ -13,6 +13,68 @@ import {WordComponent} from './Word';
 // Импортируем настроенный GSAP из библиотеки
 import { gsap, SplitText } from './lib/gsap';
 
+// CSS стили для SplitText элементов
+const splitTextStyles = `
+  .split-line {
+    display: block;
+    position: relative;
+  }
+  
+  .split-word {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .split-char {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .line-container {
+    font-kerning: none;
+    -webkit-text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  
+  /* Стили для автоматической разбивки из paragraph */
+  .auto-line {
+    display: block;
+    position: relative;
+    margin-bottom: 0.2em;
+  }
+  
+  .auto-word {
+    display: inline-block;
+    position: relative;
+    margin-right: 0.1em;
+  }
+  
+  .auto-char {
+    display: inline-block;
+    position: relative;
+    transition: all 0.2s ease-out;
+  }
+  
+  .paragraph-container {
+    font-kerning: none;
+    -webkit-text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+`;
+
+// Инжектируем стили если их еще нет
+if (typeof document !== 'undefined' && !document.getElementById('split-text-styles')) {
+  const styleSheet = document.createElement('style');
+  styleSheet.id = 'split-text-styles';
+  styleSheet.textContent = splitTextStyles;
+  document.head.appendChild(styleSheet);
+}
+
 // Функция для создания карты символов со временными метками для целой строки
 const createLineCharMap = (words: Word[]) => {
 	const filteredWords = words.filter(word => word.word && word.word.trim() !== '');
@@ -51,7 +113,7 @@ const createLineCharMap = (words: Word[]) => {
 	return result;
 };
 
-// Новый компонент для строки с GSAP SplitText на целой строке
+// Новый улучшенный компонент для строки с GSAP SplitText
 const LineComponent: React.FC<{
 	words: Word[];
 	lineIndex: number;
@@ -67,13 +129,24 @@ const LineComponent: React.FC<{
 		createLineCharMap(words), [words]
 	);
 
-	// Создаем SplitText для целой строки
+	// Создаем SplitText для целой строки с улучшенными настройками
 	useEffect(() => {
 		if (lineRef.current && !splitRef.current && fullLineText) {
 			splitRef.current = new SplitText(lineRef.current, {
-				type: "chars",
-				charsClass: "char",
-				reduceWhiteSpace: false
+				type: "lines,words,chars",
+				linesClass: "split-line",
+				wordsClass: "split-word", 
+				charsClass: "split-char",
+				reduceWhiteSpace: false,
+				// Используем absolute для лучшей производительности анимации
+				position: "absolute"
+			});
+
+			// Логирование для отладки
+			console.log('SplitText created for line:', lineIndex, {
+				lines: splitRef.current.lines?.length || 0,
+				words: splitRef.current.words?.length || 0,
+				chars: splitRef.current.chars?.length || 0
 			});
 		}
 		
@@ -83,32 +156,26 @@ const LineComponent: React.FC<{
 				splitRef.current = null;
 			}
 		};
-	}, [fullLineText]);
+	}, [fullLineText, lineIndex]);
 
-	// 🎵 Анимируем символы строки по временным меткам
+	// 🎵 Анимируем символы строки по временным меткам с улучшенной производительностью
 	useEffect(() => {
 		if (!splitRef.current || !charTimingMap.length) return;
 
-		// Группируем символы по словам для правильной анимации
-		const wordGroups: { [key: string]: number[] } = {};
-		charTimingMap.forEach((timing, charIndex) => {
-			const wordKey = `${timing.start}-${timing.end}`;
-			if (!wordGroups[wordKey]) {
-				wordGroups[wordKey] = [];
-			}
-			wordGroups[wordKey].push(charIndex);
-		});
-
-		splitRef.current.chars.forEach((char, charIndex) => {
+		// Используем более эффективный подход к анимации
+		splitRef.current.chars?.forEach((char, charIndex) => {
 			const timing = charTimingMap[charIndex];
 			if (!timing) return;
 
 			const isActive = timeInSeconds >= timing.start && timeInSeconds <= timing.end;
 			const hasWordStarted = timeInSeconds >= timing.start;
 			
+			// Группируем изменения стилей для лучшей производительности
+			const styles: any = {};
+			
 			if (isActive) {
 				// Активное слово - золотой с эффектами
-				gsap.set(char, {
+				Object.assign(styles, {
 					opacity: 1,
 					color: '#FFD700',
 					scale: 1.15,
@@ -116,7 +183,7 @@ const LineComponent: React.FC<{
 				});
 			} else if (hasWordStarted) {
 				// Уже пропетое слово - белый, нормальный
-				gsap.set(char, {
+				Object.assign(styles, {
 					opacity: 1,
 					color: '#FFFFFF',
 					scale: 1,
@@ -124,13 +191,16 @@ const LineComponent: React.FC<{
 				});
 			} else {
 				// Еще не пропетое слово - серый, полупрозрачный
-				gsap.set(char, {
+				Object.assign(styles, {
 					opacity: 0.4,
 					color: '#666666',
 					scale: 1,
 					textShadow: 'none'
 				});
 			}
+
+			// Применяем все стили за один вызов
+			gsap.set(char, styles);
 		});
 	}, [timeInSeconds, charTimingMap]);
 
@@ -144,12 +214,15 @@ const LineComponent: React.FC<{
 	return (
 		<div
 			ref={lineRef}
-			className="line"
+			className="line-container"
 			style={{
 				fontSize: '3rem',
 				lineHeight: lineHeight,
 				whiteSpace: 'pre-wrap',
 				fontWeight: 'bold',
+				// Позиционирование контейнера для absolute элементов
+				position: 'relative',
+				minHeight: '1em'
 			}}
 		>
 			{fullLineText}
@@ -157,11 +230,179 @@ const LineComponent: React.FC<{
 	);
 };
 
-const InnerComponent: React.FC<{
+// 🆕 НОВЫЙ компонент для автоматической разбивки на линии из paragraph
+const ParagraphLineComponent: React.FC<{
 	segment: Segment;
 }> = ({segment}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const timeInSeconds = frame / fps;
+	const containerRef = useRef<HTMLDivElement>(null);
+	const splitRef = useRef<SplitText | null>(null);
+	const [isReady, setIsReady] = useState(false);
+
+	// Создаем SplitText для автоматической разбивки paragraph на линии
+	useEffect(() => {
+		if (containerRef.current && !splitRef.current && segment.paragraph) {
+			// Устанавливаем текст в контейнер
+			containerRef.current.textContent = segment.paragraph;
+			
+			// Создаем SplitText с автоматическим определением линий
+			splitRef.current = new SplitText(containerRef.current, {
+				type: "lines,words,chars",
+				linesClass: "auto-line",
+				wordsClass: "auto-word",
+				charsClass: "auto-char",
+				position: "relative", // Для естественного потока
+				// Настройка порога линий для корректного определения
+				lineThreshold: 0.2
+			});
+
+			console.log('🆕 Auto SplitText created:', {
+				lines: splitRef.current.lines?.length || 0,
+				words: splitRef.current.words?.length || 0,
+				chars: splitRef.current.chars?.length || 0
+			});
+
+			setIsReady(true);
+		}
+		
+		return () => {
+			if (splitRef.current) {
+				splitRef.current.revert();
+				splitRef.current = null;
+			}
+			setIsReady(false);
+		};
+	}, [segment.paragraph]);
+
+	// Анимируем символы с использованием временных данных из words
+	useEffect(() => {
+		if (!splitRef.current || !isReady || !segment.words.length) return;
+
+		// Улучшенный алгоритм сопоставления символов с временными метками
+		const createAdvancedCharTimingMap = () => {
+			// Создаем текст из всех слов для сопоставления
+			let fullWordsText = '';
+			const wordTimings: Array<{ start: number; end: number; startIndex: number; endIndex: number }> = [];
+			
+			segment.words.forEach(word => {
+				const cleanWord = word.word.replace(/^\n+/, ''); // Убираем переносы в начале
+				const startIndex = fullWordsText.length;
+				fullWordsText += cleanWord;
+				const endIndex = fullWordsText.length - 1;
+				
+				if (cleanWord.trim()) {
+					wordTimings.push({
+						start: word.start,
+						end: word.end,
+						startIndex,
+						endIndex
+					});
+				}
+			});
+
+			// Создаем полный текст из paragraph для сопоставления
+			const paragraphText = segment.paragraph.replace(/\n/g, ' ');
+			
+			// Находим соответствие между paragraph и words
+			const charTimingMap = new Map<number, { start: number; end: number }>();
+			
+			// Простое сопоставление по позиции (можно улучшить)
+			let wordsIndex = 0;
+			let paragraphIndex = 0;
+			
+			while (paragraphIndex < paragraphText.length && wordsIndex < wordTimings.length) {
+				const timing = wordTimings[wordsIndex];
+				const wordLength = timing.endIndex - timing.startIndex + 1;
+				
+				// Присваиваем временные метки символам
+				for (let i = 0; i < wordLength && paragraphIndex < paragraphText.length; i++) {
+					charTimingMap.set(paragraphIndex, {
+						start: timing.start,
+						end: timing.end
+					});
+					paragraphIndex++;
+				}
+				
+				// Пропускаем пробелы в paragraph
+				while (paragraphIndex < paragraphText.length && paragraphText[paragraphIndex] === ' ') {
+					paragraphIndex++;
+				}
+				
+				wordsIndex++;
+			}
+			
+			return charTimingMap;
+		};
+
+		const charTimingMap = createAdvancedCharTimingMap();
+		
+		// Применяем анимацию к символам
+		splitRef.current.chars?.forEach((char, charIndex) => {
+			const timing = charTimingMap.get(charIndex);
+			if (!timing) return;
+
+			const isActive = timeInSeconds >= timing.start && timeInSeconds <= timing.end;
+			const hasStarted = timeInSeconds >= timing.start;
+			
+			const styles: any = {};
+			
+			if (isActive) {
+				Object.assign(styles, {
+					opacity: 1,
+					color: '#FFD700',
+					scale: 1.15,
+					textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700'
+				});
+			} else if (hasStarted) {
+				Object.assign(styles, {
+					opacity: 1,
+					color: '#FFFFFF',
+					scale: 1,
+					textShadow: 'none'
+				});
+			} else {
+				Object.assign(styles, {
+					opacity: 0.4,
+					color: '#666666',
+					scale: 1,
+					textShadow: 'none'
+				});
+			}
+
+			gsap.set(char, styles);
+		});
+	}, [timeInSeconds, segment.words, segment.paragraph, isReady]);
+
+	if (!segment.paragraph) {
+		return null;
+	}
+
+	return (
+		<div
+			ref={containerRef}
+			className="paragraph-container"
+			style={{
+				fontSize: '3rem',
+				lineHeight: lineHeight,
+				fontWeight: 'bold',
+				position: 'relative',
+				whiteSpace: 'pre-wrap'
+			}}
+		>
+			{/* Контент устанавливается через textContent в useEffect */}
+		</div>
+	);
+};
+
+const InnerComponent: React.FC<{
+	segment: Segment;
+	useAutoLines?: boolean; // 🆕 Новый параметр для выбора режима
+}> = ({segment, useAutoLines = false}) => {
 	// Проверяем, есть ли структура строк в сегменте
 	const hasLines = segment.lines && segment.lines.length > 0;
+	const hasParagraph = segment.paragraph && segment.paragraph.trim() !== '';
 
 	return (
 		<AbsoluteFill
@@ -171,10 +412,12 @@ const InnerComponent: React.FC<{
 				padding,
 			}}
 		>
-			{hasLines ? (
-				// Новый подход: простые строки с картой символов
+			{useAutoLines && hasParagraph ? (
+				// 🆕 НОВЫЙ режим: автоматическая разбивка на линии из paragraph
+				<ParagraphLineComponent segment={segment} />
+			) : hasLines ? (
+				// Существующий подход: ручные строки с картой символов
 				<div>
-					{/* {[(segment?.lines?.[1] || []) as Word[]]?.map((line, lineIndex) => ( */}
 					{segment.lines?.map((line, lineIndex) => (
 						<LineComponent
 							key={lineIndex}
@@ -196,7 +439,8 @@ const InnerComponent: React.FC<{
 
 export const SegmentComp: React.FC<{
 	segment: Segment;
-}> = ({segment}) => {
+	useAutoLines?: boolean; // 🆕 Параметр для включения автоматической разбивки на линии
+}> = ({segment, useAutoLines = false}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 
@@ -207,5 +451,5 @@ export const SegmentComp: React.FC<{
 		return null;
 	}
 
-	return <InnerComponent segment={segment} />;
+	return <InnerComponent segment={segment} useAutoLines={useAutoLines} />;
 };

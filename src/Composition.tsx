@@ -7,6 +7,9 @@ import {Subtitles} from './Subtitles';
 import { SONG_TARGET } from './_config';
 
 export const MyComposition = () => {
+	// 🆕 Флаг для тестирования нового режима автоматической разбивки на линии
+	const USE_AUTO_LINES = true; // Переключите на false для старого режима
+
 	return (
 		<AbsoluteFill
 			style={{
@@ -19,7 +22,7 @@ export const MyComposition = () => {
 				<Img src={SONG_TARGET.background} />
 			</AbsoluteFill> 
 			<Bottom />
-			<Subtitles src={SONG_TARGET.segments}/>
+			<Subtitles src={SONG_TARGET.segments} useAutoLines={USE_AUTO_LINES} />
 			<Audio src={SONG_TARGET.music} />
 		</AbsoluteFill>
 	);

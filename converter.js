@@ -268,8 +268,6 @@ async function convert(filename) {
             continue;
           }
 
-          // console.log('cleanParagraph', cleanParagraph);
-          // process.exit(1);
           // Создаем сегмент для текущего вхождения абзаца
           const segment = {
             id: segmentId++,

@@ -66,7 +66,7 @@ const USE_AUTO_LINES = false; // Использовать старый режи�
 
 ## 🔧 Технические детали
 
-### CSS оптимизации
+### CSS оптимизации (согласно документации GSAP)
 ```css
 .paragraph-container {
   font-kerning: none;
@@ -74,19 +74,28 @@ const USE_AUTO_LINES = false; // Использовать старый режи�
   text-rendering: optimizeSpeed;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  position: relative;
 }
 ```
 
-### Настройки SplitText
+### Настройки SplitText (оптимизированные)
 ```typescript
-new SplitText(container, {
-  type: "lines,words,chars",
-  linesClass: "auto-line", 
-  wordsClass: "auto-word",
-  charsClass: "auto-char",
-  position: "relative", // Естественный поток
-  lineThreshold: 0.2    // 20% от размера шрифта
-});
+// ✅ Проверка загруженности шрифтов (критично!)
+const applySplit = () => {
+  new SplitText(container, {
+    type: "lines,chars", // Только необходимые типы
+    linesClass: "auto-line", 
+    charsClass: "auto-char",
+    position: "relative", // Естественный поток
+    lineThreshold: 0.2    // 20% от размера шрифта
+  });
+};
+
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(applySplit);
+} else {
+  setTimeout(applySplit, 100); // Fallback
+}
 ```
 
 ### Алгоритм сопоставления
@@ -112,13 +121,31 @@ new SplitText(container, {
    🆕 Auto SplitText created: {lines: 2, words: 8, chars: 42}
    ```
 
+## 🔧 Исправленные проблемы
+
+### ✅ Соответствие документации GSAP
+- **Загрузка шрифтов**: Добавлена проверка `document.fonts.ready` перед split
+- **Производительность**: Используем только необходимые типы разбивки
+- **CSS оптимизации**: Исправлены стили для Safari и кроссбраузерности
+- **Position**: Переход с `absolute` на `relative` для естественного потока
+
+### ✅ Упрощение алгоритмов
+- **LineComponent**: Упрощен до разбивки только символов
+- **ParagraphLineComponent**: Улучшен алгоритм сопоставления
+- **CSS классы**: Удалены неиспользуемые стили
+
+### ✅ Оптимизация кода
+- **Subtitles.tsx**: Убран неиспользуемый код
+- **TypeScript**: Исправлены ошибки типов
+- **Логирование**: Перенесено в правильные места
+
 ## 📋 План дальнейших улучшений
 
-- [ ] Оптимизация алгоритма сопоставления символов
 - [ ] Добавление анимаций появления линий
-- [ ] Поддержка вложенных HTML элементов в тексте
+- [ ] Поддержка вложенных HTML элементов в тексте  
 - [ ] Настройки для разных языков и шрифтов
 - [ ] Метрики производительности и профилирование
+- [ ] A/B тестирование двух режимов
 
 ## 🔍 Отладка
 

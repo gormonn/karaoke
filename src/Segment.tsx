@@ -13,57 +13,46 @@ import {WordComponent} from './Word';
 // Импортируем настроенный GSAP из библиотеки
 import { gsap, SplitText } from './lib/gsap';
 
-// CSS стили для SplitText элементов
+// ✅ CSS стили для SplitText элементов (согласно документации GSAP)
 const splitTextStyles = `
-  .split-line {
-    display: block;
-    position: relative;
-  }
-  
-  .split-word {
-    display: inline-block;
-    position: relative;
-  }
-  
+  /* Стили для символов (основная анимация караоке) */
   .split-char {
     display: inline-block;
     position: relative;
-    transition: all 0.3s ease;
+    transition: all 0.15s ease-out;
   }
   
+  /* Контейнер строки с оптимизациями для Safari */
   .line-container {
     font-kerning: none;
     -webkit-text-rendering: optimizeSpeed;
     text-rendering: optimizeSpeed;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+    position: relative;
   }
   
   /* Стили для автоматической разбивки из paragraph */
   .auto-line {
     display: block;
     position: relative;
-    margin-bottom: 0.2em;
-  }
-  
-  .auto-word {
-    display: inline-block;
-    position: relative;
-    margin-right: 0.1em;
+    margin-bottom: 0.1em;
   }
   
   .auto-char {
     display: inline-block;
     position: relative;
-    transition: all 0.2s ease-out;
+    transition: all 0.15s ease-out;
   }
   
+  /* Контейнер paragraph с оптимизациями Safari */
   .paragraph-container {
     font-kerning: none;
     -webkit-text-rendering: optimizeSpeed;
     text-rendering: optimizeSpeed;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+    position: relative;
   }
 `;
 
@@ -129,25 +118,33 @@ const LineComponent: React.FC<{
 		createLineCharMap(words), [words]
 	);
 
-	// Создаем SplitText для целой строки с улучшенными настройками
+	// ✅ Создаем SplitText согласно лучшим практикам GSAP
 	useEffect(() => {
 		if (lineRef.current && !splitRef.current && fullLineText) {
-			splitRef.current = new SplitText(lineRef.current, {
-				type: "lines,words,chars",
-				linesClass: "split-line",
-				wordsClass: "split-word", 
-				charsClass: "split-char",
-				reduceWhiteSpace: false,
-				// Используем absolute для лучшей производительности анимации
-				position: "absolute"
-			});
+			// ✅ Обеспечиваем загрузку шрифтов перед split (согласно документации)
+			const applySplit = () => {
+				if (!splitRef.current && lineRef.current) {
+					splitRef.current = new SplitText(lineRef.current, {
+						type: "chars", // Только символы для караоке анимации
+						charsClass: "split-char",
+						reduceWhiteSpace: false,
+						position: "relative" // Естественный поток
+					});
 
-			// Логирование для отладки
-			console.log('SplitText created for line:', lineIndex, {
-				lines: splitRef.current.lines?.length || 0,
-				words: splitRef.current.words?.length || 0,
-				chars: splitRef.current.chars?.length || 0
-			});
+					// Логирование для отладки
+					console.log('SplitText created for line:', lineIndex, {
+						chars: splitRef.current.chars?.length || 0
+					});
+				}
+			};
+
+			// Проверяем загруженность шрифтов
+			if (document.fonts && document.fonts.ready) {
+				document.fonts.ready.then(applySplit);
+			} else {
+				// Fallback для старых браузеров
+				setTimeout(applySplit, 100);
+			}
 		}
 		
 		return () => {
@@ -219,10 +216,7 @@ const LineComponent: React.FC<{
 				fontSize: '3rem',
 				lineHeight: lineHeight,
 				whiteSpace: 'pre-wrap',
-				fontWeight: 'bold',
-				// Позиционирование контейнера для absolute элементов
-				position: 'relative',
-				minHeight: '1em'
+				fontWeight: 'bold'
 			}}
 		>
 			{fullLineText}
@@ -239,32 +233,42 @@ const ParagraphLineComponent: React.FC<{
 	const timeInSeconds = frame / fps;
 	const containerRef = useRef<HTMLDivElement>(null);
 	const splitRef = useRef<SplitText | null>(null);
-	const [isReady, setIsReady] = useState(false);
 
-	// Создаем SplitText для автоматической разбивки paragraph на линии
+	useEffect(() => {
+		console.log('ParagraphLineComponent', {segment});
+	}, [segment]);
+
+	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {
 		if (containerRef.current && !splitRef.current && segment.paragraph) {
-			// Устанавливаем текст в контейнер
-			containerRef.current.textContent = segment.paragraph;
+			// ✅ Согласно документации: элемент должен быть отображен так, как нужно в конце анимации
+			containerRef.current.innerHTML = segment.paragraph.replace(/\n/g, '<br />');
 			
-			// Создаем SplitText с автоматическим определением линий
-			splitRef.current = new SplitText(containerRef.current, {
-				type: "lines,words,chars",
-				linesClass: "auto-line",
-				wordsClass: "auto-word",
-				charsClass: "auto-char",
-				position: "relative", // Для естественного потока
-				// Настройка порога линий для корректного определения
-				lineThreshold: 0.2
-			});
+			const applySplit = () => {
+				if (!splitRef.current && containerRef.current) {
+					// ✅ Оптимизация производительности: разбиваем только на lines и chars
+					splitRef.current = new SplitText(containerRef.current, {
+						type: "lines,chars", // Только то, что нужно для караоке
+						linesClass: "auto-line",
+						charsClass: "auto-char",
+						position: "relative", // Естественный поток
+						lineThreshold: 0.2 // Порог для определения линий
+					});
 
-			console.log('🆕 Auto SplitText created:', {
-				lines: splitRef.current.lines?.length || 0,
-				words: splitRef.current.words?.length || 0,
-				chars: splitRef.current.chars?.length || 0
-			});
+					console.log('🆕 Auto SplitText created:', {
+						lines: splitRef.current.lines?.length || 0,
+						chars: splitRef.current.chars?.length || 0
+					});
+				}
+			};
 
-			setIsReady(true);
+			// ✅ Проверяем загруженность шрифтов
+			if (document.fonts && document.fonts.ready) {
+				document.fonts.ready.then(applySplit);
+			} else {
+				// Fallback для старых браузеров
+				setTimeout(applySplit, 100);
+			}
 		}
 		
 		return () => {
@@ -272,108 +276,114 @@ const ParagraphLineComponent: React.FC<{
 				splitRef.current.revert();
 				splitRef.current = null;
 			}
-			setIsReady(false);
 		};
 	}, [segment.paragraph]);
 
-	// Анимируем символы с использованием временных данных из words
-	useEffect(() => {
-		if (!splitRef.current || !isReady || !segment.words.length) return;
-
-		// Улучшенный алгоритм сопоставления символов с временными метками
-		const createAdvancedCharTimingMap = () => {
-			// Создаем текст из всех слов для сопоставления
-			let fullWordsText = '';
-			const wordTimings: Array<{ start: number; end: number; startIndex: number; endIndex: number }> = [];
+	// ✅ Оптимизированный алгоритм с мемоизацией карты символов
+	const charTimings = useMemo(() => {
+		if (!segment.words.length) return [];
+		
+		const timings: Array<{ start: number; end: number; char: string; word: string }> = [];
+		
+		segment.words.forEach(word => {
+			// const cleanWord = word.word.replace(/^\n+/, '').replace(/\n+$/, '');
+			const cleanWord = word.word.replace(/\n/, '');//.replace(/\n+$/, '');
 			
-			segment.words.forEach(word => {
-				const cleanWord = word.word.replace(/^\n+/, ''); // Убираем переносы в начале
-				const startIndex = fullWordsText.length;
-				fullWordsText += cleanWord;
-				const endIndex = fullWordsText.length - 1;
-				
-				if (cleanWord.trim()) {
-					wordTimings.push({
+			for (let i = 0; i < cleanWord.length; i++) {
+				if(cleanWord[i] !== ' ') {
+					timings.push({
 						start: word.start,
 						end: word.end,
-						startIndex,
-						endIndex
+						char: cleanWord[i],
+						word: word.word
 					});
 				}
-			});
-
-			// Создаем полный текст из paragraph для сопоставления
-			const paragraphText = segment.paragraph.replace(/\n/g, ' ');
-			
-			// Находим соответствие между paragraph и words
-			const charTimingMap = new Map<number, { start: number; end: number }>();
-			
-			// Простое сопоставление по позиции (можно улучшить)
-			let wordsIndex = 0;
-			let paragraphIndex = 0;
-			
-			while (paragraphIndex < paragraphText.length && wordsIndex < wordTimings.length) {
-				const timing = wordTimings[wordsIndex];
-				const wordLength = timing.endIndex - timing.startIndex + 1;
-				
-				// Присваиваем временные метки символам
-				for (let i = 0; i < wordLength && paragraphIndex < paragraphText.length; i++) {
-					charTimingMap.set(paragraphIndex, {
-						start: timing.start,
-						end: timing.end
-					});
-					paragraphIndex++;
-				}
-				
-				// Пропускаем пробелы в paragraph
-				while (paragraphIndex < paragraphText.length && paragraphText[paragraphIndex] === ' ') {
-					paragraphIndex++;
-				}
-				
-				wordsIndex++;
 			}
-			
-			return charTimingMap;
-		};
-
-		const charTimingMap = createAdvancedCharTimingMap();
+		});
 		
-		// Применяем анимацию к символам
-		splitRef.current.chars?.forEach((char, charIndex) => {
-			const timing = charTimingMap.get(charIndex);
-			if (!timing) return;
+		return timings;
+	}, [segment.words]);
 
+	// ✅ Отслеживаем предыдущие состояния символов для оптимизации
+	const prevCharStatesRef = useRef<Array<'inactive' | 'active' | 'completed'>>([]);
+
+	// ✅ Оптимизированный эффект анимации - применяется только при изменении состояний символов
+	useEffect(() => { 
+		console.time('charTimings');
+		if (!splitRef.current || !charTimings.length) return;
+
+		// ✅ Ранний выход: если ни один символ еще не должен быть видимым
+		if (!charTimings.some(timing => timeInSeconds >= timing.start)) {
+			return;
+		}
+
+		// Вычисляем новые состояния символов
+		const newCharStates = charTimings.map(timing => {
 			const isActive = timeInSeconds >= timing.start && timeInSeconds <= timing.end;
 			const hasStarted = timeInSeconds >= timing.start;
 			
+			if (isActive) return 'active';
+			if (hasStarted) return 'completed';
+			return 'inactive';
+		}) as Array<'inactive' | 'active' | 'completed'>;
+
+		// ✅ Проверяем, есть ли изменения в состояниях с помощью some
+		const hasChanges = newCharStates.some((state, index) => 
+			state !== prevCharStatesRef.current[index]
+		);
+		
+		// Если нет изменений, не применяем анимацию
+		if (!hasChanges) return;
+
+		// console.log('!! charTimings', charTimings.length);
+		// console.log('!! splitRef.current.chars', splitRef.current.chars?.length);
+		
+
+		// Применяем анимацию только к символам, состояние которых изменилось
+		splitRef.current.chars?.forEach((char, charIndex) => {
+			const newState = newCharStates[charIndex];
+			const prevState = prevCharStatesRef.current[charIndex];
+			
+			// Пропускаем символы без изменений состояния
+			if (newState === prevState) return;
+			
 			const styles: any = {};
 			
-			if (isActive) {
-				Object.assign(styles, {
-					opacity: 1,
-					color: '#FFD700',
-					scale: 1.15,
-					textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700'
-				});
-			} else if (hasStarted) {
-				Object.assign(styles, {
-					opacity: 1,
-					color: '#FFFFFF',
-					scale: 1,
-					textShadow: 'none'
-				});
-			} else {
-				Object.assign(styles, {
-					opacity: 0.4,
-					color: '#666666',
-					scale: 1,
-					textShadow: 'none'
-				});
+			switch (newState) {
+				case 'active':
+					Object.assign(styles, {
+						opacity: 1,
+						color: '#FFD700',
+						scale: 1.15,
+						textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700'
+					});
+					break;
+				case 'completed':
+					Object.assign(styles, {
+						opacity: 1,
+						color: '#FFFFFF',
+						scale: 1,
+						textShadow: 'none'
+					});
+					break;
+				case 'inactive':
+				default:
+					Object.assign(styles, {
+						opacity: 0.4,
+						color: '#666666',
+						scale: 1,
+						textShadow: 'none'
+					});
+					break;
 			}
 
 			gsap.set(char, styles);
 		});
-	}, [timeInSeconds, segment.words, segment.paragraph, isReady]);
+
+		// Сохраняем новые состояния для следующего сравнения
+		prevCharStatesRef.current = newCharStates;
+		console.timeEnd('charTimings');
+	}, [timeInSeconds, charTimings]);
 
 	if (!segment.paragraph) {
 		return null;
@@ -391,7 +401,7 @@ const ParagraphLineComponent: React.FC<{
 				whiteSpace: 'pre-wrap'
 			}}
 		>
-			{/* Контент устанавливается через textContent в useEffect */}
+			{/* ✅ Контент устанавливается через innerHTML в useEffect */}
 		</div>
 	);
 };

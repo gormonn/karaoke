@@ -14,18 +14,18 @@
 	"repository": {},
 	"license": "UNLICENSED",
 	"dependencies": {
-		"@remotion/cli": "4.0.29",
-		"@remotion/media-utils": "4.0.29",
+		"@remotion/cli": "4.0.321",
+		"@remotion/media-utils": "4.0.321",
 		"animejs": "^4.0.1",
 		"gsap": "^3.13.0",
 		"letterizejs": "^2.0.1",
 		"lottie-react": "^2.4.1",
-		"react": "^18.0.0",
-		"react-dom": "^18.0.0",
-		"remotion": "4.0.29"
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"remotion": "4.0.321"
 	},
 	"devDependencies": {
-		"@remotion/eslint-config": "4.0.29",
+		"@remotion/eslint-config": "4.0.321",
 		"@types/react": "^18.0.26",
 		"@types/web": "^0.0.86",
 		"eslint": "^8.43.0",

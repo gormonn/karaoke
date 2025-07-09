@@ -1,0 +1,6363 @@
+{
+  "text": "\nLate nights staring at myself, don't even know who's looking back\nPutting on these faces like I'm changing into different masks\nBuilt these walls so damn high, can't remember what's inside\nEvery smile's fake as hell, every word's a place to hide\nThey want perfect so I give them what they think they wanna see\nWhile the real me's choking, man, I can't let myself breathe\nCounting down the hours till I can drop this whole charade\nBut the longer that I fake it, more myself just fades away\nMirror's showing strangers, every talk feels like I'm lying\nWalking through my own damn life but inside I'm slowly dying\nLooking good up on the surface but I'm breaking underneath\nPlaying games where being real's like pulling out your teeth\nDon't ask what burns inside my chest\nDon't ask why I can't find rest\nYou don't wanna know\nI'm such a fucking mess\nLife's a game with written rules and I've been playing way too long\nDancing to their beat while everything inside feels wrong\nEvery thing they want from me's like a rope around my throat\nEvery rule they made up keeps my real self locked and broke\nI'm just acting in a movie that I never chose to be in\nPlaying parts that kill me but they always keep me bleeding\nHurting through the bandages they told me not to show\nScreaming in the quiet that they're never gonna know\nPressure in my head like my skull's about to crack\nFighting with the voices that keep stabbing in my back\nTime is running short and I can feel it in my soul\nEither speak my truth or die inside this empty role\nDon't ask what burns inside my chest\nDon't ask why I can't find rest\nYou don't wanna know\nI'm such a fucking mess\nThey want me empty\nJust a shell\nGhost that echoes\nWhat they tell\nBut I'm still breathing\nStill alive\nUnder this\nFake disguise\nThey want me empty\nJust a shell\nGhost that echoes\nWhat they tell\nBut I'm still breathing\nStill alive\nUnder this\nFake disguise\nThey want me empty\nJust a shell\nGhost that echoes\nWhat they tell\nBut I'm still breathing\nStill alive\nUnder this\nFake disguise\nI'm tired of holding this together\nDon't ask what burns inside my chest\nDon't ask why I can't find rest\nYou don't wanna know\nBut the silence ends tonight\nDon't ask...\nTime to tell...\nDon't ask...\nTime to tell...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 23.85638,
+      "end": 59.68085,
+      "text": [
+        "Late nights staring at myself, don't even know who's looking back",
+        "Putting on these faces like I'm changing into different masks",
+        "Built these walls so damn high, can't remember what's inside",
+        "Every smile's fake as hell, every word's a place to hide",
+        "They want perfect so I give them what they think they wanna see",
+        "While the real me's choking, man, I can't let myself breathe",
+        "Counting down the hours till I can drop this whole charade",
+        "But the longer that I fake it, more myself just fades away",
+        "Mirror's showing strangers, every talk feels like I'm lying",
+        "Walking through my own damn life but inside I'm slowly dying",
+        "Looking good up on the surface but I'm breaking underneath",
+        "Playing games where being real's like pulling out your teeth"
+      ],
+      "paragraph": "Late nights staring at myself, don't even know who's looking back\nPutting on these faces like I'm changing into different masks\nBuilt these walls so damn high, can't remember what's inside\nEvery smile's fake as hell, every word's a place to hide\nThey want perfect so I give them what they think they wanna see\nWhile the real me's choking, man, I can't let myself breathe\nCounting down the hours till I can drop this whole charade\nBut the longer that I fake it, more myself just fades away\nMirror's showing strangers, every talk feels like I'm lying\nWalking through my own damn life but inside I'm slowly dying\nLooking good up on the surface but I'm breaking underneath\nPlaying games where being real's like pulling out your teeth",
+      "words": [
+        {
+          "word": "\nLate",
+          "start": 23.85638,
+          "end": 24.09574,
+          "probability": 1
+        },
+        {
+          "word": " nights",
+          "start": 24.09574,
+          "end": 24.25532,
+          "probability": 1
+        },
+        {
+          "word": " staring",
+          "start": 24.33511,
+          "end": 24.65426,
+          "probability": 1
+        },
+        {
+          "word": " at",
+          "start": 24.65426,
+          "end": 24.89362,
+          "probability": 1
+        },
+        {
+          "word": " myself",
+          "start": 25.05319,
+          "end": 25.21277,
+          "probability": 1
+        },
+        {
+          "word": ", d",
+          "start": 25.21277,
+          "end": 25.37234,
+          "probability": 1
+        },
+        {
+          "word": "on",
+          "start": 25.37234,
+          "end": 25.45213,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 25.45213,
+          "end": 25.53191,
+          "probability": 1
+        },
+        {
+          "word": " even",
+          "start": 25.53191,
+          "end": 25.77128,
+          "probability": 1
+        },
+        {
+          "word": " know",
+          "start": 25.77128,
+          "end": 25.93085,
+          "probability": 1
+        },
+        {
+          "word": " wh",
+          "start": 25.93085,
+          "end": 26.01064,
+          "probability": 1
+        },
+        {
+          "word": "o's",
+          "start": 26.01064,
+          "end": 26.09043,
+          "probability": 1
+        },
+        {
+          "word": " looking",
+          "start": 26.17021,
+          "end": 26.56915,
+          "probability": 1
+        },
+        {
+          "word": " back",
+          "start": 26.56915,
+          "end": 26.8883,
+          "probability": 1
+        },
+        {
+          "word": "\nPut",
+          "start": 26.8883,
+          "end": 27.12766,
+          "probability": 1
+        },
+        {
+          "word": "ting",
+          "start": 27.12766,
+          "end": 27.20745,
+          "probability": 1
+        },
+        {
+          "word": " on",
+          "start": 27.28723,
+          "end": 27.44681,
+          "probability": 1
+        },
+        {
+          "word": " these",
+          "start": 27.44681,
+          "end": 27.68617,
+          "probability": 1
+        },
+        {
+          "word": " faces l",
+          "start": 27.68617,
+          "end": 28.00532,
+          "probability": 1
+        },
+        {
+          "word": "i",
+          "start": 28.00532,
+          "end": 28.16489,
+          "probability": 1
+        },
+        {
+          "word": "ke I",
+          "start": 28.32447,
+          "end": 28.40426,
+          "probability": 1
+        },
+        {
+          "word": "'m",
+          "start": 28.40426,
+          "end": 28.48404,
+          "probability": 1
+        },
+        {
+          "word": " changing",
+          "start": 28.48404,
+          "end": 28.96277,
+          "probability": 1
+        },
+        {
+          "word": " into",
+          "start": 28.96277,
+          "end": 29.20213,
+          "probability": 1
+        },
+        {
+          "word": " different",
+          "start": 29.20213,
+          "end": 29.52128,
+          "probability": 1
+        },
+        {
+          "word": " mas",
+          "start": 29.52128,
+          "end": 29.68085,
+          "probability": 1
+        },
+        {
+          "word": "ks",
+          "start": 29.68085,
+          "end": 29.84043,
+          "probability": 1
+        },
+        {
+          "word": "\nBuilt",
+          "start": 29.92021,
+          "end": 30.15957,
+          "probability": 1
+        },
+        {
+          "word": " these",
+          "start": 30.15957,
+          "end": 30.31915,
+          "probability": 1
+        },
+        {
+          "word": " walls",
+          "start": 30.31915,
+          "end": 30.55851,
+          "probability": 1
+        },
+        {
+          "word": " so",
+          "start": 30.55851,
+          "end": 30.71809,
+          "probability": 1
+        },
+        {
+          "word": " damn",
+          "start": 30.71809,
+          "end": 31.03723,
+          "probability": 1
+        },
+        {
+          "word": " high",
+          "start": 31.03723,
+          "end": 31.35638,
+          "probability": 1
+        },
+        {
+          "word": ", c",
+          "start": 31.35638,
+          "end": 31.43617,
+          "probability": 1
+        },
+        {
+          "word": "an",
+          "start": 31.43617,
+          "end": 31.51596,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 31.51596,
+          "end": 31.67553,
+          "probability": 1
+        },
+        {
+          "word": " remember",
+          "start": 31.75532,
+          "end": 32.15426,
+          "probability": 1
+        },
+        {
+          "word": " what",
+          "start": 32.15426,
+          "end": 32.23404,
+          "probability": 1
+        },
+        {
+          "word": "'s ins",
+          "start": 32.23404,
+          "end": 32.31383,
+          "probability": 1
+        },
+        {
+          "word": "ide",
+          "start": 32.55319,
+          "end": 32.79255,
+          "probability": 1
+        },
+        {
+          "word": "\nEvery",
+          "start": 32.95213,
+          "end": 33.27128,
+          "probability": 1
+        },
+        {
+          "word": " sm",
+          "start": 33.27128,
+          "end": 33.43085,
+          "probability": 1
+        },
+        {
+          "word": "ile's",
+          "start": 33.43085,
+          "end": 33.51064,
+          "probability": 1
+        },
+        {
+          "word": " fake",
+          "start": 33.59043,
+          "end": 33.82979,
+          "probability": 1
+        },
+        {
+          "word": " as",
+          "start": 33.82979,
+          "end": 34.06915,
+          "probability": 1
+        },
+        {
+          "word": " hell",
+          "start": 34.06915,
+          "end": 34.46809,
+          "probability": 1
+        },
+        {
+          "word": ", every",
+          "start": 34.46809,
+          "end": 34.70745,
+          "probability": 1
+        },
+        {
+          "word": " wor",
+          "start": 34.70745,
+          "end": 34.78723,
+          "probability": 1
+        },
+        {
+          "word": "d's",
+          "start": 34.78723,
+          "end": 34.86702,
+          "probability": 1
+        },
+        {
+          "word": " a",
+          "start": 34.86702,
+          "end": 34.94681,
+          "probability": 1
+        },
+        {
+          "word": " place",
+          "start": 35.10638,
+          "end": 35.34574,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 35.34574,
+          "end": 35.50532,
+          "probability": 1
+        },
+        {
+          "word": " hide",
+          "start": 35.50532,
+          "end": 35.90426,
+          "probability": 1
+        },
+        {
+          "word": "\nThey",
+          "start": 35.90426,
+          "end": 36.06383,
+          "probability": 1
+        },
+        {
+          "word": " want",
+          "start": 36.06383,
+          "end": 36.30319,
+          "probability": 1
+        },
+        {
+          "word": " perfect",
+          "start": 36.30319,
+          "end": 36.70213,
+          "probability": 1
+        },
+        {
+          "word": " so I",
+          "start": 36.70213,
+          "end": 36.78191,
+          "probability": 1
+        },
+        {
+          "word": " give",
+          "start": 37.02128,
+          "end": 37.26064,
+          "probability": 1
+        },
+        {
+          "word": " them",
+          "start": 37.26064,
+          "end": 37.42021,
+          "probability": 1
+        },
+        {
+          "word": " what",
+          "start": 37.42021,
+          "end": 37.57979,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 37.57979,
+          "end": 37.73936,
+          "probability": 1
+        },
+        {
+          "word": " think",
+          "start": 37.73936,
+          "end": 37.97872,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 37.97872,
+          "end": 38.21809,
+          "probability": 1
+        },
+        {
+          "word": " wanna",
+          "start": 38.21809,
+          "end": 38.53723,
+          "probability": 1
+        },
+        {
+          "word": " see",
+          "start": 38.53723,
+          "end": 38.85638,
+          "probability": 1
+        },
+        {
+          "word": "\nWhile",
+          "start": 38.85638,
+          "end": 39.09574,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 39.09574,
+          "end": 39.25532,
+          "probability": 1
+        },
+        {
+          "word": " real m",
+          "start": 39.25532,
+          "end": 39.41489,
+          "probability": 1
+        },
+        {
+          "word": "e's",
+          "start": 39.49468,
+          "end": 39.57447,
+          "probability": 1
+        },
+        {
+          "word": " cho",
+          "start": 39.65426,
+          "end": 39.81383,
+          "probability": 1
+        },
+        {
+          "word": "king",
+          "start": 39.81383,
+          "end": 40.05319,
+          "probability": 1
+        },
+        {
+          "word": ", man",
+          "start": 40.05319,
+          "end": 40.37234,
+          "probability": 1
+        },
+        {
+          "word": ", I c",
+          "start": 40.37234,
+          "end": 40.53191,
+          "probability": 1
+        },
+        {
+          "word": "an",
+          "start": 40.6117,
+          "end": 40.69149,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 40.69149,
+          "end": 40.77128,
+          "probability": 1
+        },
+        {
+          "word": " let",
+          "start": 40.77128,
+          "end": 41.09043,
+          "probability": 1
+        },
+        {
+          "word": " myself",
+          "start": 41.17021,
+          "end": 41.48936,
+          "probability": 1
+        },
+        {
+          "word": " breathe",
+          "start": 41.48936,
+          "end": 41.8883,
+          "probability": 1
+        },
+        {
+          "word": "\nCounting",
+          "start": 41.8883,
+          "end": 42.28723,
+          "probability": 1
+        },
+        {
+          "word": " down",
+          "start": 42.28723,
+          "end": 42.44681,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 42.44681,
+          "end": 42.60638,
+          "probability": 1
+        },
+        {
+          "word": " hours",
+          "start": 42.60638,
+          "end": 43.00532,
+          "probability": 1
+        },
+        {
+          "word": " till",
+          "start": 43.00532,
+          "end": 43.32447,
+          "probability": 1
+        },
+        {
+          "word": " I",
+          "start": 43.32447,
+          "end": 43.40426,
+          "probability": 1
+        },
+        {
+          "word": " can",
+          "start": 43.56383,
+          "end": 43.7234,
+          "probability": 1
+        },
+        {
+          "word": " drop",
+          "start": 43.7234,
+          "end": 44.04255,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 44.04255,
+          "end": 44.20213,
+          "probability": 1
+        },
+        {
+          "word": " whole",
+          "start": 44.20213,
+          "end": 44.44149,
+          "probability": 1
+        },
+        {
+          "word": " cha",
+          "start": 44.44149,
+          "end": 44.60106,
+          "probability": 1
+        },
+        {
+          "word": "ra",
+          "start": 44.60106,
+          "end": 44.68085,
+          "probability": 1
+        },
+        {
+          "word": "de",
+          "start": 44.68085,
+          "end": 44.84043,
+          "probability": 1
+        },
+        {
+          "word": "\nBut",
+          "start": 44.92021,
+          "end": 45.15957,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 45.15957,
+          "end": 45.31915,
+          "probability": 1
+        },
+        {
+          "word": " longer",
+          "start": 45.31915,
+          "end": 45.71809,
+          "probability": 1
+        },
+        {
+          "word": " th",
+          "start": 45.71809,
+          "end": 45.79787,
+          "probability": 1
+        },
+        {
+          "word": "at I",
+          "start": 45.79787,
+          "end": 45.87766,
+          "probability": 1
+        },
+        {
+          "word": " fake",
+          "start": 46.03723,
+          "end": 46.2766,
+          "probability": 1
+        },
+        {
+          "word": " it",
+          "start": 46.2766,
+          "end": 46.43617,
+          "probability": 1
+        },
+        {
+          "word": ", more",
+          "start": 46.43617,
+          "end": 46.75532,
+          "probability": 1
+        },
+        {
+          "word": " myself",
+          "start": 46.75532,
+          "end": 46.99468,
+          "probability": 1
+        },
+        {
+          "word": " just",
+          "start": 46.99468,
+          "end": 47.23404,
+          "probability": 1
+        },
+        {
+          "word": " fad",
+          "start": 47.23404,
+          "end": 47.31383,
+          "probability": 1
+        },
+        {
+          "word": "es",
+          "start": 47.31383,
+          "end": 47.4734,
+          "probability": 1
+        },
+        {
+          "word": " away",
+          "start": 47.55319,
+          "end": 47.87234,
+          "probability": 1
+        },
+        {
+          "word": "\nMirror",
+          "start": 47.87234,
+          "end": 48.03191,
+          "probability": 1
+        },
+        {
+          "word": "'s",
+          "start": 48.03191,
+          "end": 48.1117,
+          "probability": 1
+        },
+        {
+          "word": " show",
+          "start": 48.1117,
+          "end": 48.35106,
+          "probability": 1
+        },
+        {
+          "word": "ing ",
+          "start": 48.35106,
+          "end": 48.51064,
+          "probability": 1
+        },
+        {
+          "word": "strang",
+          "start": 48.51064,
+          "end": 48.75,
+          "probability": 1
+        },
+        {
+          "word": "ers",
+          "start": 48.75,
+          "end": 48.90957,
+          "probability": 1
+        },
+        {
+          "word": ", every",
+          "start": 49.14894,
+          "end": 49.3883,
+          "probability": 1
+        },
+        {
+          "word": " talk",
+          "start": 49.3883,
+          "end": 49.62766,
+          "probability": 1
+        },
+        {
+          "word": " feels",
+          "start": 49.62766,
+          "end": 49.86702,
+          "probability": 1
+        },
+        {
+          "word": " like ",
+          "start": 49.86702,
+          "end": 49.94681,
+          "probability": 1
+        },
+        {
+          "word": "I'm",
+          "start": 50.0266,
+          "end": 50.10638,
+          "probability": 1
+        },
+        {
+          "word": " lying",
+          "start": 50.26596,
+          "end": 50.58511,
+          "probability": 1
+        },
+        {
+          "word": "\nWalking",
+          "start": 50.58511,
+          "end": 50.98404,
+          "probability": 1
+        },
+        {
+          "word": " through",
+          "start": 50.98404,
+          "end": 51.14362,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 51.14362,
+          "end": 51.30319,
+          "probability": 1
+        },
+        {
+          "word": " own",
+          "start": 51.30319,
+          "end": 51.46277,
+          "probability": 1
+        },
+        {
+          "word": " damn",
+          "start": 51.46277,
+          "end": 51.70213,
+          "probability": 1
+        },
+        {
+          "word": " life",
+          "start": 51.70213,
+          "end": 52.02128,
+          "probability": 1
+        },
+        {
+          "word": " but",
+          "start": 52.02128,
+          "end": 52.34043,
+          "probability": 1
+        },
+        {
+          "word": " insi",
+          "start": 52.42021,
+          "end": 52.57979,
+          "probability": 1
+        },
+        {
+          "word": "de I",
+          "start": 52.65957,
+          "end": 52.73936,
+          "probability": 1
+        },
+        {
+          "word": "'m",
+          "start": 52.73936,
+          "end": 52.89894,
+          "probability": 1
+        },
+        {
+          "word": " slowly",
+          "start": 52.89894,
+          "end": 53.21809,
+          "probability": 1
+        },
+        {
+          "word": " dy",
+          "start": 53.21809,
+          "end": 53.37766,
+          "probability": 1
+        },
+        {
+          "word": "ing",
+          "start": 53.37766,
+          "end": 53.45745,
+          "probability": 1
+        },
+        {
+          "word": "\nLooking",
+          "start": 53.61702,
+          "end": 53.93617,
+          "probability": 1
+        },
+        {
+          "word": " good",
+          "start": 53.93617,
+          "end": 54.17553,
+          "probability": 1
+        },
+        {
+          "word": " up",
+          "start": 54.17553,
+          "end": 54.33511,
+          "probability": 1
+        },
+        {
+          "word": " on",
+          "start": 54.33511,
+          "end": 54.49468,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 54.49468,
+          "end": 54.65426,
+          "probability": 1
+        },
+        {
+          "word": " sur",
+          "start": 54.65426,
+          "end": 54.89362,
+          "probability": 1
+        },
+        {
+          "word": "face",
+          "start": 54.89362,
+          "end": 55.05319,
+          "probability": 1
+        },
+        {
+          "word": " but I",
+          "start": 55.05319,
+          "end": 55.21277,
+          "probability": 1
+        },
+        {
+          "word": "'m",
+          "start": 55.29255,
+          "end": 55.37234,
+          "probability": 1
+        },
+        {
+          "word": " br",
+          "start": 55.37234,
+          "end": 55.45213,
+          "probability": 1
+        },
+        {
+          "word": "eaking",
+          "start": 55.45213,
+          "end": 55.93085,
+          "probability": 1
+        },
+        {
+          "word": " underneath",
+          "start": 56.17021,
+          "end": 56.56915,
+          "probability": 1
+        },
+        {
+          "word": "\nPlaying",
+          "start": 56.56915,
+          "end": 56.8883,
+          "probability": 1
+        },
+        {
+          "word": " games",
+          "start": 56.8883,
+          "end": 57.12766,
+          "probability": 1
+        },
+        {
+          "word": " where",
+          "start": 57.12766,
+          "end": 57.36702,
+          "probability": 1
+        },
+        {
+          "word": " being",
+          "start": 57.36702,
+          "end": 57.68617,
+          "probability": 1
+        },
+        {
+          "word": " re",
+          "start": 57.68617,
+          "end": 57.84574,
+          "probability": 1
+        },
+        {
+          "word": "al",
+          "start": 57.84574,
+          "end": 57.92553,
+          "probability": 1
+        },
+        {
+          "word": "'s",
+          "start": 57.92553,
+          "end": 58.08511,
+          "probability": 1
+        },
+        {
+          "word": " like",
+          "start": 58.08511,
+          "end": 58.40426,
+          "probability": 1
+        },
+        {
+          "word": " pulling",
+          "start": 58.40426,
+          "end": 58.80319,
+          "probability": 1
+        },
+        {
+          "word": " out",
+          "start": 58.80319,
+          "end": 58.96277,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 58.96277,
+          "end": 59.20213,
+          "probability": 1
+        },
+        {
+          "word": " teeth",
+          "start": 59.20213,
+          "end": 59.68085,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 23.85638,
+            "end": 24.09574,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Late",
+            "start": 23.85638,
+            "end": 24.09574,
+            "probability": 1
+          },
+          {
+            "word": " nights",
+            "start": 24.09574,
+            "end": 24.25532,
+            "probability": 1
+          },
+          {
+            "word": " staring",
+            "start": 24.33511,
+            "end": 24.65426,
+            "probability": 1
+          },
+          {
+            "word": " at",
+            "start": 24.65426,
+            "end": 24.89362,
+            "probability": 1
+          },
+          {
+            "word": " myself",
+            "start": 25.05319,
+            "end": 25.21277,
+            "probability": 1
+          },
+          {
+            "word": ", d",
+            "start": 25.21277,
+            "end": 25.37234,
+            "probability": 1
+          },
+          {
+            "word": "on",
+            "start": 25.37234,
+            "end": 25.45213,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 25.45213,
+            "end": 25.53191,
+            "probability": 1
+          },
+          {
+            "word": " even",
+            "start": 25.53191,
+            "end": 25.77128,
+            "probability": 1
+          },
+          {
+            "word": " know",
+            "start": 25.77128,
+            "end": 25.93085,
+            "probability": 1
+          },
+          {
+            "word": " wh",
+            "start": 25.93085,
+            "end": 26.01064,
+            "probability": 1
+          },
+          {
+            "word": "o's",
+            "start": 26.01064,
+            "end": 26.09043,
+            "probability": 1
+          },
+          {
+            "word": " looking",
+            "start": 26.17021,
+            "end": 26.56915,
+            "probability": 1
+          },
+          {
+            "word": " back",
+            "start": 26.56915,
+            "end": 26.8883,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 26.8883,
+            "end": 27.12766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Put",
+            "start": 26.8883,
+            "end": 27.12766,
+            "probability": 1
+          },
+          {
+            "word": "ting",
+            "start": 27.12766,
+            "end": 27.20745,
+            "probability": 1
+          },
+          {
+            "word": " on",
+            "start": 27.28723,
+            "end": 27.44681,
+            "probability": 1
+          },
+          {
+            "word": " these",
+            "start": 27.44681,
+            "end": 27.68617,
+            "probability": 1
+          },
+          {
+            "word": " faces l",
+            "start": 27.68617,
+            "end": 28.00532,
+            "probability": 1
+          },
+          {
+            "word": "i",
+            "start": 28.00532,
+            "end": 28.16489,
+            "probability": 1
+          },
+          {
+            "word": "ke I",
+            "start": 28.32447,
+            "end": 28.40426,
+            "probability": 1
+          },
+          {
+            "word": "'m",
+            "start": 28.40426,
+            "end": 28.48404,
+            "probability": 1
+          },
+          {
+            "word": " changing",
+            "start": 28.48404,
+            "end": 28.96277,
+            "probability": 1
+          },
+          {
+            "word": " into",
+            "start": 28.96277,
+            "end": 29.20213,
+            "probability": 1
+          },
+          {
+            "word": " different",
+            "start": 29.20213,
+            "end": 29.52128,
+            "probability": 1
+          },
+          {
+            "word": " mas",
+            "start": 29.52128,
+            "end": 29.68085,
+            "probability": 1
+          },
+          {
+            "word": "ks",
+            "start": 29.68085,
+            "end": 29.84043,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 29.92021,
+            "end": 30.15957,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Built",
+            "start": 29.92021,
+            "end": 30.15957,
+            "probability": 1
+          },
+          {
+            "word": " these",
+            "start": 30.15957,
+            "end": 30.31915,
+            "probability": 1
+          },
+          {
+            "word": " walls",
+            "start": 30.31915,
+            "end": 30.55851,
+            "probability": 1
+          },
+          {
+            "word": " so",
+            "start": 30.55851,
+            "end": 30.71809,
+            "probability": 1
+          },
+          {
+            "word": " damn",
+            "start": 30.71809,
+            "end": 31.03723,
+            "probability": 1
+          },
+          {
+            "word": " high",
+            "start": 31.03723,
+            "end": 31.35638,
+            "probability": 1
+          },
+          {
+            "word": ", c",
+            "start": 31.35638,
+            "end": 31.43617,
+            "probability": 1
+          },
+          {
+            "word": "an",
+            "start": 31.43617,
+            "end": 31.51596,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 31.51596,
+            "end": 31.67553,
+            "probability": 1
+          },
+          {
+            "word": " remember",
+            "start": 31.75532,
+            "end": 32.15426,
+            "probability": 1
+          },
+          {
+            "word": " what",
+            "start": 32.15426,
+            "end": 32.23404,
+            "probability": 1
+          },
+          {
+            "word": "'s ins",
+            "start": 32.23404,
+            "end": 32.31383,
+            "probability": 1
+          },
+          {
+            "word": "ide",
+            "start": 32.55319,
+            "end": 32.79255,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 32.95213,
+            "end": 33.27128,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Every",
+            "start": 32.95213,
+            "end": 33.27128,
+            "probability": 1
+          },
+          {
+            "word": " sm",
+            "start": 33.27128,
+            "end": 33.43085,
+            "probability": 1
+          },
+          {
+            "word": "ile's",
+            "start": 33.43085,
+            "end": 33.51064,
+            "probability": 1
+          },
+          {
+            "word": " fake",
+            "start": 33.59043,
+            "end": 33.82979,
+            "probability": 1
+          },
+          {
+            "word": " as",
+            "start": 33.82979,
+            "end": 34.06915,
+            "probability": 1
+          },
+          {
+            "word": " hell",
+            "start": 34.06915,
+            "end": 34.46809,
+            "probability": 1
+          },
+          {
+            "word": ", every",
+            "start": 34.46809,
+            "end": 34.70745,
+            "probability": 1
+          },
+          {
+            "word": " wor",
+            "start": 34.70745,
+            "end": 34.78723,
+            "probability": 1
+          },
+          {
+            "word": "d's",
+            "start": 34.78723,
+            "end": 34.86702,
+            "probability": 1
+          },
+          {
+            "word": " a",
+            "start": 34.86702,
+            "end": 34.94681,
+            "probability": 1
+          },
+          {
+            "word": " place",
+            "start": 35.10638,
+            "end": 35.34574,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 35.34574,
+            "end": 35.50532,
+            "probability": 1
+          },
+          {
+            "word": " hide",
+            "start": 35.50532,
+            "end": 35.90426,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 35.90426,
+            "end": 36.06383,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 35.90426,
+            "end": 36.06383,
+            "probability": 1
+          },
+          {
+            "word": " want",
+            "start": 36.06383,
+            "end": 36.30319,
+            "probability": 1
+          },
+          {
+            "word": " perfect",
+            "start": 36.30319,
+            "end": 36.70213,
+            "probability": 1
+          },
+          {
+            "word": " so I",
+            "start": 36.70213,
+            "end": 36.78191,
+            "probability": 1
+          },
+          {
+            "word": " give",
+            "start": 37.02128,
+            "end": 37.26064,
+            "probability": 1
+          },
+          {
+            "word": " them",
+            "start": 37.26064,
+            "end": 37.42021,
+            "probability": 1
+          },
+          {
+            "word": " what",
+            "start": 37.42021,
+            "end": 37.57979,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 37.57979,
+            "end": 37.73936,
+            "probability": 1
+          },
+          {
+            "word": " think",
+            "start": 37.73936,
+            "end": 37.97872,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 37.97872,
+            "end": 38.21809,
+            "probability": 1
+          },
+          {
+            "word": " wanna",
+            "start": 38.21809,
+            "end": 38.53723,
+            "probability": 1
+          },
+          {
+            "word": " see",
+            "start": 38.53723,
+            "end": 38.85638,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 38.85638,
+            "end": 39.09574,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "While",
+            "start": 38.85638,
+            "end": 39.09574,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 39.09574,
+            "end": 39.25532,
+            "probability": 1
+          },
+          {
+            "word": " real m",
+            "start": 39.25532,
+            "end": 39.41489,
+            "probability": 1
+          },
+          {
+            "word": "e's",
+            "start": 39.49468,
+            "end": 39.57447,
+            "probability": 1
+          },
+          {
+            "word": " cho",
+            "start": 39.65426,
+            "end": 39.81383,
+            "probability": 1
+          },
+          {
+            "word": "king",
+            "start": 39.81383,
+            "end": 40.05319,
+            "probability": 1
+          },
+          {
+            "word": ", man",
+            "start": 40.05319,
+            "end": 40.37234,
+            "probability": 1
+          },
+          {
+            "word": ", I c",
+            "start": 40.37234,
+            "end": 40.53191,
+            "probability": 1
+          },
+          {
+            "word": "an",
+            "start": 40.6117,
+            "end": 40.69149,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 40.69149,
+            "end": 40.77128,
+            "probability": 1
+          },
+          {
+            "word": " let",
+            "start": 40.77128,
+            "end": 41.09043,
+            "probability": 1
+          },
+          {
+            "word": " myself",
+            "start": 41.17021,
+            "end": 41.48936,
+            "probability": 1
+          },
+          {
+            "word": " breathe",
+            "start": 41.48936,
+            "end": 41.8883,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 41.8883,
+            "end": 42.28723,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Counting",
+            "start": 41.8883,
+            "end": 42.28723,
+            "probability": 1
+          },
+          {
+            "word": " down",
+            "start": 42.28723,
+            "end": 42.44681,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 42.44681,
+            "end": 42.60638,
+            "probability": 1
+          },
+          {
+            "word": " hours",
+            "start": 42.60638,
+            "end": 43.00532,
+            "probability": 1
+          },
+          {
+            "word": " till",
+            "start": 43.00532,
+            "end": 43.32447,
+            "probability": 1
+          },
+          {
+            "word": " I",
+            "start": 43.32447,
+            "end": 43.40426,
+            "probability": 1
+          },
+          {
+            "word": " can",
+            "start": 43.56383,
+            "end": 43.7234,
+            "probability": 1
+          },
+          {
+            "word": " drop",
+            "start": 43.7234,
+            "end": 44.04255,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 44.04255,
+            "end": 44.20213,
+            "probability": 1
+          },
+          {
+            "word": " whole",
+            "start": 44.20213,
+            "end": 44.44149,
+            "probability": 1
+          },
+          {
+            "word": " cha",
+            "start": 44.44149,
+            "end": 44.60106,
+            "probability": 1
+          },
+          {
+            "word": "ra",
+            "start": 44.60106,
+            "end": 44.68085,
+            "probability": 1
+          },
+          {
+            "word": "de",
+            "start": 44.68085,
+            "end": 44.84043,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 44.92021,
+            "end": 45.15957,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But",
+            "start": 44.92021,
+            "end": 45.15957,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 45.15957,
+            "end": 45.31915,
+            "probability": 1
+          },
+          {
+            "word": " longer",
+            "start": 45.31915,
+            "end": 45.71809,
+            "probability": 1
+          },
+          {
+            "word": " th",
+            "start": 45.71809,
+            "end": 45.79787,
+            "probability": 1
+          },
+          {
+            "word": "at I",
+            "start": 45.79787,
+            "end": 45.87766,
+            "probability": 1
+          },
+          {
+            "word": " fake",
+            "start": 46.03723,
+            "end": 46.2766,
+            "probability": 1
+          },
+          {
+            "word": " it",
+            "start": 46.2766,
+            "end": 46.43617,
+            "probability": 1
+          },
+          {
+            "word": ", more",
+            "start": 46.43617,
+            "end": 46.75532,
+            "probability": 1
+          },
+          {
+            "word": " myself",
+            "start": 46.75532,
+            "end": 46.99468,
+            "probability": 1
+          },
+          {
+            "word": " just",
+            "start": 46.99468,
+            "end": 47.23404,
+            "probability": 1
+          },
+          {
+            "word": " fad",
+            "start": 47.23404,
+            "end": 47.31383,
+            "probability": 1
+          },
+          {
+            "word": "es",
+            "start": 47.31383,
+            "end": 47.4734,
+            "probability": 1
+          },
+          {
+            "word": " away",
+            "start": 47.55319,
+            "end": 47.87234,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 47.87234,
+            "end": 48.03191,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Mirror",
+            "start": 47.87234,
+            "end": 48.03191,
+            "probability": 1
+          },
+          {
+            "word": "'s",
+            "start": 48.03191,
+            "end": 48.1117,
+            "probability": 1
+          },
+          {
+            "word": " show",
+            "start": 48.1117,
+            "end": 48.35106,
+            "probability": 1
+          },
+          {
+            "word": "ing ",
+            "start": 48.35106,
+            "end": 48.51064,
+            "probability": 1
+          },
+          {
+            "word": "strang",
+            "start": 48.51064,
+            "end": 48.75,
+            "probability": 1
+          },
+          {
+            "word": "ers",
+            "start": 48.75,
+            "end": 48.90957,
+            "probability": 1
+          },
+          {
+            "word": ", every",
+            "start": 49.14894,
+            "end": 49.3883,
+            "probability": 1
+          },
+          {
+            "word": " talk",
+            "start": 49.3883,
+            "end": 49.62766,
+            "probability": 1
+          },
+          {
+            "word": " feels",
+            "start": 49.62766,
+            "end": 49.86702,
+            "probability": 1
+          },
+          {
+            "word": " like ",
+            "start": 49.86702,
+            "end": 49.94681,
+            "probability": 1
+          },
+          {
+            "word": "I'm",
+            "start": 50.0266,
+            "end": 50.10638,
+            "probability": 1
+          },
+          {
+            "word": " lying",
+            "start": 50.26596,
+            "end": 50.58511,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 50.58511,
+            "end": 50.98404,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Walking",
+            "start": 50.58511,
+            "end": 50.98404,
+            "probability": 1
+          },
+          {
+            "word": " through",
+            "start": 50.98404,
+            "end": 51.14362,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 51.14362,
+            "end": 51.30319,
+            "probability": 1
+          },
+          {
+            "word": " own",
+            "start": 51.30319,
+            "end": 51.46277,
+            "probability": 1
+          },
+          {
+            "word": " damn",
+            "start": 51.46277,
+            "end": 51.70213,
+            "probability": 1
+          },
+          {
+            "word": " life",
+            "start": 51.70213,
+            "end": 52.02128,
+            "probability": 1
+          },
+          {
+            "word": " but",
+            "start": 52.02128,
+            "end": 52.34043,
+            "probability": 1
+          },
+          {
+            "word": " insi",
+            "start": 52.42021,
+            "end": 52.57979,
+            "probability": 1
+          },
+          {
+            "word": "de I",
+            "start": 52.65957,
+            "end": 52.73936,
+            "probability": 1
+          },
+          {
+            "word": "'m",
+            "start": 52.73936,
+            "end": 52.89894,
+            "probability": 1
+          },
+          {
+            "word": " slowly",
+            "start": 52.89894,
+            "end": 53.21809,
+            "probability": 1
+          },
+          {
+            "word": " dy",
+            "start": 53.21809,
+            "end": 53.37766,
+            "probability": 1
+          },
+          {
+            "word": "ing",
+            "start": 53.37766,
+            "end": 53.45745,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 53.61702,
+            "end": 53.93617,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Looking",
+            "start": 53.61702,
+            "end": 53.93617,
+            "probability": 1
+          },
+          {
+            "word": " good",
+            "start": 53.93617,
+            "end": 54.17553,
+            "probability": 1
+          },
+          {
+            "word": " up",
+            "start": 54.17553,
+            "end": 54.33511,
+            "probability": 1
+          },
+          {
+            "word": " on",
+            "start": 54.33511,
+            "end": 54.49468,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 54.49468,
+            "end": 54.65426,
+            "probability": 1
+          },
+          {
+            "word": " sur",
+            "start": 54.65426,
+            "end": 54.89362,
+            "probability": 1
+          },
+          {
+            "word": "face",
+            "start": 54.89362,
+            "end": 55.05319,
+            "probability": 1
+          },
+          {
+            "word": " but I",
+            "start": 55.05319,
+            "end": 55.21277,
+            "probability": 1
+          },
+          {
+            "word": "'m",
+            "start": 55.29255,
+            "end": 55.37234,
+            "probability": 1
+          },
+          {
+            "word": " br",
+            "start": 55.37234,
+            "end": 55.45213,
+            "probability": 1
+          },
+          {
+            "word": "eaking",
+            "start": 55.45213,
+            "end": 55.93085,
+            "probability": 1
+          },
+          {
+            "word": " underneath",
+            "start": 56.17021,
+            "end": 56.56915,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 56.56915,
+            "end": 56.8883,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Playing",
+            "start": 56.56915,
+            "end": 56.8883,
+            "probability": 1
+          },
+          {
+            "word": " games",
+            "start": 56.8883,
+            "end": 57.12766,
+            "probability": 1
+          },
+          {
+            "word": " where",
+            "start": 57.12766,
+            "end": 57.36702,
+            "probability": 1
+          },
+          {
+            "word": " being",
+            "start": 57.36702,
+            "end": 57.68617,
+            "probability": 1
+          },
+          {
+            "word": " re",
+            "start": 57.68617,
+            "end": 57.84574,
+            "probability": 1
+          },
+          {
+            "word": "al",
+            "start": 57.84574,
+            "end": 57.92553,
+            "probability": 1
+          },
+          {
+            "word": "'s",
+            "start": 57.92553,
+            "end": 58.08511,
+            "probability": 1
+          },
+          {
+            "word": " like",
+            "start": 58.08511,
+            "end": 58.40426,
+            "probability": 1
+          },
+          {
+            "word": " pulling",
+            "start": 58.40426,
+            "end": 58.80319,
+            "probability": 1
+          },
+          {
+            "word": " out",
+            "start": 58.80319,
+            "end": 58.96277,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 58.96277,
+            "end": 59.20213,
+            "probability": 1
+          },
+          {
+            "word": " teeth",
+            "start": 59.20213,
+            "end": 59.68085,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 60.71809,
+      "end": 77.63298,
+      "text": [
+        "Don't ask what burns inside my chest",
+        "Don't ask why I can't find rest",
+        "You don't wanna know",
+        "I'm such a fucking mess"
+      ],
+      "paragraph": "Don't ask what burns inside my chest\nDon't ask why I can't find rest\nYou don't wanna know\nI'm such a fucking mess",
+      "words": [
+        {
+          "word": "\nDo",
+          "start": 60.71809,
+          "end": 60.87766,
+          "probability": 1
+        },
+        {
+          "word": "n't",
+          "start": 60.87766,
+          "end": 60.95745,
+          "probability": 1
+        },
+        {
+          "word": " ask",
+          "start": 61.11702,
+          "end": 61.43617,
+          "probability": 1
+        },
+        {
+          "word": " what",
+          "start": 61.83511,
+          "end": 62.23404,
+          "probability": 1
+        },
+        {
+          "word": " burns",
+          "start": 62.55319,
+          "end": 63.03191,
+          "probability": 1
+        },
+        {
+          "word": " inside",
+          "start": 63.98936,
+          "end": 64.54787,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 64.78723,
+          "end": 65.0266,
+          "probability": 1
+        },
+        {
+          "word": " chest",
+          "start": 65.50532,
+          "end": 65.98404,
+          "probability": 1
+        },
+        {
+          "word": "\nDo",
+          "start": 66.70213,
+          "end": 66.78191,
+          "probability": 1
+        },
+        {
+          "word": "n't",
+          "start": 66.78191,
+          "end": 66.8617,
+          "probability": 1
+        },
+        {
+          "word": " ask",
+          "start": 67.02128,
+          "end": 67.34043,
+          "probability": 1
+        },
+        {
+          "word": " why I",
+          "start": 67.73936,
+          "end": 68.05851,
+          "probability": 1
+        },
+        {
+          "word": " ca",
+          "start": 69.25532,
+          "end": 69.41489,
+          "probability": 1
+        },
+        {
+          "word": "n't",
+          "start": 69.41489,
+          "end": 69.49468,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 69.9734,
+          "end": 70.37234,
+          "probability": 1
+        },
+        {
+          "word": " rest",
+          "start": 70.77128,
+          "end": 71.17021,
+          "probability": 1
+        },
+        {
+          "word": "\nYou",
+          "start": 73.32447,
+          "end": 73.56383,
+          "probability": 1
+        },
+        {
+          "word": " don",
+          "start": 73.56383,
+          "end": 73.7234,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 73.7234,
+          "end": 73.88298,
+          "probability": 1
+        },
+        {
+          "word": " wanna",
+          "start": 74.28191,
+          "end": 74.60106,
+          "probability": 1
+        },
+        {
+          "word": " know",
+          "start": 74.60106,
+          "end": 75,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 76.03723,
+          "end": 76.19681,
+          "probability": 1
+        },
+        {
+          "word": "'m",
+          "start": 76.19681,
+          "end": 76.35638,
+          "probability": 1
+        },
+        {
+          "word": " such a",
+          "start": 76.43617,
+          "end": 76.67553,
+          "probability": 1
+        },
+        {
+          "word": " fucking",
+          "start": 76.83511,
+          "end": 77.23404,
+          "probability": 1
+        },
+        {
+          "word": " mess",
+          "start": 77.23404,
+          "end": 77.63298,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 60.71809,
+            "end": 60.87766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Do",
+            "start": 60.71809,
+            "end": 60.87766,
+            "probability": 1
+          },
+          {
+            "word": "n't",
+            "start": 60.87766,
+            "end": 60.95745,
+            "probability": 1
+          },
+          {
+            "word": " ask",
+            "start": 61.11702,
+            "end": 61.43617,
+            "probability": 1
+          },
+          {
+            "word": " what",
+            "start": 61.83511,
+            "end": 62.23404,
+            "probability": 1
+          },
+          {
+            "word": " burns",
+            "start": 62.55319,
+            "end": 63.03191,
+            "probability": 1
+          },
+          {
+            "word": " inside",
+            "start": 63.98936,
+            "end": 64.54787,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 64.78723,
+            "end": 65.0266,
+            "probability": 1
+          },
+          {
+            "word": " chest",
+            "start": 65.50532,
+            "end": 65.98404,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 66.70213,
+            "end": 66.78191,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Do",
+            "start": 66.70213,
+            "end": 66.78191,
+            "probability": 1
+          },
+          {
+            "word": "n't",
+            "start": 66.78191,
+            "end": 66.8617,
+            "probability": 1
+          },
+          {
+            "word": " ask",
+            "start": 67.02128,
+            "end": 67.34043,
+            "probability": 1
+          },
+          {
+            "word": " why I",
+            "start": 67.73936,
+            "end": 68.05851,
+            "probability": 1
+          },
+          {
+            "word": " ca",
+            "start": 69.25532,
+            "end": 69.41489,
+            "probability": 1
+          },
+          {
+            "word": "n't",
+            "start": 69.41489,
+            "end": 69.49468,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 69.9734,
+            "end": 70.37234,
+            "probability": 1
+          },
+          {
+            "word": " rest",
+            "start": 70.77128,
+            "end": 71.17021,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 73.32447,
+            "end": 73.56383,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "You",
+            "start": 73.32447,
+            "end": 73.56383,
+            "probability": 1
+          },
+          {
+            "word": " don",
+            "start": 73.56383,
+            "end": 73.7234,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 73.7234,
+            "end": 73.88298,
+            "probability": 1
+          },
+          {
+            "word": " wanna",
+            "start": 74.28191,
+            "end": 74.60106,
+            "probability": 1
+          },
+          {
+            "word": " know",
+            "start": 74.60106,
+            "end": 75,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 76.03723,
+            "end": 76.19681,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 76.03723,
+            "end": 76.19681,
+            "probability": 1
+          },
+          {
+            "word": "'m",
+            "start": 76.19681,
+            "end": 76.35638,
+            "probability": 1
+          },
+          {
+            "word": " such a",
+            "start": 76.43617,
+            "end": 76.67553,
+            "probability": 1
+          },
+          {
+            "word": " fucking",
+            "start": 76.83511,
+            "end": 77.23404,
+            "probability": 1
+          },
+          {
+            "word": " mess",
+            "start": 77.23404,
+            "end": 77.63298,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 83.85638,
+      "end": 119.28191,
+      "text": [
+        "Life's a game with written rules and I've been playing way too long",
+        "Dancing to their beat while everything inside feels wrong",
+        "Every thing they want from me's like a rope around my throat",
+        "Every rule they made up keeps my real self locked and broke",
+        "I'm just acting in a movie that I never chose to be in",
+        "Playing parts that kill me but they always keep me bleeding",
+        "Hurting through the bandages they told me not to show",
+        "Screaming in the quiet that they're never gonna know",
+        "Pressure in my head like my skull's about to crack",
+        "Fighting with the voices that keep stabbing in my back",
+        "Time is running short and I can feel it in my soul",
+        "Either speak my truth or die inside this empty role"
+      ],
+      "paragraph": "Life's a game with written rules and I've been playing way too long\nDancing to their beat while everything inside feels wrong\nEvery thing they want from me's like a rope around my throat\nEvery rule they made up keeps my real self locked and broke\nI'm just acting in a movie that I never chose to be in\nPlaying parts that kill me but they always keep me bleeding\nHurting through the bandages they told me not to show\nScreaming in the quiet that they're never gonna know\nPressure in my head like my skull's about to crack\nFighting with the voices that keep stabbing in my back\nTime is running short and I can feel it in my soul\nEither speak my truth or die inside this empty role",
+      "words": [
+        {
+          "word": "\nLif",
+          "start": 83.85638,
+          "end": 84.01596,
+          "probability": 1
+        },
+        {
+          "word": "e's",
+          "start": 84.01596,
+          "end": 84.09574,
+          "probability": 1
+        },
+        {
+          "word": " a",
+          "start": 84.09574,
+          "end": 84.17553,
+          "probability": 1
+        },
+        {
+          "word": " game",
+          "start": 84.25532,
+          "end": 84.49468,
+          "probability": 1
+        },
+        {
+          "word": " with",
+          "start": 84.49468,
+          "end": 84.65426,
+          "probability": 1
+        },
+        {
+          "word": " written",
+          "start": 84.65426,
+          "end": 85.05319,
+          "probability": 1
+        },
+        {
+          "word": " rules",
+          "start": 85.05319,
+          "end": 85.29255,
+          "probability": 1
+        },
+        {
+          "word": " and I",
+          "start": 85.29255,
+          "end": 85.37234,
+          "probability": 1
+        },
+        {
+          "word": "'ve",
+          "start": 85.45213,
+          "end": 85.53191,
+          "probability": 1
+        },
+        {
+          "word": " been",
+          "start": 85.69149,
+          "end": 85.85106,
+          "probability": 1
+        },
+        {
+          "word": " playing",
+          "start": 85.85106,
+          "end": 86.17021,
+          "probability": 1
+        },
+        {
+          "word": " way",
+          "start": 86.17021,
+          "end": 86.40957,
+          "probability": 1
+        },
+        {
+          "word": " too",
+          "start": 86.40957,
+          "end": 86.56915,
+          "probability": 1
+        },
+        {
+          "word": " long",
+          "start": 86.56915,
+          "end": 86.8883,
+          "probability": 1
+        },
+        {
+          "word": "\nDancing",
+          "start": 86.8883,
+          "end": 87.28723,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 87.28723,
+          "end": 87.44681,
+          "probability": 1
+        },
+        {
+          "word": " their",
+          "start": 87.44681,
+          "end": 87.60638,
+          "probability": 1
+        },
+        {
+          "word": " beat",
+          "start": 87.60638,
+          "end": 87.84574,
+          "probability": 1
+        },
+        {
+          "word": " while",
+          "start": 87.84574,
+          "end": 88.08511,
+          "probability": 1
+        },
+        {
+          "word": " everything",
+          "start": 88.08511,
+          "end": 88.80319,
+          "probability": 1
+        },
+        {
+          "word": " inside",
+          "start": 88.80319,
+          "end": 88.96277,
+          "probability": 1
+        },
+        {
+          "word": " feels",
+          "start": 88.96277,
+          "end": 89.20213,
+          "probability": 1
+        },
+        {
+          "word": " wrong",
+          "start": 89.20213,
+          "end": 89.60106,
+          "probability": 1
+        },
+        {
+          "word": "\nEvery thin",
+          "start": 89.60106,
+          "end": 90.07979,
+          "probability": 1
+        },
+        {
+          "word": "g they",
+          "start": 90.07979,
+          "end": 90.31915,
+          "probability": 1
+        },
+        {
+          "word": " want",
+          "start": 90.31915,
+          "end": 90.47872,
+          "probability": 1
+        },
+        {
+          "word": " from",
+          "start": 90.47872,
+          "end": 90.6383,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 90.6383,
+          "end": 90.87766,
+          "probability": 1
+        },
+        {
+          "word": "'s",
+          "start": 90.87766,
+          "end": 91.03723,
+          "probability": 1
+        },
+        {
+          "word": " like a",
+          "start": 91.03723,
+          "end": 91.19681,
+          "probability": 1
+        },
+        {
+          "word": " ro",
+          "start": 91.43617,
+          "end": 91.51596,
+          "probability": 1
+        },
+        {
+          "word": "pe",
+          "start": 91.51596,
+          "end": 91.67553,
+          "probability": 1
+        },
+        {
+          "word": " around",
+          "start": 91.83511,
+          "end": 91.99468,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 91.99468,
+          "end": 92.23404,
+          "probability": 1
+        },
+        {
+          "word": " throat",
+          "start": 92.23404,
+          "end": 92.63298,
+          "probability": 1
+        },
+        {
+          "word": "\nEvery",
+          "start": 92.63298,
+          "end": 92.87234,
+          "probability": 1
+        },
+        {
+          "word": " rule",
+          "start": 92.87234,
+          "end": 93.1117,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 93.1117,
+          "end": 93.35106,
+          "probability": 1
+        },
+        {
+          "word": " made",
+          "start": 93.35106,
+          "end": 93.67021,
+          "probability": 1
+        },
+        {
+          "word": " up",
+          "start": 93.67021,
+          "end": 93.90957,
+          "probability": 1
+        },
+        {
+          "word": " keeps",
+          "start": 93.98936,
+          "end": 94.22872,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 94.22872,
+          "end": 94.3883,
+          "probability": 1
+        },
+        {
+          "word": " real",
+          "start": 94.3883,
+          "end": 94.78723,
+          "probability": 1
+        },
+        {
+          "word": " self",
+          "start": 94.78723,
+          "end": 95.10638,
+          "probability": 1
+        },
+        {
+          "word": " locked",
+          "start": 95.10638,
+          "end": 95.34574,
+          "probability": 1
+        },
+        {
+          "word": " and",
+          "start": 95.34574,
+          "end": 95.58511,
+          "probability": 1
+        },
+        {
+          "word": " bro",
+          "start": 95.58511,
+          "end": 95.82447,
+          "probability": 1
+        },
+        {
+          "word": "ke",
+          "start": 95.82447,
+          "end": 95.90426,
+          "probability": 1
+        },
+        {
+          "word": "\nI'm",
+          "start": 95.90426,
+          "end": 95.98404,
+          "probability": 1
+        },
+        {
+          "word": " just",
+          "start": 96.14362,
+          "end": 96.30319,
+          "probability": 1
+        },
+        {
+          "word": " acting",
+          "start": 96.30319,
+          "end": 96.70213,
+          "probability": 1
+        },
+        {
+          "word": " in a",
+          "start": 96.70213,
+          "end": 96.8617,
+          "probability": 1
+        },
+        {
+          "word": " movie",
+          "start": 97.02128,
+          "end": 97.42021,
+          "probability": 1
+        },
+        {
+          "word": " that I",
+          "start": 97.42021,
+          "end": 97.57979,
+          "probability": 1
+        },
+        {
+          "word": " never",
+          "start": 97.81915,
+          "end": 98.1383,
+          "probability": 1
+        },
+        {
+          "word": " chose",
+          "start": 98.1383,
+          "end": 98.37766,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 98.37766,
+          "end": 98.53723,
+          "probability": 1
+        },
+        {
+          "word": " be",
+          "start": 98.53723,
+          "end": 98.69681,
+          "probability": 1
+        },
+        {
+          "word": " in",
+          "start": 98.69681,
+          "end": 98.93617,
+          "probability": 1
+        },
+        {
+          "word": "\nPlaying",
+          "start": 98.93617,
+          "end": 99.25532,
+          "probability": 1
+        },
+        {
+          "word": " parts",
+          "start": 99.25532,
+          "end": 99.33511,
+          "probability": 1
+        },
+        {
+          "word": " that",
+          "start": 99.49468,
+          "end": 99.65426,
+          "probability": 1
+        },
+        {
+          "word": " kill",
+          "start": 99.65426,
+          "end": 99.89362,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 99.89362,
+          "end": 100.05319,
+          "probability": 1
+        },
+        {
+          "word": " but",
+          "start": 100.05319,
+          "end": 100.21277,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 100.21277,
+          "end": 100.53191,
+          "probability": 1
+        },
+        {
+          "word": " always",
+          "start": 100.53191,
+          "end": 100.77128,
+          "probability": 1
+        },
+        {
+          "word": " keep",
+          "start": 100.77128,
+          "end": 100.93085,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 100.93085,
+          "end": 101.17021,
+          "probability": 1
+        },
+        {
+          "word": " bleeding",
+          "start": 101.17021,
+          "end": 101.8883,
+          "probability": 1
+        },
+        {
+          "word": "\nHur",
+          "start": 101.8883,
+          "end": 102.12766,
+          "probability": 1
+        },
+        {
+          "word": "ting",
+          "start": 102.12766,
+          "end": 102.28723,
+          "probability": 1
+        },
+        {
+          "word": " through",
+          "start": 102.28723,
+          "end": 102.44681,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 102.44681,
+          "end": 102.60638,
+          "probability": 1
+        },
+        {
+          "word": " band",
+          "start": 102.60638,
+          "end": 102.92553,
+          "probability": 1
+        },
+        {
+          "word": "ages",
+          "start": 102.92553,
+          "end": 103.16489,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 103.16489,
+          "end": 103.32447,
+          "probability": 1
+        },
+        {
+          "word": " told",
+          "start": 103.32447,
+          "end": 103.48404,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 103.48404,
+          "end": 103.56383,
+          "probability": 1
+        },
+        {
+          "word": " not",
+          "start": 103.56383,
+          "end": 103.80319,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 104.04255,
+          "end": 104.20213,
+          "probability": 1
+        },
+        {
+          "word": " show",
+          "start": 104.20213,
+          "end": 104.60106,
+          "probability": 1
+        },
+        {
+          "word": "\nScreaming",
+          "start": 105,
+          "end": 105.31915,
+          "probability": 1
+        },
+        {
+          "word": " in",
+          "start": 105.31915,
+          "end": 105.55851,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 105.55851,
+          "end": 105.71809,
+          "probability": 1
+        },
+        {
+          "word": " quiet",
+          "start": 105.71809,
+          "end": 106.03723,
+          "probability": 1
+        },
+        {
+          "word": " that",
+          "start": 106.03723,
+          "end": 106.2766,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 106.2766,
+          "end": 106.35638,
+          "probability": 1
+        },
+        {
+          "word": "'re",
+          "start": 106.43617,
+          "end": 106.51596,
+          "probability": 1
+        },
+        {
+          "word": " never",
+          "start": 106.51596,
+          "end": 106.83511,
+          "probability": 1
+        },
+        {
+          "word": " gonna",
+          "start": 106.83511,
+          "end": 107.23404,
+          "probability": 1
+        },
+        {
+          "word": " know",
+          "start": 107.23404,
+          "end": 107.63298,
+          "probability": 1
+        },
+        {
+          "word": "\nPressure",
+          "start": 107.87234,
+          "end": 108.35106,
+          "probability": 1
+        },
+        {
+          "word": " in",
+          "start": 108.35106,
+          "end": 108.51064,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 108.51064,
+          "end": 108.67021,
+          "probability": 1
+        },
+        {
+          "word": " head",
+          "start": 108.67021,
+          "end": 108.98936,
+          "probability": 1
+        },
+        {
+          "word": " like",
+          "start": 108.98936,
+          "end": 109.22872,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 109.22872,
+          "end": 109.46809,
+          "probability": 1
+        },
+        {
+          "word": " sku",
+          "start": 109.46809,
+          "end": 109.54787,
+          "probability": 1
+        },
+        {
+          "word": "ll's",
+          "start": 109.54787,
+          "end": 109.62766,
+          "probability": 1
+        },
+        {
+          "word": " about",
+          "start": 109.86702,
+          "end": 110.0266,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 110.0266,
+          "end": 110.18617,
+          "probability": 1
+        },
+        {
+          "word": " crack",
+          "start": 110.18617,
+          "end": 110.66489,
+          "probability": 1
+        },
+        {
+          "word": "\nFighting",
+          "start": 110.90426,
+          "end": 111.30319,
+          "probability": 1
+        },
+        {
+          "word": " with",
+          "start": 111.30319,
+          "end": 111.46277,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 111.46277,
+          "end": 111.62234,
+          "probability": 1
+        },
+        {
+          "word": " voices",
+          "start": 111.62234,
+          "end": 112.02128,
+          "probability": 1
+        },
+        {
+          "word": " that",
+          "start": 112.02128,
+          "end": 112.26064,
+          "probability": 1
+        },
+        {
+          "word": " keep",
+          "start": 112.26064,
+          "end": 112.5,
+          "probability": 1
+        },
+        {
+          "word": " sta",
+          "start": 112.5,
+          "end": 112.57979,
+          "probability": 1
+        },
+        {
+          "word": "bb",
+          "start": 112.57979,
+          "end": 112.65957,
+          "probability": 1
+        },
+        {
+          "word": "ing",
+          "start": 112.65957,
+          "end": 112.81915,
+          "probability": 1
+        },
+        {
+          "word": " in",
+          "start": 112.81915,
+          "end": 113.05851,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 113.05851,
+          "end": 113.21809,
+          "probability": 1
+        },
+        {
+          "word": " back",
+          "start": 113.21809,
+          "end": 113.61702,
+          "probability": 1
+        },
+        {
+          "word": "\nTime",
+          "start": 113.85638,
+          "end": 114.09574,
+          "probability": 1
+        },
+        {
+          "word": " is",
+          "start": 114.09574,
+          "end": 114.33511,
+          "probability": 1
+        },
+        {
+          "word": " running",
+          "start": 114.33511,
+          "end": 114.65426,
+          "probability": 1
+        },
+        {
+          "word": " short",
+          "start": 114.65426,
+          "end": 114.89362,
+          "probability": 1
+        },
+        {
+          "word": " and I",
+          "start": 114.89362,
+          "end": 115.05319,
+          "probability": 1
+        },
+        {
+          "word": " can",
+          "start": 115.21277,
+          "end": 115.45213,
+          "probability": 1
+        },
+        {
+          "word": " feel",
+          "start": 115.45213,
+          "end": 115.6117,
+          "probability": 1
+        },
+        {
+          "word": " it",
+          "start": 115.6117,
+          "end": 115.77128,
+          "probability": 1
+        },
+        {
+          "word": " in",
+          "start": 115.77128,
+          "end": 116.01064,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 116.01064,
+          "end": 116.17021,
+          "probability": 1
+        },
+        {
+          "word": " soul",
+          "start": 116.17021,
+          "end": 116.48936,
+          "probability": 1
+        },
+        {
+          "word": "\nEither",
+          "start": 116.48936,
+          "end": 116.8883,
+          "probability": 1
+        },
+        {
+          "word": " speak",
+          "start": 116.8883,
+          "end": 117.12766,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 117.12766,
+          "end": 117.28723,
+          "probability": 1
+        },
+        {
+          "word": " truth",
+          "start": 117.28723,
+          "end": 117.5266,
+          "probability": 1
+        },
+        {
+          "word": " or",
+          "start": 117.5266,
+          "end": 117.68617,
+          "probability": 1
+        },
+        {
+          "word": " die",
+          "start": 117.68617,
+          "end": 118.00532,
+          "probability": 1
+        },
+        {
+          "word": " inside",
+          "start": 118.00532,
+          "end": 118.24468,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 118.24468,
+          "end": 118.40426,
+          "probability": 1
+        },
+        {
+          "word": " empty",
+          "start": 118.40426,
+          "end": 118.88298,
+          "probability": 1
+        },
+        {
+          "word": " role",
+          "start": 118.88298,
+          "end": 119.28191,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 83.85638,
+            "end": 84.01596,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Lif",
+            "start": 83.85638,
+            "end": 84.01596,
+            "probability": 1
+          },
+          {
+            "word": "e's",
+            "start": 84.01596,
+            "end": 84.09574,
+            "probability": 1
+          },
+          {
+            "word": " a",
+            "start": 84.09574,
+            "end": 84.17553,
+            "probability": 1
+          },
+          {
+            "word": " game",
+            "start": 84.25532,
+            "end": 84.49468,
+            "probability": 1
+          },
+          {
+            "word": " with",
+            "start": 84.49468,
+            "end": 84.65426,
+            "probability": 1
+          },
+          {
+            "word": " written",
+            "start": 84.65426,
+            "end": 85.05319,
+            "probability": 1
+          },
+          {
+            "word": " rules",
+            "start": 85.05319,
+            "end": 85.29255,
+            "probability": 1
+          },
+          {
+            "word": " and I",
+            "start": 85.29255,
+            "end": 85.37234,
+            "probability": 1
+          },
+          {
+            "word": "'ve",
+            "start": 85.45213,
+            "end": 85.53191,
+            "probability": 1
+          },
+          {
+            "word": " been",
+            "start": 85.69149,
+            "end": 85.85106,
+            "probability": 1
+          },
+          {
+            "word": " playing",
+            "start": 85.85106,
+            "end": 86.17021,
+            "probability": 1
+          },
+          {
+            "word": " way",
+            "start": 86.17021,
+            "end": 86.40957,
+            "probability": 1
+          },
+          {
+            "word": " too",
+            "start": 86.40957,
+            "end": 86.56915,
+            "probability": 1
+          },
+          {
+            "word": " long",
+            "start": 86.56915,
+            "end": 86.8883,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 86.8883,
+            "end": 87.28723,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Dancing",
+            "start": 86.8883,
+            "end": 87.28723,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 87.28723,
+            "end": 87.44681,
+            "probability": 1
+          },
+          {
+            "word": " their",
+            "start": 87.44681,
+            "end": 87.60638,
+            "probability": 1
+          },
+          {
+            "word": " beat",
+            "start": 87.60638,
+            "end": 87.84574,
+            "probability": 1
+          },
+          {
+            "word": " while",
+            "start": 87.84574,
+            "end": 88.08511,
+            "probability": 1
+          },
+          {
+            "word": " everything",
+            "start": 88.08511,
+            "end": 88.80319,
+            "probability": 1
+          },
+          {
+            "word": " inside",
+            "start": 88.80319,
+            "end": 88.96277,
+            "probability": 1
+          },
+          {
+            "word": " feels",
+            "start": 88.96277,
+            "end": 89.20213,
+            "probability": 1
+          },
+          {
+            "word": " wrong",
+            "start": 89.20213,
+            "end": 89.60106,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 89.60106,
+            "end": 90.07979,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Every thin",
+            "start": 89.60106,
+            "end": 90.07979,
+            "probability": 1
+          },
+          {
+            "word": "g they",
+            "start": 90.07979,
+            "end": 90.31915,
+            "probability": 1
+          },
+          {
+            "word": " want",
+            "start": 90.31915,
+            "end": 90.47872,
+            "probability": 1
+          },
+          {
+            "word": " from",
+            "start": 90.47872,
+            "end": 90.6383,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 90.6383,
+            "end": 90.87766,
+            "probability": 1
+          },
+          {
+            "word": "'s",
+            "start": 90.87766,
+            "end": 91.03723,
+            "probability": 1
+          },
+          {
+            "word": " like a",
+            "start": 91.03723,
+            "end": 91.19681,
+            "probability": 1
+          },
+          {
+            "word": " ro",
+            "start": 91.43617,
+            "end": 91.51596,
+            "probability": 1
+          },
+          {
+            "word": "pe",
+            "start": 91.51596,
+            "end": 91.67553,
+            "probability": 1
+          },
+          {
+            "word": " around",
+            "start": 91.83511,
+            "end": 91.99468,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 91.99468,
+            "end": 92.23404,
+            "probability": 1
+          },
+          {
+            "word": " throat",
+            "start": 92.23404,
+            "end": 92.63298,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 92.63298,
+            "end": 92.87234,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Every",
+            "start": 92.63298,
+            "end": 92.87234,
+            "probability": 1
+          },
+          {
+            "word": " rule",
+            "start": 92.87234,
+            "end": 93.1117,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 93.1117,
+            "end": 93.35106,
+            "probability": 1
+          },
+          {
+            "word": " made",
+            "start": 93.35106,
+            "end": 93.67021,
+            "probability": 1
+          },
+          {
+            "word": " up",
+            "start": 93.67021,
+            "end": 93.90957,
+            "probability": 1
+          },
+          {
+            "word": " keeps",
+            "start": 93.98936,
+            "end": 94.22872,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 94.22872,
+            "end": 94.3883,
+            "probability": 1
+          },
+          {
+            "word": " real",
+            "start": 94.3883,
+            "end": 94.78723,
+            "probability": 1
+          },
+          {
+            "word": " self",
+            "start": 94.78723,
+            "end": 95.10638,
+            "probability": 1
+          },
+          {
+            "word": " locked",
+            "start": 95.10638,
+            "end": 95.34574,
+            "probability": 1
+          },
+          {
+            "word": " and",
+            "start": 95.34574,
+            "end": 95.58511,
+            "probability": 1
+          },
+          {
+            "word": " bro",
+            "start": 95.58511,
+            "end": 95.82447,
+            "probability": 1
+          },
+          {
+            "word": "ke",
+            "start": 95.82447,
+            "end": 95.90426,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 95.90426,
+            "end": 95.98404,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I'm",
+            "start": 95.90426,
+            "end": 95.98404,
+            "probability": 1
+          },
+          {
+            "word": " just",
+            "start": 96.14362,
+            "end": 96.30319,
+            "probability": 1
+          },
+          {
+            "word": " acting",
+            "start": 96.30319,
+            "end": 96.70213,
+            "probability": 1
+          },
+          {
+            "word": " in a",
+            "start": 96.70213,
+            "end": 96.8617,
+            "probability": 1
+          },
+          {
+            "word": " movie",
+            "start": 97.02128,
+            "end": 97.42021,
+            "probability": 1
+          },
+          {
+            "word": " that I",
+            "start": 97.42021,
+            "end": 97.57979,
+            "probability": 1
+          },
+          {
+            "word": " never",
+            "start": 97.81915,
+            "end": 98.1383,
+            "probability": 1
+          },
+          {
+            "word": " chose",
+            "start": 98.1383,
+            "end": 98.37766,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 98.37766,
+            "end": 98.53723,
+            "probability": 1
+          },
+          {
+            "word": " be",
+            "start": 98.53723,
+            "end": 98.69681,
+            "probability": 1
+          },
+          {
+            "word": " in",
+            "start": 98.69681,
+            "end": 98.93617,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 98.93617,
+            "end": 99.25532,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Playing",
+            "start": 98.93617,
+            "end": 99.25532,
+            "probability": 1
+          },
+          {
+            "word": " parts",
+            "start": 99.25532,
+            "end": 99.33511,
+            "probability": 1
+          },
+          {
+            "word": " that",
+            "start": 99.49468,
+            "end": 99.65426,
+            "probability": 1
+          },
+          {
+            "word": " kill",
+            "start": 99.65426,
+            "end": 99.89362,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 99.89362,
+            "end": 100.05319,
+            "probability": 1
+          },
+          {
+            "word": " but",
+            "start": 100.05319,
+            "end": 100.21277,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 100.21277,
+            "end": 100.53191,
+            "probability": 1
+          },
+          {
+            "word": " always",
+            "start": 100.53191,
+            "end": 100.77128,
+            "probability": 1
+          },
+          {
+            "word": " keep",
+            "start": 100.77128,
+            "end": 100.93085,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 100.93085,
+            "end": 101.17021,
+            "probability": 1
+          },
+          {
+            "word": " bleeding",
+            "start": 101.17021,
+            "end": 101.8883,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 101.8883,
+            "end": 102.12766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Hur",
+            "start": 101.8883,
+            "end": 102.12766,
+            "probability": 1
+          },
+          {
+            "word": "ting",
+            "start": 102.12766,
+            "end": 102.28723,
+            "probability": 1
+          },
+          {
+            "word": " through",
+            "start": 102.28723,
+            "end": 102.44681,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 102.44681,
+            "end": 102.60638,
+            "probability": 1
+          },
+          {
+            "word": " band",
+            "start": 102.60638,
+            "end": 102.92553,
+            "probability": 1
+          },
+          {
+            "word": "ages",
+            "start": 102.92553,
+            "end": 103.16489,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 103.16489,
+            "end": 103.32447,
+            "probability": 1
+          },
+          {
+            "word": " told",
+            "start": 103.32447,
+            "end": 103.48404,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 103.48404,
+            "end": 103.56383,
+            "probability": 1
+          },
+          {
+            "word": " not",
+            "start": 103.56383,
+            "end": 103.80319,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 104.04255,
+            "end": 104.20213,
+            "probability": 1
+          },
+          {
+            "word": " show",
+            "start": 104.20213,
+            "end": 104.60106,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 105,
+            "end": 105.31915,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Screaming",
+            "start": 105,
+            "end": 105.31915,
+            "probability": 1
+          },
+          {
+            "word": " in",
+            "start": 105.31915,
+            "end": 105.55851,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 105.55851,
+            "end": 105.71809,
+            "probability": 1
+          },
+          {
+            "word": " quiet",
+            "start": 105.71809,
+            "end": 106.03723,
+            "probability": 1
+          },
+          {
+            "word": " that",
+            "start": 106.03723,
+            "end": 106.2766,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 106.2766,
+            "end": 106.35638,
+            "probability": 1
+          },
+          {
+            "word": "'re",
+            "start": 106.43617,
+            "end": 106.51596,
+            "probability": 1
+          },
+          {
+            "word": " never",
+            "start": 106.51596,
+            "end": 106.83511,
+            "probability": 1
+          },
+          {
+            "word": " gonna",
+            "start": 106.83511,
+            "end": 107.23404,
+            "probability": 1
+          },
+          {
+            "word": " know",
+            "start": 107.23404,
+            "end": 107.63298,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 107.87234,
+            "end": 108.35106,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Pressure",
+            "start": 107.87234,
+            "end": 108.35106,
+            "probability": 1
+          },
+          {
+            "word": " in",
+            "start": 108.35106,
+            "end": 108.51064,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 108.51064,
+            "end": 108.67021,
+            "probability": 1
+          },
+          {
+            "word": " head",
+            "start": 108.67021,
+            "end": 108.98936,
+            "probability": 1
+          },
+          {
+            "word": " like",
+            "start": 108.98936,
+            "end": 109.22872,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 109.22872,
+            "end": 109.46809,
+            "probability": 1
+          },
+          {
+            "word": " sku",
+            "start": 109.46809,
+            "end": 109.54787,
+            "probability": 1
+          },
+          {
+            "word": "ll's",
+            "start": 109.54787,
+            "end": 109.62766,
+            "probability": 1
+          },
+          {
+            "word": " about",
+            "start": 109.86702,
+            "end": 110.0266,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 110.0266,
+            "end": 110.18617,
+            "probability": 1
+          },
+          {
+            "word": " crack",
+            "start": 110.18617,
+            "end": 110.66489,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 110.90426,
+            "end": 111.30319,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Fighting",
+            "start": 110.90426,
+            "end": 111.30319,
+            "probability": 1
+          },
+          {
+            "word": " with",
+            "start": 111.30319,
+            "end": 111.46277,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 111.46277,
+            "end": 111.62234,
+            "probability": 1
+          },
+          {
+            "word": " voices",
+            "start": 111.62234,
+            "end": 112.02128,
+            "probability": 1
+          },
+          {
+            "word": " that",
+            "start": 112.02128,
+            "end": 112.26064,
+            "probability": 1
+          },
+          {
+            "word": " keep",
+            "start": 112.26064,
+            "end": 112.5,
+            "probability": 1
+          },
+          {
+            "word": " sta",
+            "start": 112.5,
+            "end": 112.57979,
+            "probability": 1
+          },
+          {
+            "word": "bb",
+            "start": 112.57979,
+            "end": 112.65957,
+            "probability": 1
+          },
+          {
+            "word": "ing",
+            "start": 112.65957,
+            "end": 112.81915,
+            "probability": 1
+          },
+          {
+            "word": " in",
+            "start": 112.81915,
+            "end": 113.05851,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 113.05851,
+            "end": 113.21809,
+            "probability": 1
+          },
+          {
+            "word": " back",
+            "start": 113.21809,
+            "end": 113.61702,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 113.85638,
+            "end": 114.09574,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Time",
+            "start": 113.85638,
+            "end": 114.09574,
+            "probability": 1
+          },
+          {
+            "word": " is",
+            "start": 114.09574,
+            "end": 114.33511,
+            "probability": 1
+          },
+          {
+            "word": " running",
+            "start": 114.33511,
+            "end": 114.65426,
+            "probability": 1
+          },
+          {
+            "word": " short",
+            "start": 114.65426,
+            "end": 114.89362,
+            "probability": 1
+          },
+          {
+            "word": " and I",
+            "start": 114.89362,
+            "end": 115.05319,
+            "probability": 1
+          },
+          {
+            "word": " can",
+            "start": 115.21277,
+            "end": 115.45213,
+            "probability": 1
+          },
+          {
+            "word": " feel",
+            "start": 115.45213,
+            "end": 115.6117,
+            "probability": 1
+          },
+          {
+            "word": " it",
+            "start": 115.6117,
+            "end": 115.77128,
+            "probability": 1
+          },
+          {
+            "word": " in",
+            "start": 115.77128,
+            "end": 116.01064,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 116.01064,
+            "end": 116.17021,
+            "probability": 1
+          },
+          {
+            "word": " soul",
+            "start": 116.17021,
+            "end": 116.48936,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 116.48936,
+            "end": 116.8883,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Either",
+            "start": 116.48936,
+            "end": 116.8883,
+            "probability": 1
+          },
+          {
+            "word": " speak",
+            "start": 116.8883,
+            "end": 117.12766,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 117.12766,
+            "end": 117.28723,
+            "probability": 1
+          },
+          {
+            "word": " truth",
+            "start": 117.28723,
+            "end": 117.5266,
+            "probability": 1
+          },
+          {
+            "word": " or",
+            "start": 117.5266,
+            "end": 117.68617,
+            "probability": 1
+          },
+          {
+            "word": " die",
+            "start": 117.68617,
+            "end": 118.00532,
+            "probability": 1
+          },
+          {
+            "word": " inside",
+            "start": 118.00532,
+            "end": 118.24468,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 118.24468,
+            "end": 118.40426,
+            "probability": 1
+          },
+          {
+            "word": " empty",
+            "start": 118.40426,
+            "end": 118.88298,
+            "probability": 1
+          },
+          {
+            "word": " role",
+            "start": 118.88298,
+            "end": 119.28191,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 120.39894,
+      "end": 137.63298,
+      "text": [
+        "Don't ask what burns inside my chest",
+        "Don't ask why I can't find rest",
+        "You don't wanna know",
+        "I'm such a fucking mess"
+      ],
+      "paragraph": "Don't ask what burns inside my chest\nDon't ask why I can't find rest\nYou don't wanna know\nI'm such a fucking mess",
+      "words": [
+        {
+          "word": "\nDon",
+          "start": 120.39894,
+          "end": 120.55851,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 120.55851,
+          "end": 120.71809,
+          "probability": 1
+        },
+        {
+          "word": " ask",
+          "start": 122.15426,
+          "end": 122.4734,
+          "probability": 1
+        },
+        {
+          "word": " what",
+          "start": 123.27128,
+          "end": 123.67021,
+          "probability": 1
+        },
+        {
+          "word": " burns",
+          "start": 123.67021,
+          "end": 124.14894,
+          "probability": 1
+        },
+        {
+          "word": " inside",
+          "start": 124.46809,
+          "end": 125.0266,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 125.0266,
+          "end": 125.26596,
+          "probability": 1
+        },
+        {
+          "word": " chest",
+          "start": 125.50532,
+          "end": 125.98404,
+          "probability": 1
+        },
+        {
+          "word": "\nDon",
+          "start": 126.38298,
+          "end": 126.70213,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 126.8617,
+          "end": 127.02128,
+          "probability": 1
+        },
+        {
+          "word": " ask",
+          "start": 128.21809,
+          "end": 128.53723,
+          "probability": 1
+        },
+        {
+          "word": " why I",
+          "start": 129.25532,
+          "end": 129.57447,
+          "probability": 1
+        },
+        {
+          "word": " can",
+          "start": 129.9734,
+          "end": 130.13298,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 130.21277,
+          "end": 130.37234,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 130.45213,
+          "end": 130.85106,
+          "probability": 1
+        },
+        {
+          "word": " rest",
+          "start": 130.93085,
+          "end": 131.32979,
+          "probability": 1
+        },
+        {
+          "word": "\nYou",
+          "start": 132.60638,
+          "end": 132.76596,
+          "probability": 1
+        },
+        {
+          "word": " do",
+          "start": 132.76596,
+          "end": 132.84574,
+          "probability": 1
+        },
+        {
+          "word": "n't",
+          "start": 132.84574,
+          "end": 132.92553,
+          "probability": 1
+        },
+        {
+          "word": " wanna",
+          "start": 133.08511,
+          "end": 133.40426,
+          "probability": 1
+        },
+        {
+          "word": " know",
+          "start": 133.40426,
+          "end": 133.80319,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 135.71809,
+          "end": 135.87766,
+          "probability": 1
+        },
+        {
+          "word": "'m",
+          "start": 135.87766,
+          "end": 136.03723,
+          "probability": 1
+        },
+        {
+          "word": " such a",
+          "start": 136.03723,
+          "end": 136.2766,
+          "probability": 1
+        },
+        {
+          "word": " fucking",
+          "start": 136.51596,
+          "end": 137.15426,
+          "probability": 1
+        },
+        {
+          "word": " mess",
+          "start": 137.23404,
+          "end": 137.63298,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 120.39894,
+            "end": 120.55851,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Don",
+            "start": 120.39894,
+            "end": 120.55851,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 120.55851,
+            "end": 120.71809,
+            "probability": 1
+          },
+          {
+            "word": " ask",
+            "start": 122.15426,
+            "end": 122.4734,
+            "probability": 1
+          },
+          {
+            "word": " what",
+            "start": 123.27128,
+            "end": 123.67021,
+            "probability": 1
+          },
+          {
+            "word": " burns",
+            "start": 123.67021,
+            "end": 124.14894,
+            "probability": 1
+          },
+          {
+            "word": " inside",
+            "start": 124.46809,
+            "end": 125.0266,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 125.0266,
+            "end": 125.26596,
+            "probability": 1
+          },
+          {
+            "word": " chest",
+            "start": 125.50532,
+            "end": 125.98404,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 126.38298,
+            "end": 126.70213,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Don",
+            "start": 126.38298,
+            "end": 126.70213,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 126.8617,
+            "end": 127.02128,
+            "probability": 1
+          },
+          {
+            "word": " ask",
+            "start": 128.21809,
+            "end": 128.53723,
+            "probability": 1
+          },
+          {
+            "word": " why I",
+            "start": 129.25532,
+            "end": 129.57447,
+            "probability": 1
+          },
+          {
+            "word": " can",
+            "start": 129.9734,
+            "end": 130.13298,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 130.21277,
+            "end": 130.37234,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 130.45213,
+            "end": 130.85106,
+            "probability": 1
+          },
+          {
+            "word": " rest",
+            "start": 130.93085,
+            "end": 131.32979,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 132.60638,
+            "end": 132.76596,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "You",
+            "start": 132.60638,
+            "end": 132.76596,
+            "probability": 1
+          },
+          {
+            "word": " do",
+            "start": 132.76596,
+            "end": 132.84574,
+            "probability": 1
+          },
+          {
+            "word": "n't",
+            "start": 132.84574,
+            "end": 132.92553,
+            "probability": 1
+          },
+          {
+            "word": " wanna",
+            "start": 133.08511,
+            "end": 133.40426,
+            "probability": 1
+          },
+          {
+            "word": " know",
+            "start": 133.40426,
+            "end": 133.80319,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 135.71809,
+            "end": 135.87766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 135.71809,
+            "end": 135.87766,
+            "probability": 1
+          },
+          {
+            "word": "'m",
+            "start": 135.87766,
+            "end": 136.03723,
+            "probability": 1
+          },
+          {
+            "word": " such a",
+            "start": 136.03723,
+            "end": 136.2766,
+            "probability": 1
+          },
+          {
+            "word": " fucking",
+            "start": 136.51596,
+            "end": 137.15426,
+            "probability": 1
+          },
+          {
+            "word": " mess",
+            "start": 137.23404,
+            "end": 137.63298,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 138.75,
+      "end": 167.31383,
+      "text": [
+        "They want me empty",
+        "Just a shell",
+        "Ghost that echoes",
+        "What they tell",
+        "But I'm still breathing",
+        "Still alive",
+        "Under this",
+        "Fake disguise"
+      ],
+      "paragraph": "They want me empty\nJust a shell\nGhost that echoes\nWhat they tell\nBut I'm still breathing\nStill alive\nUnder this\nFake disguise",
+      "words": [
+        {
+          "word": "\nThey",
+          "start": 138.75,
+          "end": 144.09574,
+          "probability": 1
+        },
+        {
+          "word": " want",
+          "start": 155.90426,
+          "end": 156.30319,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 156.30319,
+          "end": 156.54255,
+          "probability": 1
+        },
+        {
+          "word": " empty",
+          "start": 156.62234,
+          "end": 157.10106,
+          "probability": 1
+        },
+        {
+          "word": "\nJust a",
+          "start": 157.34043,
+          "end": 157.73936,
+          "probability": 1
+        },
+        {
+          "word": " she",
+          "start": 157.97872,
+          "end": 158.05851,
+          "probability": 1
+        },
+        {
+          "word": "ll",
+          "start": 158.05851,
+          "end": 158.21809,
+          "probability": 1
+        },
+        {
+          "word": "\nGhost",
+          "start": 158.93617,
+          "end": 159.25532,
+          "probability": 1
+        },
+        {
+          "word": " that",
+          "start": 159.25532,
+          "end": 159.65426,
+          "probability": 1
+        },
+        {
+          "word": " echo",
+          "start": 159.65426,
+          "end": 159.9734,
+          "probability": 1
+        },
+        {
+          "word": "es",
+          "start": 159.9734,
+          "end": 160.13298,
+          "probability": 1
+        },
+        {
+          "word": "\nWhat",
+          "start": 160.37234,
+          "end": 160.69149,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 160.69149,
+          "end": 161.01064,
+          "probability": 1
+        },
+        {
+          "word": " tell",
+          "start": 161.01064,
+          "end": 161.40957,
+          "probability": 1
+        },
+        {
+          "word": "\nBut",
+          "start": 161.8883,
+          "end": 161.96809,
+          "probability": 1
+        },
+        {
+          "word": " I'm",
+          "start": 161.96809,
+          "end": 162.04787,
+          "probability": 1
+        },
+        {
+          "word": " still",
+          "start": 162.28723,
+          "end": 162.60638,
+          "probability": 1
+        },
+        {
+          "word": " breathing",
+          "start": 162.60638,
+          "end": 163.40426,
+          "probability": 1
+        },
+        {
+          "word": "\nStill a",
+          "start": 163.40426,
+          "end": 163.7234,
+          "probability": 1
+        },
+        {
+          "word": "live",
+          "start": 164.04255,
+          "end": 164.3617,
+          "probability": 1
+        },
+        {
+          "word": "\nUnder",
+          "start": 165,
+          "end": 165.47872,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 165.6383,
+          "end": 166.03723,
+          "probability": 1
+        },
+        {
+          "word": "\nFake",
+          "start": 166.43617,
+          "end": 166.83511,
+          "probability": 1
+        },
+        {
+          "word": " disgu",
+          "start": 166.99468,
+          "end": 167.07447,
+          "probability": 1
+        },
+        {
+          "word": "ise",
+          "start": 167.07447,
+          "end": 167.31383,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 138.75,
+            "end": 144.09574,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 138.75,
+            "end": 144.09574,
+            "probability": 1
+          },
+          {
+            "word": " want",
+            "start": 155.90426,
+            "end": 156.30319,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 156.30319,
+            "end": 156.54255,
+            "probability": 1
+          },
+          {
+            "word": " empty",
+            "start": 156.62234,
+            "end": 157.10106,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 157.34043,
+            "end": 157.73936,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Just a",
+            "start": 157.34043,
+            "end": 157.73936,
+            "probability": 1
+          },
+          {
+            "word": " she",
+            "start": 157.97872,
+            "end": 158.05851,
+            "probability": 1
+          },
+          {
+            "word": "ll",
+            "start": 158.05851,
+            "end": 158.21809,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 158.93617,
+            "end": 159.25532,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Ghost",
+            "start": 158.93617,
+            "end": 159.25532,
+            "probability": 1
+          },
+          {
+            "word": " that",
+            "start": 159.25532,
+            "end": 159.65426,
+            "probability": 1
+          },
+          {
+            "word": " echo",
+            "start": 159.65426,
+            "end": 159.9734,
+            "probability": 1
+          },
+          {
+            "word": "es",
+            "start": 159.9734,
+            "end": 160.13298,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 160.37234,
+            "end": 160.69149,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "What",
+            "start": 160.37234,
+            "end": 160.69149,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 160.69149,
+            "end": 161.01064,
+            "probability": 1
+          },
+          {
+            "word": " tell",
+            "start": 161.01064,
+            "end": 161.40957,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 161.8883,
+            "end": 161.96809,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But",
+            "start": 161.8883,
+            "end": 161.96809,
+            "probability": 1
+          },
+          {
+            "word": " I'm",
+            "start": 161.96809,
+            "end": 162.04787,
+            "probability": 1
+          },
+          {
+            "word": " still",
+            "start": 162.28723,
+            "end": 162.60638,
+            "probability": 1
+          },
+          {
+            "word": " breathing",
+            "start": 162.60638,
+            "end": 163.40426,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 163.40426,
+            "end": 163.7234,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Still a",
+            "start": 163.40426,
+            "end": 163.7234,
+            "probability": 1
+          },
+          {
+            "word": "live",
+            "start": 164.04255,
+            "end": 164.3617,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 165,
+            "end": 165.47872,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Under",
+            "start": 165,
+            "end": 165.47872,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 165.6383,
+            "end": 166.03723,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 166.43617,
+            "end": 166.83511,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Fake",
+            "start": 166.43617,
+            "end": 166.83511,
+            "probability": 1
+          },
+          {
+            "word": " disgu",
+            "start": 166.99468,
+            "end": 167.07447,
+            "probability": 1
+          },
+          {
+            "word": "ise",
+            "start": 167.07447,
+            "end": 167.31383,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 167.95213,
+      "end": 179.28191,
+      "text": [
+        "They want me empty",
+        "Just a shell",
+        "Ghost that echoes",
+        "What they tell",
+        "But I'm still breathing",
+        "Still alive",
+        "Under this",
+        "Fake disguise"
+      ],
+      "paragraph": "They want me empty\nJust a shell\nGhost that echoes\nWhat they tell\nBut I'm still breathing\nStill alive\nUnder this\nFake disguise",
+      "words": [
+        {
+          "word": "\nThey",
+          "start": 167.95213,
+          "end": 168.1117,
+          "probability": 1
+        },
+        {
+          "word": " want",
+          "start": 168.1117,
+          "end": 168.35106,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 168.35106,
+          "end": 168.59043,
+          "probability": 1
+        },
+        {
+          "word": " empty",
+          "start": 168.67021,
+          "end": 169.14894,
+          "probability": 1
+        },
+        {
+          "word": "\nJust a",
+          "start": 169.3883,
+          "end": 169.78723,
+          "probability": 1
+        },
+        {
+          "word": " she",
+          "start": 170.0266,
+          "end": 170.10638,
+          "probability": 1
+        },
+        {
+          "word": "ll",
+          "start": 170.10638,
+          "end": 170.26596,
+          "probability": 1
+        },
+        {
+          "word": "\nGhos",
+          "start": 170.98404,
+          "end": 171.14362,
+          "probability": 1
+        },
+        {
+          "word": "t",
+          "start": 171.14362,
+          "end": 171.2234,
+          "probability": 1
+        },
+        {
+          "word": " that",
+          "start": 171.30319,
+          "end": 171.70213,
+          "probability": 1
+        },
+        {
+          "word": " echo",
+          "start": 171.70213,
+          "end": 172.02128,
+          "probability": 1
+        },
+        {
+          "word": "es",
+          "start": 172.02128,
+          "end": 172.18085,
+          "probability": 1
+        },
+        {
+          "word": "\nWhat",
+          "start": 172.42021,
+          "end": 172.73936,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 172.73936,
+          "end": 173.05851,
+          "probability": 1
+        },
+        {
+          "word": " tell",
+          "start": 173.05851,
+          "end": 173.45745,
+          "probability": 1
+        },
+        {
+          "word": "\nBut",
+          "start": 173.93617,
+          "end": 174.01596,
+          "probability": 1
+        },
+        {
+          "word": " I'm",
+          "start": 174.01596,
+          "end": 174.09574,
+          "probability": 1
+        },
+        {
+          "word": " still",
+          "start": 174.33511,
+          "end": 174.73404,
+          "probability": 1
+        },
+        {
+          "word": " breathing",
+          "start": 174.73404,
+          "end": 175.45213,
+          "probability": 1
+        },
+        {
+          "word": "\nStill",
+          "start": 175.45213,
+          "end": 175.93085,
+          "probability": 1
+        },
+        {
+          "word": " alive",
+          "start": 175.93085,
+          "end": 176.40957,
+          "probability": 1
+        },
+        {
+          "word": "\nUnder",
+          "start": 176.96809,
+          "end": 177.44681,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 177.60638,
+          "end": 178.00532,
+          "probability": 1
+        },
+        {
+          "word": "\nFake",
+          "start": 178.40426,
+          "end": 178.80319,
+          "probability": 1
+        },
+        {
+          "word": " disgu",
+          "start": 178.96277,
+          "end": 179.04255,
+          "probability": 1
+        },
+        {
+          "word": "ise",
+          "start": 179.04255,
+          "end": 179.28191,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 167.95213,
+            "end": 168.1117,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 167.95213,
+            "end": 168.1117,
+            "probability": 1
+          },
+          {
+            "word": " want",
+            "start": 168.1117,
+            "end": 168.35106,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 168.35106,
+            "end": 168.59043,
+            "probability": 1
+          },
+          {
+            "word": " empty",
+            "start": 168.67021,
+            "end": 169.14894,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 169.3883,
+            "end": 169.78723,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Just a",
+            "start": 169.3883,
+            "end": 169.78723,
+            "probability": 1
+          },
+          {
+            "word": " she",
+            "start": 170.0266,
+            "end": 170.10638,
+            "probability": 1
+          },
+          {
+            "word": "ll",
+            "start": 170.10638,
+            "end": 170.26596,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 170.98404,
+            "end": 171.14362,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Ghos",
+            "start": 170.98404,
+            "end": 171.14362,
+            "probability": 1
+          },
+          {
+            "word": "t",
+            "start": 171.14362,
+            "end": 171.2234,
+            "probability": 1
+          },
+          {
+            "word": " that",
+            "start": 171.30319,
+            "end": 171.70213,
+            "probability": 1
+          },
+          {
+            "word": " echo",
+            "start": 171.70213,
+            "end": 172.02128,
+            "probability": 1
+          },
+          {
+            "word": "es",
+            "start": 172.02128,
+            "end": 172.18085,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 172.42021,
+            "end": 172.73936,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "What",
+            "start": 172.42021,
+            "end": 172.73936,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 172.73936,
+            "end": 173.05851,
+            "probability": 1
+          },
+          {
+            "word": " tell",
+            "start": 173.05851,
+            "end": 173.45745,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 173.93617,
+            "end": 174.01596,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But",
+            "start": 173.93617,
+            "end": 174.01596,
+            "probability": 1
+          },
+          {
+            "word": " I'm",
+            "start": 174.01596,
+            "end": 174.09574,
+            "probability": 1
+          },
+          {
+            "word": " still",
+            "start": 174.33511,
+            "end": 174.73404,
+            "probability": 1
+          },
+          {
+            "word": " breathing",
+            "start": 174.73404,
+            "end": 175.45213,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 175.45213,
+            "end": 175.93085,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Still",
+            "start": 175.45213,
+            "end": 175.93085,
+            "probability": 1
+          },
+          {
+            "word": " alive",
+            "start": 175.93085,
+            "end": 176.40957,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 176.96809,
+            "end": 177.44681,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Under",
+            "start": 176.96809,
+            "end": 177.44681,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 177.60638,
+            "end": 178.00532,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 178.40426,
+            "end": 178.80319,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Fake",
+            "start": 178.40426,
+            "end": 178.80319,
+            "probability": 1
+          },
+          {
+            "word": " disgu",
+            "start": 178.96277,
+            "end": 179.04255,
+            "probability": 1
+          },
+          {
+            "word": "ise",
+            "start": 179.04255,
+            "end": 179.28191,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 179.92021,
+      "end": 191.25,
+      "text": [
+        "They want me empty",
+        "Just a shell",
+        "Ghost that echoes",
+        "What they tell",
+        "But I'm still breathing",
+        "Still alive",
+        "Under this",
+        "Fake disguise"
+      ],
+      "paragraph": "They want me empty\nJust a shell\nGhost that echoes\nWhat they tell\nBut I'm still breathing\nStill alive\nUnder this\nFake disguise",
+      "words": [
+        {
+          "word": "\nThey",
+          "start": 179.92021,
+          "end": 180.07979,
+          "probability": 1
+        },
+        {
+          "word": " want",
+          "start": 180.07979,
+          "end": 180.31915,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 180.31915,
+          "end": 180.55851,
+          "probability": 1
+        },
+        {
+          "word": " empty",
+          "start": 180.6383,
+          "end": 181.11702,
+          "probability": 1
+        },
+        {
+          "word": "\nJust a",
+          "start": 181.43617,
+          "end": 181.75532,
+          "probability": 1
+        },
+        {
+          "word": " she",
+          "start": 181.99468,
+          "end": 182.07447,
+          "probability": 1
+        },
+        {
+          "word": "ll",
+          "start": 182.07447,
+          "end": 182.23404,
+          "probability": 1
+        },
+        {
+          "word": "\nGhos",
+          "start": 182.95213,
+          "end": 183.1117,
+          "probability": 1
+        },
+        {
+          "word": "t ",
+          "start": 183.1117,
+          "end": 183.19149,
+          "probability": 1
+        },
+        {
+          "word": "that",
+          "start": 183.27128,
+          "end": 183.59043,
+          "probability": 1
+        },
+        {
+          "word": " echo",
+          "start": 183.67021,
+          "end": 183.98936,
+          "probability": 1
+        },
+        {
+          "word": "es",
+          "start": 183.98936,
+          "end": 184.14894,
+          "probability": 1
+        },
+        {
+          "word": "\nWhat",
+          "start": 184.3883,
+          "end": 184.70745,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 184.70745,
+          "end": 185.0266,
+          "probability": 1
+        },
+        {
+          "word": " tell",
+          "start": 185.0266,
+          "end": 185.42553,
+          "probability": 1
+        },
+        {
+          "word": "\nBut",
+          "start": 185.90426,
+          "end": 186.06383,
+          "probability": 1
+        },
+        {
+          "word": " I'm",
+          "start": 186.06383,
+          "end": 186.14362,
+          "probability": 1
+        },
+        {
+          "word": " still",
+          "start": 186.30319,
+          "end": 186.62234,
+          "probability": 1
+        },
+        {
+          "word": " breathing",
+          "start": 186.62234,
+          "end": 187.42021,
+          "probability": 1
+        },
+        {
+          "word": "\nStill",
+          "start": 187.42021,
+          "end": 187.89894,
+          "probability": 1
+        },
+        {
+          "word": " alive",
+          "start": 187.89894,
+          "end": 188.37766,
+          "probability": 1
+        },
+        {
+          "word": "\nUnder",
+          "start": 188.93617,
+          "end": 189.41489,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 189.65426,
+          "end": 190.05319,
+          "probability": 1
+        },
+        {
+          "word": "\nFake",
+          "start": 190.37234,
+          "end": 190.77128,
+          "probability": 1
+        },
+        {
+          "word": " disgu",
+          "start": 190.93085,
+          "end": 191.01064,
+          "probability": 1
+        },
+        {
+          "word": "ise",
+          "start": 191.01064,
+          "end": 191.25,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 179.92021,
+            "end": 180.07979,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 179.92021,
+            "end": 180.07979,
+            "probability": 1
+          },
+          {
+            "word": " want",
+            "start": 180.07979,
+            "end": 180.31915,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 180.31915,
+            "end": 180.55851,
+            "probability": 1
+          },
+          {
+            "word": " empty",
+            "start": 180.6383,
+            "end": 181.11702,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 181.43617,
+            "end": 181.75532,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Just a",
+            "start": 181.43617,
+            "end": 181.75532,
+            "probability": 1
+          },
+          {
+            "word": " she",
+            "start": 181.99468,
+            "end": 182.07447,
+            "probability": 1
+          },
+          {
+            "word": "ll",
+            "start": 182.07447,
+            "end": 182.23404,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 182.95213,
+            "end": 183.1117,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Ghos",
+            "start": 182.95213,
+            "end": 183.1117,
+            "probability": 1
+          },
+          {
+            "word": "t ",
+            "start": 183.1117,
+            "end": 183.19149,
+            "probability": 1
+          },
+          {
+            "word": "that",
+            "start": 183.27128,
+            "end": 183.59043,
+            "probability": 1
+          },
+          {
+            "word": " echo",
+            "start": 183.67021,
+            "end": 183.98936,
+            "probability": 1
+          },
+          {
+            "word": "es",
+            "start": 183.98936,
+            "end": 184.14894,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 184.3883,
+            "end": 184.70745,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "What",
+            "start": 184.3883,
+            "end": 184.70745,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 184.70745,
+            "end": 185.0266,
+            "probability": 1
+          },
+          {
+            "word": " tell",
+            "start": 185.0266,
+            "end": 185.42553,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 185.90426,
+            "end": 186.06383,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But",
+            "start": 185.90426,
+            "end": 186.06383,
+            "probability": 1
+          },
+          {
+            "word": " I'm",
+            "start": 186.06383,
+            "end": 186.14362,
+            "probability": 1
+          },
+          {
+            "word": " still",
+            "start": 186.30319,
+            "end": 186.62234,
+            "probability": 1
+          },
+          {
+            "word": " breathing",
+            "start": 186.62234,
+            "end": 187.42021,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 187.42021,
+            "end": 187.89894,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Still",
+            "start": 187.42021,
+            "end": 187.89894,
+            "probability": 1
+          },
+          {
+            "word": " alive",
+            "start": 187.89894,
+            "end": 188.37766,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 188.93617,
+            "end": 189.41489,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Under",
+            "start": 188.93617,
+            "end": 189.41489,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 189.65426,
+            "end": 190.05319,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 190.37234,
+            "end": 190.77128,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Fake",
+            "start": 190.37234,
+            "end": 190.77128,
+            "probability": 1
+          },
+          {
+            "word": " disgu",
+            "start": 190.93085,
+            "end": 191.01064,
+            "probability": 1
+          },
+          {
+            "word": "ise",
+            "start": 191.01064,
+            "end": 191.25,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 191.96809,
+      "end": 234.17553,
+      "text": [
+        "I'm tired of holding this together",
+        "Don't ask what burns inside my chest",
+        "Don't ask why I can't find rest",
+        "You don't wanna know",
+        "But the silence ends tonight"
+      ],
+      "paragraph": "I'm tired of holding this together\nDon't ask what burns inside my chest\nDon't ask why I can't find rest\nYou don't wanna know\nBut the silence ends tonight",
+      "words": [
+        {
+          "word": "\nI",
+          "start": 191.96809,
+          "end": 192.60638,
+          "probability": 1
+        },
+        {
+          "word": "'m t",
+          "start": 192.60638,
+          "end": 192.76596,
+          "probability": 1
+        },
+        {
+          "word": "ire",
+          "start": 193.80319,
+          "end": 194.04255,
+          "probability": 1
+        },
+        {
+          "word": "d o",
+          "start": 194.20213,
+          "end": 194.44149,
+          "probability": 1
+        },
+        {
+          "word": "f h",
+          "start": 196.03723,
+          "end": 196.2766,
+          "probability": 1
+        },
+        {
+          "word": "ol",
+          "start": 196.43617,
+          "end": 196.59574,
+          "probability": 1
+        },
+        {
+          "word": "ding",
+          "start": 196.75532,
+          "end": 197.07447,
+          "probability": 1
+        },
+        {
+          "word": " th",
+          "start": 197.07447,
+          "end": 197.31383,
+          "probability": 1
+        },
+        {
+          "word": "is",
+          "start": 199.06915,
+          "end": 199.22872,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 199.46809,
+          "end": 199.70745,
+          "probability": 1
+        },
+        {
+          "word": "ge",
+          "start": 199.70745,
+          "end": 199.78723,
+          "probability": 1
+        },
+        {
+          "word": "ther",
+          "start": 199.78723,
+          "end": 200.0266,
+          "probability": 1
+        },
+        {
+          "word": "\nDon",
+          "start": 215.58511,
+          "end": 215.82447,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 215.82447,
+          "end": 215.90426,
+          "probability": 1
+        },
+        {
+          "word": " ask",
+          "start": 215.90426,
+          "end": 216.2234,
+          "probability": 1
+        },
+        {
+          "word": " what",
+          "start": 219.25532,
+          "end": 219.65426,
+          "probability": 1
+        },
+        {
+          "word": " burns",
+          "start": 219.65426,
+          "end": 220.13298,
+          "probability": 1
+        },
+        {
+          "word": " inside",
+          "start": 220.45213,
+          "end": 221.01064,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 221.01064,
+          "end": 221.25,
+          "probability": 1
+        },
+        {
+          "word": " chest",
+          "start": 221.48936,
+          "end": 221.96809,
+          "probability": 1
+        },
+        {
+          "word": "\nDon",
+          "start": 224.04255,
+          "end": 224.12234,
+          "probability": 1
+        },
+        {
+          "word": "'t as",
+          "start": 224.12234,
+          "end": 224.3617,
+          "probability": 1
+        },
+        {
+          "word": "k",
+          "start": 224.3617,
+          "end": 224.44149,
+          "probability": 1
+        },
+        {
+          "word": " why I",
+          "start": 225.31915,
+          "end": 225.6383,
+          "probability": 1
+        },
+        {
+          "word": " ca",
+          "start": 226.03723,
+          "end": 226.19681,
+          "probability": 1
+        },
+        {
+          "word": "n't",
+          "start": 226.19681,
+          "end": 226.2766,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 226.43617,
+          "end": 226.83511,
+          "probability": 1
+        },
+        {
+          "word": " rest\n",
+          "start": 226.99468,
+          "end": 227.31383,
+          "probability": 1
+        },
+        {
+          "word": "You",
+          "start": 228.75,
+          "end": 228.82979,
+          "probability": 1
+        },
+        {
+          "word": " don",
+          "start": 228.82979,
+          "end": 228.90957,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 228.90957,
+          "end": 229.06915,
+          "probability": 1
+        },
+        {
+          "word": " wanna",
+          "start": 229.06915,
+          "end": 229.46809,
+          "probability": 1
+        },
+        {
+          "word": " know",
+          "start": 230.0266,
+          "end": 230.42553,
+          "probability": 1
+        },
+        {
+          "word": "\nBut",
+          "start": 230.90426,
+          "end": 231.2234,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 231.30319,
+          "end": 231.62234,
+          "probability": 1
+        },
+        {
+          "word": " silence",
+          "start": 231.70213,
+          "end": 232.34043,
+          "probability": 1
+        },
+        {
+          "word": " ends",
+          "start": 232.5,
+          "end": 232.89894,
+          "probability": 1
+        },
+        {
+          "word": " tonight",
+          "start": 233.53723,
+          "end": 234.17553,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 191.96809,
+            "end": 192.60638,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 191.96809,
+            "end": 192.60638,
+            "probability": 1
+          },
+          {
+            "word": "'m t",
+            "start": 192.60638,
+            "end": 192.76596,
+            "probability": 1
+          },
+          {
+            "word": "ire",
+            "start": 193.80319,
+            "end": 194.04255,
+            "probability": 1
+          },
+          {
+            "word": "d o",
+            "start": 194.20213,
+            "end": 194.44149,
+            "probability": 1
+          },
+          {
+            "word": "f h",
+            "start": 196.03723,
+            "end": 196.2766,
+            "probability": 1
+          },
+          {
+            "word": "ol",
+            "start": 196.43617,
+            "end": 196.59574,
+            "probability": 1
+          },
+          {
+            "word": "ding",
+            "start": 196.75532,
+            "end": 197.07447,
+            "probability": 1
+          },
+          {
+            "word": " th",
+            "start": 197.07447,
+            "end": 197.31383,
+            "probability": 1
+          },
+          {
+            "word": "is",
+            "start": 199.06915,
+            "end": 199.22872,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 199.46809,
+            "end": 199.70745,
+            "probability": 1
+          },
+          {
+            "word": "ge",
+            "start": 199.70745,
+            "end": 199.78723,
+            "probability": 1
+          },
+          {
+            "word": "ther",
+            "start": 199.78723,
+            "end": 200.0266,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 215.58511,
+            "end": 215.82447,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Don",
+            "start": 215.58511,
+            "end": 215.82447,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 215.82447,
+            "end": 215.90426,
+            "probability": 1
+          },
+          {
+            "word": " ask",
+            "start": 215.90426,
+            "end": 216.2234,
+            "probability": 1
+          },
+          {
+            "word": " what",
+            "start": 219.25532,
+            "end": 219.65426,
+            "probability": 1
+          },
+          {
+            "word": " burns",
+            "start": 219.65426,
+            "end": 220.13298,
+            "probability": 1
+          },
+          {
+            "word": " inside",
+            "start": 220.45213,
+            "end": 221.01064,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 221.01064,
+            "end": 221.25,
+            "probability": 1
+          },
+          {
+            "word": " chest",
+            "start": 221.48936,
+            "end": 221.96809,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 224.04255,
+            "end": 224.12234,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Don",
+            "start": 224.04255,
+            "end": 224.12234,
+            "probability": 1
+          },
+          {
+            "word": "'t as",
+            "start": 224.12234,
+            "end": 224.3617,
+            "probability": 1
+          },
+          {
+            "word": "k",
+            "start": 224.3617,
+            "end": 224.44149,
+            "probability": 1
+          },
+          {
+            "word": " why I",
+            "start": 225.31915,
+            "end": 225.6383,
+            "probability": 1
+          },
+          {
+            "word": " ca",
+            "start": 226.03723,
+            "end": 226.19681,
+            "probability": 1
+          },
+          {
+            "word": "n't",
+            "start": 226.19681,
+            "end": 226.2766,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 226.43617,
+            "end": 226.83511,
+            "probability": 1
+          },
+          {
+            "word": " rest",
+            "start": 226.99468,
+            "end": 227.31383,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "You",
+            "start": 228.75,
+            "end": 228.82979,
+            "probability": 1
+          },
+          {
+            "word": " don",
+            "start": 228.82979,
+            "end": 228.90957,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 228.90957,
+            "end": 229.06915,
+            "probability": 1
+          },
+          {
+            "word": " wanna",
+            "start": 229.06915,
+            "end": 229.46809,
+            "probability": 1
+          },
+          {
+            "word": " know",
+            "start": 230.0266,
+            "end": 230.42553,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 230.90426,
+            "end": 231.2234,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But",
+            "start": 230.90426,
+            "end": 231.2234,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 231.30319,
+            "end": 231.62234,
+            "probability": 1
+          },
+          {
+            "word": " silence",
+            "start": 231.70213,
+            "end": 232.34043,
+            "probability": 1
+          },
+          {
+            "word": " ends",
+            "start": 232.5,
+            "end": 232.89894,
+            "probability": 1
+          },
+          {
+            "word": " tonight",
+            "start": 233.53723,
+            "end": 234.17553,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 239.60106,
+      "end": 245.82447,
+      "text": [
+        "Don't ask...",
+        "Time to tell..."
+      ],
+      "paragraph": "Don't ask...\nTime to tell...",
+      "words": [
+        {
+          "word": "\nDon",
+          "start": 239.60106,
+          "end": 239.84043,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 239.84043,
+          "end": 239.92021,
+          "probability": 1
+        },
+        {
+          "word": " ask",
+          "start": 239.92021,
+          "end": 240.23936,
+          "probability": 1
+        },
+        {
+          "word": "...\nTime",
+          "start": 242.95213,
+          "end": 243.51064,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 243.51064,
+          "end": 243.75,
+          "probability": 1
+        },
+        {
+          "word": " tell",
+          "start": 244.06915,
+          "end": 244.46809,
+          "probability": 1
+        },
+        {
+          "word": "...\nDon",
+          "start": 245.58511,
+          "end": 245.82447,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 239.60106,
+            "end": 239.84043,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Don",
+            "start": 239.60106,
+            "end": 239.84043,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 239.84043,
+            "end": 239.92021,
+            "probability": 1
+          },
+          {
+            "word": " ask",
+            "start": 239.92021,
+            "end": 240.23936,
+            "probability": 1
+          },
+          {
+            "word": "...",
+            "start": 242.95213,
+            "end": 243.51064,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Time",
+            "start": 242.95213,
+            "end": 243.51064,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 243.51064,
+            "end": 243.75,
+            "probability": 1
+          },
+          {
+            "word": " tell",
+            "start": 244.06915,
+            "end": 244.46809,
+            "probability": 1
+          },
+          {
+            "word": "...",
+            "start": 245.58511,
+            "end": 245.82447,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 245.58511,
+      "end": 250.85106,
+      "text": [
+        "Don't ask...",
+        "Time to tell..."
+      ],
+      "paragraph": "Don't ask...\nTime to tell...",
+      "words": [
+        {
+          "word": "...\nDon",
+          "start": 245.58511,
+          "end": 245.82447,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 245.82447,
+          "end": 245.90426,
+          "probability": 1
+        },
+        {
+          "word": " ask",
+          "start": 245.90426,
+          "end": 246.2234,
+          "probability": 1
+        },
+        {
+          "word": "...\nTime",
+          "start": 248.93617,
+          "end": 249.49468,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 249.49468,
+          "end": 249.73404,
+          "probability": 1
+        },
+        {
+          "word": " tell...\n",
+          "start": 250.05319,
+          "end": 250.85106,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "...",
+            "start": 245.58511,
+            "end": 245.82447,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Don",
+            "start": 245.58511,
+            "end": 245.82447,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 245.82447,
+            "end": 245.90426,
+            "probability": 1
+          },
+          {
+            "word": " ask",
+            "start": 245.90426,
+            "end": 246.2234,
+            "probability": 1
+          },
+          {
+            "word": "...",
+            "start": 248.93617,
+            "end": 249.49468,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Time",
+            "start": 248.93617,
+            "end": 249.49468,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 249.49468,
+            "end": 249.73404,
+            "probability": 1
+          },
+          {
+            "word": " tell...",
+            "start": 250.05319,
+            "end": 250.85106,
+            "probability": 1
+          }
+        ]
+      ]
+    }
+  ],
+  "language": "en"
+}

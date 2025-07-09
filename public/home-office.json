@@ -1,0 +1,1738 @@
+[
+    {
+      "word": "[Verse]\nMy",
+      "success": true,
+      "start_s": 17.79255319148936,
+      "end_s": 18.03191489361702,
+      "p_align": 1
+    },
+    {
+      "word": " T",
+      "success": true,
+      "start_s": 18.03191489361702,
+      "end_s": 18.19148936170213,
+      "p_align": 1
+    },
+    {
+      "word": "-shirt",
+      "success": true,
+      "start_s": 18.27127659574468,
+      "end_s": 18.590425531914892,
+      "p_align": 1
+    },
+    {
+      "word": " sme",
+      "success": true,
+      "start_s": 18.590425531914892,
+      "end_s": 18.75,
+      "p_align": 1
+    },
+    {
+      "word": "lls",
+      "success": true,
+      "start_s": 18.75,
+      "end_s": 18.909574468085108,
+      "p_align": 1
+    },
+    {
+      "word": " like",
+      "success": true,
+      "start_s": 18.909574468085108,
+      "end_s": 19.148936170212767,
+      "p_align": 1
+    },
+    {
+      "word": " off",
+      "success": true,
+      "start_s": 19.148936170212767,
+      "end_s": 19.30851063829787,
+      "p_align": 1
+    },
+    {
+      "word": "ice",
+      "success": true,
+      "start_s": 19.30851063829787,
+      "end_s": 19.54787234042553,
+      "p_align": 1
+    },
+    {
+      "word": " cha",
+      "success": true,
+      "start_s": 19.627659574468087,
+      "end_s": 19.70744680851064,
+      "p_align": 1
+    },
+    {
+      "word": "ir",
+      "success": true,
+      "start_s": 19.70744680851064,
+      "end_s": 19.867021276595747,
+      "p_align": 1
+    },
+    {
+      "word": "\nThe",
+      "success": true,
+      "start_s": 21.94148936170213,
+      "end_s": 22.02127659574468,
+      "p_align": 1
+    },
+    {
+      "word": "re'",
+      "success": true,
+      "start_s": 22.02127659574468,
+      "end_s": 22.101063829787233,
+      "p_align": 1
+    },
+    {
+      "word": "s",
+      "success": true,
+      "start_s": 22.101063829787233,
+      "end_s": 22.180851063829788,
+      "p_align": 1
+    },
+    {
+      "word": " co",
+      "success": true,
+      "start_s": 22.26063829787234,
+      "end_s": 22.5,
+      "p_align": 1
+    },
+    {
+      "word": "ffee",
+      "success": true,
+      "start_s": 22.5,
+      "end_s": 22.819148936170212,
+      "p_align": 1
+    },
+    {
+      "word": " spill",
+      "success": true,
+      "start_s": 22.898936170212767,
+      "end_s": 23.05851063829787,
+      "p_align": 1
+    },
+    {
+      "word": "ed",
+      "success": true,
+      "start_s": 23.05851063829787,
+      "end_s": 23.21808510638298,
+      "p_align": 1
+    },
+    {
+      "word": " all",
+      "success": true,
+      "start_s": 23.21808510638298,
+      "end_s": 23.45744680851064,
+      "p_align": 1
+    },
+    {
+      "word": " over",
+      "success": true,
+      "start_s": 23.45744680851064,
+      "end_s": 23.856382978723403,
+      "p_align": 1
+    },
+    {
+      "word": " it",
+      "success": true,
+      "start_s": 23.93617021276596,
+      "end_s": 24.175531914893618,
+      "p_align": 1
+    },
+    {
+      "word": "\nYou",
+      "success": true,
+      "start_s": 26.25,
+      "end_s": 26.48936170212766,
+      "p_align": 1
+    },
+    {
+      "word": " text",
+      "success": true,
+      "start_s": 26.48936170212766,
+      "end_s": 26.80851063829787,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 26.80851063829787,
+      "end_s": 27.04787234042553,
+      "p_align": 1
+    },
+    {
+      "word": " \"l",
+      "success": true,
+      "start_s": 27.04787234042553,
+      "end_s": 27.127659574468087,
+      "p_align": 1
+    },
+    {
+      "word": "et'",
+      "success": true,
+      "start_s": 27.127659574468087,
+      "end_s": 27.20744680851064,
+      "p_align": 1
+    },
+    {
+      "word": "s",
+      "success": true,
+      "start_s": 27.20744680851064,
+      "end_s": 27.28723404255319,
+      "p_align": 1
+    },
+    {
+      "word": " meet",
+      "success": true,
+      "start_s": 27.367021276595747,
+      "end_s": 27.68617021276596,
+      "p_align": 1
+    },
+    {
+      "word": " over",
+      "success": true,
+      "start_s": 27.68617021276596,
+      "end_s": 28.085106382978722,
+      "p_align": 1
+    },
+    {
+      "word": " there",
+      "success": true,
+      "start_s": 28.085106382978722,
+      "end_s": 28.56382978723404,
+      "p_align": 1
+    },
+    {
+      "word": "\"\nBut",
+      "success": true,
+      "start_s": 29.361702127659576,
+      "end_s": 29.680851063829788,
+      "p_align": 1
+    },
+    {
+      "word": " I",
+      "success": true,
+      "start_s": 29.680851063829788,
+      "end_s": 29.840425531914892,
+      "p_align": 1
+    },
+    {
+      "word": " ca",
+      "success": true,
+      "start_s": 29.920212765957448,
+      "end_s": 30.079787234042552,
+      "p_align": 1
+    },
+    {
+      "word": "n",
+      "success": true,
+      "start_s": 30.079787234042552,
+      "end_s": 30.159574468085108,
+      "p_align": 1
+    },
+    {
+      "word": "'t",
+      "success": true,
+      "start_s": 30.159574468085108,
+      "end_s": 30.319148936170212,
+      "p_align": 1
+    },
+    {
+      "word": " go",
+      "success": true,
+      "start_s": 30.47872340425532,
+      "end_s": 30.71808510638298,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 31.99468085106383,
+      "end_s": 32.15425531914894,
+      "p_align": 1
+    },
+    {
+      "word": " wo",
+      "success": true,
+      "start_s": 32.31382978723404,
+      "end_s": 32.3936170212766,
+      "p_align": 1
+    },
+    {
+      "word": "n",
+      "success": true,
+      "start_s": 32.3936170212766,
+      "end_s": 32.473404255319146,
+      "p_align": 1
+    },
+    {
+      "word": "'t",
+      "success": true,
+      "start_s": 32.473404255319146,
+      "end_s": 32.5531914893617,
+      "p_align": 1
+    },
+    {
+      "word": " go",
+      "success": true,
+      "start_s": 32.5531914893617,
+      "end_s": 32.79255319148936,
+      "p_align": 1
+    },
+    {
+      "word": "\n\n[Verse 2]\nGot",
+      "success": true,
+      "start_s": 34.62765957446808,
+      "end_s": 34.9468085106383,
+      "p_align": 1
+    },
+    {
+      "word": " sna",
+      "success": true,
+      "start_s": 34.9468085106383,
+      "end_s": 35.026595744680854,
+      "p_align": 1
+    },
+    {
+      "word": "cks",
+      "success": true,
+      "start_s": 35.026595744680854,
+      "end_s": 35.265957446808514,
+      "p_align": 1
+    },
+    {
+      "word": " and",
+      "success": true,
+      "start_s": 35.265957446808514,
+      "end_s": 35.42553191489362,
+      "p_align": 1
+    },
+    {
+      "word": " food",
+      "success": true,
+      "start_s": 35.42553191489362,
+      "end_s": 35.82446808510638,
+      "p_align": 1
+    },
+    {
+      "word": " inside",
+      "success": true,
+      "start_s": 35.98404255319149,
+      "end_s": 36.3031914893617,
+      "p_align": 1
+    },
+    {
+      "word": " my",
+      "success": true,
+      "start_s": 36.3031914893617,
+      "end_s": 36.54255319148936,
+      "p_align": 1
+    },
+    {
+      "word": " hair",
+      "success": true,
+      "start_s": 36.54255319148936,
+      "end_s": 36.941489361702125,
+      "p_align": 1
+    },
+    {
+      "word": "\nAnd",
+      "success": true,
+      "start_s": 38.8563829787234,
+      "end_s": 39.09574468085106,
+      "p_align": 1
+    },
+    {
+      "word": " baby",
+      "success": true,
+      "start_s": 39.09574468085106,
+      "end_s": 39.49468085106383,
+      "p_align": 1
+    },
+    {
+      "word": " I",
+      "success": true,
+      "start_s": 39.65425531914894,
+      "end_s": 39.81382978723404,
+      "p_align": 1
+    },
+    {
+      "word": " am",
+      "success": true,
+      "start_s": 39.8936170212766,
+      "end_s": 40.13297872340426,
+      "p_align": 1
+    },
+    {
+      "word": " over",
+      "success": true,
+      "start_s": 40.212765957446805,
+      "end_s": 40.611702127659576,
+      "p_align": 1
+    },
+    {
+      "word": " it",
+      "success": true,
+      "start_s": 40.691489361702125,
+      "end_s": 40.930851063829785,
+      "p_align": 1
+    },
+    {
+      "word": "\nThey",
+      "success": true,
+      "start_s": 43.005319148936174,
+      "end_s": 43.32446808510638,
+      "p_align": 1
+    },
+    {
+      "word": " call",
+      "success": true,
+      "start_s": 43.32446808510638,
+      "end_s": 43.56382978723404,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 43.56382978723404,
+      "end_s": 43.8031914893617,
+      "p_align": 1
+    },
+    {
+      "word": " \"did",
+      "success": true,
+      "start_s": 43.8031914893617,
+      "end_s": 44.12234042553192,
+      "p_align": 1
+    },
+    {
+      "word": " you",
+      "success": true,
+      "start_s": 44.12234042553192,
+      "end_s": 44.361702127659576,
+      "p_align": 1
+    },
+    {
+      "word": " fill",
+      "success": true,
+      "start_s": 44.361702127659576,
+      "end_s": 44.680851063829785,
+      "p_align": 1
+    },
+    {
+      "word": " the",
+      "success": true,
+      "start_s": 44.680851063829785,
+      "end_s": 44.920212765957444,
+      "p_align": 1
+    },
+    {
+      "word": " air",
+      "success": true,
+      "start_s": 44.920212765957444,
+      "end_s": 45.23936170212766,
+      "p_align": 1
+    },
+    {
+      "word": "\"\nBut",
+      "success": true,
+      "start_s": 46.1968085106383,
+      "end_s": 46.43617021276596,
+      "p_align": 1
+    },
+    {
+      "word": " I",
+      "success": true,
+      "start_s": 46.43617021276596,
+      "end_s": 46.59574468085106,
+      "p_align": 1
+    },
+    {
+      "word": " ca",
+      "success": true,
+      "start_s": 46.755319148936174,
+      "end_s": 46.83510638297872,
+      "p_align": 1
+    },
+    {
+      "word": "n'",
+      "success": true,
+      "start_s": 46.83510638297872,
+      "end_s": 46.91489361702128,
+      "p_align": 1
+    },
+    {
+      "word": "t",
+      "success": true,
+      "start_s": 46.91489361702128,
+      "end_s": 46.99468085106383,
+      "p_align": 1
+    },
+    {
+      "word": " no",
+      "success": true,
+      "start_s": 47.23404255319149,
+      "end_s": 47.47340425531915,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 48.829787234042556,
+      "end_s": 48.98936170212766,
+      "p_align": 1
+    },
+    {
+      "word": " wo",
+      "success": true,
+      "start_s": 49.069148936170215,
+      "end_s": 49.148936170212764,
+      "p_align": 1
+    },
+    {
+      "word": "n",
+      "success": true,
+      "start_s": 49.148936170212764,
+      "end_s": 49.22872340425532,
+      "p_align": 1
+    },
+    {
+      "word": "'t",
+      "success": true,
+      "start_s": 49.22872340425532,
+      "end_s": 49.308510638297875,
+      "p_align": 1
+    },
+    {
+      "word": " go",
+      "success": true,
+      "start_s": 49.308510638297875,
+      "end_s": 49.388297872340424,
+      "p_align": 1
+    },
+    {
+      "word": "\n\n[Chorus]\nB",
+      "success": true,
+      "start_s": 49.388297872340424,
+      "end_s": 50.34574468085106,
+      "p_align": 1
+    },
+    {
+      "word": "a",
+      "success": true,
+      "start_s": 52.659574468085104,
+      "end_s": 52.73936170212766,
+      "p_align": 1
+    },
+    {
+      "word": "by",
+      "success": true,
+      "start_s": 53.8563829787234,
+      "end_s": 53.93617021276596,
+      "p_align": 1
+    },
+    {
+      "word": "\nI'",
+      "success": true,
+      "start_s": 53.93617021276596,
+      "end_s": 54.015957446808514,
+      "p_align": 1
+    },
+    {
+      "word": "m",
+      "success": true,
+      "start_s": 54.015957446808514,
+      "end_s": 54.09574468085106,
+      "p_align": 1
+    },
+    {
+      "word": " so",
+      "success": true,
+      "start_s": 54.09574468085106,
+      "end_s": 54.33510638297872,
+      "p_align": 1
+    },
+    {
+      "word": " st",
+      "success": true,
+      "start_s": 54.41489361702128,
+      "end_s": 54.49468085106383,
+      "p_align": 1
+    },
+    {
+      "word": "ressed",
+      "success": true,
+      "start_s": 54.49468085106383,
+      "end_s": 54.73404255319149,
+      "p_align": 1
+    },
+    {
+      "word": " and",
+      "success": true,
+      "start_s": 54.73404255319149,
+      "end_s": 54.97340425531915,
+      "p_align": 1
+    },
+    {
+      "word": " tired",
+      "success": true,
+      "start_s": 54.97340425531915,
+      "end_s": 55.452127659574465,
+      "p_align": 1
+    },
+    {
+      "word": "\nThis",
+      "success": true,
+      "start_s": 55.452127659574465,
+      "end_s": 55.77127659574468,
+      "p_align": 1
+    },
+    {
+      "word": " whole",
+      "success": true,
+      "start_s": 55.77127659574468,
+      "end_s": 56.01063829787234,
+      "p_align": 1
+    },
+    {
+      "word": " work",
+      "success": true,
+      "start_s": 56.01063829787234,
+      "end_s": 56.329787234042556,
+      "p_align": 1
+    },
+    {
+      "word": "-from",
+      "success": true,
+      "start_s": 56.329787234042556,
+      "end_s": 56.569148936170215,
+      "p_align": 1
+    },
+    {
+      "word": "-home",
+      "success": true,
+      "start_s": 56.569148936170215,
+      "end_s": 56.808510638297875,
+      "p_align": 1
+    },
+    {
+      "word": " is",
+      "success": true,
+      "start_s": 56.808510638297875,
+      "end_s": 57.047872340425535,
+      "p_align": 1
+    },
+    {
+      "word": " crazy",
+      "success": true,
+      "start_s": 57.047872340425535,
+      "end_s": 57.526595744680854,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 59.680851063829785,
+      "end_s": 59.76063829787234,
+      "p_align": 1
+    },
+    {
+      "word": "'m",
+      "success": true,
+      "start_s": 59.76063829787234,
+      "end_s": 59.920212765957444,
+      "p_align": 1
+    },
+    {
+      "word": "a",
+      "success": true,
+      "start_s": 59.920212765957444,
+      "end_s": 60,
+      "p_align": 1
+    },
+    {
+      "word": " need",
+      "success": true,
+      "start_s": 60.159574468085104,
+      "end_s": 60.558510638297875,
+      "p_align": 1
+    },
+    {
+      "word": " to",
+      "success": true,
+      "start_s": 60.71808510638298,
+      "end_s": 60.95744680851064,
+      "p_align": 1
+    },
+    {
+      "word": " call",
+      "success": true,
+      "start_s": 60.95744680851064,
+      "end_s": 61.3563829787234,
+      "p_align": 1
+    },
+    {
+      "word": " a",
+      "success": true,
+      "start_s": 61.755319148936174,
+      "end_s": 61.91489361702128,
+      "p_align": 1
+    },
+    {
+      "word": " sh",
+      "success": true,
+      "start_s": 61.99468085106383,
+      "end_s": 62.07446808510638,
+      "p_align": 1
+    },
+    {
+      "word": "r",
+      "success": true,
+      "start_s": 62.07446808510638,
+      "end_s": 62.15425531914894,
+      "p_align": 1
+    },
+    {
+      "word": "ink",
+      "success": true,
+      "start_s": 62.15425531914894,
+      "end_s": 62.3936170212766,
+      "p_align": 1
+    },
+    {
+      "word": "\nTo",
+      "success": true,
+      "start_s": 63.03191489361702,
+      "end_s": 63.27127659574468,
+      "p_align": 1
+    },
+    {
+      "word": " help",
+      "success": true,
+      "start_s": 63.27127659574468,
+      "end_s": 63.590425531914896,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 63.590425531914896,
+      "end_s": 63.829787234042556,
+      "p_align": 1
+    },
+    {
+      "word": " go",
+      "success": true,
+      "start_s": 63.829787234042556,
+      "end_s": 64.06914893617021,
+      "p_align": 1
+    },
+    {
+      "word": " to",
+      "success": true,
+      "start_s": 64.06914893617021,
+      "end_s": 64.30851063829788,
+      "p_align": 1
+    },
+    {
+      "word": " sleep",
+      "success": true,
+      "start_s": 64.30851063829788,
+      "end_s": 64.7872340425532,
+      "p_align": 1
+    },
+    {
+      "word": "\n\n[Verse 3]\nI",
+      "success": true,
+      "start_s": 67.73936170212767,
+      "end_s": 68.05851063829788,
+      "p_align": 1
+    },
+    {
+      "word": " turn",
+      "success": true,
+      "start_s": 68.05851063829788,
+      "end_s": 68.29787234042553,
+      "p_align": 1
+    },
+    {
+      "word": " my",
+      "success": true,
+      "start_s": 68.29787234042553,
+      "end_s": 68.5372340425532,
+      "p_align": 1
+    },
+    {
+      "word": " cam",
+      "success": true,
+      "start_s": 68.5372340425532,
+      "end_s": 68.8563829787234,
+      "p_align": 1
+    },
+    {
+      "word": " on",
+      "success": true,
+      "start_s": 68.8563829787234,
+      "end_s": 69.09574468085107,
+      "p_align": 1
+    },
+    {
+      "word": " and",
+      "success": true,
+      "start_s": 69.17553191489361,
+      "end_s": 69.33510638297872,
+      "p_align": 1
+    },
+    {
+      "word": " they",
+      "success": true,
+      "start_s": 69.33510638297872,
+      "end_s": 69.65425531914893,
+      "p_align": 1
+    },
+    {
+      "word": " see",
+      "success": true,
+      "start_s": 69.65425531914893,
+      "end_s": 69.97340425531915,
+      "p_align": 1
+    },
+    {
+      "word": "\nThe",
+      "success": true,
+      "start_s": 70.93085106382979,
+      "end_s": 71.17021276595744,
+      "p_align": 1
+    },
+    {
+      "word": " mess",
+      "success": true,
+      "start_s": 71.17021276595744,
+      "end_s": 71.56914893617021,
+      "p_align": 1
+    },
+    {
+      "word": " behind",
+      "success": true,
+      "start_s": 71.72872340425532,
+      "end_s": 72.04787234042553,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 72.04787234042553,
+      "end_s": 72.2872340425532,
+      "p_align": 1
+    },
+    {
+      "word": "\nIt",
+      "success": true,
+      "start_s": 72.2872340425532,
+      "end_s": 72.52659574468085,
+      "p_align": 1
+    },
+    {
+      "word": " is",
+      "success": true,
+      "start_s": 72.52659574468085,
+      "end_s": 72.76595744680851,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 72.76595744680851,
+      "end_s": 73.00531914893617,
+      "p_align": 1
+    },
+    {
+      "word": "\nThey",
+      "success": true,
+      "start_s": 76.19680851063829,
+      "end_s": 76.43617021276596,
+      "p_align": 1
+    },
+    {
+      "word": " laugh",
+      "success": true,
+      "start_s": 76.43617021276596,
+      "end_s": 76.75531914893617,
+      "p_align": 1
+    },
+    {
+      "word": " but",
+      "success": true,
+      "start_s": 76.75531914893617,
+      "end_s": 76.99468085106383,
+      "p_align": 1
+    },
+    {
+      "word": " d",
+      "success": true,
+      "start_s": 76.99468085106383,
+      "end_s": 77.07446808510639,
+      "p_align": 1
+    },
+    {
+      "word": "on",
+      "success": true,
+      "start_s": 77.07446808510639,
+      "end_s": 77.15425531914893,
+      "p_align": 1
+    },
+    {
+      "word": "'t",
+      "success": true,
+      "start_s": 77.15425531914893,
+      "end_s": 77.31382978723404,
+      "p_align": 1
+    },
+    {
+      "word": " know",
+      "success": true,
+      "start_s": 77.31382978723404,
+      "end_s": 77.47340425531915,
+      "p_align": 1
+    },
+    {
+      "word": " i",
+      "success": true,
+      "start_s": 77.47340425531915,
+      "end_s": 77.55319148936171,
+      "p_align": 1
+    },
+    {
+      "word": "t'",
+      "success": true,
+      "start_s": 77.55319148936171,
+      "end_s": 77.63297872340425,
+      "p_align": 1
+    },
+    {
+      "word": "s",
+      "success": true,
+      "start_s": 77.63297872340425,
+      "end_s": 77.7127659574468,
+      "p_align": 1
+    },
+    {
+      "word": " a",
+      "success": true,
+      "start_s": 77.79255319148936,
+      "end_s": 77.95212765957447,
+      "p_align": 1
+    },
+    {
+      "word": " ple",
+      "success": true,
+      "start_s": 78.03191489361703,
+      "end_s": 78.11170212765957,
+      "p_align": 1
+    },
+    {
+      "word": "a",
+      "success": true,
+      "start_s": 78.11170212765957,
+      "end_s": 78.19148936170212,
+      "p_align": 1
+    },
+    {
+      "word": "\nTo",
+      "success": true,
+      "start_s": 79.30851063829788,
+      "end_s": 79.54787234042553,
+      "p_align": 1
+    },
+    {
+      "word": " go",
+      "success": true,
+      "start_s": 79.62765957446808,
+      "end_s": 79.86702127659575,
+      "p_align": 1
+    },
+    {
+      "word": " outside",
+      "success": true,
+      "start_s": 80.34574468085107,
+      "end_s": 80.98404255319149,
+      "p_align": 1
+    },
+    {
+      "word": "\nWith",
+      "success": true,
+      "start_s": 81.94148936170212,
+      "end_s": 82.10106382978724,
+      "p_align": 1
+    },
+    {
+      "word": " the",
+      "success": true,
+      "start_s": 82.10106382978724,
+      "end_s": 82.26063829787235,
+      "p_align": 1
+    },
+    {
+      "word": " other",
+      "success": true,
+      "start_s": 82.26063829787235,
+      "end_s": 82.57978723404256,
+      "p_align": 1
+    },
+    {
+      "word": " guy",
+      "success": true,
+      "start_s": 82.57978723404256,
+      "end_s": 82.89893617021276,
+      "p_align": 1
+    },
+    {
+      "word": "s",
+      "success": true,
+      "start_s": 82.89893617021276,
+      "end_s": 82.97872340425532,
+      "p_align": 1
+    },
+    {
+      "word": "\n\n[Chorus]\nBaby",
+      "success": true,
+      "start_s": 85.45212765957447,
+      "end_s": 86.64893617021276,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 87.4468085106383,
+      "end_s": 87.6063829787234,
+      "p_align": 1
+    },
+    {
+      "word": "'m",
+      "success": true,
+      "start_s": 87.6063829787234,
+      "end_s": 87.76595744680851,
+      "p_align": 1
+    },
+    {
+      "word": " so",
+      "success": true,
+      "start_s": 87.84574468085107,
+      "end_s": 88.08510638297872,
+      "p_align": 1
+    },
+    {
+      "word": " st",
+      "success": true,
+      "start_s": 88.08510638297872,
+      "end_s": 88.16489361702128,
+      "p_align": 1
+    },
+    {
+      "word": "ressed",
+      "success": true,
+      "start_s": 88.16489361702128,
+      "end_s": 88.40425531914893,
+      "p_align": 1
+    },
+    {
+      "word": " and",
+      "success": true,
+      "start_s": 88.40425531914893,
+      "end_s": 88.6436170212766,
+      "p_align": 1
+    },
+    {
+      "word": " tired",
+      "success": true,
+      "start_s": 88.6436170212766,
+      "end_s": 89.12234042553192,
+      "p_align": 1
+    },
+    {
+      "word": "\nThis",
+      "success": true,
+      "start_s": 89.12234042553192,
+      "end_s": 89.44148936170212,
+      "p_align": 1
+    },
+    {
+      "word": " whole",
+      "success": true,
+      "start_s": 89.44148936170212,
+      "end_s": 89.68085106382979,
+      "p_align": 1
+    },
+    {
+      "word": " work",
+      "success": true,
+      "start_s": 89.68085106382979,
+      "end_s": 90,
+      "p_align": 1
+    },
+    {
+      "word": "-from",
+      "success": true,
+      "start_s": 90,
+      "end_s": 90.15957446808511,
+      "p_align": 1
+    },
+    {
+      "word": "-home",
+      "success": true,
+      "start_s": 90.15957446808511,
+      "end_s": 90.47872340425532,
+      "p_align": 1
+    },
+    {
+      "word": " is",
+      "success": true,
+      "start_s": 90.47872340425532,
+      "end_s": 90.71808510638299,
+      "p_align": 1
+    },
+    {
+      "word": " crazy",
+      "success": true,
+      "start_s": 90.71808510638299,
+      "end_s": 91.1968085106383,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 93.35106382978724,
+      "end_s": 93.51063829787235,
+      "p_align": 1
+    },
+    {
+      "word": "'m",
+      "success": true,
+      "start_s": 93.51063829787235,
+      "end_s": 93.59042553191489,
+      "p_align": 1
+    },
+    {
+      "word": "a",
+      "success": true,
+      "start_s": 93.59042553191489,
+      "end_s": 93.67021276595744,
+      "p_align": 1
+    },
+    {
+      "word": " need",
+      "success": true,
+      "start_s": 93.90957446808511,
+      "end_s": 94.30851063829788,
+      "p_align": 1
+    },
+    {
+      "word": " to",
+      "success": true,
+      "start_s": 94.38829787234043,
+      "end_s": 94.62765957446808,
+      "p_align": 1
+    },
+    {
+      "word": " call",
+      "success": true,
+      "start_s": 94.62765957446808,
+      "end_s": 95.02659574468085,
+      "p_align": 1
+    },
+    {
+      "word": " a",
+      "success": true,
+      "start_s": 95.58510638297872,
+      "end_s": 95.66489361702128,
+      "p_align": 1
+    },
+    {
+      "word": " sh",
+      "success": true,
+      "start_s": 95.66489361702128,
+      "end_s": 95.74468085106383,
+      "p_align": 1
+    },
+    {
+      "word": "r",
+      "success": true,
+      "start_s": 95.74468085106383,
+      "end_s": 95.82446808510639,
+      "p_align": 1
+    },
+    {
+      "word": "ink",
+      "success": true,
+      "start_s": 95.82446808510639,
+      "end_s": 96.06382978723404,
+      "p_align": 1
+    },
+    {
+      "word": "\nTo",
+      "success": true,
+      "start_s": 96.70212765957447,
+      "end_s": 96.94148936170212,
+      "p_align": 1
+    },
+    {
+      "word": " help",
+      "success": true,
+      "start_s": 96.94148936170212,
+      "end_s": 97.26063829787235,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 97.26063829787235,
+      "end_s": 97.5,
+      "p_align": 1
+    },
+    {
+      "word": " go",
+      "success": true,
+      "start_s": 97.5,
+      "end_s": 97.73936170212767,
+      "p_align": 1
+    },
+    {
+      "word": " to",
+      "success": true,
+      "start_s": 97.73936170212767,
+      "end_s": 97.97872340425532,
+      "p_align": 1
+    },
+    {
+      "word": " sleep",
+      "success": true,
+      "start_s": 97.97872340425532,
+      "end_s": 98.45744680851064,
+      "p_align": 1
+    },
+    {
+      "word": "\n\n[Bridge]\nAnd",
+      "success": true,
+      "start_s": 101.72872340425532,
+      "end_s": 102.04787234042553,
+      "p_align": 1
+    },
+    {
+      "word": " I",
+      "success": true,
+      "start_s": 102.04787234042553,
+      "end_s": 102.20744680851064,
+      "p_align": 1
+    },
+    {
+      "word": " might",
+      "success": true,
+      "start_s": 102.52659574468085,
+      "end_s": 103.00531914893617,
+      "p_align": 1
+    },
+    {
+      "word": " just",
+      "success": true,
+      "start_s": 103.00531914893617,
+      "end_s": 103.40425531914893,
+      "p_align": 1
+    },
+    {
+      "word": " pass",
+      "success": true,
+      "start_s": 103.56382978723404,
+      "end_s": 103.9627659574468,
+      "p_align": 1
+    },
+    {
+      "word": " out",
+      "success": true,
+      "start_s": 104.12234042553192,
+      "end_s": 104.44148936170212,
+      "p_align": 1
+    },
+    {
+      "word": "\nOn",
+      "success": true,
+      "start_s": 105.15957446808511,
+      "end_s": 105.39893617021276,
+      "p_align": 1
+    },
+    {
+      "word": " my",
+      "success": true,
+      "start_s": 105.71808510638299,
+      "end_s": 105.95744680851064,
+      "p_align": 1
+    },
+    {
+      "word": " des",
+      "success": true,
+      "start_s": 106.1968085106383,
+      "end_s": 106.3563829787234,
+      "p_align": 1
+    },
+    {
+      "word": "k",
+      "success": true,
+      "start_s": 106.3563829787234,
+      "end_s": 106.43617021276596,
+      "p_align": 1
+    },
+    {
+      "word": "\nIf",
+      "success": true,
+      "start_s": 109.86702127659575,
+      "end_s": 110.1063829787234,
+      "p_align": 1
+    },
+    {
+      "word": " this",
+      "success": true,
+      "start_s": 110.1063829787234,
+      "end_s": 110.42553191489361,
+      "p_align": 1
+    },
+    {
+      "word": " contin",
+      "success": true,
+      "start_s": 110.42553191489361,
+      "end_s": 110.90425531914893,
+      "p_align": 1
+    },
+    {
+      "word": "ues",
+      "success": true,
+      "start_s": 110.90425531914893,
+      "end_s": 111.1436170212766,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 111.4627659574468,
+      "end_s": 111.62234042553192,
+      "p_align": 1
+    },
+    {
+      "word": "'ll",
+      "success": true,
+      "start_s": 111.62234042553192,
+      "end_s": 111.86170212765957,
+      "p_align": 1
+    },
+    {
+      "word": " start",
+      "success": true,
+      "start_s": 111.94148936170212,
+      "end_s": 112.42021276595744,
+      "p_align": 1
+    },
+    {
+      "word": " pulling",
+      "success": true,
+      "start_s": 112.97872340425532,
+      "end_s": 113.61702127659575,
+      "p_align": 1
+    },
+    {
+      "word": " my",
+      "success": true,
+      "start_s": 113.61702127659575,
+      "end_s": 113.8563829787234,
+      "p_align": 1
+    },
+    {
+      "word": " hair",
+      "success": true,
+      "start_s": 114.09574468085107,
+      "end_s": 114.49468085106383,
+      "p_align": 1
+    },
+    {
+      "word": " out",
+      "success": true,
+      "start_s": 114.65425531914893,
+      "end_s": 114.97340425531915,
+      "p_align": 1
+    },
+    {
+      "word": "\nAnd",
+      "success": true,
+      "start_s": 118.6436170212766,
+      "end_s": 118.9627659574468,
+      "p_align": 1
+    },
+    {
+      "word": " I",
+      "success": true,
+      "start_s": 118.9627659574468,
+      "end_s": 119.12234042553192,
+      "p_align": 1
+    },
+    {
+      "word": " do",
+      "success": true,
+      "start_s": 119.44148936170212,
+      "end_s": 119.52127659574468,
+      "p_align": 1
+    },
+    {
+      "word": "n'",
+      "success": true,
+      "start_s": 119.52127659574468,
+      "end_s": 119.60106382978724,
+      "p_align": 1
+    },
+    {
+      "word": "t",
+      "success": true,
+      "start_s": 119.60106382978724,
+      "end_s": 119.68085106382979,
+      "p_align": 1
+    },
+    {
+      "word": " care",
+      "success": true,
+      "start_s": 119.84042553191489,
+      "end_s": 120.23936170212767,
+      "p_align": 1
+    },
+    {
+      "word": " how",
+      "success": true,
+      "start_s": 120.39893617021276,
+      "end_s": 120.71808510638299,
+      "p_align": 1
+    },
+    {
+      "word": " much",
+      "success": true,
+      "start_s": 120.95744680851064,
+      "end_s": 121.3563829787234,
+      "p_align": 1
+    },
+    {
+      "word": "\nThey",
+      "success": true,
+      "start_s": 122.55319148936171,
+      "end_s": 122.79255319148936,
+      "p_align": 1
+    },
+    {
+      "word": " pay",
+      "success": true,
+      "start_s": 122.79255319148936,
+      "end_s": 123.11170212765957,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 123.11170212765957,
+      "end_s": 123.35106382978724,
+      "p_align": 1
+    },
+    {
+      "word": "\n'C",
+      "success": true,
+      "start_s": 126.62234042553192,
+      "end_s": 126.70212765957447,
+      "p_align": 1
+    },
+    {
+      "word": "au",
+      "success": true,
+      "start_s": 126.70212765957447,
+      "end_s": 126.86170212765957,
+      "p_align": 1
+    },
+    {
+      "word": "se",
+      "success": true,
+      "start_s": 127.02127659574468,
+      "end_s": 127.10106382978724,
+      "p_align": 1
+    },
+    {
+      "word": " I'",
+      "success": true,
+      "start_s": 127.10106382978724,
+      "end_s": 127.18085106382979,
+      "p_align": 1
+    },
+    {
+      "word": "m",
+      "success": true,
+      "start_s": 127.18085106382979,
+      "end_s": 127.26063829787235,
+      "p_align": 1
+    },
+    {
+      "word": " a",
+      "success": true,
+      "start_s": 127.26063829787235,
+      "end_s": 127.42021276595744,
+      "p_align": 1
+    },
+    {
+      "word": " human",
+      "success": true,
+      "start_s": 127.5,
+      "end_s": 127.97872340425532,
+      "p_align": 1
+    },
+    {
+      "word": "\nAnd",
+      "success": true,
+      "start_s": 130.45212765957447,
+      "end_s": 130.69148936170214,
+      "p_align": 1
+    },
+    {
+      "word": " not",
+      "success": true,
+      "start_s": 130.69148936170214,
+      "end_s": 131.01063829787233,
+      "p_align": 1
+    },
+    {
+      "word": " a",
+      "success": true,
+      "start_s": 131.01063829787233,
+      "end_s": 131.17021276595744,
+      "p_align": 1
+    },
+    {
+      "word": " machine",
+      "success": true,
+      "start_s": 131.48936170212767,
+      "end_s": 132.12765957446808,
+      "p_align": 1
+    },
+    {
+      "word": "\n\n[Chorus]\nBaby",
+      "success": true,
+      "start_s": 152.79255319148936,
+      "end_s": 153.98936170212767,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 154.7872340425532,
+      "end_s": 154.86702127659575,
+      "p_align": 1
+    },
+    {
+      "word": "'m",
+      "success": true,
+      "start_s": 154.86702127659575,
+      "end_s": 154.9468085106383,
+      "p_align": 1
+    },
+    {
+      "word": " s",
+      "success": true,
+      "start_s": 154.9468085106383,
+      "end_s": 155.10638297872342,
+      "p_align": 1
+    },
+    {
+      "word": "o",
+      "success": true,
+      "start_s": 155.18617021276597,
+      "end_s": 155.2659574468085,
+      "p_align": 1
+    },
+    {
+      "word": " st",
+      "success": true,
+      "start_s": 155.4255319148936,
+      "end_s": 155.50531914893617,
+      "p_align": 1
+    },
+    {
+      "word": "ressed",
+      "success": true,
+      "start_s": 155.50531914893617,
+      "end_s": 155.74468085106383,
+      "p_align": 1
+    },
+    {
+      "word": " and",
+      "success": true,
+      "start_s": 155.74468085106383,
+      "end_s": 155.9840425531915,
+      "p_align": 1
+    },
+    {
+      "word": " tired",
+      "success": true,
+      "start_s": 155.9840425531915,
+      "end_s": 156.4627659574468,
+      "p_align": 1
+    },
+    {
+      "word": "\nThis",
+      "success": true,
+      "start_s": 156.4627659574468,
+      "end_s": 156.78191489361703,
+      "p_align": 1
+    },
+    {
+      "word": " whole",
+      "success": true,
+      "start_s": 156.78191489361703,
+      "end_s": 157.0212765957447,
+      "p_align": 1
+    },
+    {
+      "word": " work",
+      "success": true,
+      "start_s": 157.0212765957447,
+      "end_s": 157.3404255319149,
+      "p_align": 1
+    },
+    {
+      "word": "-from",
+      "success": true,
+      "start_s": 157.3404255319149,
+      "end_s": 157.57978723404256,
+      "p_align": 1
+    },
+    {
+      "word": "-home",
+      "success": true,
+      "start_s": 157.57978723404256,
+      "end_s": 157.81914893617022,
+      "p_align": 1
+    },
+    {
+      "word": " is",
+      "success": true,
+      "start_s": 157.81914893617022,
+      "end_s": 158.05851063829786,
+      "p_align": 1
+    },
+    {
+      "word": " crazy",
+      "success": true,
+      "start_s": 158.05851063829786,
+      "end_s": 158.5372340425532,
+      "p_align": 1
+    },
+    {
+      "word": "\nI",
+      "success": true,
+      "start_s": 160.69148936170214,
+      "end_s": 160.7712765957447,
+      "p_align": 1
+    },
+    {
+      "word": "'m",
+      "success": true,
+      "start_s": 160.7712765957447,
+      "end_s": 160.93085106382978,
+      "p_align": 1
+    },
+    {
+      "word": "a",
+      "success": true,
+      "start_s": 160.93085106382978,
+      "end_s": 161.01063829787233,
+      "p_align": 1
+    },
+    {
+      "word": " need",
+      "success": true,
+      "start_s": 161.25,
+      "end_s": 161.64893617021278,
+      "p_align": 1
+    },
+    {
+      "word": " to",
+      "success": true,
+      "start_s": 161.72872340425533,
+      "end_s": 161.96808510638297,
+      "p_align": 1
+    },
+    {
+      "word": " call",
+      "success": true,
+      "start_s": 161.96808510638297,
+      "end_s": 162.36702127659575,
+      "p_align": 1
+    },
+    {
+      "word": " a",
+      "success": true,
+      "start_s": 162.7659574468085,
+      "end_s": 162.9255319148936,
+      "p_align": 1
+    },
+    {
+      "word": " sh",
+      "success": true,
+      "start_s": 163.00531914893617,
+      "end_s": 163.08510638297872,
+      "p_align": 1
+    },
+    {
+      "word": "r",
+      "success": true,
+      "start_s": 163.08510638297872,
+      "end_s": 163.16489361702128,
+      "p_align": 1
+    },
+    {
+      "word": "ink",
+      "success": true,
+      "start_s": 163.16489361702128,
+      "end_s": 163.40425531914894,
+      "p_align": 1
+    },
+    {
+      "word": "\nTo",
+      "success": true,
+      "start_s": 164.04255319148936,
+      "end_s": 164.28191489361703,
+      "p_align": 1
+    },
+    {
+      "word": " help",
+      "success": true,
+      "start_s": 164.28191489361703,
+      "end_s": 164.60106382978722,
+      "p_align": 1
+    },
+    {
+      "word": " me",
+      "success": true,
+      "start_s": 164.60106382978722,
+      "end_s": 164.8404255319149,
+      "p_align": 1
+    },
+    {
+      "word": " go",
+      "success": true,
+      "start_s": 164.92021276595744,
+      "end_s": 165.1595744680851,
+      "p_align": 1
+    },
+    {
+      "word": " to",
+      "success": true,
+      "start_s": 165.1595744680851,
+      "end_s": 165.39893617021278,
+      "p_align": 1
+    },
+    {
+      "word": " sleep\n\n",
+      "success": true,
+      "start_s": 165.39893617021278,
+      "end_s": 166.0372340425532,
+      "p_align": 1
+    }
+  ]

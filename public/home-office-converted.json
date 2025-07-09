@@ -1,0 +1,3042 @@
+{
+  "text": "My T-shirt smells like office chair\nThere's coffee spilled all over it\nYou text me \"let's meet over there\"\nBut I can't go\nI won't go\nGot snacks and food inside my hair\nAnd baby I am over it\nThey call me \"did you fill the air\"\nBut I can't no\nI won't go\nBaby\nI'm so stressed and tired\nThis whole work-from-home is crazy\nI'ma need to call a shrink\nTo help me go to sleep\nI turn my cam on and they see\nThe mess behind me\nIt is me\nThey laugh but don't know it's a plea\nTo go outside\nWith the other guys\nBaby\nI'm so stressed and tired\nThis whole work-from-home is crazy\nI'ma need to call a shrink\nTo help me go to sleep\nAnd I might just pass out\nOn my desk\nIf this continues\nI'll start pulling my hair out\nAnd I don't care how much\nThey pay me\n'Cause I'm a human\nAnd not a machine\nBaby\nI'm so stressed and tired\nThis whole work-from-home is crazy\nI'ma need to call a shrink\nTo help me go to sleep\n",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 17.79255319148936,
+      "end": 32.79255319148936,
+      "text": [
+        "My T-shirt smells like office chair",
+        "There's coffee spilled all over it",
+        "You text me \"let's meet over there\"",
+        "But I can't go",
+        "I won't go"
+      ],
+      "paragraph": "My T-shirt smells like office chair\nThere's coffee spilled all over it\nYou text me \"let's meet over there\"\nBut I can't go\nI won't go",
+      "words": [
+        {
+          "word": "\nMy T",
+          "start": 17.79255319148936,
+          "end": 18.03191489361702,
+          "probability": 1
+        },
+        {
+          "word": "-shirt",
+          "start": 18.27127659574468,
+          "end": 18.590425531914892,
+          "probability": 1
+        },
+        {
+          "word": " sme",
+          "start": 18.590425531914892,
+          "end": 18.75,
+          "probability": 1
+        },
+        {
+          "word": "lls",
+          "start": 18.75,
+          "end": 18.909574468085108,
+          "probability": 1
+        },
+        {
+          "word": " like",
+          "start": 18.909574468085108,
+          "end": 19.148936170212767,
+          "probability": 1
+        },
+        {
+          "word": " off",
+          "start": 19.148936170212767,
+          "end": 19.30851063829787,
+          "probability": 1
+        },
+        {
+          "word": "ice",
+          "start": 19.30851063829787,
+          "end": 19.54787234042553,
+          "probability": 1
+        },
+        {
+          "word": " cha",
+          "start": 19.627659574468087,
+          "end": 19.70744680851064,
+          "probability": 1
+        },
+        {
+          "word": "ir",
+          "start": 19.70744680851064,
+          "end": 19.867021276595747,
+          "probability": 1
+        },
+        {
+          "word": "\nThe",
+          "start": 21.94148936170213,
+          "end": 22.02127659574468,
+          "probability": 1
+        },
+        {
+          "word": "re's",
+          "start": 22.02127659574468,
+          "end": 22.101063829787233,
+          "probability": 1
+        },
+        {
+          "word": " co",
+          "start": 22.26063829787234,
+          "end": 22.5,
+          "probability": 1
+        },
+        {
+          "word": "ffee",
+          "start": 22.5,
+          "end": 22.819148936170212,
+          "probability": 1
+        },
+        {
+          "word": " spill",
+          "start": 22.898936170212767,
+          "end": 23.05851063829787,
+          "probability": 1
+        },
+        {
+          "word": "ed",
+          "start": 23.05851063829787,
+          "end": 23.21808510638298,
+          "probability": 1
+        },
+        {
+          "word": " all",
+          "start": 23.21808510638298,
+          "end": 23.45744680851064,
+          "probability": 1
+        },
+        {
+          "word": " over",
+          "start": 23.45744680851064,
+          "end": 23.856382978723403,
+          "probability": 1
+        },
+        {
+          "word": " it",
+          "start": 23.93617021276596,
+          "end": 24.175531914893618,
+          "probability": 1
+        },
+        {
+          "word": "\nYou",
+          "start": 26.25,
+          "end": 26.48936170212766,
+          "probability": 1
+        },
+        {
+          "word": " text",
+          "start": 26.48936170212766,
+          "end": 26.80851063829787,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 26.80851063829787,
+          "end": 27.04787234042553,
+          "probability": 1
+        },
+        {
+          "word": " \"l",
+          "start": 27.04787234042553,
+          "end": 27.127659574468087,
+          "probability": 1
+        },
+        {
+          "word": "et's",
+          "start": 27.127659574468087,
+          "end": 27.20744680851064,
+          "probability": 1
+        },
+        {
+          "word": " meet",
+          "start": 27.367021276595747,
+          "end": 27.68617021276596,
+          "probability": 1
+        },
+        {
+          "word": " over",
+          "start": 27.68617021276596,
+          "end": 28.085106382978722,
+          "probability": 1
+        },
+        {
+          "word": " there\"",
+          "start": 28.085106382978722,
+          "end": 28.56382978723404,
+          "probability": 1
+        },
+        {
+          "word": "\nBut I",
+          "start": 29.361702127659576,
+          "end": 29.680851063829788,
+          "probability": 1
+        },
+        {
+          "word": " can",
+          "start": 29.920212765957448,
+          "end": 30.079787234042552,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 30.159574468085108,
+          "end": 30.319148936170212,
+          "probability": 1
+        },
+        {
+          "word": " go",
+          "start": 30.47872340425532,
+          "end": 30.71808510638298,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 31.99468085106383,
+          "end": 32.15425531914894,
+          "probability": 1
+        },
+        {
+          "word": " won",
+          "start": 32.31382978723404,
+          "end": 32.3936170212766,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 32.473404255319146,
+          "end": 32.5531914893617,
+          "probability": 1
+        },
+        {
+          "word": " go",
+          "start": 32.5531914893617,
+          "end": 32.79255319148936,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 17.79255319148936,
+            "end": 18.03191489361702,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "My T",
+            "start": 17.79255319148936,
+            "end": 18.03191489361702,
+            "probability": 1
+          },
+          {
+            "word": "-shirt",
+            "start": 18.27127659574468,
+            "end": 18.590425531914892,
+            "probability": 1
+          },
+          {
+            "word": " sme",
+            "start": 18.590425531914892,
+            "end": 18.75,
+            "probability": 1
+          },
+          {
+            "word": "lls",
+            "start": 18.75,
+            "end": 18.909574468085108,
+            "probability": 1
+          },
+          {
+            "word": " like",
+            "start": 18.909574468085108,
+            "end": 19.148936170212767,
+            "probability": 1
+          },
+          {
+            "word": " off",
+            "start": 19.148936170212767,
+            "end": 19.30851063829787,
+            "probability": 1
+          },
+          {
+            "word": "ice",
+            "start": 19.30851063829787,
+            "end": 19.54787234042553,
+            "probability": 1
+          },
+          {
+            "word": " cha",
+            "start": 19.627659574468087,
+            "end": 19.70744680851064,
+            "probability": 1
+          },
+          {
+            "word": "ir",
+            "start": 19.70744680851064,
+            "end": 19.867021276595747,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 21.94148936170213,
+            "end": 22.02127659574468,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "The",
+            "start": 21.94148936170213,
+            "end": 22.02127659574468,
+            "probability": 1
+          },
+          {
+            "word": "re's",
+            "start": 22.02127659574468,
+            "end": 22.101063829787233,
+            "probability": 1
+          },
+          {
+            "word": " co",
+            "start": 22.26063829787234,
+            "end": 22.5,
+            "probability": 1
+          },
+          {
+            "word": "ffee",
+            "start": 22.5,
+            "end": 22.819148936170212,
+            "probability": 1
+          },
+          {
+            "word": " spill",
+            "start": 22.898936170212767,
+            "end": 23.05851063829787,
+            "probability": 1
+          },
+          {
+            "word": "ed",
+            "start": 23.05851063829787,
+            "end": 23.21808510638298,
+            "probability": 1
+          },
+          {
+            "word": " all",
+            "start": 23.21808510638298,
+            "end": 23.45744680851064,
+            "probability": 1
+          },
+          {
+            "word": " over",
+            "start": 23.45744680851064,
+            "end": 23.856382978723403,
+            "probability": 1
+          },
+          {
+            "word": " it",
+            "start": 23.93617021276596,
+            "end": 24.175531914893618,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 26.25,
+            "end": 26.48936170212766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "You",
+            "start": 26.25,
+            "end": 26.48936170212766,
+            "probability": 1
+          },
+          {
+            "word": " text",
+            "start": 26.48936170212766,
+            "end": 26.80851063829787,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 26.80851063829787,
+            "end": 27.04787234042553,
+            "probability": 1
+          },
+          {
+            "word": " \"l",
+            "start": 27.04787234042553,
+            "end": 27.127659574468087,
+            "probability": 1
+          },
+          {
+            "word": "et's",
+            "start": 27.127659574468087,
+            "end": 27.20744680851064,
+            "probability": 1
+          },
+          {
+            "word": " meet",
+            "start": 27.367021276595747,
+            "end": 27.68617021276596,
+            "probability": 1
+          },
+          {
+            "word": " over",
+            "start": 27.68617021276596,
+            "end": 28.085106382978722,
+            "probability": 1
+          },
+          {
+            "word": " there\"",
+            "start": 28.085106382978722,
+            "end": 28.56382978723404,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 29.361702127659576,
+            "end": 29.680851063829788,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But I",
+            "start": 29.361702127659576,
+            "end": 29.680851063829788,
+            "probability": 1
+          },
+          {
+            "word": " can",
+            "start": 29.920212765957448,
+            "end": 30.079787234042552,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 30.159574468085108,
+            "end": 30.319148936170212,
+            "probability": 1
+          },
+          {
+            "word": " go",
+            "start": 30.47872340425532,
+            "end": 30.71808510638298,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 31.99468085106383,
+            "end": 32.15425531914894,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 31.99468085106383,
+            "end": 32.15425531914894,
+            "probability": 1
+          },
+          {
+            "word": " won",
+            "start": 32.31382978723404,
+            "end": 32.3936170212766,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 32.473404255319146,
+            "end": 32.5531914893617,
+            "probability": 1
+          },
+          {
+            "word": " go",
+            "start": 32.5531914893617,
+            "end": 32.79255319148936,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 34.62765957446808,
+      "end": 49.388297872340424,
+      "text": [
+        "Got snacks and food inside my hair",
+        "And baby I am over it",
+        "They call me \"did you fill the air\"",
+        "But I can't no",
+        "I won't go"
+      ],
+      "paragraph": "Got snacks and food inside my hair\nAnd baby I am over it\nThey call me \"did you fill the air\"\nBut I can't no\nI won't go",
+      "words": [
+        {
+          "word": "\nGot",
+          "start": 34.62765957446808,
+          "end": 34.9468085106383,
+          "probability": 1
+        },
+        {
+          "word": " sna",
+          "start": 34.9468085106383,
+          "end": 35.026595744680854,
+          "probability": 1
+        },
+        {
+          "word": "cks",
+          "start": 35.026595744680854,
+          "end": 35.265957446808514,
+          "probability": 1
+        },
+        {
+          "word": " and",
+          "start": 35.265957446808514,
+          "end": 35.42553191489362,
+          "probability": 1
+        },
+        {
+          "word": " food",
+          "start": 35.42553191489362,
+          "end": 35.82446808510638,
+          "probability": 1
+        },
+        {
+          "word": " inside",
+          "start": 35.98404255319149,
+          "end": 36.3031914893617,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 36.3031914893617,
+          "end": 36.54255319148936,
+          "probability": 1
+        },
+        {
+          "word": " hair",
+          "start": 36.54255319148936,
+          "end": 36.941489361702125,
+          "probability": 1
+        },
+        {
+          "word": "\nAnd",
+          "start": 38.8563829787234,
+          "end": 39.09574468085106,
+          "probability": 1
+        },
+        {
+          "word": " baby I",
+          "start": 39.09574468085106,
+          "end": 39.49468085106383,
+          "probability": 1
+        },
+        {
+          "word": " am",
+          "start": 39.8936170212766,
+          "end": 40.13297872340426,
+          "probability": 1
+        },
+        {
+          "word": " over",
+          "start": 40.212765957446805,
+          "end": 40.611702127659576,
+          "probability": 1
+        },
+        {
+          "word": " it",
+          "start": 40.691489361702125,
+          "end": 40.930851063829785,
+          "probability": 1
+        },
+        {
+          "word": "\nThey",
+          "start": 43.005319148936174,
+          "end": 43.32446808510638,
+          "probability": 1
+        },
+        {
+          "word": " call",
+          "start": 43.32446808510638,
+          "end": 43.56382978723404,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 43.56382978723404,
+          "end": 43.8031914893617,
+          "probability": 1
+        },
+        {
+          "word": " \"did",
+          "start": 43.8031914893617,
+          "end": 44.12234042553192,
+          "probability": 1
+        },
+        {
+          "word": " you",
+          "start": 44.12234042553192,
+          "end": 44.361702127659576,
+          "probability": 1
+        },
+        {
+          "word": " fill",
+          "start": 44.361702127659576,
+          "end": 44.680851063829785,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 44.680851063829785,
+          "end": 44.920212765957444,
+          "probability": 1
+        },
+        {
+          "word": " air\"",
+          "start": 44.920212765957444,
+          "end": 45.23936170212766,
+          "probability": 1
+        },
+        {
+          "word": "\nBut I",
+          "start": 46.1968085106383,
+          "end": 46.43617021276596,
+          "probability": 1
+        },
+        {
+          "word": " ca",
+          "start": 46.755319148936174,
+          "end": 46.83510638297872,
+          "probability": 1
+        },
+        {
+          "word": "n't",
+          "start": 46.83510638297872,
+          "end": 46.91489361702128,
+          "probability": 1
+        },
+        {
+          "word": " no",
+          "start": 47.23404255319149,
+          "end": 47.47340425531915,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 48.829787234042556,
+          "end": 48.98936170212766,
+          "probability": 1
+        },
+        {
+          "word": " won",
+          "start": 49.069148936170215,
+          "end": 49.148936170212764,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 49.22872340425532,
+          "end": 49.308510638297875,
+          "probability": 1
+        },
+        {
+          "word": " go",
+          "start": 49.308510638297875,
+          "end": 49.388297872340424,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 34.62765957446808,
+            "end": 34.9468085106383,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Got",
+            "start": 34.62765957446808,
+            "end": 34.9468085106383,
+            "probability": 1
+          },
+          {
+            "word": " sna",
+            "start": 34.9468085106383,
+            "end": 35.026595744680854,
+            "probability": 1
+          },
+          {
+            "word": "cks",
+            "start": 35.026595744680854,
+            "end": 35.265957446808514,
+            "probability": 1
+          },
+          {
+            "word": " and",
+            "start": 35.265957446808514,
+            "end": 35.42553191489362,
+            "probability": 1
+          },
+          {
+            "word": " food",
+            "start": 35.42553191489362,
+            "end": 35.82446808510638,
+            "probability": 1
+          },
+          {
+            "word": " inside",
+            "start": 35.98404255319149,
+            "end": 36.3031914893617,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 36.3031914893617,
+            "end": 36.54255319148936,
+            "probability": 1
+          },
+          {
+            "word": " hair",
+            "start": 36.54255319148936,
+            "end": 36.941489361702125,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 38.8563829787234,
+            "end": 39.09574468085106,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "And",
+            "start": 38.8563829787234,
+            "end": 39.09574468085106,
+            "probability": 1
+          },
+          {
+            "word": " baby I",
+            "start": 39.09574468085106,
+            "end": 39.49468085106383,
+            "probability": 1
+          },
+          {
+            "word": " am",
+            "start": 39.8936170212766,
+            "end": 40.13297872340426,
+            "probability": 1
+          },
+          {
+            "word": " over",
+            "start": 40.212765957446805,
+            "end": 40.611702127659576,
+            "probability": 1
+          },
+          {
+            "word": " it",
+            "start": 40.691489361702125,
+            "end": 40.930851063829785,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 43.005319148936174,
+            "end": 43.32446808510638,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 43.005319148936174,
+            "end": 43.32446808510638,
+            "probability": 1
+          },
+          {
+            "word": " call",
+            "start": 43.32446808510638,
+            "end": 43.56382978723404,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 43.56382978723404,
+            "end": 43.8031914893617,
+            "probability": 1
+          },
+          {
+            "word": " \"did",
+            "start": 43.8031914893617,
+            "end": 44.12234042553192,
+            "probability": 1
+          },
+          {
+            "word": " you",
+            "start": 44.12234042553192,
+            "end": 44.361702127659576,
+            "probability": 1
+          },
+          {
+            "word": " fill",
+            "start": 44.361702127659576,
+            "end": 44.680851063829785,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 44.680851063829785,
+            "end": 44.920212765957444,
+            "probability": 1
+          },
+          {
+            "word": " air\"",
+            "start": 44.920212765957444,
+            "end": 45.23936170212766,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 46.1968085106383,
+            "end": 46.43617021276596,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But I",
+            "start": 46.1968085106383,
+            "end": 46.43617021276596,
+            "probability": 1
+          },
+          {
+            "word": " ca",
+            "start": 46.755319148936174,
+            "end": 46.83510638297872,
+            "probability": 1
+          },
+          {
+            "word": "n't",
+            "start": 46.83510638297872,
+            "end": 46.91489361702128,
+            "probability": 1
+          },
+          {
+            "word": " no",
+            "start": 47.23404255319149,
+            "end": 47.47340425531915,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 48.829787234042556,
+            "end": 48.98936170212766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 48.829787234042556,
+            "end": 48.98936170212766,
+            "probability": 1
+          },
+          {
+            "word": " won",
+            "start": 49.069148936170215,
+            "end": 49.148936170212764,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 49.22872340425532,
+            "end": 49.308510638297875,
+            "probability": 1
+          },
+          {
+            "word": " go",
+            "start": 49.308510638297875,
+            "end": 49.388297872340424,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 49.388297872340424,
+      "end": 64.7872340425532,
+      "text": [
+        "Baby",
+        "I'm so stressed and tired",
+        "This whole work-from-home is crazy",
+        "I'ma need to call a shrink",
+        "To help me go to sleep"
+      ],
+      "paragraph": "Baby\nI'm so stressed and tired\nThis whole work-from-home is crazy\nI'ma need to call a shrink\nTo help me go to sleep",
+      "words": [
+        {
+          "word": "\nBa",
+          "start": 49.388297872340424,
+          "end": 50.34574468085106,
+          "probability": 1
+        },
+        {
+          "word": "by",
+          "start": 53.8563829787234,
+          "end": 53.93617021276596,
+          "probability": 1
+        },
+        {
+          "word": "\nI'm",
+          "start": 53.93617021276596,
+          "end": 54.015957446808514,
+          "probability": 1
+        },
+        {
+          "word": " so",
+          "start": 54.09574468085106,
+          "end": 54.33510638297872,
+          "probability": 1
+        },
+        {
+          "word": " st",
+          "start": 54.41489361702128,
+          "end": 54.49468085106383,
+          "probability": 1
+        },
+        {
+          "word": "ressed",
+          "start": 54.49468085106383,
+          "end": 54.73404255319149,
+          "probability": 1
+        },
+        {
+          "word": " and",
+          "start": 54.73404255319149,
+          "end": 54.97340425531915,
+          "probability": 1
+        },
+        {
+          "word": " tired",
+          "start": 54.97340425531915,
+          "end": 55.452127659574465,
+          "probability": 1
+        },
+        {
+          "word": "\nThis",
+          "start": 55.452127659574465,
+          "end": 55.77127659574468,
+          "probability": 1
+        },
+        {
+          "word": " whole",
+          "start": 55.77127659574468,
+          "end": 56.01063829787234,
+          "probability": 1
+        },
+        {
+          "word": " work",
+          "start": 56.01063829787234,
+          "end": 56.329787234042556,
+          "probability": 1
+        },
+        {
+          "word": "-from",
+          "start": 56.329787234042556,
+          "end": 56.569148936170215,
+          "probability": 1
+        },
+        {
+          "word": "-home",
+          "start": 56.569148936170215,
+          "end": 56.808510638297875,
+          "probability": 1
+        },
+        {
+          "word": " is",
+          "start": 56.808510638297875,
+          "end": 57.047872340425535,
+          "probability": 1
+        },
+        {
+          "word": " crazy",
+          "start": 57.047872340425535,
+          "end": 57.526595744680854,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 59.680851063829785,
+          "end": 59.76063829787234,
+          "probability": 1
+        },
+        {
+          "word": "'ma",
+          "start": 59.76063829787234,
+          "end": 59.920212765957444,
+          "probability": 1
+        },
+        {
+          "word": " need",
+          "start": 60.159574468085104,
+          "end": 60.558510638297875,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 60.71808510638298,
+          "end": 60.95744680851064,
+          "probability": 1
+        },
+        {
+          "word": " call a",
+          "start": 60.95744680851064,
+          "end": 61.3563829787234,
+          "probability": 1
+        },
+        {
+          "word": " shr",
+          "start": 61.99468085106383,
+          "end": 62.07446808510638,
+          "probability": 1
+        },
+        {
+          "word": "ink",
+          "start": 62.15425531914894,
+          "end": 62.3936170212766,
+          "probability": 1
+        },
+        {
+          "word": "\nTo",
+          "start": 63.03191489361702,
+          "end": 63.27127659574468,
+          "probability": 1
+        },
+        {
+          "word": " help",
+          "start": 63.27127659574468,
+          "end": 63.590425531914896,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 63.590425531914896,
+          "end": 63.829787234042556,
+          "probability": 1
+        },
+        {
+          "word": " go",
+          "start": 63.829787234042556,
+          "end": 64.06914893617021,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 64.06914893617021,
+          "end": 64.30851063829788,
+          "probability": 1
+        },
+        {
+          "word": " sleep",
+          "start": 64.30851063829788,
+          "end": 64.7872340425532,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 49.388297872340424,
+            "end": 50.34574468085106,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Ba",
+            "start": 49.388297872340424,
+            "end": 50.34574468085106,
+            "probability": 1
+          },
+          {
+            "word": "by",
+            "start": 53.8563829787234,
+            "end": 53.93617021276596,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 53.93617021276596,
+            "end": 54.015957446808514,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I'm",
+            "start": 53.93617021276596,
+            "end": 54.015957446808514,
+            "probability": 1
+          },
+          {
+            "word": " so",
+            "start": 54.09574468085106,
+            "end": 54.33510638297872,
+            "probability": 1
+          },
+          {
+            "word": " st",
+            "start": 54.41489361702128,
+            "end": 54.49468085106383,
+            "probability": 1
+          },
+          {
+            "word": "ressed",
+            "start": 54.49468085106383,
+            "end": 54.73404255319149,
+            "probability": 1
+          },
+          {
+            "word": " and",
+            "start": 54.73404255319149,
+            "end": 54.97340425531915,
+            "probability": 1
+          },
+          {
+            "word": " tired",
+            "start": 54.97340425531915,
+            "end": 55.452127659574465,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 55.452127659574465,
+            "end": 55.77127659574468,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "This",
+            "start": 55.452127659574465,
+            "end": 55.77127659574468,
+            "probability": 1
+          },
+          {
+            "word": " whole",
+            "start": 55.77127659574468,
+            "end": 56.01063829787234,
+            "probability": 1
+          },
+          {
+            "word": " work",
+            "start": 56.01063829787234,
+            "end": 56.329787234042556,
+            "probability": 1
+          },
+          {
+            "word": "-from",
+            "start": 56.329787234042556,
+            "end": 56.569148936170215,
+            "probability": 1
+          },
+          {
+            "word": "-home",
+            "start": 56.569148936170215,
+            "end": 56.808510638297875,
+            "probability": 1
+          },
+          {
+            "word": " is",
+            "start": 56.808510638297875,
+            "end": 57.047872340425535,
+            "probability": 1
+          },
+          {
+            "word": " crazy",
+            "start": 57.047872340425535,
+            "end": 57.526595744680854,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 59.680851063829785,
+            "end": 59.76063829787234,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 59.680851063829785,
+            "end": 59.76063829787234,
+            "probability": 1
+          },
+          {
+            "word": "'ma",
+            "start": 59.76063829787234,
+            "end": 59.920212765957444,
+            "probability": 1
+          },
+          {
+            "word": " need",
+            "start": 60.159574468085104,
+            "end": 60.558510638297875,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 60.71808510638298,
+            "end": 60.95744680851064,
+            "probability": 1
+          },
+          {
+            "word": " call a",
+            "start": 60.95744680851064,
+            "end": 61.3563829787234,
+            "probability": 1
+          },
+          {
+            "word": " shr",
+            "start": 61.99468085106383,
+            "end": 62.07446808510638,
+            "probability": 1
+          },
+          {
+            "word": "ink",
+            "start": 62.15425531914894,
+            "end": 62.3936170212766,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 63.03191489361702,
+            "end": 63.27127659574468,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "To",
+            "start": 63.03191489361702,
+            "end": 63.27127659574468,
+            "probability": 1
+          },
+          {
+            "word": " help",
+            "start": 63.27127659574468,
+            "end": 63.590425531914896,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 63.590425531914896,
+            "end": 63.829787234042556,
+            "probability": 1
+          },
+          {
+            "word": " go",
+            "start": 63.829787234042556,
+            "end": 64.06914893617021,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 64.06914893617021,
+            "end": 64.30851063829788,
+            "probability": 1
+          },
+          {
+            "word": " sleep",
+            "start": 64.30851063829788,
+            "end": 64.7872340425532,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 67.73936170212767,
+      "end": 82.89893617021276,
+      "text": [
+        "I turn my cam on and they see",
+        "The mess behind me",
+        "It is me",
+        "They laugh but don't know it's a plea",
+        "To go outside",
+        "With the other guys"
+      ],
+      "paragraph": "I turn my cam on and they see\nThe mess behind me\nIt is me\nThey laugh but don't know it's a plea\nTo go outside\nWith the other guys",
+      "words": [
+        {
+          "word": "\nI",
+          "start": 67.73936170212767,
+          "end": 68.05851063829788,
+          "probability": 1
+        },
+        {
+          "word": " turn",
+          "start": 68.05851063829788,
+          "end": 68.29787234042553,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 68.29787234042553,
+          "end": 68.5372340425532,
+          "probability": 1
+        },
+        {
+          "word": " cam",
+          "start": 68.5372340425532,
+          "end": 68.8563829787234,
+          "probability": 1
+        },
+        {
+          "word": " on",
+          "start": 68.8563829787234,
+          "end": 69.09574468085107,
+          "probability": 1
+        },
+        {
+          "word": " and",
+          "start": 69.17553191489361,
+          "end": 69.33510638297872,
+          "probability": 1
+        },
+        {
+          "word": " they",
+          "start": 69.33510638297872,
+          "end": 69.65425531914893,
+          "probability": 1
+        },
+        {
+          "word": " see",
+          "start": 69.65425531914893,
+          "end": 69.97340425531915,
+          "probability": 1
+        },
+        {
+          "word": "\nThe",
+          "start": 70.93085106382979,
+          "end": 71.17021276595744,
+          "probability": 1
+        },
+        {
+          "word": " mess",
+          "start": 71.17021276595744,
+          "end": 71.56914893617021,
+          "probability": 1
+        },
+        {
+          "word": " behind",
+          "start": 71.72872340425532,
+          "end": 72.04787234042553,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 72.04787234042553,
+          "end": 72.2872340425532,
+          "probability": 1
+        },
+        {
+          "word": "\nIt",
+          "start": 72.2872340425532,
+          "end": 72.52659574468085,
+          "probability": 1
+        },
+        {
+          "word": " is",
+          "start": 72.52659574468085,
+          "end": 72.76595744680851,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 72.76595744680851,
+          "end": 73.00531914893617,
+          "probability": 1
+        },
+        {
+          "word": "\nThey",
+          "start": 76.19680851063829,
+          "end": 76.43617021276596,
+          "probability": 1
+        },
+        {
+          "word": " laugh",
+          "start": 76.43617021276596,
+          "end": 76.75531914893617,
+          "probability": 1
+        },
+        {
+          "word": " but d",
+          "start": 76.75531914893617,
+          "end": 76.99468085106383,
+          "probability": 1
+        },
+        {
+          "word": "on",
+          "start": 77.07446808510639,
+          "end": 77.15425531914893,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 77.15425531914893,
+          "end": 77.31382978723404,
+          "probability": 1
+        },
+        {
+          "word": " know i",
+          "start": 77.31382978723404,
+          "end": 77.47340425531915,
+          "probability": 1
+        },
+        {
+          "word": "t's",
+          "start": 77.55319148936171,
+          "end": 77.63297872340425,
+          "probability": 1
+        },
+        {
+          "word": " a",
+          "start": 77.63297872340425,
+          "end": 77.7127659574468,
+          "probability": 1
+        },
+        {
+          "word": " plea",
+          "start": 78.03191489361703,
+          "end": 78.11170212765957,
+          "probability": 1
+        },
+        {
+          "word": "\nTo",
+          "start": 79.30851063829788,
+          "end": 79.54787234042553,
+          "probability": 1
+        },
+        {
+          "word": " go",
+          "start": 79.62765957446808,
+          "end": 79.86702127659575,
+          "probability": 1
+        },
+        {
+          "word": " outside",
+          "start": 80.34574468085107,
+          "end": 80.98404255319149,
+          "probability": 1
+        },
+        {
+          "word": "\nWith",
+          "start": 81.94148936170212,
+          "end": 82.10106382978724,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 82.10106382978724,
+          "end": 82.26063829787235,
+          "probability": 1
+        },
+        {
+          "word": " other",
+          "start": 82.26063829787235,
+          "end": 82.57978723404256,
+          "probability": 1
+        },
+        {
+          "word": " guys",
+          "start": 82.57978723404256,
+          "end": 82.89893617021276,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 67.73936170212767,
+            "end": 68.05851063829788,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 67.73936170212767,
+            "end": 68.05851063829788,
+            "probability": 1
+          },
+          {
+            "word": " turn",
+            "start": 68.05851063829788,
+            "end": 68.29787234042553,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 68.29787234042553,
+            "end": 68.5372340425532,
+            "probability": 1
+          },
+          {
+            "word": " cam",
+            "start": 68.5372340425532,
+            "end": 68.8563829787234,
+            "probability": 1
+          },
+          {
+            "word": " on",
+            "start": 68.8563829787234,
+            "end": 69.09574468085107,
+            "probability": 1
+          },
+          {
+            "word": " and",
+            "start": 69.17553191489361,
+            "end": 69.33510638297872,
+            "probability": 1
+          },
+          {
+            "word": " they",
+            "start": 69.33510638297872,
+            "end": 69.65425531914893,
+            "probability": 1
+          },
+          {
+            "word": " see",
+            "start": 69.65425531914893,
+            "end": 69.97340425531915,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 70.93085106382979,
+            "end": 71.17021276595744,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "The",
+            "start": 70.93085106382979,
+            "end": 71.17021276595744,
+            "probability": 1
+          },
+          {
+            "word": " mess",
+            "start": 71.17021276595744,
+            "end": 71.56914893617021,
+            "probability": 1
+          },
+          {
+            "word": " behind",
+            "start": 71.72872340425532,
+            "end": 72.04787234042553,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 72.04787234042553,
+            "end": 72.2872340425532,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 72.2872340425532,
+            "end": 72.52659574468085,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "It",
+            "start": 72.2872340425532,
+            "end": 72.52659574468085,
+            "probability": 1
+          },
+          {
+            "word": " is",
+            "start": 72.52659574468085,
+            "end": 72.76595744680851,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 72.76595744680851,
+            "end": 73.00531914893617,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 76.19680851063829,
+            "end": 76.43617021276596,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 76.19680851063829,
+            "end": 76.43617021276596,
+            "probability": 1
+          },
+          {
+            "word": " laugh",
+            "start": 76.43617021276596,
+            "end": 76.75531914893617,
+            "probability": 1
+          },
+          {
+            "word": " but d",
+            "start": 76.75531914893617,
+            "end": 76.99468085106383,
+            "probability": 1
+          },
+          {
+            "word": "on",
+            "start": 77.07446808510639,
+            "end": 77.15425531914893,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 77.15425531914893,
+            "end": 77.31382978723404,
+            "probability": 1
+          },
+          {
+            "word": " know i",
+            "start": 77.31382978723404,
+            "end": 77.47340425531915,
+            "probability": 1
+          },
+          {
+            "word": "t's",
+            "start": 77.55319148936171,
+            "end": 77.63297872340425,
+            "probability": 1
+          },
+          {
+            "word": " a",
+            "start": 77.63297872340425,
+            "end": 77.7127659574468,
+            "probability": 1
+          },
+          {
+            "word": " plea",
+            "start": 78.03191489361703,
+            "end": 78.11170212765957,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 79.30851063829788,
+            "end": 79.54787234042553,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "To",
+            "start": 79.30851063829788,
+            "end": 79.54787234042553,
+            "probability": 1
+          },
+          {
+            "word": " go",
+            "start": 79.62765957446808,
+            "end": 79.86702127659575,
+            "probability": 1
+          },
+          {
+            "word": " outside",
+            "start": 80.34574468085107,
+            "end": 80.98404255319149,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 81.94148936170212,
+            "end": 82.10106382978724,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "With",
+            "start": 81.94148936170212,
+            "end": 82.10106382978724,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 82.10106382978724,
+            "end": 82.26063829787235,
+            "probability": 1
+          },
+          {
+            "word": " other",
+            "start": 82.26063829787235,
+            "end": 82.57978723404256,
+            "probability": 1
+          },
+          {
+            "word": " guys",
+            "start": 82.57978723404256,
+            "end": 82.89893617021276,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 85.45212765957447,
+      "end": 98.45744680851064,
+      "text": [
+        "Baby",
+        "I'm so stressed and tired",
+        "This whole work-from-home is crazy",
+        "I'ma need to call a shrink",
+        "To help me go to sleep"
+      ],
+      "paragraph": "Baby\nI'm so stressed and tired\nThis whole work-from-home is crazy\nI'ma need to call a shrink\nTo help me go to sleep",
+      "words": [
+        {
+          "word": "\nBaby",
+          "start": 85.45212765957447,
+          "end": 86.64893617021276,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 87.4468085106383,
+          "end": 87.6063829787234,
+          "probability": 1
+        },
+        {
+          "word": "'m",
+          "start": 87.6063829787234,
+          "end": 87.76595744680851,
+          "probability": 1
+        },
+        {
+          "word": " so",
+          "start": 87.84574468085107,
+          "end": 88.08510638297872,
+          "probability": 1
+        },
+        {
+          "word": " st",
+          "start": 88.08510638297872,
+          "end": 88.16489361702128,
+          "probability": 1
+        },
+        {
+          "word": "ressed",
+          "start": 88.16489361702128,
+          "end": 88.40425531914893,
+          "probability": 1
+        },
+        {
+          "word": " and",
+          "start": 88.40425531914893,
+          "end": 88.6436170212766,
+          "probability": 1
+        },
+        {
+          "word": " tired",
+          "start": 88.6436170212766,
+          "end": 89.12234042553192,
+          "probability": 1
+        },
+        {
+          "word": "\nThis",
+          "start": 89.12234042553192,
+          "end": 89.44148936170212,
+          "probability": 1
+        },
+        {
+          "word": " whole",
+          "start": 89.44148936170212,
+          "end": 89.68085106382979,
+          "probability": 1
+        },
+        {
+          "word": " work",
+          "start": 89.68085106382979,
+          "end": 90,
+          "probability": 1
+        },
+        {
+          "word": "-from",
+          "start": 90,
+          "end": 90.15957446808511,
+          "probability": 1
+        },
+        {
+          "word": "-home",
+          "start": 90.15957446808511,
+          "end": 90.47872340425532,
+          "probability": 1
+        },
+        {
+          "word": " is",
+          "start": 90.47872340425532,
+          "end": 90.71808510638299,
+          "probability": 1
+        },
+        {
+          "word": " crazy",
+          "start": 90.71808510638299,
+          "end": 91.1968085106383,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 93.35106382978724,
+          "end": 93.51063829787235,
+          "probability": 1
+        },
+        {
+          "word": "'ma",
+          "start": 93.51063829787235,
+          "end": 93.59042553191489,
+          "probability": 1
+        },
+        {
+          "word": " need",
+          "start": 93.90957446808511,
+          "end": 94.30851063829788,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 94.38829787234043,
+          "end": 94.62765957446808,
+          "probability": 1
+        },
+        {
+          "word": " call a",
+          "start": 94.62765957446808,
+          "end": 95.02659574468085,
+          "probability": 1
+        },
+        {
+          "word": " shr",
+          "start": 95.66489361702128,
+          "end": 95.74468085106383,
+          "probability": 1
+        },
+        {
+          "word": "ink",
+          "start": 95.82446808510639,
+          "end": 96.06382978723404,
+          "probability": 1
+        },
+        {
+          "word": "\nTo",
+          "start": 96.70212765957447,
+          "end": 96.94148936170212,
+          "probability": 1
+        },
+        {
+          "word": " help",
+          "start": 96.94148936170212,
+          "end": 97.26063829787235,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 97.26063829787235,
+          "end": 97.5,
+          "probability": 1
+        },
+        {
+          "word": " go",
+          "start": 97.5,
+          "end": 97.73936170212767,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 97.73936170212767,
+          "end": 97.97872340425532,
+          "probability": 1
+        },
+        {
+          "word": " sleep",
+          "start": 97.97872340425532,
+          "end": 98.45744680851064,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 85.45212765957447,
+            "end": 86.64893617021276,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Baby",
+            "start": 85.45212765957447,
+            "end": 86.64893617021276,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 87.4468085106383,
+            "end": 87.6063829787234,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 87.4468085106383,
+            "end": 87.6063829787234,
+            "probability": 1
+          },
+          {
+            "word": "'m",
+            "start": 87.6063829787234,
+            "end": 87.76595744680851,
+            "probability": 1
+          },
+          {
+            "word": " so",
+            "start": 87.84574468085107,
+            "end": 88.08510638297872,
+            "probability": 1
+          },
+          {
+            "word": " st",
+            "start": 88.08510638297872,
+            "end": 88.16489361702128,
+            "probability": 1
+          },
+          {
+            "word": "ressed",
+            "start": 88.16489361702128,
+            "end": 88.40425531914893,
+            "probability": 1
+          },
+          {
+            "word": " and",
+            "start": 88.40425531914893,
+            "end": 88.6436170212766,
+            "probability": 1
+          },
+          {
+            "word": " tired",
+            "start": 88.6436170212766,
+            "end": 89.12234042553192,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 89.12234042553192,
+            "end": 89.44148936170212,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "This",
+            "start": 89.12234042553192,
+            "end": 89.44148936170212,
+            "probability": 1
+          },
+          {
+            "word": " whole",
+            "start": 89.44148936170212,
+            "end": 89.68085106382979,
+            "probability": 1
+          },
+          {
+            "word": " work",
+            "start": 89.68085106382979,
+            "end": 90,
+            "probability": 1
+          },
+          {
+            "word": "-from",
+            "start": 90,
+            "end": 90.15957446808511,
+            "probability": 1
+          },
+          {
+            "word": "-home",
+            "start": 90.15957446808511,
+            "end": 90.47872340425532,
+            "probability": 1
+          },
+          {
+            "word": " is",
+            "start": 90.47872340425532,
+            "end": 90.71808510638299,
+            "probability": 1
+          },
+          {
+            "word": " crazy",
+            "start": 90.71808510638299,
+            "end": 91.1968085106383,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 93.35106382978724,
+            "end": 93.51063829787235,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 93.35106382978724,
+            "end": 93.51063829787235,
+            "probability": 1
+          },
+          {
+            "word": "'ma",
+            "start": 93.51063829787235,
+            "end": 93.59042553191489,
+            "probability": 1
+          },
+          {
+            "word": " need",
+            "start": 93.90957446808511,
+            "end": 94.30851063829788,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 94.38829787234043,
+            "end": 94.62765957446808,
+            "probability": 1
+          },
+          {
+            "word": " call a",
+            "start": 94.62765957446808,
+            "end": 95.02659574468085,
+            "probability": 1
+          },
+          {
+            "word": " shr",
+            "start": 95.66489361702128,
+            "end": 95.74468085106383,
+            "probability": 1
+          },
+          {
+            "word": "ink",
+            "start": 95.82446808510639,
+            "end": 96.06382978723404,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 96.70212765957447,
+            "end": 96.94148936170212,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "To",
+            "start": 96.70212765957447,
+            "end": 96.94148936170212,
+            "probability": 1
+          },
+          {
+            "word": " help",
+            "start": 96.94148936170212,
+            "end": 97.26063829787235,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 97.26063829787235,
+            "end": 97.5,
+            "probability": 1
+          },
+          {
+            "word": " go",
+            "start": 97.5,
+            "end": 97.73936170212767,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 97.73936170212767,
+            "end": 97.97872340425532,
+            "probability": 1
+          },
+          {
+            "word": " sleep",
+            "start": 97.97872340425532,
+            "end": 98.45744680851064,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 101.72872340425532,
+      "end": 132.12765957446808,
+      "text": [
+        "And I might just pass out",
+        "On my desk",
+        "If this continues",
+        "I'll start pulling my hair out",
+        "And I don't care how much",
+        "They pay me",
+        "'Cause I'm a human",
+        "And not a machine"
+      ],
+      "paragraph": "And I might just pass out\nOn my desk\nIf this continues\nI'll start pulling my hair out\nAnd I don't care how much\nThey pay me\n'Cause I'm a human\nAnd not a machine",
+      "words": [
+        {
+          "word": "\nAnd I",
+          "start": 101.72872340425532,
+          "end": 102.04787234042553,
+          "probability": 1
+        },
+        {
+          "word": " might",
+          "start": 102.52659574468085,
+          "end": 103.00531914893617,
+          "probability": 1
+        },
+        {
+          "word": " just",
+          "start": 103.00531914893617,
+          "end": 103.40425531914893,
+          "probability": 1
+        },
+        {
+          "word": " pass",
+          "start": 103.56382978723404,
+          "end": 103.9627659574468,
+          "probability": 1
+        },
+        {
+          "word": " out",
+          "start": 104.12234042553192,
+          "end": 104.44148936170212,
+          "probability": 1
+        },
+        {
+          "word": "\nOn",
+          "start": 105.15957446808511,
+          "end": 105.39893617021276,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 105.71808510638299,
+          "end": 105.95744680851064,
+          "probability": 1
+        },
+        {
+          "word": " desk",
+          "start": 106.1968085106383,
+          "end": 106.3563829787234,
+          "probability": 1
+        },
+        {
+          "word": "\nIf",
+          "start": 109.86702127659575,
+          "end": 110.1063829787234,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 110.1063829787234,
+          "end": 110.42553191489361,
+          "probability": 1
+        },
+        {
+          "word": " contin",
+          "start": 110.42553191489361,
+          "end": 110.90425531914893,
+          "probability": 1
+        },
+        {
+          "word": "ues",
+          "start": 110.90425531914893,
+          "end": 111.1436170212766,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 111.4627659574468,
+          "end": 111.62234042553192,
+          "probability": 1
+        },
+        {
+          "word": "'ll",
+          "start": 111.62234042553192,
+          "end": 111.86170212765957,
+          "probability": 1
+        },
+        {
+          "word": " start",
+          "start": 111.94148936170212,
+          "end": 112.42021276595744,
+          "probability": 1
+        },
+        {
+          "word": " pulling",
+          "start": 112.97872340425532,
+          "end": 113.61702127659575,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 113.61702127659575,
+          "end": 113.8563829787234,
+          "probability": 1
+        },
+        {
+          "word": " hair",
+          "start": 114.09574468085107,
+          "end": 114.49468085106383,
+          "probability": 1
+        },
+        {
+          "word": " out",
+          "start": 114.65425531914893,
+          "end": 114.97340425531915,
+          "probability": 1
+        },
+        {
+          "word": "\nAnd I",
+          "start": 118.6436170212766,
+          "end": 118.9627659574468,
+          "probability": 1
+        },
+        {
+          "word": " do",
+          "start": 119.44148936170212,
+          "end": 119.52127659574468,
+          "probability": 1
+        },
+        {
+          "word": "n't",
+          "start": 119.52127659574468,
+          "end": 119.60106382978724,
+          "probability": 1
+        },
+        {
+          "word": " care",
+          "start": 119.84042553191489,
+          "end": 120.23936170212767,
+          "probability": 1
+        },
+        {
+          "word": " how",
+          "start": 120.39893617021276,
+          "end": 120.71808510638299,
+          "probability": 1
+        },
+        {
+          "word": " much",
+          "start": 120.95744680851064,
+          "end": 121.3563829787234,
+          "probability": 1
+        },
+        {
+          "word": "\nThey",
+          "start": 122.55319148936171,
+          "end": 122.79255319148936,
+          "probability": 1
+        },
+        {
+          "word": " pay",
+          "start": 122.79255319148936,
+          "end": 123.11170212765957,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 123.11170212765957,
+          "end": 123.35106382978724,
+          "probability": 1
+        },
+        {
+          "word": "\n'C",
+          "start": 126.62234042553192,
+          "end": 126.70212765957447,
+          "probability": 1
+        },
+        {
+          "word": "au",
+          "start": 126.70212765957447,
+          "end": 126.86170212765957,
+          "probability": 1
+        },
+        {
+          "word": "se",
+          "start": 127.02127659574468,
+          "end": 127.10106382978724,
+          "probability": 1
+        },
+        {
+          "word": " I'm",
+          "start": 127.10106382978724,
+          "end": 127.18085106382979,
+          "probability": 1
+        },
+        {
+          "word": " a",
+          "start": 127.18085106382979,
+          "end": 127.26063829787235,
+          "probability": 1
+        },
+        {
+          "word": " human",
+          "start": 127.5,
+          "end": 127.97872340425532,
+          "probability": 1
+        },
+        {
+          "word": "\nAnd",
+          "start": 130.45212765957447,
+          "end": 130.69148936170214,
+          "probability": 1
+        },
+        {
+          "word": " not a",
+          "start": 130.69148936170214,
+          "end": 131.01063829787233,
+          "probability": 1
+        },
+        {
+          "word": " machine",
+          "start": 131.48936170212767,
+          "end": 132.12765957446808,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 101.72872340425532,
+            "end": 102.04787234042553,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "And I",
+            "start": 101.72872340425532,
+            "end": 102.04787234042553,
+            "probability": 1
+          },
+          {
+            "word": " might",
+            "start": 102.52659574468085,
+            "end": 103.00531914893617,
+            "probability": 1
+          },
+          {
+            "word": " just",
+            "start": 103.00531914893617,
+            "end": 103.40425531914893,
+            "probability": 1
+          },
+          {
+            "word": " pass",
+            "start": 103.56382978723404,
+            "end": 103.9627659574468,
+            "probability": 1
+          },
+          {
+            "word": " out",
+            "start": 104.12234042553192,
+            "end": 104.44148936170212,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 105.15957446808511,
+            "end": 105.39893617021276,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "On",
+            "start": 105.15957446808511,
+            "end": 105.39893617021276,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 105.71808510638299,
+            "end": 105.95744680851064,
+            "probability": 1
+          },
+          {
+            "word": " desk",
+            "start": 106.1968085106383,
+            "end": 106.3563829787234,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 109.86702127659575,
+            "end": 110.1063829787234,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "If",
+            "start": 109.86702127659575,
+            "end": 110.1063829787234,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 110.1063829787234,
+            "end": 110.42553191489361,
+            "probability": 1
+          },
+          {
+            "word": " contin",
+            "start": 110.42553191489361,
+            "end": 110.90425531914893,
+            "probability": 1
+          },
+          {
+            "word": "ues",
+            "start": 110.90425531914893,
+            "end": 111.1436170212766,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 111.4627659574468,
+            "end": 111.62234042553192,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 111.4627659574468,
+            "end": 111.62234042553192,
+            "probability": 1
+          },
+          {
+            "word": "'ll",
+            "start": 111.62234042553192,
+            "end": 111.86170212765957,
+            "probability": 1
+          },
+          {
+            "word": " start",
+            "start": 111.94148936170212,
+            "end": 112.42021276595744,
+            "probability": 1
+          },
+          {
+            "word": " pulling",
+            "start": 112.97872340425532,
+            "end": 113.61702127659575,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 113.61702127659575,
+            "end": 113.8563829787234,
+            "probability": 1
+          },
+          {
+            "word": " hair",
+            "start": 114.09574468085107,
+            "end": 114.49468085106383,
+            "probability": 1
+          },
+          {
+            "word": " out",
+            "start": 114.65425531914893,
+            "end": 114.97340425531915,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 118.6436170212766,
+            "end": 118.9627659574468,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "And I",
+            "start": 118.6436170212766,
+            "end": 118.9627659574468,
+            "probability": 1
+          },
+          {
+            "word": " do",
+            "start": 119.44148936170212,
+            "end": 119.52127659574468,
+            "probability": 1
+          },
+          {
+            "word": "n't",
+            "start": 119.52127659574468,
+            "end": 119.60106382978724,
+            "probability": 1
+          },
+          {
+            "word": " care",
+            "start": 119.84042553191489,
+            "end": 120.23936170212767,
+            "probability": 1
+          },
+          {
+            "word": " how",
+            "start": 120.39893617021276,
+            "end": 120.71808510638299,
+            "probability": 1
+          },
+          {
+            "word": " much",
+            "start": 120.95744680851064,
+            "end": 121.3563829787234,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 122.55319148936171,
+            "end": 122.79255319148936,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 122.55319148936171,
+            "end": 122.79255319148936,
+            "probability": 1
+          },
+          {
+            "word": " pay",
+            "start": 122.79255319148936,
+            "end": 123.11170212765957,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 123.11170212765957,
+            "end": 123.35106382978724,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 126.62234042553192,
+            "end": 126.70212765957447,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "'C",
+            "start": 126.62234042553192,
+            "end": 126.70212765957447,
+            "probability": 1
+          },
+          {
+            "word": "au",
+            "start": 126.70212765957447,
+            "end": 126.86170212765957,
+            "probability": 1
+          },
+          {
+            "word": "se",
+            "start": 127.02127659574468,
+            "end": 127.10106382978724,
+            "probability": 1
+          },
+          {
+            "word": " I'm",
+            "start": 127.10106382978724,
+            "end": 127.18085106382979,
+            "probability": 1
+          },
+          {
+            "word": " a",
+            "start": 127.18085106382979,
+            "end": 127.26063829787235,
+            "probability": 1
+          },
+          {
+            "word": " human",
+            "start": 127.5,
+            "end": 127.97872340425532,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 130.45212765957447,
+            "end": 130.69148936170214,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "And",
+            "start": 130.45212765957447,
+            "end": 130.69148936170214,
+            "probability": 1
+          },
+          {
+            "word": " not a",
+            "start": 130.69148936170214,
+            "end": 131.01063829787233,
+            "probability": 1
+          },
+          {
+            "word": " machine",
+            "start": 131.48936170212767,
+            "end": 132.12765957446808,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 152.79255319148936,
+      "end": 166.0372340425532,
+      "text": [
+        "Baby",
+        "I'm so stressed and tired",
+        "This whole work-from-home is crazy",
+        "I'ma need to call a shrink",
+        "To help me go to sleep"
+      ],
+      "paragraph": "Baby\nI'm so stressed and tired\nThis whole work-from-home is crazy\nI'ma need to call a shrink\nTo help me go to sleep",
+      "words": [
+        {
+          "word": "\nBaby",
+          "start": 152.79255319148936,
+          "end": 153.98936170212767,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 154.7872340425532,
+          "end": 154.86702127659575,
+          "probability": 1
+        },
+        {
+          "word": "'m s",
+          "start": 154.86702127659575,
+          "end": 154.9468085106383,
+          "probability": 1
+        },
+        {
+          "word": "o",
+          "start": 154.9468085106383,
+          "end": 155.10638297872342,
+          "probability": 1
+        },
+        {
+          "word": " st",
+          "start": 155.4255319148936,
+          "end": 155.50531914893617,
+          "probability": 1
+        },
+        {
+          "word": "ressed",
+          "start": 155.50531914893617,
+          "end": 155.74468085106383,
+          "probability": 1
+        },
+        {
+          "word": " and",
+          "start": 155.74468085106383,
+          "end": 155.9840425531915,
+          "probability": 1
+        },
+        {
+          "word": " tired",
+          "start": 155.9840425531915,
+          "end": 156.4627659574468,
+          "probability": 1
+        },
+        {
+          "word": "\nThis",
+          "start": 156.4627659574468,
+          "end": 156.78191489361703,
+          "probability": 1
+        },
+        {
+          "word": " whole",
+          "start": 156.78191489361703,
+          "end": 157.0212765957447,
+          "probability": 1
+        },
+        {
+          "word": " work",
+          "start": 157.0212765957447,
+          "end": 157.3404255319149,
+          "probability": 1
+        },
+        {
+          "word": "-from",
+          "start": 157.3404255319149,
+          "end": 157.57978723404256,
+          "probability": 1
+        },
+        {
+          "word": "-home",
+          "start": 157.57978723404256,
+          "end": 157.81914893617022,
+          "probability": 1
+        },
+        {
+          "word": " is",
+          "start": 157.81914893617022,
+          "end": 158.05851063829786,
+          "probability": 1
+        },
+        {
+          "word": " crazy",
+          "start": 158.05851063829786,
+          "end": 158.5372340425532,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 160.69148936170214,
+          "end": 160.7712765957447,
+          "probability": 1
+        },
+        {
+          "word": "'ma",
+          "start": 160.7712765957447,
+          "end": 160.93085106382978,
+          "probability": 1
+        },
+        {
+          "word": " need",
+          "start": 161.25,
+          "end": 161.64893617021278,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 161.72872340425533,
+          "end": 161.96808510638297,
+          "probability": 1
+        },
+        {
+          "word": " call a",
+          "start": 161.96808510638297,
+          "end": 162.36702127659575,
+          "probability": 1
+        },
+        {
+          "word": " shr",
+          "start": 163.00531914893617,
+          "end": 163.08510638297872,
+          "probability": 1
+        },
+        {
+          "word": "ink",
+          "start": 163.16489361702128,
+          "end": 163.40425531914894,
+          "probability": 1
+        },
+        {
+          "word": "\nTo",
+          "start": 164.04255319148936,
+          "end": 164.28191489361703,
+          "probability": 1
+        },
+        {
+          "word": " help",
+          "start": 164.28191489361703,
+          "end": 164.60106382978722,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 164.60106382978722,
+          "end": 164.8404255319149,
+          "probability": 1
+        },
+        {
+          "word": " go",
+          "start": 164.92021276595744,
+          "end": 165.1595744680851,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 165.1595744680851,
+          "end": 165.39893617021278,
+          "probability": 1
+        },
+        {
+          "word": " sleep\n",
+          "start": 165.39893617021278,
+          "end": 166.0372340425532,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 152.79255319148936,
+            "end": 153.98936170212767,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Baby",
+            "start": 152.79255319148936,
+            "end": 153.98936170212767,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 154.7872340425532,
+            "end": 154.86702127659575,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 154.7872340425532,
+            "end": 154.86702127659575,
+            "probability": 1
+          },
+          {
+            "word": "'m s",
+            "start": 154.86702127659575,
+            "end": 154.9468085106383,
+            "probability": 1
+          },
+          {
+            "word": "o",
+            "start": 154.9468085106383,
+            "end": 155.10638297872342,
+            "probability": 1
+          },
+          {
+            "word": " st",
+            "start": 155.4255319148936,
+            "end": 155.50531914893617,
+            "probability": 1
+          },
+          {
+            "word": "ressed",
+            "start": 155.50531914893617,
+            "end": 155.74468085106383,
+            "probability": 1
+          },
+          {
+            "word": " and",
+            "start": 155.74468085106383,
+            "end": 155.9840425531915,
+            "probability": 1
+          },
+          {
+            "word": " tired",
+            "start": 155.9840425531915,
+            "end": 156.4627659574468,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 156.4627659574468,
+            "end": 156.78191489361703,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "This",
+            "start": 156.4627659574468,
+            "end": 156.78191489361703,
+            "probability": 1
+          },
+          {
+            "word": " whole",
+            "start": 156.78191489361703,
+            "end": 157.0212765957447,
+            "probability": 1
+          },
+          {
+            "word": " work",
+            "start": 157.0212765957447,
+            "end": 157.3404255319149,
+            "probability": 1
+          },
+          {
+            "word": "-from",
+            "start": 157.3404255319149,
+            "end": 157.57978723404256,
+            "probability": 1
+          },
+          {
+            "word": "-home",
+            "start": 157.57978723404256,
+            "end": 157.81914893617022,
+            "probability": 1
+          },
+          {
+            "word": " is",
+            "start": 157.81914893617022,
+            "end": 158.05851063829786,
+            "probability": 1
+          },
+          {
+            "word": " crazy",
+            "start": 158.05851063829786,
+            "end": 158.5372340425532,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 160.69148936170214,
+            "end": 160.7712765957447,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 160.69148936170214,
+            "end": 160.7712765957447,
+            "probability": 1
+          },
+          {
+            "word": "'ma",
+            "start": 160.7712765957447,
+            "end": 160.93085106382978,
+            "probability": 1
+          },
+          {
+            "word": " need",
+            "start": 161.25,
+            "end": 161.64893617021278,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 161.72872340425533,
+            "end": 161.96808510638297,
+            "probability": 1
+          },
+          {
+            "word": " call a",
+            "start": 161.96808510638297,
+            "end": 162.36702127659575,
+            "probability": 1
+          },
+          {
+            "word": " shr",
+            "start": 163.00531914893617,
+            "end": 163.08510638297872,
+            "probability": 1
+          },
+          {
+            "word": "ink",
+            "start": 163.16489361702128,
+            "end": 163.40425531914894,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 164.04255319148936,
+            "end": 164.28191489361703,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "To",
+            "start": 164.04255319148936,
+            "end": 164.28191489361703,
+            "probability": 1
+          },
+          {
+            "word": " help",
+            "start": 164.28191489361703,
+            "end": 164.60106382978722,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 164.60106382978722,
+            "end": 164.8404255319149,
+            "probability": 1
+          },
+          {
+            "word": " go",
+            "start": 164.92021276595744,
+            "end": 165.1595744680851,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 165.1595744680851,
+            "end": 165.39893617021278,
+            "probability": 1
+          },
+          {
+            "word": " sleep",
+            "start": 165.39893617021278,
+            "end": 166.0372340425532,
+            "probability": 1
+          }
+        ]
+      ]
+    }
+  ],
+  "language": "en"
+}

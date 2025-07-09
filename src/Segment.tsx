@@ -1,17 +1,10 @@
-import React, {useCallback, useState, useMemo, useEffect, useRef} from 'react';
-import {
-	AbsoluteFill,
-	Img,
-	staticFile,
-	useCurrentFrame,
-	useVideoConfig,
-} from 'remotion';
-import {Dots, LayoutsState, lineHeight, padding} from './Dots';
+import React, {useMemo, useEffect, useRef} from 'react';
+import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
+import {lineHeight, padding} from './Dots';
 import {Segment, Word} from './types';
-import {WordComponent} from './Word';
 
 // Импортируем настроенный GSAP из библиотеки
-import { gsap, SplitText } from './lib/gsap';
+import {gsap, SplitText} from './lib/gsap';
 
 // ✅ CSS стили для SplitText элементов (согласно документации GSAP)
 const splitTextStyles = `
@@ -57,17 +50,22 @@ const splitTextStyles = `
 `;
 
 // Инжектируем стили если их еще нет
-if (typeof document !== 'undefined' && !document.getElementById('split-text-styles')) {
-  const styleSheet = document.createElement('style');
-  styleSheet.id = 'split-text-styles';
-  styleSheet.textContent = splitTextStyles;
-  document.head.appendChild(styleSheet);
+if (
+	typeof document !== 'undefined' &&
+	!document.getElementById('split-text-styles')
+) {
+	const styleSheet = document.createElement('style');
+	styleSheet.id = 'split-text-styles';
+	styleSheet.textContent = splitTextStyles;
+	document.head.appendChild(styleSheet);
 }
 
 // Функция для создания карты символов со временными метками для целой строки
 const createLineCharMap = (words: Word[]) => {
-	const filteredWords = words.filter(word => word.word && word.word.trim() !== '');
-	
+	const filteredWords = words.filter(
+		(word) => word.word && word.word.trim() !== ''
+	);
+
 	let fullLineText = '';
 	const charTimingMap: Array<{
 		char: string;
@@ -78,26 +76,26 @@ const createLineCharMap = (words: Word[]) => {
 
 	filteredWords.forEach((wordPart, wordIndex) => {
 		const cleanedWord = wordPart.word.replace(/^\n/, '');
-		
+
 		// Добавляем символы слова
 		for (let i = 0; i < cleanedWord.length; i++) {
 			const char = cleanedWord[i];
 			fullLineText += char;
-			
-			if(char !== ' ') {
+
+			if (char !== ' ') {
 				charTimingMap.push({
 					char,
 					start: wordPart.start,
 					end: wordPart.end,
-					wordPart
+					wordPart,
 				});
 			}
 		}
 	});
 
-	const result = { fullLineText, charTimingMap };
-	if(fullLineText.length > 0) {
-		console.log('createLineCharMap',{words,...result});
+	const result = {fullLineText, charTimingMap};
+	if (fullLineText.length > 0) {
+		console.log('createLineCharMap', {words, ...result});
 	}
 	return result;
 };
@@ -114,8 +112,9 @@ const LineComponent: React.FC<{
 	const splitRef = useRef<SplitText | null>(null);
 
 	// Создаем карту символов для целой строки
-	const { fullLineText, charTimingMap } = useMemo(() => 
-		createLineCharMap(words), [words]
+	const {fullLineText, charTimingMap} = useMemo(
+		() => createLineCharMap(words),
+		[words]
 	);
 
 	// ✅ Создаем SplitText согласно лучшим практикам GSAP
@@ -125,15 +124,15 @@ const LineComponent: React.FC<{
 			const applySplit = () => {
 				if (!splitRef.current && lineRef.current) {
 					splitRef.current = new SplitText(lineRef.current, {
-						type: "chars", // Только символы для караоке анимации
-						charsClass: "split-char",
+						type: 'chars', // Только символы для караоке анимации
+						charsClass: 'split-char',
 						reduceWhiteSpace: false,
-						position: "relative" // Естественный поток
+						position: 'relative', // Естественный поток
 					});
 
 					// Логирование для отладки
 					console.log('SplitText created for line:', lineIndex, {
-						chars: splitRef.current.chars?.length || 0
+						chars: splitRef.current.chars?.length || 0,
 					});
 				}
 			};
@@ -146,7 +145,7 @@ const LineComponent: React.FC<{
 				setTimeout(applySplit, 100);
 			}
 		}
-		
+
 		return () => {
 			if (splitRef.current) {
 				splitRef.current.revert();
@@ -164,19 +163,20 @@ const LineComponent: React.FC<{
 			const timing = charTimingMap[charIndex];
 			if (!timing) return;
 
-			const isActive = timeInSeconds >= timing.start && timeInSeconds <= timing.end;
+			const isActive =
+				timeInSeconds >= timing.start && timeInSeconds <= timing.end;
 			const hasWordStarted = timeInSeconds >= timing.start;
-			
+
 			// Группируем изменения стилей для лучшей производительности
 			const styles: any = {};
-			
+
 			if (isActive) {
 				// Активное слово - золотой с эффектами
 				Object.assign(styles, {
 					opacity: 1,
 					color: '#FFD700',
 					scale: 1.15,
-					textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700'
+					textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700',
 				});
 			} else if (hasWordStarted) {
 				// Уже пропетое слово - белый, нормальный
@@ -184,7 +184,7 @@ const LineComponent: React.FC<{
 					opacity: 1,
 					color: '#FFFFFF',
 					scale: 1,
-					textShadow: 'none'
+					textShadow: 'none',
 				});
 			} else {
 				// Еще не пропетое слово - серый, полупрозрачный
@@ -192,7 +192,7 @@ const LineComponent: React.FC<{
 					opacity: 0.4,
 					color: '#666666',
 					scale: 1,
-					textShadow: 'none'
+					textShadow: 'none',
 				});
 			}
 
@@ -202,7 +202,9 @@ const LineComponent: React.FC<{
 	}, [timeInSeconds, charTimingMap]);
 
 	// Проверяем, должна ли строка быть видна
-	const isLineVisible = charTimingMap.some(timing => timeInSeconds >= timing.start);
+	const isLineVisible = charTimingMap.some(
+		(timing) => timeInSeconds >= timing.start
+	);
 
 	if (!isLineVisible || !fullLineText) {
 		return null;
@@ -213,10 +215,10 @@ const LineComponent: React.FC<{
 			ref={lineRef}
 			className="line-container"
 			style={{
-				fontSize: '3rem',
+				fontSize: '2rem',
 				lineHeight: lineHeight,
 				whiteSpace: 'pre-wrap',
-				fontWeight: 'bold'
+				fontWeight: 'bold',
 			}}
 		>
 			{fullLineText}
@@ -242,22 +244,25 @@ const ParagraphLineComponent: React.FC<{
 	useEffect(() => {
 		if (containerRef.current && !splitRef.current && segment.paragraph) {
 			// ✅ Согласно документации: элемент должен быть отображен так, как нужно в конце анимации
-			containerRef.current.innerHTML = segment.paragraph.replace(/\n/g, '<br />');
-			
+			containerRef.current.innerHTML = segment.paragraph.replace(
+				/\n/g,
+				'<br />'
+			);
+
 			const applySplit = () => {
 				if (!splitRef.current && containerRef.current) {
 					// ✅ Оптимизация производительности: разбиваем только на lines и chars
 					splitRef.current = new SplitText(containerRef.current, {
-						type: "lines,chars", // Только то, что нужно для караоке
-						linesClass: "auto-line",
-						charsClass: "auto-char",
-						position: "relative", // Естественный поток
-						lineThreshold: 0.2 // Порог для определения линий
+						type: 'lines,chars', // Только то, что нужно для караоке
+						linesClass: 'auto-line',
+						charsClass: 'auto-char',
+						position: 'relative', // Естественный поток
+						lineThreshold: 0.2, // Порог для определения линий
 					});
 
 					console.log('🆕 Auto SplitText created:', {
 						lines: splitRef.current.lines?.length || 0,
-						chars: splitRef.current.chars?.length || 0
+						chars: splitRef.current.chars?.length || 0,
 					});
 				}
 			};
@@ -270,7 +275,7 @@ const ParagraphLineComponent: React.FC<{
 				setTimeout(applySplit, 100);
 			}
 		}
-		
+
 		return () => {
 			if (splitRef.current) {
 				splitRef.current.revert();
@@ -282,80 +287,87 @@ const ParagraphLineComponent: React.FC<{
 	// ✅ Оптимизированный алгоритм с мемоизацией карты символов
 	const charTimings = useMemo(() => {
 		if (!segment.words.length) return [];
-		
-		const timings: Array<{ start: number; end: number; char: string; word: string }> = [];
-		
-		segment.words.forEach(word => {
+
+		const timings: Array<{
+			start: number;
+			end: number;
+			char: string;
+			word: string;
+		}> = [];
+
+		segment.words.forEach((word) => {
 			// const cleanWord = word.word.replace(/^\n+/, '').replace(/\n+$/, '');
-			const cleanWord = word.word.replace(/\n/, '');//.replace(/\n+$/, '');
-			
+			const cleanWord = word.word.replace(/\n/, ''); //.replace(/\n+$/, '');
+
 			for (let i = 0; i < cleanWord.length; i++) {
-				if(cleanWord[i] !== ' ') {
+				if (cleanWord[i] !== ' ') {
 					timings.push({
 						start: word.start,
 						end: word.end,
 						char: cleanWord[i],
-						word: word.word
+						word: word.word,
 					});
 				}
 			}
 		});
-		
+
 		return timings;
 	}, [segment.words]);
 
 	// ✅ Отслеживаем предыдущие состояния символов для оптимизации
-	const prevCharStatesRef = useRef<Array<'inactive' | 'active' | 'completed'>>([]);
+	const prevCharStatesRef = useRef<Array<'inactive' | 'active' | 'completed'>>(
+		[]
+	);
 
 	// ✅ Оптимизированный эффект анимации - применяется только при изменении состояний символов
-	useEffect(() => { 
+	useEffect(() => {
 		console.time('charTimings');
 		if (!splitRef.current || !charTimings.length) return;
 
 		// ✅ Ранний выход: если ни один символ еще не должен быть видимым
-		if (!charTimings.some(timing => timeInSeconds >= timing.start)) {
+		if (!charTimings.some((timing) => timeInSeconds >= timing.start)) {
 			return;
 		}
 
 		// Вычисляем новые состояния символов
-		const newCharStates = charTimings.map(timing => {
-			const isActive = timeInSeconds >= timing.start && timeInSeconds <= timing.end;
+		const newCharStates = charTimings.map((timing) => {
+			const isActive =
+				timeInSeconds >= timing.start && timeInSeconds <= timing.end;
 			const hasStarted = timeInSeconds >= timing.start;
-			
+
 			if (isActive) return 'active';
 			if (hasStarted) return 'completed';
 			return 'inactive';
 		}) as Array<'inactive' | 'active' | 'completed'>;
 
 		// ✅ Проверяем, есть ли изменения в состояниях с помощью some
-		const hasChanges = newCharStates.some((state, index) => 
-			state !== prevCharStatesRef.current[index]
+		const hasChanges = newCharStates.some(
+			(state, index) => state !== prevCharStatesRef.current[index]
 		);
-		
+
 		// Если нет изменений, не применяем анимацию
 		if (!hasChanges) return;
 
 		// console.log('!! charTimings', charTimings.length);
 		// console.log('!! splitRef.current.chars', splitRef.current.chars?.length);
-		
 
 		// Применяем анимацию только к символам, состояние которых изменилось
 		splitRef.current.chars?.forEach((char, charIndex) => {
 			const newState = newCharStates[charIndex];
 			const prevState = prevCharStatesRef.current[charIndex];
-			
+
 			// Пропускаем символы без изменений состояния
 			if (newState === prevState) return;
-			
+
 			const styles: any = {};
-			
+
 			switch (newState) {
 				case 'active':
 					Object.assign(styles, {
 						opacity: 1,
 						color: '#FFD700',
 						scale: 1.15,
-						textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700'
+						textShadow: '0 0 15px #FFD700, 0 0 25px #FFD700',
 					});
 					break;
 				case 'completed':
@@ -363,7 +375,7 @@ const ParagraphLineComponent: React.FC<{
 						opacity: 1,
 						color: '#FFFFFF',
 						scale: 1,
-						textShadow: 'none'
+						textShadow: 'none',
 					});
 					break;
 				case 'inactive':
@@ -372,7 +384,7 @@ const ParagraphLineComponent: React.FC<{
 						opacity: 0.4,
 						color: '#666666',
 						scale: 1,
-						textShadow: 'none'
+						textShadow: 'none',
 					});
 					break;
 			}
@@ -394,11 +406,11 @@ const ParagraphLineComponent: React.FC<{
 			ref={containerRef}
 			className="paragraph-container"
 			style={{
-				fontSize: '3rem',
+				fontSize: '2rem',
 				lineHeight: lineHeight,
 				fontWeight: 'bold',
 				position: 'relative',
-				whiteSpace: 'pre-wrap'
+				whiteSpace: 'pre-wrap',
 			}}
 		>
 			{/* ✅ Контент устанавливается через innerHTML в useEffect */}
@@ -429,19 +441,12 @@ const InnerComponent: React.FC<{
 				// Существующий подход: ручные строки с картой символов
 				<div>
 					{segment.lines?.map((line, lineIndex) => (
-						<LineComponent
-							key={lineIndex}
-							words={line}
-							lineIndex={lineIndex}
-						/>
+						<LineComponent key={lineIndex} words={line} lineIndex={lineIndex} />
 					))}
 				</div>
 			) : (
 				// Для обратной совместимости - одна строка
-				<LineComponent
-					words={segment.words}
-					lineIndex={0}
-				/>
+				<LineComponent words={segment.words} lineIndex={0} />
 			)}
 		</AbsoluteFill>
 	);

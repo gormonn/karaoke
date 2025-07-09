@@ -105,14 +105,14 @@
     "p_align": 1
   },
   {
-    "word": " I",
+    "word": " I’",
     "success": true,
     "start_s": 7.73936,
     "end_s": 7.89894,
     "p_align": 1
   },
   {
-    "word": "’m",
+    "word": "m",
     "success": true,
     "start_s": 7.89894,
     "end_s": 7.97872,
@@ -203,17 +203,10 @@
     "p_align": 1
   },
   {
-    "word": "\nIt",
+    "word": "\nIt’",
     "success": true,
     "start_s": 14.44149,
     "end_s": 14.52128,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 14.52128,
-    "end_s": 14.60106,
     "p_align": 1
   },
   {
@@ -252,45 +245,38 @@
     "p_align": 1
   },
   {
-    "word": " you",
+    "word": " you,",
     "success": true,
     "start_s": 16.03723,
     "end_s": 16.35638,
     "p_align": 1
   },
   {
-    "word": ", is",
+    "word": " is",
     "success": true,
     "start_s": 16.51596,
     "end_s": 16.83511,
     "p_align": 1
   },
   {
-    "word": " it",
+    "word": " it?",
     "success": true,
     "start_s": 16.91489,
     "end_s": 17.15426,
     "p_align": 1
   },
   {
-    "word": "?\nHow",
+    "word": "\nHow",
     "success": true,
     "start_s": 18.03191,
     "end_s": 18.27128,
     "p_align": 1
   },
   {
-    "word": " I",
+    "word": " I’",
     "success": true,
     "start_s": 18.27128,
     "end_s": 18.35106,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 18.35106,
-    "end_s": 18.43085,
     "p_align": 1
   },
   {
@@ -371,17 +357,10 @@
     "p_align": 1
   },
   {
-    "word": " “I",
+    "word": " “I’",
     "success": true,
     "start_s": 23.1383,
     "end_s": 23.21809,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 23.21809,
-    "end_s": 23.29787,
     "p_align": 1
   },
   {
@@ -392,14 +371,14 @@
     "p_align": 1
   },
   {
-    "word": " listening",
+    "word": " listening”",
     "success": true,
     "start_s": 23.45745,
     "end_s": 24.25532,
     "p_align": 1
   },
   {
-    "word": "”\nBut",
+    "word": "\nBut",
     "success": true,
     "start_s": 25.13298,
     "end_s": 25.37234,
@@ -413,17 +392,10 @@
     "p_align": 1
   },
   {
-    "word": " mind",
+    "word": " mind’",
     "success": true,
     "start_s": 25.6117,
     "end_s": 25.85106,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 25.85106,
-    "end_s": 25.93085,
     "p_align": 1
   },
   {
@@ -497,24 +469,17 @@
     "p_align": 1
   },
   {
-    "word": " me",
+    "word": " me”",
     "success": true,
     "start_s": 32.31383,
     "end_s": 32.55319,
     "p_align": 1
   },
   {
-    "word": "”\n“I",
+    "word": "\n“I’",
     "success": true,
     "start_s": 33.35106,
     "end_s": 33.43085,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 33.43085,
-    "end_s": 33.51064,
     "p_align": 1
   },
   {
@@ -553,14 +518,14 @@
     "p_align": 1
   },
   {
-    "word": " before",
+    "word": " before”",
     "success": true,
     "start_s": 35.18617,
     "end_s": 35.74468,
     "p_align": 1
   },
   {
-    "word": "”\n“We",
+    "word": "\n“We",
     "success": true,
     "start_s": 37.81915,
     "end_s": 37.89894,
@@ -595,14 +560,14 @@
     "p_align": 1
   },
   {
-    "word": " future",
+    "word": " future”",
     "success": true,
     "start_s": 39.65426,
     "end_s": 40.21277,
     "p_align": 1
   },
   {
-    "word": "”\n\n[Chorus]\nSaid",
+    "word": "\n\n[Chorus]\nSaid",
     "success": true,
     "start_s": 40.53191,
     "end_s": 40.85106,
@@ -784,17 +749,10 @@
     "p_align": 1
   },
   {
-    "word": "\nIt",
+    "word": "\nIt’",
     "success": true,
     "start_s": 54.65426,
     "end_s": 54.73404,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 54.73404,
-    "end_s": 54.81383,
     "p_align": 1
   },
   {
@@ -847,17 +805,10 @@
     "p_align": 1
   },
   {
-    "word": " I",
+    "word": " I’",
     "success": true,
     "start_s": 58.48404,
     "end_s": 58.64362,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 58.64362,
-    "end_s": 58.7234,
     "p_align": 1
   },
   {
@@ -938,17 +889,10 @@
     "p_align": 1
   },
   {
-    "word": " you",
+    "word": " you’",
     "success": true,
     "start_s": 65.18617,
     "end_s": 65.26596,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 65.26596,
-    "end_s": 65.34574,
     "p_align": 1
   },
   {
@@ -1001,17 +945,10 @@
     "p_align": 1
   },
   {
-    "word": " you",
+    "word": " you’",
     "success": true,
     "start_s": 69.01596,
     "end_s": 69.09574,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 69.09574,
-    "end_s": 69.17553,
     "p_align": 1
   },
   {
@@ -1099,17 +1036,10 @@
     "p_align": 1
   },
   {
-    "word": " I",
+    "word": " I’",
     "success": true,
     "start_s": 75.15957,
     "end_s": 75.23936,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 75.23936,
-    "end_s": 75.31915,
     "p_align": 1
   },
   {
@@ -1169,17 +1099,10 @@
     "p_align": 1
   },
   {
-    "word": " you",
+    "word": " you’",
     "success": true,
     "start_s": 79.3883,
     "end_s": 79.54787,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 79.54787,
-    "end_s": 79.62766,
     "p_align": 1
   },
   {
@@ -1211,17 +1134,10 @@
     "p_align": 1
   },
   {
-    "word": " it",
+    "word": " it’",
     "success": true,
     "start_s": 82.02128,
     "end_s": 82.10106,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 82.10106,
-    "end_s": 82.18085,
     "p_align": 1
   },
   {
@@ -1260,14 +1176,14 @@
     "p_align": 1
   },
   {
-    "word": " you",
+    "word": " you,",
     "success": true,
     "start_s": 83.53723,
     "end_s": 83.85638,
     "p_align": 1
   },
   {
-    "word": ", baby",
+    "word": " baby",
     "success": true,
     "start_s": 84.09574,
     "end_s": 84.57447,
@@ -1344,17 +1260,10 @@
     "p_align": 1
   },
   {
-    "word": " “I",
+    "word": " “I’",
     "success": true,
     "start_s": 89.92021,
     "end_s": 90,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 90,
-    "end_s": 90.07979,
     "p_align": 1
   },
   {
@@ -1372,14 +1281,14 @@
     "p_align": 1
   },
   {
-    "word": " trying",
+    "word": " trying”",
     "success": true,
     "start_s": 90.87766,
     "end_s": 91.43617,
     "p_align": 1
   },
   {
-    "word": "”\nWith",
+    "word": "\nWith",
     "success": true,
     "start_s": 92.63298,
     "end_s": 93.1117,
@@ -1463,14 +1372,14 @@
     "p_align": 1
   },
   {
-    "word": " myself",
+    "word": " myself”",
     "success": true,
     "start_s": 100.29255,
     "end_s": 100.85106,
     "p_align": 1
   },
   {
-    "word": "”\n“This",
+    "word": "\n“This",
     "success": true,
     "start_s": 101.25,
     "end_s": 101.64894,
@@ -1505,14 +1414,14 @@
     "p_align": 1
   },
   {
-    "word": " too",
+    "word": " too”",
     "success": true,
     "start_s": 103.80319,
     "end_s": 104.12234,
     "p_align": 1
   },
   {
-    "word": "”\n“Maybe",
+    "word": "\n“Maybe",
     "success": true,
     "start_s": 105.6383,
     "end_s": 106.2766,
@@ -1547,14 +1456,14 @@
     "p_align": 1
   },
   {
-    "word": " out",
+    "word": " out”",
     "success": true,
     "start_s": 108.67021,
     "end_s": 108.98936,
     "p_align": 1
   },
   {
-    "word": "”\n\n[Chorus]\nSaid",
+    "word": "\n\n[Chorus]\nSaid",
     "success": true,
     "start_s": 111.62234,
     "end_s": 111.8617,
@@ -1722,17 +1631,10 @@
     "p_align": 1
   },
   {
-    "word": " they",
+    "word": " they’",
     "success": true,
     "start_s": 122.4734,
     "end_s": 122.55319,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 122.55319,
-    "end_s": 122.63298,
     "p_align": 1
   },
   {
@@ -1771,17 +1673,10 @@
     "p_align": 1
   },
   {
-    "word": "\nIt",
+    "word": "\nIt’",
     "success": true,
     "start_s": 124.78723,
     "end_s": 124.86702,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 124.86702,
-    "end_s": 124.94681,
     "p_align": 1
   },
   {
@@ -1953,17 +1848,10 @@
     "p_align": 1
   },
   {
-    "word": " I",
+    "word": " I’",
     "success": true,
     "start_s": 140.34574,
     "end_s": 140.42553,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 140.42553,
-    "end_s": 140.50532,
     "p_align": 1
   },
   {
@@ -1995,17 +1883,10 @@
     "p_align": 1
   },
   {
-    "word": " can",
+    "word": " can’",
     "success": true,
     "start_s": 141.8617,
     "end_s": 141.94149,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 141.94149,
-    "end_s": 142.02128,
     "p_align": 1
   },
   {
@@ -2037,17 +1918,10 @@
     "p_align": 1
   },
   {
-    "word": " I",
+    "word": " I’",
     "success": true,
     "start_s": 143.85638,
     "end_s": 143.93617,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 143.93617,
-    "end_s": 144.01596,
     "p_align": 1
   },
   {
@@ -2072,17 +1946,10 @@
     "p_align": 1
   },
   {
-    "word": " who",
+    "word": " who’",
     "success": true,
     "start_s": 145.13298,
     "end_s": 145.21277,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 145.21277,
-    "end_s": 145.29255,
     "p_align": 1
   },
   {
@@ -2135,14 +2002,14 @@
     "p_align": 1
   },
   {
-    "word": " “forever",
+    "word": " “forever”",
     "success": true,
     "start_s": 148.32447,
     "end_s": 148.96277,
     "p_align": 1
   },
   {
-    "word": "” with",
+    "word": " with",
     "success": true,
     "start_s": 148.96277,
     "end_s": 149.44149,
@@ -2177,17 +2044,10 @@
     "p_align": 1
   },
   {
-    "word": " you",
+    "word": " you’",
     "success": true,
     "start_s": 150.87766,
     "end_s": 150.95745,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 150.95745,
-    "end_s": 151.03723,
     "p_align": 1
   },
   {
@@ -2303,14 +2163,14 @@
     "p_align": 1
   },
   {
-    "word": " this",
+    "word": " this”",
     "success": true,
     "start_s": 158.1383,
     "end_s": 158.53723,
     "p_align": 1
   },
   {
-    "word": "”\nSaid",
+    "word": "\nSaid",
     "success": true,
     "start_s": 159.57447,
     "end_s": 159.89362,
@@ -2387,17 +2247,10 @@
     "p_align": 1
   },
   {
-    "word": " we",
+    "word": " we’",
     "success": true,
     "start_s": 164.68085,
     "end_s": 164.84043,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 164.84043,
-    "end_s": 164.92021,
     "p_align": 1
   },
   {
@@ -2415,14 +2268,14 @@
     "p_align": 1
   },
   {
-    "word": " through",
+    "word": " through”",
     "success": true,
     "start_s": 165.79787,
     "end_s": 166.43617,
     "p_align": 1
   },
   {
-    "word": "”\nSaid",
+    "word": "\nSaid",
     "success": true,
     "start_s": 166.67553,
     "end_s": 166.99468,
@@ -2450,17 +2303,10 @@
     "p_align": 1
   },
   {
-    "word": "\nWho",
+    "word": "\nWho’",
     "success": true,
     "start_s": 167.79255,
     "end_s": 167.87234,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 167.87234,
-    "end_s": 167.95213,
     "p_align": 1
   },
   {
@@ -2513,17 +2359,10 @@
     "p_align": 1
   },
   {
-    "word": "\nIt",
+    "word": "\nIt’",
     "success": true,
     "start_s": 170.50532,
     "end_s": 170.58511,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 170.58511,
-    "end_s": 170.66489,
     "p_align": 1
   },
   {
@@ -2576,17 +2415,10 @@
     "p_align": 1
   },
   {
-    "word": " we",
+    "word": " we’",
     "success": true,
     "start_s": 174.01596,
     "end_s": 174.09574,
-    "p_align": 1
-  },
-  {
-    "word": "’",
-    "success": true,
-    "start_s": 174.09574,
-    "end_s": 174.17553,
     "p_align": 1
   },
   {

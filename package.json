@@ -15,14 +15,18 @@
 	"license": "UNLICENSED",
 	"dependencies": {
 		"@remotion/cli": "4.0.321",
-		"@remotion/media-utils": "4.0.321",
+		"@remotion/media-parser": "^4.0.323",
+		"@remotion/media-utils": "^4.0.321",
+		"@remotion/player": "^4.0.321",
 		"animejs": "^4.0.1",
 		"gsap": "^3.13.0",
 		"letterizejs": "^2.0.1",
 		"lottie-react": "^2.4.1",
+		"nanoid": "^5.1.5",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
-		"remotion": "4.0.321"
+		"remotion": "^4.0.321",
+		"tailwindcss": "^4.1.11"
 	},
 	"devDependencies": {
 		"@remotion/eslint-config": "4.0.321",

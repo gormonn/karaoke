@@ -1,8 +1,7 @@
 import React, {useEffect, useImperativeHandle, useRef, useState} from 'react';
 import {useCurrentFrame, useVideoConfig} from 'remotion';
 import {Word} from './types';
-import Letterize from 'letterizejs'; // Возвращаем импорт
-import {stagger, createTimeline, utils} from 'animejs';
+import {createTimeline} from 'animejs';
 
 const WordComp: React.ForwardRefRenderFunction<
 	HTMLSpanElement,
@@ -42,7 +41,7 @@ const WordComp: React.ForwardRefRenderFunction<
 		if (isPartOfGroup) {
 			return true;
 		}
-		
+
 		// Если это НЕ часть группы - это НЕ фрагмент, независимо от содержимого
 		return false;
 	}, [word.word, isPartOfGroup]);
@@ -58,12 +57,12 @@ const WordComp: React.ForwardRefRenderFunction<
 			if (!isLastPart) {
 				return false; // Между частями одного слова пробелов нет
 			}
-			
+
 			// Для последней части проверяем, есть ли пробел в конце
 			const endsWithWhitespace = /[\s\n]$/.test(word.word);
 			return !endsWithWhitespace;
 		}
-		
+
 		// Для обычных слов (не части группы) - проверяем пробелы в конце
 		const endsWithWhitespace = /[\s\n]$/.test(word.word);
 		return !endsWithWhitespace;
@@ -73,21 +72,18 @@ const WordComp: React.ForwardRefRenderFunction<
 	const createAnimation = (
 		element: HTMLElement,
 		type: string,
-		{
-			duration = 400,
-			charTranslateY = 24,
-		} = {}
+		{duration = 400, charTranslateY = 24} = {}
 	) => {
 		if (!element) return null;
-		
+
 		const isOut = type === 'out';
-		
+
 		// === ВРЕМЕННО ОТКЛЮЧЕНО: Letterize анимация ===
 		// Создаем Letterize инстанс для выбранного текста
 		// const text = new Letterize({
 		// 	targets: element
 		// });
-		// 
+		//
 		// // Создаем таймлайн с настройками
 		// const animation = createTimeline({
 		// 	defaults: {
@@ -117,7 +113,7 @@ const WordComp: React.ForwardRefRenderFunction<
 		// 	});
 		// }
 		// === КОНЕЦ ОТКЛЮЧЕННОГО КОДА ===
-		
+
 		// === ВРЕМЕННОЕ РЕШЕНИЕ: Простая анимация без букв ===
 		// Создаем простую анимацию без разбивки на буквы
 		const animation = createTimeline({
@@ -131,23 +127,23 @@ const WordComp: React.ForwardRefRenderFunction<
 		// Добавляем анимацию напрямую к элементу (без букв)
 		if (isOut) {
 			animation.add(element, {
-				translateY: { from: '0px', to: `${charTranslateY}px` },
-				rotateX: { from: '0deg', to: '90deg' },
-				filter: { from: 'blur(0px)', to: 'blur(4px)' },
-				opacity: { from: 1, to: 0 },
-				color: { from: 'rgb(255, 255, 255)', to: 'rgb(0, 0, 0)' },
+				translateY: {from: '0px', to: `${charTranslateY}px`},
+				rotateX: {from: '0deg', to: '90deg'},
+				filter: {from: 'blur(0px)', to: 'blur(4px)'},
+				opacity: {from: 1, to: 0},
+				color: {from: 'rgb(255, 255, 255)', to: 'rgb(0, 0, 0)'},
 			});
 		} else {
 			animation.add(element, {
-				translateY: { from: `-${charTranslateY}px`, to: '0px' },
-				rotateX: { from: '-90deg', to: '0deg' },
-				filter: { from: 'blur(4px)', to: 'blur(0px)' },
-				opacity: { from: 0, to: 1 },
-				color: { from: 'hsl(109, 97%, 88%)', to: 'hsl(350, 46%, 47%)' },
+				translateY: {from: `-${charTranslateY}px`, to: '0px'},
+				rotateX: {from: '-90deg', to: '0deg'},
+				filter: {from: 'blur(4px)', to: 'blur(0px)'},
+				opacity: {from: 0, to: 1},
+				color: {from: 'hsl(109, 97%, 88%)', to: 'hsl(350, 46%, 47%)'},
 			});
 		}
 		// === КОНЕЦ ВРЕМЕННОГО РЕШЕНИЯ ===
-		
+
 		return animation;
 	};
 
@@ -157,23 +153,23 @@ const WordComp: React.ForwardRefRenderFunction<
 		if (!container || animationInitialized) {
 			return;
 		}
-		
+
 		if (isShown && !animationInitialized) {
 			// Находим элементы in и out внутри контейнера
 			const inElement = container.querySelector('.word-in') as HTMLElement;
 			const outElement = container.querySelector('.word-out') as HTMLElement;
-			
+
 			if (!inElement || !outElement) return;
-			
+
 			// Создаем две анимации
 			const inAnimation = createAnimation(inElement, 'in');
 			const outAnimation = createAnimation(outElement, 'out');
-			
+
 			if (inAnimation && outAnimation) {
 				// Запускаем обе анимации
 				inAnimation.play();
 				outAnimation.play();
-				
+
 				// После завершения одной из анимаций (можно выбрать любую) отмечаем как инициализировано
 				inAnimation.then(() => {
 					setAnimationInitialized(true);
@@ -221,7 +217,7 @@ const WordComp: React.ForwardRefRenderFunction<
 		visibility: isShown ? 'visible' : 'hidden',
 		fontSize: isPartOfGroup ? '1rem' : 'inherit',
 	};
-	
+
 	const textStyle: React.CSSProperties = {
 		position: 'absolute',
 		top: 0,
@@ -231,7 +227,7 @@ const WordComp: React.ForwardRefRenderFunction<
 		display: 'inline-block',
 		whiteSpace: 'pre-wrap',
 	};
-	
+
 	const textSpanStyle: React.CSSProperties = {
 		display: 'inline-block',
 		transformStyle: 'preserve-3d',
@@ -244,7 +240,7 @@ const WordComp: React.ForwardRefRenderFunction<
 			const partLength = word.word.trim().length;
 			return partLength * 0.6 + 'em';
 		}
-		
+
 		// Для обычных слов
 		return word.word.length * 0.6 + 'em';
 	}, [word.word, isPartOfGroup, groupInfo]);
@@ -254,26 +250,33 @@ const WordComp: React.ForwardRefRenderFunction<
 		if (isPartOfGroup && groupInfo) {
 			const {partIndex, totalParts} = groupInfo;
 			const classes = ['word-part'];
-			
+
 			if (partIndex === 0) classes.push('word-part-first');
 			if (partIndex === totalParts - 1) classes.push('word-part-last');
 			if (totalParts > 1) classes.push('word-part-grouped');
-			
+
 			return classes.join(' ');
 		}
-		
+
 		return isWordFragment ? 'word-fragment' : 'word-full';
 	};
 
 	return (
-		<span 
-			ref={componentRef} 
+		<span
+			ref={componentRef}
 			style={containerStyle}
 			className={getWordClassName()}
-			data-word-part={isPartOfGroup ? `${groupInfo?.partIndex}/${groupInfo?.totalParts}` : undefined}
+			data-word-part={
+				isPartOfGroup
+					? `${groupInfo?.partIndex}/${groupInfo?.totalParts}`
+					: undefined
+			}
 			data-full-text={isPartOfGroup ? groupInfo?.fullText : undefined}
 		>
-			<div ref={internalRef} style={{position: 'relative', minWidth: wordWidth}}>
+			<div
+				ref={internalRef}
+				style={{position: 'relative', minWidth: wordWidth}}
+			>
 				<div className="word-in" style={textStyle}>
 					<span style={textSpanStyle}>{word.word}</span>
 				</div>

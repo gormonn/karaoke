@@ -1,0 +1,4215 @@
+{
+  "text": "\nSpotlight finds your silhouette\nDancing shadows in your eyes\nTime slows down when our glances meet\nSuch beauty under neon skies\nWho knew that I could feel this way?\nMy heart awake for the first time\nEverything before was shades of gray\nNow colors bloom in my mind\nYou're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home\nWhispered words across the table\nYour laugh like music to my ears\nI never thought I'd be so capable\nOf feeling something this sincere\nStrange how life can change so fast\nWhen someone truly sees your soul\nEverything I thought I was fades past\nAs you make me feeling whole\nYou're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home\nThey won't understand what we have found\nThis connection rare and pure\nBut nothing else seems to matter now\nWhen I'm standing here with you\nTime stands still when you're near\nThe world outside just disappears\nYou're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home\nIn your eyes, I find myself\nIn your arms, I find my home",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.79787,
+      "end": 20.90426,
+      "text": [
+        "Spotlight finds your silhouette",
+        "Dancing shadows in your eyes",
+        "Time slows down when our glances meet",
+        "Such beauty under neon skies"
+      ],
+      "paragraph": "Spotlight finds your silhouette\nDancing shadows in your eyes\nTime slows down when our glances meet\nSuch beauty under neon skies",
+      "words": [
+        {
+          "word": "\nSpot",
+          "start": 0.79787,
+          "end": 1.2766,
+          "probability": 1
+        },
+        {
+          "word": "light",
+          "start": 1.2766,
+          "end": 1.67553,
+          "probability": 1
+        },
+        {
+          "word": " finds",
+          "start": 1.75532,
+          "end": 1.99468,
+          "probability": 1
+        },
+        {
+          "word": " your s",
+          "start": 2.4734,
+          "end": 2.87234,
+          "probability": 1
+        },
+        {
+          "word": "ilh",
+          "start": 4.3883,
+          "end": 4.46809,
+          "probability": 1
+        },
+        {
+          "word": "ou",
+          "start": 4.54787,
+          "end": 4.70745,
+          "probability": 1
+        },
+        {
+          "word": "ette",
+          "start": 4.78723,
+          "end": 5.10638,
+          "probability": 1
+        },
+        {
+          "word": "\nDancing",
+          "start": 6.06383,
+          "end": 6.70213,
+          "probability": 1
+        },
+        {
+          "word": " shadows",
+          "start": 7.18085,
+          "end": 7.81915,
+          "probability": 1
+        },
+        {
+          "word": " in",
+          "start": 9.17553,
+          "end": 9.41489,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 9.73404,
+          "end": 10.13298,
+          "probability": 1
+        },
+        {
+          "word": " eyes",
+          "start": 10.13298,
+          "end": 10.53191,
+          "probability": 1
+        },
+        {
+          "word": "\nTime",
+          "start": 11.40957,
+          "end": 11.80851,
+          "probability": 1
+        },
+        {
+          "word": " slows",
+          "start": 11.96809,
+          "end": 12.12766,
+          "probability": 1
+        },
+        {
+          "word": " down",
+          "start": 12.5266,
+          "end": 12.92553,
+          "probability": 1
+        },
+        {
+          "word": " when",
+          "start": 13.16489,
+          "end": 13.56383,
+          "probability": 1
+        },
+        {
+          "word": " our",
+          "start": 13.7234,
+          "end": 14.04255,
+          "probability": 1
+        },
+        {
+          "word": " gl",
+          "start": 14.12234,
+          "end": 14.28191,
+          "probability": 1
+        },
+        {
+          "word": "an",
+          "start": 14.28191,
+          "end": 14.44149,
+          "probability": 1
+        },
+        {
+          "word": "ces",
+          "start": 14.60106,
+          "end": 14.84043,
+          "probability": 1
+        },
+        {
+          "word": " meet",
+          "start": 15.15957,
+          "end": 15.55851,
+          "probability": 1
+        },
+        {
+          "word": "\nSuch",
+          "start": 16.35638,
+          "end": 16.75532,
+          "probability": 1
+        },
+        {
+          "word": " bea",
+          "start": 16.75532,
+          "end": 16.99468,
+          "probability": 1
+        },
+        {
+          "word": "uty",
+          "start": 17.23404,
+          "end": 17.39362,
+          "probability": 1
+        },
+        {
+          "word": " under",
+          "start": 17.87234,
+          "end": 18.35106,
+          "probability": 1
+        },
+        {
+          "word": " ne",
+          "start": 19.14894,
+          "end": 19.3883,
+          "probability": 1
+        },
+        {
+          "word": "on",
+          "start": 19.86702,
+          "end": 20.0266,
+          "probability": 1
+        },
+        {
+          "word": " skies",
+          "start": 20.42553,
+          "end": 20.90426,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 0.79787,
+            "end": 1.2766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Spot",
+            "start": 0.79787,
+            "end": 1.2766,
+            "probability": 1
+          },
+          {
+            "word": "light",
+            "start": 1.2766,
+            "end": 1.67553,
+            "probability": 1
+          },
+          {
+            "word": " finds",
+            "start": 1.75532,
+            "end": 1.99468,
+            "probability": 1
+          },
+          {
+            "word": " your s",
+            "start": 2.4734,
+            "end": 2.87234,
+            "probability": 1
+          },
+          {
+            "word": "ilh",
+            "start": 4.3883,
+            "end": 4.46809,
+            "probability": 1
+          },
+          {
+            "word": "ou",
+            "start": 4.54787,
+            "end": 4.70745,
+            "probability": 1
+          },
+          {
+            "word": "ette",
+            "start": 4.78723,
+            "end": 5.10638,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 6.06383,
+            "end": 6.70213,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Dancing",
+            "start": 6.06383,
+            "end": 6.70213,
+            "probability": 1
+          },
+          {
+            "word": " shadows",
+            "start": 7.18085,
+            "end": 7.81915,
+            "probability": 1
+          },
+          {
+            "word": " in",
+            "start": 9.17553,
+            "end": 9.41489,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 9.73404,
+            "end": 10.13298,
+            "probability": 1
+          },
+          {
+            "word": " eyes",
+            "start": 10.13298,
+            "end": 10.53191,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 11.40957,
+            "end": 11.80851,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Time",
+            "start": 11.40957,
+            "end": 11.80851,
+            "probability": 1
+          },
+          {
+            "word": " slows",
+            "start": 11.96809,
+            "end": 12.12766,
+            "probability": 1
+          },
+          {
+            "word": " down",
+            "start": 12.5266,
+            "end": 12.92553,
+            "probability": 1
+          },
+          {
+            "word": " when",
+            "start": 13.16489,
+            "end": 13.56383,
+            "probability": 1
+          },
+          {
+            "word": " our",
+            "start": 13.7234,
+            "end": 14.04255,
+            "probability": 1
+          },
+          {
+            "word": " gl",
+            "start": 14.12234,
+            "end": 14.28191,
+            "probability": 1
+          },
+          {
+            "word": "an",
+            "start": 14.28191,
+            "end": 14.44149,
+            "probability": 1
+          },
+          {
+            "word": "ces",
+            "start": 14.60106,
+            "end": 14.84043,
+            "probability": 1
+          },
+          {
+            "word": " meet",
+            "start": 15.15957,
+            "end": 15.55851,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 16.35638,
+            "end": 16.75532,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Such",
+            "start": 16.35638,
+            "end": 16.75532,
+            "probability": 1
+          },
+          {
+            "word": " bea",
+            "start": 16.75532,
+            "end": 16.99468,
+            "probability": 1
+          },
+          {
+            "word": "uty",
+            "start": 17.23404,
+            "end": 17.39362,
+            "probability": 1
+          },
+          {
+            "word": " under",
+            "start": 17.87234,
+            "end": 18.35106,
+            "probability": 1
+          },
+          {
+            "word": " ne",
+            "start": 19.14894,
+            "end": 19.3883,
+            "probability": 1
+          },
+          {
+            "word": "on",
+            "start": 19.86702,
+            "end": 20.0266,
+            "probability": 1
+          },
+          {
+            "word": " skies",
+            "start": 20.42553,
+            "end": 20.90426,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 22.10106,
+      "end": 38.85638,
+      "text": [
+        "Who knew that I could feel this way?",
+        "My heart awake for the first time",
+        "Everything before was shades of gray",
+        "Now colors bloom in my mind"
+      ],
+      "paragraph": "Who knew that I could feel this way?\nMy heart awake for the first time\nEverything before was shades of gray\nNow colors bloom in my mind",
+      "words": [
+        {
+          "word": "\nWho",
+          "start": 22.10106,
+          "end": 22.57979,
+          "probability": 1
+        },
+        {
+          "word": " knew",
+          "start": 22.57979,
+          "end": 22.97872,
+          "probability": 1
+        },
+        {
+          "word": " that I",
+          "start": 23.05851,
+          "end": 23.45745,
+          "probability": 1
+        },
+        {
+          "word": " could",
+          "start": 23.93617,
+          "end": 24.41489,
+          "probability": 1
+        },
+        {
+          "word": " feel",
+          "start": 24.41489,
+          "end": 24.81383,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 24.89362,
+          "end": 25.29255,
+          "probability": 1
+        },
+        {
+          "word": " way",
+          "start": 25.37234,
+          "end": 25.69149,
+          "probability": 1
+        },
+        {
+          "word": "?\nMy",
+          "start": 26.01064,
+          "end": 26.25,
+          "probability": 1
+        },
+        {
+          "word": " heart",
+          "start": 26.25,
+          "end": 26.72872,
+          "probability": 1
+        },
+        {
+          "word": " awake",
+          "start": 26.72872,
+          "end": 27.12766,
+          "probability": 1
+        },
+        {
+          "word": " for",
+          "start": 27.12766,
+          "end": 27.36702,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 27.36702,
+          "end": 27.60638,
+          "probability": 1
+        },
+        {
+          "word": " first",
+          "start": 27.60638,
+          "end": 28.00532,
+          "probability": 1
+        },
+        {
+          "word": " time",
+          "start": 28.00532,
+          "end": 28.40426,
+          "probability": 1
+        },
+        {
+          "word": "\nEverything",
+          "start": 28.56383,
+          "end": 29.3617,
+          "probability": 1
+        },
+        {
+          "word": " before",
+          "start": 29.3617,
+          "end": 29.84043,
+          "probability": 1
+        },
+        {
+          "word": " was",
+          "start": 29.84043,
+          "end": 30.15957,
+          "probability": 1
+        },
+        {
+          "word": " shad",
+          "start": 30.23936,
+          "end": 30.47872,
+          "probability": 1
+        },
+        {
+          "word": "es",
+          "start": 30.47872,
+          "end": 30.6383,
+          "probability": 1
+        },
+        {
+          "word": " of",
+          "start": 31.03723,
+          "end": 31.2766,
+          "probability": 1
+        },
+        {
+          "word": " gray",
+          "start": 31.59574,
+          "end": 31.67553,
+          "probability": 1
+        },
+        {
+          "word": "\nNow",
+          "start": 33.03191,
+          "end": 33.35106,
+          "probability": 1
+        },
+        {
+          "word": " col",
+          "start": 33.43085,
+          "end": 33.75,
+          "probability": 1
+        },
+        {
+          "word": "ors",
+          "start": 33.90957,
+          "end": 34.14894,
+          "probability": 1
+        },
+        {
+          "word": " blo",
+          "start": 34.3883,
+          "end": 34.46809,
+          "probability": 1
+        },
+        {
+          "word": "om",
+          "start": 34.46809,
+          "end": 34.62766,
+          "probability": 1
+        },
+        {
+          "word": " in",
+          "start": 35.74468,
+          "end": 35.98404,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 37.10106,
+          "end": 37.34043,
+          "probability": 1
+        },
+        {
+          "word": " mind",
+          "start": 38.45745,
+          "end": 38.85638,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 22.10106,
+            "end": 22.57979,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Who",
+            "start": 22.10106,
+            "end": 22.57979,
+            "probability": 1
+          },
+          {
+            "word": " knew",
+            "start": 22.57979,
+            "end": 22.97872,
+            "probability": 1
+          },
+          {
+            "word": " that I",
+            "start": 23.05851,
+            "end": 23.45745,
+            "probability": 1
+          },
+          {
+            "word": " could",
+            "start": 23.93617,
+            "end": 24.41489,
+            "probability": 1
+          },
+          {
+            "word": " feel",
+            "start": 24.41489,
+            "end": 24.81383,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 24.89362,
+            "end": 25.29255,
+            "probability": 1
+          },
+          {
+            "word": " way",
+            "start": 25.37234,
+            "end": 25.69149,
+            "probability": 1
+          },
+          {
+            "word": "?",
+            "start": 26.01064,
+            "end": 26.25,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "My",
+            "start": 26.01064,
+            "end": 26.25,
+            "probability": 1
+          },
+          {
+            "word": " heart",
+            "start": 26.25,
+            "end": 26.72872,
+            "probability": 1
+          },
+          {
+            "word": " awake",
+            "start": 26.72872,
+            "end": 27.12766,
+            "probability": 1
+          },
+          {
+            "word": " for",
+            "start": 27.12766,
+            "end": 27.36702,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 27.36702,
+            "end": 27.60638,
+            "probability": 1
+          },
+          {
+            "word": " first",
+            "start": 27.60638,
+            "end": 28.00532,
+            "probability": 1
+          },
+          {
+            "word": " time",
+            "start": 28.00532,
+            "end": 28.40426,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 28.56383,
+            "end": 29.3617,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Everything",
+            "start": 28.56383,
+            "end": 29.3617,
+            "probability": 1
+          },
+          {
+            "word": " before",
+            "start": 29.3617,
+            "end": 29.84043,
+            "probability": 1
+          },
+          {
+            "word": " was",
+            "start": 29.84043,
+            "end": 30.15957,
+            "probability": 1
+          },
+          {
+            "word": " shad",
+            "start": 30.23936,
+            "end": 30.47872,
+            "probability": 1
+          },
+          {
+            "word": "es",
+            "start": 30.47872,
+            "end": 30.6383,
+            "probability": 1
+          },
+          {
+            "word": " of",
+            "start": 31.03723,
+            "end": 31.2766,
+            "probability": 1
+          },
+          {
+            "word": " gray",
+            "start": 31.59574,
+            "end": 31.67553,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 33.03191,
+            "end": 33.35106,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Now",
+            "start": 33.03191,
+            "end": 33.35106,
+            "probability": 1
+          },
+          {
+            "word": " col",
+            "start": 33.43085,
+            "end": 33.75,
+            "probability": 1
+          },
+          {
+            "word": "ors",
+            "start": 33.90957,
+            "end": 34.14894,
+            "probability": 1
+          },
+          {
+            "word": " blo",
+            "start": 34.3883,
+            "end": 34.46809,
+            "probability": 1
+          },
+          {
+            "word": "om",
+            "start": 34.46809,
+            "end": 34.62766,
+            "probability": 1
+          },
+          {
+            "word": " in",
+            "start": 35.74468,
+            "end": 35.98404,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 37.10106,
+            "end": 37.34043,
+            "probability": 1
+          },
+          {
+            "word": " mind",
+            "start": 38.45745,
+            "end": 38.85638,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 41.17021,
+      "end": 72.28723,
+      "text": [
+        "You're my first light in a darkened room",
+        "A gentle touch I never knew I needed",
+        "Your smile outshines the crescent moon",
+        "As we dance, my walls defeated",
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
+      "paragraph": "You're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home",
+      "words": [
+        {
+          "word": "\nYou",
+          "start": 41.17021,
+          "end": 41.25,
+          "probability": 1
+        },
+        {
+          "word": "'re",
+          "start": 41.25,
+          "end": 41.32979,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 41.64894,
+          "end": 41.8883,
+          "probability": 1
+        },
+        {
+          "word": " first",
+          "start": 42.04787,
+          "end": 42.5266,
+          "probability": 1
+        },
+        {
+          "word": " light",
+          "start": 42.5266,
+          "end": 43.00532,
+          "probability": 1
+        },
+        {
+          "word": " in a",
+          "start": 43.40426,
+          "end": 43.64362,
+          "probability": 1
+        },
+        {
+          "word": " dar",
+          "start": 43.88298,
+          "end": 44.20213,
+          "probability": 1
+        },
+        {
+          "word": "ken",
+          "start": 44.52128,
+          "end": 44.60106,
+          "probability": 1
+        },
+        {
+          "word": "ed",
+          "start": 44.60106,
+          "end": 44.76064,
+          "probability": 1
+        },
+        {
+          "word": " room",
+          "start": 45,
+          "end": 45.39894,
+          "probability": 1
+        },
+        {
+          "word": "\nA g",
+          "start": 46.2766,
+          "end": 46.35638,
+          "probability": 1
+        },
+        {
+          "word": "en",
+          "start": 46.51596,
+          "end": 46.67553,
+          "probability": 1
+        },
+        {
+          "word": "tle",
+          "start": 47.23404,
+          "end": 47.4734,
+          "probability": 1
+        },
+        {
+          "word": " touch I",
+          "start": 47.55319,
+          "end": 48.03191,
+          "probability": 1
+        },
+        {
+          "word": " never",
+          "start": 48.82979,
+          "end": 49.22872,
+          "probability": 1
+        },
+        {
+          "word": " knew I",
+          "start": 49.22872,
+          "end": 49.62766,
+          "probability": 1
+        },
+        {
+          "word": " needed",
+          "start": 50.18617,
+          "end": 50.74468,
+          "probability": 1
+        },
+        {
+          "word": "\nYour",
+          "start": 51.8617,
+          "end": 52.26064,
+          "probability": 1
+        },
+        {
+          "word": " smile",
+          "start": 52.34043,
+          "end": 52.81915,
+          "probability": 1
+        },
+        {
+          "word": " out",
+          "start": 52.81915,
+          "end": 53.1383,
+          "probability": 1
+        },
+        {
+          "word": "sh",
+          "start": 53.21809,
+          "end": 53.37766,
+          "probability": 1
+        },
+        {
+          "word": "ines",
+          "start": 53.37766,
+          "end": 53.69681,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 54.33511,
+          "end": 54.57447,
+          "probability": 1
+        },
+        {
+          "word": " cres",
+          "start": 54.57447,
+          "end": 54.9734,
+          "probability": 1
+        },
+        {
+          "word": "cent",
+          "start": 55.21277,
+          "end": 55.53191,
+          "probability": 1
+        },
+        {
+          "word": " moon",
+          "start": 55.69149,
+          "end": 56.09043,
+          "probability": 1
+        },
+        {
+          "word": "\nAs",
+          "start": 57.28723,
+          "end": 57.5266,
+          "probability": 1
+        },
+        {
+          "word": " we",
+          "start": 57.76596,
+          "end": 58.00532,
+          "probability": 1
+        },
+        {
+          "word": " dance",
+          "start": 58.16489,
+          "end": 58.64362,
+          "probability": 1
+        },
+        {
+          "word": ", my",
+          "start": 59.44149,
+          "end": 59.76064,
+          "probability": 1
+        },
+        {
+          "word": " walls",
+          "start": 59.84043,
+          "end": 60.31915,
+          "probability": 1
+        },
+        {
+          "word": " defe",
+          "start": 60.6383,
+          "end": 61.03723,
+          "probability": 1
+        },
+        {
+          "word": "ated",
+          "start": 61.67553,
+          "end": 61.99468,
+          "probability": 1
+        },
+        {
+          "word": "\nIn",
+          "start": 63.03191,
+          "end": 63.27128,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 63.43085,
+          "end": 63.82979,
+          "probability": 1
+        },
+        {
+          "word": " eyes",
+          "start": 63.82979,
+          "end": 64.22872,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 64.78723,
+          "end": 65.0266,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 65.18617,
+          "end": 65.58511,
+          "probability": 1
+        },
+        {
+          "word": " myself",
+          "start": 66.46277,
+          "end": 67.02128,
+          "probability": 1
+        },
+        {
+          "word": "\nIn",
+          "start": 68.29787,
+          "end": 68.53723,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 68.7766,
+          "end": 69.17553,
+          "probability": 1
+        },
+        {
+          "word": " arms",
+          "start": 69.17553,
+          "end": 69.57447,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 69.9734,
+          "end": 70.21277,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 70.45213,
+          "end": 70.85106,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 71.25,
+          "end": 71.48936,
+          "probability": 1
+        },
+        {
+          "word": " home",
+          "start": 71.8883,
+          "end": 72.28723,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 41.17021,
+            "end": 41.25,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "You",
+            "start": 41.17021,
+            "end": 41.25,
+            "probability": 1
+          },
+          {
+            "word": "'re",
+            "start": 41.25,
+            "end": 41.32979,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 41.64894,
+            "end": 41.8883,
+            "probability": 1
+          },
+          {
+            "word": " first",
+            "start": 42.04787,
+            "end": 42.5266,
+            "probability": 1
+          },
+          {
+            "word": " light",
+            "start": 42.5266,
+            "end": 43.00532,
+            "probability": 1
+          },
+          {
+            "word": " in a",
+            "start": 43.40426,
+            "end": 43.64362,
+            "probability": 1
+          },
+          {
+            "word": " dar",
+            "start": 43.88298,
+            "end": 44.20213,
+            "probability": 1
+          },
+          {
+            "word": "ken",
+            "start": 44.52128,
+            "end": 44.60106,
+            "probability": 1
+          },
+          {
+            "word": "ed",
+            "start": 44.60106,
+            "end": 44.76064,
+            "probability": 1
+          },
+          {
+            "word": " room",
+            "start": 45,
+            "end": 45.39894,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 46.2766,
+            "end": 46.35638,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "A g",
+            "start": 46.2766,
+            "end": 46.35638,
+            "probability": 1
+          },
+          {
+            "word": "en",
+            "start": 46.51596,
+            "end": 46.67553,
+            "probability": 1
+          },
+          {
+            "word": "tle",
+            "start": 47.23404,
+            "end": 47.4734,
+            "probability": 1
+          },
+          {
+            "word": " touch I",
+            "start": 47.55319,
+            "end": 48.03191,
+            "probability": 1
+          },
+          {
+            "word": " never",
+            "start": 48.82979,
+            "end": 49.22872,
+            "probability": 1
+          },
+          {
+            "word": " knew I",
+            "start": 49.22872,
+            "end": 49.62766,
+            "probability": 1
+          },
+          {
+            "word": " needed",
+            "start": 50.18617,
+            "end": 50.74468,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 51.8617,
+            "end": 52.26064,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Your",
+            "start": 51.8617,
+            "end": 52.26064,
+            "probability": 1
+          },
+          {
+            "word": " smile",
+            "start": 52.34043,
+            "end": 52.81915,
+            "probability": 1
+          },
+          {
+            "word": " out",
+            "start": 52.81915,
+            "end": 53.1383,
+            "probability": 1
+          },
+          {
+            "word": "sh",
+            "start": 53.21809,
+            "end": 53.37766,
+            "probability": 1
+          },
+          {
+            "word": "ines",
+            "start": 53.37766,
+            "end": 53.69681,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 54.33511,
+            "end": 54.57447,
+            "probability": 1
+          },
+          {
+            "word": " cres",
+            "start": 54.57447,
+            "end": 54.9734,
+            "probability": 1
+          },
+          {
+            "word": "cent",
+            "start": 55.21277,
+            "end": 55.53191,
+            "probability": 1
+          },
+          {
+            "word": " moon",
+            "start": 55.69149,
+            "end": 56.09043,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 57.28723,
+            "end": 57.5266,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "As",
+            "start": 57.28723,
+            "end": 57.5266,
+            "probability": 1
+          },
+          {
+            "word": " we",
+            "start": 57.76596,
+            "end": 58.00532,
+            "probability": 1
+          },
+          {
+            "word": " dance",
+            "start": 58.16489,
+            "end": 58.64362,
+            "probability": 1
+          },
+          {
+            "word": ", my",
+            "start": 59.44149,
+            "end": 59.76064,
+            "probability": 1
+          },
+          {
+            "word": " walls",
+            "start": 59.84043,
+            "end": 60.31915,
+            "probability": 1
+          },
+          {
+            "word": " defe",
+            "start": 60.6383,
+            "end": 61.03723,
+            "probability": 1
+          },
+          {
+            "word": "ated",
+            "start": 61.67553,
+            "end": 61.99468,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 63.03191,
+            "end": 63.27128,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 63.03191,
+            "end": 63.27128,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 63.43085,
+            "end": 63.82979,
+            "probability": 1
+          },
+          {
+            "word": " eyes",
+            "start": 63.82979,
+            "end": 64.22872,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 64.78723,
+            "end": 65.0266,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 65.18617,
+            "end": 65.58511,
+            "probability": 1
+          },
+          {
+            "word": " myself",
+            "start": 66.46277,
+            "end": 67.02128,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 68.29787,
+            "end": 68.53723,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 68.29787,
+            "end": 68.53723,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 68.7766,
+            "end": 69.17553,
+            "probability": 1
+          },
+          {
+            "word": " arms",
+            "start": 69.17553,
+            "end": 69.57447,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 69.9734,
+            "end": 70.21277,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 70.45213,
+            "end": 70.85106,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 71.25,
+            "end": 71.48936,
+            "probability": 1
+          },
+          {
+            "word": " home",
+            "start": 71.8883,
+            "end": 72.28723,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 73.16489,
+      "end": 92.95213,
+      "text": [
+        "Whispered words across the table",
+        "Your laugh like music to my ears",
+        "I never thought I'd be so capable",
+        "Of feeling something this sincere"
+      ],
+      "paragraph": "Whispered words across the table\nYour laugh like music to my ears\nI never thought I'd be so capable\nOf feeling something this sincere",
+      "words": [
+        {
+          "word": "\nWhis",
+          "start": 73.16489,
+          "end": 73.64362,
+          "probability": 1
+        },
+        {
+          "word": "per",
+          "start": 73.64362,
+          "end": 73.7234,
+          "probability": 1
+        },
+        {
+          "word": "ed",
+          "start": 73.7234,
+          "end": 73.88298,
+          "probability": 1
+        },
+        {
+          "word": " words",
+          "start": 74.04255,
+          "end": 74.52128,
+          "probability": 1
+        },
+        {
+          "word": " across",
+          "start": 76.2766,
+          "end": 76.75532,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 76.75532,
+          "end": 77.07447,
+          "probability": 1
+        },
+        {
+          "word": " table",
+          "start": 77.39362,
+          "end": 77.87234,
+          "probability": 1
+        },
+        {
+          "word": "\nYour",
+          "start": 78.35106,
+          "end": 78.67021,
+          "probability": 1
+        },
+        {
+          "word": " laugh",
+          "start": 78.67021,
+          "end": 79.06915,
+          "probability": 1
+        },
+        {
+          "word": " like",
+          "start": 79.06915,
+          "end": 79.46809,
+          "probability": 1
+        },
+        {
+          "word": " music",
+          "start": 79.46809,
+          "end": 79.94681,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 81.62234,
+          "end": 81.8617,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 82.10106,
+          "end": 82.34043,
+          "probability": 1
+        },
+        {
+          "word": " ears",
+          "start": 82.57979,
+          "end": 82.97872,
+          "probability": 1
+        },
+        {
+          "word": "\nI",
+          "start": 83.69681,
+          "end": 83.85638,
+          "probability": 1
+        },
+        {
+          "word": " never",
+          "start": 84.01596,
+          "end": 84.49468,
+          "probability": 1
+        },
+        {
+          "word": " thought ",
+          "start": 84.81383,
+          "end": 85.37234,
+          "probability": 1
+        },
+        {
+          "word": "I'd",
+          "start": 85.93085,
+          "end": 86.01064,
+          "probability": 1
+        },
+        {
+          "word": " be",
+          "start": 86.17021,
+          "end": 86.40957,
+          "probability": 1
+        },
+        {
+          "word": " so",
+          "start": 86.96809,
+          "end": 87.20745,
+          "probability": 1
+        },
+        {
+          "word": " ca",
+          "start": 87.36702,
+          "end": 87.60638,
+          "probability": 1
+        },
+        {
+          "word": "pa",
+          "start": 87.68617,
+          "end": 87.84574,
+          "probability": 1
+        },
+        {
+          "word": "ble",
+          "start": 87.92553,
+          "end": 88.16489,
+          "probability": 1
+        },
+        {
+          "word": "\nOf",
+          "start": 88.7234,
+          "end": 88.96277,
+          "probability": 1
+        },
+        {
+          "word": " feeling",
+          "start": 89.20213,
+          "end": 89.84043,
+          "probability": 1
+        },
+        {
+          "word": " something",
+          "start": 90.15957,
+          "end": 90.95745,
+          "probability": 1
+        },
+        {
+          "word": " this",
+          "start": 91.51596,
+          "end": 91.91489,
+          "probability": 1
+        },
+        {
+          "word": " sinc",
+          "start": 92.31383,
+          "end": 92.63298,
+          "probability": 1
+        },
+        {
+          "word": "ere",
+          "start": 92.71277,
+          "end": 92.95213,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 73.16489,
+            "end": 73.64362,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Whis",
+            "start": 73.16489,
+            "end": 73.64362,
+            "probability": 1
+          },
+          {
+            "word": "per",
+            "start": 73.64362,
+            "end": 73.7234,
+            "probability": 1
+          },
+          {
+            "word": "ed",
+            "start": 73.7234,
+            "end": 73.88298,
+            "probability": 1
+          },
+          {
+            "word": " words",
+            "start": 74.04255,
+            "end": 74.52128,
+            "probability": 1
+          },
+          {
+            "word": " across",
+            "start": 76.2766,
+            "end": 76.75532,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 76.75532,
+            "end": 77.07447,
+            "probability": 1
+          },
+          {
+            "word": " table",
+            "start": 77.39362,
+            "end": 77.87234,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 78.35106,
+            "end": 78.67021,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Your",
+            "start": 78.35106,
+            "end": 78.67021,
+            "probability": 1
+          },
+          {
+            "word": " laugh",
+            "start": 78.67021,
+            "end": 79.06915,
+            "probability": 1
+          },
+          {
+            "word": " like",
+            "start": 79.06915,
+            "end": 79.46809,
+            "probability": 1
+          },
+          {
+            "word": " music",
+            "start": 79.46809,
+            "end": 79.94681,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 81.62234,
+            "end": 81.8617,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 82.10106,
+            "end": 82.34043,
+            "probability": 1
+          },
+          {
+            "word": " ears",
+            "start": 82.57979,
+            "end": 82.97872,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 83.69681,
+            "end": 83.85638,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "I",
+            "start": 83.69681,
+            "end": 83.85638,
+            "probability": 1
+          },
+          {
+            "word": " never",
+            "start": 84.01596,
+            "end": 84.49468,
+            "probability": 1
+          },
+          {
+            "word": " thought ",
+            "start": 84.81383,
+            "end": 85.37234,
+            "probability": 1
+          },
+          {
+            "word": "I'd",
+            "start": 85.93085,
+            "end": 86.01064,
+            "probability": 1
+          },
+          {
+            "word": " be",
+            "start": 86.17021,
+            "end": 86.40957,
+            "probability": 1
+          },
+          {
+            "word": " so",
+            "start": 86.96809,
+            "end": 87.20745,
+            "probability": 1
+          },
+          {
+            "word": " ca",
+            "start": 87.36702,
+            "end": 87.60638,
+            "probability": 1
+          },
+          {
+            "word": "pa",
+            "start": 87.68617,
+            "end": 87.84574,
+            "probability": 1
+          },
+          {
+            "word": "ble",
+            "start": 87.92553,
+            "end": 88.16489,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 88.7234,
+            "end": 88.96277,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Of",
+            "start": 88.7234,
+            "end": 88.96277,
+            "probability": 1
+          },
+          {
+            "word": " feeling",
+            "start": 89.20213,
+            "end": 89.84043,
+            "probability": 1
+          },
+          {
+            "word": " something",
+            "start": 90.15957,
+            "end": 90.95745,
+            "probability": 1
+          },
+          {
+            "word": " this",
+            "start": 91.51596,
+            "end": 91.91489,
+            "probability": 1
+          },
+          {
+            "word": " sinc",
+            "start": 92.31383,
+            "end": 92.63298,
+            "probability": 1
+          },
+          {
+            "word": "ere",
+            "start": 92.71277,
+            "end": 92.95213,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 94.54787,
+      "end": 112.34043,
+      "text": [
+        "Strange how life can change so fast",
+        "When someone truly sees your soul",
+        "Everything I thought I was fades past",
+        "As you make me feeling whole"
+      ],
+      "paragraph": "Strange how life can change so fast\nWhen someone truly sees your soul\nEverything I thought I was fades past\nAs you make me feeling whole",
+      "words": [
+        {
+          "word": "\nStrange",
+          "start": 94.54787,
+          "end": 95.0266,
+          "probability": 1
+        },
+        {
+          "word": " how",
+          "start": 95.0266,
+          "end": 95.34574,
+          "probability": 1
+        },
+        {
+          "word": " life",
+          "start": 95.42553,
+          "end": 95.82447,
+          "probability": 1
+        },
+        {
+          "word": " can",
+          "start": 96.30319,
+          "end": 96.62234,
+          "probability": 1
+        },
+        {
+          "word": " change",
+          "start": 96.78191,
+          "end": 97.18085,
+          "probability": 1
+        },
+        {
+          "word": " so",
+          "start": 97.18085,
+          "end": 97.42021,
+          "probability": 1
+        },
+        {
+          "word": " fast",
+          "start": 97.65957,
+          "end": 98.05851,
+          "probability": 1
+        },
+        {
+          "word": "\nWhen",
+          "start": 98.29787,
+          "end": 98.53723,
+          "probability": 1
+        },
+        {
+          "word": " someone",
+          "start": 98.53723,
+          "end": 99.01596,
+          "probability": 1
+        },
+        {
+          "word": " truly",
+          "start": 99.01596,
+          "end": 99.49468,
+          "probability": 1
+        },
+        {
+          "word": " se",
+          "start": 99.81383,
+          "end": 99.9734,
+          "probability": 1
+        },
+        {
+          "word": "es",
+          "start": 99.9734,
+          "end": 100.13298,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 100.29255,
+          "end": 100.69149,
+          "probability": 1
+        },
+        {
+          "word": " soul",
+          "start": 100.69149,
+          "end": 101.09043,
+          "probability": 1
+        },
+        {
+          "word": "\nEverything I",
+          "start": 101.25,
+          "end": 102.12766,
+          "probability": 1
+        },
+        {
+          "word": " thought I",
+          "start": 102.5266,
+          "end": 103.00532,
+          "probability": 1
+        },
+        {
+          "word": " was",
+          "start": 103.40426,
+          "end": 103.7234,
+          "probability": 1
+        },
+        {
+          "word": " fa",
+          "start": 103.80319,
+          "end": 104.04255,
+          "probability": 1
+        },
+        {
+          "word": "des",
+          "start": 104.04255,
+          "end": 104.12234,
+          "probability": 1
+        },
+        {
+          "word": " p",
+          "start": 104.12234,
+          "end": 104.20213,
+          "probability": 1
+        },
+        {
+          "word": "a",
+          "start": 104.3617,
+          "end": 104.52128,
+          "probability": 1
+        },
+        {
+          "word": "s",
+          "start": 105.6383,
+          "end": 105.71809,
+          "probability": 1
+        },
+        {
+          "word": "t",
+          "start": 105.71809,
+          "end": 105.79787,
+          "probability": 1
+        },
+        {
+          "word": "\nAs",
+          "start": 105.95745,
+          "end": 106.03723,
+          "probability": 1
+        },
+        {
+          "word": " you",
+          "start": 106.11702,
+          "end": 106.43617,
+          "probability": 1
+        },
+        {
+          "word": " make",
+          "start": 107.23404,
+          "end": 107.55319,
+          "probability": 1
+        },
+        {
+          "word": " me",
+          "start": 107.55319,
+          "end": 107.79255,
+          "probability": 1
+        },
+        {
+          "word": " feeling",
+          "start": 109.22872,
+          "end": 109.86702,
+          "probability": 1
+        },
+        {
+          "word": " whole",
+          "start": 111.8617,
+          "end": 112.34043,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 94.54787,
+            "end": 95.0266,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Strange",
+            "start": 94.54787,
+            "end": 95.0266,
+            "probability": 1
+          },
+          {
+            "word": " how",
+            "start": 95.0266,
+            "end": 95.34574,
+            "probability": 1
+          },
+          {
+            "word": " life",
+            "start": 95.42553,
+            "end": 95.82447,
+            "probability": 1
+          },
+          {
+            "word": " can",
+            "start": 96.30319,
+            "end": 96.62234,
+            "probability": 1
+          },
+          {
+            "word": " change",
+            "start": 96.78191,
+            "end": 97.18085,
+            "probability": 1
+          },
+          {
+            "word": " so",
+            "start": 97.18085,
+            "end": 97.42021,
+            "probability": 1
+          },
+          {
+            "word": " fast",
+            "start": 97.65957,
+            "end": 98.05851,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 98.29787,
+            "end": 98.53723,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "When",
+            "start": 98.29787,
+            "end": 98.53723,
+            "probability": 1
+          },
+          {
+            "word": " someone",
+            "start": 98.53723,
+            "end": 99.01596,
+            "probability": 1
+          },
+          {
+            "word": " truly",
+            "start": 99.01596,
+            "end": 99.49468,
+            "probability": 1
+          },
+          {
+            "word": " se",
+            "start": 99.81383,
+            "end": 99.9734,
+            "probability": 1
+          },
+          {
+            "word": "es",
+            "start": 99.9734,
+            "end": 100.13298,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 100.29255,
+            "end": 100.69149,
+            "probability": 1
+          },
+          {
+            "word": " soul",
+            "start": 100.69149,
+            "end": 101.09043,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 101.25,
+            "end": 102.12766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Everything I",
+            "start": 101.25,
+            "end": 102.12766,
+            "probability": 1
+          },
+          {
+            "word": " thought I",
+            "start": 102.5266,
+            "end": 103.00532,
+            "probability": 1
+          },
+          {
+            "word": " was",
+            "start": 103.40426,
+            "end": 103.7234,
+            "probability": 1
+          },
+          {
+            "word": " fa",
+            "start": 103.80319,
+            "end": 104.04255,
+            "probability": 1
+          },
+          {
+            "word": "des",
+            "start": 104.04255,
+            "end": 104.12234,
+            "probability": 1
+          },
+          {
+            "word": " p",
+            "start": 104.12234,
+            "end": 104.20213,
+            "probability": 1
+          },
+          {
+            "word": "a",
+            "start": 104.3617,
+            "end": 104.52128,
+            "probability": 1
+          },
+          {
+            "word": "s",
+            "start": 105.6383,
+            "end": 105.71809,
+            "probability": 1
+          },
+          {
+            "word": "t",
+            "start": 105.71809,
+            "end": 105.79787,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 105.95745,
+            "end": 106.03723,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "As",
+            "start": 105.95745,
+            "end": 106.03723,
+            "probability": 1
+          },
+          {
+            "word": " you",
+            "start": 106.11702,
+            "end": 106.43617,
+            "probability": 1
+          },
+          {
+            "word": " make",
+            "start": 107.23404,
+            "end": 107.55319,
+            "probability": 1
+          },
+          {
+            "word": " me",
+            "start": 107.55319,
+            "end": 107.79255,
+            "probability": 1
+          },
+          {
+            "word": " feeling",
+            "start": 109.22872,
+            "end": 109.86702,
+            "probability": 1
+          },
+          {
+            "word": " whole",
+            "start": 111.8617,
+            "end": 112.34043,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 113.21809,
+      "end": 144.33511,
+      "text": [
+        "You're my first light in a darkened room",
+        "A gentle touch I never knew I needed",
+        "Your smile outshines the crescent moon",
+        "As we dance, my walls defeated",
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
+      "paragraph": "You're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home",
+      "words": [
+        {
+          "word": "\nYou",
+          "start": 113.21809,
+          "end": 113.37766,
+          "probability": 1
+        },
+        {
+          "word": "'re",
+          "start": 113.37766,
+          "end": 113.45745,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 113.69681,
+          "end": 113.93617,
+          "probability": 1
+        },
+        {
+          "word": " first",
+          "start": 114.09574,
+          "end": 114.57447,
+          "probability": 1
+        },
+        {
+          "word": " light",
+          "start": 114.57447,
+          "end": 115.05319,
+          "probability": 1
+        },
+        {
+          "word": " in a",
+          "start": 115.45213,
+          "end": 115.69149,
+          "probability": 1
+        },
+        {
+          "word": " dar",
+          "start": 115.93085,
+          "end": 116.25,
+          "probability": 1
+        },
+        {
+          "word": "ken",
+          "start": 116.56915,
+          "end": 116.64894,
+          "probability": 1
+        },
+        {
+          "word": "ed",
+          "start": 116.64894,
+          "end": 116.80851,
+          "probability": 1
+        },
+        {
+          "word": " room",
+          "start": 117.12766,
+          "end": 117.5266,
+          "probability": 1
+        },
+        {
+          "word": "\nA",
+          "start": 118.32447,
+          "end": 118.48404,
+          "probability": 1
+        },
+        {
+          "word": " gentle",
+          "start": 118.56383,
+          "end": 119.12234,
+          "probability": 1
+        },
+        {
+          "word": " touch I",
+          "start": 119.3617,
+          "end": 119.84043,
+          "probability": 1
+        },
+        {
+          "word": " never",
+          "start": 120.79787,
+          "end": 121.2766,
+          "probability": 1
+        },
+        {
+          "word": " knew I",
+          "start": 121.2766,
+          "end": 121.67553,
+          "probability": 1
+        },
+        {
+          "word": " needed",
+          "start": 122.15426,
+          "end": 122.71277,
+          "probability": 1
+        },
+        {
+          "word": "\nYour",
+          "start": 123.82979,
+          "end": 124.22872,
+          "probability": 1
+        },
+        {
+          "word": " smile",
+          "start": 124.30851,
+          "end": 124.70745,
+          "probability": 1
+        },
+        {
+          "word": " out",
+          "start": 124.70745,
+          "end": 125.0266,
+          "probability": 1
+        },
+        {
+          "word": "sh",
+          "start": 125.18617,
+          "end": 125.26596,
+          "probability": 1
+        },
+        {
+          "word": "in",
+          "start": 125.26596,
+          "end": 125.34574,
+          "probability": 1
+        },
+        {
+          "word": "es",
+          "start": 125.34574,
+          "end": 125.50532,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 126.30319,
+          "end": 126.54255,
+          "probability": 1
+        },
+        {
+          "word": " cres",
+          "start": 126.54255,
+          "end": 126.94149,
+          "probability": 1
+        },
+        {
+          "word": "cent",
+          "start": 127.18085,
+          "end": 127.5,
+          "probability": 1
+        },
+        {
+          "word": " moon",
+          "start": 127.65957,
+          "end": 128.05851,
+          "probability": 1
+        },
+        {
+          "word": "\nAs",
+          "start": 129.25532,
+          "end": 129.49468,
+          "probability": 1
+        },
+        {
+          "word": " we",
+          "start": 129.65426,
+          "end": 129.89362,
+          "probability": 1
+        },
+        {
+          "word": " dance",
+          "start": 130.05319,
+          "end": 130.53191,
+          "probability": 1
+        },
+        {
+          "word": ", my",
+          "start": 131.40957,
+          "end": 131.72872,
+          "probability": 1
+        },
+        {
+          "word": " walls",
+          "start": 131.80851,
+          "end": 132.28723,
+          "probability": 1
+        },
+        {
+          "word": " defe",
+          "start": 132.5266,
+          "end": 132.92553,
+          "probability": 1
+        },
+        {
+          "word": "ated",
+          "start": 133.64362,
+          "end": 133.96277,
+          "probability": 1
+        },
+        {
+          "word": "\nIn",
+          "start": 135,
+          "end": 135.23936,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 135.39894,
+          "end": 135.79787,
+          "probability": 1
+        },
+        {
+          "word": " eyes",
+          "start": 135.79787,
+          "end": 136.19681,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 136.75532,
+          "end": 136.99468,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 137.31383,
+          "end": 137.71277,
+          "probability": 1
+        },
+        {
+          "word": " myself",
+          "start": 138.51064,
+          "end": 139.06915,
+          "probability": 1
+        },
+        {
+          "word": "\nIn",
+          "start": 140.42553,
+          "end": 140.66489,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 140.82447,
+          "end": 141.2234,
+          "probability": 1
+        },
+        {
+          "word": " arms",
+          "start": 141.2234,
+          "end": 141.62234,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 141.94149,
+          "end": 142.18085,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 142.5,
+          "end": 142.89894,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 143.29787,
+          "end": 143.53723,
+          "probability": 1
+        },
+        {
+          "word": " home",
+          "start": 143.93617,
+          "end": 144.33511,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 113.21809,
+            "end": 113.37766,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "You",
+            "start": 113.21809,
+            "end": 113.37766,
+            "probability": 1
+          },
+          {
+            "word": "'re",
+            "start": 113.37766,
+            "end": 113.45745,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 113.69681,
+            "end": 113.93617,
+            "probability": 1
+          },
+          {
+            "word": " first",
+            "start": 114.09574,
+            "end": 114.57447,
+            "probability": 1
+          },
+          {
+            "word": " light",
+            "start": 114.57447,
+            "end": 115.05319,
+            "probability": 1
+          },
+          {
+            "word": " in a",
+            "start": 115.45213,
+            "end": 115.69149,
+            "probability": 1
+          },
+          {
+            "word": " dar",
+            "start": 115.93085,
+            "end": 116.25,
+            "probability": 1
+          },
+          {
+            "word": "ken",
+            "start": 116.56915,
+            "end": 116.64894,
+            "probability": 1
+          },
+          {
+            "word": "ed",
+            "start": 116.64894,
+            "end": 116.80851,
+            "probability": 1
+          },
+          {
+            "word": " room",
+            "start": 117.12766,
+            "end": 117.5266,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 118.32447,
+            "end": 118.48404,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "A",
+            "start": 118.32447,
+            "end": 118.48404,
+            "probability": 1
+          },
+          {
+            "word": " gentle",
+            "start": 118.56383,
+            "end": 119.12234,
+            "probability": 1
+          },
+          {
+            "word": " touch I",
+            "start": 119.3617,
+            "end": 119.84043,
+            "probability": 1
+          },
+          {
+            "word": " never",
+            "start": 120.79787,
+            "end": 121.2766,
+            "probability": 1
+          },
+          {
+            "word": " knew I",
+            "start": 121.2766,
+            "end": 121.67553,
+            "probability": 1
+          },
+          {
+            "word": " needed",
+            "start": 122.15426,
+            "end": 122.71277,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 123.82979,
+            "end": 124.22872,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Your",
+            "start": 123.82979,
+            "end": 124.22872,
+            "probability": 1
+          },
+          {
+            "word": " smile",
+            "start": 124.30851,
+            "end": 124.70745,
+            "probability": 1
+          },
+          {
+            "word": " out",
+            "start": 124.70745,
+            "end": 125.0266,
+            "probability": 1
+          },
+          {
+            "word": "sh",
+            "start": 125.18617,
+            "end": 125.26596,
+            "probability": 1
+          },
+          {
+            "word": "in",
+            "start": 125.26596,
+            "end": 125.34574,
+            "probability": 1
+          },
+          {
+            "word": "es",
+            "start": 125.34574,
+            "end": 125.50532,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 126.30319,
+            "end": 126.54255,
+            "probability": 1
+          },
+          {
+            "word": " cres",
+            "start": 126.54255,
+            "end": 126.94149,
+            "probability": 1
+          },
+          {
+            "word": "cent",
+            "start": 127.18085,
+            "end": 127.5,
+            "probability": 1
+          },
+          {
+            "word": " moon",
+            "start": 127.65957,
+            "end": 128.05851,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 129.25532,
+            "end": 129.49468,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "As",
+            "start": 129.25532,
+            "end": 129.49468,
+            "probability": 1
+          },
+          {
+            "word": " we",
+            "start": 129.65426,
+            "end": 129.89362,
+            "probability": 1
+          },
+          {
+            "word": " dance",
+            "start": 130.05319,
+            "end": 130.53191,
+            "probability": 1
+          },
+          {
+            "word": ", my",
+            "start": 131.40957,
+            "end": 131.72872,
+            "probability": 1
+          },
+          {
+            "word": " walls",
+            "start": 131.80851,
+            "end": 132.28723,
+            "probability": 1
+          },
+          {
+            "word": " defe",
+            "start": 132.5266,
+            "end": 132.92553,
+            "probability": 1
+          },
+          {
+            "word": "ated",
+            "start": 133.64362,
+            "end": 133.96277,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 135,
+            "end": 135.23936,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 135,
+            "end": 135.23936,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 135.39894,
+            "end": 135.79787,
+            "probability": 1
+          },
+          {
+            "word": " eyes",
+            "start": 135.79787,
+            "end": 136.19681,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 136.75532,
+            "end": 136.99468,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 137.31383,
+            "end": 137.71277,
+            "probability": 1
+          },
+          {
+            "word": " myself",
+            "start": 138.51064,
+            "end": 139.06915,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 140.42553,
+            "end": 140.66489,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 140.42553,
+            "end": 140.66489,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 140.82447,
+            "end": 141.2234,
+            "probability": 1
+          },
+          {
+            "word": " arms",
+            "start": 141.2234,
+            "end": 141.62234,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 141.94149,
+            "end": 142.18085,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 142.5,
+            "end": 142.89894,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 143.29787,
+            "end": 143.53723,
+            "probability": 1
+          },
+          {
+            "word": " home",
+            "start": 143.93617,
+            "end": 144.33511,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 144.9734,
+      "end": 178.80319,
+      "text": [
+        "They won't understand what we have found",
+        "This connection rare and pure",
+        "But nothing else seems to matter now",
+        "When I'm standing here with you",
+        "Time stands still when you're near",
+        "The world outside just disappears"
+      ],
+      "paragraph": "They won't understand what we have found\nThis connection rare and pure\nBut nothing else seems to matter now\nWhen I'm standing here with you\nTime stands still when you're near\nThe world outside just disappears",
+      "words": [
+        {
+          "word": "\nThey",
+          "start": 144.9734,
+          "end": 145.29255,
+          "probability": 1
+        },
+        {
+          "word": " won",
+          "start": 145.29255,
+          "end": 145.45213,
+          "probability": 1
+        },
+        {
+          "word": "'t",
+          "start": 145.53191,
+          "end": 145.69149,
+          "probability": 1
+        },
+        {
+          "word": " understand",
+          "start": 146.56915,
+          "end": 147.44681,
+          "probability": 1
+        },
+        {
+          "word": " what",
+          "start": 147.92553,
+          "end": 148.32447,
+          "probability": 1
+        },
+        {
+          "word": " we",
+          "start": 148.32447,
+          "end": 148.56383,
+          "probability": 1
+        },
+        {
+          "word": " have",
+          "start": 148.80319,
+          "end": 149.20213,
+          "probability": 1
+        },
+        {
+          "word": " found",
+          "start": 149.20213,
+          "end": 149.68085,
+          "probability": 1
+        },
+        {
+          "word": "\nThis",
+          "start": 151.03723,
+          "end": 151.43617,
+          "probability": 1
+        },
+        {
+          "word": " conne",
+          "start": 151.43617,
+          "end": 151.91489,
+          "probability": 1
+        },
+        {
+          "word": "ction",
+          "start": 152.55319,
+          "end": 152.95213,
+          "probability": 1
+        },
+        {
+          "word": " rare",
+          "start": 153.1117,
+          "end": 153.51064,
+          "probability": 1
+        },
+        {
+          "word": " and",
+          "start": 153.90957,
+          "end": 154.22872,
+          "probability": 1
+        },
+        {
+          "word": " pure",
+          "start": 154.54787,
+          "end": 154.94681,
+          "probability": 1
+        },
+        {
+          "word": "\nBut",
+          "start": 155.66489,
+          "end": 155.90426,
+          "probability": 1
+        },
+        {
+          "word": " nothing",
+          "start": 155.90426,
+          "end": 156.54255,
+          "probability": 1
+        },
+        {
+          "word": " else",
+          "start": 156.78191,
+          "end": 157.18085,
+          "probability": 1
+        },
+        {
+          "word": " seems",
+          "start": 157.18085,
+          "end": 157.65957,
+          "probability": 1
+        },
+        {
+          "word": " to",
+          "start": 158.29787,
+          "end": 158.53723,
+          "probability": 1
+        },
+        {
+          "word": " matter",
+          "start": 158.53723,
+          "end": 159.09574,
+          "probability": 1
+        },
+        {
+          "word": " now",
+          "start": 159.81383,
+          "end": 160.13298,
+          "probability": 1
+        },
+        {
+          "word": "\nWh",
+          "start": 161.56915,
+          "end": 161.80851,
+          "probability": 1
+        },
+        {
+          "word": "en ",
+          "start": 161.8883,
+          "end": 161.96809,
+          "probability": 1
+        },
+        {
+          "word": "I'm",
+          "start": 161.96809,
+          "end": 162.04787,
+          "probability": 1
+        },
+        {
+          "word": " standing",
+          "start": 162.5266,
+          "end": 163.24468,
+          "probability": 1
+        },
+        {
+          "word": " here",
+          "start": 163.80319,
+          "end": 164.20213,
+          "probability": 1
+        },
+        {
+          "word": " with",
+          "start": 164.52128,
+          "end": 164.92021,
+          "probability": 1
+        },
+        {
+          "word": " you",
+          "start": 165,
+          "end": 165.31915,
+          "probability": 1
+        },
+        {
+          "word": "\nTime",
+          "start": 167.87234,
+          "end": 168.27128,
+          "probability": 1
+        },
+        {
+          "word": " stands",
+          "start": 168.59043,
+          "end": 168.75,
+          "probability": 1
+        },
+        {
+          "word": " still",
+          "start": 169.30851,
+          "end": 169.78723,
+          "probability": 1
+        },
+        {
+          "word": " when",
+          "start": 170.66489,
+          "end": 171.06383,
+          "probability": 1
+        },
+        {
+          "word": " you",
+          "start": 171.30319,
+          "end": 171.46277,
+          "probability": 1
+        },
+        {
+          "word": "'re",
+          "start": 171.46277,
+          "end": 171.54255,
+          "probability": 1
+        },
+        {
+          "word": " near",
+          "start": 171.94149,
+          "end": 172.34043,
+          "probability": 1
+        },
+        {
+          "word": "\nThe",
+          "start": 172.97872,
+          "end": 173.21809,
+          "probability": 1
+        },
+        {
+          "word": " world",
+          "start": 173.21809,
+          "end": 173.69681,
+          "probability": 1
+        },
+        {
+          "word": " outside",
+          "start": 174.09574,
+          "end": 174.73404,
+          "probability": 1
+        },
+        {
+          "word": " just",
+          "start": 174.9734,
+          "end": 175.37234,
+          "probability": 1
+        },
+        {
+          "word": " dis",
+          "start": 175.85106,
+          "end": 176.17021,
+          "probability": 1
+        },
+        {
+          "word": "appe",
+          "start": 178.48404,
+          "end": 178.56383,
+          "probability": 1
+        },
+        {
+          "word": "ars",
+          "start": 178.56383,
+          "end": 178.80319,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 144.9734,
+            "end": 145.29255,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "They",
+            "start": 144.9734,
+            "end": 145.29255,
+            "probability": 1
+          },
+          {
+            "word": " won",
+            "start": 145.29255,
+            "end": 145.45213,
+            "probability": 1
+          },
+          {
+            "word": "'t",
+            "start": 145.53191,
+            "end": 145.69149,
+            "probability": 1
+          },
+          {
+            "word": " understand",
+            "start": 146.56915,
+            "end": 147.44681,
+            "probability": 1
+          },
+          {
+            "word": " what",
+            "start": 147.92553,
+            "end": 148.32447,
+            "probability": 1
+          },
+          {
+            "word": " we",
+            "start": 148.32447,
+            "end": 148.56383,
+            "probability": 1
+          },
+          {
+            "word": " have",
+            "start": 148.80319,
+            "end": 149.20213,
+            "probability": 1
+          },
+          {
+            "word": " found",
+            "start": 149.20213,
+            "end": 149.68085,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 151.03723,
+            "end": 151.43617,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "This",
+            "start": 151.03723,
+            "end": 151.43617,
+            "probability": 1
+          },
+          {
+            "word": " conne",
+            "start": 151.43617,
+            "end": 151.91489,
+            "probability": 1
+          },
+          {
+            "word": "ction",
+            "start": 152.55319,
+            "end": 152.95213,
+            "probability": 1
+          },
+          {
+            "word": " rare",
+            "start": 153.1117,
+            "end": 153.51064,
+            "probability": 1
+          },
+          {
+            "word": " and",
+            "start": 153.90957,
+            "end": 154.22872,
+            "probability": 1
+          },
+          {
+            "word": " pure",
+            "start": 154.54787,
+            "end": 154.94681,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 155.66489,
+            "end": 155.90426,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "But",
+            "start": 155.66489,
+            "end": 155.90426,
+            "probability": 1
+          },
+          {
+            "word": " nothing",
+            "start": 155.90426,
+            "end": 156.54255,
+            "probability": 1
+          },
+          {
+            "word": " else",
+            "start": 156.78191,
+            "end": 157.18085,
+            "probability": 1
+          },
+          {
+            "word": " seems",
+            "start": 157.18085,
+            "end": 157.65957,
+            "probability": 1
+          },
+          {
+            "word": " to",
+            "start": 158.29787,
+            "end": 158.53723,
+            "probability": 1
+          },
+          {
+            "word": " matter",
+            "start": 158.53723,
+            "end": 159.09574,
+            "probability": 1
+          },
+          {
+            "word": " now",
+            "start": 159.81383,
+            "end": 160.13298,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 161.56915,
+            "end": 161.80851,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Wh",
+            "start": 161.56915,
+            "end": 161.80851,
+            "probability": 1
+          },
+          {
+            "word": "en ",
+            "start": 161.8883,
+            "end": 161.96809,
+            "probability": 1
+          },
+          {
+            "word": "I'm",
+            "start": 161.96809,
+            "end": 162.04787,
+            "probability": 1
+          },
+          {
+            "word": " standing",
+            "start": 162.5266,
+            "end": 163.24468,
+            "probability": 1
+          },
+          {
+            "word": " here",
+            "start": 163.80319,
+            "end": 164.20213,
+            "probability": 1
+          },
+          {
+            "word": " with",
+            "start": 164.52128,
+            "end": 164.92021,
+            "probability": 1
+          },
+          {
+            "word": " you",
+            "start": 165,
+            "end": 165.31915,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 167.87234,
+            "end": 168.27128,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Time",
+            "start": 167.87234,
+            "end": 168.27128,
+            "probability": 1
+          },
+          {
+            "word": " stands",
+            "start": 168.59043,
+            "end": 168.75,
+            "probability": 1
+          },
+          {
+            "word": " still",
+            "start": 169.30851,
+            "end": 169.78723,
+            "probability": 1
+          },
+          {
+            "word": " when",
+            "start": 170.66489,
+            "end": 171.06383,
+            "probability": 1
+          },
+          {
+            "word": " you",
+            "start": 171.30319,
+            "end": 171.46277,
+            "probability": 1
+          },
+          {
+            "word": "'re",
+            "start": 171.46277,
+            "end": 171.54255,
+            "probability": 1
+          },
+          {
+            "word": " near",
+            "start": 171.94149,
+            "end": 172.34043,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 172.97872,
+            "end": 173.21809,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "The",
+            "start": 172.97872,
+            "end": 173.21809,
+            "probability": 1
+          },
+          {
+            "word": " world",
+            "start": 173.21809,
+            "end": 173.69681,
+            "probability": 1
+          },
+          {
+            "word": " outside",
+            "start": 174.09574,
+            "end": 174.73404,
+            "probability": 1
+          },
+          {
+            "word": " just",
+            "start": 174.9734,
+            "end": 175.37234,
+            "probability": 1
+          },
+          {
+            "word": " dis",
+            "start": 175.85106,
+            "end": 176.17021,
+            "probability": 1
+          },
+          {
+            "word": "appe",
+            "start": 178.48404,
+            "end": 178.56383,
+            "probability": 1
+          },
+          {
+            "word": "ars",
+            "start": 178.56383,
+            "end": 178.80319,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 179.92021,
+      "end": 210.95745,
+      "text": [
+        "You're my first light in a darkened room",
+        "A gentle touch I never knew I needed",
+        "Your smile outshines the crescent moon",
+        "As we dance, my walls defeated",
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
+      "paragraph": "You're my first light in a darkened room\nA gentle touch I never knew I needed\nYour smile outshines the crescent moon\nAs we dance, my walls defeated\nIn your eyes, I find myself\nIn your arms, I find my home",
+      "words": [
+        {
+          "word": "\nYou",
+          "start": 179.92021,
+          "end": 180,
+          "probability": 1
+        },
+        {
+          "word": "'re",
+          "start": 180,
+          "end": 180.07979,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 180.39894,
+          "end": 180.6383,
+          "probability": 1
+        },
+        {
+          "word": " first",
+          "start": 180.79787,
+          "end": 181.2766,
+          "probability": 1
+        },
+        {
+          "word": " light",
+          "start": 181.2766,
+          "end": 181.75532,
+          "probability": 1
+        },
+        {
+          "word": " in a",
+          "start": 182.07447,
+          "end": 182.31383,
+          "probability": 1
+        },
+        {
+          "word": " dar",
+          "start": 182.55319,
+          "end": 182.87234,
+          "probability": 1
+        },
+        {
+          "word": "ken",
+          "start": 183.27128,
+          "end": 183.35106,
+          "probability": 1
+        },
+        {
+          "word": "ed",
+          "start": 183.35106,
+          "end": 183.51064,
+          "probability": 1
+        },
+        {
+          "word": " room",
+          "start": 183.75,
+          "end": 184.14894,
+          "probability": 1
+        },
+        {
+          "word": "\nA",
+          "start": 184.94681,
+          "end": 185.10638,
+          "probability": 1
+        },
+        {
+          "word": " gentle",
+          "start": 185.18617,
+          "end": 185.74468,
+          "probability": 1
+        },
+        {
+          "word": " touch I",
+          "start": 185.98404,
+          "end": 186.46277,
+          "probability": 1
+        },
+        {
+          "word": " never",
+          "start": 187.5,
+          "end": 187.89894,
+          "probability": 1
+        },
+        {
+          "word": " knew I",
+          "start": 187.89894,
+          "end": 188.29787,
+          "probability": 1
+        },
+        {
+          "word": " needed",
+          "start": 188.7766,
+          "end": 189.33511,
+          "probability": 1
+        },
+        {
+          "word": "\nYour",
+          "start": 190.53191,
+          "end": 190.93085,
+          "probability": 1
+        },
+        {
+          "word": " smile",
+          "start": 191.01064,
+          "end": 191.40957,
+          "probability": 1
+        },
+        {
+          "word": " out",
+          "start": 191.40957,
+          "end": 191.72872,
+          "probability": 1
+        },
+        {
+          "word": "sh",
+          "start": 191.8883,
+          "end": 191.96809,
+          "probability": 1
+        },
+        {
+          "word": "ines",
+          "start": 191.96809,
+          "end": 192.28723,
+          "probability": 1
+        },
+        {
+          "word": " the",
+          "start": 192.92553,
+          "end": 193.16489,
+          "probability": 1
+        },
+        {
+          "word": " cres",
+          "start": 193.16489,
+          "end": 193.56383,
+          "probability": 1
+        },
+        {
+          "word": "cent",
+          "start": 193.88298,
+          "end": 194.20213,
+          "probability": 1
+        },
+        {
+          "word": " moon",
+          "start": 194.28191,
+          "end": 194.68085,
+          "probability": 1
+        },
+        {
+          "word": "\nAs",
+          "start": 195.87766,
+          "end": 196.11702,
+          "probability": 1
+        },
+        {
+          "word": " we d",
+          "start": 196.19681,
+          "end": 196.43617,
+          "probability": 1
+        },
+        {
+          "word": "an",
+          "start": 197.31383,
+          "end": 197.4734,
+          "probability": 1
+        },
+        {
+          "word": "ce",
+          "start": 197.55319,
+          "end": 197.71277,
+          "probability": 1
+        },
+        {
+          "word": ", my",
+          "start": 198.19149,
+          "end": 198.51064,
+          "probability": 1
+        },
+        {
+          "word": " walls",
+          "start": 198.59043,
+          "end": 198.82979,
+          "probability": 1
+        },
+        {
+          "word": " defe",
+          "start": 199.30851,
+          "end": 199.70745,
+          "probability": 1
+        },
+        {
+          "word": "ated",
+          "start": 200.34574,
+          "end": 200.66489,
+          "probability": 1
+        },
+        {
+          "word": "\nIn",
+          "start": 201.70213,
+          "end": 201.94149,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 202.10106,
+          "end": 202.5,
+          "probability": 1
+        },
+        {
+          "word": " eyes",
+          "start": 202.5,
+          "end": 202.89894,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 203.45745,
+          "end": 203.69681,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 203.93617,
+          "end": 204.33511,
+          "probability": 1
+        },
+        {
+          "word": " myself",
+          "start": 205.13298,
+          "end": 205.69149,
+          "probability": 1
+        },
+        {
+          "word": "\nIn",
+          "start": 207.04787,
+          "end": 207.28723,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 207.44681,
+          "end": 207.84574,
+          "probability": 1
+        },
+        {
+          "word": " arms",
+          "start": 207.84574,
+          "end": 208.24468,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 208.64362,
+          "end": 208.88298,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 209.20213,
+          "end": 209.60106,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 209.92021,
+          "end": 210.15957,
+          "probability": 1
+        },
+        {
+          "word": " home",
+          "start": 210.55851,
+          "end": 210.95745,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 179.92021,
+            "end": 180,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "You",
+            "start": 179.92021,
+            "end": 180,
+            "probability": 1
+          },
+          {
+            "word": "'re",
+            "start": 180,
+            "end": 180.07979,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 180.39894,
+            "end": 180.6383,
+            "probability": 1
+          },
+          {
+            "word": " first",
+            "start": 180.79787,
+            "end": 181.2766,
+            "probability": 1
+          },
+          {
+            "word": " light",
+            "start": 181.2766,
+            "end": 181.75532,
+            "probability": 1
+          },
+          {
+            "word": " in a",
+            "start": 182.07447,
+            "end": 182.31383,
+            "probability": 1
+          },
+          {
+            "word": " dar",
+            "start": 182.55319,
+            "end": 182.87234,
+            "probability": 1
+          },
+          {
+            "word": "ken",
+            "start": 183.27128,
+            "end": 183.35106,
+            "probability": 1
+          },
+          {
+            "word": "ed",
+            "start": 183.35106,
+            "end": 183.51064,
+            "probability": 1
+          },
+          {
+            "word": " room",
+            "start": 183.75,
+            "end": 184.14894,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 184.94681,
+            "end": 185.10638,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "A",
+            "start": 184.94681,
+            "end": 185.10638,
+            "probability": 1
+          },
+          {
+            "word": " gentle",
+            "start": 185.18617,
+            "end": 185.74468,
+            "probability": 1
+          },
+          {
+            "word": " touch I",
+            "start": 185.98404,
+            "end": 186.46277,
+            "probability": 1
+          },
+          {
+            "word": " never",
+            "start": 187.5,
+            "end": 187.89894,
+            "probability": 1
+          },
+          {
+            "word": " knew I",
+            "start": 187.89894,
+            "end": 188.29787,
+            "probability": 1
+          },
+          {
+            "word": " needed",
+            "start": 188.7766,
+            "end": 189.33511,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 190.53191,
+            "end": 190.93085,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "Your",
+            "start": 190.53191,
+            "end": 190.93085,
+            "probability": 1
+          },
+          {
+            "word": " smile",
+            "start": 191.01064,
+            "end": 191.40957,
+            "probability": 1
+          },
+          {
+            "word": " out",
+            "start": 191.40957,
+            "end": 191.72872,
+            "probability": 1
+          },
+          {
+            "word": "sh",
+            "start": 191.8883,
+            "end": 191.96809,
+            "probability": 1
+          },
+          {
+            "word": "ines",
+            "start": 191.96809,
+            "end": 192.28723,
+            "probability": 1
+          },
+          {
+            "word": " the",
+            "start": 192.92553,
+            "end": 193.16489,
+            "probability": 1
+          },
+          {
+            "word": " cres",
+            "start": 193.16489,
+            "end": 193.56383,
+            "probability": 1
+          },
+          {
+            "word": "cent",
+            "start": 193.88298,
+            "end": 194.20213,
+            "probability": 1
+          },
+          {
+            "word": " moon",
+            "start": 194.28191,
+            "end": 194.68085,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 195.87766,
+            "end": 196.11702,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "As",
+            "start": 195.87766,
+            "end": 196.11702,
+            "probability": 1
+          },
+          {
+            "word": " we d",
+            "start": 196.19681,
+            "end": 196.43617,
+            "probability": 1
+          },
+          {
+            "word": "an",
+            "start": 197.31383,
+            "end": 197.4734,
+            "probability": 1
+          },
+          {
+            "word": "ce",
+            "start": 197.55319,
+            "end": 197.71277,
+            "probability": 1
+          },
+          {
+            "word": ", my",
+            "start": 198.19149,
+            "end": 198.51064,
+            "probability": 1
+          },
+          {
+            "word": " walls",
+            "start": 198.59043,
+            "end": 198.82979,
+            "probability": 1
+          },
+          {
+            "word": " defe",
+            "start": 199.30851,
+            "end": 199.70745,
+            "probability": 1
+          },
+          {
+            "word": "ated",
+            "start": 200.34574,
+            "end": 200.66489,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 201.70213,
+            "end": 201.94149,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 201.70213,
+            "end": 201.94149,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 202.10106,
+            "end": 202.5,
+            "probability": 1
+          },
+          {
+            "word": " eyes",
+            "start": 202.5,
+            "end": 202.89894,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 203.45745,
+            "end": 203.69681,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 203.93617,
+            "end": 204.33511,
+            "probability": 1
+          },
+          {
+            "word": " myself",
+            "start": 205.13298,
+            "end": 205.69149,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 207.04787,
+            "end": 207.28723,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 207.04787,
+            "end": 207.28723,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 207.44681,
+            "end": 207.84574,
+            "probability": 1
+          },
+          {
+            "word": " arms",
+            "start": 207.84574,
+            "end": 208.24468,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 208.64362,
+            "end": 208.88298,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 209.20213,
+            "end": 209.60106,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 209.92021,
+            "end": 210.15957,
+            "probability": 1
+          },
+          {
+            "word": " home",
+            "start": 210.55851,
+            "end": 210.95745,
+            "probability": 1
+          }
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 212.31383,
+      "end": 222.12766,
+      "text": [
+        "In your eyes, I find myself",
+        "In your arms, I find my home"
+      ],
+      "paragraph": "In your eyes, I find myself\nIn your arms, I find my home",
+      "words": [
+        {
+          "word": "\nIn",
+          "start": 212.31383,
+          "end": 212.71277,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 212.71277,
+          "end": 213.1117,
+          "probability": 1
+        },
+        {
+          "word": " eyes",
+          "start": 213.1117,
+          "end": 213.51064,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 214.14894,
+          "end": 214.3883,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 214.54787,
+          "end": 214.94681,
+          "probability": 1
+        },
+        {
+          "word": " myself",
+          "start": 215.74468,
+          "end": 216.30319,
+          "probability": 1
+        },
+        {
+          "word": "\nIn",
+          "start": 217.65957,
+          "end": 217.89894,
+          "probability": 1
+        },
+        {
+          "word": " your",
+          "start": 218.1383,
+          "end": 218.53723,
+          "probability": 1
+        },
+        {
+          "word": " arms",
+          "start": 218.53723,
+          "end": 218.93617,
+          "probability": 1
+        },
+        {
+          "word": ", I",
+          "start": 219.33511,
+          "end": 219.57447,
+          "probability": 1
+        },
+        {
+          "word": " find",
+          "start": 219.89362,
+          "end": 220.29255,
+          "probability": 1
+        },
+        {
+          "word": " my",
+          "start": 220.69149,
+          "end": 220.93085,
+          "probability": 1
+        },
+        {
+          "word": " home\n",
+          "start": 221.56915,
+          "end": 222.12766,
+          "probability": 1
+        }
+      ],
+      "lines": [
+        [
+          {
+            "word": "",
+            "start": 212.31383,
+            "end": 212.71277,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 212.31383,
+            "end": 212.71277,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 212.71277,
+            "end": 213.1117,
+            "probability": 1
+          },
+          {
+            "word": " eyes",
+            "start": 213.1117,
+            "end": 213.51064,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 214.14894,
+            "end": 214.3883,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 214.54787,
+            "end": 214.94681,
+            "probability": 1
+          },
+          {
+            "word": " myself",
+            "start": 215.74468,
+            "end": 216.30319,
+            "probability": 1
+          },
+          {
+            "word": "",
+            "start": 217.65957,
+            "end": 217.89894,
+            "probability": 1
+          }
+        ],
+        [
+          {
+            "word": "In",
+            "start": 217.65957,
+            "end": 217.89894,
+            "probability": 1
+          },
+          {
+            "word": " your",
+            "start": 218.1383,
+            "end": 218.53723,
+            "probability": 1
+          },
+          {
+            "word": " arms",
+            "start": 218.53723,
+            "end": 218.93617,
+            "probability": 1
+          },
+          {
+            "word": ", I",
+            "start": 219.33511,
+            "end": 219.57447,
+            "probability": 1
+          },
+          {
+            "word": " find",
+            "start": 219.89362,
+            "end": 220.29255,
+            "probability": 1
+          },
+          {
+            "word": " my",
+            "start": 220.69149,
+            "end": 220.93085,
+            "probability": 1
+          },
+          {
+            "word": " home",
+            "start": 221.56915,
+            "end": 222.12766,
+            "probability": 1
+          }
+        ]
+      ]
+    }
+  ],
+  "language": "en"
+}

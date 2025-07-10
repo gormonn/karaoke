@@ -21,8 +21,19 @@ export interface Segment {
 }
 
 export interface Word {
+	id: number;
 	word: string;
 	start: number;
 	end: number;
 	probability: number;
+}
+
+export interface CharTiming {
+	char: string;
+	start: number;
+	end: number;
+	wordPart: Word;
+	wordId: number; // todo: поменять на id
+	word: string;
+	charIndexInWord: number;
 }

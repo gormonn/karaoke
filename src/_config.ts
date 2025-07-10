@@ -47,3 +47,43 @@ export const SONG_TARGET = {
 	music: getAudioFile(SONG_NAME),
 	background: staticFile('assets/background.jpg'),
 };
+
+// ✅ Настройки караоке анимации
+export const KARAOKE_CONFIG = {
+	transparent: false,
+	// Интерполяция символов внутри слов
+	// true: символы слова подсвечиваются поочередно в течение времени слова
+	// false: все символы слова подсвечиваются одновременно по времени слова
+	interpolateChars: true,
+	
+	// Анимация появления/исчезновения сегментов
+	segmentTransition: {
+		enabled: true,           // Включить/выключить анимацию сегментов
+		fadeInDuration: 0.5,     // Длительность появления (сек)
+		fadeOutDuration: 0.5,    // Длительность исчезновения (сек)
+		easing: 'ease-out',      // CSS easing функция
+	},
+	
+	// Режим анимации символов
+	animationMode: 'default' as 'default' | 'letterize',
+	
+	// Настройки для режима "letterize" (адаптированного из Word.tsx)
+	letterizeAnimation: {
+		charTranslateY: 24,      // Смещение символов по вертикали
+		// duration: 0.4,           // Длительность анимации (сек)
+		duration: null,           // Длительность анимации (будет рассчитана в createLetterizeAnimation)
+		easing: 'power2.inOut',  // GSAP easing
+		blur: {
+			from: 4,             // Начальное размытие
+			to: 0,               // Конечное размытие
+		},
+		rotation: {
+			from: -90,           // Начальный поворот (градусы)
+			to: 0,               // Конечный поворот (градусы)
+		},
+		colors: {
+			from: 'hsl(109, 97%, 88%)',  // Начальный цвет
+			to: 'hsl(350, 46%, 47%)',    // Конечный цвет
+		},
+	},
+};

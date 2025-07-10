@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {AbsoluteFill} from 'remotion';
-import {SegmentComp} from './Segment';
+import {SegmentComp} from './components/SegmentNew';
 import {WhisperResponse} from './types';
 import {mergeEditsWithConverted, MusicData, EditsData} from './lib/mergeEdits';
 import {SONG_TARGET} from './_config';
@@ -8,7 +8,8 @@ import {SONG_TARGET} from './_config';
 export const Subtitles: React.FC<{
 	src: string;
 	useAutoLines?: boolean; // 🆕 Новый параметр для режима автоматической разбивки
-}> = ({src, useAutoLines = false}) => {
+	animationMode?: 'default' | 'letterize'; // 🆕 Параметр для выбора режима анимации
+}> = ({src, useAutoLines = false, animationMode}) => {
 	const [subtitles, setSubtitles] = useState<WhisperResponse | null>(null);
 
 	useEffect(() => {
@@ -35,6 +36,7 @@ export const Subtitles: React.FC<{
 						key={segment.id}
 						segment={segment}
 						useAutoLines={useAutoLines}
+						animationMode={animationMode}
 					/>
 				);
 			})}

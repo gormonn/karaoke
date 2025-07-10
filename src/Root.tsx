@@ -1,9 +1,9 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {parseMedia} from '@remotion/media-parser';
-import {MusicContextProvider, useMusic} from './context/music';
-import {MyComposition} from './Composition';
-import {SONG_TARGET} from './_config';
+import {MusicContextProvider} from './context/music';
+import {MyComposition, myCompSchema} from './Composition';
+import {SONG_TARGET, KARAOKE_CONFIG} from './_config';
 const fps = 30;
 
 const RootComponentWithContext = () => {
@@ -20,6 +20,10 @@ const RootComponentWithContext = () => {
 				return {
 					durationInFrames: Math.round(slowDurationInSeconds * fps),
 				};
+			}}
+			schema={myCompSchema}
+			defaultProps={{
+				transparent: KARAOKE_CONFIG.transparent,
 			}}
 			width={1280}
 			height={720}

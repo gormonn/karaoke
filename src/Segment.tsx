@@ -348,9 +348,6 @@ const ParagraphLineComponent: React.FC<{
 		// Если нет изменений, не применяем анимацию
 		if (!hasChanges) return;
 
-		// console.log('!! charTimings', charTimings.length);
-		// console.log('!! splitRef.current.chars', splitRef.current.chars?.length);
-
 		// Применяем анимацию только к символам, состояние которых изменилось
 		splitRef.current.chars?.forEach((char, charIndex) => {
 			const newState = newCharStates[charIndex];

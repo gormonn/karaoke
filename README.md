@@ -9,6 +9,7 @@
 - ✅ Редактирование временных меток слов
 - ✅ Визуализация сегментов и строк
 - ✅ Синхронизация с аудио воспроизведением
+- ✅ **НОВОЕ**: Полная интеграция GSAP с Remotion для плавных анимаций
 
 ## Структура проекта
 
@@ -19,6 +20,9 @@ src/
 ├── StandaloneTimeline.tsx # Автономный Timeline для тестирования
 ├── MyComp.tsx           # Основная композиция для рендеринга
 ├── Root.tsx             # Корневой компонент с композициями
+├── lib/
+│   ├── gsap.ts          # GSAP интеграция с Remotion
+│   └── gsap-example.tsx # Примеры использования GSAP
 └── types.ts             # Типы данных
 ```
 
@@ -38,6 +42,40 @@ npm run start
 ```bash
 # Выберите композицию "Editor" в Remotion Studio
 ```
+
+## GSAP + Remotion Интеграция
+
+Проект включает полную интеграцию GSAP с Remotion для создания плавных анимаций, синхронизированных с timeline.
+
+### Основные возможности:
+- ✅ Полная синхронизация GSAP анимаций с `useCurrentFrame()`
+- ✅ Поддержка всех GSAP функций (timelines, tweens, easing)
+- ✅ Интеграция с SplitText для посимвольной анимации
+- ✅ Отсутствие мерцания при рендеринге
+- ✅ Оптимизация для многопоточного рендеринга Remotion
+
+### Быстрый старт:
+```typescript
+import { useGsapTimeline } from './lib/gsap';
+
+const MyComponent = () => {
+  const animationRef = useGsapTimeline(() => {
+    return gsap.timeline()
+      .fromTo('.word', { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 1 })
+      .to('.word', { color: '#FFD700', scale: 1.2, duration: 0.5 });
+  });
+
+  return (
+    <div ref={animationRef}>
+      <span className="word">Анимированный текст</span>
+    </div>
+  );
+};
+```
+
+### Документация:
+- 📖 [Полная документация](GSAP-REMOTION-INTEGRATION.md)
+- 🎯 [Примеры использования](src/lib/gsap-example.tsx)
 
 ## Кастомизация Timeline
 
@@ -123,6 +161,8 @@ interface TimelineTrack {
 3. Добавить горячие клавиши
 4. Интегрировать с системой отмены/повтора
 5. Добавить экспорт/импорт конфигурации
+6. **GSAP**: Расширить библиотеку анимаций для караоке
+7. **GSAP**: Добавить предустановленные эффекты появления/исчезновения текста
 
 ## Поддержка
 

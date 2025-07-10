@@ -6,7 +6,9 @@ const {
 	preprocessAlignment,
 	removeMetadata,
 	createFormattedJson,
-	createEditsFile
+	createEditsFile,
+	checkStemsFiles,
+	updateStemsInConfig
 } = require('./converter-utils');
 
 const CONFIG_FILE = '_config.ts';
@@ -242,6 +244,11 @@ async function convert(filename) {
 
 	// Обновляем SONG_NAME в _config.ts
 	updateSongName(filename);
+
+	// Проверяем наличие стемов и обновляем конфигурацию
+	console.log('\n🎵 Проверка стемов...');
+	const stemsConfig = checkStemsFiles(filename);
+	updateStemsInConfig(stemsConfig);
 
 	console.log('Конвертация завершена успешно!');
 }

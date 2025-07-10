@@ -24,6 +24,14 @@ const RootComponentWithContext = () => {
 			schema={myCompSchema}
 			defaultProps={{
 				transparent: KARAOKE_CONFIG.transparent,
+				stems: {
+					guitar: true,
+					bass: true,
+					drums: true,
+					percussion: true,
+					synth: true,
+					vocals: true,
+				},
 			}}
 			width={1280}
 			height={720}

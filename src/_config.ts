@@ -45,6 +45,14 @@ export const SONG_TARGET = {
 	segments: staticFile(`${SONG_NAME}-converted.json`),
 	edits: staticFile(`${SONG_NAME}-converted-edits.json`),
 	music: getAudioFile(SONG_NAME),
+	stems: {
+		bass: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav'),
+		drums: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Drums).wav'),
+		guitar: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Guitar).wav'),
+		percussion: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Percussion).wav'),
+		synth: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav'),
+		vocals: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav')
+	} as Record<string, string>,
 	background: staticFile('assets/background.jpg'),
 };
 

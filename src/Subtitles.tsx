@@ -8,7 +8,7 @@ import {SONG_TARGET} from './_config';
 export const Subtitles: React.FC<{
 	src: string;
 	useAutoLines?: boolean; // 🆕 Новый параметр для режима автоматической разбивки
-	animationMode?: 'default' | 'letterize'; // 🆕 Параметр для выбора режима анимации
+	animationMode?: 'default' | 'letterize' | 'zoom'; // 🆕 Параметр для выбора режима анимации
 }> = ({src, useAutoLines = false, animationMode}) => {
 	const [subtitles, setSubtitles] = useState<WhisperResponse | null>(null);
 

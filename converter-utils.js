@@ -6,7 +6,9 @@ module.exports = {
 	preprocessAlignment,
 	removeMetadata,
 	createFormattedJson,
-	createEditsFile
+	createEditsFile,
+	checkStemsFiles,
+	updateStemsInConfig
 };
 
 /**
@@ -529,4 +531,110 @@ function createEditsFile(filename, convertedData) {
 	);
 
 	console.log(`Создан файл для редактирования: ${editsFile}`);
+}
+
+/**
+ * Проверяет наличие файлов стемов в каталоге stems/{song_name}/
+ * @param {string} songName - имя песни
+ * @returns {Object} объект с найденными стемами
+ */
+function checkStemsFiles(songName) {
+	const stemsDir = path.join(__dirname, 'public', 'stems', songName);
+	const stemsConfig = {};
+	
+	// Проверяем существование каталога
+	if (!fs.existsSync(stemsDir)) {
+		console.log(`Каталог стемов не найден: ${stemsDir}`);
+		return stemsConfig;
+	}
+	
+	// Список поддерживаемых типов стемов и их соответствие ключам
+	const stemTypes = {
+		'bass': ['(Bass)', '(bass)', '(BASS)'],
+		'drums': ['(Drums)', '(drums)', '(DRUMS)'],
+		'guitar': ['(Guitar)', '(guitar)', '(GUITAR)'],
+		'percussion': ['(Percussion)', '(percussion)', '(PERCUSSION)'],
+		'synth': ['(Synth)', '(synth)', '(SYNTH)'],
+		'vocals': ['(Vocals)', '(vocals)', '(VOCALS)']
+	};
+	
+	try {
+		// Читаем файлы в каталоге стемов
+		const files = fs.readdirSync(stemsDir);
+		
+		// Проверяем каждый файл на соответствие типам стемов
+		files.forEach(file => {
+			// Проверяем только аудиофайлы
+			if (file.match(/\.(mp3|wav|flac|m4a|ogg)$/i)) {
+				Object.entries(stemTypes).forEach(([key, patterns]) => {
+					patterns.forEach(pattern => {
+						if (file.includes(pattern)) {
+							stemsConfig[key] = `stems/${songName}/${file}`;
+							console.log(`✅ Найден стем ${key}: ${file}`);
+						}
+					});
+				});
+			}
+		});
+		
+		if (Object.keys(stemsConfig).length === 0) {
+			console.log(`Стемы не найдены в каталоге: ${stemsDir}`);
+		} else {
+			console.log(`Найдено стемов: ${Object.keys(stemsConfig).length}`);
+		}
+		
+	} catch (error) {
+		console.error(`Ошибка при чтении каталога стемов: ${error.message}`);
+	}
+	
+	return stemsConfig;
+}
+
+/**
+ * Обновляет конфигурацию стемов в _config.ts
+ * @param {Object} stemsConfig - объект с найденными стемами
+ */
+function updateStemsInConfig(stemsConfig) {
+	const configPath = path.join(__dirname, 'src', '_config.ts');
+	
+	try {
+		let content = fs.readFileSync(configPath, 'utf8');
+		
+		// Формируем новый объект stems
+		let stemsObject = '';
+		if (Object.keys(stemsConfig).length > 0) {
+			const stemsEntries = Object.entries(stemsConfig)
+				.map(([key, filePath]) => `\t${key}: staticFile('${filePath}')`)
+				.join(',\n');
+			stemsObject = `{\n${stemsEntries}\n\t}`;
+		} else {
+			stemsObject = '{}';
+		}
+		
+		// Заменяем объект stems в SONG_TARGET, сохраняя остальную структуру
+		const stemsRegex = /(\s+stems:\s*)\{[^}]*\}(\s*as\s+Record<string,\s*string>)/;
+		const replacement = `$1${stemsObject}$2`;
+		
+		if (stemsRegex.test(content)) {
+			content = content.replace(stemsRegex, replacement);
+		} else {
+			console.warn('Не удалось найти секцию stems в _config.ts');
+			return;
+		}
+		
+		// Записываем обновленный файл
+		fs.writeFileSync(configPath, content, 'utf8');
+		
+		if (Object.keys(stemsConfig).length > 0) {
+			console.log(`✅ Конфигурация стемов обновлена в _config.ts:`);
+			Object.entries(stemsConfig).forEach(([key, filePath]) => {
+				console.log(`   ${key}: ${filePath}`);
+			});
+		} else {
+			console.log('✅ Объект stems очищен в _config.ts');
+		}
+		
+	} catch (error) {
+		console.error(`Ошибка при обновлении _config.ts: ${error.message}`);
+	}
 }

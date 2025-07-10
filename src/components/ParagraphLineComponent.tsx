@@ -7,6 +7,7 @@ import {
 	initializeLetterizeChars,
 	createLetterizeAnimation,
 	createDefaultAnimation,
+	createZoomAnimation,
 	interpolateCharTimings
 } from './animations';
 
@@ -52,7 +53,9 @@ export const ParagraphLineComponent: React.FC<{
 	segment: Segment;
 }> = ({segment}) => {
 	const containerRef = useRef<HTMLDivElement>(null);
+	const containerRef2 = useRef<HTMLDivElement>(null);
 	const splitRef = useRef<SplitText | null>(null);
+	const splitRef2 = useRef<SplitText | null>(null);
 	const segmentId = `segment-${segment.id}`; // Используем существующий ID сегмента
 
 	useEffect(() => {
@@ -61,15 +64,21 @@ export const ParagraphLineComponent: React.FC<{
 
 	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {
-		if (containerRef.current && !splitRef.current && segment.paragraph) {
+		if (containerRef.current && containerRef2.current &&
+			!splitRef.current && !splitRef2.current && segment.paragraph) {
 			// ✅ Согласно документации: элемент должен быть отображен так, как нужно в конце анимации
 			containerRef.current.innerHTML = segment.paragraph.replace(
 				/\n/g,
 				'<br />'
 			);
+			containerRef2.current.innerHTML = segment.paragraph.replace(
+				/\n/g,
+				'<br />'
+			);
 
 			const applySplit = () => {
-				if (!splitRef.current && containerRef.current) {
+				if (!splitRef.current && containerRef.current
+					&& !splitRef2.current && containerRef2.current) {
 					// ✅ Оптимизация производительности: разбиваем только на lines и chars
 					splitRef.current = new SplitText(containerRef.current, {
 						type: 'lines,chars', // Только то, что нужно для караоке
@@ -79,15 +88,20 @@ export const ParagraphLineComponent: React.FC<{
 						lineThreshold: 0.2, // Порог для определения линий
 					});
 
-					// ✅ Сразу инициализируем все символы в зависимости от режима
-					if (splitRef.current.chars) {
-						initializeLetterizeChars(splitRef.current.chars);
-					}
-
-					console.log('🆕 Auto SplitText created:', {
-						lines: splitRef.current.lines?.length || 0,
-						chars: splitRef.current.chars?.length || 0,
+					splitRef2.current = new SplitText(containerRef2.current, {
+						type: 'lines,chars', // Только то, что нужно для караоке
+						linesClass: `auto-line-${segment.id}`,
+						charsClass: `auto-char-${segment.id}`, // ✅ Уникальный класс для каждого сегмента
+						position: 'relative', // Естественный поток
+						lineThreshold: 0.2, // Порог для определения линий
 					});
+
+					// ✅ Сразу инициализируем все символы в зависимости от режима
+					if (splitRef.current.chars && splitRef2?.current?.chars) {
+						initializeLetterizeChars(splitRef.current.chars, splitRef2.current.chars);
+					}else if (splitRef.current.chars) {
+						initializeLetterizeChars(splitRef.current.chars);
+					} 
 				}
 			};
 
@@ -104,6 +118,10 @@ export const ParagraphLineComponent: React.FC<{
 			if (splitRef.current) {
 				splitRef.current.revert();
 				splitRef.current = null;
+			}
+			if (splitRef2.current) {
+				splitRef2.current.revert();
+				splitRef2.current = null;
 			}
 		};
 	}, [segment.paragraph, segment.id]);
@@ -134,6 +152,7 @@ export const ParagraphLineComponent: React.FC<{
 		return map;
 	}, [segment.words]);
 
+	
 	// ✅ Синхронизируем GSAP анимации с Remotion timeline
 	const paragraphAnimationRef = useGsapTimeline(() => {
 		console.log('! paragraphAnimationRef');
@@ -141,31 +160,41 @@ export const ParagraphLineComponent: React.FC<{
 
 		const timeline = gsap.timeline();
 		const chars = splitRef.current.chars;
+		const chars2 = splitRef2.current?.chars;
 		
 		// Символы уже инициализированы в useEffect, создаем только анимацию
 
 		// Создаем анимацию для каждого символа в зависимости от режима
-		charTimings.forEach((timing, charIndex) => {
+		charTimings.forEach((timing, timingIndex, timingsArray) => {
 			const wordMap = wordCharMap[timing.wordId];
 			if (!wordMap) return;
 
 			// ✅ Прямая ссылка на DOM элемент символа
 			const charGlobalIndex = wordMap.startCharIndex + timing.charIndexInWord;
 			const charElement = chars[charGlobalIndex];
-			
+			const charElement2 = chars2?.[charGlobalIndex];
+
 			if (!charElement) return;
 
 			// Используем соответствующую анимацию в зависимости от режима
 			const currentMode = (window as any).KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
-			if (currentMode === 'letterize') {
-				createLetterizeAnimation(timeline, charElement, timing);
-			} else {
-				createDefaultAnimation(timeline, charElement, timing);
+
+			const futureTiming = timingsArray?.[timingIndex + 50];
+			switch (currentMode) {
+				case 'letterize':
+					createLetterizeAnimation(timeline, charElement,  timing, futureTiming, charElement2,);
+					break;
+				case 'zoom':
+					createZoomAnimation(timeline, charElement, timing, timingsArray, timingIndex);
+					break;
+				case 'default':
+					createDefaultAnimation(timeline, charElement, timing);
+					break;
 			}
 		});
 
 		return timeline;
-	}, [charTimings, segmentId, wordCharMap, splitRef.current?.chars]);
+	}, [charTimings, segmentId, wordCharMap, splitRef.current?.chars, splitRef2.current?.chars]);
 
 	if (!segment.paragraph) {
 		return null;
@@ -183,7 +212,10 @@ export const ParagraphLineComponent: React.FC<{
 				whiteSpace: 'pre-wrap',
 			}}
 		>
-			<div ref={containerRef}>
+			<div ref={containerRef} >
+				{/* ✅ Контент устанавливается через innerHTML в useEffect */}
+			</div>
+			<div ref={containerRef2} style={{position	: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1}}>
 				{/* ✅ Контент устанавливается через innerHTML в useEffect */}
 			</div>
 		</div>

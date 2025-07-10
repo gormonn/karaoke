@@ -132,7 +132,7 @@ export const LineComponent: React.FC<{
 		const uniqueCharClass = `split-char-line-${lineIndex}`;
 
 		// Создаем анимацию для каждого символа в зависимости от режима
-		charTimingMap.forEach((timing, charIndex) => {
+		charTimingMap.forEach((timing, charIndex, array) => {
 			const charSelector = `.${lineId} .${uniqueCharClass}:nth-child(${charIndex + 1})`;
 			console.log('id', charSelector);
 			
@@ -141,10 +141,15 @@ export const LineComponent: React.FC<{
 			
 			if (charElement) {
 				const currentMode = (window as any).KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
-				if (currentMode === 'letterize') {
-					createLetterizeAnimation(timeline, charElement, timing);
-				} else {
-					createDefaultAnimation(timeline, charElement, timing);
+				const futureTiming = array?.[charIndex + 10];
+				switch (currentMode) {
+					case 'letterize':
+					case 'zoom':
+						createLetterizeAnimation(timeline, charElement, timing, futureTiming);
+						break;
+					case 'default':
+						createDefaultAnimation(timeline, charElement, timing);
+						break;
 				}
 			}
 		});

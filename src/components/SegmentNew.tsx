@@ -10,7 +10,7 @@ import {ParagraphLineComponent} from './ParagraphLineComponent';
 const InnerComponent: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Новый параметр для выбора режима
-	animationMode?: 'default' | 'letterize'; // 🆕 Параметр для выбора режима анимации
+	animationMode?: 'default' | 'letterize' | 'zoom'; // 🆕 Параметр для выбора режима анимации
 }> = ({segment, useAutoLines = false, animationMode}) => {
 	// Проверяем, есть ли структура строк в сегменте
 	const hasLines = segment.lines && segment.lines.length > 0;
@@ -52,7 +52,7 @@ const InnerComponent: React.FC<{
 export const SegmentComp: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Параметр для включения автоматической разбивки на линии
-	animationMode?: 'default' | 'letterize'; // 🆕 Параметр для выбора режима анимации
+	animationMode?: 'default' | 'letterize' | 'zoom'; // 🆕 Параметр для выбора режима анимации
 }> = ({segment, useAutoLines = false, animationMode}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();

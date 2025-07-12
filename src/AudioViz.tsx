@@ -1,7 +1,3 @@
-import {useAudioData, visualizeAudio} from '@remotion/media-utils';
-import {nanoid} from 'nanoid';
-import {useCurrentFrame, useVideoConfig} from 'remotion';
-import {useMusic} from './context/music';
 import {useStemAudio} from './hooks/use-stem-audio';
 
 const Bar = ({value, color = 'red'}: {value: number | null, color?: string}) => 

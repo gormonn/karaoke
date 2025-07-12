@@ -4,7 +4,9 @@ import readline from 'readline';
 import {
 	createSegmentsSequentially,
 	preprocessAlignment,
-	removeMetadata
+	removeMetadata,
+	processSplitFile,
+	processSplitWords
 } from './src/converter/client-utils.mjs';
 
 import {
@@ -141,6 +143,90 @@ function updateSongName(filename) {
 }
 
 
+// Функция для обработки split-lines и split-words файлов
+async function processSplitFiles(filename, originalData) {
+	console.log('📂 Ищем split-файлы...');
+	
+	// Создаем папку results если её нет
+	const resultsDir = path.join(process.cwd(), 'results');
+	if (!fs.existsSync(resultsDir)) {
+		fs.mkdirSync(resultsDir, { recursive: true });
+		console.log('📁 Создана папка results/');
+	}
+	
+	// Пути к split файлам
+	const splitLinesPath = path.join(process.cwd(), 'public', 'stems', filename, 'split-lines.txt');
+	const splitWordsPath = path.join(process.cwd(), 'public', 'stems', filename, 'split-words.txt');
+	
+	let currentData = { ...originalData };
+	
+	// Обработка split-lines
+	if (fs.existsSync(splitLinesPath)) {
+		console.log('✅ Найден split-lines.txt, обрабатываем...');
+		const splitLinesContent = fs.readFileSync(splitLinesPath, 'utf8');
+		
+		try {
+			// Заглушка для window.console в Node.js
+			global.window = global.window || {};
+			global.window.console = console;
+
+			const splitLinesData = processSplitFile(currentData, splitLinesContent);
+			
+			// logAndExit('!! splitLinesData', splitLinesData);
+			
+			// Сохраняем результат split-lines
+			const splitLinesFile = `${filename}-split-lines.json`;
+			const splitLinesFilePath = path.join(process.cwd(), 'results', splitLinesFile);
+			fs.writeFileSync(splitLinesFilePath, JSON.stringify(splitLinesData, null, 2), 'utf8');
+			console.log(`💾 Сохранен результат split-lines: results/${splitLinesFile}`);
+			
+			currentData = splitLinesData;
+		} catch (error) {
+			console.error('❌ Ошибка при обработке split-lines:', error.message);
+			process.exit(1);
+		}
+	} else {
+		console.log('⚠️ split-lines.txt не найден, пропускаем');
+	}
+	
+	// Обработка split-words
+	if (fs.existsSync(splitWordsPath)) {
+		console.log('✅ Найден split-words.txt, обрабатываем...');
+		const splitWordsContent = fs.readFileSync(splitWordsPath, 'utf8');
+		
+		try {
+			// Заглушка для window.console в Node.js
+			global.window = global.window || {};
+			global.window.console = console;
+			
+			const splitWordsData = processSplitWords(currentData, splitWordsContent);
+			
+			// Сохраняем результат split-words
+			const splitWordsFile = `${filename}-split-words.json`;
+			const splitWordsFilePath = path.join(process.cwd(), 'results', splitWordsFile);
+			fs.writeFileSync(splitWordsFilePath, JSON.stringify(splitWordsData, null, 2), 'utf8');
+			console.log(`💾 Сохранен результат split-words: results/${splitWordsFile}`);
+			
+			// Сохраняем финальный результат
+			const finalFile = `${filename}-final.json`;
+			const finalFilePath = path.join(process.cwd(), 'results', finalFile);
+			fs.writeFileSync(finalFilePath, JSON.stringify(splitWordsData, null, 2), 'utf8');
+			console.log(`💾 Сохранен финальный результат: results/${finalFile}`);
+			
+			// Сохраняем оригинальные данные для сравнения
+			const originalFile = `${filename}-original.json`;
+			const originalFilePath = path.join(process.cwd(), 'results', originalFile);
+			fs.writeFileSync(originalFilePath, JSON.stringify(originalData, null, 2), 'utf8');
+			console.log(`💾 Сохранены оригинальные данные: results/${originalFile}`);
+			
+		} catch (error) {
+			console.error('❌ Ошибка при обработке split-words:', error.message);
+		}
+	} else {
+		console.log('⚠️ split-words.txt не найден, пропускаем');
+	}
+}
+
 // Основная функция конвертации
 async function convert(filename) {
 	// Настраиваем логирование для этого файла
@@ -245,7 +331,11 @@ async function convert(filename) {
 			language: 'en', // Можно определять автоматически при необходимости
 		};
 
-		// todo: устарело deprecated:
+		// Сохраняем оригинальные данные для дальнейшей обработки
+		console.log('\n🔄 Обработка split-lines и split-words...');
+		await processSplitFiles(filename, convertedData);
+
+		// todo: устарело deprecated: (кто сказал???)
 		// Добавляем разделение на строки для каждого сегмента
 		convertedData.segments.forEach((segment) => {
 			segment.lines = []; //splitSegmentIntoLines(segment);

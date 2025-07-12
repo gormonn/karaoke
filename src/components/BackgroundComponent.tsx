@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from 'react';
-import {useAudioData, visualizeAudio} from '@remotion/media-utils';
+import {MediaUtilsAudioData, useAudioData, visualizeAudio} from '@remotion/media-utils';
 import {useCurrentFrame, useVideoConfig, Img} from 'remotion';
 import {SONG_TARGET} from '../_config';
 import {gsap} from '../lib/gsap';
@@ -8,7 +8,10 @@ export const BackgroundComponent: React.FC = () => {
 	const backgroundRef = useRef<HTMLDivElement>(null);
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
-	const synthAudio = useAudioData(SONG_TARGET.stems.synth || '');
+	let synthAudio: MediaUtilsAudioData | null = null;
+	try {
+		 synthAudio = useAudioData(SONG_TARGET.stems.synth || '');
+	} catch (error) {}
 
 	// ✅ Реакция фона на synth
 	useEffect(() => {

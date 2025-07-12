@@ -1,5 +1,5 @@
 import React, {useMemo, useEffect, useRef} from 'react';
-import {useAudioData, visualizeAudio} from '@remotion/media-utils';
+import {MediaUtilsAudioData, useAudioData, visualizeAudio} from '@remotion/media-utils';
 import {useCurrentFrame, useVideoConfig} from 'remotion';
 import {lineHeight} from '../Dots';
 import {Segment, ANIMATION_MODE} from '../types';
@@ -65,8 +65,12 @@ export const ParagraphLineComponent: React.FC<{
 	// ✅ Получаем данные для мерцания в такт drums и bass
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
-	const drumsAudio = useAudioData(SONG_TARGET.stems.drums || '');
-	const bassAudio = useAudioData(SONG_TARGET.stems.bass || '');
+	let drumsAudio: MediaUtilsAudioData | null = null;
+	let bassAudio: MediaUtilsAudioData | null = null;
+	try {	
+		drumsAudio = useAudioData(SONG_TARGET.stems.drums || '');
+		bassAudio = useAudioData(SONG_TARGET.stems.bass || '');
+	} catch (error) {}
  
 	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {

@@ -37,3 +37,18 @@ export interface CharTiming {
 	word: string;
 	charIndexInWord: number;
 }
+
+export enum ANIMATION_MODE {
+	LETTERIZE = 'letterize',
+	LETTERIZE2 = 'letterize2',
+	ZOOM = 'zoom',
+	ZOOM_IN = 'zoom-in',
+	DEFAULT = 'default',
+}
+
+// Глобальное расширение типа Window для KARAOKE_ANIMATION_MODE
+declare global {
+	interface Window {
+		KARAOKE_ANIMATION_MODE?: ANIMATION_MODE;
+	}
+}

@@ -9,6 +9,8 @@ import {fontSize} from './Dots';
 import {Subtitles} from './Subtitles';
 import {SONG_TARGET} from './_config';
 import {PropsContext} from './hooks/use-props-context';
+import {ANIMATION_MODE} from './types';
+import {BackgroundComponent} from './components/BackgroundComponent';
 
 const AudioComp = () => {
 	const music = useMusic();
@@ -33,8 +35,9 @@ export const MyComposition:FC<z.infer<typeof myCompSchema>> = ({transparent, ste
 	// 🆕 Флаг для тестирования нового режима автоматической разбивки на линии
 	const USE_AUTO_LINES = true; // Переключите на false для старого режима
 	
+	// todo: move to props
 	// 🆕 Новый флаг для выбора режима анимации
-	const ANIMATION_MODE: 'default' | 'letterize' | 'zoom'  = 'letterize'; // Используем новый режим анимации из Word.tsx
+	const _ANIMATION_MODE: ANIMATION_MODE  = ANIMATION_MODE.LETTERIZE; // Используем новый режим анимации из Word.tsx
 
 	return (
 		<PropsContext.Provider value={props}>
@@ -42,17 +45,17 @@ export const MyComposition:FC<z.infer<typeof myCompSchema>> = ({transparent, ste
 				style={{
 					fontSize,
 					fontFamily: 'sans-serif',
-					backgroundColor: transparent ? undefined : 'black',
+					backgroundColor: transparent ? 'transparent' : '#1A1A1A',
 				}}
 			>
 				{!transparent && <AbsoluteFill>
-					<Img src={SONG_TARGET.background} />
+					<BackgroundComponent />
 				</AbsoluteFill>}
 				<Bottom />
 				<Subtitles 
 					src={SONG_TARGET.segments} 
 					useAutoLines={USE_AUTO_LINES} 
-					animationMode={ANIMATION_MODE}
+					animationMode={_ANIMATION_MODE}
 				/>
 				<AudioComp />
 			</AbsoluteFill>

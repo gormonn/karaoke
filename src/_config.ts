@@ -1,4 +1,4 @@
-import {staticFile} from 'remotion';
+import {staticFile} from 'remotion'; 
 
 export const SONG_NAME = `Never_Said`;
 
@@ -44,14 +44,15 @@ const getAudioFile = (baseName: string): Promise<string> => {
 export const SONG_TARGET = {
 	segments: staticFile(`${SONG_NAME}-converted.json`),
 	edits: staticFile(`${SONG_NAME}-converted-edits.json`),
+	split: staticFile(`stems/${SONG_NAME}/split.txt`),
 	music: getAudioFile(SONG_NAME),
 	stems: {
-		bass: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav'),
-		drums: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Drums).wav'),
-		guitar: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Guitar).wav'),
-		percussion: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Percussion).wav'),
-		synth: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav'),
-		vocals: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav')
+	bass: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav'),
+	drums: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Drums).wav'),
+	guitar: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Guitar).wav'),
+	percussion: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Percussion).wav'),
+	synth: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav'),
+	vocals: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav')
 	} as Record<string, string>,
 	background: staticFile('assets/background.jpg'),
 };

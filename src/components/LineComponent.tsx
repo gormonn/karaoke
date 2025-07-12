@@ -140,12 +140,12 @@ export const LineComponent: React.FC<{
 			const charElement = document.querySelector(charSelector);
 			
 			if (charElement) {
-				const currentMode = (window as any).KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
-				const futureTiming = array?.[charIndex + 10];
+				const currentMode = window.KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
+				// const futureTiming = array?.[charIndex + 10];
 				switch (currentMode) {
 					case 'letterize':
 					case 'zoom':
-						createLetterizeAnimation(timeline, charElement, timing, futureTiming);
+						createLetterizeAnimation(timeline, charElement, timing);
 						break;
 					case 'default':
 						createDefaultAnimation(timeline, charElement, timing);

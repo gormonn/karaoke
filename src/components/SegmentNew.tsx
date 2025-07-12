@@ -1,7 +1,7 @@
 import React, {useMemo} from 'react';
 import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
 import {lineHeight, padding} from '../Dots';
-import {Segment} from '../types';
+import {Segment, ANIMATION_MODE} from '../types';
 import {KARAOKE_CONFIG} from '../_config';
 import {useGsapTimeline, gsap} from '../lib/gsap';
 import {LineComponent} from './LineComponent';
@@ -10,7 +10,7 @@ import {ParagraphLineComponent} from './ParagraphLineComponent';
 const InnerComponent: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Новый параметр для выбора режима
-	animationMode?: 'default' | 'letterize' | 'zoom'; // 🆕 Параметр для выбора режима анимации
+	animationMode?: ANIMATION_MODE; // 🆕 Параметр для выбора режима анимации
 }> = ({segment, useAutoLines = false, animationMode}) => {
 	// Проверяем, есть ли структура строк в сегменте
 	const hasLines = segment.lines && segment.lines.length > 0;
@@ -19,7 +19,7 @@ const InnerComponent: React.FC<{
 	// Устанавливаем режим анимации для использования компонентами
 	React.useEffect(() => {
 		if (animationMode) {
-			(window as any).KARAOKE_ANIMATION_MODE = animationMode;
+			window.KARAOKE_ANIMATION_MODE = animationMode;
 		}
 	}, [animationMode]);
 
@@ -52,7 +52,7 @@ const InnerComponent: React.FC<{
 export const SegmentComp: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Параметр для включения автоматической разбивки на линии
-	animationMode?: 'default' | 'letterize' | 'zoom'; // 🆕 Параметр для выбора режима анимации
+	animationMode?: ANIMATION_MODE; // 🆕 Параметр для выбора режима анимации
 }> = ({segment, useAutoLines = false, animationMode}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();

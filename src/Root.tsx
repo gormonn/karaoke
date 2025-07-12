@@ -16,6 +16,7 @@ const fps = 30;
 
 const RootComponentWithContext = () => {
 	const {data: splitLinesConfig} = useFileContent(SONG_TARGET.splitLines);
+	const {data: splitWordsConfig} = useFileContent(SONG_TARGET.splitWords);
 
 	return (
 		<Composition
@@ -36,6 +37,7 @@ const RootComponentWithContext = () => {
 			defaultProps={{
 				...defaultProps,
 				splitLinesConfig,
+				splitWordsConfig,
 			}}
 			width={1280}
 			height={720}

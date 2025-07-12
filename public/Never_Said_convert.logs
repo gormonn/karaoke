@@ -6467,3 +6467,3382 @@ Who" (clean: "Who")
    synth: stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav
    vocals: stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav
 Конвертация завершена успешно!
+
+🔧 Обработка закрывающих знаков препинания:
+  📝 Перенесено "’" из позиции 16 в позицию 15
+     Было: " I’" | "’m"
+     Стало: " I’" | "m"
+  📝 Перенесено "’" из позиции 30 в позицию 29
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 30
+  📝 Перенесено "," из позиции 36 в позицию 35
+     Было: " you," | ", is"
+     Стало: " you," | " is"
+  📝 Перенесено "?" из позиции 38 в позицию 37
+     Было: " it?" | "?
+How"
+     Стало: " it?" | "
+How"
+  📝 Перенесено "’" из позиции 40 в позицию 39
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 40
+  📝 Перенесено "’" из позиции 52 в позицию 51
+     Было: " “I’" | "’"
+     Стало: " “I’" | ""
+  🗑️ Удаляем пустое слово на позиции 52
+  📝 Перенесено "”" из позиции 54 в позицию 53
+     Было: " listening”" | "”
+But"
+     Стало: " listening”" | "
+But"
+  📝 Перенесено "’" из позиции 57 в позицию 56
+     Было: " mind’" | "’"
+     Стало: " mind’" | ""
+  🗑️ Удаляем пустое слово на позиции 57
+  📝 Перенесено "”" из позиции 68 в позицию 67
+     Было: " me”" | "”
+“I"
+     Стало: " me”" | "
+“I"
+  📝 Перенесено "’" из позиции 69 в позицию 68
+     Было: "
+“I’" | "’"
+     Стало: "
+“I’" | ""
+  🗑️ Удаляем пустое слово на позиции 69
+  📝 Перенесено "”" из позиции 75 в позицию 74
+     Было: " before”" | "”
+“We"
+     Стало: " before”" | "
+“We"
+  📝 Перенесено "”" из позиции 81 в позицию 80
+     Было: " future”" | "”
+
+[Chorus]
+Said"
+     Стало: " future”" | "
+
+[Chorus]
+Said"
+  📝 Перенесено "’" из позиции 108 в позицию 107
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 108
+  📝 Перенесено "’" из позиции 116 в позицию 115
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 116
+  📝 Перенесено "’" из позиции 128 в позицию 127
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 128
+  📝 Перенесено "’" из позиции 136 в позицию 135
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 136
+  📝 Перенесено "’" из позиции 149 в позицию 148
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 149
+  📝 Перенесено "’" из позиции 158 в позицию 157
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 158
+  📝 Перенесено "’" из позиции 163 в позицию 162
+     Было: " it’" | "’"
+     Стало: " it’" | ""
+  🗑️ Удаляем пустое слово на позиции 163
+  📝 Перенесено "," из позиции 169 в позицию 168
+     Было: " you," | ", baby"
+     Стало: " you," | " baby"
+  📝 Перенесено "’" из позиции 181 в позицию 180
+     Было: " “I’" | "’"
+     Стало: " “I’" | ""
+  🗑️ Удаляем пустое слово на позиции 181
+  📝 Перенесено "”" из позиции 184 в позицию 183
+     Было: " trying”" | "”
+With"
+     Стало: " trying”" | "
+With"
+  📝 Перенесено "”" из позиции 197 в позицию 196
+     Было: " myself”" | "”
+“This"
+     Стало: " myself”" | "
+“This"
+  📝 Перенесено "”" из позиции 203 в позицию 202
+     Было: " too”" | "”
+“Maybe"
+     Стало: " too”" | "
+“Maybe"
+  📝 Перенесено "”" из позиции 209 в позицию 208
+     Было: " out”" | "”
+
+[Chorus]
+Said"
+     Стало: " out”" | "
+
+[Chorus]
+Said"
+  📝 Перенесено "’" из позиции 234 в позицию 233
+     Было: " they’" | "’"
+     Стало: " they’" | ""
+  🗑️ Удаляем пустое слово на позиции 234
+  📝 Перенесено "’" из позиции 240 в позицию 239
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 240
+  📝 Перенесено "’" из позиции 265 в позицию 264
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 265
+  📝 Перенесено "’" из позиции 270 в позицию 269
+     Было: " can’" | "’"
+     Стало: " can’" | ""
+  🗑️ Удаляем пустое слово на позиции 270
+  📝 Перенесено "’" из позиции 275 в позицию 274
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 275
+  📝 Перенесено "’" из позиции 279 в позицию 278
+     Было: " who’" | "’"
+     Стало: " who’" | ""
+  🗑️ Удаляем пустое слово на позиции 279
+  📝 Перенесено "”" из позиции 287 в позицию 286
+     Было: " “forever”" | "” with"
+     Стало: " “forever”" | " with"
+  📝 Перенесено "’" из позиции 293 в позицию 292
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 293
+  📝 Перенесено "”" из позиции 310 в позицию 309
+     Было: " this”" | "”
+Said"
+     Стало: " this”" | "
+Said"
+  📝 Перенесено "’" из позиции 322 в позицию 321
+     Было: " we’" | "’"
+     Стало: " we’" | ""
+  🗑️ Удаляем пустое слово на позиции 322
+  📝 Перенесено "”" из позиции 325 в позицию 324
+     Было: " through”" | "”
+Said"
+     Стало: " through”" | "
+Said"
+  📝 Перенесено "’" из позиции 330 в позицию 329
+     Было: "
+Who’" | "’"
+     Стало: "
+Who’" | ""
+  🗑️ Удаляем пустое слово на позиции 330
+  📝 Перенесено "’" из позиции 338 в позицию 337
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 338
+  📝 Перенесено "’" из позиции 346 в позицию 345
+     Было: " we’" | "’"
+     Стало: " we’" | ""
+  🗑️ Удаляем пустое слово на позиции 346
+✅ Обработка закрывающих знаков препинания завершена
+
+Создан файл предварительной обработки: Never_Said-formatted.json
+
+🔍 Обрабатываем строку: "Standing in the kitchen at 2 AM"
+📍 Позиция alignmentPointer: 0
+  🔤 Проверяем слово: "[Verse 1]
+Standing" (clean: "Standing")
+  📝 Оставшаяся строка: remainingLine "Standing in the kitchen at 2 AM" startWith cleanWord Standing
+  ✅ Совпадение! Откусываем "Standing"
+  🔤 Проверяем слово: " in" (clean: " in")
+  📝 Оставшаяся строка: remainingLine " in the kitchen at 2 AM" startWith cleanWord  in
+  ✅ Совпадение! Откусываем " in"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the kitchen at 2 AM" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " kitchen" (clean: " kitchen")
+  📝 Оставшаяся строка: remainingLine " kitchen at 2 AM" startWith cleanWord  kitchen
+  ✅ Совпадение! Откусываем " kitchen"
+  🔤 Проверяем слово: " at" (clean: " at")
+  📝 Оставшаяся строка: remainingLine " at 2 AM" startWith cleanWord  at
+  ✅ Совпадение! Откусываем " at"
+  🔤 Проверяем слово: " 2 AM" (clean: " 2 AM")
+  📝 Оставшаяся строка: remainingLine " 2 AM" startWith cleanWord  2 AM
+  ✅ Совпадение! Откусываем " 2 AM"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Scrolling through your phone again"
+📍 Позиция alignmentPointer: 6
+  🔤 Проверяем слово: "
+Sc" (clean: "Sc")
+  📝 Оставшаяся строка: remainingLine "Scrolling through your phone again" startWith cleanWord Sc
+  ✅ Совпадение! Откусываем "Sc"
+  🔤 Проверяем слово: "roll" (clean: "roll")
+  📝 Оставшаяся строка: remainingLine "rolling through your phone again" startWith cleanWord roll
+  ✅ Совпадение! Откусываем "roll"
+  🔤 Проверяем слово: "ing" (clean: "ing")
+  📝 Оставшаяся строка: remainingLine "ing through your phone again" startWith cleanWord ing
+  ✅ Совпадение! Откусываем "ing"
+  🔤 Проверяем слово: " through" (clean: " through")
+  📝 Оставшаяся строка: remainingLine " through your phone again" startWith cleanWord  through
+  ✅ Совпадение! Откусываем " through"
+  🔤 Проверяем слово: " your" (clean: " your")
+  📝 Оставшаяся строка: remainingLine " your phone again" startWith cleanWord  your
+  ✅ Совпадение! Откусываем " your"
+  🔤 Проверяем слово: " phone" (clean: " phone")
+  📝 Оставшаяся строка: remainingLine " phone again" startWith cleanWord  phone
+  ✅ Совпадение! Откусываем " phone"
+  🔤 Проверяем слово: " again" (clean: " again")
+  📝 Оставшаяся строка: remainingLine " again" startWith cleanWord  again
+  ✅ Совпадение! Откусываем " again"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "While I'm talking 'bout our plans"
+📍 Позиция alignmentPointer: 13
+  🔤 Проверяем слово: "
+While" (clean: "While")
+  📝 Оставшаяся строка: remainingLine "While I'm talking 'bout our plans" startWith cleanWord While
+  ✅ Совпадение! Откусываем "While"
+  🔤 Проверяем слово: " I’m" (clean: " I'm")
+  📝 Оставшаяся строка: remainingLine " I'm talking 'bout our plans" startWith cleanWord  I'm
+  ✅ Совпадение! Откусываем " I'm"
+  🔤 Проверяем слово: " talking ‘" (clean: " talking '")
+  📝 Оставшаяся строка: remainingLine " talking 'bout our plans" startWith cleanWord  talking '
+  ✅ Совпадение! Откусываем " talking '"
+  🔤 Проверяем слово: "bout" (clean: "bout")
+  📝 Оставшаяся строка: remainingLine "bout our plans" startWith cleanWord bout
+  ✅ Совпадение! Откусываем "bout"
+  🔤 Проверяем слово: " our" (clean: " our")
+  📝 Оставшаяся строка: remainingLine " our plans" startWith cleanWord  our
+  ✅ Совпадение! Откусываем " our"
+  🔤 Проверяем слово: " plans" (clean: " plans")
+  📝 Оставшаяся строка: remainingLine " plans" startWith cleanWord  plans
+  ✅ Совпадение! Откусываем " plans"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But my words just hit the air"
+📍 Позиция alignmentPointer: 19
+  🔤 Проверяем слово: "
+But" (clean: "But")
+  📝 Оставшаяся строка: remainingLine "But my words just hit the air" startWith cleanWord But
+  ✅ Совпадение! Откусываем "But"
+  🔤 Проверяем слово: " my" (clean: " my")
+  📝 Оставшаяся строка: remainingLine " my words just hit the air" startWith cleanWord  my
+  ✅ Совпадение! Откусываем " my"
+  🔤 Проверяем слово: " words" (clean: " words")
+  📝 Оставшаяся строка: remainingLine " words just hit the air" startWith cleanWord  words
+  ✅ Совпадение! Откусываем " words"
+  🔤 Проверяем слово: " just" (clean: " just")
+  📝 Оставшаяся строка: remainingLine " just hit the air" startWith cleanWord  just
+  ✅ Совпадение! Откусываем " just"
+  🔤 Проверяем слово: " hit" (clean: " hit")
+  📝 Оставшаяся строка: remainingLine " hit the air" startWith cleanWord  hit
+  ✅ Совпадение! Откусываем " hit"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the air" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " air" (clean: " air")
+  📝 Оставшаяся строка: remainingLine " air" startWith cleanWord  air
+  ✅ Совпадение! Откусываем " air"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you, is it?"
+📍 Позиция alignmentPointer: 26
+  🔤 Проверяем слово: "
+It’s" (clean: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you, is it?" startWith cleanWord It's
+  ✅ Совпадение! Откусываем "It's"
+  🔤 Проверяем слово: " not" (clean: " not")
+  📝 Оставшаяся строка: remainingLine " not clocking to you, is it?" startWith cleanWord  not
+  ✅ Совпадение! Откусываем " not"
+  🔤 Проверяем слово: " clock" (clean: " clock")
+  📝 Оставшаяся строка: remainingLine " clocking to you, is it?" startWith cleanWord  clock
+  ✅ Совпадение! Откусываем " clock"
+  🔤 Проверяем слово: "ing" (clean: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you, is it?" startWith cleanWord ing
+  ✅ Совпадение! Откусываем "ing"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to you, is it?" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " you," (clean: " you,")
+  📝 Оставшаяся строка: remainingLine " you, is it?" startWith cleanWord  you,
+  ✅ Совпадение! Откусываем " you,"
+  🔤 Проверяем слово: " is" (clean: " is")
+  📝 Оставшаяся строка: remainingLine " is it?" startWith cleanWord  is
+  ✅ Совпадение! Откусываем " is"
+  🔤 Проверяем слово: " it?" (clean: " it?")
+  📝 Оставшаяся строка: remainingLine " it?" startWith cleanWord  it?
+  ✅ Совпадение! Откусываем " it?"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "How I'm breaking piece by piece"
+📍 Позиция alignmentPointer: 34
+  🔤 Проверяем слово: "
+How" (clean: "How")
+  📝 Оставшаяся строка: remainingLine "How I'm breaking piece by piece" startWith cleanWord How
+  ✅ Совпадение! Откусываем "How"
+  🔤 Проверяем слово: " I’m" (clean: " I'm")
+  📝 Оставшаяся строка: remainingLine " I'm breaking piece by piece" startWith cleanWord  I'm
+  ✅ Совпадение! Откусываем " I'm"
+  🔤 Проверяем слово: " breaking" (clean: " breaking")
+  📝 Оставшаяся строка: remainingLine " breaking piece by piece" startWith cleanWord  breaking
+  ✅ Совпадение! Откусываем " breaking"
+  🔤 Проверяем слово: " piece" (clean: " piece")
+  📝 Оставшаяся строка: remainingLine " piece by piece" startWith cleanWord  piece
+  ✅ Совпадение! Откусываем " piece"
+  🔤 Проверяем слово: " by" (clean: " by")
+  📝 Оставшаяся строка: remainingLine " by piece" startWith cleanWord  by
+  ✅ Совпадение! Откусываем " by"
+  🔤 Проверяем слово: " piece" (clean: " piece")
+  📝 Оставшаяся строка: remainingLine " piece" startWith cleanWord  piece
+  ✅ Совпадение! Откусываем " piece"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "While you nod and say "I'm listening""
+📍 Позиция alignmentPointer: 40
+  🔤 Проверяем слово: "
+While" (clean: "While")
+  📝 Оставшаяся строка: remainingLine "While you nod and say "I'm listening"" startWith cleanWord While
+  ✅ Совпадение! Откусываем "While"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you nod and say "I'm listening"" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+  🔤 Проверяем слово: " nod" (clean: " nod")
+  📝 Оставшаяся строка: remainingLine " nod and say "I'm listening"" startWith cleanWord  nod
+  ✅ Совпадение! Откусываем " nod"
+  🔤 Проверяем слово: " and" (clean: " and")
+  📝 Оставшаяся строка: remainingLine " and say "I'm listening"" startWith cleanWord  and
+  ✅ Совпадение! Откусываем " and"
+  🔤 Проверяем слово: " say" (clean: " say")
+  📝 Оставшаяся строка: remainingLine " say "I'm listening"" startWith cleanWord  say
+  ✅ Совпадение! Откусываем " say"
+  🔤 Проверяем слово: " “I’m" (clean: " "I'm")
+  📝 Оставшаяся строка: remainingLine " "I'm listening"" startWith cleanWord  "I'm
+  ✅ Совпадение! Откусываем " "I'm"
+  🔤 Проверяем слово: " listening”" (clean: " listening"")
+  📝 Оставшаяся строка: remainingLine " listening"" startWith cleanWord  listening"
+  ✅ Совпадение! Откусываем " listening""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But your mind's already released"
+📍 Позиция alignmentPointer: 47
+  🔤 Проверяем слово: "
+But" (clean: "But")
+  📝 Оставшаяся строка: remainingLine "But your mind's already released" startWith cleanWord But
+  ✅ Совпадение! Откусываем "But"
+  🔤 Проверяем слово: " your" (clean: " your")
+  📝 Оставшаяся строка: remainingLine " your mind's already released" startWith cleanWord  your
+  ✅ Совпадение! Откусываем " your"
+  🔤 Проверяем слово: " mind’s" (clean: " mind's")
+  📝 Оставшаяся строка: remainingLine " mind's already released" startWith cleanWord  mind's
+  ✅ Совпадение! Откусываем " mind's"
+  🔤 Проверяем слово: " already" (clean: " already")
+  📝 Оставшаяся строка: remainingLine " already released" startWith cleanWord  already
+  ✅ Совпадение! Откусываем " already"
+  🔤 Проверяем слово: " rele" (clean: " rele")
+  📝 Оставшаяся строка: remainingLine " released" startWith cleanWord  rele
+  ✅ Совпадение! Откусываем " rele"
+  🔤 Проверяем слово: "ased" (clean: "ased")
+  📝 Оставшаяся строка: remainingLine "ased" startWith cleanWord ased
+  ✅ Совпадение! Откусываем "ased"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""This relationship means everything to me""
+📍 Позиция alignmentPointer: 53
+  🔤 Проверяем слово: "
+
+[Pre-Chorus]
+“This" (clean: ""This")
+  📝 Оставшаяся строка: remainingLine ""This relationship means everything to me"" startWith cleanWord "This
+  ✅ Совпадение! Откусываем ""This"
+  🔤 Проверяем слово: " relation" (clean: " relation")
+  📝 Оставшаяся строка: remainingLine " relationship means everything to me"" startWith cleanWord  relation
+  ✅ Совпадение! Откусываем " relation"
+  🔤 Проверяем слово: "ship" (clean: "ship")
+  📝 Оставшаяся строка: remainingLine "ship means everything to me"" startWith cleanWord ship
+  ✅ Совпадение! Откусываем "ship"
+  🔤 Проверяем слово: " means" (clean: " means")
+  📝 Оставшаяся строка: remainingLine " means everything to me"" startWith cleanWord  means
+  ✅ Совпадение! Откусываем " means"
+  🔤 Проверяем слово: " everything" (clean: " everything")
+  📝 Оставшаяся строка: remainingLine " everything to me"" startWith cleanWord  everything
+  ✅ Совпадение! Откусываем " everything"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to me"" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " me”" (clean: " me"")
+  📝 Оставшаяся строка: remainingLine " me"" startWith cleanWord  me"
+  ✅ Совпадение! Откусываем " me""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""I've never felt this way before""
+📍 Позиция alignmentPointer: 60
+  🔤 Проверяем слово: "
+“I’" (clean: ""I'")
+  📝 Оставшаяся строка: remainingLine ""I've never felt this way before"" startWith cleanWord "I'
+  ✅ Совпадение! Откусываем ""I'"
+  🔤 Проверяем слово: "ve" (clean: "ve")
+  📝 Оставшаяся строка: remainingLine "ve never felt this way before"" startWith cleanWord ve
+  ✅ Совпадение! Откусываем "ve"
+  🔤 Проверяем слово: " never" (clean: " never")
+  📝 Оставшаяся строка: remainingLine " never felt this way before"" startWith cleanWord  never
+  ✅ Совпадение! Откусываем " never"
+  🔤 Проверяем слово: " felt" (clean: " felt")
+  📝 Оставшаяся строка: remainingLine " felt this way before"" startWith cleanWord  felt
+  ✅ Совпадение! Откусываем " felt"
+  🔤 Проверяем слово: " this" (clean: " this")
+  📝 Оставшаяся строка: remainingLine " this way before"" startWith cleanWord  this
+  ✅ Совпадение! Откусываем " this"
+  🔤 Проверяем слово: " way" (clean: " way")
+  📝 Оставшаяся строка: remainingLine " way before"" startWith cleanWord  way
+  ✅ Совпадение! Откусываем " way"
+  🔤 Проверяем слово: " before”" (clean: " before"")
+  📝 Оставшаяся строка: remainingLine " before"" startWith cleanWord  before"
+  ✅ Совпадение! Откусываем " before""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""We should talk about our future""
+📍 Позиция alignmentPointer: 67
+  🔤 Проверяем слово: "
+“We" (clean: ""We")
+  📝 Оставшаяся строка: remainingLine ""We should talk about our future"" startWith cleanWord "We
+  ✅ Совпадение! Откусываем ""We"
+  🔤 Проверяем слово: " should" (clean: " should")
+  📝 Оставшаяся строка: remainingLine " should talk about our future"" startWith cleanWord  should
+  ✅ Совпадение! Откусываем " should"
+  🔤 Проверяем слово: " talk" (clean: " talk")
+  📝 Оставшаяся строка: remainingLine " talk about our future"" startWith cleanWord  talk
+  ✅ Совпадение! Откусываем " talk"
+  🔤 Проверяем слово: " about" (clean: " about")
+  📝 Оставшаяся строка: remainingLine " about our future"" startWith cleanWord  about
+  ✅ Совпадение! Откусываем " about"
+  🔤 Проверяем слово: " our" (clean: " our")
+  📝 Оставшаяся строка: remainingLine " our future"" startWith cleanWord  our
+  ✅ Совпадение! Откусываем " our"
+  🔤 Проверяем слово: " future”" (clean: " future"")
+  📝 Оставшаяся строка: remainingLine " future"" startWith cleanWord  future"
+  ✅ Совпадение! Откусываем " future""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 73
+  🔤 Проверяем слово: "
+
+[Chorus]
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 77
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who was checking out"
+📍 Позиция alignmentPointer: 81
+  🔤 Проверяем слово: "
+Who" (clean: "Who")
+  📝 Оставшаяся строка: remainingLine "Who was checking out" startWith cleanWord Who
+  ✅ Совпадение! Откусываем "Who"
+  🔤 Проверяем слово: " was" (clean: " was")
+  📝 Оставшаяся строка: remainingLine " was checking out" startWith cleanWord  was
+  ✅ Совпадение! Откусываем " was"
+  🔤 Проверяем слово: " check" (clean: " check")
+  📝 Оставшаяся строка: remainingLine " checking out" startWith cleanWord  check
+  ✅ Совпадение! Откусываем " check"
+  🔤 Проверяем слово: "ing" (clean: "ing")
+  📝 Оставшаяся строка: remainingLine "ing out" startWith cleanWord ing
+  ✅ Совпадение! Откусываем "ing"
+  🔤 Проверяем слово: " out" (clean: " out")
+  📝 Оставшаяся строка: remainingLine " out" startWith cleanWord  out
+  ✅ Совпадение! Откусываем " out"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 86
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 90
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "When love turned to doubt"
+📍 Позиция alignmentPointer: 94
+  🔤 Проверяем слово: "
+When" (clean: "When")
+  📝 Оставшаяся строка: remainingLine "When love turned to doubt" startWith cleanWord When
+  ✅ Совпадение! Откусываем "When"
+  🔤 Проверяем слово: " love" (clean: " love")
+  📝 Оставшаяся строка: remainingLine " love turned to doubt" startWith cleanWord  love
+  ✅ Совпадение! Откусываем " love"
+  🔤 Проверяем слово: " turned" (clean: " turned")
+  📝 Оставшаяся строка: remainingLine " turned to doubt" startWith cleanWord  turned
+  ✅ Совпадение! Откусываем " turned"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to doubt" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " doubt" (clean: " doubt")
+  📝 Оставшаяся строка: remainingLine " doubt" startWith cleanWord  doubt
+  ✅ Совпадение! Откусываем " doubt"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you"
+📍 Позиция alignmentPointer: 99
+  🔤 Проверяем слово: "
+It’s" (clean: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you" startWith cleanWord It's
+  ✅ Совпадение! Откусываем "It's"
+  🔤 Проверяем слово: " not" (clean: " not")
+  📝 Оставшаяся строка: remainingLine " not clocking to you" startWith cleanWord  not
+  ✅ Совпадение! Откусываем " not"
+  🔤 Проверяем слово: " clock" (clean: " clock")
+  📝 Оставшаяся строка: remainingLine " clocking to you" startWith cleanWord  clock
+  ✅ Совпадение! Откусываем " clock"
+  🔤 Проверяем слово: "ing" (clean: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you" startWith cleanWord ing
+  ✅ Совпадение! Откусываем "ing"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to you" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "That I'm already gone"
+📍 Позиция alignmentPointer: 105
+  🔤 Проверяем слово: "
+That" (clean: "That")
+  📝 Оставшаяся строка: remainingLine "That I'm already gone" startWith cleanWord That
+  ✅ Совпадение! Откусываем "That"
+  🔤 Проверяем слово: " I’m" (clean: " I'm")
+  📝 Оставшаяся строка: remainingLine " I'm already gone" startWith cleanWord  I'm
+  ✅ Совпадение! Откусываем " I'm"
+  🔤 Проверяем слово: " already" (clean: " already")
+  📝 Оставшаяся строка: remainingLine " already gone" startWith cleanWord  already
+  ✅ Совпадение! Откусываем " already"
+  🔤 Проверяем слово: " gone" (clean: " gone")
+  📝 Оставшаяся строка: remainingLine " gone" startWith cleanWord  gone
+  ✅ Совпадение! Откусываем " gone"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 109
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Never said those words you're thinking of"
+📍 Позиция alignmentPointer: 113
+  🔤 Проверяем слово: "
+Never" (clean: "Never")
+  📝 Оставшаяся строка: remainingLine "Never said those words you're thinking of" startWith cleanWord Never
+  ✅ Совпадение! Откусываем "Never"
+  🔤 Проверяем слово: " said" (clean: " said")
+  📝 Оставшаяся строка: remainingLine " said those words you're thinking of" startWith cleanWord  said
+  ✅ Совпадение! Откусываем " said"
+  🔤 Проверяем слово: " those" (clean: " those")
+  📝 Оставшаяся строка: remainingLine " those words you're thinking of" startWith cleanWord  those
+  ✅ Совпадение! Откусываем " those"
+  🔤 Проверяем слово: " words" (clean: " words")
+  📝 Оставшаяся строка: remainingLine " words you're thinking of" startWith cleanWord  words
+  ✅ Совпадение! Откусываем " words"
+  🔤 Проверяем слово: " you’" (clean: " you'")
+  📝 Оставшаяся строка: remainingLine " you're thinking of" startWith cleanWord  you'
+  ✅ Совпадение! Откусываем " you'"
+  🔤 Проверяем слово: "re" (clean: "re")
+  📝 Оставшаяся строка: remainingLine "re thinking of" startWith cleanWord re
+  ✅ Совпадение! Откусываем "re"
+  🔤 Проверяем слово: " thinking" (clean: " thinking")
+  📝 Оставшаяся строка: remainingLine " thinking of" startWith cleanWord  thinking
+  ✅ Совпадение! Откусываем " thinking"
+  🔤 Проверяем слово: " of" (clean: " of")
+  📝 Оставшаяся строка: remainingLine " of" startWith cleanWord  of
+  ✅ Совпадение! Откусываем " of"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Coffee dates where you're explaining"
+📍 Позиция alignmentPointer: 121
+  🔤 Проверяем слово: "
+
+[Verse 2]
+Coffee" (clean: "Coffee")
+  📝 Оставшаяся строка: remainingLine "Coffee dates where you're explaining" startWith cleanWord Coffee
+  ✅ Совпадение! Откусываем "Coffee"
+  🔤 Проверяем слово: " dat" (clean: " dat")
+  📝 Оставшаяся строка: remainingLine " dates where you're explaining" startWith cleanWord  dat
+  ✅ Совпадение! Откусываем " dat"
+  🔤 Проверяем слово: "es" (clean: "es")
+  📝 Оставшаяся строка: remainingLine "es where you're explaining" startWith cleanWord es
+  ✅ Совпадение! Откусываем "es"
+  🔤 Проверяем слово: " where" (clean: " where")
+  📝 Оставшаяся строка: remainingLine " where you're explaining" startWith cleanWord  where
+  ✅ Совпадение! Откусываем " where"
+  🔤 Проверяем слово: " you’" (clean: " you'")
+  📝 Оставшаяся строка: remainingLine " you're explaining" startWith cleanWord  you'
+  ✅ Совпадение! Откусываем " you'"
+  🔤 Проверяем слово: "re" (clean: "re")
+  📝 Оставшаяся строка: remainingLine "re explaining" startWith cleanWord re
+  ✅ Совпадение! Откусываем "re"
+  🔤 Проверяем слово: " exp" (clean: " exp")
+  📝 Оставшаяся строка: remainingLine " explaining" startWith cleanWord  exp
+  ✅ Совпадение! Откусываем " exp"
+  🔤 Проверяем слово: "la" (clean: "la")
+  📝 Оставшаяся строка: remainingLine "laining" startWith cleanWord la
+  ✅ Совпадение! Откусываем "la"
+  🔤 Проверяем слово: "ining" (clean: "ining")
+  📝 Оставшаяся строка: remainingLine "ining" startWith cleanWord ining
+  ✅ Совпадение! Откусываем "ining"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Why you need more time to think"
+📍 Позиция alignmentPointer: 130
+  🔤 Проверяем слово: "
+Why" (clean: "Why")
+  📝 Оставшаяся строка: remainingLine "Why you need more time to think" startWith cleanWord Why
+  ✅ Совпадение! Откусываем "Why"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you need more time to think" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+  🔤 Проверяем слово: " need" (clean: " need")
+  📝 Оставшаяся строка: remainingLine " need more time to think" startWith cleanWord  need
+  ✅ Совпадение! Откусываем " need"
+  🔤 Проверяем слово: " more" (clean: " more")
+  📝 Оставшаяся строка: remainingLine " more time to think" startWith cleanWord  more
+  ✅ Совпадение! Откусываем " more"
+  🔤 Проверяем слово: " time" (clean: " time")
+  📝 Оставшаяся строка: remainingLine " time to think" startWith cleanWord  time
+  ✅ Совпадение! Откусываем " time"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to think" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " think" (clean: " think")
+  📝 Оставшаяся строка: remainingLine " think" startWith cleanWord  think
+  ✅ Совпадение! Откусываем " think"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "While I'm drowning in the silence"
+📍 Позиция alignmentPointer: 137
+  🔤 Проверяем слово: "
+While" (clean: "While")
+  📝 Оставшаяся строка: remainingLine "While I'm drowning in the silence" startWith cleanWord While
+  ✅ Совпадение! Откусываем "While"
+  🔤 Проверяем слово: " I’m" (clean: " I'm")
+  📝 Оставшаяся строка: remainingLine " I'm drowning in the silence" startWith cleanWord  I'm
+  ✅ Совпадение! Откусываем " I'm"
+  🔤 Проверяем слово: " drowning" (clean: " drowning")
+  📝 Оставшаяся строка: remainingLine " drowning in the silence" startWith cleanWord  drowning
+  ✅ Совпадение! Откусываем " drowning"
+  🔤 Проверяем слово: " in" (clean: " in")
+  📝 Оставшаяся строка: remainingLine " in the silence" startWith cleanWord  in
+  ✅ Совпадение! Откусываем " in"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the silence" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " silence" (clean: " silence")
+  📝 Оставшаяся строка: remainingLine " silence" startWith cleanWord  silence
+  ✅ Совпадение! Откусываем " silence"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Of the truth you'll never speak"
+📍 Позиция alignmentPointer: 143
+  🔤 Проверяем слово: "
+Of" (clean: "Of")
+  📝 Оставшаяся строка: remainingLine "Of the truth you'll never speak" startWith cleanWord Of
+  ✅ Совпадение! Откусываем "Of"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the truth you'll never speak" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " truth" (clean: " truth")
+  📝 Оставшаяся строка: remainingLine " truth you'll never speak" startWith cleanWord  truth
+  ✅ Совпадение! Откусываем " truth"
+  🔤 Проверяем слово: " you’" (clean: " you'")
+  📝 Оставшаяся строка: remainingLine " you'll never speak" startWith cleanWord  you'
+  ✅ Совпадение! Откусываем " you'"
+  🔤 Проверяем слово: "ll" (clean: "ll")
+  📝 Оставшаяся строка: remainingLine "ll never speak" startWith cleanWord ll
+  ✅ Совпадение! Откусываем "ll"
+  🔤 Проверяем слово: " never" (clean: " never")
+  📝 Оставшаяся строка: remainingLine " never speak" startWith cleanWord  never
+  ✅ Совпадение! Откусываем " never"
+  🔤 Проверяем слово: " speak" (clean: " speak")
+  📝 Оставшаяся строка: remainingLine " speak" startWith cleanWord  speak
+  ✅ Совпадение! Откусываем " speak"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But it's not clocking to you, baby"
+📍 Позиция alignmentPointer: 150
+  🔤 Проверяем слово: "
+But" (clean: "But")
+  📝 Оставшаяся строка: remainingLine "But it's not clocking to you, baby" startWith cleanWord But
+  ✅ Совпадение! Откусываем "But"
+  🔤 Проверяем слово: " it’s" (clean: " it's")
+  📝 Оставшаяся строка: remainingLine " it's not clocking to you, baby" startWith cleanWord  it's
+  ✅ Совпадение! Откусываем " it's"
+  🔤 Проверяем слово: " not" (clean: " not")
+  📝 Оставшаяся строка: remainingLine " not clocking to you, baby" startWith cleanWord  not
+  ✅ Совпадение! Откусываем " not"
+  🔤 Проверяем слово: " clock" (clean: " clock")
+  📝 Оставшаяся строка: remainingLine " clocking to you, baby" startWith cleanWord  clock
+  ✅ Совпадение! Откусываем " clock"
+  🔤 Проверяем слово: "ing" (clean: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you, baby" startWith cleanWord ing
+  ✅ Совпадение! Откусываем "ing"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to you, baby" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " you," (clean: " you,")
+  📝 Оставшаяся строка: remainingLine " you, baby" startWith cleanWord  you,
+  ✅ Совпадение! Откусываем " you,"
+  🔤 Проверяем слово: " baby" (clean: " baby")
+  📝 Оставшаяся строка: remainingLine " baby" startWith cleanWord  baby
+  ✅ Совпадение! Откусываем " baby"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "How these excuses taste like lies"
+📍 Позиция alignmentPointer: 158
+  🔤 Проверяем слово: "
+How" (clean: "How")
+  📝 Оставшаяся строка: remainingLine "How these excuses taste like lies" startWith cleanWord How
+  ✅ Совпадение! Откусываем "How"
+  🔤 Проверяем слово: " these" (clean: " these")
+  📝 Оставшаяся строка: remainingLine " these excuses taste like lies" startWith cleanWord  these
+  ✅ Совпадение! Откусываем " these"
+  🔤 Проверяем слово: " excus" (clean: " excus")
+  📝 Оставшаяся строка: remainingLine " excuses taste like lies" startWith cleanWord  excus
+  ✅ Совпадение! Откусываем " excus"
+  🔤 Проверяем слово: "es" (clean: "es")
+  📝 Оставшаяся строка: remainingLine "es taste like lies" startWith cleanWord es
+  ✅ Совпадение! Откусываем "es"
+  🔤 Проверяем слово: " taste" (clean: " taste")
+  📝 Оставшаяся строка: remainingLine " taste like lies" startWith cleanWord  taste
+  ✅ Совпадение! Откусываем " taste"
+  🔤 Проверяем слово: " like" (clean: " like")
+  📝 Оставшаяся строка: remainingLine " like lies" startWith cleanWord  like
+  ✅ Совпадение! Откусываем " like"
+  🔤 Проверяем слово: " lies" (clean: " lies")
+  📝 Оставшаяся строка: remainingLine " lies" startWith cleanWord  lies
+  ✅ Совпадение! Откусываем " lies"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "When you say "I'm really trying""
+📍 Позиция alignmentPointer: 165
+  🔤 Проверяем слово: "
+When" (clean: "When")
+  📝 Оставшаяся строка: remainingLine "When you say "I'm really trying"" startWith cleanWord When
+  ✅ Совпадение! Откусываем "When"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you say "I'm really trying"" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+  🔤 Проверяем слово: " say" (clean: " say")
+  📝 Оставшаяся строка: remainingLine " say "I'm really trying"" startWith cleanWord  say
+  ✅ Совпадение! Откусываем " say"
+  🔤 Проверяем слово: " “I’m" (clean: " "I'm")
+  📝 Оставшаяся строка: remainingLine " "I'm really trying"" startWith cleanWord  "I'm
+  ✅ Совпадение! Откусываем " "I'm"
+  🔤 Проверяем слово: " really" (clean: " really")
+  📝 Оставшаяся строка: remainingLine " really trying"" startWith cleanWord  really
+  ✅ Совпадение! Откусываем " really"
+  🔤 Проверяем слово: " trying”" (clean: " trying"")
+  📝 Оставшаяся строка: remainingLine " trying"" startWith cleanWord  trying"
+  ✅ Совпадение! Откусываем " trying""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "With distraction in your eyes"
+📍 Позиция alignmentPointer: 171
+  🔤 Проверяем слово: "
+With" (clean: "With")
+  📝 Оставшаяся строка: remainingLine "With distraction in your eyes" startWith cleanWord With
+  ✅ Совпадение! Откусываем "With"
+  🔤 Проверяем слово: " distra" (clean: " distra")
+  📝 Оставшаяся строка: remainingLine " distraction in your eyes" startWith cleanWord  distra
+  ✅ Совпадение! Откусываем " distra"
+  🔤 Проверяем слово: "ction" (clean: "ction")
+  📝 Оставшаяся строка: remainingLine "ction in your eyes" startWith cleanWord ction
+  ✅ Совпадение! Откусываем "ction"
+  🔤 Проверяем слово: " in" (clean: " in")
+  📝 Оставшаяся строка: remainingLine " in your eyes" startWith cleanWord  in
+  ✅ Совпадение! Откусываем " in"
+  🔤 Проверяем слово: " your" (clean: " your")
+  📝 Оставшаяся строка: remainingLine " your eyes" startWith cleanWord  your
+  ✅ Совпадение! Откусываем " your"
+  🔤 Проверяем слово: " eyes" (clean: " eyes")
+  📝 Оставшаяся строка: remainingLine " eyes" startWith cleanWord  eyes
+  ✅ Совпадение! Откусываем " eyes"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""I just need space to find myself""
+📍 Позиция alignmentPointer: 177
+  🔤 Проверяем слово: "
+
+[Pre-Chorus]
+“I" (clean: ""I")
+  📝 Оставшаяся строка: remainingLine ""I just need space to find myself"" startWith cleanWord "I
+  ✅ Совпадение! Откусываем ""I"
+  🔤 Проверяем слово: " just" (clean: " just")
+  📝 Оставшаяся строка: remainingLine " just need space to find myself"" startWith cleanWord  just
+  ✅ Совпадение! Откусываем " just"
+  🔤 Проверяем слово: " need" (clean: " need")
+  📝 Оставшаяся строка: remainingLine " need space to find myself"" startWith cleanWord  need
+  ✅ Совпадение! Откусываем " need"
+  🔤 Проверяем слово: " space" (clean: " space")
+  📝 Оставшаяся строка: remainingLine " space to find myself"" startWith cleanWord  space
+  ✅ Совпадение! Откусываем " space"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to find myself"" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " find" (clean: " find")
+  📝 Оставшаяся строка: remainingLine " find myself"" startWith cleanWord  find
+  ✅ Совпадение! Откусываем " find"
+  🔤 Проверяем слово: " myself”" (clean: " myself"")
+  📝 Оставшаяся строка: remainingLine " myself"" startWith cleanWord  myself"
+  ✅ Совпадение! Откусываем " myself""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""This is harder on me too""
+📍 Позиция alignmentPointer: 184
+  🔤 Проверяем слово: "
+“This" (clean: ""This")
+  📝 Оставшаяся строка: remainingLine ""This is harder on me too"" startWith cleanWord "This
+  ✅ Совпадение! Откусываем ""This"
+  🔤 Проверяем слово: " is" (clean: " is")
+  📝 Оставшаяся строка: remainingLine " is harder on me too"" startWith cleanWord  is
+  ✅ Совпадение! Откусываем " is"
+  🔤 Проверяем слово: " harder" (clean: " harder")
+  📝 Оставшаяся строка: remainingLine " harder on me too"" startWith cleanWord  harder
+  ✅ Совпадение! Откусываем " harder"
+  🔤 Проверяем слово: " on" (clean: " on")
+  📝 Оставшаяся строка: remainingLine " on me too"" startWith cleanWord  on
+  ✅ Совпадение! Откусываем " on"
+  🔤 Проверяем слово: " me" (clean: " me")
+  📝 Оставшаяся строка: remainingLine " me too"" startWith cleanWord  me
+  ✅ Совпадение! Откусываем " me"
+  🔤 Проверяем слово: " too”" (clean: " too"")
+  📝 Оставшаяся строка: remainingLine " too"" startWith cleanWord  too"
+  ✅ Совпадение! Откусываем " too""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""Maybe we can work this out""
+📍 Позиция alignmentPointer: 190
+  🔤 Проверяем слово: "
+“Maybe" (clean: ""Maybe")
+  📝 Оставшаяся строка: remainingLine ""Maybe we can work this out"" startWith cleanWord "Maybe
+  ✅ Совпадение! Откусываем ""Maybe"
+  🔤 Проверяем слово: " we" (clean: " we")
+  📝 Оставшаяся строка: remainingLine " we can work this out"" startWith cleanWord  we
+  ✅ Совпадение! Откусываем " we"
+  🔤 Проверяем слово: " can" (clean: " can")
+  📝 Оставшаяся строка: remainingLine " can work this out"" startWith cleanWord  can
+  ✅ Совпадение! Откусываем " can"
+  🔤 Проверяем слово: " work" (clean: " work")
+  📝 Оставшаяся строка: remainingLine " work this out"" startWith cleanWord  work
+  ✅ Совпадение! Откусываем " work"
+  🔤 Проверяем слово: " this" (clean: " this")
+  📝 Оставшаяся строка: remainingLine " this out"" startWith cleanWord  this
+  ✅ Совпадение! Откусываем " this"
+  🔤 Проверяем слово: " out”" (clean: " out"")
+  📝 Оставшаяся строка: remainingLine " out"" startWith cleanWord  out"
+  ✅ Совпадение! Откусываем " out""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 196
+  🔤 Проверяем слово: "
+
+[Chorus]
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 200
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who was halfway out the door"
+📍 Позиция alignmentPointer: 204
+  🔤 Проверяем слово: "
+Who" (clean: "Who")
+  📝 Оставшаяся строка: remainingLine "Who was halfway out the door" startWith cleanWord Who
+  ✅ Совпадение! Откусываем "Who"
+  🔤 Проверяем слово: " was" (clean: " was")
+  📝 Оставшаяся строка: remainingLine " was halfway out the door" startWith cleanWord  was
+  ✅ Совпадение! Откусываем " was"
+  🔤 Проверяем слово: " half" (clean: " half")
+  📝 Оставшаяся строка: remainingLine " halfway out the door" startWith cleanWord  half
+  ✅ Совпадение! Откусываем " half"
+  🔤 Проверяем слово: "way" (clean: "way")
+  📝 Оставшаяся строка: remainingLine "way out the door" startWith cleanWord way
+  ✅ Совпадение! Откусываем "way"
+  🔤 Проверяем слово: " out" (clean: " out")
+  📝 Оставшаяся строка: remainingLine " out the door" startWith cleanWord  out
+  ✅ Совпадение! Откусываем " out"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the door" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " door" (clean: " door")
+  📝 Оставшаяся строка: remainingLine " door" startWith cleanWord  door
+  ✅ Совпадение! Откусываем " door"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 211
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 215
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "When they'd already found something more"
+📍 Позиция alignmentPointer: 219
+  🔤 Проверяем слово: "
+When" (clean: "When")
+  📝 Оставшаяся строка: remainingLine "When they'd already found something more" startWith cleanWord When
+  ✅ Совпадение! Откусываем "When"
+  🔤 Проверяем слово: " they’d" (clean: " they'd")
+  📝 Оставшаяся строка: remainingLine " they'd already found something more" startWith cleanWord  they'd
+  ✅ Совпадение! Откусываем " they'd"
+  🔤 Проверяем слово: " already" (clean: " already")
+  📝 Оставшаяся строка: remainingLine " already found something more" startWith cleanWord  already
+  ✅ Совпадение! Откусываем " already"
+  🔤 Проверяем слово: " found" (clean: " found")
+  📝 Оставшаяся строка: remainingLine " found something more" startWith cleanWord  found
+  ✅ Совпадение! Откусываем " found"
+  🔤 Проверяем слово: " something" (clean: " something")
+  📝 Оставшаяся строка: remainingLine " something more" startWith cleanWord  something
+  ✅ Совпадение! Откусываем " something"
+  🔤 Проверяем слово: " more" (clean: " more")
+  📝 Оставшаяся строка: remainingLine " more" startWith cleanWord  more
+  ✅ Совпадение! Откусываем " more"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you"
+📍 Позиция alignmentPointer: 225
+  🔤 Проверяем слово: "
+It’s" (clean: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you" startWith cleanWord It's
+  ✅ Совпадение! Откусываем "It's"
+  🔤 Проверяем слово: " not" (clean: " not")
+  📝 Оставшаяся строка: remainingLine " not clocking to you" startWith cleanWord  not
+  ✅ Совпадение! Откусываем " not"
+  🔤 Проверяем слово: " clock" (clean: " clock")
+  📝 Оставшаяся строка: remainingLine " clocking to you" startWith cleanWord  clock
+  ✅ Совпадение! Откусываем " clock"
+  🔤 Проверяем слово: "ing" (clean: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you" startWith cleanWord ing
+  ✅ Совпадение! Откусываем "ing"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to you" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "That I see through it all"
+📍 Позиция alignmentPointer: 231
+  🔤 Проверяем слово: "
+That I" (clean: "That I")
+  📝 Оставшаяся строка: remainingLine "That I see through it all" startWith cleanWord That I
+  ✅ Совпадение! Откусываем "That I"
+  🔤 Проверяем слово: " see" (clean: " see")
+  📝 Оставшаяся строка: remainingLine " see through it all" startWith cleanWord  see
+  ✅ Совпадение! Откусываем " see"
+  🔤 Проверяем слово: " through" (clean: " through")
+  📝 Оставшаяся строка: remainingLine " through it all" startWith cleanWord  through
+  ✅ Совпадение! Откусываем " through"
+  🔤 Проверяем слово: " it" (clean: " it")
+  📝 Оставшаяся строка: remainingLine " it all" startWith cleanWord  it
+  ✅ Совпадение! Откусываем " it"
+  🔤 Проверяем слово: " all" (clean: " all")
+  📝 Оставшаяся строка: remainingLine " all" startWith cleanWord  all
+  ✅ Совпадение! Откусываем " all"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 236
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Never meant the words before you fall"
+📍 Позиция alignmentPointer: 240
+  🔤 Проверяем слово: "
+Never" (clean: "Never")
+  📝 Оставшаяся строка: remainingLine "Never meant the words before you fall" startWith cleanWord Never
+  ✅ Совпадение! Откусываем "Never"
+  🔤 Проверяем слово: " meant" (clean: " meant")
+  📝 Оставшаяся строка: remainingLine " meant the words before you fall" startWith cleanWord  meant
+  ✅ Совпадение! Откусываем " meant"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the words before you fall" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " words" (clean: " words")
+  📝 Оставшаяся строка: remainingLine " words before you fall" startWith cleanWord  words
+  ✅ Совпадение! Откусываем " words"
+  🔤 Проверяем слово: " before" (clean: " before")
+  📝 Оставшаяся строка: remainingLine " before you fall" startWith cleanWord  before
+  ✅ Совпадение! Откусываем " before"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you fall" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+  🔤 Проверяем слово: " fall" (clean: " fall")
+  📝 Оставшаяся строка: remainingLine " fall" startWith cleanWord  fall
+  ✅ Совпадение! Откусываем " fall"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Maybe I'm the fool who can't read signs"
+📍 Позиция alignmentPointer: 247
+  🔤 Проверяем слово: "
+
+[Bridge]
+Maybe" (clean: "Maybe")
+  📝 Оставшаяся строка: remainingLine "Maybe I'm the fool who can't read signs" startWith cleanWord Maybe
+  ✅ Совпадение! Откусываем "Maybe"
+  🔤 Проверяем слово: " I’m" (clean: " I'm")
+  📝 Оставшаяся строка: remainingLine " I'm the fool who can't read signs" startWith cleanWord  I'm
+  ✅ Совпадение! Откусываем " I'm"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the fool who can't read signs" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " fool" (clean: " fool")
+  📝 Оставшаяся строка: remainingLine " fool who can't read signs" startWith cleanWord  fool
+  ✅ Совпадение! Откусываем " fool"
+  🔤 Проверяем слово: " who" (clean: " who")
+  📝 Оставшаяся строка: remainingLine " who can't read signs" startWith cleanWord  who
+  ✅ Совпадение! Откусываем " who"
+  🔤 Проверяем слово: " can’t" (clean: " can't")
+  📝 Оставшаяся строка: remainingLine " can't read signs" startWith cleanWord  can't
+  ✅ Совпадение! Откусываем " can't"
+  🔤 Проверяем слово: " read" (clean: " read")
+  📝 Оставшаяся строка: remainingLine " read signs" startWith cleanWord  read
+  ✅ Совпадение! Откусываем " read"
+  🔤 Проверяем слово: " signs" (clean: " signs")
+  📝 Оставшаяся строка: remainingLine " signs" startWith cleanWord  signs
+  ✅ Совпадение! Откусываем " signs"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Maybe I'm the one who's going blind"
+📍 Позиция alignmentPointer: 255
+  🔤 Проверяем слово: "
+Maybe" (clean: "Maybe")
+  📝 Оставшаяся строка: remainingLine "Maybe I'm the one who's going blind" startWith cleanWord Maybe
+  ✅ Совпадение! Откусываем "Maybe"
+  🔤 Проверяем слово: " I’m" (clean: " I'm")
+  📝 Оставшаяся строка: remainingLine " I'm the one who's going blind" startWith cleanWord  I'm
+  ✅ Совпадение! Откусываем " I'm"
+  🔤 Проверяем слово: " the" (clean: " the")
+  📝 Оставшаяся строка: remainingLine " the one who's going blind" startWith cleanWord  the
+  ✅ Совпадение! Откусываем " the"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one who's going blind" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " who’s" (clean: " who's")
+  📝 Оставшаяся строка: remainingLine " who's going blind" startWith cleanWord  who's
+  ✅ Совпадение! Откусываем " who's"
+  🔤 Проверяем слово: " going" (clean: " going")
+  📝 Оставшаяся строка: remainingLine " going blind" startWith cleanWord  going
+  ✅ Совпадение! Откусываем " going"
+  🔤 Проверяем слово: " blind" (clean: " blind")
+  📝 Оставшаяся строка: remainingLine " blind" startWith cleanWord  blind
+  ✅ Совпадение! Откусываем " blind"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But when you say "forever" with that tone"
+📍 Позиция alignmentPointer: 262
+  🔤 Проверяем слово: "
+But" (clean: "But")
+  📝 Оставшаяся строка: remainingLine "But when you say "forever" with that tone" startWith cleanWord But
+  ✅ Совпадение! Откусываем "But"
+  🔤 Проверяем слово: " when" (clean: " when")
+  📝 Оставшаяся строка: remainingLine " when you say "forever" with that tone" startWith cleanWord  when
+  ✅ Совпадение! Откусываем " when"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you say "forever" with that tone" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+  🔤 Проверяем слово: " say" (clean: " say")
+  📝 Оставшаяся строка: remainingLine " say "forever" with that tone" startWith cleanWord  say
+  ✅ Совпадение! Откусываем " say"
+  🔤 Проверяем слово: " “forever”" (clean: " "forever"")
+  📝 Оставшаяся строка: remainingLine " "forever" with that tone" startWith cleanWord  "forever"
+  ✅ Совпадение! Откусываем " "forever""
+  🔤 Проверяем слово: " with" (clean: " with")
+  📝 Оставшаяся строка: remainingLine " with that tone" startWith cleanWord  with
+  ✅ Совпадение! Откусываем " with"
+  🔤 Проверяем слово: " that" (clean: " that")
+  📝 Оставшаяся строка: remainingLine " that tone" startWith cleanWord  that
+  ✅ Совпадение! Откусываем " that"
+  🔤 Проверяем слово: " tone" (clean: " tone")
+  📝 Оставшаяся строка: remainingLine " tone" startWith cleanWord  tone
+  ✅ Совпадение! Откусываем " tone"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "I know you're already writing me a goodbye note"
+📍 Позиция alignmentPointer: 270
+  🔤 Проверяем слово: "
+I" (clean: "I")
+  📝 Оставшаяся строка: remainingLine "I know you're already writing me a goodbye note" startWith cleanWord I
+  ✅ Совпадение! Откусываем "I"
+  🔤 Проверяем слово: " know" (clean: " know")
+  📝 Оставшаяся строка: remainingLine " know you're already writing me a goodbye note" startWith cleanWord  know
+  ✅ Совпадение! Откусываем " know"
+  🔤 Проверяем слово: " you’" (clean: " you'")
+  📝 Оставшаяся строка: remainingLine " you're already writing me a goodbye note" startWith cleanWord  you'
+  ✅ Совпадение! Откусываем " you'"
+  🔤 Проверяем слово: "re" (clean: "re")
+  📝 Оставшаяся строка: remainingLine "re already writing me a goodbye note" startWith cleanWord re
+  ✅ Совпадение! Откусываем "re"
+  🔤 Проверяем слово: " already" (clean: " already")
+  📝 Оставшаяся строка: remainingLine " already writing me a goodbye note" startWith cleanWord  already
+  ✅ Совпадение! Откусываем " already"
+  🔤 Проверяем слово: " wr" (clean: " wr")
+  📝 Оставшаяся строка: remainingLine " writing me a goodbye note" startWith cleanWord  wr
+  ✅ Совпадение! Откусываем " wr"
+  🔤 Проверяем слово: "iting" (clean: "iting")
+  📝 Оставшаяся строка: remainingLine "iting me a goodbye note" startWith cleanWord iting
+  ✅ Совпадение! Откусываем "iting"
+  🔤 Проверяем слово: " me a" (clean: " me a")
+  📝 Оставшаяся строка: remainingLine " me a goodbye note" startWith cleanWord  me a
+  ✅ Совпадение! Откусываем " me a"
+  🔤 Проверяем слово: " goodbye" (clean: " goodbye")
+  📝 Оставшаяся строка: remainingLine " goodbye note" startWith cleanWord  goodbye
+  ✅ Совпадение! Откусываем " goodbye"
+  🔤 Проверяем слово: " note" (clean: " note")
+  📝 Оставшаяся строка: remainingLine " note" startWith cleanWord  note
+  ✅ Совпадение! Откусываем " note"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""I want to stay and fight for this""
+📍 Позиция alignmentPointer: 280
+  🔤 Проверяем слово: "
+
+[Final Chorus]
+“I" (clean: ""I")
+  📝 Оставшаяся строка: remainingLine ""I want to stay and fight for this"" startWith cleanWord "I
+  ✅ Совпадение! Откусываем ""I"
+  🔤 Проверяем слово: " want" (clean: " want")
+  📝 Оставшаяся строка: remainingLine " want to stay and fight for this"" startWith cleanWord  want
+  ✅ Совпадение! Откусываем " want"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to stay and fight for this"" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " stay" (clean: " stay")
+  📝 Оставшаяся строка: remainingLine " stay and fight for this"" startWith cleanWord  stay
+  ✅ Совпадение! Откусываем " stay"
+  🔤 Проверяем слово: " and" (clean: " and")
+  📝 Оставшаяся строка: remainingLine " and fight for this"" startWith cleanWord  and
+  ✅ Совпадение! Откусываем " and"
+  🔤 Проверяем слово: " fight" (clean: " fight")
+  📝 Оставшаяся строка: remainingLine " fight for this"" startWith cleanWord  fight
+  ✅ Совпадение! Откусываем " fight"
+  🔤 Проверяем слово: " for" (clean: " for")
+  📝 Оставшаяся строка: remainingLine " for this"" startWith cleanWord  for
+  ✅ Совпадение! Откусываем " for"
+  🔤 Проверяем слово: " this”" (clean: " this"")
+  📝 Оставшаяся строка: remainingLine " this"" startWith cleanWord  this"
+  ✅ Совпадение! Откусываем " this""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever walking away"
+📍 Позиция alignmentPointer: 288
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever walking away" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever walking away" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever walking away" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever walking away" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+  🔤 Проверяем слово: " walking" (clean: " walking")
+  📝 Оставшаяся строка: remainingLine " walking away" startWith cleanWord  walking
+  ✅ Совпадение! Откусываем " walking"
+  🔤 Проверяем слово: " away" (clean: " away")
+  📝 Оставшаяся строка: remainingLine " away" startWith cleanWord  away
+  ✅ Совпадение! Откусываем " away"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""This is just a phase we're going through""
+📍 Позиция alignmentPointer: 294
+  🔤 Проверяем слово: "
+“This" (clean: ""This")
+  📝 Оставшаяся строка: remainingLine ""This is just a phase we're going through"" startWith cleanWord "This
+  ✅ Совпадение! Откусываем ""This"
+  🔤 Проверяем слово: " is" (clean: " is")
+  📝 Оставшаяся строка: remainingLine " is just a phase we're going through"" startWith cleanWord  is
+  ✅ Совпадение! Откусываем " is"
+  🔤 Проверяем слово: " just a" (clean: " just a")
+  📝 Оставшаяся строка: remainingLine " just a phase we're going through"" startWith cleanWord  just a
+  ✅ Совпадение! Откусываем " just a"
+  🔤 Проверяем слово: " phase" (clean: " phase")
+  📝 Оставшаяся строка: remainingLine " phase we're going through"" startWith cleanWord  phase
+  ✅ Совпадение! Откусываем " phase"
+  🔤 Проверяем слово: " we’" (clean: " we'")
+  📝 Оставшаяся строка: remainingLine " we're going through"" startWith cleanWord  we'
+  ✅ Совпадение! Откусываем " we'"
+  🔤 Проверяем слово: "re" (clean: "re")
+  📝 Оставшаяся строка: remainingLine "re going through"" startWith cleanWord re
+  ✅ Совпадение! Откусываем "re"
+  🔤 Проверяем слово: " going" (clean: " going")
+  📝 Оставшаяся строка: remainingLine " going through"" startWith cleanWord  going
+  ✅ Совпадение! Откусываем " going"
+  🔤 Проверяем слово: " through”" (clean: " through"")
+  📝 Оставшаяся строка: remainingLine " through"" startWith cleanWord  through"
+  ✅ Совпадение! Откусываем " through""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 302
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who's already moved on to someone new"
+📍 Позиция alignmentPointer: 306
+  🔤 Проверяем слово: "
+Who’s" (clean: "Who's")
+  📝 Оставшаяся строка: remainingLine "Who's already moved on to someone new" startWith cleanWord Who's
+  ✅ Совпадение! Откусываем "Who's"
+  🔤 Проверяем слово: " already" (clean: " already")
+  📝 Оставшаяся строка: remainingLine " already moved on to someone new" startWith cleanWord  already
+  ✅ Совпадение! Откусываем " already"
+  🔤 Проверяем слово: " moved" (clean: " moved")
+  📝 Оставшаяся строка: remainingLine " moved on to someone new" startWith cleanWord  moved
+  ✅ Совпадение! Откусываем " moved"
+  🔤 Проверяем слово: " on" (clean: " on")
+  📝 Оставшаяся строка: remainingLine " on to someone new" startWith cleanWord  on
+  ✅ Совпадение! Откусываем " on"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to someone new" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " someone" (clean: " someone")
+  📝 Оставшаяся строка: remainingLine " someone new" startWith cleanWord  someone
+  ✅ Совпадение! Откусываем " someone"
+  🔤 Проверяем слово: " new" (clean: " new")
+  📝 Оставшаяся строка: remainingLine " new" startWith cleanWord  new
+  ✅ Совпадение! Откусываем " new"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you"
+📍 Позиция alignmentPointer: 313
+  🔤 Проверяем слово: "
+It’s" (clean: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you" startWith cleanWord It's
+  ✅ Совпадение! Откусываем "It's"
+  🔤 Проверяем слово: " not" (clean: " not")
+  📝 Оставшаяся строка: remainingLine " not clocking to you" startWith cleanWord  not
+  ✅ Совпадение! Откусываем " not"
+  🔤 Проверяем слово: " clock" (clean: " clock")
+  📝 Оставшаяся строка: remainingLine " clocking to you" startWith cleanWord  clock
+  ✅ Совпадение! Откусываем " clock"
+  🔤 Проверяем слово: "ing" (clean: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you" startWith cleanWord ing
+  ✅ Совпадение! Откусываем "ing"
+  🔤 Проверяем слово: " to" (clean: " to")
+  📝 Оставшаяся строка: remainingLine " to you" startWith cleanWord  to
+  ✅ Совпадение! Откусываем " to"
+  🔤 Проверяем слово: " you" (clean: " you")
+  📝 Оставшаяся строка: remainingLine " you" startWith cleanWord  you
+  ✅ Совпадение! Откусываем " you"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "That we're done before we started"
+📍 Позиция alignmentPointer: 319
+  🔤 Проверяем слово: "
+That" (clean: "That")
+  📝 Оставшаяся строка: remainingLine "That we're done before we started" startWith cleanWord That
+  ✅ Совпадение! Откусываем "That"
+  🔤 Проверяем слово: " we’" (clean: " we'")
+  📝 Оставшаяся строка: remainingLine " we're done before we started" startWith cleanWord  we'
+  ✅ Совпадение! Откусываем " we'"
+  🔤 Проверяем слово: "re" (clean: "re")
+  📝 Оставшаяся строка: remainingLine "re done before we started" startWith cleanWord re
+  ✅ Совпадение! Откусываем "re"
+  🔤 Проверяем слово: " done" (clean: " done")
+  📝 Оставшаяся строка: remainingLine " done before we started" startWith cleanWord  done
+  ✅ Совпадение! Откусываем " done"
+  🔤 Проверяем слово: " before" (clean: " before")
+  📝 Оставшаяся строка: remainingLine " before we started" startWith cleanWord  before
+  ✅ Совпадение! Откусываем " before"
+  🔤 Проверяем слово: " we" (clean: " we")
+  📝 Оставшаяся строка: remainingLine " we started" startWith cleanWord  we
+  ✅ Совпадение! Откусываем " we"
+  🔤 Проверяем слово: " started" (clean: " started")
+  📝 Оставшаяся строка: remainingLine " started" startWith cleanWord  started
+  ✅ Совпадение! Откусываем " started"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 326
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 330
+  🔤 Проверяем слово: "
+Said" (clean: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith cleanWord Said
+  ✅ Совпадение! Откусываем "Said"
+  🔤 Проверяем слово: " no" (clean: " no")
+  📝 Оставшаяся строка: remainingLine " no one ever" startWith cleanWord  no
+  ✅ Совпадение! Откусываем " no"
+  🔤 Проверяем слово: " one" (clean: " one")
+  📝 Оставшаяся строка: remainingLine " one ever" startWith cleanWord  one
+  ✅ Совпадение! Откусываем " one"
+  🔤 Проверяем слово: " ever" (clean: " ever")
+  📝 Оставшаяся строка: remainingLine " ever" startWith cleanWord  ever
+  ✅ Совпадение! Откусываем " ever"
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who left broken-hearted"
+📍 Позиция alignmentPointer: 334
+  🔤 Проверяем слово: "
+Who" (clean: "Who")
+  📝 Оставшаяся строка: remainingLine "Who left broken-hearted" startWith cleanWord Who
+  ✅ Совпадение! Откусываем "Who"
+  🔤 Проверяем слово: " left" (clean: " left")
+  📝 Оставшаяся строка: remainingLine " left broken-hearted" startWith cleanWord  left
+  ✅ Совпадение! Откусываем " left"
+  🔤 Проверяем слово: " broken" (clean: " broken")
+  📝 Оставшаяся строка: remainingLine " broken-hearted" startWith cleanWord  broken
+  ✅ Совпадение! Откусываем " broken"
+  🔤 Проверяем слово: "-heart" (clean: "-heart")
+  📝 Оставшаяся строка: remainingLine "-hearted" startWith cleanWord -heart
+  ✅ Совпадение! Откусываем "-heart"
+  🔤 Проверяем слово: "ed
+
+" (clean: "ed")
+  📝 Оставшаяся строка: remainingLine "ed" startWith cleanWord ed
+  ✅ Совпадение! Откусываем "ed"
+✅ Строка обработана полностью
+Создан файл для редактирования: Never_Said-converted-edits.json
+Файл _config.ts обновлен с новым именем песни: "Never_Said"
+
+🎵 Проверка стемов...
+✅ Найден стем bass: It’s not clocking to you Said No One Ever (Bass).wav
+✅ Найден стем drums: It’s not clocking to you Said No One Ever (Drums).wav
+✅ Найден стем guitar: It’s not clocking to you Said No One Ever (Guitar).wav
+✅ Найден стем percussion: It’s not clocking to you Said No One Ever (Percussion).wav
+✅ Найден стем synth: It’s not clocking to you Said No One Ever (Synth).wav
+✅ Найден стем vocals: It’s not clocking to you Said No One Ever (Vocals).wav
+Найдено стемов: 6
+✅ Конфигурация стемов обновлена в _config.ts:
+   bass: stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav
+   drums: stems/Never_Said/It’s not clocking to you Said No One Ever (Drums).wav
+   guitar: stems/Never_Said/It’s not clocking to you Said No One Ever (Guitar).wav
+   percussion: stems/Never_Said/It’s not clocking to you Said No One Ever (Percussion).wav
+   synth: stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav
+   vocals: stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav
+Конвертация завершена успешно!
+
+🔧 Обработка закрывающих знаков препинания:
+  📝 Перенесено "’" из позиции 16 в позицию 15
+     Было: " I’" | "’m"
+     Стало: " I’" | "m"
+  📝 Перенесено "’" из позиции 30 в позицию 29
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 30
+  📝 Перенесено "," из позиции 36 в позицию 35
+     Было: " you," | ", is"
+     Стало: " you," | " is"
+  📝 Перенесено "?" из позиции 38 в позицию 37
+     Было: " it?" | "?
+How"
+     Стало: " it?" | "
+How"
+  📝 Перенесено "’" из позиции 40 в позицию 39
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 40
+  📝 Перенесено "’" из позиции 52 в позицию 51
+     Было: " “I’" | "’"
+     Стало: " “I’" | ""
+  🗑️ Удаляем пустое слово на позиции 52
+  📝 Перенесено "”" из позиции 54 в позицию 53
+     Было: " listening”" | "”
+But"
+     Стало: " listening”" | "
+But"
+  📝 Перенесено "’" из позиции 57 в позицию 56
+     Было: " mind’" | "’"
+     Стало: " mind’" | ""
+  🗑️ Удаляем пустое слово на позиции 57
+  📝 Перенесено "”" из позиции 68 в позицию 67
+     Было: " me”" | "”
+“I"
+     Стало: " me”" | "
+“I"
+  📝 Перенесено "’" из позиции 69 в позицию 68
+     Было: "
+“I’" | "’"
+     Стало: "
+“I’" | ""
+  🗑️ Удаляем пустое слово на позиции 69
+  📝 Перенесено "”" из позиции 75 в позицию 74
+     Было: " before”" | "”
+“We"
+     Стало: " before”" | "
+“We"
+  📝 Перенесено "”" из позиции 81 в позицию 80
+     Было: " future”" | "”
+
+[Chorus]
+Said"
+     Стало: " future”" | "
+
+[Chorus]
+Said"
+  📝 Перенесено "’" из позиции 108 в позицию 107
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 108
+  📝 Перенесено "’" из позиции 116 в позицию 115
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 116
+  📝 Перенесено "’" из позиции 128 в позицию 127
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 128
+  📝 Перенесено "’" из позиции 136 в позицию 135
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 136
+  📝 Перенесено "’" из позиции 149 в позицию 148
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 149
+  📝 Перенесено "’" из позиции 158 в позицию 157
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 158
+  📝 Перенесено "’" из позиции 163 в позицию 162
+     Было: " it’" | "’"
+     Стало: " it’" | ""
+  🗑️ Удаляем пустое слово на позиции 163
+  📝 Перенесено "," из позиции 169 в позицию 168
+     Было: " you," | ", baby"
+     Стало: " you," | " baby"
+  📝 Перенесено "’" из позиции 181 в позицию 180
+     Было: " “I’" | "’"
+     Стало: " “I’" | ""
+  🗑️ Удаляем пустое слово на позиции 181
+  📝 Перенесено "”" из позиции 184 в позицию 183
+     Было: " trying”" | "”
+With"
+     Стало: " trying”" | "
+With"
+  📝 Перенесено "”" из позиции 197 в позицию 196
+     Было: " myself”" | "”
+“This"
+     Стало: " myself”" | "
+“This"
+  📝 Перенесено "”" из позиции 203 в позицию 202
+     Было: " too”" | "”
+“Maybe"
+     Стало: " too”" | "
+“Maybe"
+  📝 Перенесено "”" из позиции 209 в позицию 208
+     Было: " out”" | "”
+
+[Chorus]
+Said"
+     Стало: " out”" | "
+
+[Chorus]
+Said"
+  📝 Перенесено "’" из позиции 234 в позицию 233
+     Было: " they’" | "’"
+     Стало: " they’" | ""
+  🗑️ Удаляем пустое слово на позиции 234
+  📝 Перенесено "’" из позиции 240 в позицию 239
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 240
+  📝 Перенесено "’" из позиции 265 в позицию 264
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 265
+  📝 Перенесено "’" из позиции 270 в позицию 269
+     Было: " can’" | "’"
+     Стало: " can’" | ""
+  🗑️ Удаляем пустое слово на позиции 270
+  📝 Перенесено "’" из позиции 275 в позицию 274
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 275
+  📝 Перенесено "’" из позиции 279 в позицию 278
+     Было: " who’" | "’"
+     Стало: " who’" | ""
+  🗑️ Удаляем пустое слово на позиции 279
+  📝 Перенесено "”" из позиции 287 в позицию 286
+     Было: " “forever”" | "” with"
+     Стало: " “forever”" | " with"
+  📝 Перенесено "’" из позиции 293 в позицию 292
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 293
+  📝 Перенесено "”" из позиции 310 в позицию 309
+     Было: " this”" | "”
+Said"
+     Стало: " this”" | "
+Said"
+  📝 Перенесено "’" из позиции 322 в позицию 321
+     Было: " we’" | "’"
+     Стало: " we’" | ""
+  🗑️ Удаляем пустое слово на позиции 322
+  📝 Перенесено "”" из позиции 325 в позицию 324
+     Было: " through”" | "”
+Said"
+     Стало: " through”" | "
+Said"
+  📝 Перенесено "’" из позиции 330 в позицию 329
+     Было: "
+Who’" | "’"
+     Стало: "
+Who’" | ""
+  🗑️ Удаляем пустое слово на позиции 330
+  📝 Перенесено "’" из позиции 338 в позицию 337
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 338
+  📝 Перенесено "’" из позиции 346 в позицию 345
+     Было: " we’" | "’"
+     Стало: " we’" | ""
+  🗑️ Удаляем пустое слово на позиции 346
+✅ Обработка закрывающих знаков препинания завершена
+
+Создан файл предварительной обработки: Never_Said-formatted.json
+
+🔍 Обрабатываем строку: "Standing in the kitchen at 2 AM"
+📍 Позиция alignmentPointer: 0
+  🔤 Проверяем слово: "[Verse 1]
+Standing" (clean: "Standing", trimmed: "Standing")
+  📝 Оставшаяся строка: remainingLine "Standing in the kitchen at 2 AM" startWith trimmedCleanWord "Standing"
+  ✅ Совпадение! Откусываем "Standing"
+  🔄 После откусывания: remainingLine="in the kitchen at 2 AM"
+  🔤 Проверяем слово: " in" (clean: " in", trimmed: "in")
+  📝 Оставшаяся строка: remainingLine "in the kitchen at 2 AM" startWith trimmedCleanWord "in"
+  ✅ Совпадение! Откусываем "in"
+  🔄 После откусывания: remainingLine="the kitchen at 2 AM"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the kitchen at 2 AM" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="kitchen at 2 AM"
+  🔤 Проверяем слово: " kitchen" (clean: " kitchen", trimmed: "kitchen")
+  📝 Оставшаяся строка: remainingLine "kitchen at 2 AM" startWith trimmedCleanWord "kitchen"
+  ✅ Совпадение! Откусываем "kitchen"
+  🔄 После откусывания: remainingLine="at 2 AM"
+  🔤 Проверяем слово: " at" (clean: " at", trimmed: "at")
+  📝 Оставшаяся строка: remainingLine "at 2 AM" startWith trimmedCleanWord "at"
+  ✅ Совпадение! Откусываем "at"
+  🔄 После откусывания: remainingLine="2 AM"
+  🔤 Проверяем слово: " 2 AM" (clean: " 2 AM", trimmed: "2 AM")
+  📝 Оставшаяся строка: remainingLine "2 AM" startWith trimmedCleanWord "2 AM"
+  ✅ Совпадение! Откусываем "2 AM"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Scrolling through your phone again"
+📍 Позиция alignmentPointer: 6
+  🔤 Проверяем слово: "
+Sc" (clean: "Sc", trimmed: "Sc")
+  📝 Оставшаяся строка: remainingLine "Scrolling through your phone again" startWith trimmedCleanWord "Sc"
+  ✅ Совпадение! Откусываем "Sc"
+  🔄 После откусывания: remainingLine="rolling through your phone again"
+  🔤 Проверяем слово: "roll" (clean: "roll", trimmed: "roll")
+  📝 Оставшаяся строка: remainingLine "rolling through your phone again" startWith trimmedCleanWord "roll"
+  ✅ Совпадение! Откусываем "roll"
+  🔄 После откусывания: remainingLine="ing through your phone again"
+  🔤 Проверяем слово: "ing" (clean: "ing", trimmed: "ing")
+  📝 Оставшаяся строка: remainingLine "ing through your phone again" startWith trimmedCleanWord "ing"
+  ✅ Совпадение! Откусываем "ing"
+  🔄 После откусывания: remainingLine="through your phone again"
+  🔤 Проверяем слово: " through" (clean: " through", trimmed: "through")
+  📝 Оставшаяся строка: remainingLine "through your phone again" startWith trimmedCleanWord "through"
+  ✅ Совпадение! Откусываем "through"
+  🔄 После откусывания: remainingLine="your phone again"
+  🔤 Проверяем слово: " your" (clean: " your", trimmed: "your")
+  📝 Оставшаяся строка: remainingLine "your phone again" startWith trimmedCleanWord "your"
+  ✅ Совпадение! Откусываем "your"
+  🔄 После откусывания: remainingLine="phone again"
+  🔤 Проверяем слово: " phone" (clean: " phone", trimmed: "phone")
+  📝 Оставшаяся строка: remainingLine "phone again" startWith trimmedCleanWord "phone"
+  ✅ Совпадение! Откусываем "phone"
+  🔄 После откусывания: remainingLine="again"
+  🔤 Проверяем слово: " again" (clean: " again", trimmed: "again")
+  📝 Оставшаяся строка: remainingLine "again" startWith trimmedCleanWord "again"
+  ✅ Совпадение! Откусываем "again"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "While I'm talking 'bout our plans"
+📍 Позиция alignmentPointer: 13
+  🔤 Проверяем слово: "
+While" (clean: "While", trimmed: "While")
+  📝 Оставшаяся строка: remainingLine "While I'm talking 'bout our plans" startWith trimmedCleanWord "While"
+  ✅ Совпадение! Откусываем "While"
+  🔄 После откусывания: remainingLine="I'm talking 'bout our plans"
+  🔤 Проверяем слово: " I’m" (clean: " I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm talking 'bout our plans" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="talking 'bout our plans"
+  🔤 Проверяем слово: " talking ‘" (clean: " talking '", trimmed: "talking '")
+  📝 Оставшаяся строка: remainingLine "talking 'bout our plans" startWith trimmedCleanWord "talking '"
+  ✅ Совпадение! Откусываем "talking '"
+  🔄 После откусывания: remainingLine="bout our plans"
+  🔤 Проверяем слово: "bout" (clean: "bout", trimmed: "bout")
+  📝 Оставшаяся строка: remainingLine "bout our plans" startWith trimmedCleanWord "bout"
+  ✅ Совпадение! Откусываем "bout"
+  🔄 После откусывания: remainingLine="our plans"
+  🔤 Проверяем слово: " our" (clean: " our", trimmed: "our")
+  📝 Оставшаяся строка: remainingLine "our plans" startWith trimmedCleanWord "our"
+  ✅ Совпадение! Откусываем "our"
+  🔄 После откусывания: remainingLine="plans"
+  🔤 Проверяем слово: " plans" (clean: " plans", trimmed: "plans")
+  📝 Оставшаяся строка: remainingLine "plans" startWith trimmedCleanWord "plans"
+  ✅ Совпадение! Откусываем "plans"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But my words just hit the air"
+📍 Позиция alignmentPointer: 19
+  🔤 Проверяем слово: "
+But" (clean: "But", trimmed: "But")
+  📝 Оставшаяся строка: remainingLine "But my words just hit the air" startWith trimmedCleanWord "But"
+  ✅ Совпадение! Откусываем "But"
+  🔄 После откусывания: remainingLine="my words just hit the air"
+  🔤 Проверяем слово: " my" (clean: " my", trimmed: "my")
+  📝 Оставшаяся строка: remainingLine "my words just hit the air" startWith trimmedCleanWord "my"
+  ✅ Совпадение! Откусываем "my"
+  🔄 После откусывания: remainingLine="words just hit the air"
+  🔤 Проверяем слово: " words" (clean: " words", trimmed: "words")
+  📝 Оставшаяся строка: remainingLine "words just hit the air" startWith trimmedCleanWord "words"
+  ✅ Совпадение! Откусываем "words"
+  🔄 После откусывания: remainingLine="just hit the air"
+  🔤 Проверяем слово: " just" (clean: " just", trimmed: "just")
+  📝 Оставшаяся строка: remainingLine "just hit the air" startWith trimmedCleanWord "just"
+  ✅ Совпадение! Откусываем "just"
+  🔄 После откусывания: remainingLine="hit the air"
+  🔤 Проверяем слово: " hit" (clean: " hit", trimmed: "hit")
+  📝 Оставшаяся строка: remainingLine "hit the air" startWith trimmedCleanWord "hit"
+  ✅ Совпадение! Откусываем "hit"
+  🔄 После откусывания: remainingLine="the air"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the air" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="air"
+  🔤 Проверяем слово: " air" (clean: " air", trimmed: "air")
+  📝 Оставшаяся строка: remainingLine "air" startWith trimmedCleanWord "air"
+  ✅ Совпадение! Откусываем "air"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you, is it?"
+📍 Позиция alignmentPointer: 26
+  🔤 Проверяем слово: "
+It’s" (clean: "It's", trimmed: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you, is it?" startWith trimmedCleanWord "It's"
+  ✅ Совпадение! Откусываем "It's"
+  🔄 После откусывания: remainingLine="not clocking to you, is it?"
+  🔤 Проверяем слово: " not" (clean: " not", trimmed: "not")
+  📝 Оставшаяся строка: remainingLine "not clocking to you, is it?" startWith trimmedCleanWord "not"
+  ✅ Совпадение! Откусываем "not"
+  🔄 После откусывания: remainingLine="clocking to you, is it?"
+  🔤 Проверяем слово: " clock" (clean: " clock", trimmed: "clock")
+  📝 Оставшаяся строка: remainingLine "clocking to you, is it?" startWith trimmedCleanWord "clock"
+  ✅ Совпадение! Откусываем "clock"
+  🔄 После откусывания: remainingLine="ing to you, is it?"
+  🔤 Проверяем слово: "ing" (clean: "ing", trimmed: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you, is it?" startWith trimmedCleanWord "ing"
+  ✅ Совпадение! Откусываем "ing"
+  🔄 После откусывания: remainingLine="to you, is it?"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to you, is it?" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="you, is it?"
+  🔤 Проверяем слово: " you," (clean: " you,", trimmed: "you,")
+  📝 Оставшаяся строка: remainingLine "you, is it?" startWith trimmedCleanWord "you,"
+  ✅ Совпадение! Откусываем "you,"
+  🔄 После откусывания: remainingLine="is it?"
+  🔤 Проверяем слово: " is" (clean: " is", trimmed: "is")
+  📝 Оставшаяся строка: remainingLine "is it?" startWith trimmedCleanWord "is"
+  ✅ Совпадение! Откусываем "is"
+  🔄 После откусывания: remainingLine="it?"
+  🔤 Проверяем слово: " it?" (clean: " it?", trimmed: "it?")
+  📝 Оставшаяся строка: remainingLine "it?" startWith trimmedCleanWord "it?"
+  ✅ Совпадение! Откусываем "it?"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "How I'm breaking piece by piece"
+📍 Позиция alignmentPointer: 34
+  🔤 Проверяем слово: "
+How" (clean: "How", trimmed: "How")
+  📝 Оставшаяся строка: remainingLine "How I'm breaking piece by piece" startWith trimmedCleanWord "How"
+  ✅ Совпадение! Откусываем "How"
+  🔄 После откусывания: remainingLine="I'm breaking piece by piece"
+  🔤 Проверяем слово: " I’m" (clean: " I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm breaking piece by piece" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="breaking piece by piece"
+  🔤 Проверяем слово: " breaking" (clean: " breaking", trimmed: "breaking")
+  📝 Оставшаяся строка: remainingLine "breaking piece by piece" startWith trimmedCleanWord "breaking"
+  ✅ Совпадение! Откусываем "breaking"
+  🔄 После откусывания: remainingLine="piece by piece"
+  🔤 Проверяем слово: " piece" (clean: " piece", trimmed: "piece")
+  📝 Оставшаяся строка: remainingLine "piece by piece" startWith trimmedCleanWord "piece"
+  ✅ Совпадение! Откусываем "piece"
+  🔄 После откусывания: remainingLine="by piece"
+  🔤 Проверяем слово: " by" (clean: " by", trimmed: "by")
+  📝 Оставшаяся строка: remainingLine "by piece" startWith trimmedCleanWord "by"
+  ✅ Совпадение! Откусываем "by"
+  🔄 После откусывания: remainingLine="piece"
+  🔤 Проверяем слово: " piece" (clean: " piece", trimmed: "piece")
+  📝 Оставшаяся строка: remainingLine "piece" startWith trimmedCleanWord "piece"
+  ✅ Совпадение! Откусываем "piece"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "While you nod and say "I'm listening""
+📍 Позиция alignmentPointer: 40
+  🔤 Проверяем слово: "
+While" (clean: "While", trimmed: "While")
+  📝 Оставшаяся строка: remainingLine "While you nod and say "I'm listening"" startWith trimmedCleanWord "While"
+  ✅ Совпадение! Откусываем "While"
+  🔄 После откусывания: remainingLine="you nod and say "I'm listening""
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you nod and say "I'm listening"" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine="nod and say "I'm listening""
+  🔤 Проверяем слово: " nod" (clean: " nod", trimmed: "nod")
+  📝 Оставшаяся строка: remainingLine "nod and say "I'm listening"" startWith trimmedCleanWord "nod"
+  ✅ Совпадение! Откусываем "nod"
+  🔄 После откусывания: remainingLine="and say "I'm listening""
+  🔤 Проверяем слово: " and" (clean: " and", trimmed: "and")
+  📝 Оставшаяся строка: remainingLine "and say "I'm listening"" startWith trimmedCleanWord "and"
+  ✅ Совпадение! Откусываем "and"
+  🔄 После откусывания: remainingLine="say "I'm listening""
+  🔤 Проверяем слово: " say" (clean: " say", trimmed: "say")
+  📝 Оставшаяся строка: remainingLine "say "I'm listening"" startWith trimmedCleanWord "say"
+  ✅ Совпадение! Откусываем "say"
+  🔄 После откусывания: remainingLine=""I'm listening""
+  🔤 Проверяем слово: " “I’m" (clean: " "I'm", trimmed: ""I'm")
+  📝 Оставшаяся строка: remainingLine ""I'm listening"" startWith trimmedCleanWord ""I'm"
+  ✅ Совпадение! Откусываем ""I'm"
+  🔄 После откусывания: remainingLine="listening""
+  🔤 Проверяем слово: " listening”" (clean: " listening"", trimmed: "listening"")
+  📝 Оставшаяся строка: remainingLine "listening"" startWith trimmedCleanWord "listening""
+  ✅ Совпадение! Откусываем "listening""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But your mind's already released"
+📍 Позиция alignmentPointer: 47
+  🔤 Проверяем слово: "
+But" (clean: "But", trimmed: "But")
+  📝 Оставшаяся строка: remainingLine "But your mind's already released" startWith trimmedCleanWord "But"
+  ✅ Совпадение! Откусываем "But"
+  🔄 После откусывания: remainingLine="your mind's already released"
+  🔤 Проверяем слово: " your" (clean: " your", trimmed: "your")
+  📝 Оставшаяся строка: remainingLine "your mind's already released" startWith trimmedCleanWord "your"
+  ✅ Совпадение! Откусываем "your"
+  🔄 После откусывания: remainingLine="mind's already released"
+  🔤 Проверяем слово: " mind’s" (clean: " mind's", trimmed: "mind's")
+  📝 Оставшаяся строка: remainingLine "mind's already released" startWith trimmedCleanWord "mind's"
+  ✅ Совпадение! Откусываем "mind's"
+  🔄 После откусывания: remainingLine="already released"
+  🔤 Проверяем слово: " already" (clean: " already", trimmed: "already")
+  📝 Оставшаяся строка: remainingLine "already released" startWith trimmedCleanWord "already"
+  ✅ Совпадение! Откусываем "already"
+  🔄 После откусывания: remainingLine="released"
+  🔤 Проверяем слово: " rele" (clean: " rele", trimmed: "rele")
+  📝 Оставшаяся строка: remainingLine "released" startWith trimmedCleanWord "rele"
+  ✅ Совпадение! Откусываем "rele"
+  🔄 После откусывания: remainingLine="ased"
+  🔤 Проверяем слово: "ased" (clean: "ased", trimmed: "ased")
+  📝 Оставшаяся строка: remainingLine "ased" startWith trimmedCleanWord "ased"
+  ✅ Совпадение! Откусываем "ased"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""This relationship means everything to me""
+📍 Позиция alignmentPointer: 53
+  🔤 Проверяем слово: "
+
+[Pre-Chorus]
+“This" (clean: ""This", trimmed: ""This")
+  📝 Оставшаяся строка: remainingLine ""This relationship means everything to me"" startWith trimmedCleanWord ""This"
+  ✅ Совпадение! Откусываем ""This"
+  🔄 После откусывания: remainingLine="relationship means everything to me""
+  🔤 Проверяем слово: " relation" (clean: " relation", trimmed: "relation")
+  📝 Оставшаяся строка: remainingLine "relationship means everything to me"" startWith trimmedCleanWord "relation"
+  ✅ Совпадение! Откусываем "relation"
+  🔄 После откусывания: remainingLine="ship means everything to me""
+  🔤 Проверяем слово: "ship" (clean: "ship", trimmed: "ship")
+  📝 Оставшаяся строка: remainingLine "ship means everything to me"" startWith trimmedCleanWord "ship"
+  ✅ Совпадение! Откусываем "ship"
+  🔄 После откусывания: remainingLine="means everything to me""
+  🔤 Проверяем слово: " means" (clean: " means", trimmed: "means")
+  📝 Оставшаяся строка: remainingLine "means everything to me"" startWith trimmedCleanWord "means"
+  ✅ Совпадение! Откусываем "means"
+  🔄 После откусывания: remainingLine="everything to me""
+  🔤 Проверяем слово: " everything" (clean: " everything", trimmed: "everything")
+  📝 Оставшаяся строка: remainingLine "everything to me"" startWith trimmedCleanWord "everything"
+  ✅ Совпадение! Откусываем "everything"
+  🔄 После откусывания: remainingLine="to me""
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to me"" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="me""
+  🔤 Проверяем слово: " me”" (clean: " me"", trimmed: "me"")
+  📝 Оставшаяся строка: remainingLine "me"" startWith trimmedCleanWord "me""
+  ✅ Совпадение! Откусываем "me""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""I've never felt this way before""
+📍 Позиция alignmentPointer: 60
+  🔤 Проверяем слово: "
+“I’" (clean: ""I'", trimmed: ""I'")
+  📝 Оставшаяся строка: remainingLine ""I've never felt this way before"" startWith trimmedCleanWord ""I'"
+  ✅ Совпадение! Откусываем ""I'"
+  🔄 После откусывания: remainingLine="ve never felt this way before""
+  🔤 Проверяем слово: "ve" (clean: "ve", trimmed: "ve")
+  📝 Оставшаяся строка: remainingLine "ve never felt this way before"" startWith trimmedCleanWord "ve"
+  ✅ Совпадение! Откусываем "ve"
+  🔄 После откусывания: remainingLine="never felt this way before""
+  🔤 Проверяем слово: " never" (clean: " never", trimmed: "never")
+  📝 Оставшаяся строка: remainingLine "never felt this way before"" startWith trimmedCleanWord "never"
+  ✅ Совпадение! Откусываем "never"
+  🔄 После откусывания: remainingLine="felt this way before""
+  🔤 Проверяем слово: " felt" (clean: " felt", trimmed: "felt")
+  📝 Оставшаяся строка: remainingLine "felt this way before"" startWith trimmedCleanWord "felt"
+  ✅ Совпадение! Откусываем "felt"
+  🔄 После откусывания: remainingLine="this way before""
+  🔤 Проверяем слово: " this" (clean: " this", trimmed: "this")
+  📝 Оставшаяся строка: remainingLine "this way before"" startWith trimmedCleanWord "this"
+  ✅ Совпадение! Откусываем "this"
+  🔄 После откусывания: remainingLine="way before""
+  🔤 Проверяем слово: " way" (clean: " way", trimmed: "way")
+  📝 Оставшаяся строка: remainingLine "way before"" startWith trimmedCleanWord "way"
+  ✅ Совпадение! Откусываем "way"
+  🔄 После откусывания: remainingLine="before""
+  🔤 Проверяем слово: " before”" (clean: " before"", trimmed: "before"")
+  📝 Оставшаяся строка: remainingLine "before"" startWith trimmedCleanWord "before""
+  ✅ Совпадение! Откусываем "before""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""We should talk about our future""
+📍 Позиция alignmentPointer: 67
+  🔤 Проверяем слово: "
+“We" (clean: ""We", trimmed: ""We")
+  📝 Оставшаяся строка: remainingLine ""We should talk about our future"" startWith trimmedCleanWord ""We"
+  ✅ Совпадение! Откусываем ""We"
+  🔄 После откусывания: remainingLine="should talk about our future""
+  🔤 Проверяем слово: " should" (clean: " should", trimmed: "should")
+  📝 Оставшаяся строка: remainingLine "should talk about our future"" startWith trimmedCleanWord "should"
+  ✅ Совпадение! Откусываем "should"
+  🔄 После откусывания: remainingLine="talk about our future""
+  🔤 Проверяем слово: " talk" (clean: " talk", trimmed: "talk")
+  📝 Оставшаяся строка: remainingLine "talk about our future"" startWith trimmedCleanWord "talk"
+  ✅ Совпадение! Откусываем "talk"
+  🔄 После откусывания: remainingLine="about our future""
+  🔤 Проверяем слово: " about" (clean: " about", trimmed: "about")
+  📝 Оставшаяся строка: remainingLine "about our future"" startWith trimmedCleanWord "about"
+  ✅ Совпадение! Откусываем "about"
+  🔄 После откусывания: remainingLine="our future""
+  🔤 Проверяем слово: " our" (clean: " our", trimmed: "our")
+  📝 Оставшаяся строка: remainingLine "our future"" startWith trimmedCleanWord "our"
+  ✅ Совпадение! Откусываем "our"
+  🔄 После откусывания: remainingLine="future""
+  🔤 Проверяем слово: " future”" (clean: " future"", trimmed: "future"")
+  📝 Оставшаяся строка: remainingLine "future"" startWith trimmedCleanWord "future""
+  ✅ Совпадение! Откусываем "future""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 73
+  🔤 Проверяем слово: "
+
+[Chorus]
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 77
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who was checking out"
+📍 Позиция alignmentPointer: 81
+  🔤 Проверяем слово: "
+Who" (clean: "Who", trimmed: "Who")
+  📝 Оставшаяся строка: remainingLine "Who was checking out" startWith trimmedCleanWord "Who"
+  ✅ Совпадение! Откусываем "Who"
+  🔄 После откусывания: remainingLine="was checking out"
+  🔤 Проверяем слово: " was" (clean: " was", trimmed: "was")
+  📝 Оставшаяся строка: remainingLine "was checking out" startWith trimmedCleanWord "was"
+  ✅ Совпадение! Откусываем "was"
+  🔄 После откусывания: remainingLine="checking out"
+  🔤 Проверяем слово: " check" (clean: " check", trimmed: "check")
+  📝 Оставшаяся строка: remainingLine "checking out" startWith trimmedCleanWord "check"
+  ✅ Совпадение! Откусываем "check"
+  🔄 После откусывания: remainingLine="ing out"
+  🔤 Проверяем слово: "ing" (clean: "ing", trimmed: "ing")
+  📝 Оставшаяся строка: remainingLine "ing out" startWith trimmedCleanWord "ing"
+  ✅ Совпадение! Откусываем "ing"
+  🔄 После откусывания: remainingLine="out"
+  🔤 Проверяем слово: " out" (clean: " out", trimmed: "out")
+  📝 Оставшаяся строка: remainingLine "out" startWith trimmedCleanWord "out"
+  ✅ Совпадение! Откусываем "out"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 86
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 90
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "When love turned to doubt"
+📍 Позиция alignmentPointer: 94
+  🔤 Проверяем слово: "
+When" (clean: "When", trimmed: "When")
+  📝 Оставшаяся строка: remainingLine "When love turned to doubt" startWith trimmedCleanWord "When"
+  ✅ Совпадение! Откусываем "When"
+  🔄 После откусывания: remainingLine="love turned to doubt"
+  🔤 Проверяем слово: " love" (clean: " love", trimmed: "love")
+  📝 Оставшаяся строка: remainingLine "love turned to doubt" startWith trimmedCleanWord "love"
+  ✅ Совпадение! Откусываем "love"
+  🔄 После откусывания: remainingLine="turned to doubt"
+  🔤 Проверяем слово: " turned" (clean: " turned", trimmed: "turned")
+  📝 Оставшаяся строка: remainingLine "turned to doubt" startWith trimmedCleanWord "turned"
+  ✅ Совпадение! Откусываем "turned"
+  🔄 После откусывания: remainingLine="to doubt"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to doubt" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="doubt"
+  🔤 Проверяем слово: " doubt" (clean: " doubt", trimmed: "doubt")
+  📝 Оставшаяся строка: remainingLine "doubt" startWith trimmedCleanWord "doubt"
+  ✅ Совпадение! Откусываем "doubt"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you"
+📍 Позиция alignmentPointer: 99
+  🔤 Проверяем слово: "
+It’s" (clean: "It's", trimmed: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you" startWith trimmedCleanWord "It's"
+  ✅ Совпадение! Откусываем "It's"
+  🔄 После откусывания: remainingLine="not clocking to you"
+  🔤 Проверяем слово: " not" (clean: " not", trimmed: "not")
+  📝 Оставшаяся строка: remainingLine "not clocking to you" startWith trimmedCleanWord "not"
+  ✅ Совпадение! Откусываем "not"
+  🔄 После откусывания: remainingLine="clocking to you"
+  🔤 Проверяем слово: " clock" (clean: " clock", trimmed: "clock")
+  📝 Оставшаяся строка: remainingLine "clocking to you" startWith trimmedCleanWord "clock"
+  ✅ Совпадение! Откусываем "clock"
+  🔄 После откусывания: remainingLine="ing to you"
+  🔤 Проверяем слово: "ing" (clean: "ing", trimmed: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you" startWith trimmedCleanWord "ing"
+  ✅ Совпадение! Откусываем "ing"
+  🔄 После откусывания: remainingLine="to you"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to you" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="you"
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "That I'm already gone"
+📍 Позиция alignmentPointer: 105
+  🔤 Проверяем слово: "
+That" (clean: "That", trimmed: "That")
+  📝 Оставшаяся строка: remainingLine "That I'm already gone" startWith trimmedCleanWord "That"
+  ✅ Совпадение! Откусываем "That"
+  🔄 После откусывания: remainingLine="I'm already gone"
+  🔤 Проверяем слово: " I’m" (clean: " I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm already gone" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="already gone"
+  🔤 Проверяем слово: " already" (clean: " already", trimmed: "already")
+  📝 Оставшаяся строка: remainingLine "already gone" startWith trimmedCleanWord "already"
+  ✅ Совпадение! Откусываем "already"
+  🔄 После откусывания: remainingLine="gone"
+  🔤 Проверяем слово: " gone" (clean: " gone", trimmed: "gone")
+  📝 Оставшаяся строка: remainingLine "gone" startWith trimmedCleanWord "gone"
+  ✅ Совпадение! Откусываем "gone"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 109
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Never said those words you're thinking of"
+📍 Позиция alignmentPointer: 113
+  🔤 Проверяем слово: "
+Never" (clean: "Never", trimmed: "Never")
+  📝 Оставшаяся строка: remainingLine "Never said those words you're thinking of" startWith trimmedCleanWord "Never"
+  ✅ Совпадение! Откусываем "Never"
+  🔄 После откусывания: remainingLine="said those words you're thinking of"
+  🔤 Проверяем слово: " said" (clean: " said", trimmed: "said")
+  📝 Оставшаяся строка: remainingLine "said those words you're thinking of" startWith trimmedCleanWord "said"
+  ✅ Совпадение! Откусываем "said"
+  🔄 После откусывания: remainingLine="those words you're thinking of"
+  🔤 Проверяем слово: " those" (clean: " those", trimmed: "those")
+  📝 Оставшаяся строка: remainingLine "those words you're thinking of" startWith trimmedCleanWord "those"
+  ✅ Совпадение! Откусываем "those"
+  🔄 После откусывания: remainingLine="words you're thinking of"
+  🔤 Проверяем слово: " words" (clean: " words", trimmed: "words")
+  📝 Оставшаяся строка: remainingLine "words you're thinking of" startWith trimmedCleanWord "words"
+  ✅ Совпадение! Откусываем "words"
+  🔄 После откусывания: remainingLine="you're thinking of"
+  🔤 Проверяем слово: " you’" (clean: " you'", trimmed: "you'")
+  📝 Оставшаяся строка: remainingLine "you're thinking of" startWith trimmedCleanWord "you'"
+  ✅ Совпадение! Откусываем "you'"
+  🔄 После откусывания: remainingLine="re thinking of"
+  🔤 Проверяем слово: "re" (clean: "re", trimmed: "re")
+  📝 Оставшаяся строка: remainingLine "re thinking of" startWith trimmedCleanWord "re"
+  ✅ Совпадение! Откусываем "re"
+  🔄 После откусывания: remainingLine="thinking of"
+  🔤 Проверяем слово: " thinking" (clean: " thinking", trimmed: "thinking")
+  📝 Оставшаяся строка: remainingLine "thinking of" startWith trimmedCleanWord "thinking"
+  ✅ Совпадение! Откусываем "thinking"
+  🔄 После откусывания: remainingLine="of"
+  🔤 Проверяем слово: " of" (clean: " of", trimmed: "of")
+  📝 Оставшаяся строка: remainingLine "of" startWith trimmedCleanWord "of"
+  ✅ Совпадение! Откусываем "of"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Coffee dates where you're explaining"
+📍 Позиция alignmentPointer: 121
+  🔤 Проверяем слово: "
+
+[Verse 2]
+Coffee" (clean: "Coffee", trimmed: "Coffee")
+  📝 Оставшаяся строка: remainingLine "Coffee dates where you're explaining" startWith trimmedCleanWord "Coffee"
+  ✅ Совпадение! Откусываем "Coffee"
+  🔄 После откусывания: remainingLine="dates where you're explaining"
+  🔤 Проверяем слово: " dat" (clean: " dat", trimmed: "dat")
+  📝 Оставшаяся строка: remainingLine "dates where you're explaining" startWith trimmedCleanWord "dat"
+  ✅ Совпадение! Откусываем "dat"
+  🔄 После откусывания: remainingLine="es where you're explaining"
+  🔤 Проверяем слово: "es" (clean: "es", trimmed: "es")
+  📝 Оставшаяся строка: remainingLine "es where you're explaining" startWith trimmedCleanWord "es"
+  ✅ Совпадение! Откусываем "es"
+  🔄 После откусывания: remainingLine="where you're explaining"
+  🔤 Проверяем слово: " where" (clean: " where", trimmed: "where")
+  📝 Оставшаяся строка: remainingLine "where you're explaining" startWith trimmedCleanWord "where"
+  ✅ Совпадение! Откусываем "where"
+  🔄 После откусывания: remainingLine="you're explaining"
+  🔤 Проверяем слово: " you’" (clean: " you'", trimmed: "you'")
+  📝 Оставшаяся строка: remainingLine "you're explaining" startWith trimmedCleanWord "you'"
+  ✅ Совпадение! Откусываем "you'"
+  🔄 После откусывания: remainingLine="re explaining"
+  🔤 Проверяем слово: "re" (clean: "re", trimmed: "re")
+  📝 Оставшаяся строка: remainingLine "re explaining" startWith trimmedCleanWord "re"
+  ✅ Совпадение! Откусываем "re"
+  🔄 После откусывания: remainingLine="explaining"
+  🔤 Проверяем слово: " exp" (clean: " exp", trimmed: "exp")
+  📝 Оставшаяся строка: remainingLine "explaining" startWith trimmedCleanWord "exp"
+  ✅ Совпадение! Откусываем "exp"
+  🔄 После откусывания: remainingLine="laining"
+  🔤 Проверяем слово: "la" (clean: "la", trimmed: "la")
+  📝 Оставшаяся строка: remainingLine "laining" startWith trimmedCleanWord "la"
+  ✅ Совпадение! Откусываем "la"
+  🔄 После откусывания: remainingLine="ining"
+  🔤 Проверяем слово: "ining" (clean: "ining", trimmed: "ining")
+  📝 Оставшаяся строка: remainingLine "ining" startWith trimmedCleanWord "ining"
+  ✅ Совпадение! Откусываем "ining"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Why you need more time to think"
+📍 Позиция alignmentPointer: 130
+  🔤 Проверяем слово: "
+Why" (clean: "Why", trimmed: "Why")
+  📝 Оставшаяся строка: remainingLine "Why you need more time to think" startWith trimmedCleanWord "Why"
+  ✅ Совпадение! Откусываем "Why"
+  🔄 После откусывания: remainingLine="you need more time to think"
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you need more time to think" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine="need more time to think"
+  🔤 Проверяем слово: " need" (clean: " need", trimmed: "need")
+  📝 Оставшаяся строка: remainingLine "need more time to think" startWith trimmedCleanWord "need"
+  ✅ Совпадение! Откусываем "need"
+  🔄 После откусывания: remainingLine="more time to think"
+  🔤 Проверяем слово: " more" (clean: " more", trimmed: "more")
+  📝 Оставшаяся строка: remainingLine "more time to think" startWith trimmedCleanWord "more"
+  ✅ Совпадение! Откусываем "more"
+  🔄 После откусывания: remainingLine="time to think"
+  🔤 Проверяем слово: " time" (clean: " time", trimmed: "time")
+  📝 Оставшаяся строка: remainingLine "time to think" startWith trimmedCleanWord "time"
+  ✅ Совпадение! Откусываем "time"
+  🔄 После откусывания: remainingLine="to think"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to think" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="think"
+  🔤 Проверяем слово: " think" (clean: " think", trimmed: "think")
+  📝 Оставшаяся строка: remainingLine "think" startWith trimmedCleanWord "think"
+  ✅ Совпадение! Откусываем "think"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "While I'm drowning in the silence"
+📍 Позиция alignmentPointer: 137
+  🔤 Проверяем слово: "
+While" (clean: "While", trimmed: "While")
+  📝 Оставшаяся строка: remainingLine "While I'm drowning in the silence" startWith trimmedCleanWord "While"
+  ✅ Совпадение! Откусываем "While"
+  🔄 После откусывания: remainingLine="I'm drowning in the silence"
+  🔤 Проверяем слово: " I’m" (clean: " I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm drowning in the silence" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="drowning in the silence"
+  🔤 Проверяем слово: " drowning" (clean: " drowning", trimmed: "drowning")
+  📝 Оставшаяся строка: remainingLine "drowning in the silence" startWith trimmedCleanWord "drowning"
+  ✅ Совпадение! Откусываем "drowning"
+  🔄 После откусывания: remainingLine="in the silence"
+  🔤 Проверяем слово: " in" (clean: " in", trimmed: "in")
+  📝 Оставшаяся строка: remainingLine "in the silence" startWith trimmedCleanWord "in"
+  ✅ Совпадение! Откусываем "in"
+  🔄 После откусывания: remainingLine="the silence"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the silence" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="silence"
+  🔤 Проверяем слово: " silence" (clean: " silence", trimmed: "silence")
+  📝 Оставшаяся строка: remainingLine "silence" startWith trimmedCleanWord "silence"
+  ✅ Совпадение! Откусываем "silence"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Of the truth you'll never speak"
+📍 Позиция alignmentPointer: 143
+  🔤 Проверяем слово: "
+Of" (clean: "Of", trimmed: "Of")
+  📝 Оставшаяся строка: remainingLine "Of the truth you'll never speak" startWith trimmedCleanWord "Of"
+  ✅ Совпадение! Откусываем "Of"
+  🔄 После откусывания: remainingLine="the truth you'll never speak"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the truth you'll never speak" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="truth you'll never speak"
+  🔤 Проверяем слово: " truth" (clean: " truth", trimmed: "truth")
+  📝 Оставшаяся строка: remainingLine "truth you'll never speak" startWith trimmedCleanWord "truth"
+  ✅ Совпадение! Откусываем "truth"
+  🔄 После откусывания: remainingLine="you'll never speak"
+  🔤 Проверяем слово: " you’" (clean: " you'", trimmed: "you'")
+  📝 Оставшаяся строка: remainingLine "you'll never speak" startWith trimmedCleanWord "you'"
+  ✅ Совпадение! Откусываем "you'"
+  🔄 После откусывания: remainingLine="ll never speak"
+  🔤 Проверяем слово: "ll" (clean: "ll", trimmed: "ll")
+  📝 Оставшаяся строка: remainingLine "ll never speak" startWith trimmedCleanWord "ll"
+  ✅ Совпадение! Откусываем "ll"
+  🔄 После откусывания: remainingLine="never speak"
+  🔤 Проверяем слово: " never" (clean: " never", trimmed: "never")
+  📝 Оставшаяся строка: remainingLine "never speak" startWith trimmedCleanWord "never"
+  ✅ Совпадение! Откусываем "never"
+  🔄 После откусывания: remainingLine="speak"
+  🔤 Проверяем слово: " speak" (clean: " speak", trimmed: "speak")
+  📝 Оставшаяся строка: remainingLine "speak" startWith trimmedCleanWord "speak"
+  ✅ Совпадение! Откусываем "speak"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But it's not clocking to you, baby"
+📍 Позиция alignmentPointer: 150
+  🔤 Проверяем слово: "
+But" (clean: "But", trimmed: "But")
+  📝 Оставшаяся строка: remainingLine "But it's not clocking to you, baby" startWith trimmedCleanWord "But"
+  ✅ Совпадение! Откусываем "But"
+  🔄 После откусывания: remainingLine="it's not clocking to you, baby"
+  🔤 Проверяем слово: " it’s" (clean: " it's", trimmed: "it's")
+  📝 Оставшаяся строка: remainingLine "it's not clocking to you, baby" startWith trimmedCleanWord "it's"
+  ✅ Совпадение! Откусываем "it's"
+  🔄 После откусывания: remainingLine="not clocking to you, baby"
+  🔤 Проверяем слово: " not" (clean: " not", trimmed: "not")
+  📝 Оставшаяся строка: remainingLine "not clocking to you, baby" startWith trimmedCleanWord "not"
+  ✅ Совпадение! Откусываем "not"
+  🔄 После откусывания: remainingLine="clocking to you, baby"
+  🔤 Проверяем слово: " clock" (clean: " clock", trimmed: "clock")
+  📝 Оставшаяся строка: remainingLine "clocking to you, baby" startWith trimmedCleanWord "clock"
+  ✅ Совпадение! Откусываем "clock"
+  🔄 После откусывания: remainingLine="ing to you, baby"
+  🔤 Проверяем слово: "ing" (clean: "ing", trimmed: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you, baby" startWith trimmedCleanWord "ing"
+  ✅ Совпадение! Откусываем "ing"
+  🔄 После откусывания: remainingLine="to you, baby"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to you, baby" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="you, baby"
+  🔤 Проверяем слово: " you," (clean: " you,", trimmed: "you,")
+  📝 Оставшаяся строка: remainingLine "you, baby" startWith trimmedCleanWord "you,"
+  ✅ Совпадение! Откусываем "you,"
+  🔄 После откусывания: remainingLine="baby"
+  🔤 Проверяем слово: " baby" (clean: " baby", trimmed: "baby")
+  📝 Оставшаяся строка: remainingLine "baby" startWith trimmedCleanWord "baby"
+  ✅ Совпадение! Откусываем "baby"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "How these excuses taste like lies"
+📍 Позиция alignmentPointer: 158
+  🔤 Проверяем слово: "
+How" (clean: "How", trimmed: "How")
+  📝 Оставшаяся строка: remainingLine "How these excuses taste like lies" startWith trimmedCleanWord "How"
+  ✅ Совпадение! Откусываем "How"
+  🔄 После откусывания: remainingLine="these excuses taste like lies"
+  🔤 Проверяем слово: " these" (clean: " these", trimmed: "these")
+  📝 Оставшаяся строка: remainingLine "these excuses taste like lies" startWith trimmedCleanWord "these"
+  ✅ Совпадение! Откусываем "these"
+  🔄 После откусывания: remainingLine="excuses taste like lies"
+  🔤 Проверяем слово: " excus" (clean: " excus", trimmed: "excus")
+  📝 Оставшаяся строка: remainingLine "excuses taste like lies" startWith trimmedCleanWord "excus"
+  ✅ Совпадение! Откусываем "excus"
+  🔄 После откусывания: remainingLine="es taste like lies"
+  🔤 Проверяем слово: "es" (clean: "es", trimmed: "es")
+  📝 Оставшаяся строка: remainingLine "es taste like lies" startWith trimmedCleanWord "es"
+  ✅ Совпадение! Откусываем "es"
+  🔄 После откусывания: remainingLine="taste like lies"
+  🔤 Проверяем слово: " taste" (clean: " taste", trimmed: "taste")
+  📝 Оставшаяся строка: remainingLine "taste like lies" startWith trimmedCleanWord "taste"
+  ✅ Совпадение! Откусываем "taste"
+  🔄 После откусывания: remainingLine="like lies"
+  🔤 Проверяем слово: " like" (clean: " like", trimmed: "like")
+  📝 Оставшаяся строка: remainingLine "like lies" startWith trimmedCleanWord "like"
+  ✅ Совпадение! Откусываем "like"
+  🔄 После откусывания: remainingLine="lies"
+  🔤 Проверяем слово: " lies" (clean: " lies", trimmed: "lies")
+  📝 Оставшаяся строка: remainingLine "lies" startWith trimmedCleanWord "lies"
+  ✅ Совпадение! Откусываем "lies"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "When you say "I'm really trying""
+📍 Позиция alignmentPointer: 165
+  🔤 Проверяем слово: "
+When" (clean: "When", trimmed: "When")
+  📝 Оставшаяся строка: remainingLine "When you say "I'm really trying"" startWith trimmedCleanWord "When"
+  ✅ Совпадение! Откусываем "When"
+  🔄 После откусывания: remainingLine="you say "I'm really trying""
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you say "I'm really trying"" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine="say "I'm really trying""
+  🔤 Проверяем слово: " say" (clean: " say", trimmed: "say")
+  📝 Оставшаяся строка: remainingLine "say "I'm really trying"" startWith trimmedCleanWord "say"
+  ✅ Совпадение! Откусываем "say"
+  🔄 После откусывания: remainingLine=""I'm really trying""
+  🔤 Проверяем слово: " “I’m" (clean: " "I'm", trimmed: ""I'm")
+  📝 Оставшаяся строка: remainingLine ""I'm really trying"" startWith trimmedCleanWord ""I'm"
+  ✅ Совпадение! Откусываем ""I'm"
+  🔄 После откусывания: remainingLine="really trying""
+  🔤 Проверяем слово: " really" (clean: " really", trimmed: "really")
+  📝 Оставшаяся строка: remainingLine "really trying"" startWith trimmedCleanWord "really"
+  ✅ Совпадение! Откусываем "really"
+  🔄 После откусывания: remainingLine="trying""
+  🔤 Проверяем слово: " trying”" (clean: " trying"", trimmed: "trying"")
+  📝 Оставшаяся строка: remainingLine "trying"" startWith trimmedCleanWord "trying""
+  ✅ Совпадение! Откусываем "trying""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "With distraction in your eyes"
+📍 Позиция alignmentPointer: 171
+  🔤 Проверяем слово: "
+With" (clean: "With", trimmed: "With")
+  📝 Оставшаяся строка: remainingLine "With distraction in your eyes" startWith trimmedCleanWord "With"
+  ✅ Совпадение! Откусываем "With"
+  🔄 После откусывания: remainingLine="distraction in your eyes"
+  🔤 Проверяем слово: " distra" (clean: " distra", trimmed: "distra")
+  📝 Оставшаяся строка: remainingLine "distraction in your eyes" startWith trimmedCleanWord "distra"
+  ✅ Совпадение! Откусываем "distra"
+  🔄 После откусывания: remainingLine="ction in your eyes"
+  🔤 Проверяем слово: "ction" (clean: "ction", trimmed: "ction")
+  📝 Оставшаяся строка: remainingLine "ction in your eyes" startWith trimmedCleanWord "ction"
+  ✅ Совпадение! Откусываем "ction"
+  🔄 После откусывания: remainingLine="in your eyes"
+  🔤 Проверяем слово: " in" (clean: " in", trimmed: "in")
+  📝 Оставшаяся строка: remainingLine "in your eyes" startWith trimmedCleanWord "in"
+  ✅ Совпадение! Откусываем "in"
+  🔄 После откусывания: remainingLine="your eyes"
+  🔤 Проверяем слово: " your" (clean: " your", trimmed: "your")
+  📝 Оставшаяся строка: remainingLine "your eyes" startWith trimmedCleanWord "your"
+  ✅ Совпадение! Откусываем "your"
+  🔄 После откусывания: remainingLine="eyes"
+  🔤 Проверяем слово: " eyes" (clean: " eyes", trimmed: "eyes")
+  📝 Оставшаяся строка: remainingLine "eyes" startWith trimmedCleanWord "eyes"
+  ✅ Совпадение! Откусываем "eyes"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""I just need space to find myself""
+📍 Позиция alignmentPointer: 177
+  🔤 Проверяем слово: "
+
+[Pre-Chorus]
+“I" (clean: ""I", trimmed: ""I")
+  📝 Оставшаяся строка: remainingLine ""I just need space to find myself"" startWith trimmedCleanWord ""I"
+  ✅ Совпадение! Откусываем ""I"
+  🔄 После откусывания: remainingLine="just need space to find myself""
+  🔤 Проверяем слово: " just" (clean: " just", trimmed: "just")
+  📝 Оставшаяся строка: remainingLine "just need space to find myself"" startWith trimmedCleanWord "just"
+  ✅ Совпадение! Откусываем "just"
+  🔄 После откусывания: remainingLine="need space to find myself""
+  🔤 Проверяем слово: " need" (clean: " need", trimmed: "need")
+  📝 Оставшаяся строка: remainingLine "need space to find myself"" startWith trimmedCleanWord "need"
+  ✅ Совпадение! Откусываем "need"
+  🔄 После откусывания: remainingLine="space to find myself""
+  🔤 Проверяем слово: " space" (clean: " space", trimmed: "space")
+  📝 Оставшаяся строка: remainingLine "space to find myself"" startWith trimmedCleanWord "space"
+  ✅ Совпадение! Откусываем "space"
+  🔄 После откусывания: remainingLine="to find myself""
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to find myself"" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="find myself""
+  🔤 Проверяем слово: " find" (clean: " find", trimmed: "find")
+  📝 Оставшаяся строка: remainingLine "find myself"" startWith trimmedCleanWord "find"
+  ✅ Совпадение! Откусываем "find"
+  🔄 После откусывания: remainingLine="myself""
+  🔤 Проверяем слово: " myself”" (clean: " myself"", trimmed: "myself"")
+  📝 Оставшаяся строка: remainingLine "myself"" startWith trimmedCleanWord "myself""
+  ✅ Совпадение! Откусываем "myself""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""This is harder on me too""
+📍 Позиция alignmentPointer: 184
+  🔤 Проверяем слово: "
+“This" (clean: ""This", trimmed: ""This")
+  📝 Оставшаяся строка: remainingLine ""This is harder on me too"" startWith trimmedCleanWord ""This"
+  ✅ Совпадение! Откусываем ""This"
+  🔄 После откусывания: remainingLine="is harder on me too""
+  🔤 Проверяем слово: " is" (clean: " is", trimmed: "is")
+  📝 Оставшаяся строка: remainingLine "is harder on me too"" startWith trimmedCleanWord "is"
+  ✅ Совпадение! Откусываем "is"
+  🔄 После откусывания: remainingLine="harder on me too""
+  🔤 Проверяем слово: " harder" (clean: " harder", trimmed: "harder")
+  📝 Оставшаяся строка: remainingLine "harder on me too"" startWith trimmedCleanWord "harder"
+  ✅ Совпадение! Откусываем "harder"
+  🔄 После откусывания: remainingLine="on me too""
+  🔤 Проверяем слово: " on" (clean: " on", trimmed: "on")
+  📝 Оставшаяся строка: remainingLine "on me too"" startWith trimmedCleanWord "on"
+  ✅ Совпадение! Откусываем "on"
+  🔄 После откусывания: remainingLine="me too""
+  🔤 Проверяем слово: " me" (clean: " me", trimmed: "me")
+  📝 Оставшаяся строка: remainingLine "me too"" startWith trimmedCleanWord "me"
+  ✅ Совпадение! Откусываем "me"
+  🔄 После откусывания: remainingLine="too""
+  🔤 Проверяем слово: " too”" (clean: " too"", trimmed: "too"")
+  📝 Оставшаяся строка: remainingLine "too"" startWith trimmedCleanWord "too""
+  ✅ Совпадение! Откусываем "too""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""Maybe we can work this out""
+📍 Позиция alignmentPointer: 190
+  🔤 Проверяем слово: "
+“Maybe" (clean: ""Maybe", trimmed: ""Maybe")
+  📝 Оставшаяся строка: remainingLine ""Maybe we can work this out"" startWith trimmedCleanWord ""Maybe"
+  ✅ Совпадение! Откусываем ""Maybe"
+  🔄 После откусывания: remainingLine="we can work this out""
+  🔤 Проверяем слово: " we" (clean: " we", trimmed: "we")
+  📝 Оставшаяся строка: remainingLine "we can work this out"" startWith trimmedCleanWord "we"
+  ✅ Совпадение! Откусываем "we"
+  🔄 После откусывания: remainingLine="can work this out""
+  🔤 Проверяем слово: " can" (clean: " can", trimmed: "can")
+  📝 Оставшаяся строка: remainingLine "can work this out"" startWith trimmedCleanWord "can"
+  ✅ Совпадение! Откусываем "can"
+  🔄 После откусывания: remainingLine="work this out""
+  🔤 Проверяем слово: " work" (clean: " work", trimmed: "work")
+  📝 Оставшаяся строка: remainingLine "work this out"" startWith trimmedCleanWord "work"
+  ✅ Совпадение! Откусываем "work"
+  🔄 После откусывания: remainingLine="this out""
+  🔤 Проверяем слово: " this" (clean: " this", trimmed: "this")
+  📝 Оставшаяся строка: remainingLine "this out"" startWith trimmedCleanWord "this"
+  ✅ Совпадение! Откусываем "this"
+  🔄 После откусывания: remainingLine="out""
+  🔤 Проверяем слово: " out”" (clean: " out"", trimmed: "out"")
+  📝 Оставшаяся строка: remainingLine "out"" startWith trimmedCleanWord "out""
+  ✅ Совпадение! Откусываем "out""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 196
+  🔤 Проверяем слово: "
+
+[Chorus]
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 200
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who was halfway out the door"
+📍 Позиция alignmentPointer: 204
+  🔤 Проверяем слово: "
+Who" (clean: "Who", trimmed: "Who")
+  📝 Оставшаяся строка: remainingLine "Who was halfway out the door" startWith trimmedCleanWord "Who"
+  ✅ Совпадение! Откусываем "Who"
+  🔄 После откусывания: remainingLine="was halfway out the door"
+  🔤 Проверяем слово: " was" (clean: " was", trimmed: "was")
+  📝 Оставшаяся строка: remainingLine "was halfway out the door" startWith trimmedCleanWord "was"
+  ✅ Совпадение! Откусываем "was"
+  🔄 После откусывания: remainingLine="halfway out the door"
+  🔤 Проверяем слово: " half" (clean: " half", trimmed: "half")
+  📝 Оставшаяся строка: remainingLine "halfway out the door" startWith trimmedCleanWord "half"
+  ✅ Совпадение! Откусываем "half"
+  🔄 После откусывания: remainingLine="way out the door"
+  🔤 Проверяем слово: "way" (clean: "way", trimmed: "way")
+  📝 Оставшаяся строка: remainingLine "way out the door" startWith trimmedCleanWord "way"
+  ✅ Совпадение! Откусываем "way"
+  🔄 После откусывания: remainingLine="out the door"
+  🔤 Проверяем слово: " out" (clean: " out", trimmed: "out")
+  📝 Оставшаяся строка: remainingLine "out the door" startWith trimmedCleanWord "out"
+  ✅ Совпадение! Откусываем "out"
+  🔄 После откусывания: remainingLine="the door"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the door" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="door"
+  🔤 Проверяем слово: " door" (clean: " door", trimmed: "door")
+  📝 Оставшаяся строка: remainingLine "door" startWith trimmedCleanWord "door"
+  ✅ Совпадение! Откусываем "door"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 211
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 215
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "When they'd already found something more"
+📍 Позиция alignmentPointer: 219
+  🔤 Проверяем слово: "
+When" (clean: "When", trimmed: "When")
+  📝 Оставшаяся строка: remainingLine "When they'd already found something more" startWith trimmedCleanWord "When"
+  ✅ Совпадение! Откусываем "When"
+  🔄 После откусывания: remainingLine="they'd already found something more"
+  🔤 Проверяем слово: " they’d" (clean: " they'd", trimmed: "they'd")
+  📝 Оставшаяся строка: remainingLine "they'd already found something more" startWith trimmedCleanWord "they'd"
+  ✅ Совпадение! Откусываем "they'd"
+  🔄 После откусывания: remainingLine="already found something more"
+  🔤 Проверяем слово: " already" (clean: " already", trimmed: "already")
+  📝 Оставшаяся строка: remainingLine "already found something more" startWith trimmedCleanWord "already"
+  ✅ Совпадение! Откусываем "already"
+  🔄 После откусывания: remainingLine="found something more"
+  🔤 Проверяем слово: " found" (clean: " found", trimmed: "found")
+  📝 Оставшаяся строка: remainingLine "found something more" startWith trimmedCleanWord "found"
+  ✅ Совпадение! Откусываем "found"
+  🔄 После откусывания: remainingLine="something more"
+  🔤 Проверяем слово: " something" (clean: " something", trimmed: "something")
+  📝 Оставшаяся строка: remainingLine "something more" startWith trimmedCleanWord "something"
+  ✅ Совпадение! Откусываем "something"
+  🔄 После откусывания: remainingLine="more"
+  🔤 Проверяем слово: " more" (clean: " more", trimmed: "more")
+  📝 Оставшаяся строка: remainingLine "more" startWith trimmedCleanWord "more"
+  ✅ Совпадение! Откусываем "more"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you"
+📍 Позиция alignmentPointer: 225
+  🔤 Проверяем слово: "
+It’s" (clean: "It's", trimmed: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you" startWith trimmedCleanWord "It's"
+  ✅ Совпадение! Откусываем "It's"
+  🔄 После откусывания: remainingLine="not clocking to you"
+  🔤 Проверяем слово: " not" (clean: " not", trimmed: "not")
+  📝 Оставшаяся строка: remainingLine "not clocking to you" startWith trimmedCleanWord "not"
+  ✅ Совпадение! Откусываем "not"
+  🔄 После откусывания: remainingLine="clocking to you"
+  🔤 Проверяем слово: " clock" (clean: " clock", trimmed: "clock")
+  📝 Оставшаяся строка: remainingLine "clocking to you" startWith trimmedCleanWord "clock"
+  ✅ Совпадение! Откусываем "clock"
+  🔄 После откусывания: remainingLine="ing to you"
+  🔤 Проверяем слово: "ing" (clean: "ing", trimmed: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you" startWith trimmedCleanWord "ing"
+  ✅ Совпадение! Откусываем "ing"
+  🔄 После откусывания: remainingLine="to you"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to you" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="you"
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "That I see through it all"
+📍 Позиция alignmentPointer: 231
+  🔤 Проверяем слово: "
+That I" (clean: "That I", trimmed: "That I")
+  📝 Оставшаяся строка: remainingLine "That I see through it all" startWith trimmedCleanWord "That I"
+  ✅ Совпадение! Откусываем "That I"
+  🔄 После откусывания: remainingLine="see through it all"
+  🔤 Проверяем слово: " see" (clean: " see", trimmed: "see")
+  📝 Оставшаяся строка: remainingLine "see through it all" startWith trimmedCleanWord "see"
+  ✅ Совпадение! Откусываем "see"
+  🔄 После откусывания: remainingLine="through it all"
+  🔤 Проверяем слово: " through" (clean: " through", trimmed: "through")
+  📝 Оставшаяся строка: remainingLine "through it all" startWith trimmedCleanWord "through"
+  ✅ Совпадение! Откусываем "through"
+  🔄 После откусывания: remainingLine="it all"
+  🔤 Проверяем слово: " it" (clean: " it", trimmed: "it")
+  📝 Оставшаяся строка: remainingLine "it all" startWith trimmedCleanWord "it"
+  ✅ Совпадение! Откусываем "it"
+  🔄 После откусывания: remainingLine="all"
+  🔤 Проверяем слово: " all" (clean: " all", trimmed: "all")
+  📝 Оставшаяся строка: remainingLine "all" startWith trimmedCleanWord "all"
+  ✅ Совпадение! Откусываем "all"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 236
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Never meant the words before you fall"
+📍 Позиция alignmentPointer: 240
+  🔤 Проверяем слово: "
+Never" (clean: "Never", trimmed: "Never")
+  📝 Оставшаяся строка: remainingLine "Never meant the words before you fall" startWith trimmedCleanWord "Never"
+  ✅ Совпадение! Откусываем "Never"
+  🔄 После откусывания: remainingLine="meant the words before you fall"
+  🔤 Проверяем слово: " meant" (clean: " meant", trimmed: "meant")
+  📝 Оставшаяся строка: remainingLine "meant the words before you fall" startWith trimmedCleanWord "meant"
+  ✅ Совпадение! Откусываем "meant"
+  🔄 После откусывания: remainingLine="the words before you fall"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the words before you fall" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="words before you fall"
+  🔤 Проверяем слово: " words" (clean: " words", trimmed: "words")
+  📝 Оставшаяся строка: remainingLine "words before you fall" startWith trimmedCleanWord "words"
+  ✅ Совпадение! Откусываем "words"
+  🔄 После откусывания: remainingLine="before you fall"
+  🔤 Проверяем слово: " before" (clean: " before", trimmed: "before")
+  📝 Оставшаяся строка: remainingLine "before you fall" startWith trimmedCleanWord "before"
+  ✅ Совпадение! Откусываем "before"
+  🔄 После откусывания: remainingLine="you fall"
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you fall" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine="fall"
+  🔤 Проверяем слово: " fall" (clean: " fall", trimmed: "fall")
+  📝 Оставшаяся строка: remainingLine "fall" startWith trimmedCleanWord "fall"
+  ✅ Совпадение! Откусываем "fall"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Maybe I'm the fool who can't read signs"
+📍 Позиция alignmentPointer: 247
+  🔤 Проверяем слово: "
+
+[Bridge]
+Maybe" (clean: "Maybe", trimmed: "Maybe")
+  📝 Оставшаяся строка: remainingLine "Maybe I'm the fool who can't read signs" startWith trimmedCleanWord "Maybe"
+  ✅ Совпадение! Откусываем "Maybe"
+  🔄 После откусывания: remainingLine="I'm the fool who can't read signs"
+  🔤 Проверяем слово: " I’m" (clean: " I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm the fool who can't read signs" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="the fool who can't read signs"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the fool who can't read signs" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="fool who can't read signs"
+  🔤 Проверяем слово: " fool" (clean: " fool", trimmed: "fool")
+  📝 Оставшаяся строка: remainingLine "fool who can't read signs" startWith trimmedCleanWord "fool"
+  ✅ Совпадение! Откусываем "fool"
+  🔄 После откусывания: remainingLine="who can't read signs"
+  🔤 Проверяем слово: " who" (clean: " who", trimmed: "who")
+  📝 Оставшаяся строка: remainingLine "who can't read signs" startWith trimmedCleanWord "who"
+  ✅ Совпадение! Откусываем "who"
+  🔄 После откусывания: remainingLine="can't read signs"
+  🔤 Проверяем слово: " can’t" (clean: " can't", trimmed: "can't")
+  📝 Оставшаяся строка: remainingLine "can't read signs" startWith trimmedCleanWord "can't"
+  ✅ Совпадение! Откусываем "can't"
+  🔄 После откусывания: remainingLine="read signs"
+  🔤 Проверяем слово: " read" (clean: " read", trimmed: "read")
+  📝 Оставшаяся строка: remainingLine "read signs" startWith trimmedCleanWord "read"
+  ✅ Совпадение! Откусываем "read"
+  🔄 После откусывания: remainingLine="signs"
+  🔤 Проверяем слово: " signs" (clean: " signs", trimmed: "signs")
+  📝 Оставшаяся строка: remainingLine "signs" startWith trimmedCleanWord "signs"
+  ✅ Совпадение! Откусываем "signs"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Maybe I'm the one who's going blind"
+📍 Позиция alignmentPointer: 255
+  🔤 Проверяем слово: "
+Maybe" (clean: "Maybe", trimmed: "Maybe")
+  📝 Оставшаяся строка: remainingLine "Maybe I'm the one who's going blind" startWith trimmedCleanWord "Maybe"
+  ✅ Совпадение! Откусываем "Maybe"
+  🔄 После откусывания: remainingLine="I'm the one who's going blind"
+  🔤 Проверяем слово: " I’m" (clean: " I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm the one who's going blind" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="the one who's going blind"
+  🔤 Проверяем слово: " the" (clean: " the", trimmed: "the")
+  📝 Оставшаяся строка: remainingLine "the one who's going blind" startWith trimmedCleanWord "the"
+  ✅ Совпадение! Откусываем "the"
+  🔄 После откусывания: remainingLine="one who's going blind"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one who's going blind" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="who's going blind"
+  🔤 Проверяем слово: " who’s" (clean: " who's", trimmed: "who's")
+  📝 Оставшаяся строка: remainingLine "who's going blind" startWith trimmedCleanWord "who's"
+  ✅ Совпадение! Откусываем "who's"
+  🔄 После откусывания: remainingLine="going blind"
+  🔤 Проверяем слово: " going" (clean: " going", trimmed: "going")
+  📝 Оставшаяся строка: remainingLine "going blind" startWith trimmedCleanWord "going"
+  ✅ Совпадение! Откусываем "going"
+  🔄 После откусывания: remainingLine="blind"
+  🔤 Проверяем слово: " blind" (clean: " blind", trimmed: "blind")
+  📝 Оставшаяся строка: remainingLine "blind" startWith trimmedCleanWord "blind"
+  ✅ Совпадение! Откусываем "blind"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "But when you say "forever" with that tone"
+📍 Позиция alignmentPointer: 262
+  🔤 Проверяем слово: "
+But" (clean: "But", trimmed: "But")
+  📝 Оставшаяся строка: remainingLine "But when you say "forever" with that tone" startWith trimmedCleanWord "But"
+  ✅ Совпадение! Откусываем "But"
+  🔄 После откусывания: remainingLine="when you say "forever" with that tone"
+  🔤 Проверяем слово: " when" (clean: " when", trimmed: "when")
+  📝 Оставшаяся строка: remainingLine "when you say "forever" with that tone" startWith trimmedCleanWord "when"
+  ✅ Совпадение! Откусываем "when"
+  🔄 После откусывания: remainingLine="you say "forever" with that tone"
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you say "forever" with that tone" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine="say "forever" with that tone"
+  🔤 Проверяем слово: " say" (clean: " say", trimmed: "say")
+  📝 Оставшаяся строка: remainingLine "say "forever" with that tone" startWith trimmedCleanWord "say"
+  ✅ Совпадение! Откусываем "say"
+  🔄 После откусывания: remainingLine=""forever" with that tone"
+  🔤 Проверяем слово: " “forever”" (clean: " "forever"", trimmed: ""forever"")
+  📝 Оставшаяся строка: remainingLine ""forever" with that tone" startWith trimmedCleanWord ""forever""
+  ✅ Совпадение! Откусываем ""forever""
+  🔄 После откусывания: remainingLine="with that tone"
+  🔤 Проверяем слово: " with" (clean: " with", trimmed: "with")
+  📝 Оставшаяся строка: remainingLine "with that tone" startWith trimmedCleanWord "with"
+  ✅ Совпадение! Откусываем "with"
+  🔄 После откусывания: remainingLine="that tone"
+  🔤 Проверяем слово: " that" (clean: " that", trimmed: "that")
+  📝 Оставшаяся строка: remainingLine "that tone" startWith trimmedCleanWord "that"
+  ✅ Совпадение! Откусываем "that"
+  🔄 После откусывания: remainingLine="tone"
+  🔤 Проверяем слово: " tone" (clean: " tone", trimmed: "tone")
+  📝 Оставшаяся строка: remainingLine "tone" startWith trimmedCleanWord "tone"
+  ✅ Совпадение! Откусываем "tone"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "I know you're already writing me a goodbye note"
+📍 Позиция alignmentPointer: 270
+  🔤 Проверяем слово: "
+I" (clean: "I", trimmed: "I")
+  📝 Оставшаяся строка: remainingLine "I know you're already writing me a goodbye note" startWith trimmedCleanWord "I"
+  ✅ Совпадение! Откусываем "I"
+  🔄 После откусывания: remainingLine="know you're already writing me a goodbye note"
+  🔤 Проверяем слово: " know" (clean: " know", trimmed: "know")
+  📝 Оставшаяся строка: remainingLine "know you're already writing me a goodbye note" startWith trimmedCleanWord "know"
+  ✅ Совпадение! Откусываем "know"
+  🔄 После откусывания: remainingLine="you're already writing me a goodbye note"
+  🔤 Проверяем слово: " you’" (clean: " you'", trimmed: "you'")
+  📝 Оставшаяся строка: remainingLine "you're already writing me a goodbye note" startWith trimmedCleanWord "you'"
+  ✅ Совпадение! Откусываем "you'"
+  🔄 После откусывания: remainingLine="re already writing me a goodbye note"
+  🔤 Проверяем слово: "re" (clean: "re", trimmed: "re")
+  📝 Оставшаяся строка: remainingLine "re already writing me a goodbye note" startWith trimmedCleanWord "re"
+  ✅ Совпадение! Откусываем "re"
+  🔄 После откусывания: remainingLine="already writing me a goodbye note"
+  🔤 Проверяем слово: " already" (clean: " already", trimmed: "already")
+  📝 Оставшаяся строка: remainingLine "already writing me a goodbye note" startWith trimmedCleanWord "already"
+  ✅ Совпадение! Откусываем "already"
+  🔄 После откусывания: remainingLine="writing me a goodbye note"
+  🔤 Проверяем слово: " wr" (clean: " wr", trimmed: "wr")
+  📝 Оставшаяся строка: remainingLine "writing me a goodbye note" startWith trimmedCleanWord "wr"
+  ✅ Совпадение! Откусываем "wr"
+  🔄 После откусывания: remainingLine="iting me a goodbye note"
+  🔤 Проверяем слово: "iting" (clean: "iting", trimmed: "iting")
+  📝 Оставшаяся строка: remainingLine "iting me a goodbye note" startWith trimmedCleanWord "iting"
+  ✅ Совпадение! Откусываем "iting"
+  🔄 После откусывания: remainingLine="me a goodbye note"
+  🔤 Проверяем слово: " me a" (clean: " me a", trimmed: "me a")
+  📝 Оставшаяся строка: remainingLine "me a goodbye note" startWith trimmedCleanWord "me a"
+  ✅ Совпадение! Откусываем "me a"
+  🔄 После откусывания: remainingLine="goodbye note"
+  🔤 Проверяем слово: " goodbye" (clean: " goodbye", trimmed: "goodbye")
+  📝 Оставшаяся строка: remainingLine "goodbye note" startWith trimmedCleanWord "goodbye"
+  ✅ Совпадение! Откусываем "goodbye"
+  🔄 После откусывания: remainingLine="note"
+  🔤 Проверяем слово: " note" (clean: " note", trimmed: "note")
+  📝 Оставшаяся строка: remainingLine "note" startWith trimmedCleanWord "note"
+  ✅ Совпадение! Откусываем "note"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""I want to stay and fight for this""
+📍 Позиция alignmentPointer: 280
+  🔤 Проверяем слово: "
+
+[Final Chorus]
+“I" (clean: ""I", trimmed: ""I")
+  📝 Оставшаяся строка: remainingLine ""I want to stay and fight for this"" startWith trimmedCleanWord ""I"
+  ✅ Совпадение! Откусываем ""I"
+  🔄 После откусывания: remainingLine="want to stay and fight for this""
+  🔤 Проверяем слово: " want" (clean: " want", trimmed: "want")
+  📝 Оставшаяся строка: remainingLine "want to stay and fight for this"" startWith trimmedCleanWord "want"
+  ✅ Совпадение! Откусываем "want"
+  🔄 После откусывания: remainingLine="to stay and fight for this""
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to stay and fight for this"" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="stay and fight for this""
+  🔤 Проверяем слово: " stay" (clean: " stay", trimmed: "stay")
+  📝 Оставшаяся строка: remainingLine "stay and fight for this"" startWith trimmedCleanWord "stay"
+  ✅ Совпадение! Откусываем "stay"
+  🔄 После откусывания: remainingLine="and fight for this""
+  🔤 Проверяем слово: " and" (clean: " and", trimmed: "and")
+  📝 Оставшаяся строка: remainingLine "and fight for this"" startWith trimmedCleanWord "and"
+  ✅ Совпадение! Откусываем "and"
+  🔄 После откусывания: remainingLine="fight for this""
+  🔤 Проверяем слово: " fight" (clean: " fight", trimmed: "fight")
+  📝 Оставшаяся строка: remainingLine "fight for this"" startWith trimmedCleanWord "fight"
+  ✅ Совпадение! Откусываем "fight"
+  🔄 После откусывания: remainingLine="for this""
+  🔤 Проверяем слово: " for" (clean: " for", trimmed: "for")
+  📝 Оставшаяся строка: remainingLine "for this"" startWith trimmedCleanWord "for"
+  ✅ Совпадение! Откусываем "for"
+  🔄 После откусывания: remainingLine="this""
+  🔤 Проверяем слово: " this”" (clean: " this"", trimmed: "this"")
+  📝 Оставшаяся строка: remainingLine "this"" startWith trimmedCleanWord "this""
+  ✅ Совпадение! Откусываем "this""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever walking away"
+📍 Позиция alignmentPointer: 288
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever walking away" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever walking away"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever walking away" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever walking away"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever walking away" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever walking away"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever walking away" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine="walking away"
+  🔤 Проверяем слово: " walking" (clean: " walking", trimmed: "walking")
+  📝 Оставшаяся строка: remainingLine "walking away" startWith trimmedCleanWord "walking"
+  ✅ Совпадение! Откусываем "walking"
+  🔄 После откусывания: remainingLine="away"
+  🔤 Проверяем слово: " away" (clean: " away", trimmed: "away")
+  📝 Оставшаяся строка: remainingLine "away" startWith trimmedCleanWord "away"
+  ✅ Совпадение! Откусываем "away"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: ""This is just a phase we're going through""
+📍 Позиция alignmentPointer: 294
+  🔤 Проверяем слово: "
+“This" (clean: ""This", trimmed: ""This")
+  📝 Оставшаяся строка: remainingLine ""This is just a phase we're going through"" startWith trimmedCleanWord ""This"
+  ✅ Совпадение! Откусываем ""This"
+  🔄 После откусывания: remainingLine="is just a phase we're going through""
+  🔤 Проверяем слово: " is" (clean: " is", trimmed: "is")
+  📝 Оставшаяся строка: remainingLine "is just a phase we're going through"" startWith trimmedCleanWord "is"
+  ✅ Совпадение! Откусываем "is"
+  🔄 После откусывания: remainingLine="just a phase we're going through""
+  🔤 Проверяем слово: " just a" (clean: " just a", trimmed: "just a")
+  📝 Оставшаяся строка: remainingLine "just a phase we're going through"" startWith trimmedCleanWord "just a"
+  ✅ Совпадение! Откусываем "just a"
+  🔄 После откусывания: remainingLine="phase we're going through""
+  🔤 Проверяем слово: " phase" (clean: " phase", trimmed: "phase")
+  📝 Оставшаяся строка: remainingLine "phase we're going through"" startWith trimmedCleanWord "phase"
+  ✅ Совпадение! Откусываем "phase"
+  🔄 После откусывания: remainingLine="we're going through""
+  🔤 Проверяем слово: " we’" (clean: " we'", trimmed: "we'")
+  📝 Оставшаяся строка: remainingLine "we're going through"" startWith trimmedCleanWord "we'"
+  ✅ Совпадение! Откусываем "we'"
+  🔄 После откусывания: remainingLine="re going through""
+  🔤 Проверяем слово: "re" (clean: "re", trimmed: "re")
+  📝 Оставшаяся строка: remainingLine "re going through"" startWith trimmedCleanWord "re"
+  ✅ Совпадение! Откусываем "re"
+  🔄 После откусывания: remainingLine="going through""
+  🔤 Проверяем слово: " going" (clean: " going", trimmed: "going")
+  📝 Оставшаяся строка: remainingLine "going through"" startWith trimmedCleanWord "going"
+  ✅ Совпадение! Откусываем "going"
+  🔄 После откусывания: remainingLine="through""
+  🔤 Проверяем слово: " through”" (clean: " through"", trimmed: "through"")
+  📝 Оставшаяся строка: remainingLine "through"" startWith trimmedCleanWord "through""
+  ✅ Совпадение! Откусываем "through""
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 302
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who's already moved on to someone new"
+📍 Позиция alignmentPointer: 306
+  🔤 Проверяем слово: "
+Who’s" (clean: "Who's", trimmed: "Who's")
+  📝 Оставшаяся строка: remainingLine "Who's already moved on to someone new" startWith trimmedCleanWord "Who's"
+  ✅ Совпадение! Откусываем "Who's"
+  🔄 После откусывания: remainingLine="already moved on to someone new"
+  🔤 Проверяем слово: " already" (clean: " already", trimmed: "already")
+  📝 Оставшаяся строка: remainingLine "already moved on to someone new" startWith trimmedCleanWord "already"
+  ✅ Совпадение! Откусываем "already"
+  🔄 После откусывания: remainingLine="moved on to someone new"
+  🔤 Проверяем слово: " moved" (clean: " moved", trimmed: "moved")
+  📝 Оставшаяся строка: remainingLine "moved on to someone new" startWith trimmedCleanWord "moved"
+  ✅ Совпадение! Откусываем "moved"
+  🔄 После откусывания: remainingLine="on to someone new"
+  🔤 Проверяем слово: " on" (clean: " on", trimmed: "on")
+  📝 Оставшаяся строка: remainingLine "on to someone new" startWith trimmedCleanWord "on"
+  ✅ Совпадение! Откусываем "on"
+  🔄 После откусывания: remainingLine="to someone new"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to someone new" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="someone new"
+  🔤 Проверяем слово: " someone" (clean: " someone", trimmed: "someone")
+  📝 Оставшаяся строка: remainingLine "someone new" startWith trimmedCleanWord "someone"
+  ✅ Совпадение! Откусываем "someone"
+  🔄 После откусывания: remainingLine="new"
+  🔤 Проверяем слово: " new" (clean: " new", trimmed: "new")
+  📝 Оставшаяся строка: remainingLine "new" startWith trimmedCleanWord "new"
+  ✅ Совпадение! Откусываем "new"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "It's not clocking to you"
+📍 Позиция alignmentPointer: 313
+  🔤 Проверяем слово: "
+It’s" (clean: "It's", trimmed: "It's")
+  📝 Оставшаяся строка: remainingLine "It's not clocking to you" startWith trimmedCleanWord "It's"
+  ✅ Совпадение! Откусываем "It's"
+  🔄 После откусывания: remainingLine="not clocking to you"
+  🔤 Проверяем слово: " not" (clean: " not", trimmed: "not")
+  📝 Оставшаяся строка: remainingLine "not clocking to you" startWith trimmedCleanWord "not"
+  ✅ Совпадение! Откусываем "not"
+  🔄 После откусывания: remainingLine="clocking to you"
+  🔤 Проверяем слово: " clock" (clean: " clock", trimmed: "clock")
+  📝 Оставшаяся строка: remainingLine "clocking to you" startWith trimmedCleanWord "clock"
+  ✅ Совпадение! Откусываем "clock"
+  🔄 После откусывания: remainingLine="ing to you"
+  🔤 Проверяем слово: "ing" (clean: "ing", trimmed: "ing")
+  📝 Оставшаяся строка: remainingLine "ing to you" startWith trimmedCleanWord "ing"
+  ✅ Совпадение! Откусываем "ing"
+  🔄 После откусывания: remainingLine="to you"
+  🔤 Проверяем слово: " to" (clean: " to", trimmed: "to")
+  📝 Оставшаяся строка: remainingLine "to you" startWith trimmedCleanWord "to"
+  ✅ Совпадение! Откусываем "to"
+  🔄 После откусывания: remainingLine="you"
+  🔤 Проверяем слово: " you" (clean: " you", trimmed: "you")
+  📝 Оставшаяся строка: remainingLine "you" startWith trimmedCleanWord "you"
+  ✅ Совпадение! Откусываем "you"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "That we're done before we started"
+📍 Позиция alignmentPointer: 319
+  🔤 Проверяем слово: "
+That" (clean: "That", trimmed: "That")
+  📝 Оставшаяся строка: remainingLine "That we're done before we started" startWith trimmedCleanWord "That"
+  ✅ Совпадение! Откусываем "That"
+  🔄 После откусывания: remainingLine="we're done before we started"
+  🔤 Проверяем слово: " we’" (clean: " we'", trimmed: "we'")
+  📝 Оставшаяся строка: remainingLine "we're done before we started" startWith trimmedCleanWord "we'"
+  ✅ Совпадение! Откусываем "we'"
+  🔄 После откусывания: remainingLine="re done before we started"
+  🔤 Проверяем слово: "re" (clean: "re", trimmed: "re")
+  📝 Оставшаяся строка: remainingLine "re done before we started" startWith trimmedCleanWord "re"
+  ✅ Совпадение! Откусываем "re"
+  🔄 После откусывания: remainingLine="done before we started"
+  🔤 Проверяем слово: " done" (clean: " done", trimmed: "done")
+  📝 Оставшаяся строка: remainingLine "done before we started" startWith trimmedCleanWord "done"
+  ✅ Совпадение! Откусываем "done"
+  🔄 После откусывания: remainingLine="before we started"
+  🔤 Проверяем слово: " before" (clean: " before", trimmed: "before")
+  📝 Оставшаяся строка: remainingLine "before we started" startWith trimmedCleanWord "before"
+  ✅ Совпадение! Откусываем "before"
+  🔄 После откусывания: remainingLine="we started"
+  🔤 Проверяем слово: " we" (clean: " we", trimmed: "we")
+  📝 Оставшаяся строка: remainingLine "we started" startWith trimmedCleanWord "we"
+  ✅ Совпадение! Откусываем "we"
+  🔄 После откусывания: remainingLine="started"
+  🔤 Проверяем слово: " started" (clean: " started", trimmed: "started")
+  📝 Оставшаяся строка: remainingLine "started" startWith trimmedCleanWord "started"
+  ✅ Совпадение! Откусываем "started"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 326
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Said no one ever"
+📍 Позиция alignmentPointer: 330
+  🔤 Проверяем слово: "
+Said" (clean: "Said", trimmed: "Said")
+  📝 Оставшаяся строка: remainingLine "Said no one ever" startWith trimmedCleanWord "Said"
+  ✅ Совпадение! Откусываем "Said"
+  🔄 После откусывания: remainingLine="no one ever"
+  🔤 Проверяем слово: " no" (clean: " no", trimmed: "no")
+  📝 Оставшаяся строка: remainingLine "no one ever" startWith trimmedCleanWord "no"
+  ✅ Совпадение! Откусываем "no"
+  🔄 После откусывания: remainingLine="one ever"
+  🔤 Проверяем слово: " one" (clean: " one", trimmed: "one")
+  📝 Оставшаяся строка: remainingLine "one ever" startWith trimmedCleanWord "one"
+  ✅ Совпадение! Откусываем "one"
+  🔄 После откусывания: remainingLine="ever"
+  🔤 Проверяем слово: " ever" (clean: " ever", trimmed: "ever")
+  📝 Оставшаяся строка: remainingLine "ever" startWith trimmedCleanWord "ever"
+  ✅ Совпадение! Откусываем "ever"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "Who left broken-hearted"
+📍 Позиция alignmentPointer: 334
+  🔤 Проверяем слово: "
+Who" (clean: "Who", trimmed: "Who")
+  📝 Оставшаяся строка: remainingLine "Who left broken-hearted" startWith trimmedCleanWord "Who"
+  ✅ Совпадение! Откусываем "Who"
+  🔄 После откусывания: remainingLine="left broken-hearted"
+  🔤 Проверяем слово: " left" (clean: " left", trimmed: "left")
+  📝 Оставшаяся строка: remainingLine "left broken-hearted" startWith trimmedCleanWord "left"
+  ✅ Совпадение! Откусываем "left"
+  🔄 После откусывания: remainingLine="broken-hearted"
+  🔤 Проверяем слово: " broken" (clean: " broken", trimmed: "broken")
+  📝 Оставшаяся строка: remainingLine "broken-hearted" startWith trimmedCleanWord "broken"
+  ✅ Совпадение! Откусываем "broken"
+  🔄 После откусывания: remainingLine="-hearted"
+  🔤 Проверяем слово: "-heart" (clean: "-heart", trimmed: "-heart")
+  📝 Оставшаяся строка: remainingLine "-hearted" startWith trimmedCleanWord "-heart"
+  ✅ Совпадение! Откусываем "-heart"
+  🔄 После откусывания: remainingLine="ed"
+  🔤 Проверяем слово: "ed
+
+" (clean: "ed", trimmed: "ed")
+  📝 Оставшаяся строка: remainingLine "ed" startWith trimmedCleanWord "ed"
+  ✅ Совпадение! Откусываем "ed"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+Создан файл для редактирования: Never_Said-converted-edits.json
+Файл _config.ts обновлен с новым именем песни: "Never_Said"
+
+🎵 Проверка стемов...
+✅ Найден стем bass: It’s not clocking to you Said No One Ever (Bass).wav
+✅ Найден стем drums: It’s not clocking to you Said No One Ever (Drums).wav
+✅ Найден стем guitar: It’s not clocking to you Said No One Ever (Guitar).wav
+✅ Найден стем percussion: It’s not clocking to you Said No One Ever (Percussion).wav
+✅ Найден стем synth: It’s not clocking to you Said No One Ever (Synth).wav
+✅ Найден стем vocals: It’s not clocking to you Said No One Ever (Vocals).wav
+Найдено стемов: 6
+✅ Конфигурация стемов обновлена в _config.ts:
+   bass: stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav
+   drums: stems/Never_Said/It’s not clocking to you Said No One Ever (Drums).wav
+   guitar: stems/Never_Said/It’s not clocking to you Said No One Ever (Guitar).wav
+   percussion: stems/Never_Said/It’s not clocking to you Said No One Ever (Percussion).wav
+   synth: stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav
+   vocals: stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav
+Конвертация завершена успешно!

@@ -4,8 +4,8 @@ import {SegmentComp} from './components/SegmentNew';
 import {WhisperResponse, ANIMATION_MODE} from './types';
 import {mergeEditsWithConverted, MusicData, EditsData} from './lib/mergeEdits';
 import {SONG_TARGET} from './_config';
-import {useSplitProcessor} from './hooks/use-split-processor';
-import {useSplitLinesConfig} from './hooks/use-config';
+import {useSplitProcessor, useSplitWordsProcessor} from './hooks/use-split-processor';
+import {useSplitLinesConfig, useSplitWordsConfig} from './hooks/use-config';
 
 export const Subtitles: React.FC<{
 	src: string;
@@ -27,20 +27,24 @@ export const Subtitles: React.FC<{
 	}, [src]);
  
 	const splitLinesConfig = useSplitLinesConfig();
-	const splittedSubs = useSplitProcessor(subtitles, splitLinesConfig);
-
+	const splitWordsConfig = useSplitWordsConfig();
+	
+	// Цепочка обработки: сначала split-lines, затем split-words
+	const splitLinesSubs = useSplitProcessor(subtitles, splitLinesConfig);
+	const finalSubs = useSplitWordsProcessor(splitLinesSubs, splitWordsConfig);
 
 	useEffect(() => {
-		console.log('!!! splittedSubs', splittedSubs);
-	}, [splittedSubs]);
+		console.log('!!! splitLinesSubs', splitLinesSubs);
+		console.log('!!! finalSubs', finalSubs);
+	}, [splitLinesSubs, finalSubs]);
 	 
-	if (splittedSubs === null) {
+	if (finalSubs === null) {
 		return null;
 	}
 
 	return (
 		<AbsoluteFill style={{color: '#F5F5F5'}}>
-			{splittedSubs.segments.map((segment) => { 
+			{finalSubs.segments.map((segment) => { 
 				return (
 					<SegmentComp
 						key={segment.id}

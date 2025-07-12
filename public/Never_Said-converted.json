@@ -3,6 +3,7 @@
   "segments": [
     {
       "id": 0,
+      "parentId": null,
       "start": 0.79787,
       "end": 27.5266,
       "text": [
@@ -29,35 +30,35 @@
         },
         {
           "id": 1,
-          "word": " in",
+          "word": "in",
           "start": 1.2766,
           "end": 1.43617,
           "probability": 1
         },
         {
           "id": 2,
-          "word": " the",
+          "word": "the",
           "start": 1.43617,
           "end": 1.59574,
           "probability": 1
         },
         {
           "id": 3,
-          "word": " kitchen",
+          "word": "kitchen",
           "start": 1.59574,
           "end": 2.07447,
           "probability": 1
         },
         {
           "id": 4,
-          "word": " at",
+          "word": "at",
           "start": 2.07447,
           "end": 2.31383,
           "probability": 1
         },
         {
           "id": 5,
-          "word": " 2 AM",
+          "word": "2 AM",
           "start": 2.79255,
           "end": 3.03191,
           "probability": 1
@@ -85,28 +86,28 @@
         },
         {
           "id": 9,
-          "word": " through",
+          "word": "through",
           "start": 4.86702,
           "end": 5.0266,
           "probability": 1
         },
         {
           "id": 10,
-          "word": " your",
+          "word": "your",
           "start": 5.0266,
           "end": 5.26596,
           "probability": 1
         },
         {
           "id": 11,
-          "word": " phone",
+          "word": "phone",
           "start": 5.26596,
           "end": 5.74468,
           "probability": 1
         },
         {
           "id": 12,
-          "word": " again",
+          "word": "again",
           "start": 5.74468,
           "end": 6.2234,
           "probability": 1
@@ -120,14 +121,14 @@
         },
         {
           "id": 14,
-          "word": " I'm",
+          "word": "I'm",
           "start": 7.73936,
           "end": 7.89894,
           "probability": 1
         },
         {
           "id": 15,
-          "word": " talking '",
+          "word": "talking '",
           "start": 7.97872,
           "end": 8.37766,
           "probability": 1
@@ -141,14 +142,14 @@
         },
         {
           "id": 17,
-          "word": " our",
+          "word": "our",
           "start": 8.7766,
           "end": 9.09574,
           "probability": 1
         },
         {
           "id": 18,
-          "word": " plans",
+          "word": "plans",
           "start": 9.25532,
           "end": 9.73404,
           "probability": 1
@@ -162,42 +163,42 @@
         },
         {
           "id": 20,
-          "word": " my",
+          "word": "my",
           "start": 11.25,
           "end": 11.40957,
           "probability": 1
         },
         {
           "id": 21,
-          "word": " words",
+          "word": "words",
           "start": 11.40957,
           "end": 11.8883,
           "probability": 1
         },
         {
           "id": 22,
-          "word": " just",
+          "word": "just",
           "start": 11.96809,
           "end": 12.28723,
           "probability": 1
         },
         {
           "id": 23,
-          "word": " hit",
+          "word": "hit",
           "start": 12.28723,
           "end": 12.5266,
           "probability": 1
         },
         {
           "id": 24,
-          "word": " the",
+          "word": "the",
           "start": 12.5266,
           "end": 12.76596,
           "probability": 1
         },
         {
           "id": 25,
-          "word": " air",
+          "word": "air",
           "start": 12.76596,
           "end": 13.08511,
           "probability": 1
@@ -211,14 +212,14 @@
         },
         {
           "id": 27,
-          "word": " not",
+          "word": "not",
           "start": 14.84043,
           "end": 15.07979,
           "probability": 1
         },
         {
           "id": 28,
-          "word": " clock",
+          "word": "clock",
           "start": 15.07979,
           "end": 15.39894,
           "probability": 1
@@ -232,28 +233,28 @@
         },
         {
           "id": 30,
-          "word": " to",
+          "word": "to",
           "start": 15.71809,
           "end": 15.95745,
           "probability": 1
         },
         {
           "id": 31,
-          "word": " you,",
+          "word": "you,",
           "start": 16.03723,
           "end": 16.35638,
           "probability": 1
         },
         {
           "id": 32,
-          "word": " is",
+          "word": "is",
           "start": 16.51596,
           "end": 16.83511,
           "probability": 1
         },
         {
           "id": 33,
-          "word": " it?",
+          "word": "it?",
           "start": 16.91489,
           "end": 17.15426,
           "probability": 1
@@ -267,35 +268,35 @@
         },
         {
           "id": 35,
-          "word": " I'm",
+          "word": "I'm",
           "start": 18.27128,
           "end": 18.35106,
           "probability": 1
         },
         {
           "id": 36,
-          "word": " breaking",
+          "word": "breaking",
           "start": 18.59043,
           "end": 19.22872,
           "probability": 1
         },
         {
           "id": 37,
-          "word": " piece",
+          "word": "piece",
           "start": 19.22872,
           "end": 19.54787,
           "probability": 1
         },
         {
           "id": 38,
-          "word": " by",
+          "word": "by",
           "start": 19.54787,
           "end": 19.78723,
           "probability": 1
         },
         {
           "id": 39,
-          "word": " piece",
+          "word": "piece",
           "start": 20.0266,
           "end": 20.50532,
           "probability": 1
@@ -309,42 +310,42 @@
         },
         {
           "id": 41,
-          "word": " you",
+          "word": "you",
           "start": 21.78191,
           "end": 22.10106,
           "probability": 1
         },
         {
           "id": 42,
-          "word": " nod",
+          "word": "nod",
           "start": 22.10106,
           "end": 22.18085,
           "probability": 1
         },
         {
           "id": 43,
-          "word": " and",
+          "word": "and",
           "start": 22.34043,
           "end": 22.65957,
           "probability": 1
         },
         {
           "id": 44,
-          "word": " say",
+          "word": "say",
           "start": 22.65957,
           "end": 22.97872,
           "probability": 1
         },
         {
           "id": 45,
-          "word": " \"I'm",
+          "word": "\"I'm",
           "start": 23.1383,
           "end": 23.21809,
           "probability": 1
         },
         {
           "id": 46,
-          "word": " listening\"",
+          "word": "listening\"",
           "start": 23.45745,
           "end": 24.25532,
           "probability": 1
@@ -358,28 +359,28 @@
         },
         {
           "id": 48,
-          "word": " your",
+          "word": "your",
           "start": 25.37234,
           "end": 25.6117,
           "probability": 1
         },
         {
           "id": 49,
-          "word": " mind's",
+          "word": "mind's",
           "start": 25.6117,
           "end": 25.85106,
           "probability": 1
         },
         {
           "id": 50,
-          "word": " already",
+          "word": "already",
           "start": 26.40957,
           "end": 26.8883,
           "probability": 1
         },
         {
           "id": 51,
-          "word": " rele",
+          "word": "rele",
           "start": 26.8883,
           "end": 27.20745,
           "probability": 1
@@ -396,6 +397,7 @@
     },
     {
       "id": 1,
+      "parentId": null,
       "start": 29.60106,
       "end": 40.21277,
       "text": [
@@ -417,7 +419,7 @@
         },
         {
           "id": 1,
-          "word": " relation",
+          "word": "relation",
           "start": 30,
           "end": 30.47872,
           "probability": 1
@@ -431,28 +433,28 @@
         },
         {
           "id": 3,
-          "word": " means",
+          "word": "means",
           "start": 30.71809,
           "end": 31.19681,
           "probability": 1
         },
         {
           "id": 4,
-          "word": " everything",
+          "word": "everything",
           "start": 31.75532,
           "end": 32.15426,
           "probability": 1
         },
         {
           "id": 5,
-          "word": " to",
+          "word": "to",
           "start": 32.15426,
           "end": 32.31383,
           "probability": 1
         },
         {
           "id": 6,
-          "word": " me\"",
+          "word": "me\"",
           "start": 32.31383,
           "end": 32.55319,
           "probability": 1
@@ -473,35 +475,35 @@
         },
         {
           "id": 9,
-          "word": " never",
+          "word": "never",
           "start": 33.67021,
           "end": 34.06915,
           "probability": 1
         },
         {
           "id": 10,
-          "word": " felt",
+          "word": "felt",
           "start": 34.06915,
           "end": 34.3883,
           "probability": 1
         },
         {
           "id": 11,
-          "word": " this",
+          "word": "this",
           "start": 34.3883,
           "end": 34.54787,
           "probability": 1
         },
         {
           "id": 12,
-          "word": " way",
+          "word": "way",
           "start": 34.54787,
           "end": 34.86702,
           "probability": 1
         },
         {
           "id": 13,
-          "word": " before\"",
+          "word": "before\"",
           "start": 35.18617,
           "end": 35.74468,
           "probability": 1
@@ -515,35 +517,35 @@
         },
         {
           "id": 15,
-          "word": " should",
+          "word": "should",
           "start": 37.89894,
           "end": 38.1383,
           "probability": 1
         },
         {
           "id": 16,
-          "word": " talk",
+          "word": "talk",
           "start": 38.1383,
           "end": 38.53723,
           "probability": 1
         },
         {
           "id": 17,
-          "word": " about",
+          "word": "about",
           "start": 38.7766,
           "end": 39.25532,
           "probability": 1
         },
         {
           "id": 18,
-          "word": " our",
+          "word": "our",
           "start": 39.25532,
           "end": 39.57447,
           "probability": 1
         },
         {
           "id": 19,
-          "word": " future\"",
+          "word": "future\"",
           "start": 39.65426,
           "end": 40.21277,
           "probability": 1
@@ -553,6 +555,7 @@
     },
     {
       "id": 2,
+      "parentId": null,
       "start": 40.53191,
       "end": 66.30319,
       "text": [
@@ -581,21 +584,21 @@
         },
         {
           "id": 1,
-          "word": " no",
+          "word": "no",
           "start": 40.85106,
           "end": 41.01064,
           "probability": 1
         },
         {
           "id": 2,
-          "word": " one",
+          "word": "one",
           "start": 41.01064,
           "end": 41.25,
           "probability": 1
         },
         {
           "id": 3,
-          "word": " ever",
+          "word": "ever",
           "start": 41.25,
           "end": 41.64894,
           "probability": 1
@@ -609,21 +612,21 @@
         },
         {
           "id": 5,
-          "word": " no",
+          "word": "no",
           "start": 42.5266,
           "end": 42.76596,
           "probability": 1
         },
         {
           "id": 6,
-          "word": " one",
+          "word": "one",
           "start": 42.76596,
           "end": 43.00532,
           "probability": 1
         },
         {
           "id": 7,
-          "word": " ever",
+          "word": "ever",
           "start": 43.00532,
           "end": 43.40426,
           "probability": 1
@@ -637,14 +640,14 @@
         },
         {
           "id": 9,
-          "word": " was",
+          "word": "was",
           "start": 44.76064,
           "end": 45.07979,
           "probability": 1
         },
         {
           "id": 10,
-          "word": " check",
+          "word": "check",
           "start": 45.31915,
           "end": 45.79787,
           "probability": 1
@@ -658,7 +661,7 @@
         },
         {
           "id": 12,
-          "word": " out",
+          "word": "out",
           "start": 46.51596,
           "end": 46.83511,
           "probability": 1
@@ -672,21 +675,21 @@
         },
         {
           "id": 14,
-          "word": " no",
+          "word": "no",
           "start": 47.87234,
           "end": 48.1117,
           "probability": 1
         },
         {
           "id": 15,
-          "word": " one",
+          "word": "one",
           "start": 48.1117,
           "end": 48.35106,
           "probability": 1
         },
         {
           "id": 16,
-          "word": " ever",
+          "word": "ever",
           "start": 48.35106,
           "end": 48.75,
           "probability": 1
@@ -700,21 +703,21 @@
         },
         {
           "id": 18,
-          "word": " no",
+          "word": "no",
           "start": 49.62766,
           "end": 49.86702,
           "probability": 1
         },
         {
           "id": 19,
-          "word": " one",
+          "word": "one",
           "start": 49.86702,
           "end": 50.10638,
           "probability": 1
         },
         {
           "id": 20,
-          "word": " ever",
+          "word": "ever",
           "start": 50.10638,
           "end": 50.50532,
           "probability": 1
@@ -728,28 +731,28 @@
         },
         {
           "id": 22,
-          "word": " love",
+          "word": "love",
           "start": 51.46277,
           "end": 51.8617,
           "probability": 1
         },
         {
           "id": 23,
-          "word": " turned",
+          "word": "turned",
           "start": 52.26064,
           "end": 52.81915,
           "probability": 1
         },
         {
           "id": 24,
-          "word": " to",
+          "word": "to",
           "start": 53.1383,
           "end": 53.37766,
           "probability": 1
         },
         {
           "id": 25,
-          "word": " doubt",
+          "word": "doubt",
           "start": 53.53723,
           "end": 54.01596,
           "probability": 1
@@ -763,14 +766,14 @@
         },
         {
           "id": 27,
-          "word": " not",
+          "word": "not",
           "start": 55.05319,
           "end": 55.37234,
           "probability": 1
         },
         {
           "id": 28,
-          "word": " clock",
+          "word": "clock",
           "start": 55.45213,
           "end": 55.93085,
           "probability": 1
@@ -784,14 +787,14 @@
         },
         {
           "id": 30,
-          "word": " to",
+          "word": "to",
           "start": 56.72872,
           "end": 56.96809,
           "probability": 1
         },
         {
           "id": 31,
-          "word": " you",
+          "word": "you",
           "start": 57.04787,
           "end": 57.36702,
           "probability": 1
@@ -805,21 +808,21 @@
         },
         {
           "id": 33,
-          "word": " I'm",
+          "word": "I'm",
           "start": 58.48404,
           "end": 58.64362,
           "probability": 1
         },
         {
           "id": 34,
-          "word": " already",
+          "word": "already",
           "start": 59.76064,
           "end": 60.39894,
           "probability": 1
         },
         {
           "id": 35,
-          "word": " gone",
+          "word": "gone",
           "start": 60.6383,
           "end": 61.03723,
           "probability": 1
@@ -833,21 +836,21 @@
         },
         {
           "id": 37,
-          "word": " no",
+          "word": "no",
           "start": 62.07447,
           "end": 62.23404,
           "probability": 1
         },
         {
           "id": 38,
-          "word": " one",
+          "word": "one",
           "start": 62.23404,
           "end": 62.55319,
           "probability": 1
         },
         {
           "id": 39,
-          "word": " ever",
+          "word": "ever",
           "start": 62.55319,
           "end": 62.95213,
           "probability": 1
@@ -861,28 +864,28 @@
         },
         {
           "id": 41,
-          "word": " said",
+          "word": "said",
           "start": 64.22872,
           "end": 64.54787,
           "probability": 1
         },
         {
           "id": 42,
-          "word": " those",
+          "word": "those",
           "start": 64.54787,
           "end": 64.78723,
           "probability": 1
         },
         {
           "id": 43,
-          "word": " words",
+          "word": "words",
           "start": 64.78723,
           "end": 65.18617,
           "probability": 1
         },
         {
           "id": 44,
-          "word": " you'",
+          "word": "you'",
           "start": 65.18617,
           "end": 65.26596,
           "probability": 1
@@ -896,14 +899,14 @@
         },
         {
           "id": 46,
-          "word": " thinking",
+          "word": "thinking",
           "start": 65.58511,
           "end": 66.06383,
           "probability": 1
         },
         {
           "id": 47,
-          "word": " of",
+          "word": "of",
           "start": 66.06383,
           "end": 66.30319,
           "probability": 1
@@ -913,6 +916,7 @@
     },
     {
       "id": 3,
+      "parentId": null,
       "start": 67.97872,
       "end": 94.54787,
       "text": [
@@ -939,7 +943,7 @@
         },
         {
           "id": 1,
-          "word": " dat",
+          "word": "dat",
           "start": 68.29787,
           "end": 68.45745,
           "probability": 1
@@ -953,14 +957,14 @@
         },
         {
           "id": 3,
-          "word": " where",
+          "word": "where",
           "start": 68.69681,
           "end": 69.01596,
           "probability": 1
         },
         {
           "id": 4,
-          "word": " you'",
+          "word": "you'",
           "start": 69.01596,
           "end": 69.09574,
           "probability": 1
@@ -974,7 +978,7 @@
         },
         {
           "id": 6,
-          "word": " exp",
+          "word": "exp",
           "start": 69.41489,
           "end": 69.65426,
           "probability": 1
@@ -1002,42 +1006,42 @@
         },
         {
           "id": 10,
-          "word": " you",
+          "word": "you",
           "start": 71.64894,
           "end": 71.8883,
           "probability": 1
         },
         {
           "id": 11,
-          "word": " need",
+          "word": "need",
           "start": 71.8883,
           "end": 72.20745,
           "probability": 1
         },
         {
           "id": 12,
-          "word": " more",
+          "word": "more",
           "start": 72.20745,
           "end": 72.44681,
           "probability": 1
         },
         {
           "id": 13,
-          "word": " time",
+          "word": "time",
           "start": 72.44681,
           "end": 72.84574,
           "probability": 1
         },
         {
           "id": 14,
-          "word": " to",
+          "word": "to",
           "start": 72.92553,
           "end": 73.16489,
           "probability": 1
         },
         {
           "id": 15,
-          "word": " think",
+          "word": "think",
           "start": 73.16489,
           "end": 73.64362,
           "probability": 1
@@ -1051,35 +1055,35 @@
         },
         {
           "id": 17,
-          "word": " I'm",
+          "word": "I'm",
           "start": 75.15957,
           "end": 75.23936,
           "probability": 1
         },
         {
           "id": 18,
-          "word": " drowning",
+          "word": "drowning",
           "start": 75.55851,
           "end": 76.19681,
           "probability": 1
         },
         {
           "id": 19,
-          "word": " in",
+          "word": "in",
           "start": 76.19681,
           "end": 76.43617,
           "probability": 1
         },
         {
           "id": 20,
-          "word": " the",
+          "word": "the",
           "start": 76.43617,
           "end": 76.75532,
           "probability": 1
         },
         {
           "id": 21,
-          "word": " silence",
+          "word": "silence",
           "start": 76.75532,
           "end": 77.39362,
           "probability": 1
@@ -1093,21 +1097,21 @@
         },
         {
           "id": 23,
-          "word": " the",
+          "word": "the",
           "start": 78.75,
           "end": 78.98936,
           "probability": 1
         },
         {
           "id": 24,
-          "word": " truth",
+          "word": "truth",
           "start": 78.98936,
           "end": 79.3883,
           "probability": 1
         },
         {
           "id": 25,
-          "word": " you'",
+          "word": "you'",
           "start": 79.3883,
           "end": 79.54787,
           "probability": 1
@@ -1121,14 +1125,14 @@
         },
         {
           "id": 27,
-          "word": " never",
+          "word": "never",
           "start": 79.86702,
           "end": 80.26596,
           "probability": 1
         },
         {
           "id": 28,
-          "word": " speak",
+          "word": "speak",
           "start": 80.26596,
           "end": 80.74468,
           "probability": 1
@@ -1142,21 +1146,21 @@
         },
         {
           "id": 30,
-          "word": " it's",
+          "word": "it's",
           "start": 82.02128,
           "end": 82.10106,
           "probability": 1
         },
         {
           "id": 31,
-          "word": " not",
+          "word": "not",
           "start": 82.34043,
           "end": 82.5,
           "probability": 1
         },
         {
           "id": 32,
-          "word": " clock",
+          "word": "clock",
           "start": 82.5,
           "end": 82.81915,
           "probability": 1
@@ -1170,21 +1174,21 @@
         },
         {
           "id": 34,
-          "word": " to",
+          "word": "to",
           "start": 83.1383,
           "end": 83.37766,
           "probability": 1
         },
         {
           "id": 35,
-          "word": " you,",
+          "word": "you,",
           "start": 83.53723,
           "end": 83.85638,
           "probability": 1
         },
         {
           "id": 36,
-          "word": " baby",
+          "word": "baby",
           "start": 84.09574,
           "end": 84.57447,
           "probability": 1
@@ -1198,14 +1202,14 @@
         },
         {
           "id": 38,
-          "word": " these",
+          "word": "these",
           "start": 85.6117,
           "end": 86.01064,
           "probability": 1
         },
         {
           "id": 39,
-          "word": " excus",
+          "word": "excus",
           "start": 86.01064,
           "end": 86.40957,
           "probability": 1
@@ -1219,21 +1223,21 @@
         },
         {
           "id": 41,
-          "word": " taste",
+          "word": "taste",
           "start": 86.72872,
           "end": 87.20745,
           "probability": 1
         },
         {
           "id": 42,
-          "word": " like",
+          "word": "like",
           "start": 87.20745,
           "end": 87.60638,
           "probability": 1
         },
         {
           "id": 43,
-          "word": " lies",
+          "word": "lies",
           "start": 87.60638,
           "end": 88.00532,
           "probability": 1
@@ -1247,35 +1251,35 @@
         },
         {
           "id": 45,
-          "word": " you",
+          "word": "you",
           "start": 89.28191,
           "end": 89.60106,
           "probability": 1
         },
         {
           "id": 46,
-          "word": " say",
+          "word": "say",
           "start": 89.60106,
           "end": 89.92021,
           "probability": 1
         },
         {
           "id": 47,
-          "word": " \"I'm",
+          "word": "\"I'm",
           "start": 89.92021,
           "end": 90,
           "probability": 1
         },
         {
           "id": 48,
-          "word": " really",
+          "word": "really",
           "start": 90.31915,
           "end": 90.87766,
           "probability": 1
         },
         {
           "id": 49,
-          "word": " trying\"",
+          "word": "trying\"",
           "start": 90.87766,
           "end": 91.43617,
           "probability": 1
@@ -1289,7 +1293,7 @@
         },
         {
           "id": 51,
-          "word": " distra",
+          "word": "distra",
           "start": 93.19149,
           "end": 93.59043,
           "probability": 1
@@ -1303,21 +1307,21 @@
         },
         {
           "id": 53,
-          "word": " in",
+          "word": "in",
           "start": 93.90957,
           "end": 94.14894,
           "probability": 1
         },
         {
           "id": 54,
-          "word": " your",
+          "word": "your",
           "start": 94.14894,
           "end": 94.30851,
           "probability": 1
         },
         {
           "id": 55,
-          "word": " eyes",
+          "word": "eyes",
           "start": 94.30851,
           "end": 94.54787,
           "probability": 1
@@ -1327,6 +1331,7 @@
     },
     {
       "id": 4,
+      "parentId": null,
       "start": 94.54787,
       "end": 108.98936,
       "text": [
@@ -1348,42 +1353,42 @@
         },
         {
           "id": 1,
-          "word": " just",
+          "word": "just",
           "start": 97.89894,
           "end": 98.1383,
           "probability": 1
         },
         {
           "id": 2,
-          "word": " need",
+          "word": "need",
           "start": 98.1383,
           "end": 98.53723,
           "probability": 1
         },
         {
           "id": 3,
-          "word": " space",
+          "word": "space",
           "start": 98.53723,
           "end": 98.93617,
           "probability": 1
         },
         {
           "id": 4,
-          "word": " to",
+          "word": "to",
           "start": 98.93617,
           "end": 99.17553,
           "probability": 1
         },
         {
           "id": 5,
-          "word": " find",
+          "word": "find",
           "start": 99.41489,
           "end": 99.81383,
           "probability": 1
         },
         {
           "id": 6,
-          "word": " myself\"",
+          "word": "myself\"",
           "start": 100.29255,
           "end": 100.85106,
           "probability": 1
@@ -1397,35 +1402,35 @@
         },
         {
           "id": 8,
-          "word": " is",
+          "word": "is",
           "start": 101.64894,
           "end": 101.8883,
           "probability": 1
         },
         {
           "id": 9,
-          "word": " harder",
+          "word": "harder",
           "start": 102.12766,
           "end": 102.68617,
           "probability": 1
         },
         {
           "id": 10,
-          "word": " on",
+          "word": "on",
           "start": 102.92553,
           "end": 103.16489,
           "probability": 1
         },
         {
           "id": 11,
-          "word": " me",
+          "word": "me",
           "start": 103.40426,
           "end": 103.64362,
           "probability": 1
         },
         {
           "id": 12,
-          "word": " too\"",
+          "word": "too\"",
           "start": 103.80319,
           "end": 104.12234,
           "probability": 1
@@ -1439,35 +1444,35 @@
         },
         {
           "id": 14,
-          "word": " we",
+          "word": "we",
           "start": 106.51596,
           "end": 106.75532,
           "probability": 1
         },
         {
           "id": 15,
-          "word": " can",
+          "word": "can",
           "start": 106.91489,
           "end": 107.23404,
           "probability": 1
         },
         {
           "id": 16,
-          "word": " work",
+          "word": "work",
           "start": 107.39362,
           "end": 107.79255,
           "probability": 1
         },
         {
           "id": 17,
-          "word": " this",
+          "word": "this",
           "start": 107.87234,
           "end": 108.27128,
           "probability": 1
         },
         {
           "id": 18,
-          "word": " out\"",
+          "word": "out\"",
           "start": 108.67021,
           "end": 108.98936,
           "probability": 1
@@ -1477,6 +1482,7 @@
     },
     {
       "id": 5,
+      "parentId": null,
       "start": 111.62234,
       "end": 137.63298,
       "text": [
@@ -1505,21 +1511,21 @@
         },
         {
           "id": 1,
-          "word": " no",
+          "word": "no",
           "start": 111.8617,
           "end": 112.10106,
           "probability": 1
         },
         {
           "id": 2,
-          "word": " one",
+          "word": "one",
           "start": 112.10106,
           "end": 112.42021,
           "probability": 1
         },
         {
           "id": 3,
-          "word": " ever",
+          "word": "ever",
           "start": 112.42021,
           "end": 112.81915,
           "probability": 1
@@ -1533,21 +1539,21 @@
         },
         {
           "id": 5,
-          "word": " no",
+          "word": "no",
           "start": 113.61702,
           "end": 113.85638,
           "probability": 1
         },
         {
           "id": 6,
-          "word": " one",
+          "word": "one",
           "start": 113.85638,
           "end": 114.09574,
           "probability": 1
         },
         {
           "id": 7,
-          "word": " ever",
+          "word": "ever",
           "start": 114.09574,
           "end": 114.49468,
           "probability": 1
@@ -1561,14 +1567,14 @@
         },
         {
           "id": 9,
-          "word": " was",
+          "word": "was",
           "start": 115.77128,
           "end": 116.09043,
           "probability": 1
         },
         {
           "id": 10,
-          "word": " half",
+          "word": "half",
           "start": 116.32979,
           "end": 116.72872,
           "probability": 1
@@ -1582,21 +1588,21 @@
         },
         {
           "id": 12,
-          "word": " out",
+          "word": "out",
           "start": 117.12766,
           "end": 117.44681,
           "probability": 1
         },
         {
           "id": 13,
-          "word": " the",
+          "word": "the",
           "start": 117.5266,
           "end": 117.76596,
           "probability": 1
         },
         {
           "id": 14,
-          "word": " door",
+          "word": "door",
           "start": 117.76596,
           "end": 118.16489,
           "probability": 1
@@ -1610,21 +1616,21 @@
         },
         {
           "id": 16,
-          "word": " no",
+          "word": "no",
           "start": 118.96277,
           "end": 119.12234,
           "probability": 1
         },
         {
           "id": 17,
-          "word": " one",
+          "word": "one",
           "start": 119.12234,
           "end": 119.44149,
           "probability": 1
         },
         {
           "id": 18,
-          "word": " ever",
+          "word": "ever",
           "start": 119.44149,
           "end": 119.84043,
           "probability": 1
@@ -1638,21 +1644,21 @@
         },
         {
           "id": 20,
-          "word": " no",
+          "word": "no",
           "start": 120.71809,
           "end": 120.95745,
           "probability": 1
         },
         {
           "id": 21,
-          "word": " one",
+          "word": "one",
           "start": 120.95745,
           "end": 121.19681,
           "probability": 1
         },
         {
           "id": 22,
-          "word": " ever",
+          "word": "ever",
           "start": 121.19681,
           "end": 121.59574,
           "probability": 1
@@ -1666,35 +1672,35 @@
         },
         {
           "id": 24,
-          "word": " they'd",
+          "word": "they'd",
           "start": 122.4734,
           "end": 122.55319,
           "probability": 1
         },
         {
           "id": 25,
-          "word": " already",
+          "word": "already",
           "start": 122.95213,
           "end": 123.35106,
           "probability": 1
         },
         {
           "id": 26,
-          "word": " found",
+          "word": "found",
           "start": 123.35106,
           "end": 123.82979,
           "probability": 1
         },
         {
           "id": 27,
-          "word": " something",
+          "word": "something",
           "start": 124.06915,
           "end": 124.70745,
           "probability": 1
         },
         {
           "id": 28,
-          "word": " more",
+          "word": "more",
           "start": 124.70745,
           "end": 124.78723,
           "probability": 1
@@ -1708,14 +1714,14 @@
         },
         {
           "id": 30,
-          "word": " not",
+          "word": "not",
           "start": 125.0266,
           "end": 125.18617,
           "probability": 1
         },
         {
           "id": 31,
-          "word": " clock",
+          "word": "clock",
           "start": 125.18617,
           "end": 125.66489,
           "probability": 1
@@ -1729,14 +1735,14 @@
         },
         {
           "id": 33,
-          "word": " to",
+          "word": "to",
           "start": 127.97872,
           "end": 128.21809,
           "probability": 1
         },
         {
           "id": 34,
-          "word": " you",
+          "word": "you",
           "start": 128.29787,
           "end": 128.61702,
           "probability": 1
@@ -1750,28 +1756,28 @@
         },
         {
           "id": 36,
-          "word": " see",
+          "word": "see",
           "start": 130.13298,
           "end": 130.45213,
           "probability": 1
         },
         {
           "id": 37,
-          "word": " through",
+          "word": "through",
           "start": 130.93085,
           "end": 131.40957,
           "probability": 1
         },
         {
           "id": 38,
-          "word": " it",
+          "word": "it",
           "start": 131.40957,
           "end": 131.64894,
           "probability": 1
         },
         {
           "id": 39,
-          "word": " all",
+          "word": "all",
           "start": 131.80851,
           "end": 132.12766,
           "probability": 1
@@ -1785,21 +1791,21 @@
         },
         {
           "id": 41,
-          "word": " no",
+          "word": "no",
           "start": 133.24468,
           "end": 133.40426,
           "probability": 1
         },
         {
           "id": 42,
-          "word": " one",
+          "word": "one",
           "start": 133.40426,
           "end": 133.7234,
           "probability": 1
         },
         {
           "id": 43,
-          "word": " ever",
+          "word": "ever",
           "start": 133.7234,
           "end": 134.12234,
           "probability": 1
@@ -1813,42 +1819,42 @@
         },
         {
           "id": 45,
-          "word": " meant",
+          "word": "meant",
           "start": 135.39894,
           "end": 135.6383,
           "probability": 1
         },
         {
           "id": 46,
-          "word": " the",
+          "word": "the",
           "start": 135.6383,
           "end": 135.87766,
           "probability": 1
         },
         {
           "id": 47,
-          "word": " words",
+          "word": "words",
           "start": 135.87766,
           "end": 136.35638,
           "probability": 1
         },
         {
           "id": 48,
-          "word": " before",
+          "word": "before",
           "start": 136.51596,
           "end": 136.83511,
           "probability": 1
         },
         {
           "id": 49,
-          "word": " you",
+          "word": "you",
           "start": 136.83511,
           "end": 137.15426,
           "probability": 1
         },
         {
           "id": 50,
-          "word": " fall",
+          "word": "fall",
           "start": 137.23404,
           "end": 137.63298,
           "probability": 1
@@ -1858,6 +1864,7 @@
     },
     {
       "id": 6,
+      "parentId": null,
       "start": 139.86702,
       "end": 153.90957,
       "text": [
@@ -1880,49 +1887,49 @@
         },
         {
           "id": 1,
-          "word": " I'm",
+          "word": "I'm",
           "start": 140.34574,
           "end": 140.42553,
           "probability": 1
         },
         {
           "id": 2,
-          "word": " the",
+          "word": "the",
           "start": 140.74468,
           "end": 140.98404,
           "probability": 1
         },
         {
           "id": 3,
-          "word": " fool",
+          "word": "fool",
           "start": 140.98404,
           "end": 141.38298,
           "probability": 1
         },
         {
           "id": 4,
-          "word": " who",
+          "word": "who",
           "start": 141.54255,
           "end": 141.8617,
           "probability": 1
         },
         {
           "id": 5,
-          "word": " can't",
+          "word": "can't",
           "start": 141.8617,
           "end": 141.94149,
           "probability": 1
         },
         {
           "id": 6,
-          "word": " read",
+          "word": "read",
           "start": 142.34043,
           "end": 142.73936,
           "probability": 1
         },
         {
           "id": 7,
-          "word": " signs",
+          "word": "signs",
           "start": 142.73936,
           "end": 143.21809,
           "probability": 1
@@ -1936,42 +1943,42 @@
         },
         {
           "id": 9,
-          "word": " I'm",
+          "word": "I'm",
           "start": 143.85638,
           "end": 143.93617,
           "probability": 1
         },
         {
           "id": 10,
-          "word": " the",
+          "word": "the",
           "start": 144.33511,
           "end": 144.49468,
           "probability": 1
         },
         {
           "id": 11,
-          "word": " one",
+          "word": "one",
           "start": 144.49468,
           "end": 144.81383,
           "probability": 1
         },
         {
           "id": 12,
-          "word": " who's",
+          "word": "who's",
           "start": 145.13298,
           "end": 145.21277,
           "probability": 1
         },
         {
           "id": 13,
-          "word": " going",
+          "word": "going",
           "start": 145.45213,
           "end": 145.93085,
           "probability": 1
         },
         {
           "id": 14,
-          "word": " blind",
+          "word": "blind",
           "start": 146.25,
           "end": 146.72872,
           "probability": 1
@@ -1985,49 +1992,49 @@
         },
         {
           "id": 16,
-          "word": " when",
+          "word": "when",
           "start": 147.36702,
           "end": 147.5266,
           "probability": 1
         },
         {
           "id": 17,
-          "word": " you",
+          "word": "you",
           "start": 147.5266,
           "end": 147.84574,
           "probability": 1
         },
         {
           "id": 18,
-          "word": " say",
+          "word": "say",
           "start": 147.84574,
           "end": 148.16489,
           "probability": 1
         },
         {
           "id": 19,
-          "word": " \"forever\"",
+          "word": "\"forever\"",
           "start": 148.32447,
           "end": 148.96277,
           "probability": 1
         },
         {
           "id": 20,
-          "word": " with",
+          "word": "with",
           "start": 148.96277,
           "end": 149.44149,
           "probability": 1
         },
         {
           "id": 21,
-          "word": " that",
+          "word": "that",
           "start": 149.44149,
           "end": 149.76064,
           "probability": 1
         },
         {
           "id": 22,
-          "word": " tone",
+          "word": "tone",
           "start": 149.76064,
           "end": 150.15957,
           "probability": 1
@@ -2041,14 +2048,14 @@
         },
         {
           "id": 24,
-          "word": " know",
+          "word": "know",
           "start": 150.6383,
           "end": 150.87766,
           "probability": 1
         },
         {
           "id": 25,
-          "word": " you'",
+          "word": "you'",
           "start": 150.87766,
           "end": 150.95745,
           "probability": 1
@@ -2062,14 +2069,14 @@
         },
         {
           "id": 27,
-          "word": " already",
+          "word": "already",
           "start": 151.35638,
           "end": 151.83511,
           "probability": 1
         },
         {
           "id": 28,
-          "word": " wr",
+          "word": "wr",
           "start": 151.83511,
           "end": 152.07447,
           "probability": 1
@@ -2083,21 +2090,21 @@
         },
         {
           "id": 30,
-          "word": " me a",
+          "word": "me a",
           "start": 152.23404,
           "end": 152.4734,
           "probability": 1
         },
         {
           "id": 31,
-          "word": " goodbye",
+          "word": "goodbye",
           "start": 153.1117,
           "end": 153.51064,
           "probability": 1
         },
         {
           "id": 32,
-          "word": " note",
+          "word": "note",
           "start": 153.51064,
           "end": 153.90957,
           "probability": 1
@@ -2107,6 +2114,7 @@
     },
     {
       "id": 7,
+      "parentId": null,
       "start": 155.98404,
       "end": 184.70745,
       "text": [
@@ -2135,49 +2143,49 @@
         },
         {
           "id": 1,
-          "word": " want",
+          "word": "want",
           "start": 156.2234,
           "end": 156.38298,
           "probability": 1
         },
         {
           "id": 2,
-          "word": " to",
+          "word": "to",
           "start": 156.38298,
           "end": 156.62234,
           "probability": 1
         },
         {
           "id": 3,
-          "word": " stay",
+          "word": "stay",
           "start": 156.62234,
           "end": 156.78191,
           "probability": 1
         },
         {
           "id": 4,
-          "word": " and",
+          "word": "and",
           "start": 156.78191,
           "end": 157.02128,
           "probability": 1
         },
         {
           "id": 5,
-          "word": " fight",
+          "word": "fight",
           "start": 157.02128,
           "end": 157.34043,
           "probability": 1
         },
         {
           "id": 6,
-          "word": " for",
+          "word": "for",
           "start": 157.34043,
           "end": 157.65957,
           "probability": 1
         },
         {
           "id": 7,
-          "word": " this\"",
+          "word": "this\"",
           "start": 158.1383,
           "end": 158.53723,
           "probability": 1
@@ -2191,35 +2199,35 @@
         },
         {
           "id": 9,
-          "word": " no",
+          "word": "no",
           "start": 159.89362,
           "end": 160.05319,
           "probability": 1
         },
         {
           "id": 10,
-          "word": " one",
+          "word": "one",
           "start": 160.05319,
           "end": 160.37234,
           "probability": 1
         },
         {
           "id": 11,
-          "word": " ever",
+          "word": "ever",
           "start": 160.37234,
           "end": 160.77128,
           "probability": 1
         },
         {
           "id": 12,
-          "word": " walking",
+          "word": "walking",
           "start": 160.85106,
           "end": 161.48936,
           "probability": 1
         },
         {
           "id": 13,
-          "word": " away",
+          "word": "away",
           "start": 162.04787,
           "end": 162.44681,
           "probability": 1
@@ -2233,28 +2241,28 @@
         },
         {
           "id": 15,
-          "word": " is",
+          "word": "is",
           "start": 163.56383,
           "end": 163.80319,
           "probability": 1
         },
         {
           "id": 16,
-          "word": " just a",
+          "word": "just a",
           "start": 163.80319,
           "end": 164.04255,
           "probability": 1
         },
         {
           "id": 17,
-          "word": " phase",
+          "word": "phase",
           "start": 164.28191,
           "end": 164.68085,
           "probability": 1
         },
         {
           "id": 18,
-          "word": " we'",
+          "word": "we'",
           "start": 164.68085,
           "end": 164.84043,
           "probability": 1
@@ -2268,14 +2276,14 @@
         },
         {
           "id": 20,
-          "word": " going",
+          "word": "going",
           "start": 165.15957,
           "end": 165.6383,
           "probability": 1
         },
         {
           "id": 21,
-          "word": " through\"",
+          "word": "through\"",
           "start": 165.79787,
           "end": 166.43617,
           "probability": 1
@@ -2289,21 +2297,21 @@
         },
         {
           "id": 23,
-          "word": " no",
+          "word": "no",
           "start": 166.99468,
           "end": 167.15426,
           "probability": 1
         },
         {
           "id": 24,
-          "word": " one",
+          "word": "one",
           "start": 167.15426,
           "end": 167.39362,
           "probability": 1
         },
         {
           "id": 25,
-          "word": " ever",
+          "word": "ever",
           "start": 167.39362,
           "end": 167.79255,
           "probability": 1
@@ -2317,42 +2325,42 @@
         },
         {
           "id": 27,
-          "word": " already",
+          "word": "already",
           "start": 168.27128,
           "end": 168.75,
           "probability": 1
         },
         {
           "id": 28,
-          "word": " moved",
+          "word": "moved",
           "start": 168.75,
           "end": 169.14894,
           "probability": 1
         },
         {
           "id": 29,
-          "word": " on",
+          "word": "on",
           "start": 169.14894,
           "end": 169.3883,
           "probability": 1
         },
         {
           "id": 30,
-          "word": " to",
+          "word": "to",
           "start": 169.3883,
           "end": 169.62766,
           "probability": 1
         },
         {
           "id": 31,
-          "word": " someone",
+          "word": "someone",
           "start": 170.0266,
           "end": 170.26596,
           "probability": 1
         },
         {
           "id": 32,
-          "word": " new",
+          "word": "new",
           "start": 170.26596,
           "end": 170.50532,
           "probability": 1
@@ -2366,14 +2374,14 @@
         },
         {
           "id": 34,
-          "word": " not",
+          "word": "not",
           "start": 170.82447,
           "end": 171.14362,
           "probability": 1
         },
         {
           "id": 35,
-          "word": " clock",
+          "word": "clock",
           "start": 171.2234,
           "end": 171.70213,
           "probability": 1
@@ -2387,14 +2395,14 @@
         },
         {
           "id": 37,
-          "word": " to",
+          "word": "to",
           "start": 172.26064,
           "end": 172.5,
           "probability": 1
         },
         {
           "id": 38,
-          "word": " you",
+          "word": "you",
           "start": 172.65957,
           "end": 172.97872,
           "probability": 1
@@ -2408,7 +2416,7 @@
         },
         {
           "id": 40,
-          "word": " we'",
+          "word": "we'",
           "start": 174.01596,
           "end": 174.09574,
           "probability": 1
@@ -2422,28 +2430,28 @@
         },
         {
           "id": 42,
-          "word": " done",
+          "word": "done",
           "start": 174.49468,
           "end": 174.89362,
           "probability": 1
         },
         {
           "id": 43,
-          "word": " before",
+          "word": "before",
           "start": 175.6117,
           "end": 176.01064,
           "probability": 1
         },
         {
           "id": 44,
-          "word": " we",
+          "word": "we",
           "start": 176.01064,
           "end": 176.25,
           "probability": 1
         },
         {
           "id": 45,
-          "word": " started",
+          "word": "started",
           "start": 176.48936,
           "end": 177.12766,
           "probability": 1
@@ -2457,21 +2465,21 @@
         },
         {
           "id": 47,
-          "word": " no",
+          "word": "no",
           "start": 177.60638,
           "end": 177.84574,
           "probability": 1
         },
         {
           "id": 48,
-          "word": " one",
+          "word": "one",
           "start": 177.84574,
           "end": 178.08511,
           "probability": 1
         },
         {
           "id": 49,
-          "word": " ever",
+          "word": "ever",
           "start": 178.08511,
           "end": 178.48404,
           "probability": 1
@@ -2485,21 +2493,21 @@
         },
         {
           "id": 51,
-          "word": " no",
+          "word": "no",
           "start": 179.3617,
           "end": 179.60106,
           "probability": 1
         },
         {
           "id": 52,
-          "word": " one",
+          "word": "one",
           "start": 179.60106,
           "end": 179.84043,
           "probability": 1
         },
         {
           "id": 53,
-          "word": " ever",
+          "word": "ever",
           "start": 179.84043,
           "end": 180.23936,
           "probability": 1
@@ -2513,14 +2521,14 @@
         },
         {
           "id": 55,
-          "word": " left",
+          "word": "left",
           "start": 181.11702,
           "end": 181.51596,
           "probability": 1
         },
         {
           "id": 56,
-          "word": " broken",
+          "word": "broken",
           "start": 182.95213,
           "end": 183.51064,
           "probability": 1

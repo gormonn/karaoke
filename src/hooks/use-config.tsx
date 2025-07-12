@@ -6,7 +6,8 @@ export const configSchema = z.object({
     transparent: z.boolean(),
     splitLines: z.boolean(),
     splitLinesConfig: z.string(),
-    splitByWords: z.boolean(),
+    splitWords: z.boolean(),
+    splitWordsConfig: z.string(),
 	stems: z.nullable(z.object({
 		guitar: z.boolean(),
 		bass: z.boolean(),
@@ -23,7 +24,8 @@ export const defaultProps = {
     transparent: KARAOKE_CONFIG.transparent,
     splitLines: KARAOKE_CONFIG.splitLines,
     splitLinesConfig: '', // загружается асинхронно из файла в Root.tsx
-    splitByWords: KARAOKE_CONFIG.splitByWords,
+    splitWords: KARAOKE_CONFIG.splitWords,
+    splitWordsConfig: '', // загружается асинхронно из файла в Root.tsx
     stems: {
         guitar: true,
         bass: true,
@@ -42,6 +44,8 @@ export const useStems = () => useConfig().stems;
 
 export const useSplitLines = () => useConfig().splitLines;
 
-export const useSplitByWords = () => useConfig().splitByWords;
+export const useSplitWords = () => useConfig().splitWords;
 
 export const useSplitLinesConfig = () => useConfig().splitLinesConfig;
+
+export const useSplitWordsConfig = () => useConfig().splitWordsConfig;

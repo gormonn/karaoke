@@ -2,7 +2,7 @@
 
 const isClient = typeof window !== 'undefined';
 
-const console = {
+let console = {
 	log: (...args) => {
 		if(!isClient) {
 			globalThis.console.log(...args);
@@ -54,7 +54,12 @@ function getSegmentsWithParagraphs(paragraphs) {
  * Создает сегменты из параграфов с использованием указателя на alignment
  * Обрабатывает параграфы последовательно, построчно
  */
-function createSegmentsSequentially(paragraphs, processedAlignment, _alignmentPointer = 0) {
+function createSegmentsSequentially(
+	paragraphs,
+	processedAlignment,
+	_alignmentPointer = 0,
+	parentId = null,
+	isCleanWords = true) {
 	const segments = [];
 	let alignmentPointer = _alignmentPointer;
 	const MAX_SKIP_ATTEMPTS = 1; // minimum 1
@@ -82,18 +87,21 @@ function createSegmentsSequentially(paragraphs, processedAlignment, _alignmentPo
 				}
 				
 				const word = processedAlignment[alignmentPointer];
-				const cleanWord = removeMetadata(word.word)//.trim();
+
+				// const cleanWord = isCleanWords ? removeMetadata(word.word) : word.word;
+				const cleanWord = removeMetadata(word.word);
+				const trimmedCleanWord = cleanWord.trim(); // убираем пробелы для сравнения
 				
-				console.log(`  🔤 Проверяем слово: "${word.word}" (clean: "${cleanWord}")`);
-				console.log(`  📝 Оставшаяся строка: remainingLine "${remainingLine}" startWith cleanWord ${cleanWord}`);
+				console.log(`  🔤 Проверяем слово: "${word.word}" (clean: "${cleanWord}", trimmed: "${trimmedCleanWord}")`);
+				console.log(`  📝 Оставшаяся строка: remainingLine "${remainingLine}" startWith trimmedCleanWord "${trimmedCleanWord}"`);
 				
-				if (remainingLine.startsWith(cleanWord)) {
-					console.log(`  ✅ Совпадение! Откусываем "${cleanWord}"`);
+				if (remainingLine.startsWith(trimmedCleanWord)) {
+					console.log(`  ✅ Совпадение! Откусываем "${trimmedCleanWord}"`);
 					
 					// Добавляем слово в сегмент с уникальным ID
 					segmentWords.push({
 						id: wordIndex,
-						word: cleanWord,
+						word: trimmedCleanWord, // используем trimmed версию для консистентности
 						start: word.start_s,
 						end: word.end_s,
 						probability: word.p_align,
@@ -104,7 +112,8 @@ function createSegmentsSequentially(paragraphs, processedAlignment, _alignmentPo
 					segmentEnd = word.end_s;
 					
 					// "Откусываем" от строки
-					remainingLine = remainingLine.substring(cleanWord.length)//.trim();
+					remainingLine = remainingLine.substring(trimmedCleanWord.length).trim();
+					console.log(`  🔄 После откусывания: remainingLine="${remainingLine}"`);
 					alignmentPointer++;
 					wordIndex++; // Увеличиваем счетчик слов
 					attempts = 0; // Сбрасываем счетчик попыток
@@ -128,10 +137,11 @@ function createSegmentsSequentially(paragraphs, processedAlignment, _alignmentPo
 		// Создаем сегмент для всего параграфа
 		const segment = {
 			id: paragraphIndex,
+			parentId: parentId,
 			start: segmentStart,
 			end: segmentEnd,
 			text: paragraph.lines,
-			metaLines: paragraph.metaLines,
+			metaLines: paragraph.metaLines || [],
 			paragraph: paragraph.lines.join('\n'),
 			words: segmentWords,
 		};
@@ -265,7 +275,7 @@ function processSplitFile(convertedData, splitContent) {
 				// Создаем параграф для createSegmentsSequentially
 				const paragraph = {
 					lines: currentLines,
-					metaLines: [],
+					metaLines: segment.metaLines || [],
 					fullText: currentLines.join('\n')
 				};
 				
@@ -273,7 +283,8 @@ function processSplitFile(convertedData, splitContent) {
 				const [createdSegments, _alignmentPointer] = createSegmentsSequentially(
 					[paragraph],
 					segmentWords,
-					alignmentPointer
+					alignmentPointer,
+					segment.id // передаем parentId как id оригинального сегмента
 				);
 				alignmentPointer = _alignmentPointer;
 
@@ -300,10 +311,110 @@ function processSplitFile(convertedData, splitContent) {
 	return result;
 }
 
+/**
+ * Обрабатывает split-words.txt файл и разбивает указанные сегменты на отдельные слова
+ * @param {object} convertedData - данные с сегментами
+ * @param {string} splitWordsContent - содержимое split-words.txt ("2 5")
+ * @returns {object} - данные с разбитыми на слова сегментами
+ */
+function processSplitWords(convertedData, splitWordsContent) {
+	console = window.console;
+	console.log('!! processSplitWords - convertedData:', convertedData);
+	console.log('!! processSplitWords - splitWordsContent:', splitWordsContent);
+	
+	if (!splitWordsContent || splitWordsContent.trim() === '') {
+		return convertedData;
+	}
+	
+	// Парсим id сегментов из файла
+	const segmentIds = splitWordsContent.trim().split(' ')
+		.map(Number);
+		
+	console.log('!! processSplitWords - segmentIds to split:', segmentIds);
+	
+	const newSegments = [...convertedData.segments];
+	let nextId = Math.max(...newSegments.map(s => s.id)) + 1;
+	
+	// Итерируемся по каждому id из файла
+	segmentIds.forEach(targetId => {
+		// Находим сегмент по id или parentId
+		const segmentIndex = newSegments.findIndex(segment => 
+			segment.id === targetId || segment.parentId === targetId
+		);
+		
+		if (segmentIndex === -1) {
+			console.log(`!! processSplitWords - segment with id ${targetId} not found`);
+			return;
+		}
+		
+		const segment = newSegments[segmentIndex];
+		console.log(`!! processSplitWords - processing segment ${targetId}:`, segment);
+		
+		// Проверяем что у сегмента есть слова
+		if (!segment.words || segment.words.length === 0) {
+			console.log(`!! processSplitWords - segment ${targetId} has no words`);
+			return;
+		}
+		
+		// Получаем полный текст сегмента
+		const fullText = segment.text.join('\n');
+		console.log(`!! processSplitWords - fullText: "${fullText}"`);
+		
+		// Разбиваем текст на отдельные слова
+		const words = fullText.trim().split(/\s+/).filter(word => word.length > 0);
+		console.log(`!! processSplitWords - words:`, words);
+		
+		// Создаем параграфы для каждого слова (каждое слово = отдельный параграф)
+		const wordParagraphs = words.map(word => ({
+			lines: [word],
+			metaLines: segment.metaLines || [],
+			fullText: word
+		}));
+		
+		// Подготавливаем processedAlignment из words сегмента
+		const processedAlignment = segment.words.map(word => ({
+			word: word.word,
+			start_s: word.start,
+			end_s: word.end,
+			p_align: word.probability || 1.0
+		}));
+		
+		console.log(`!! processSplitWords - processedAlignment:`, processedAlignment);
+		
+		// Используем createSegmentsSequentially для создания сегментов из слов
+		const [wordSegments, _] = createSegmentsSequentially(
+			wordParagraphs,
+			processedAlignment,
+			0, // начинаем с 0
+			segment.id, // parentId
+			false
+		);
+		
+		console.log(`!! processSplitWords - created ${wordSegments.length} word segments for segment ${targetId}`);
+		
+		// Перенумеровываем id для новых сегментов
+		wordSegments.forEach(wordSegment => {
+			wordSegment.id = nextId++;
+		});
+		
+		// Заменяем исходный сегмент новыми сегментами-словами
+		newSegments.splice(segmentIndex, 1, ...wordSegments);
+	});
+	
+	const result = {
+		...convertedData,
+		segments: newSegments
+	};
+	
+	console.log('!! processSplitWords - result:', result);
+	return result;
+}
+
 export {
 	createSegmentsSequentially,
 	preprocessAlignment,
 	removeMetadata,
 	processSplitFile,
+	processSplitWords,
 	getSegmentsWithParagraphs
 }; 

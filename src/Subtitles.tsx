@@ -4,7 +4,8 @@ import {SegmentComp} from './components/SegmentNew';
 import {WhisperResponse, ANIMATION_MODE} from './types';
 import {mergeEditsWithConverted, MusicData, EditsData} from './lib/mergeEdits';
 import {SONG_TARGET} from './_config';
-import {useSplitProcessor, useSplitLinesConfig} from './hooks/use-split-processor';  
+import {useSplitProcessor} from './hooks/use-split-processor';
+import {useSplitLinesConfig} from './hooks/use-config';
 
 export const Subtitles: React.FC<{
 	src: string;

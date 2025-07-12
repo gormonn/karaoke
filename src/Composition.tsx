@@ -1,13 +1,12 @@
 import {Img} from 'remotion'; 
 import {FC} from 'react';	
-import {Audio} from 'remotion';
-import {AbsoluteFill} from 'remotion';
+import {Audio, AbsoluteFill} from 'remotion';
 import {useMusic} from './context/music';
 import {Bottom} from './Bottom';
 import {fontSize} from './Dots';
 import {Subtitles} from './Subtitles';
 import {SONG_TARGET} from './_config';
-import {ConfigProvider, ConfigProps} from './hooks/use-config';		
+import {ConfigContext, ConfigProps} from './hooks/use-config';		
 import {ANIMATION_MODE} from './types';
 import {BackgroundComponent} from './components/BackgroundComponent';
 
@@ -16,7 +15,8 @@ const AudioComp = () => {
 	return <Audio src={music} />;
 };
 
-export const MyComposition:FC<ConfigProps> = (props) => {
+
+export const MyComposition:FC<ConfigProps> = (props) => { 
 	const {transparent} = props;
 
 	// 🆕 Флаг для тестирования нового режима автоматической разбивки на линии
@@ -27,7 +27,7 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 	const _ANIMATION_MODE: ANIMATION_MODE  = ANIMATION_MODE.LETTERIZE; // Используем новый режим анимации из Word.tsx
 
 	return (
-		<ConfigProvider value={props}>
+		<ConfigContext.Provider value={props}>
 			<AbsoluteFill
 				style={{
 					fontSize,
@@ -46,6 +46,6 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 				/>
 				<AudioComp />
 			</AbsoluteFill>
-		</ConfigProvider>
+		</ConfigContext.Provider> 
 	);
 };

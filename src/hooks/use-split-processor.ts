@@ -2,11 +2,7 @@ import { useMemo } from 'react';
 import { WhisperResponse } from '../types';
 // @ts-ignore - ES6 модуль без типов для Node.js совместимости
 import { processSplitFile } from '../converter/client-utils.mjs'; 
-import { useSplitLines } from './use-config';
-import { useFileContent } from './use-file-contents';
-import { SONG_TARGET } from '../_config';
-
-export const useSplitLinesConfig = () => useFileContent(SONG_TARGET.split);  
+import { useSplitLines } from './use-config'; 
 
 /**
  * Хук для обработки split-lines.txt файла и перегруппировки сегментов

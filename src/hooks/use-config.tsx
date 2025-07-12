@@ -1,7 +1,6 @@
-import { createContext, useContext, PropsWithChildren, FC, useMemo } from "react";  
+import { createContext, useContext } from "react";  
 import { z } from "zod";
-import { KARAOKE_CONFIG } from "../_config";
-import { useSplitLinesConfig } from "./use-split-processor";
+import { KARAOKE_CONFIG } from "../_config"; 
 
 export const configSchema = z.object({
     transparent: z.boolean(),
@@ -23,7 +22,7 @@ export type ConfigProps = z.infer<typeof configSchema>;
 export const defaultProps = {
     transparent: KARAOKE_CONFIG.transparent,
     splitLines: KARAOKE_CONFIG.splitLines,
-    splitLinesConfig: '222',
+    splitLinesConfig: '', // загружается асинхронно из файла в Root.tsx
     splitByWords: KARAOKE_CONFIG.splitByWords,
     stems: {
         guitar: true,
@@ -37,16 +36,6 @@ export const defaultProps = {
 
 export const ConfigContext = createContext<ConfigProps>(defaultProps);
 
-export const ConfigProvider:FC<PropsWithChildren<{ value: ConfigProps}>> = ({children, value}) => {
-    const splitLinesConfig = useSplitLinesConfig();
-
-    const props = useMemo(() => ({...value, splitLinesConfig}), [value, splitLinesConfig]);
-
-    return <ConfigContext.Provider value={props}>
-        {children}
-    </ConfigContext.Provider>;
-}
-
 export const useConfig = () => useContext(ConfigContext); 
 
 export const useStems = () => useConfig().stems;
@@ -54,3 +43,5 @@ export const useStems = () => useConfig().stems;
 export const useSplitLines = () => useConfig().splitLines;
 
 export const useSplitByWords = () => useConfig().splitByWords;
+
+export const useSplitLinesConfig = () => useConfig().splitLinesConfig;

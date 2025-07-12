@@ -44,7 +44,7 @@ const getAudioFile = (baseName: string): Promise<string> => {
 export const SONG_TARGET = {
 	segments: staticFile(`${SONG_NAME}-converted.json`),
 	edits: staticFile(`${SONG_NAME}-converted-edits.json`),
-	split: staticFile(`stems/${SONG_NAME}/split-lines.txt`),
+	splitLines: staticFile(`stems/${SONG_NAME}/split-lines.txt`),
 	music: getAudioFile(SONG_NAME),
 	stems: {
 	bass: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav'),

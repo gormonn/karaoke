@@ -1,16 +1,16 @@
 import {useCurrentFrame, useVideoConfig} from 'remotion';
 import {useAudioData, visualizeAudio} from '@remotion/media-utils';
 import {SONG_TARGET} from '../_config';
-import {usePropsContext} from './use-props-context';
+import {useConfig} from './use-config';
 
 export const useStemAudio = (stem: keyof typeof SONG_TARGET.stems) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	const audioData = useAudioData(SONG_TARGET.stems[stem]);
 
-	const {stems} = usePropsContext();
+	const { stems } = useConfig();
 
-	if (!audioData || !stems[stem as keyof typeof stems]) {
+	if (!audioData || !stems || !stems[stem as keyof typeof stems]) {
 		return [null,null,null,null, null,null,null,null, null,null,null,null, null,null,null,null];
 	}
   

@@ -1,52 +1,29 @@
-import { useMemo, useEffect, useState } from 'react';
+import { useMemo } from 'react';
 import { WhisperResponse } from '../types';
 // @ts-ignore - ES6 модуль без типов для Node.js совместимости
-import { processSplitFile } from '../converter/client-utils.mjs';
+import { processSplitFile } from '../converter/client-utils.mjs'; 
+import { useSplitLines } from './use-config';
+import { useFileContent } from './use-file-contents';
+import { SONG_TARGET } from '../_config';
+
+export const useSplitLinesConfig = () => useFileContent(SONG_TARGET.split);  
 
 /**
- * Хук для загрузки содержимого файла по URL
- */
-function useFileContent(fileUrl: string | null): string | null {
-	const [content, setContent] = useState<string | null>(null);
-	
-	useEffect(() => { 
-		if (!fileUrl) {
-			setContent(null);
-			return;
-		}
-		
-		fetch(fileUrl)
-			.then(response => { 
-				if (!response.ok) {
-					throw new Error(`HTTP error! status: ${response.status}`);
-				}
-				return response.text();
-			})
-			.then(text => { 
-				setContent(text);
-			})
-			.catch(error => { 
-				setContent(null);
-			});
-	}, [fileUrl]);
-	
-	return content;
-}
-
-/**
- * Хук для обработки split.txt файла и перегруппировки сегментов
+ * Хук для обработки split-lines.txt файла и перегруппировки сегментов
  * @param originalData - оригинальные данные из converted.json
- * @param splitFileUrl - URL split.txt файла (от staticFile)
+ * @param splitFileUrl - URL split-lines.txt файла (от staticFile)
  * @returns перегруппированные данные или оригинальные данные, если splitContent пустой
  */
 export function useSplitProcessor(
 	originalData: WhisperResponse | null,
-	splitFileUrl: string | null
+	splitContent: string,
+	_isEnabled?: boolean
 ): WhisperResponse | null {
-	const splitContent = useFileContent(splitFileUrl);
+	const splitLines = useSplitLines();
+	const isEnabled = _isEnabled ?? splitLines; 
 	
 	return useMemo(() => { 
-		if (!originalData || !splitContent || splitContent.trim() === '') { 
+		if (!isEnabled || !originalData || !splitContent || splitContent.trim() === '') { 
 			return originalData;
 		} 
 
@@ -56,5 +33,5 @@ export function useSplitProcessor(
 		} catch (error) { 
 			return originalData;
 		}
-	}, [originalData, splitContent]);
+	}, [isEnabled, originalData, splitContent]);
 } 

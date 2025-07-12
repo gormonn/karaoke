@@ -2,8 +2,9 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {parseMedia} from '@remotion/media-parser';
 import {MusicContextProvider} from './context/music';
-import {MyComposition, myCompSchema} from './Composition';
-import {SONG_TARGET, KARAOKE_CONFIG} from './_config';
+import {MyComposition} from './Composition';
+import {SONG_TARGET} from './_config';
+import { configSchema, defaultProps } from './hooks/use-config';	
 const fps = 30;
 
 const RootComponentWithContext = () => {
@@ -21,18 +22,8 @@ const RootComponentWithContext = () => {
 					durationInFrames: Math.round(slowDurationInSeconds * fps),
 				};
 			}}
-			schema={myCompSchema}
-			defaultProps={{
-				transparent: KARAOKE_CONFIG.transparent,
-				stems: {
-					guitar: true,
-					bass: true,
-					drums: true,
-					percussion: true,
-					synth: true,
-					vocals: true,
-				},
-			}}
+			schema={configSchema}
+			defaultProps={{...defaultProps}}
 			width={1280}
 			height={720}
 		/>

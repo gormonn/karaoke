@@ -44,7 +44,7 @@ const getAudioFile = (baseName: string): Promise<string> => {
 export const SONG_TARGET = {
 	segments: staticFile(`${SONG_NAME}-converted.json`),
 	edits: staticFile(`${SONG_NAME}-converted-edits.json`),
-	split: staticFile(`stems/${SONG_NAME}/split.txt`),
+	split: staticFile(`stems/${SONG_NAME}/split-lines.txt`),
 	music: getAudioFile(SONG_NAME),
 	stems: {
 	bass: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav'),
@@ -59,6 +59,9 @@ export const SONG_TARGET = {
 
 // ✅ Настройки караоке анимации
 export const KARAOKE_CONFIG = {
+	splitLines: true,
+	// todo: create splitByWords что бы показывать определенное количество слов в одном сегменте
+	splitByWords: false,
 	transparent: false,
 	// Интерполяция символов внутри слов
 	// true: символы слова подсвечиваются поочередно в течение времени слова

@@ -195,11 +195,11 @@ function updateStemsInConfig(stemsConfig) {
  * Проверяет наличие split.txt файла в каталоге stems/{song_name}/
  */
 function checkSplitFile(songName) {
-	const splitPath = path.join(process.cwd(), 'public', 'stems', songName, 'split.txt');
+	const splitPath = path.join(process.cwd(), 'public', 'stems', songName, 'split-lines.txt');
 	
 	if (fs.existsSync(splitPath)) {
-		console.log(`✅ Найден split.txt файл: stems/${songName}/split.txt`);
-		return `stems/${songName}/split.txt`;
+		console.log(`✅ Найден split-lines.txt файл: stems/${songName}/split-lines.txt`);
+		return `stems/${songName}/split-lines.txt`;
 	} else {
 		console.log(`❌ Split.txt файл не найден: ${splitPath}`);
 		return null;

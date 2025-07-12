@@ -209,7 +209,7 @@ function splitArray(array, count) {
 }
 
 /**
- * Обрабатывает split.txt файл и перегруппирует сегменты используя createSegmentsSequentially
+ * Обрабатывает split-lines.txt файл и перегруппирует сегменты используя createSegmentsSequentially
  */
 function processSplitFile(convertedData, splitContent) {
 	const splitInstructions = splitContent.trim().split(' ');

@@ -4,8 +4,7 @@ import {SegmentComp} from './components/SegmentNew';
 import {WhisperResponse, ANIMATION_MODE} from './types';
 import {mergeEditsWithConverted, MusicData, EditsData} from './lib/mergeEdits';
 import {SONG_TARGET} from './_config';
-import {useSplitProcessor} from './hooks/use-split-processor';
-import { effect } from 'zod';
+import {useSplitProcessor, useSplitLinesConfig} from './hooks/use-split-processor';  
 
 export const Subtitles: React.FC<{
 	src: string;
@@ -26,27 +25,21 @@ export const Subtitles: React.FC<{
 		});
 	}, [src]);
  
-	const splittedSubs = useSplitProcessor(subtitles, SONG_TARGET.split);
+	const splitLinesConfig = useSplitLinesConfig();
+	const splittedSubs = useSplitProcessor(subtitles, splitLinesConfig);
 
 
 	useEffect(() => {
 		console.log('!!! splittedSubs', splittedSubs);
 	}, [splittedSubs]);
-	
-	useEffect(() => {
-		console.log('!!! subtitles', subtitles);
-	}, [subtitles]);
-
-
-
-	const subs = splittedSubs || subtitles;
-	if (subs === null) {
+	 
+	if (splittedSubs === null) {
 		return null;
 	}
 
 	return (
 		<AbsoluteFill style={{color: '#F5F5F5'}}>
-			{subs.segments.map((segment) => { 
+			{splittedSubs.segments.map((segment) => { 
 				return (
 					<SegmentComp
 						key={segment.id}

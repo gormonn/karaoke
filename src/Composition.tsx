@@ -3,6 +3,7 @@ import React, {FC, useEffect, useRef} from 'react';
 import {Audio, AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
 import {MediaUtilsAudioData, useAudioData, visualizeAudio} from '@remotion/media-utils'; 
 import {useMusic} from './context/music';
+import {SubtitlesProvider} from './context/subtitles';
 import {Bottom} from './Bottom';
 import {fontSize} from './Dots';
 import {Subtitles} from './Subtitles';
@@ -40,7 +41,7 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 	
 	// todo: move to props
 	// 🆕 Новый флаг для выбора режима анимации
-	const _ANIMATION_MODE: ANIMATION_MODE  = ANIMATION_MODE.ZOOM_IN  ; // Используем новый режим анимации из Word.tsx
+	const _ANIMATION_MODE: ANIMATION_MODE  = ANIMATION_MODE.ZOOM_IN_OUT  ; // Используем новый режим анимации из Word.tsx
 
 	// Вычисляем интенсивность drums для анимации градиентов
 	let drumsAnimationIntensity = 0;
@@ -101,7 +102,8 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 
 	return (
 		<ConfigContext.Provider value={props}>
-			<AbsoluteFill
+			<SubtitlesProvider>
+				<AbsoluteFill
 				ref={backgroundRef}
 				style={{
 					fontFamily,
@@ -149,12 +151,12 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 				
 				{/* <Bottom /> */}
 				<Subtitles 
-					src={SONG_TARGET.segments} 
 					useAutoLines={USE_AUTO_LINES} 
 					animationMode={_ANIMATION_MODE}
 				/>
 				<AudioComp />
 			</AbsoluteFill>
+			</SubtitlesProvider>
 		</ConfigContext.Provider> 
 	);
 };

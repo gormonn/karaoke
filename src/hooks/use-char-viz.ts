@@ -3,8 +3,22 @@ import {MediaUtilsAudioData, useAudioData, visualizeAudio} from '@remotion/media
 import {useCurrentFrame, useVideoConfig} from 'remotion';
 import { useEffect } from "react";
 import { SONG_TARGET } from "../_config";
+import { SONG_SETTINGS } from "../settings/Never_Said"; 
+import { useMetaByTime } from './use-meta';
+import {SplitText, gsap} from '../lib/gsap';
+ 
 
-export const useCharViz = (splitRef: React.RefObject<SplitText>) => {
+
+const useIgnoredByMeta = (ignoredBy: string[], currentTimeInSeconds: number) => {
+	const currentMetaLine = useMetaByTime(currentTimeInSeconds);
+ 
+	return currentMetaLine ? ignoredBy.includes(currentMetaLine) : null;
+}
+
+export const useCharViz = (
+	splitRef: React.RefObject<SplitText>,
+	ignoredByMetaLines: string[] = SONG_SETTINGS.IGNORE_CHAR_VIZ
+) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 
@@ -15,11 +29,11 @@ export const useCharViz = (splitRef: React.RefObject<SplitText>) => {
 		bassAudio = useAudioData(SONG_TARGET.stems.bass || '');
 	} catch (error) {}
 
+	const isIgnoredByMeta = useIgnoredByMeta(ignoredByMetaLines, frame / fps);
+ 
 	// ✅ Интерполяция мерцания букв в такт drums и bass
 	useEffect(() => {
-		const temporaryDisable = true;
-		// todo! НУЖНО ОТКЛЮЧАТЬ ПО ТРЕБОВАНИЮ!! Конфликтует с крутым эффектом в chorus-char
-		if (temporaryDisable || !drumsAudio || !bassAudio || !splitRef.current?.chars) return;
+		if (isIgnoredByMeta || !drumsAudio || !bassAudio || !splitRef.current?.chars) return;
 
 		// Анализируем drums для обводки, яркости, размытия
 		const drumsVisualization = visualizeAudio({
@@ -86,5 +100,5 @@ export const useCharViz = (splitRef: React.RefObject<SplitText>) => {
 		} 
 		
 		
-	}, [frame, fps, drumsAudio, bassAudio, splitRef.current?.chars]);
+	}, [isIgnoredByMeta, frame, fps, drumsAudio, bassAudio, splitRef.current?.chars]);
 }

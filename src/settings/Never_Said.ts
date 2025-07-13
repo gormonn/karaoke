@@ -28,14 +28,12 @@ export const SONG_SETTINGS = {
       "[Final Chorus]": ANIMATION_MODE.ZOOM_IN,
     }
   },
-  DISABLED_FEATURES: {
-    // todo: (high) выключить эффекты на chorus
-    chorus: true,
-  }
+  IGNORE_CHAR_VIZ: ["[Chorus]"]
 }
 
 // todo: (high) определять здесь edits (а не на уровне json, как предполагалось ранее)
 // todo: (high) выровнять текст по центру y
+// todo: (mid) добавить волну в припев для визуализации музыки
 // todo: (mid) нарастить durationInFrames чтобы была возможность сделать финальный эффект
 // todo: (mid) создавать файл после завершения converter.mjs
 // todo: (low) перенести stems сюда

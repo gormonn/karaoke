@@ -1,6 +1,5 @@
 import React, {useMemo} from 'react';
 import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
-import {lineHeight, padding} from '../Dots';
 import {Segment, ANIMATION_MODE} from '../types';
 import {KARAOKE_CONFIG} from '../_config';
 import {useGsapTimeline, gsap} from '../lib/gsap';
@@ -22,29 +21,18 @@ const InnerComponent: React.FC<{
 			window.KARAOKE_ANIMATION_MODE = animationMode;
 		}
 	}, [animationMode]);
+ 
+	
+	const isChorus = segment.metaLines.includes("[Chorus]");
 
 	return (
 		<AbsoluteFill
-			style={{
-				fontWeight: 'bold',
-				lineHeight,
-				padding,
+			style={{ 
+				lineHeight: 1,
+				padding: isChorus ? '25%' : '100px',
 			}}
 		>
-			{useAutoLines && hasParagraph ? (
-				// 🆕 НОВЫЙ режим: автоматическая разбивка на линии из paragraph
-				<ParagraphLineComponent segment={segment} />
-			) : hasLines ? (
-				// Существующий подход: ручные строки с картой символов
-				<div>
-					{segment.lines?.map((line, lineIndex) => (
-						<LineComponent key={lineIndex} words={line} lineIndex={lineIndex} />
-					))}
-				</div>
-			) : (
-				// Для обратной совместимости - одна строка
-				<LineComponent words={segment.words} lineIndex={0} />
-			)}
+			<ParagraphLineComponent segment={segment} />
 		</AbsoluteFill>
 	);
 };
@@ -117,7 +105,11 @@ export const SegmentComp: React.FC<{
 
 	return (
 		<div ref={segmentAnimationRef}>
-			<InnerComponent segment={segment} useAutoLines={useAutoLines} animationMode={animationMode} />
+					<InnerComponent 
+			segment={segment} 
+			useAutoLines={useAutoLines} 
+			animationMode={animationMode}
+		/>
 		</div>
 	);
 };

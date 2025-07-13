@@ -11,4 +11,10 @@ export {
 	createLetterizeAnimation,
 	createDefaultAnimation,
 	interpolateCharTimings
-} from './animations'; 
+} from './animations';
+
+export * from './BackgroundComponent';
+export * from './LineComponent';
+export * from './ParagraphLineComponent';
+export * from './SegmentNew';
+export * from './LightGradient'; 

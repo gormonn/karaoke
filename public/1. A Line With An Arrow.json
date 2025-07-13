@@ -1,6 +1,4 @@
-{
-  "state": "complete",
-  "alignment": [
+[
       {
           "word": "[Verse 1]\nLet",
           "success": true,
@@ -3173,4 +3171,3 @@
           "p_align": 1
       }
   ]
-}

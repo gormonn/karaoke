@@ -1,0 +1,3173 @@
+[
+  {
+    "word": "[Verse 1]\nLet",
+    "success": true,
+    "start_s": 9.41489,
+    "end_s": 9.65426,
+    "p_align": 1
+  },
+  {
+    "word": "ters",
+    "success": true,
+    "start_s": 9.65426,
+    "end_s": 9.9734,
+    "p_align": 1
+  },
+  {
+    "word": " d",
+    "success": true,
+    "start_s": 10.13298,
+    "end_s": 10.29255,
+    "p_align": 1
+  },
+  {
+    "word": "ance",
+    "success": true,
+    "start_s": 10.29255,
+    "end_s": 10.6117,
+    "p_align": 1
+  },
+  {
+    "word": " across",
+    "success": true,
+    "start_s": 11.09043,
+    "end_s": 11.64894,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 11.80851,
+    "end_s": 12.04787,
+    "p_align": 1
+  },
+  {
+    "word": " page",
+    "success": true,
+    "start_s": 12.04787,
+    "end_s": 12.44681,
+    "p_align": 1
+  },
+  {
+    "word": "\nLike",
+    "success": true,
+    "start_s": 13.00532,
+    "end_s": 13.32447,
+    "p_align": 1
+  },
+  {
+    "word": " strang",
+    "success": true,
+    "start_s": 13.32447,
+    "end_s": 13.64362,
+    "p_align": 1
+  },
+  {
+    "word": "ers",
+    "success": true,
+    "start_s": 13.64362,
+    "end_s": 13.88298,
+    "p_align": 1
+  },
+  {
+    "word": " speaking",
+    "success": true,
+    "start_s": 14.04255,
+    "end_s": 14.76064,
+    "p_align": 1
+  },
+  {
+    "word": " foreign",
+    "success": true,
+    "start_s": 14.92021,
+    "end_s": 15.55851,
+    "p_align": 1
+  },
+  {
+    "word": " tong",
+    "success": true,
+    "start_s": 15.87766,
+    "end_s": 16.03723,
+    "p_align": 1
+  },
+  {
+    "word": "ue\n",
+    "success": true,
+    "start_s": 16.03723,
+    "end_s": 16.2766,
+    "p_align": 1
+  },
+  {
+    "word": "The",
+    "success": true,
+    "start_s": 16.91489,
+    "end_s": 17.15426,
+    "p_align": 1
+  },
+  {
+    "word": " class",
+    "success": true,
+    "start_s": 17.15426,
+    "end_s": 17.55319,
+    "p_align": 1
+  },
+  {
+    "word": "room",
+    "success": true,
+    "start_s": 17.55319,
+    "end_s": 17.87234,
+    "p_align": 1
+  },
+  {
+    "word": " walls",
+    "success": true,
+    "start_s": 17.87234,
+    "end_s": 18.35106,
+    "p_align": 1
+  },
+  {
+    "word": " grow",
+    "success": true,
+    "start_s": 18.59043,
+    "end_s": 18.98936,
+    "p_align": 1
+  },
+  {
+    "word": " tall",
+    "success": true,
+    "start_s": 19.06915,
+    "end_s": 19.3883,
+    "p_align": 1
+  },
+  {
+    "word": " and",
+    "success": true,
+    "start_s": 19.3883,
+    "end_s": 19.70745,
+    "p_align": 1
+  },
+  {
+    "word": " close",
+    "success": true,
+    "start_s": 19.78723,
+    "end_s": 20.26596,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhile",
+    "success": true,
+    "start_s": 20.82447,
+    "end_s": 21.06383,
+    "p_align": 1
+  },
+  {
+    "word": " others",
+    "success": true,
+    "start_s": 21.06383,
+    "end_s": 21.62234,
+    "p_align": 1
+  },
+  {
+    "word": " read,",
+    "success": true,
+    "start_s": 21.78191,
+    "end_s": 22.18085,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 22.34043,
+    "end_s": 22.57979,
+    "p_align": 1
+  },
+  {
+    "word": " come",
+    "success": true,
+    "start_s": 22.73936,
+    "end_s": 23.1383,
+    "p_align": 1
+  },
+  {
+    "word": " und",
+    "success": true,
+    "start_s": 23.29787,
+    "end_s": 23.61702,
+    "p_align": 1
+  },
+  {
+    "word": "one",
+    "success": true,
+    "start_s": 23.7766,
+    "end_s": 24.01596,
+    "p_align": 1
+  },
+  {
+    "word": "\nSmall",
+    "success": true,
+    "start_s": 24.9734,
+    "end_s": 25.21277,
+    "p_align": 1
+  },
+  {
+    "word": " hands",
+    "success": true,
+    "start_s": 25.21277,
+    "end_s": 25.69149,
+    "p_align": 1
+  },
+  {
+    "word": " grip",
+    "success": true,
+    "start_s": 25.69149,
+    "end_s": 26.09043,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 26.32979,
+    "end_s": 26.64894,
+    "p_align": 1
+  },
+  {
+    "word": " cha",
+    "success": true,
+    "start_s": 26.64894,
+    "end_s": 26.72872,
+    "p_align": 1
+  },
+  {
+    "word": "l",
+    "success": true,
+    "start_s": 26.72872,
+    "end_s": 26.80851,
+    "p_align": 1
+  },
+  {
+    "word": "k",
+    "success": true,
+    "start_s": 26.80851,
+    "end_s": 26.8883,
+    "p_align": 1
+  },
+  {
+    "word": " too",
+    "success": true,
+    "start_s": 27.12766,
+    "end_s": 27.44681,
+    "p_align": 1
+  },
+  {
+    "word": " tight",
+    "success": true,
+    "start_s": 27.60638,
+    "end_s": 28.08511,
+    "p_align": 1
+  },
+  {
+    "word": "\nThe",
+    "success": true,
+    "start_s": 28.64362,
+    "end_s": 28.88298,
+    "p_align": 1
+  },
+  {
+    "word": " bo",
+    "success": true,
+    "start_s": 28.88298,
+    "end_s": 28.96277,
+    "p_align": 1
+  },
+  {
+    "word": "ard",
+    "success": true,
+    "start_s": 28.96277,
+    "end_s": 29.20213,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 29.28191,
+    "end_s": 29.44149,
+    "p_align": 1
+  },
+  {
+    "word": " bl",
+    "success": true,
+    "start_s": 29.52128,
+    "end_s": 29.68085,
+    "p_align": 1
+  },
+  {
+    "word": "ank",
+    "success": true,
+    "start_s": 29.68085,
+    "end_s": 29.92021,
+    "p_align": 1
+  },
+  {
+    "word": " and",
+    "success": true,
+    "start_s": 30.07979,
+    "end_s": 30.39894,
+    "p_align": 1
+  },
+  {
+    "word": " endless",
+    "success": true,
+    "start_s": 31.03723,
+    "end_s": 31.51596,
+    "p_align": 1
+  },
+  {
+    "word": " sky",
+    "success": true,
+    "start_s": 31.51596,
+    "end_s": 31.83511,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Pre-Chorus]\nThey",
+    "success": true,
+    "start_s": 32.4734,
+    "end_s": 32.79255,
+    "p_align": 1
+  },
+  {
+    "word": " ask",
+    "success": true,
+    "start_s": 32.79255,
+    "end_s": 33.1117,
+    "p_align": 1
+  },
+  {
+    "word": " for",
+    "success": true,
+    "start_s": 33.1117,
+    "end_s": 33.43085,
+    "p_align": 1
+  },
+  {
+    "word": " w",
+    "success": true,
+    "start_s": 33.43085,
+    "end_s": 33.59043,
+    "p_align": 1
+  },
+  {
+    "word": "or",
+    "success": true,
+    "start_s": 33.75,
+    "end_s": 33.90957,
+    "p_align": 1
+  },
+  {
+    "word": "d",
+    "success": true,
+    "start_s": 34.06915,
+    "end_s": 34.14894,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 34.14894,
+    "end_s": 34.22872,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 34.30851,
+    "end_s": 34.46809,
+    "p_align": 1
+  },
+  {
+    "word": " cannot",
+    "success": true,
+    "start_s": 34.70745,
+    "end_s": 35.26596,
+    "p_align": 1
+  },
+  {
+    "word": " find",
+    "success": true,
+    "start_s": 35.42553,
+    "end_s": 35.82447,
+    "p_align": 1
+  },
+  {
+    "word": "\nBut",
+    "success": true,
+    "start_s": 36.46277,
+    "end_s": 36.70213,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 36.70213,
+    "end_s": 36.94149,
+    "p_align": 1
+  },
+  {
+    "word": " my",
+    "success": true,
+    "start_s": 37.10106,
+    "end_s": 37.34043,
+    "p_align": 1
+  },
+  {
+    "word": " mind",
+    "success": true,
+    "start_s": 37.42021,
+    "end_s": 37.81915,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 37.97872,
+    "end_s": 38.1383,
+    "p_align": 1
+  },
+  {
+    "word": " see",
+    "success": true,
+    "start_s": 38.37766,
+    "end_s": 38.69681,
+    "p_align": 1
+  },
+  {
+    "word": " design",
+    "success": true,
+    "start_s": 39.33511,
+    "end_s": 39.49468,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 39.49468,
+    "end_s": 39.57447,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Chorus]\nI",
+    "success": true,
+    "start_s": 42.60638,
+    "end_s": 42.92553,
+    "p_align": 1
+  },
+  {
+    "word": " dre",
+    "success": true,
+    "start_s": 42.92553,
+    "end_s": 43.08511,
+    "p_align": 1
+  },
+  {
+    "word": "w",
+    "success": true,
+    "start_s": 43.08511,
+    "end_s": 43.16489,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 43.32447,
+    "end_s": 43.48404,
+    "p_align": 1
+  },
+  {
+    "word": " line",
+    "success": true,
+    "start_s": 43.48404,
+    "end_s": 43.88298,
+    "p_align": 1
+  },
+  {
+    "word": " with",
+    "success": true,
+    "start_s": 43.96277,
+    "end_s": 44.20213,
+    "p_align": 1
+  },
+  {
+    "word": " an",
+    "success": true,
+    "start_s": 44.20213,
+    "end_s": 44.44149,
+    "p_align": 1
+  },
+  {
+    "word": " ar",
+    "success": true,
+    "start_s": 44.52128,
+    "end_s": 44.76064,
+    "p_align": 1
+  },
+  {
+    "word": "row",
+    "success": true,
+    "start_s": 44.76064,
+    "end_s": 44.92021,
+    "p_align": 1
+  },
+  {
+    "word": " at",
+    "success": true,
+    "start_s": 44.92021,
+    "end_s": 45.15957,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 45.23936,
+    "end_s": 45.47872,
+    "p_align": 1
+  },
+  {
+    "word": " end",
+    "success": true,
+    "start_s": 45.47872,
+    "end_s": 45.79787,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhen",
+    "success": true,
+    "start_s": 45.87766,
+    "end_s": 46.19681,
+    "p_align": 1
+  },
+  {
+    "word": " they",
+    "success": true,
+    "start_s": 46.19681,
+    "end_s": 46.51596,
+    "p_align": 1
+  },
+  {
+    "word": " asked",
+    "success": true,
+    "start_s": 46.51596,
+    "end_s": 46.83511,
+    "p_align": 1
+  },
+  {
+    "word": " me",
+    "success": true,
+    "start_s": 46.83511,
+    "end_s": 47.07447,
+    "p_align": 1
+  },
+  {
+    "word": " to",
+    "success": true,
+    "start_s": 47.15426,
+    "end_s": 47.39362,
+    "p_align": 1
+  },
+  {
+    "word": " spell",
+    "success": true,
+    "start_s": 47.39362,
+    "end_s": 47.87234,
+    "p_align": 1
+  },
+  {
+    "word": " what",
+    "success": true,
+    "start_s": 47.87234,
+    "end_s": 48.1117,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 48.1117,
+    "end_s": 48.27128,
+    "p_align": 1
+  },
+  {
+    "word": " could",
+    "success": true,
+    "start_s": 48.35106,
+    "end_s": 48.51064,
+    "p_align": 1
+  },
+  {
+    "word": "n'",
+    "success": true,
+    "start_s": 48.51064,
+    "end_s": 48.59043,
+    "p_align": 1
+  },
+  {
+    "word": "t",
+    "success": true,
+    "start_s": 48.59043,
+    "end_s": 48.75,
+    "p_align": 1
+  },
+  {
+    "word": " com",
+    "success": true,
+    "start_s": 48.75,
+    "end_s": 49.06915,
+    "p_align": 1
+  },
+  {
+    "word": "pre",
+    "success": true,
+    "start_s": 49.06915,
+    "end_s": 49.30851,
+    "p_align": 1
+  },
+  {
+    "word": "he",
+    "success": true,
+    "start_s": 49.3883,
+    "end_s": 49.46809,
+    "p_align": 1
+  },
+  {
+    "word": "nd",
+    "success": true,
+    "start_s": 49.46809,
+    "end_s": 49.62766,
+    "p_align": 1
+  },
+  {
+    "word": "\nMy",
+    "success": true,
+    "start_s": 50.10638,
+    "end_s": 50.34574,
+    "p_align": 1
+  },
+  {
+    "word": " mind",
+    "success": true,
+    "start_s": 50.34574,
+    "end_s": 50.74468,
+    "p_align": 1
+  },
+  {
+    "word": " wor",
+    "success": true,
+    "start_s": 50.74468,
+    "end_s": 50.90426,
+    "p_align": 1
+  },
+  {
+    "word": "ks",
+    "success": true,
+    "start_s": 50.90426,
+    "end_s": 51.06383,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 51.06383,
+    "end_s": 51.30319,
+    "p_align": 1
+  },
+  {
+    "word": " pictures,",
+    "success": true,
+    "start_s": 51.30319,
+    "end_s": 52.02128,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 52.02128,
+    "end_s": 52.26064,
+    "p_align": 1
+  },
+  {
+    "word": " move",
+    "success": true,
+    "start_s": 52.26064,
+    "end_s": 52.65957,
+    "p_align": 1
+  },
+  {
+    "word": "ment",
+    "success": true,
+    "start_s": 52.65957,
+    "end_s": 52.97872,
+    "p_align": 1
+  },
+  {
+    "word": " and",
+    "success": true,
+    "start_s": 52.97872,
+    "end_s": 53.21809,
+    "p_align": 1
+  },
+  {
+    "word": " light",
+    "success": true,
+    "start_s": 53.21809,
+    "end_s": 53.69681,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhat",
+    "success": true,
+    "start_s": 53.93617,
+    "end_s": 54.25532,
+    "p_align": 1
+  },
+  {
+    "word": " others",
+    "success": true,
+    "start_s": 54.25532,
+    "end_s": 54.81383,
+    "p_align": 1
+  },
+  {
+    "word": " call",
+    "success": true,
+    "start_s": 54.89362,
+    "end_s": 55.21277,
+    "p_align": 1
+  },
+  {
+    "word": " wrong,",
+    "success": true,
+    "start_s": 55.21277,
+    "end_s": 55.69149,
+    "p_align": 1
+  },
+  {
+    "word": " to",
+    "success": true,
+    "start_s": 55.69149,
+    "end_s": 55.93085,
+    "p_align": 1
+  },
+  {
+    "word": " me",
+    "success": true,
+    "start_s": 55.93085,
+    "end_s": 56.17021,
+    "p_align": 1
+  },
+  {
+    "word": " feels",
+    "success": true,
+    "start_s": 56.40957,
+    "end_s": 56.8883,
+    "p_align": 1
+  },
+  {
+    "word": " so",
+    "success": true,
+    "start_s": 56.8883,
+    "end_s": 57.12766,
+    "p_align": 1
+  },
+  {
+    "word": " right",
+    "success": true,
+    "start_s": 57.20745,
+    "end_s": 57.68617,
+    "p_align": 1
+  },
+  {
+    "word": "\nA",
+    "success": true,
+    "start_s": 57.84574,
+    "end_s": 58.00532,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 58.08511,
+    "end_s": 58.80319,
+    "p_align": 1
+  },
+  {
+    "word": " per",
+    "success": true,
+    "start_s": 58.80319,
+    "end_s": 59.12234,
+    "p_align": 1
+  },
+  {
+    "word": "cept",
+    "success": true,
+    "start_s": 59.12234,
+    "end_s": 59.3617,
+    "p_align": 1
+  },
+  {
+    "word": "ion,",
+    "success": true,
+    "start_s": 59.3617,
+    "end_s": 59.60106,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 59.92021,
+    "end_s": 60.07979,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 60.07979,
+    "end_s": 60.87766,
+    "p_align": 1
+  },
+  {
+    "word": " design",
+    "success": true,
+    "start_s": 61.03723,
+    "end_s": 61.59574,
+    "p_align": 1
+  },
+  {
+    "word": "\nMy",
+    "success": true,
+    "start_s": 61.75532,
+    "end_s": 61.99468,
+    "p_align": 1
+  },
+  {
+    "word": " thoughts",
+    "success": true,
+    "start_s": 61.99468,
+    "end_s": 62.39362,
+    "p_align": 1
+  },
+  {
+    "word": " flow",
+    "success": true,
+    "start_s": 62.39362,
+    "end_s": 62.71277,
+    "p_align": 1
+  },
+  {
+    "word": " like",
+    "success": true,
+    "start_s": 62.71277,
+    "end_s": 63.03191,
+    "p_align": 1
+  },
+  {
+    "word": " ar",
+    "success": true,
+    "start_s": 63.03191,
+    "end_s": 63.27128,
+    "p_align": 1
+  },
+  {
+    "word": "row",
+    "success": true,
+    "start_s": 63.27128,
+    "end_s": 63.35106,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 63.35106,
+    "end_s": 63.43085,
+    "p_align": 1
+  },
+  {
+    "word": " through",
+    "success": true,
+    "start_s": 63.43085,
+    "end_s": 63.67021,
+    "p_align": 1
+  },
+  {
+    "word": " s",
+    "success": true,
+    "start_s": 63.67021,
+    "end_s": 63.75,
+    "p_align": 1
+  },
+  {
+    "word": "p",
+    "success": true,
+    "start_s": 63.75,
+    "end_s": 63.82979,
+    "p_align": 1
+  },
+  {
+    "word": "a",
+    "success": true,
+    "start_s": 63.82979,
+    "end_s": 63.90957,
+    "p_align": 1
+  },
+  {
+    "word": "c",
+    "success": true,
+    "start_s": 63.90957,
+    "end_s": 63.98936,
+    "p_align": 1
+  },
+  {
+    "word": "e ",
+    "success": true,
+    "start_s": 64.14894,
+    "end_s": 64.30851,
+    "p_align": 1
+  },
+  {
+    "word": "and",
+    "success": true,
+    "start_s": 64.3883,
+    "end_s": 64.62766,
+    "p_align": 1
+  },
+  {
+    "word": " through",
+    "success": true,
+    "start_s": 64.78723,
+    "end_s": 65.10638,
+    "p_align": 1
+  },
+  {
+    "word": " time",
+    "success": true,
+    "start_s": 65.10638,
+    "end_s": 65.50532,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Verse 2]\nThir",
+    "success": true,
+    "start_s": 69.81383,
+    "end_s": 69.9734,
+    "p_align": 1
+  },
+  {
+    "word": "d",
+    "success": true,
+    "start_s": 69.9734,
+    "end_s": 70.05319,
+    "p_align": 1
+  },
+  {
+    "word": " grade",
+    "success": true,
+    "start_s": 70.21277,
+    "end_s": 70.6117,
+    "p_align": 1
+  },
+  {
+    "word": " book",
+    "success": true,
+    "start_s": 70.6117,
+    "end_s": 71.01064,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 71.01064,
+    "end_s": 71.09043,
+    "p_align": 1
+  },
+  {
+    "word": " still",
+    "success": true,
+    "start_s": 71.25,
+    "end_s": 71.72872,
+    "p_align": 1
+  },
+  {
+    "word": " closed",
+    "success": true,
+    "start_s": 71.80851,
+    "end_s": 72.28723,
+    "p_align": 1
+  },
+  {
+    "word": " to",
+    "success": true,
+    "start_s": 72.28723,
+    "end_s": 72.5266,
+    "p_align": 1
+  },
+  {
+    "word": " me",
+    "success": true,
+    "start_s": 72.5266,
+    "end_s": 72.76596,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhile",
+    "success": true,
+    "start_s": 73.48404,
+    "end_s": 73.80319,
+    "p_align": 1
+  },
+  {
+    "word": " stories",
+    "success": true,
+    "start_s": 73.80319,
+    "end_s": 74.44149,
+    "p_align": 1
+  },
+  {
+    "word": " blo",
+    "success": true,
+    "start_s": 74.52128,
+    "end_s": 74.60106,
+    "p_align": 1
+  },
+  {
+    "word": "om",
+    "success": true,
+    "start_s": 74.60106,
+    "end_s": 74.76064,
+    "p_align": 1
+  },
+  {
+    "word": " inside",
+    "success": true,
+    "start_s": 75.39894,
+    "end_s": 75.87766,
+    "p_align": 1
+  },
+  {
+    "word": " my",
+    "success": true,
+    "start_s": 75.87766,
+    "end_s": 76.11702,
+    "p_align": 1
+  },
+  {
+    "word": " head",
+    "success": true,
+    "start_s": 76.35638,
+    "end_s": 76.75532,
+    "p_align": 1
+  },
+  {
+    "word": "\n\"H",
+    "success": true,
+    "start_s": 77.39362,
+    "end_s": 77.4734,
+    "p_align": 1
+  },
+  {
+    "word": "e'",
+    "success": true,
+    "start_s": 77.4734,
+    "end_s": 77.55319,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 77.55319,
+    "end_s": 77.63298,
+    "p_align": 1
+  },
+  {
+    "word": " bright",
+    "success": true,
+    "start_s": 77.71277,
+    "end_s": 78.03191,
+    "p_align": 1
+  },
+  {
+    "word": " but",
+    "success": true,
+    "start_s": 78.03191,
+    "end_s": 78.35106,
+    "p_align": 1
+  },
+  {
+    "word": " different,\"",
+    "success": true,
+    "start_s": 78.35106,
+    "end_s": 79.14894,
+    "p_align": 1
+  },
+  {
+    "word": " te",
+    "success": true,
+    "start_s": 79.30851,
+    "end_s": 79.70745,
+    "p_align": 1
+  },
+  {
+    "word": "acher",
+    "success": true,
+    "start_s": 79.78723,
+    "end_s": 79.86702,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 79.86702,
+    "end_s": 79.94681,
+    "p_align": 1
+  },
+  {
+    "word": " s",
+    "success": true,
+    "start_s": 79.94681,
+    "end_s": 80.10638,
+    "p_align": 1
+  },
+  {
+    "word": "ay",
+    "success": true,
+    "start_s": 80.26596,
+    "end_s": 80.42553,
+    "p_align": 1
+  },
+  {
+    "word": "\nThose",
+    "success": true,
+    "start_s": 81.30319,
+    "end_s": 81.54255,
+    "p_align": 1
+  },
+  {
+    "word": " words",
+    "success": true,
+    "start_s": 81.54255,
+    "end_s": 82.02128,
+    "p_align": 1
+  },
+  {
+    "word": " hang",
+    "success": true,
+    "start_s": 82.02128,
+    "end_s": 82.42021,
+    "p_align": 1
+  },
+  {
+    "word": " heavy",
+    "success": true,
+    "start_s": 82.5,
+    "end_s": 82.97872,
+    "p_align": 1
+  },
+  {
+    "word": " like",
+    "success": true,
+    "start_s": 83.69681,
+    "end_s": 84.09574,
+    "p_align": 1
+  },
+  {
+    "word": " lead",
+    "success": true,
+    "start_s": 84.17553,
+    "end_s": 84.57447,
+    "p_align": 1
+  },
+  {
+    "word": "\nBut",
+    "success": true,
+    "start_s": 85.21277,
+    "end_s": 85.45213,
+    "p_align": 1
+  },
+  {
+    "word": " when",
+    "success": true,
+    "start_s": 85.45213,
+    "end_s": 85.77128,
+    "p_align": 1
+  },
+  {
+    "word": " mach",
+    "success": true,
+    "start_s": 85.77128,
+    "end_s": 86.17021,
+    "p_align": 1
+  },
+  {
+    "word": "ines",
+    "success": true,
+    "start_s": 86.17021,
+    "end_s": 86.48936,
+    "p_align": 1
+  },
+  {
+    "word": " need",
+    "success": true,
+    "start_s": 86.8883,
+    "end_s": 87.28723,
+    "p_align": 1
+  },
+  {
+    "word": " fix",
+    "success": true,
+    "start_s": 87.28723,
+    "end_s": 87.60638,
+    "p_align": 1
+  },
+  {
+    "word": "ing",
+    "success": true,
+    "start_s": 87.68617,
+    "end_s": 87.92553,
+    "p_align": 1
+  },
+  {
+    "word": " fast",
+    "success": true,
+    "start_s": 88.08511,
+    "end_s": 88.48404,
+    "p_align": 1
+  },
+  {
+    "word": "\nMy",
+    "success": true,
+    "start_s": 89.04255,
+    "end_s": 89.28191,
+    "p_align": 1
+  },
+  {
+    "word": " hands",
+    "success": true,
+    "start_s": 89.28191,
+    "end_s": 89.68085,
+    "p_align": 1
+  },
+  {
+    "word": " know",
+    "success": true,
+    "start_s": 89.68085,
+    "end_s": 90.07979,
+    "p_align": 1
+  },
+  {
+    "word": " secrets",
+    "success": true,
+    "start_s": 90.07979,
+    "end_s": 90.71809,
+    "p_align": 1
+  },
+  {
+    "word": " others",
+    "success": true,
+    "start_s": 91.03723,
+    "end_s": 91.59574,
+    "p_align": 1
+  },
+  {
+    "word": " la",
+    "success": true,
+    "start_s": 91.99468,
+    "end_s": 92.07447,
+    "p_align": 1
+  },
+  {
+    "word": "ck",
+    "success": true,
+    "start_s": 92.07447,
+    "end_s": 92.23404,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Pre-Chorus]\nThey",
+    "success": true,
+    "start_s": 92.95213,
+    "end_s": 93.19149,
+    "p_align": 1
+  },
+  {
+    "word": " see",
+    "success": true,
+    "start_s": 93.19149,
+    "end_s": 93.51064,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 93.51064,
+    "end_s": 93.82979,
+    "p_align": 1
+  },
+  {
+    "word": " struggle,",
+    "success": true,
+    "start_s": 94.06915,
+    "end_s": 94.78723,
+    "p_align": 1
+  },
+  {
+    "word": " not",
+    "success": true,
+    "start_s": 95.0266,
+    "end_s": 95.42553,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 95.50532,
+    "end_s": 95.82447,
+    "p_align": 1
+  },
+  {
+    "word": " strength",
+    "success": true,
+    "start_s": 95.98404,
+    "end_s": 96.70213,
+    "p_align": 1
+  },
+  {
+    "word": "\nThe",
+    "success": true,
+    "start_s": 96.94149,
+    "end_s": 97.18085,
+    "p_align": 1
+  },
+  {
+    "word": " world",
+    "success": true,
+    "start_s": 97.18085,
+    "end_s": 97.34043,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 97.34043,
+    "end_s": 97.42021,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 97.57979,
+    "end_s": 97.73936,
+    "p_align": 1
+  },
+  {
+    "word": " build",
+    "success": true,
+    "start_s": 97.89894,
+    "end_s": 98.37766,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 98.45745,
+    "end_s": 98.69681,
+    "p_align": 1
+  },
+  {
+    "word": " my",
+    "success": true,
+    "start_s": 98.93617,
+    "end_s": 99.17553,
+    "p_align": 1
+  },
+  {
+    "word": " own",
+    "success": true,
+    "start_s": 99.41489,
+    "end_s": 99.73404,
+    "p_align": 1
+  },
+  {
+    "word": " way",
+    "success": true,
+    "start_s": 99.89362,
+    "end_s": 100.21277,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Chorus]\nI",
+    "success": true,
+    "start_s": 103.08511,
+    "end_s": 103.40426,
+    "p_align": 1
+  },
+  {
+    "word": " dre",
+    "success": true,
+    "start_s": 103.40426,
+    "end_s": 103.56383,
+    "p_align": 1
+  },
+  {
+    "word": "w",
+    "success": true,
+    "start_s": 103.56383,
+    "end_s": 103.64362,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 103.80319,
+    "end_s": 103.96277,
+    "p_align": 1
+  },
+  {
+    "word": " line",
+    "success": true,
+    "start_s": 103.96277,
+    "end_s": 104.3617,
+    "p_align": 1
+  },
+  {
+    "word": " with",
+    "success": true,
+    "start_s": 104.3617,
+    "end_s": 104.76064,
+    "p_align": 1
+  },
+  {
+    "word": " an",
+    "success": true,
+    "start_s": 104.76064,
+    "end_s": 105,
+    "p_align": 1
+  },
+  {
+    "word": " ar",
+    "success": true,
+    "start_s": 105,
+    "end_s": 105.23936,
+    "p_align": 1
+  },
+  {
+    "word": "row",
+    "success": true,
+    "start_s": 105.23936,
+    "end_s": 105.39894,
+    "p_align": 1
+  },
+  {
+    "word": " at",
+    "success": true,
+    "start_s": 105.39894,
+    "end_s": 105.6383,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 105.71809,
+    "end_s": 105.95745,
+    "p_align": 1
+  },
+  {
+    "word": " end",
+    "success": true,
+    "start_s": 105.95745,
+    "end_s": 106.2766,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhen",
+    "success": true,
+    "start_s": 106.35638,
+    "end_s": 106.67553,
+    "p_align": 1
+  },
+  {
+    "word": " they",
+    "success": true,
+    "start_s": 106.67553,
+    "end_s": 106.99468,
+    "p_align": 1
+  },
+  {
+    "word": " asked",
+    "success": true,
+    "start_s": 106.99468,
+    "end_s": 107.31383,
+    "p_align": 1
+  },
+  {
+    "word": " me",
+    "success": true,
+    "start_s": 107.31383,
+    "end_s": 107.55319,
+    "p_align": 1
+  },
+  {
+    "word": " to",
+    "success": true,
+    "start_s": 107.63298,
+    "end_s": 107.87234,
+    "p_align": 1
+  },
+  {
+    "word": " spell",
+    "success": true,
+    "start_s": 107.87234,
+    "end_s": 108.35106,
+    "p_align": 1
+  },
+  {
+    "word": " what",
+    "success": true,
+    "start_s": 108.35106,
+    "end_s": 108.59043,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 108.59043,
+    "end_s": 108.75,
+    "p_align": 1
+  },
+  {
+    "word": " could",
+    "success": true,
+    "start_s": 108.82979,
+    "end_s": 108.98936,
+    "p_align": 1
+  },
+  {
+    "word": "n'",
+    "success": true,
+    "start_s": 108.98936,
+    "end_s": 109.06915,
+    "p_align": 1
+  },
+  {
+    "word": "t",
+    "success": true,
+    "start_s": 109.06915,
+    "end_s": 109.22872,
+    "p_align": 1
+  },
+  {
+    "word": " com",
+    "success": true,
+    "start_s": 109.22872,
+    "end_s": 109.54787,
+    "p_align": 1
+  },
+  {
+    "word": "pre",
+    "success": true,
+    "start_s": 109.54787,
+    "end_s": 109.78723,
+    "p_align": 1
+  },
+  {
+    "word": "he",
+    "success": true,
+    "start_s": 109.86702,
+    "end_s": 109.94681,
+    "p_align": 1
+  },
+  {
+    "word": "nd",
+    "success": true,
+    "start_s": 109.94681,
+    "end_s": 110.10638,
+    "p_align": 1
+  },
+  {
+    "word": "\nMy",
+    "success": true,
+    "start_s": 110.58511,
+    "end_s": 110.82447,
+    "p_align": 1
+  },
+  {
+    "word": " mind",
+    "success": true,
+    "start_s": 110.82447,
+    "end_s": 111.14362,
+    "p_align": 1
+  },
+  {
+    "word": " wor",
+    "success": true,
+    "start_s": 111.14362,
+    "end_s": 111.38298,
+    "p_align": 1
+  },
+  {
+    "word": "ks",
+    "success": true,
+    "start_s": 111.38298,
+    "end_s": 111.54255,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 111.54255,
+    "end_s": 111.78191,
+    "p_align": 1
+  },
+  {
+    "word": " pictures,",
+    "success": true,
+    "start_s": 111.78191,
+    "end_s": 112.5,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 112.5,
+    "end_s": 112.73936,
+    "p_align": 1
+  },
+  {
+    "word": " move",
+    "success": true,
+    "start_s": 112.73936,
+    "end_s": 113.1383,
+    "p_align": 1
+  },
+  {
+    "word": "ment",
+    "success": true,
+    "start_s": 113.1383,
+    "end_s": 113.45745,
+    "p_align": 1
+  },
+  {
+    "word": " and",
+    "success": true,
+    "start_s": 113.45745,
+    "end_s": 113.69681,
+    "p_align": 1
+  },
+  {
+    "word": " light",
+    "success": true,
+    "start_s": 113.69681,
+    "end_s": 114.17553,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhat",
+    "success": true,
+    "start_s": 114.49468,
+    "end_s": 114.73404,
+    "p_align": 1
+  },
+  {
+    "word": " others",
+    "success": true,
+    "start_s": 114.73404,
+    "end_s": 115.29255,
+    "p_align": 1
+  },
+  {
+    "word": " call",
+    "success": true,
+    "start_s": 115.37234,
+    "end_s": 115.69149,
+    "p_align": 1
+  },
+  {
+    "word": " wrong,",
+    "success": true,
+    "start_s": 115.69149,
+    "end_s": 116.17021,
+    "p_align": 1
+  },
+  {
+    "word": " to",
+    "success": true,
+    "start_s": 116.17021,
+    "end_s": 116.48936,
+    "p_align": 1
+  },
+  {
+    "word": " me",
+    "success": true,
+    "start_s": 116.48936,
+    "end_s": 116.72872,
+    "p_align": 1
+  },
+  {
+    "word": " feels",
+    "success": true,
+    "start_s": 116.8883,
+    "end_s": 117.36702,
+    "p_align": 1
+  },
+  {
+    "word": " so",
+    "success": true,
+    "start_s": 117.36702,
+    "end_s": 117.60638,
+    "p_align": 1
+  },
+  {
+    "word": " right",
+    "success": true,
+    "start_s": 117.68617,
+    "end_s": 118.16489,
+    "p_align": 1
+  },
+  {
+    "word": "\nA",
+    "success": true,
+    "start_s": 118.40426,
+    "end_s": 118.56383,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 118.64362,
+    "end_s": 119.28191,
+    "p_align": 1
+  },
+  {
+    "word": " per",
+    "success": true,
+    "start_s": 119.28191,
+    "end_s": 119.52128,
+    "p_align": 1
+  },
+  {
+    "word": "cept",
+    "success": true,
+    "start_s": 119.52128,
+    "end_s": 119.84043,
+    "p_align": 1
+  },
+  {
+    "word": "ion,",
+    "success": true,
+    "start_s": 119.84043,
+    "end_s": 120.07979,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 120.39894,
+    "end_s": 120.55851,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 120.55851,
+    "end_s": 121.35638,
+    "p_align": 1
+  },
+  {
+    "word": " design",
+    "success": true,
+    "start_s": 121.51596,
+    "end_s": 122.07447,
+    "p_align": 1
+  },
+  {
+    "word": "\nMy",
+    "success": true,
+    "start_s": 122.31383,
+    "end_s": 122.4734,
+    "p_align": 1
+  },
+  {
+    "word": " thoughts",
+    "success": true,
+    "start_s": 122.4734,
+    "end_s": 122.87234,
+    "p_align": 1
+  },
+  {
+    "word": " flow",
+    "success": true,
+    "start_s": 122.87234,
+    "end_s": 123.19149,
+    "p_align": 1
+  },
+  {
+    "word": " like",
+    "success": true,
+    "start_s": 123.19149,
+    "end_s": 123.27128,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 123.27128,
+    "end_s": 123.43085,
+    "p_align": 1
+  },
+  {
+    "word": "r",
+    "success": true,
+    "start_s": 123.51064,
+    "end_s": 123.59043,
+    "p_align": 1
+  },
+  {
+    "word": "row",
+    "success": true,
+    "start_s": 123.75,
+    "end_s": 123.98936,
+    "p_align": 1
+  },
+  {
+    "word": "s ",
+    "success": true,
+    "start_s": 124.06915,
+    "end_s": 124.22872,
+    "p_align": 1
+  },
+  {
+    "word": "through",
+    "success": true,
+    "start_s": 124.30851,
+    "end_s": 124.54787,
+    "p_align": 1
+  },
+  {
+    "word": " space",
+    "success": true,
+    "start_s": 124.54787,
+    "end_s": 124.94681,
+    "p_align": 1
+  },
+  {
+    "word": " and",
+    "success": true,
+    "start_s": 124.94681,
+    "end_s": 125.26596,
+    "p_align": 1
+  },
+  {
+    "word": " through",
+    "success": true,
+    "start_s": 125.26596,
+    "end_s": 125.58511,
+    "p_align": 1
+  },
+  {
+    "word": " time",
+    "success": true,
+    "start_s": 125.58511,
+    "end_s": 125.98404,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Bridge]\nSome",
+    "success": true,
+    "start_s": 127.42021,
+    "end_s": 127.89894,
+    "p_align": 1
+  },
+  {
+    "word": " see",
+    "success": true,
+    "start_s": 127.89894,
+    "end_s": 128.21809,
+    "p_align": 1
+  },
+  {
+    "word": " let",
+    "success": true,
+    "start_s": 128.37766,
+    "end_s": 128.69681,
+    "p_align": 1
+  },
+  {
+    "word": "ters,",
+    "success": true,
+    "start_s": 128.85638,
+    "end_s": 129.17553,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 129.41489,
+    "end_s": 129.65426,
+    "p_align": 1
+  },
+  {
+    "word": " see",
+    "success": true,
+    "start_s": 129.81383,
+    "end_s": 130.13298,
+    "p_align": 1
+  },
+  {
+    "word": " sha",
+    "success": true,
+    "start_s": 130.29255,
+    "end_s": 130.45213,
+    "p_align": 1
+  },
+  {
+    "word": "pes",
+    "success": true,
+    "start_s": 130.45213,
+    "end_s": 130.69149,
+    "p_align": 1
+  },
+  {
+    "word": "\nSome",
+    "success": true,
+    "start_s": 131.32979,
+    "end_s": 131.72872,
+    "p_align": 1
+  },
+  {
+    "word": " hear",
+    "success": true,
+    "start_s": 131.80851,
+    "end_s": 132.20745,
+    "p_align": 1
+  },
+  {
+    "word": " words,",
+    "success": true,
+    "start_s": 132.28723,
+    "end_s": 132.76596,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 132.84574,
+    "end_s": 133.08511,
+    "p_align": 1
+  },
+  {
+    "word": " feel",
+    "success": true,
+    "start_s": 133.24468,
+    "end_s": 133.64362,
+    "p_align": 1
+  },
+  {
+    "word": " their",
+    "success": true,
+    "start_s": 133.7234,
+    "end_s": 134.20213,
+    "p_align": 1
+  },
+  {
+    "word": " weight",
+    "success": true,
+    "start_s": 134.20213,
+    "end_s": 134.76064,
+    "p_align": 1
+  },
+  {
+    "word": "\nIn",
+    "success": true,
+    "start_s": 135.23936,
+    "end_s": 135.47872,
+    "p_align": 1
+  },
+  {
+    "word": " this",
+    "success": true,
+    "start_s": 135.71809,
+    "end_s": 136.11702,
+    "p_align": 1
+  },
+  {
+    "word": " world",
+    "success": true,
+    "start_s": 136.11702,
+    "end_s": 136.59574,
+    "p_align": 1
+  },
+  {
+    "word": " of",
+    "success": true,
+    "start_s": 136.67553,
+    "end_s": 136.91489,
+    "p_align": 1
+  },
+  {
+    "word": " r",
+    "success": true,
+    "start_s": 137.15426,
+    "end_s": 137.23404,
+    "p_align": 1
+  },
+  {
+    "word": "ig",
+    "success": true,
+    "start_s": 137.23404,
+    "end_s": 137.31383,
+    "p_align": 1
+  },
+  {
+    "word": "id",
+    "success": true,
+    "start_s": 137.31383,
+    "end_s": 137.39362,
+    "p_align": 1
+  },
+  {
+    "word": " l",
+    "success": true,
+    "start_s": 137.39362,
+    "end_s": 137.55319,
+    "p_align": 1
+  },
+  {
+    "word": "ines",
+    "success": true,
+    "start_s": 137.87234,
+    "end_s": 138.19149,
+    "p_align": 1
+  },
+  {
+    "word": "\nI",
+    "success": true,
+    "start_s": 138.43085,
+    "end_s": 138.59043,
+    "p_align": 1
+  },
+  {
+    "word": " find",
+    "success": true,
+    "start_s": 138.82979,
+    "end_s": 139.14894,
+    "p_align": 1
+  },
+  {
+    "word": " pat",
+    "success": true,
+    "start_s": 139.14894,
+    "end_s": 139.3883,
+    "p_align": 1
+  },
+  {
+    "word": "tern",
+    "success": true,
+    "start_s": 139.3883,
+    "end_s": 139.54787,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 139.54787,
+    "end_s": 139.62766,
+    "p_align": 1
+  },
+  {
+    "word": " they",
+    "success": true,
+    "start_s": 139.78723,
+    "end_s": 140.18617,
+    "p_align": 1
+  },
+  {
+    "word": " ca",
+    "success": true,
+    "start_s": 140.26596,
+    "end_s": 140.42553,
+    "p_align": 1
+  },
+  {
+    "word": "n'",
+    "success": true,
+    "start_s": 140.42553,
+    "end_s": 140.50532,
+    "p_align": 1
+  },
+  {
+    "word": "t",
+    "success": true,
+    "start_s": 140.50532,
+    "end_s": 140.66489,
+    "p_align": 1
+  },
+  {
+    "word": " tra",
+    "success": true,
+    "start_s": 140.82447,
+    "end_s": 140.98404,
+    "p_align": 1
+  },
+  {
+    "word": "ce",
+    "success": true,
+    "start_s": 140.98404,
+    "end_s": 141.14362,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Verse 3]\nThe",
+    "success": true,
+    "start_s": 142.73936,
+    "end_s": 142.97872,
+    "p_align": 1
+  },
+  {
+    "word": " b",
+    "success": true,
+    "start_s": 142.97872,
+    "end_s": 143.1383,
+    "p_align": 1
+  },
+  {
+    "word": "unk",
+    "success": true,
+    "start_s": 143.1383,
+    "end_s": 143.37766,
+    "p_align": 1
+  },
+  {
+    "word": " bed",
+    "success": true,
+    "start_s": 143.45745,
+    "end_s": 143.7766,
+    "p_align": 1
+  },
+  {
+    "word": " pl",
+    "success": true,
+    "start_s": 143.93617,
+    "end_s": 144.09574,
+    "p_align": 1
+  },
+  {
+    "word": "ans",
+    "success": true,
+    "start_s": 144.09574,
+    "end_s": 144.33511,
+    "p_align": 1
+  },
+  {
+    "word": " conf",
+    "success": true,
+    "start_s": 144.49468,
+    "end_s": 144.89362,
+    "p_align": 1
+  },
+  {
+    "word": "use",
+    "success": true,
+    "start_s": 144.89362,
+    "end_s": 145.13298,
+    "p_align": 1
+  },
+  {
+    "word": "d them",
+    "success": true,
+    "start_s": 145.45213,
+    "end_s": 145.93085,
+    "p_align": 1
+  },
+  {
+    "word": " all",
+    "success": true,
+    "start_s": 145.93085,
+    "end_s": 146.25,
+    "p_align": 1
+  },
+  {
+    "word": "\n'Till",
+    "success": true,
+    "start_s": 146.40957,
+    "end_s": 146.8883,
+    "p_align": 1
+  },
+  {
+    "word": " small",
+    "success": true,
+    "start_s": 146.8883,
+    "end_s": 147.36702,
+    "p_align": 1
+  },
+  {
+    "word": " hands",
+    "success": true,
+    "start_s": 147.36702,
+    "end_s": 147.84574,
+    "p_align": 1
+  },
+  {
+    "word": " point",
+    "success": true,
+    "start_s": 147.84574,
+    "end_s": 148.32447,
+    "p_align": 1
+  },
+  {
+    "word": "ed",
+    "success": true,
+    "start_s": 148.32447,
+    "end_s": 148.48404,
+    "p_align": 1
+  },
+  {
+    "word": " out",
+    "success": true,
+    "start_s": 148.88298,
+    "end_s": 149.20213,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 149.28191,
+    "end_s": 149.60106,
+    "p_align": 1
+  },
+  {
+    "word": " fla",
+    "success": true,
+    "start_s": 149.76064,
+    "end_s": 149.84043,
+    "p_align": 1
+  },
+  {
+    "word": "w",
+    "success": true,
+    "start_s": 149.84043,
+    "end_s": 149.92021,
+    "p_align": 1
+  },
+  {
+    "word": "\n\"It'",
+    "success": true,
+    "start_s": 150.31915,
+    "end_s": 150.47872,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 150.47872,
+    "end_s": 150.6383,
+    "p_align": 1
+  },
+  {
+    "word": " back",
+    "success": true,
+    "start_s": 150.79787,
+    "end_s": 151.19681,
+    "p_align": 1
+  },
+  {
+    "word": "wards,\"",
+    "success": true,
+    "start_s": 151.19681,
+    "end_s": 151.59574,
+    "p_align": 1
+  },
+  {
+    "word": " whisper",
+    "success": true,
+    "start_s": 151.83511,
+    "end_s": 152.15426,
+    "p_align": 1
+  },
+  {
+    "word": "ed",
+    "success": true,
+    "start_s": 152.15426,
+    "end_s": 152.31383,
+    "p_align": 1
+  },
+  {
+    "word": " seven",
+    "success": true,
+    "start_s": 152.79255,
+    "end_s": 153.19149,
+    "p_align": 1
+  },
+  {
+    "word": " years",
+    "success": true,
+    "start_s": 153.19149,
+    "end_s": 153.67021,
+    "p_align": 1
+  },
+  {
+    "word": " o",
+    "success": true,
+    "start_s": 153.67021,
+    "end_s": 153.82979,
+    "p_align": 1
+  },
+  {
+    "word": "ld",
+    "success": true,
+    "start_s": 154.06915,
+    "end_s": 154.22872,
+    "p_align": 1
+  },
+  {
+    "word": "\nA",
+    "success": true,
+    "start_s": 154.3883,
+    "end_s": 154.54787,
+    "p_align": 1
+  },
+  {
+    "word": " spa",
+    "success": true,
+    "start_s": 154.70745,
+    "end_s": 155.0266,
+    "p_align": 1
+  },
+  {
+    "word": "tial",
+    "success": true,
+    "start_s": 155.18617,
+    "end_s": 155.50532,
+    "p_align": 1
+  },
+  {
+    "word": " gift",
+    "success": true,
+    "start_s": 155.66489,
+    "end_s": 156.06383,
+    "p_align": 1
+  },
+  {
+    "word": " they",
+    "success": true,
+    "start_s": 156.2234,
+    "end_s": 156.62234,
+    "p_align": 1
+  },
+  {
+    "word": " had",
+    "success": true,
+    "start_s": 156.70213,
+    "end_s": 157.02128,
+    "p_align": 1
+  },
+  {
+    "word": "n'",
+    "success": true,
+    "start_s": 157.10106,
+    "end_s": 157.18085,
+    "p_align": 1
+  },
+  {
+    "word": "t",
+    "success": true,
+    "start_s": 157.18085,
+    "end_s": 157.26064,
+    "p_align": 1
+  },
+  {
+    "word": " kn",
+    "success": true,
+    "start_s": 157.26064,
+    "end_s": 157.5,
+    "p_align": 1
+  },
+  {
+    "word": "own",
+    "success": true,
+    "start_s": 157.65957,
+    "end_s": 157.89894,
+    "p_align": 1
+  },
+  {
+    "word": "\nThe",
+    "success": true,
+    "start_s": 158.1383,
+    "end_s": 158.45745,
+    "p_align": 1
+  },
+  {
+    "word": " test",
+    "success": true,
+    "start_s": 158.61702,
+    "end_s": 159.01596,
+    "p_align": 1
+  },
+  {
+    "word": " said",
+    "success": true,
+    "start_s": 159.09574,
+    "end_s": 159.49468,
+    "p_align": 1
+  },
+  {
+    "word": " \"pa",
+    "success": true,
+    "start_s": 159.57447,
+    "end_s": 159.73404,
+    "p_align": 1
+  },
+  {
+    "word": "ck",
+    "success": true,
+    "start_s": 159.73404,
+    "end_s": 159.89362,
+    "p_align": 1
+  },
+  {
+    "word": " for",
+    "success": true,
+    "start_s": 160.05319,
+    "end_s": 160.37234,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 160.37234,
+    "end_s": 160.53191,
+    "p_align": 1
+  },
+  {
+    "word": " jour",
+    "success": true,
+    "start_s": 160.6117,
+    "end_s": 161.01064,
+    "p_align": 1
+  },
+  {
+    "word": "ney",
+    "success": true,
+    "start_s": 161.09043,
+    "end_s": 161.32979,
+    "p_align": 1
+  },
+  {
+    "word": " far\"",
+    "success": true,
+    "start_s": 161.56915,
+    "end_s": 161.8883,
+    "p_align": 1
+  },
+  {
+    "word": "\nI",
+    "success": true,
+    "start_s": 162.28723,
+    "end_s": 162.5266,
+    "p_align": 1
+  },
+  {
+    "word": " chose",
+    "success": true,
+    "start_s": 162.5266,
+    "end_s": 163.00532,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 163.00532,
+    "end_s": 163.24468,
+    "p_align": 1
+  },
+  {
+    "word": " cow",
+    "success": true,
+    "start_s": 163.24468,
+    "end_s": 163.56383,
+    "p_align": 1
+  },
+  {
+    "word": " — \"in",
+    "success": true,
+    "start_s": 163.7234,
+    "end_s": 164.20213,
+    "p_align": 1
+  },
+  {
+    "word": " case",
+    "success": true,
+    "start_s": 164.20213,
+    "end_s": 164.60106,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 164.76064,
+    "end_s": 164.92021,
+    "p_align": 1
+  },
+  {
+    "word": " starv",
+    "success": true,
+    "start_s": 165.23936,
+    "end_s": 165.71809,
+    "p_align": 1
+  },
+  {
+    "word": "e\"\n\n[Final Chorus]\nI",
+    "success": true,
+    "start_s": 168.43085,
+    "end_s": 168.75,
+    "p_align": 1
+  },
+  {
+    "word": " d",
+    "success": true,
+    "start_s": 168.75,
+    "end_s": 168.82979,
+    "p_align": 1
+  },
+  {
+    "word": "re",
+    "success": true,
+    "start_s": 168.82979,
+    "end_s": 168.90957,
+    "p_align": 1
+  },
+  {
+    "word": "w",
+    "success": true,
+    "start_s": 168.90957,
+    "end_s": 168.98936,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 169.14894,
+    "end_s": 169.30851,
+    "p_align": 1
+  },
+  {
+    "word": " line",
+    "success": true,
+    "start_s": 169.30851,
+    "end_s": 169.70745,
+    "p_align": 1
+  },
+  {
+    "word": " with",
+    "success": true,
+    "start_s": 169.70745,
+    "end_s": 170.0266,
+    "p_align": 1
+  },
+  {
+    "word": " an",
+    "success": true,
+    "start_s": 170.0266,
+    "end_s": 170.26596,
+    "p_align": 1
+  },
+  {
+    "word": " ar",
+    "success": true,
+    "start_s": 170.34574,
+    "end_s": 170.58511,
+    "p_align": 1
+  },
+  {
+    "word": "row",
+    "success": true,
+    "start_s": 170.58511,
+    "end_s": 170.74468,
+    "p_align": 1
+  },
+  {
+    "word": " at",
+    "success": true,
+    "start_s": 170.74468,
+    "end_s": 170.98404,
+    "p_align": 1
+  },
+  {
+    "word": " the",
+    "success": true,
+    "start_s": 171.06383,
+    "end_s": 171.30319,
+    "p_align": 1
+  },
+  {
+    "word": " end",
+    "success": true,
+    "start_s": 171.30319,
+    "end_s": 171.62234,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhen",
+    "success": true,
+    "start_s": 171.70213,
+    "end_s": 172.02128,
+    "p_align": 1
+  },
+  {
+    "word": " they",
+    "success": true,
+    "start_s": 172.02128,
+    "end_s": 172.26064,
+    "p_align": 1
+  },
+  {
+    "word": " asked",
+    "success": true,
+    "start_s": 172.26064,
+    "end_s": 172.65957,
+    "p_align": 1
+  },
+  {
+    "word": " me",
+    "success": true,
+    "start_s": 172.65957,
+    "end_s": 172.89894,
+    "p_align": 1
+  },
+  {
+    "word": " to",
+    "success": true,
+    "start_s": 172.97872,
+    "end_s": 173.21809,
+    "p_align": 1
+  },
+  {
+    "word": " spell",
+    "success": true,
+    "start_s": 173.21809,
+    "end_s": 173.69681,
+    "p_align": 1
+  },
+  {
+    "word": " what",
+    "success": true,
+    "start_s": 173.69681,
+    "end_s": 173.93617,
+    "p_align": 1
+  },
+  {
+    "word": " I",
+    "success": true,
+    "start_s": 173.93617,
+    "end_s": 174.09574,
+    "p_align": 1
+  },
+  {
+    "word": " could",
+    "success": true,
+    "start_s": 174.17553,
+    "end_s": 174.33511,
+    "p_align": 1
+  },
+  {
+    "word": "n'",
+    "success": true,
+    "start_s": 174.33511,
+    "end_s": 174.41489,
+    "p_align": 1
+  },
+  {
+    "word": "t",
+    "success": true,
+    "start_s": 174.41489,
+    "end_s": 174.49468,
+    "p_align": 1
+  },
+  {
+    "word": " com",
+    "success": true,
+    "start_s": 174.57447,
+    "end_s": 174.89362,
+    "p_align": 1
+  },
+  {
+    "word": "pre",
+    "success": true,
+    "start_s": 174.89362,
+    "end_s": 175.13298,
+    "p_align": 1
+  },
+  {
+    "word": "he",
+    "success": true,
+    "start_s": 175.21277,
+    "end_s": 175.29255,
+    "p_align": 1
+  },
+  {
+    "word": "nd",
+    "success": true,
+    "start_s": 175.29255,
+    "end_s": 175.45213,
+    "p_align": 1
+  },
+  {
+    "word": "\nMy",
+    "success": true,
+    "start_s": 175.93085,
+    "end_s": 176.17021,
+    "p_align": 1
+  },
+  {
+    "word": " mind",
+    "success": true,
+    "start_s": 176.17021,
+    "end_s": 176.48936,
+    "p_align": 1
+  },
+  {
+    "word": " wor",
+    "success": true,
+    "start_s": 176.48936,
+    "end_s": 176.72872,
+    "p_align": 1
+  },
+  {
+    "word": "ks",
+    "success": true,
+    "start_s": 176.72872,
+    "end_s": 176.8883,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 176.8883,
+    "end_s": 177.12766,
+    "p_align": 1
+  },
+  {
+    "word": " pictures,",
+    "success": true,
+    "start_s": 177.12766,
+    "end_s": 177.84574,
+    "p_align": 1
+  },
+  {
+    "word": " in",
+    "success": true,
+    "start_s": 177.84574,
+    "end_s": 178.08511,
+    "p_align": 1
+  },
+  {
+    "word": " move",
+    "success": true,
+    "start_s": 178.08511,
+    "end_s": 178.48404,
+    "p_align": 1
+  },
+  {
+    "word": "ment",
+    "success": true,
+    "start_s": 178.48404,
+    "end_s": 178.80319,
+    "p_align": 1
+  },
+  {
+    "word": " and",
+    "success": true,
+    "start_s": 178.80319,
+    "end_s": 179.04255,
+    "p_align": 1
+  },
+  {
+    "word": " light",
+    "success": true,
+    "start_s": 179.04255,
+    "end_s": 179.52128,
+    "p_align": 1
+  },
+  {
+    "word": "\nWhat",
+    "success": true,
+    "start_s": 179.76064,
+    "end_s": 180.07979,
+    "p_align": 1
+  },
+  {
+    "word": " others",
+    "success": true,
+    "start_s": 180.07979,
+    "end_s": 180.6383,
+    "p_align": 1
+  },
+  {
+    "word": " call",
+    "success": true,
+    "start_s": 180.71809,
+    "end_s": 181.03723,
+    "p_align": 1
+  },
+  {
+    "word": " wrong,",
+    "success": true,
+    "start_s": 181.03723,
+    "end_s": 181.51596,
+    "p_align": 1
+  },
+  {
+    "word": " to",
+    "success": true,
+    "start_s": 181.51596,
+    "end_s": 181.75532,
+    "p_align": 1
+  },
+  {
+    "word": " me",
+    "success": true,
+    "start_s": 181.75532,
+    "end_s": 181.99468,
+    "p_align": 1
+  },
+  {
+    "word": " feels",
+    "success": true,
+    "start_s": 182.23404,
+    "end_s": 182.71277,
+    "p_align": 1
+  },
+  {
+    "word": " so",
+    "success": true,
+    "start_s": 182.71277,
+    "end_s": 182.95213,
+    "p_align": 1
+  },
+  {
+    "word": " right",
+    "success": true,
+    "start_s": 182.95213,
+    "end_s": 183.43085,
+    "p_align": 1
+  },
+  {
+    "word": "\nA",
+    "success": true,
+    "start_s": 183.75,
+    "end_s": 183.90957,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 184.14894,
+    "end_s": 184.70745,
+    "p_align": 1
+  },
+  {
+    "word": " per",
+    "success": true,
+    "start_s": 184.70745,
+    "end_s": 184.94681,
+    "p_align": 1
+  },
+  {
+    "word": "cept",
+    "success": true,
+    "start_s": 184.94681,
+    "end_s": 185.26596,
+    "p_align": 1
+  },
+  {
+    "word": "ion,",
+    "success": true,
+    "start_s": 185.34574,
+    "end_s": 185.58511,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 185.74468,
+    "end_s": 185.98404,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 185.98404,
+    "end_s": 186.78191,
+    "p_align": 1
+  },
+  {
+    "word": " design",
+    "success": true,
+    "start_s": 186.94149,
+    "end_s": 187.5,
+    "p_align": 1
+  },
+  {
+    "word": "\nMy",
+    "success": true,
+    "start_s": 187.65957,
+    "end_s": 187.89894,
+    "p_align": 1
+  },
+  {
+    "word": " thoughts",
+    "success": true,
+    "start_s": 187.89894,
+    "end_s": 188.29787,
+    "p_align": 1
+  },
+  {
+    "word": " flow",
+    "success": true,
+    "start_s": 188.29787,
+    "end_s": 188.61702,
+    "p_align": 1
+  },
+  {
+    "word": " like",
+    "success": true,
+    "start_s": 188.61702,
+    "end_s": 188.93617,
+    "p_align": 1
+  },
+  {
+    "word": " ar",
+    "success": true,
+    "start_s": 188.93617,
+    "end_s": 189.17553,
+    "p_align": 1
+  },
+  {
+    "word": "ro",
+    "success": true,
+    "start_s": 189.25532,
+    "end_s": 189.33511,
+    "p_align": 1
+  },
+  {
+    "word": "w",
+    "success": true,
+    "start_s": 189.33511,
+    "end_s": 189.41489,
+    "p_align": 1
+  },
+  {
+    "word": "s",
+    "success": true,
+    "start_s": 189.41489,
+    "end_s": 189.49468,
+    "p_align": 1
+  },
+  {
+    "word": " that",
+    "success": true,
+    "start_s": 189.57447,
+    "end_s": 189.89362,
+    "p_align": 1
+  },
+  {
+    "word": " someday",
+    "success": true,
+    "start_s": 189.89362,
+    "end_s": 190.53191,
+    "p_align": 1
+  },
+  {
+    "word": " will",
+    "success": true,
+    "start_s": 190.6117,
+    "end_s": 190.85106,
+    "p_align": 1
+  },
+  {
+    "word": " fly",
+    "success": true,
+    "start_s": 190.85106,
+    "end_s": 191.17021,
+    "p_align": 1
+  },
+  {
+    "word": "\n\n[Outro]\nDifferent",
+    "success": true,
+    "start_s": 194.76064,
+    "end_s": 195.39894,
+    "p_align": 1
+  },
+  {
+    "word": " does",
+    "success": true,
+    "start_s": 195.39894,
+    "end_s": 195.6383,
+    "p_align": 1
+  },
+  {
+    "word": "n'",
+    "success": true,
+    "start_s": 195.6383,
+    "end_s": 195.71809,
+    "p_align": 1
+  },
+  {
+    "word": "t",
+    "success": true,
+    "start_s": 195.71809,
+    "end_s": 195.87766,
+    "p_align": 1
+  },
+  {
+    "word": " mean",
+    "success": true,
+    "start_s": 195.95745,
+    "end_s": 196.35638,
+    "p_align": 1
+  },
+  {
+    "word": " less",
+    "success": true,
+    "start_s": 196.43617,
+    "end_s": 196.83511,
+    "p_align": 1
+  },
+  {
+    "word": "\nJust",
+    "success": true,
+    "start_s": 198.1117,
+    "end_s": 198.35106,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 198.35106,
+    "end_s": 198.51064,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 198.59043,
+    "end_s": 199.30851,
+    "p_align": 1
+  },
+  {
+    "word": " kind",
+    "success": true,
+    "start_s": 199.30851,
+    "end_s": 199.70745,
+    "p_align": 1
+  },
+  {
+    "word": " of",
+    "success": true,
+    "start_s": 199.86702,
+    "end_s": 200.10638,
+    "p_align": 1
+  },
+  {
+    "word": " right",
+    "success": true,
+    "start_s": 200.34574,
+    "end_s": 200.82447,
+    "p_align": 1
+  },
+  {
+    "word": "\nDifferent",
+    "success": true,
+    "start_s": 202.5,
+    "end_s": 203.21809,
+    "p_align": 1
+  },
+  {
+    "word": " does",
+    "success": true,
+    "start_s": 203.21809,
+    "end_s": 203.45745,
+    "p_align": 1
+  },
+  {
+    "word": "n'",
+    "success": true,
+    "start_s": 203.45745,
+    "end_s": 203.53723,
+    "p_align": 1
+  },
+  {
+    "word": "t",
+    "success": true,
+    "start_s": 203.53723,
+    "end_s": 203.61702,
+    "p_align": 1
+  },
+  {
+    "word": " mean",
+    "success": true,
+    "start_s": 203.69681,
+    "end_s": 204.09574,
+    "p_align": 1
+  },
+  {
+    "word": " broken",
+    "success": true,
+    "start_s": 204.41489,
+    "end_s": 204.9734,
+    "p_align": 1
+  },
+  {
+    "word": "\nJust",
+    "success": true,
+    "start_s": 205.37234,
+    "end_s": 205.77128,
+    "p_align": 1
+  },
+  {
+    "word": " a",
+    "success": true,
+    "start_s": 205.85106,
+    "end_s": 206.01064,
+    "p_align": 1
+  },
+  {
+    "word": " different",
+    "success": true,
+    "start_s": 206.40957,
+    "end_s": 207.12766,
+    "p_align": 1
+  },
+  {
+    "word": " kind",
+    "success": true,
+    "start_s": 207.12766,
+    "end_s": 207.5266,
+    "p_align": 1
+  },
+  {
+    "word": " of",
+    "success": true,
+    "start_s": 207.60638,
+    "end_s": 207.84574,
+    "p_align": 1
+  },
+  {
+    "word": " br",
+    "success": true,
+    "start_s": 208.32447,
+    "end_s": 208.40426,
+    "p_align": 1
+  },
+  {
+    "word": "ight\n\n",
+    "success": true,
+    "start_s": 208.40426,
+    "end_s": 208.88298,
+    "p_align": 1
+  }
+]

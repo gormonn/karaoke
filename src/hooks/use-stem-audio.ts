@@ -3,13 +3,22 @@ import {MediaUtilsAudioData, useAudioData, visualizeAudio} from '@remotion/media
 import {SONG_TARGET} from '../_config';
 import {useConfig} from './use-config';
 
-export const useStemAudio = (stem: keyof typeof SONG_TARGET.stems) => {
-	const frame = useCurrentFrame();
-	const {fps} = useVideoConfig();
+export const useStemAudioData = (stem: keyof typeof SONG_TARGET.stems) => {
 	let audioData: MediaUtilsAudioData | null = null;
 	try {
 		audioData = useAudioData(SONG_TARGET.stems[stem] || '');
 	} catch (error) {}
+	return audioData;
+}
+
+export const useStemAudio = (stem: keyof typeof SONG_TARGET.stems) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const audioData = useStemAudioData(stem);
+	// let audioData: MediaUtilsAudioData | null = null;
+	// try {
+	// 	audioData = useAudioData(SONG_TARGET.stems[stem] || '');
+	// } catch (error) {}
 
 	const { stems } = useConfig();
 

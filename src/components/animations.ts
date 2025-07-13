@@ -10,8 +10,19 @@ export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) =
 		case 'zoom-in':{
 			gsap.set(chars, {
 				opacity: 0,
-				scale: 2, 
-			});
+				scale: 0.5, 
+				filter: `blur(100px)`,
+				color: KARAOKE_CONFIG.COLORS.CHAR, 
+			}); 
+		}
+		break;
+		case 'zoom-in-out':{
+			gsap.set(chars, {
+				opacity: 0,
+				scale: 0.5, 
+				filter: `blur(100px)`,
+				color: KARAOKE_CONFIG.COLORS.CHAR, 
+			}); 
 		}
 		break;
 		case 'letterize':{
@@ -32,7 +43,7 @@ export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) =
 			if (chars2) {
 				gsap.set(chars, {
 					opacity: 0,
-					color: config.colors.from,
+					color: 'hsl(0, 0%, 10%)',
 					translateY: -config.charTranslateY,
 					rotateX: config.rotation.from,
 					filter: `blur(${config.blur.from}px)`, 
@@ -40,7 +51,7 @@ export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) =
 	 
 				gsap.set(chars2, {
 					opacity: 1,
-					color: 'rgb(255, 255, 255)',
+					color: 'hsl(0, 0.00%, 18.40%)',
 					translateY: '0px',
 					rotateX: '0deg',
 					filter: `blur(0px)`, 
@@ -52,7 +63,6 @@ export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) =
 			const config = KARAOKE_CONFIG.letterizeAnimation;
 			gsap.set(chars, {
 				opacity: 0,
-				color: config.colors.from,
 				scale: 0,
 				filter: `blur(${config.blur.from}px)`,
 				transformOrigin: 'center center',
@@ -74,20 +84,65 @@ export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) =
 export const createZoomInAnimation = (
 	timeline: gsap.core.Timeline,
 	charElement: Element,
-	timing: CharTiming, 
+	timing: CharTiming,
+	_isOut?: boolean
 ) => {
+	const isOut = _isOut ?? false;
 	const config = KARAOKE_CONFIG.letterizeAnimation;
 	
 	// Используем время всего слова для длительности анимации
 	const duration = config.duration || timing.wordPart.end - timing.wordPart.start;
-
+ 
+	
 	// Анимация появления (in)
 	timeline.to(charElement, {
 		opacity: 1,
 		scale: 1,
+		filter: `blur(0px)`,
 		duration: duration,
 		ease: config.easing,
 	}, timing.start);
+
+					// timeline.to(charElement2, {
+					// 	opacity: 1,
+					// 	scale: 1.5,
+					// 	filter: `blur(100px)`,
+					// 	duration: duration,
+					// 	ease: config.easing,
+					// }, timing.start);
+
+	if(isOut){
+		timeline.to(charElement, {
+			opacity: 0,
+			scale: 0,  
+			duration: duration,
+			ease: config.easing,
+		}, timing.end);
+	}
+	
+	// timeline.to(charElement2, {
+	// 	opacity: 0,
+	// 	scale: 0,  
+	// 	duration: duration,
+	// 	ease: config.easing,
+	// }, timing.end);
+
+	// пойдет для подложки - но нужно отключать внутри файла ParagraphLineComponent.tsx:
+	// splitRef.current.chars.forEach((char: Element) => {
+	// 	// Случайное размытие для каждого символа (создает эффект тряски)
+	// 	const randomBlur = Math.max(0, baseBlur + (Math.random() * blurShakeIntensity));
+		
+	// 	gsap.set(char, {
+	// 		filter: `brightness(${brightness}) contrast(${contrast}) blur(${randomBlur}px)`,
+	// 	});
+	// });
+	// timeline.to(charElement2, {
+	// 	opacity: 0,
+	// 	scale: 0,  
+	// 	duration: 0.3,
+	// 	filter: `blur(100px)`,
+	// 	ease: config.easing,
+	// }, timing.end);
 };
 
 
@@ -187,22 +242,23 @@ export const createLetterizeAnimation2 = (
 	// Используем время всего слова для длительности анимации
 	const duration = config.duration || timing.wordPart.end - timing.wordPart.start;
 	 
-	timeline.to(charElement2, {
-		opacity: 0,
-		color: 'rgb(0, 0, 0)',
-		translateY: config.charTranslateY,
-		rotateX: '90deg',
-		filter: `blur(4px)`, 
-		duration: duration,
-		ease: config.easing,
-	}, timing.start); 
  
 	timeline.to(charElement1, {
 		opacity: 1,
-		color: config.colors.to,
+		color: 'hsl(350, 46%, 47%)',
 		translateY: 0,
 		rotateX: config.rotation.to,
 		filter: `blur(${config.blur.to}px)`,
+		duration: duration,
+		ease: config.easing,
+	}, timing.start); 
+
+	timeline.to(charElement2, {
+		opacity: 0,
+		color: 'hsl(350, 46%, 47%)',
+		translateY: config.charTranslateY,
+		rotateX: '90deg',
+		filter: `blur(4px)`, 
 		duration: duration,
 		ease: config.easing,
 	}, timing.start); 

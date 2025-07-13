@@ -2,7 +2,7 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {parseMedia} from '@remotion/media-parser';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
-import {MusicContextProvider} from './context/music';
+import {MusicContextProvider, useUnknownMusicFormat} from './context/music';
 import {MyComposition} from './Composition';
 import {SONG_TARGET} from './_config';
 import {configSchema, defaultProps} from './hooks/use-config';
@@ -13,6 +13,7 @@ const fps = 30;
 const RootComponentWithContext = () => {
 	const {data: splitLinesConfig} = useFileContent(SONG_TARGET.splitLines);
 	const {data: splitWordsConfig} = useFileContent(SONG_TARGET.splitWords);
+	const musicSrc = useUnknownMusicFormat();
 
 	return (
 		<Composition
@@ -21,7 +22,7 @@ const RootComponentWithContext = () => {
 			fps={fps}
 			calculateMetadata={async () => {
 				const {slowDurationInSeconds} = await parseMedia({
-					src: await SONG_TARGET.music,
+					src: musicSrc,
 					fields: {slowDurationInSeconds: true},
 				});
 
@@ -30,6 +31,17 @@ const RootComponentWithContext = () => {
 				};
 			}}
 			schema={configSchema}
+			// похоже что так по-уебищному работает сохранение конфигурации из интерфейса remotion
+			// (хардкодом затирается конфиг прямо в Root.tsx)
+			// todo: (low) создать PR на сохранение конфигурации в localStorage
+			// а пока, просто не использовать интерфейс remotion для сохранения конфигурации
+			
+			// Оригинальный код (если опять затрется):
+			// defaultProps={{
+			// 	...defaultProps,
+			// 	splitLinesConfig,
+			// 	splitWordsConfig,
+			// }}
 			defaultProps={{
 				...defaultProps,
 				splitLinesConfig,

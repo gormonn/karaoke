@@ -43,10 +43,10 @@ export const Subtitles: React.FC<{
 	}
 
 	return (
-		<AbsoluteFill style={{color: '#F5F5F5'}}>
+		<>
 			{finalSubs.segments.map((segment) => { 
 				return (
-					<SegmentComp
+										<SegmentComp 
 						key={segment.id}
 						segment={segment}
 						useAutoLines={useAutoLines}
@@ -54,6 +54,6 @@ export const Subtitles: React.FC<{
 					/>
 				);
 			})}
-		</AbsoluteFill>
+		</>
 	);
 };

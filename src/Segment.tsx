@@ -93,10 +93,7 @@ const createLineCharMap = (words: Word[]) => {
 		}
 	});
 
-	const result = {fullLineText, charTimingMap};
-	if (fullLineText.length > 0) {
-		console.log('createLineCharMap', {words, ...result});
-	}
+	const result = {fullLineText, charTimingMap}; 
 	return result;
 };
 
@@ -128,11 +125,6 @@ const LineComponent: React.FC<{
 						charsClass: 'split-char',
 						reduceWhiteSpace: false,
 						position: 'relative', // Естественный поток
-					});
-
-					// Логирование для отладки
-					console.log('SplitText created for line:', lineIndex, {
-						chars: splitRef.current.chars?.length || 0,
 					});
 				}
 			};
@@ -235,10 +227,6 @@ const ParagraphLineComponent: React.FC<{
 	const timeInSeconds = frame / fps;
 	const containerRef = useRef<HTMLDivElement>(null);
 	const splitRef = useRef<SplitText | null>(null);
-
-	useEffect(() => {
-		console.log('ParagraphLineComponent', {segment});
-	}, [segment]);
 
 	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {

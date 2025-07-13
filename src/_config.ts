@@ -2,43 +2,16 @@ import {staticFile} from 'remotion';
 
 export const SONG_NAME = `Never_Said`;
 
-const checkFile = (baseName: string): Promise<string> => {
-	return new Promise((resolve, reject) => {
-		const file = staticFile(baseName);
-		const checker = new Audio();
-
-		checker.src = file;
-		checker.onprogress = () => {
-			console.log(`! onprogress ${baseName}`);
-			checker.remove();
-			resolve(file);
-		};
-		checker.onerror = (e) => {
-			console.log(`! onError ${baseName}`, e);
-			reject(`Error: File ${file} not found!`);
-		};
-	});
-};
-
-// Функция для определения доступного аудиоформата
-const getAudioFile = (baseName: string): Promise<string> => {
-	return new Promise(async (resolve, reject) => {
-		const wav = await checkFile(`${baseName}.wav`)
-			.then((v) => v)
-			.catch(() => null);
-
-		const mp3 = await checkFile(`${baseName}.mp3`)
-			.then((v) => v)
-			.catch(() => null);
-
-		if (wav) {
-			resolve(wav);
-		} else if (mp3) {
-			resolve(mp3);
-		} else {
-			reject(`Error: File ${baseName}.{mp3|wav} not found!`);
-		}
-	});
+// Функция для расчета charTranslateY на основе fontSize
+const calculateCharTranslateY = (fontSize: string): number => {
+	// Извлекаем числовое значение из fontSize (например, "2.5rem" -> 2.5)
+	const numericValue = parseFloat(fontSize);
+	
+	// Если fontSize в rem, конвертируем в px (1rem = 16px)
+	const fontSizeInPx = fontSize.includes('rem') ? numericValue * 16 : numericValue;
+	
+	// Применяем коэффициент 0.6 для получения charTranslateY
+	return fontSizeInPx * 0.5;
 };
 
 export const SONG_TARGET = {
@@ -46,7 +19,7 @@ export const SONG_TARGET = {
 	edits: staticFile(`${SONG_NAME}-converted-edits.json`),
 	splitLines: staticFile(`stems/${SONG_NAME}/split-lines.txt`),
 	splitWords: staticFile(`stems/${SONG_NAME}/split-words.txt`),
-	music: getAudioFile(SONG_NAME),
+	music: staticFile(SONG_NAME),
 	stems: {
 	bass: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav'),
 	drums: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Drums).wav'),
@@ -58,8 +31,17 @@ export const SONG_TARGET = {
 	background: staticFile('assets/background.jpg'),
 };
 
+const COLORS = {
+	BACKGROUND: 'hsl(0, 0%, 10%)',
+	CHAR: 'yellow',
+	CHAR_ACCENT: '#CCCCCC',
+};
+
+const fontSize = '6rem';
 // ✅ Настройки караоке анимации
 export const KARAOKE_CONFIG = {
+	COLORS,
+
 	splitLines: true,
 	splitWords: true,
 	transparent: false,
@@ -79,9 +61,12 @@ export const KARAOKE_CONFIG = {
 	// Режим анимации символов
 	animationMode: 'default' as 'default' | 'letterize',
 	
+	fontSize,
+	// fontSize: '6rem',
+
 	// Настройки для режима "letterize" (адаптированного из Word.tsx)
 	letterizeAnimation: {
-		charTranslateY: 24,      // Смещение символов по вертикали
+		charTranslateY: calculateCharTranslateY(fontSize),      // Смещение символов по вертикали
 		// duration: 0.4,           // Длительность анимации (сек)
 		duration: null,           // Длительность анимации (будет рассчитана в createLetterizeAnimation)
 		easing: 'power2.inOut',  // GSAP easing
@@ -94,8 +79,12 @@ export const KARAOKE_CONFIG = {
 			to: 0,               // Конечный поворот (градусы)
 		},
 		colors: {
-			from: 'hsl(109, 97%, 88%)',  // Начальный цвет
+			from2: 'hsl(217, 45.80%, 47.10%)',  // Начальный цвет
+			from: 'hsl(0, 0.00%, 100.00%)',  // Начальный цвет
 			to: 'hsl(350, 46%, 47%)',    // Конечный цвет
+			// from: COLORS.CHAR_ACCENT,  // Начальный цвет
+			// to: COLORS.CHAR,    // Конечный цвет
 		},
 	},
 };
+

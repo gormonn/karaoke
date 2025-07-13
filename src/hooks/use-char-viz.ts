@@ -35,6 +35,8 @@ export const useCharViz = (
 	useEffect(() => {
 		if (isIgnoredByMeta || !drumsAudio || !bassAudio || !splitRef.current?.chars) return;
 
+		console.log('?isIgnoredByMeta',isIgnoredByMeta)
+		
 		// Анализируем drums для обводки, яркости, размытия
 		const drumsVisualization = visualizeAudio({
 			fps,

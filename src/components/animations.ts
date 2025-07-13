@@ -4,26 +4,33 @@ import {CharTiming, Word} from '../types';
 
 // Функция для инициализации символов в режиме "letterize"
 export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) => {
+	// 🆕 Используем глобальный режим или дефолтный
 	const currentMode = window.KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
 	
 	switch (currentMode) {
 		case 'zoom-in':{
 			gsap.set(chars, {
 				opacity: 0,
-				scale: 0.5, 
-				filter: `blur(100px)`,
+				scale: 0.5,
 				color: KARAOKE_CONFIG.COLORS.CHAR, 
 			}); 
 		}
 		break;
-		case 'zoom-in-out':{
+		case 'zoom-in-blur':
 			gsap.set(chars, {
 				opacity: 0,
 				scale: 0.5, 
 				filter: `blur(100px)`,
 				color: KARAOKE_CONFIG.COLORS.CHAR, 
-			}); 
-		}
+			});
+		break;
+		case 'zoom-in-out':
+			gsap.set(chars, {
+				opacity: 0,
+				scale: 0.5, 
+				filter: `blur(100px)`,
+				color: KARAOKE_CONFIG.COLORS.CHAR, 
+			});
 		break;
 		case 'letterize':{
 			const config = KARAOKE_CONFIG.letterizeAnimation;
@@ -81,13 +88,33 @@ export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) =
 };
 
 // Функция для создания анимации символов в режиме "letterize"
+export const createZoomInBlurAnimation = (
+	timeline: gsap.core.Timeline,
+	charElement: Element,
+	timing: CharTiming
+) => {
+	const config = KARAOKE_CONFIG.letterizeAnimation;
+	
+	// Используем время всего слова для длительности анимации
+	const duration = config.duration || timing.wordPart.end - timing.wordPart.start;
+	
+	// Анимация появления (in)
+	timeline.to(charElement, {
+		opacity: 1,
+		scale: 1, 
+		duration: duration,
+		filter: `blur(0px)`,
+		ease: config.easing,
+	}, timing.start);
+};
+
+
+// Функция для создания анимации символов в режиме "letterize"
 export const createZoomInAnimation = (
 	timeline: gsap.core.Timeline,
 	charElement: Element,
-	timing: CharTiming,
-	_isOut?: boolean
+	timing: CharTiming
 ) => {
-	const isOut = _isOut ?? false;
 	const config = KARAOKE_CONFIG.letterizeAnimation;
 	
 	// Используем время всего слова для длительности анимации
@@ -97,8 +124,7 @@ export const createZoomInAnimation = (
 	// Анимация появления (in)
 	timeline.to(charElement, {
 		opacity: 1,
-		scale: 1,
-		filter: `blur(0px)`,
+		scale: 1, 
 		duration: duration,
 		ease: config.easing,
 	}, timing.start);
@@ -111,14 +137,6 @@ export const createZoomInAnimation = (
 					// 	ease: config.easing,
 					// }, timing.start);
 
-	if(isOut){
-		timeline.to(charElement, {
-			opacity: 0,
-			scale: 0,  
-			duration: duration,
-			ease: config.easing,
-		}, timing.end);
-	}
 	
 	// timeline.to(charElement2, {
 	// 	opacity: 0,
@@ -143,6 +161,36 @@ export const createZoomInAnimation = (
 	// 	filter: `blur(100px)`,
 	// 	ease: config.easing,
 	// }, timing.end);
+};
+
+
+// Функция для создания анимации символов в режиме "letterize"
+export const createZoomInOutAnimation = (
+	timeline: gsap.core.Timeline,
+	charElement: Element,
+	timing: CharTiming, 
+) => { 
+	const config = KARAOKE_CONFIG.letterizeAnimation;
+	
+	// Используем время всего слова для длительности анимации
+	const duration = config.duration || timing.wordPart.end - timing.wordPart.start;
+ 
+	
+	// Анимация появления (in)
+	timeline.to(charElement, {
+		opacity: 1,
+		scale: 1,
+		filter: `blur(0px)`,
+		duration: duration,
+		ease: config.easing,
+	}, timing.start);
+ 
+	timeline.to(charElement, {
+		opacity: 0,
+		scale: 0,  
+		duration: duration,
+		ease: config.easing,
+	}, timing.end); 
 };
 
 
@@ -314,12 +362,12 @@ export const createDefaultAnimation = (
 	}, timing.start);
 
 	// Анимация завершения
-	timeline.to(charElement, {
-		color: '#FFFFFF',
-		scale: 1,
-		textShadow: 'none',
-		duration: 0.1,
-	}, timing.end);
+	// timeline.to(charElement, {
+	// 	color: '#FFFFFF',
+	// 	scale: 1,
+	// 	textShadow: 'none',
+	// 	duration: 0.1,
+	// }, timing.end);
 };
 
 // ✅ Общая функция для интерполяции символов внутри слов

@@ -42783,3 +42783,887 @@ Never meant the words before you fall"
    synth: stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav
    vocals: stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav
 Конвертация завершена успешно!
+
+🔧 Обработка закрывающих знаков препинания:
+  📝 Перенесено "’" из позиции 16 в позицию 15
+     Было: " I’" | "’m"
+     Стало: " I’" | "m"
+  📝 Перенесено "’" из позиции 30 в позицию 29
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 30
+  📝 Перенесено "," из позиции 36 в позицию 35
+     Было: " you," | ", is"
+     Стало: " you," | " is"
+  📝 Перенесено "?" из позиции 38 в позицию 37
+     Было: " it?" | "?
+How"
+     Стало: " it?" | "
+How"
+  📝 Перенесено "’" из позиции 40 в позицию 39
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 40
+  📝 Перенесено "’" из позиции 52 в позицию 51
+     Было: " “I’" | "’"
+     Стало: " “I’" | ""
+  🗑️ Удаляем пустое слово на позиции 52
+  📝 Перенесено "”" из позиции 54 в позицию 53
+     Было: " listening”" | "”
+But"
+     Стало: " listening”" | "
+But"
+  📝 Перенесено "’" из позиции 57 в позицию 56
+     Было: " mind’" | "’"
+     Стало: " mind’" | ""
+  🗑️ Удаляем пустое слово на позиции 57
+  📝 Перенесено "”" из позиции 68 в позицию 67
+     Было: " me”" | "”
+“I"
+     Стало: " me”" | "
+“I"
+  📝 Перенесено "’" из позиции 69 в позицию 68
+     Было: "
+“I’" | "’"
+     Стало: "
+“I’" | ""
+  🗑️ Удаляем пустое слово на позиции 69
+  📝 Перенесено "”" из позиции 75 в позицию 74
+     Было: " before”" | "”
+“We"
+     Стало: " before”" | "
+“We"
+  📝 Перенесено "”" из позиции 81 в позицию 80
+     Было: " future”" | "”
+
+[Chorus]
+Said"
+     Стало: " future”" | "
+
+[Chorus]
+Said"
+  📝 Перенесено "’" из позиции 108 в позицию 107
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 108
+  📝 Перенесено "’" из позиции 116 в позицию 115
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 116
+  📝 Перенесено "’" из позиции 128 в позицию 127
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 128
+  📝 Перенесено "’" из позиции 136 в позицию 135
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 136
+  📝 Перенесено "’" из позиции 149 в позицию 148
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 149
+  📝 Перенесено "’" из позиции 158 в позицию 157
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 158
+  📝 Перенесено "’" из позиции 163 в позицию 162
+     Было: " it’" | "’"
+     Стало: " it’" | ""
+  🗑️ Удаляем пустое слово на позиции 163
+  📝 Перенесено "," из позиции 169 в позицию 168
+     Было: " you," | ", baby"
+     Стало: " you," | " baby"
+  📝 Перенесено "’" из позиции 181 в позицию 180
+     Было: " “I’" | "’"
+     Стало: " “I’" | ""
+  🗑️ Удаляем пустое слово на позиции 181
+  📝 Перенесено "”" из позиции 184 в позицию 183
+     Было: " trying”" | "”
+With"
+     Стало: " trying”" | "
+With"
+  📝 Перенесено "”" из позиции 197 в позицию 196
+     Было: " myself”" | "”
+“This"
+     Стало: " myself”" | "
+“This"
+  📝 Перенесено "”" из позиции 203 в позицию 202
+     Было: " too”" | "”
+“Maybe"
+     Стало: " too”" | "
+“Maybe"
+  📝 Перенесено "”" из позиции 209 в позицию 208
+     Было: " out”" | "”
+
+[Chorus]
+Said"
+     Стало: " out”" | "
+
+[Chorus]
+Said"
+  📝 Перенесено "’" из позиции 234 в позицию 233
+     Было: " they’" | "’"
+     Стало: " they’" | ""
+  🗑️ Удаляем пустое слово на позиции 234
+  📝 Перенесено "’" из позиции 240 в позицию 239
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 240
+  📝 Перенесено "’" из позиции 265 в позицию 264
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 265
+  📝 Перенесено "’" из позиции 270 в позицию 269
+     Было: " can’" | "’"
+     Стало: " can’" | ""
+  🗑️ Удаляем пустое слово на позиции 270
+  📝 Перенесено "’" из позиции 275 в позицию 274
+     Было: " I’" | "’"
+     Стало: " I’" | ""
+  🗑️ Удаляем пустое слово на позиции 275
+  📝 Перенесено "’" из позиции 279 в позицию 278
+     Было: " who’" | "’"
+     Стало: " who’" | ""
+  🗑️ Удаляем пустое слово на позиции 279
+  📝 Перенесено "”" из позиции 287 в позицию 286
+     Было: " “forever”" | "” with"
+     Стало: " “forever”" | " with"
+  📝 Перенесено "’" из позиции 293 в позицию 292
+     Было: " you’" | "’"
+     Стало: " you’" | ""
+  🗑️ Удаляем пустое слово на позиции 293
+  📝 Перенесено "”" из позиции 310 в позицию 309
+     Было: " this”" | "”
+Said"
+     Стало: " this”" | "
+Said"
+  📝 Перенесено "’" из позиции 322 в позицию 321
+     Было: " we’" | "’"
+     Стало: " we’" | ""
+  🗑️ Удаляем пустое слово на позиции 322
+  📝 Перенесено "”" из позиции 325 в позицию 324
+     Было: " through”" | "”
+Said"
+     Стало: " through”" | "
+Said"
+  📝 Перенесено "’" из позиции 330 в позицию 329
+     Было: "
+Who’" | "’"
+     Стало: "
+Who’" | ""
+  🗑️ Удаляем пустое слово на позиции 330
+  📝 Перенесено "’" из позиции 338 в позицию 337
+     Было: "
+It’" | "’"
+     Стало: "
+It’" | ""
+  🗑️ Удаляем пустое слово на позиции 338
+  📝 Перенесено "’" из позиции 346 в позицию 345
+     Было: " we’" | "’"
+     Стало: " we’" | ""
+  🗑️ Удаляем пустое слово на позиции 346
+✅ Обработка закрывающих знаков препинания завершена
+
+Создан файл предварительной обработки: Never_Said-formatted.json
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+
+🔍 Обрабатываем строку: "While I'm talking 'bout our plans"
+📍 Позиция alignmentPointer: 13
+  🔤 Проверяем слово: "
+While" (clean: "While", trimmed: "While")
+  📝 Оставшаяся строка: remainingLine "While I'm talking 'bout our plans" startWith trimmedCleanWord "While"
+  ✅ Совпадение! Откусываем "While"
+  🔄 После откусывания: remainingLine="I'm talking 'bout our plans"
+  🔤 Проверяем слово: " I’m" (clean: " I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm talking 'bout our plans" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="talking 'bout our plans"
+  🔤 Проверяем слово: " talking ‘" (clean: " talking '", trimmed: "talking '")
+  📝 Оставшаяся строка: remainingLine "talking 'bout our plans" startWith trimmedCleanWord "talking '"
+  ✅ Совпадение! Откусываем "talking '"
+  🔄 После откусывания: remainingLine="bout our plans"
+  🔤 Проверяем слово: "bout" (clean: "bout", trimmed: "bout")
+  📝 Оставшаяся строка: remainingLine "bout our plans" startWith trimmedCleanWord "bout"
+  ✅ Совпадение! Откусываем "bout"
+  🔄 После откусывания: remainingLine="our plans"
+  🔤 Проверяем слово: " our" (clean: " our", trimmed: "our")
+  📝 Оставшаяся строка: remainingLine "our plans" startWith trimmedCleanWord "our"
+  ✅ Совпадение! Откусываем "our"
+  🔄 После откусывания: remainingLine="plans"
+  🔤 Проверяем слово: " plans" (clean: " plans", trimmed: "plans")
+  📝 Оставшаяся строка: remainingLine "plans" startWith trimmedCleanWord "plans"
+  ✅ Совпадение! Откусываем "plans"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+
+🔄 Обработка split-lines и split-words...
+📂 Ищем split-файлы...
+✅ Найден split-lines.txt, обрабатываем...
+!! splitGroups 2,2,2,2,1,1,1,3,3,2,2,2,2,2,2,1,1,1,3,3,2,2,2,2,2,3,2,3
+!! splitContent 2222 111 3322 2222 111 3322 22 2323
+!! Processing segment 0 with split group: 2,2,2,2
+!! processing: 2 lines
+!! remainingLines 8
+!! currentLines Standing in the kitchen at 2 AM,Scrolling through your phone again
+!! restLines 6
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 6
+!! currentLines While I'm talking 'bout our plans,But my words just hit the air
+!! restLines 4
+
+🔍 Обрабатываем строку: "While I'm talking 'bout our plans"
+📍 Позиция alignmentPointer: 13
+  🔤 Проверяем слово: "While" (clean: "While", trimmed: "While")
+  📝 Оставшаяся строка: remainingLine "While I'm talking 'bout our plans" startWith trimmedCleanWord "While"
+  ✅ Совпадение! Откусываем "While"
+  🔄 После откусывания: remainingLine="I'm talking 'bout our plans"
+  🔤 Проверяем слово: "I'm" (clean: "I'm", trimmed: "I'm")
+  📝 Оставшаяся строка: remainingLine "I'm talking 'bout our plans" startWith trimmedCleanWord "I'm"
+  ✅ Совпадение! Откусываем "I'm"
+  🔄 После откусывания: remainingLine="talking 'bout our plans"
+  🔤 Проверяем слово: "talking '" (clean: "talking '", trimmed: "talking '")
+  📝 Оставшаяся строка: remainingLine "talking 'bout our plans" startWith trimmedCleanWord "talking '"
+  ✅ Совпадение! Откусываем "talking '"
+  🔄 После откусывания: remainingLine="bout our plans"
+  🔤 Проверяем слово: "bout" (clean: "bout", trimmed: "bout")
+  📝 Оставшаяся строка: remainingLine "bout our plans" startWith trimmedCleanWord "bout"
+  ✅ Совпадение! Откусываем "bout"
+  🔄 После откусывания: remainingLine="our plans"
+  🔤 Проверяем слово: "our" (clean: "our", trimmed: "our")
+  📝 Оставшаяся строка: remainingLine "our plans" startWith trimmedCleanWord "our"
+  ✅ Совпадение! Откусываем "our"
+  🔄 После откусывания: remainingLine="plans"
+  🔤 Проверяем слово: "plans" (clean: "plans", trimmed: "plans")
+  📝 Оставшаяся строка: remainingLine "plans" startWith trimmedCleanWord "plans"
+  ✅ Совпадение! Откусываем "plans"
+  🔄 После откусывания: remainingLine=""
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 4
+!! currentLines It's not clocking to you, is it?,How I'm breaking piece by piece
+!! restLines 2
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 2
+!! currentLines While you nod and say "I'm listening",But your mind's already released
+!! restLines 0
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! Processing segment 1 with split group: 1,1,1
+!! processing: 1 lines
+!! remainingLines 3
+!! currentLines "This relationship means everything to me"
+!! restLines 2
+✅ Строка обработана полностью
+!! processing: 1 lines
+!! remainingLines 2
+!! currentLines "I've never felt this way before"
+!! restLines 1
+✅ Строка обработана полностью
+!! processing: 1 lines
+!! remainingLines 1
+!! currentLines "We should talk about our future"
+!! restLines 0
+✅ Строка обработана полностью
+!! Processing segment 2 with split group: 3,3,2,2
+!! processing: 3 lines
+!! remainingLines 10
+!! currentLines Said no one ever,Said no one ever,Who was checking out
+!! restLines 7
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 3 lines
+!! remainingLines 7
+!! currentLines Said no one ever,Said no one ever,When love turned to doubt
+!! restLines 4
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 4
+!! currentLines It's not clocking to you,That I'm already gone
+!! restLines 2
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 2
+!! currentLines Said no one ever,Never said those words you're thinking of
+!! restLines 0
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! Processing segment 3 with split group: 2,2,2,2
+!! processing: 2 lines
+!! remainingLines 8
+!! currentLines Coffee dates where you're explaining,Why you need more time to think
+!! restLines 6
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 6
+!! currentLines While I'm drowning in the silence,Of the truth you'll never speak
+!! restLines 4
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 4
+!! currentLines But it's not clocking to you, baby,How these excuses taste like lies
+!! restLines 2
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 2
+!! currentLines When you say "I'm really trying",With distraction in your eyes
+!! restLines 0
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! Processing segment 4 with split group: 1,1,1
+!! processing: 1 lines
+!! remainingLines 3
+!! currentLines "I just need space to find myself"
+!! restLines 2
+✅ Строка обработана полностью
+!! processing: 1 lines
+!! remainingLines 2
+!! currentLines "This is harder on me too"
+!! restLines 1
+✅ Строка обработана полностью
+!! processing: 1 lines
+!! remainingLines 1
+!! currentLines "Maybe we can work this out"
+!! restLines 0
+✅ Строка обработана полностью
+!! Processing segment 5 with split group: 3,3,2,2
+!! processing: 3 lines
+!! remainingLines 10
+!! currentLines Said no one ever,Said no one ever,Who was halfway out the door
+!! restLines 7
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 3 lines
+!! remainingLines 7
+!! currentLines Said no one ever,Said no one ever,When they'd already found something more
+!! restLines 4
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 4
+!! currentLines It's not clocking to you,That I see through it all
+!! restLines 2
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 2
+!! currentLines Said no one ever,Never meant the words before you fall
+!! restLines 0
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! Processing segment 6 with split group: 2,2
+!! processing: 2 lines
+!! remainingLines 4
+!! currentLines Maybe I'm the fool who can't read signs,Maybe I'm the one who's going blind
+!! restLines 2
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 2
+!! currentLines But when you say "forever" with that tone,I know you're already writing me a goodbye note
+!! restLines 0
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! Processing segment 7 with split group: 2,3,2,3
+!! processing: 2 lines
+!! remainingLines 10
+!! currentLines "I want to stay and fight for this",Said no one ever walking away
+!! restLines 8
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 3 lines
+!! remainingLines 8
+!! currentLines "This is just a phase we're going through",Said no one ever,Who's already moved on to someone new
+!! restLines 5
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 2 lines
+!! remainingLines 5
+!! currentLines It's not clocking to you,That we're done before we started
+!! restLines 3
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processing: 3 lines
+!! remainingLines 3
+!! currentLines Said no one ever,Said no one ever,Who left broken-hearted
+!! restLines 0
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! result [object Object]
+💾 Сохранен результат split-lines: results/Never_Said-split-lines.json
+✅ Найден split-words.txt, обрабатываем...
+!! processSplitWords - convertedData: [object Object]
+!! processSplitWords - splitWordsContent: 7 8 9 10 18 19 20 21
+!! processSplitWords - segmentIds to split: 7,8,9,10,18,19,20,21
+!! processSplitWords - processing segment 7: [object Object]
+!! processSplitWords - fullText: "Said no one ever
+Said no one ever
+Who was checking out"
+!! mergeWordParts START
+!! real: [Said, no, one, ever, Said, no, one, ever, Who, was, checking, out]
+!! alignment: [Said, no, one, ever, Said, no, one, ever, Who, was, check, ing, out]
+!! processing word 0: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 1: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 2: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 3: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 4: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 5: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 6: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 7: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 8: "Who"
+!! DIRECT match: "Who" = "Who"
+!! processing word 9: "was"
+!! DIRECT match: "was" = "was"
+!! processing word 10: "checking"
+!! COMBINED match: "checking" from 2 parts
+!! processing word 11: "out"
+!! DIRECT match: "out" = "out"
+!! mergeWordParts END - created 12 words
+!! result: [Said, no, one, ever, Said, no, one, ever, Who, was, checking, out]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 12 word segments for segment 7
+!! processSplitWords - processing segment 8: [object Object]
+!! processSplitWords - fullText: "Said no one ever
+Said no one ever
+When love turned to doubt"
+!! mergeWordParts START
+!! real: [Said, no, one, ever, Said, no, one, ever, When, love, turned, to, doubt]
+!! alignment: [Said, no, one, ever, Said, no, one, ever, When, love, turned, to, doubt]
+!! processing word 0: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 1: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 2: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 3: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 4: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 5: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 6: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 7: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 8: "When"
+!! DIRECT match: "When" = "When"
+!! processing word 9: "love"
+!! DIRECT match: "love" = "love"
+!! processing word 10: "turned"
+!! DIRECT match: "turned" = "turned"
+!! processing word 11: "to"
+!! DIRECT match: "to" = "to"
+!! processing word 12: "doubt"
+!! DIRECT match: "doubt" = "doubt"
+!! mergeWordParts END - created 13 words
+!! result: [Said, no, one, ever, Said, no, one, ever, When, love, turned, to, doubt]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 13 word segments for segment 8
+!! processSplitWords - processing segment 9: [object Object]
+!! processSplitWords - fullText: "It's not clocking to you
+That I'm already gone"
+!! mergeWordParts START
+!! real: [It's, not, clocking, to, you, That, I'm, already, gone]
+!! alignment: [It's, not, clock, ing, to, you, That, I'm, already, gone]
+!! processing word 0: "It's"
+!! DIRECT match: "It's" = "It's"
+!! processing word 1: "not"
+!! DIRECT match: "not" = "not"
+!! processing word 2: "clocking"
+!! COMBINED match: "clocking" from 2 parts
+!! processing word 3: "to"
+!! DIRECT match: "to" = "to"
+!! processing word 4: "you"
+!! DIRECT match: "you" = "you"
+!! processing word 5: "That"
+!! DIRECT match: "That" = "That"
+!! processing word 6: "I'm"
+!! DIRECT match: "I'm" = "I'm"
+!! processing word 7: "already"
+!! DIRECT match: "already" = "already"
+!! processing word 8: "gone"
+!! DIRECT match: "gone" = "gone"
+!! mergeWordParts END - created 9 words
+!! result: [It's, not, clocking, to, you, That, I'm, already, gone]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 9 word segments for segment 9
+!! processSplitWords - processing segment 10: [object Object]
+!! processSplitWords - fullText: "Said no one ever
+Never said those words you're thinking of"
+!! mergeWordParts START
+!! real: [Said, no, one, ever, Never, said, those, words, you're, thinking, of]
+!! alignment: [Said, no, one, ever, Never, said, those, words, you', re, thinking, of]
+!! processing word 0: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 1: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 2: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 3: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 4: "Never"
+!! DIRECT match: "Never" = "Never"
+!! processing word 5: "said"
+!! DIRECT match: "said" = "said"
+!! processing word 6: "those"
+!! DIRECT match: "those" = "those"
+!! processing word 7: "words"
+!! DIRECT match: "words" = "words"
+!! processing word 8: "you're"
+!! COMBINED match: "you're" from 2 parts
+!! processing word 9: "thinking"
+!! DIRECT match: "thinking" = "thinking"
+!! processing word 10: "of"
+!! DIRECT match: "of" = "of"
+!! mergeWordParts END - created 11 words
+!! result: [Said, no, one, ever, Never, said, those, words, you're, thinking, of]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 11 word segments for segment 10
+!! processSplitWords - processing segment 18: [object Object]
+!! processSplitWords - fullText: "Said no one ever
+Said no one ever
+Who was halfway out the door"
+!! mergeWordParts START
+!! real: [Said, no, one, ever, Said, no, one, ever, Who, was, halfway, out, the, door]
+!! alignment: [Said, no, one, ever, Said, no, one, ever, Who, was, half, way, out, the, door]
+!! processing word 0: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 1: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 2: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 3: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 4: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 5: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 6: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 7: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 8: "Who"
+!! DIRECT match: "Who" = "Who"
+!! processing word 9: "was"
+!! DIRECT match: "was" = "was"
+!! processing word 10: "halfway"
+!! COMBINED match: "halfway" from 2 parts
+!! processing word 11: "out"
+!! DIRECT match: "out" = "out"
+!! processing word 12: "the"
+!! DIRECT match: "the" = "the"
+!! processing word 13: "door"
+!! DIRECT match: "door" = "door"
+!! mergeWordParts END - created 14 words
+!! result: [Said, no, one, ever, Said, no, one, ever, Who, was, halfway, out, the, door]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 14 word segments for segment 18
+!! processSplitWords - processing segment 19: [object Object]
+!! processSplitWords - fullText: "Said no one ever
+Said no one ever
+When they'd already found something more"
+!! mergeWordParts START
+!! real: [Said, no, one, ever, Said, no, one, ever, When, they'd, already, found, something, more]
+!! alignment: [Said, no, one, ever, Said, no, one, ever, When, they'd, already, found, something, more]
+!! processing word 0: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 1: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 2: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 3: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 4: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 5: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 6: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 7: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 8: "When"
+!! DIRECT match: "When" = "When"
+!! processing word 9: "they'd"
+!! DIRECT match: "they'd" = "they'd"
+!! processing word 10: "already"
+!! DIRECT match: "already" = "already"
+!! processing word 11: "found"
+!! DIRECT match: "found" = "found"
+!! processing word 12: "something"
+!! DIRECT match: "something" = "something"
+!! processing word 13: "more"
+!! DIRECT match: "more" = "more"
+!! mergeWordParts END - created 14 words
+!! result: [Said, no, one, ever, Said, no, one, ever, When, they'd, already, found, something, more]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 14 word segments for segment 19
+!! processSplitWords - processing segment 20: [object Object]
+!! processSplitWords - fullText: "It's not clocking to you
+That I see through it all"
+!! mergeWordParts START
+!! real: [It's, not, clocking, to, you, That, I, see, through, it, all]
+!! alignment: [It's, not, clock, ing, to, you, That I, see, through, it, all]
+!! processing word 0: "It's"
+!! DIRECT match: "It's" = "It's"
+!! processing word 1: "not"
+!! DIRECT match: "not" = "not"
+!! processing word 2: "clocking"
+!! COMBINED match: "clocking" from 2 parts
+!! processing word 3: "to"
+!! DIRECT match: "to" = "to"
+!! processing word 4: "you"
+!! DIRECT match: "you" = "you"
+!! processing word 5: "That"
+!! REVERSE match: "That I" contains 2 words
+!! processing word 7: "see"
+!! DIRECT match: "see" = "see"
+!! processing word 8: "through"
+!! DIRECT match: "through" = "through"
+!! processing word 9: "it"
+!! DIRECT match: "it" = "it"
+!! processing word 10: "all"
+!! DIRECT match: "all" = "all"
+!! mergeWordParts END - created 10 words
+!! result: [It's, not, clocking, to, you, That I, see, through, it, all]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 10 word segments for segment 20
+!! processSplitWords - processing segment 21: [object Object]
+!! processSplitWords - fullText: "Said no one ever
+Never meant the words before you fall"
+!! mergeWordParts START
+!! real: [Said, no, one, ever, Never, meant, the, words, before, you, fall]
+!! alignment: [Said, no, one, ever, Never, meant, the, words, before, you, fall]
+!! processing word 0: "Said"
+!! DIRECT match: "Said" = "Said"
+!! processing word 1: "no"
+!! DIRECT match: "no" = "no"
+!! processing word 2: "one"
+!! DIRECT match: "one" = "one"
+!! processing word 3: "ever"
+!! DIRECT match: "ever" = "ever"
+!! processing word 4: "Never"
+!! DIRECT match: "Never" = "Never"
+!! processing word 5: "meant"
+!! DIRECT match: "meant" = "meant"
+!! processing word 6: "the"
+!! DIRECT match: "the" = "the"
+!! processing word 7: "words"
+!! DIRECT match: "words" = "words"
+!! processing word 8: "before"
+!! DIRECT match: "before" = "before"
+!! processing word 9: "you"
+!! DIRECT match: "you" = "you"
+!! processing word 10: "fall"
+!! DIRECT match: "fall" = "fall"
+!! mergeWordParts END - created 11 words
+!! result: [Said, no, one, ever, Never, meant, the, words, before, you, fall]
+!! processSplitWords - mergedWords: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+!! processSplitWords - processedAlignment: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+✅ Строка обработана полностью
+!! processSplitWords - created 11 word segments for segment 21
+!! processSplitWords - result: [object Object]
+💾 Сохранен результат split-words: results/Never_Said-split-words.json
+💾 Сохранен финальный результат: results/Never_Said-final.json
+💾 Сохранены оригинальные данные: results/Never_Said-original.json
+Создан файл для редактирования: Never_Said-converted-edits.json
+Файл _config.ts обновлен с новым именем песни: "Never_Said"
+
+🎵 Проверка стемов...
+✅ Найден стем bass: It’s not clocking to you Said No One Ever (Bass).wav
+✅ Найден стем drums: It’s not clocking to you Said No One Ever (Drums).wav
+✅ Найден стем guitar: It’s not clocking to you Said No One Ever (Guitar).wav
+✅ Найден стем percussion: It’s not clocking to you Said No One Ever (Percussion).wav
+✅ Найден стем synth: It’s not clocking to you Said No One Ever (Synth).wav
+✅ Найден стем vocals: It’s not clocking to you Said No One Ever (Vocals).wav
+Найдено стемов: 6
+✅ Конфигурация стемов обновлена в _config.ts:
+   bass: stems/Never_Said/It’s not clocking to you Said No One Ever (Bass).wav
+   drums: stems/Never_Said/It’s not clocking to you Said No One Ever (Drums).wav
+   guitar: stems/Never_Said/It’s not clocking to you Said No One Ever (Guitar).wav
+   percussion: stems/Never_Said/It’s not clocking to you Said No One Ever (Percussion).wav
+   synth: stems/Never_Said/It’s not clocking to you Said No One Ever (Synth).wav
+   vocals: stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav
+Конвертация завершена успешно!

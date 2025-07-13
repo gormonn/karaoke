@@ -44,6 +44,7 @@ export enum ANIMATION_MODE {
 	LETTERIZE2 = 'letterize2',
 	ZOOM = 'zoom',
 	ZOOM_IN = 'zoom-in',
+	ZOOM_IN_BLUR = 'zoom-in-blur',
 	ZOOM_IN_OUT = 'zoom-in-out',
 	DEFAULT = 'default',
 }

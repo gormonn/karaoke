@@ -10,6 +10,7 @@ import {
 	createDefaultAnimation,
 	interpolateCharTimings
 } from './animations';
+import { useAnimationMode } from '../hooks/use-animation-mode';
 
 // ✅ CSS стили для SplitText элементов (согласно документации GSAP)
 const splitTextStyles = `
@@ -120,6 +121,9 @@ export const LineComponent: React.FC<{
 		};
 	}, [fullLineText, lineIndex]);
 
+	// 🆕 Получаем текущий режим анимации
+	const currentMode = useAnimationMode();
+	
 	// 🎵 Синхронизируем GSAP анимации с Remotion timeline
 	const animationRef = useGsapTimeline(() => {
 		console.log('! animationRef');
@@ -140,6 +144,7 @@ export const LineComponent: React.FC<{
 			const charElement = document.querySelector(charSelector);
 			
 			if (charElement) {
+				// Используем текущий режим анимации
 				const currentMode = window.KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
 				// const futureTiming = array?.[charIndex + 10];
 				switch (currentMode) {

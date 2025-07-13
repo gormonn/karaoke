@@ -5,6 +5,7 @@ import {KARAOKE_CONFIG} from '../_config';
 import {useGsapTimeline, gsap} from '../lib/gsap';
 import {LineComponent} from './LineComponent';
 import {ParagraphLineComponent} from './ParagraphLineComponent';
+import {useAnimationMode} from '../hooks/use-animation-mode';
 
 const InnerComponent: React.FC<{
 	segment: Segment;
@@ -15,15 +16,22 @@ const InnerComponent: React.FC<{
 	const hasLines = segment.lines && segment.lines.length > 0;
 	const hasParagraph = segment.paragraph && segment.paragraph.trim() !== '';
 
+	// 🆕 Определяем режим анимации на основе текущей мета-линии
+	const currentAnimationMode = useAnimationMode();
+	
+	// Используем переданный animationMode или определяем на основе мета-линий
+	const finalAnimationMode = animationMode || currentAnimationMode;
+
 	// Устанавливаем режим анимации для использования компонентами
 	React.useEffect(() => {
-		if (animationMode) {
-			window.KARAOKE_ANIMATION_MODE = animationMode;
+		if (finalAnimationMode) {
+			window.KARAOKE_ANIMATION_MODE = finalAnimationMode;
 		}
-	}, [animationMode]);
+	}, [finalAnimationMode]);
  
 	
-	const isChorus = segment.metaLines.includes("[Chorus]");
+	// todo: create better function for this
+	const isChorus = segment.metaLines.includes("[Chorus 1]") || segment.metaLines.includes("[Chorus 2]");
 
 	return (
 		<AbsoluteFill
@@ -105,11 +113,11 @@ export const SegmentComp: React.FC<{
 
 	return (
 		<div ref={segmentAnimationRef}>
-					<InnerComponent 
-			segment={segment} 
-			useAutoLines={useAutoLines} 
-			animationMode={animationMode}
-		/>
+			<InnerComponent 
+				segment={segment} 
+				useAutoLines={useAutoLines} 
+				animationMode={animationMode}
+			/>
 		</div>
 	);
 };

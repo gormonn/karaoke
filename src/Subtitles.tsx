@@ -6,7 +6,7 @@ import {useSubtitlesContext} from './context/subtitles';
 
 export const Subtitles: React.FC<{ 
 	useAutoLines?: boolean; // 🆕 Новый параметр для режима автоматической разбивки
-	animationMode?: ANIMATION_MODE; // 🆕 Параметр для выбора режима анимации
+	animationMode?: ANIMATION_MODE; // 🆕 Параметр для выбора режима анимации (опциональный)
 }> = ({useAutoLines = false, animationMode}) => {
 	const finalSubs = useSubtitlesContext();
 	 

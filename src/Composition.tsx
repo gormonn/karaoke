@@ -38,10 +38,8 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 	// 🆕 Флаг для тестирования нового режима автоматической разбивки на линии
 	const USE_AUTO_LINES = true; // Переключите на false для старого режима
 	
-	
-	// todo: move to props
-	// 🆕 Новый флаг для выбора режима анимации
-	const _ANIMATION_MODE: ANIMATION_MODE  = ANIMATION_MODE.ZOOM_IN_OUT  ; // Используем новый режим анимации из Word.tsx
+	// 🆕 Убираем хардкод анимации - теперь система автоматически определяет режим на основе мета-линий
+	// const _ANIMATION_MODE: ANIMATION_MODE = SONG_TARGET.settings.ANIMATIONS.default;
 
 	// Вычисляем интенсивность drums для анимации градиентов
 	let drumsAnimationIntensity = 0;
@@ -152,7 +150,8 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 				{/* <Bottom /> */}
 				<Subtitles 
 					useAutoLines={USE_AUTO_LINES} 
-					animationMode={_ANIMATION_MODE}
+					// 🆕 Убираем хардкод - теперь система автоматически определяет режим
+					// animationMode={_ANIMATION_MODE}
 				/>
 				<AudioComp />
 			</AbsoluteFill>

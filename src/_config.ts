@@ -1,4 +1,5 @@
 import {staticFile} from 'remotion'; 
+import {SONG_SETTINGS} from './settings/Never_Said';
 
 export const SONG_NAME = `Never_Said`;
 
@@ -29,10 +30,12 @@ export const SONG_TARGET = {
 	vocals: staticFile('stems/Never_Said/It’s not clocking to you Said No One Ever (Vocals).wav')
 	} as Record<string, string>,
 	background: staticFile('assets/background.jpg'),
+	settings: SONG_SETTINGS,
 };
 
 const COLORS = {
 	BACKGROUND: 'hsl(0, 0%, 10%)',
+	// CHAR: 'hsl(350, 46%, 47%)',
 	CHAR: 'yellow',
 	CHAR_ACCENT: '#CCCCCC',
 };

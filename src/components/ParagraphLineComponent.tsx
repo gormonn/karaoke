@@ -14,8 +14,11 @@ import {
 	createDefaultAnimation,
 	interpolateCharTimings,
 	createZoomInAnimation,
+	createZoomInOutAnimation,
+	createZoomInBlurAnimation,
 } from './animations';
 import { useCharViz } from '../hooks/use-char-viz';
+import { useAnimationMode } from '../hooks/use-animation-mode';
 
 // Расширяем типы для глобального объекта window
 declare global {
@@ -223,7 +226,7 @@ export const ParagraphLineComponent: React.FC<{
 	const segmentId = `segment-${segment.id}`; // Используем существующий ID сегмента
  
 	useCharViz(splitRef);
-	useCharViz(splitRef2);
+	// useCharViz(splitRef2);
 	
 	// ✅ Получаем данные для мерцания в такт drums и bass
 	const frame = useCurrentFrame();
@@ -267,7 +270,7 @@ export const ParagraphLineComponent: React.FC<{
 		if (!splitRef.current?.chars) return;
 		
 		const chars = splitRef.current.chars;
-		const isChorus = segment.metaLines.includes("[Chorus]");
+		const isChorus = segment.metaLines.includes("[Chorus 1]") || segment.metaLines.includes("[Chorus 2]");
 		
 		// Вычисляем drums intensity для всех символов
 		let drumsIntensity = 0;
@@ -400,7 +403,7 @@ export const ParagraphLineComponent: React.FC<{
 
 			if (!charElement) return;
 
-			// Используем соответствующую анимацию в зависимости от режима
+			// Используем текущий режим анимации
 			const currentMode = window.KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
 
 			// const futureTiming = timingsArray?.[timingIndex + 50];
@@ -417,12 +420,15 @@ export const ParagraphLineComponent: React.FC<{
 				case 'zoom':
 					createZoomAnimation(timeline, charElement, timing, timingsArray, timingIndex);
 					break;
-				case 'zoom-in':{
+				case 'zoom-in':
 					createZoomInAnimation(timeline, charElement, timing);
-				}break;
-				case 'zoom-in-out':{
-					createZoomInAnimation(timeline, charElement, timing, true);
-				}break;
+				break;
+				case 'zoom-in-blur':
+					createZoomInBlurAnimation(timeline, charElement, timing);
+				break;
+				case 'zoom-in-out':
+					createZoomInOutAnimation(timeline, charElement, timing);
+				break;
 				case 'default':
 					createDefaultAnimation(timeline, charElement, timing);
 					break;
@@ -433,11 +439,13 @@ export const ParagraphLineComponent: React.FC<{
 	}, [charTimings, segmentId, wordCharMap, splitRef.current?.chars, splitRef2.current?.chars]);
 
 
+	// 🆕 Получаем текущий режим анимации
+	const currentMode = useAnimationMode();
+	
 	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {
 		if (containerRef.current && containerRef2.current &&
 			!splitRef.current && !splitRef2.current && segment.paragraph) {
-			const currentMode = window.KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
 
 			// ✅ Согласно документации: элемент должен быть отображен так, как нужно в конце анимации
 			containerRef.current.innerHTML = segment.paragraph.replace(

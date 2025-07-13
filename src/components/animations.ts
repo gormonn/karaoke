@@ -12,7 +12,8 @@ export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) =
 			gsap.set(chars, {
 				opacity: 0,
 				scale: 0.5,
-				color: KARAOKE_CONFIG.COLORS.CHAR, 
+				color: 'hsl(350, 46%, 47%)'
+				// color: KARAOKE_CONFIG.COLORS.CHAR, 
 			}); 
 		}
 		break;

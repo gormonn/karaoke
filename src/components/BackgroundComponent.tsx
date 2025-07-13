@@ -45,7 +45,7 @@ export const BackgroundComponent: React.FC = () => {
 
 	return (
 		<div ref={backgroundRef} style={{width: '100%', height: '100%'}}>
-			<Img src={SONG_TARGET.background} style={{width: '100%', height: '100%'}} />
+			<Img src={SONG_TARGET.background} className='imaga' style={{width: '100%', height: '100%'}} />
 		</div>
 	);
 }; 

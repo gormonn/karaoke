@@ -129,7 +129,7 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 							color="white"
 							offset={0}
 							size="80% 40%"
-							isMain	
+							isMain	 
 						/>
 						<LightGradient 
 							position="bottom" 
@@ -138,20 +138,15 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 							color="white"
 							offset={0}
 							size="80% 40%"
-							isMain
+							isMain 
 						/>
-						
-						{/* Желтые прожекторы для припева управляются через CSS псевдоэлементы в ParagraphLineComponent */}
-						{/* Желтые прожекторы для не-припевных символов */}
-					 
 					</>
 				)}
 				
 				{/* <Bottom /> */}
 				<Subtitles 
 					useAutoLines={USE_AUTO_LINES} 
-					// 🆕 Убираем хардкод - теперь система автоматически определяет режим
-					// animationMode={_ANIMATION_MODE}
+					verticalAlign="center" // 🆕 Добавляем вертикальное выравнивание
 				/>
 				<AudioComp />
 			</AbsoluteFill>

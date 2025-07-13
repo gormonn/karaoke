@@ -29,7 +29,22 @@
         "\"We should talk about our future\""
       ],
       "paragraph": "\"This relationship means everything to me\"\n\"I've never felt this way before\"\n\"We should talk about our future\"",
-      "words": [],
+      "words": [
+        {
+          "id": 3,
+          "word": "means",
+          "start": 30.71809,
+          "end": 31,
+          "probability": 1
+        },
+        {
+          "id": 4,
+          "word": "everything",
+          "start": 31.09,
+          "end": 32.15426,
+          "probability": 1
+        }
+      ],
       "lines": []
     },
     {
@@ -49,7 +64,15 @@
         "Never said those words you're thinking of"
       ],
       "paragraph": "Said no one ever\nSaid no one ever\nWho was checking out\nSaid no one ever\nSaid no one ever\nWhen love turned to doubt\nIt's not clocking to you\nThat I'm already gone\nSaid no one ever\nNever said those words you're thinking of",
-      "words": [],
+      "words": [
+        {
+          "id": 34,
+          "word": "already",
+          "start": 59.03,
+          "end": 60.39894,
+          "probability": 1
+        }
+      ],
       "lines": []
     },
     {
@@ -80,7 +103,22 @@
         "\"Maybe we can work this out\""
       ],
       "paragraph": "\"I just need space to find myself\"\n\"This is harder on me too\"\n\"Maybe we can work this out\"",
-      "words": [],
+      "words": [
+        {
+          "id": 0,
+          "word": "\"I",
+          "start": 97.11,
+          "end": 95.90426,
+          "probability": 1
+        },
+        {
+          "id": 6,
+          "word": "myself\"",
+          "start": 99.20,
+          "end": 100.85106,
+          "probability": 1
+        }
+      ],
       "lines": []
     },
     {
@@ -100,7 +138,29 @@
         "Never meant the words before you fall"
       ],
       "paragraph": "Said no one ever\nSaid no one ever\nWho was halfway out the door\nSaid no one ever\nSaid no one ever\nWhen they'd already found something more\nIt's not clocking to you\nThat I see through it all\nSaid no one ever\nNever meant the words before you fall",
-      "words": [],
+      "words": [
+        {
+          "id": 31,
+          "word": "clock",
+          "start": 125.03,
+          "end": 125.66489,
+          "probability": 1
+        },
+        {
+          "id": 32,
+          "word": "ing",
+          "start": 126.06383,
+          "end": 126.30319,
+          "probability": 1
+        },
+        {
+          "id": 36,
+          "word": "see",
+          "start": 130.02,
+          "end": 130.45213,
+          "probability": 1
+        }
+      ],
       "lines": []
     },
     {
@@ -114,7 +174,15 @@
         "I know you're already writing me a goodbye note"
       ],
       "paragraph": "Maybe I'm the fool who can't read signs\nMaybe I'm the one who's going blind\nBut when you say \"forever\" with that tone\nI know you're already writing me a goodbye note",
-      "words": [],
+      "words": [
+        {
+          "id": 31,
+          "word": "goodbye",
+          "start": 153.02,
+          "end": 153.51064,
+          "probability": 1
+        }
+      ],
       "lines": []
     },
     {
@@ -134,7 +202,22 @@
         "Who left broken-hearted"
       ],
       "paragraph": "\"I want to stay and fight for this\"\nSaid no one ever walking away\n\"This is just a phase we're going through\"\nSaid no one ever\nWho's already moved on to someone new\nIt's not clocking to you\nThat we're done before we started\nSaid no one ever\nSaid no one ever\nWho left broken-hearted",
-      "words": [],
+      "words": [
+        {
+          "id": 31,
+          "word": "someone",
+          "start": 169.14,
+          "end": 170.05,
+          "probability": 1
+        },
+        {
+          "id": 32,
+          "word": "new",
+          "start": 170.05,
+          "end": 170.15,
+          "probability": 1
+        }
+      ],
       "lines": []
     }
   ],

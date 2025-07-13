@@ -19,11 +19,11 @@ export const SONG_SETTINGS = {
     // todo: выгружать сюда мета-линии из converter.mjs
     metaLines: {
       // "[Verse 1]": ANIMATION_MODE.ZOOM_IN_BLUR,
-      "[Pre-Chorus 1]": ANIMATION_MODE.ZOOM_IN_BLUR,
+      // "[Pre-Chorus 1]": ANIMATION_MODE.ZOOM_IN_BLUR,
        // в данном случае, достаточно указать только для chorus.
        // т.к. остальные анимации default
-      "[Chorus 1]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
-      "[Chorus 2]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
+      // "[Chorus 1]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
+      // "[Chorus 2]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
       // "[Verse 2]": ANIMATION_MODE.ZOOM_IN,
       // "[Bridge]": ANIMATION_MODE.LETTERIZE2,
       // "[Final Chorus]": ANIMATION_MODE.LETTERIZE2,
@@ -32,15 +32,30 @@ export const SONG_SETTINGS = {
   IGNORE_CHAR_VIZ: ["[Chorus 1]", "[Chorus 2]"]
 }
 
-// todo: (high) исправить проблему не подсвечивания слов в такт бита
-// todo: (high) определять здесь edits (а не на уровне json, как предполагалось ранее)
-// todo: (high) выровнять текст по центру y
-// todo: (low) разделить на 2 анимации / вход и выход - а то уже сложно комбинировать
+// todo: (done)(high) исправить проблему не подсвечивания слов в такт бита
+//       проблема заключается в конфликте между animation.ts и use-char-viz.ts, а именно из-за filters
+//       если например, не применять blur к буквам, которые еще не закончили появление - то это вероятно решит проблему, но не ясно как это будет выглядеть...
+//       или например, не применять анимации in/out когда есть какие басы визуализировать...
+
+// впизду! todo: (high) определять здесь edits (а не на уровне json, как предполагалось ранее)
+// todo: (high) поправить вручную alignments - создать свой первый эдит
+// done todo: (high) выровнять текст по центру экрана - попробовать https://www.remotion.dev/docs/layout-utils/
+// todo: (low) попробовать https://www.remotion.dev/docs/layout-utils/
 // todo: (mid) добавить волну в припев для визуализации музыки
+// todo: (mid) откорректировать цвет (баланс черного) и добавить картинку с проверкой темных оттенков на экране 
+// todo: (mid) реализовать эффекты для концепции 2 (свет в конце туннеля)
+// todo: (mid) реализовать эффекты для концепции 3 (свет с титрами)
 // todo: (mid) нарастить durationInFrames чтобы была возможность сделать финальный эффект
-// todo: (mid) создавать файл после завершения converter.mjs
+// todo: (mid) заюзать https://www.remotion.dev/docs/captions/
+
+// провести оценку
+
+// todo: (mid-high) обязательно вынести параметры анимации сюда. унифицировать создание новых анимаций - все это сложно поддерживать и не удобно пиздец
+// todo: (low) разделить на 2 анимации / вход и выход - а то уже сложно комбинировать
+// todo: (low) создавать файл после завершения converter.mjs
 // todo: (low) перенести stems сюда
 // todo: (low) переделать metaLines в json на строку, вместо массива
+// todo: (low) прикрутить wishper https://www.remotion.dev/docs/install-whisper-cpp/ | https://www.remotion.dev/docs/openai-whisper/
 
 
 // 

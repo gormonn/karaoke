@@ -5,11 +5,13 @@ interface LightGradientProps {
 	position?: 'top' | 'bottom';
 	intensity?: number;
 	animationIntensity?: number;
-	color?: 'white' | 'yellow';
+	color?: 'white' | 'yellow' | string; // 🆕 Поддержка кастомных HSL цветов
 	offset?: number;
 	size?: string;
 	perspective?: boolean;
 	isMain?: boolean;
+	isInvert?: boolean;
+	isBlur?: boolean;
 	xPosition?: number;
 	yPosition?: number;
 }
@@ -24,7 +26,9 @@ export const LightGradient: React.FC<LightGradientProps> = ({
 	perspective = false,
 	isMain = false,
 	xPosition = 50,
-	yPosition
+	yPosition,
+	isInvert = false,
+	isBlur = false,
 }) => {
 	const isTop = position === 'top';
 	// Если yPosition передан, позиционируем относительно него, иначе используем offset
@@ -36,7 +40,19 @@ export const LightGradient: React.FC<LightGradientProps> = ({
 	const secondaryIntensity = dynamicIntensity * 0.95;
 	const tertiaryIntensity = dynamicIntensity * 0.4;
 	
-	const colorRGB = color === 'yellow' ? '255, 255, 0' : '255, 255, 255';
+	// 🆕 Определяем HSL цвет
+	const getColorHSL = () => {
+		if (color === 'yellow') return '60, 100%, 50%';
+		if (color === 'white') return '0, 0%, 100%';
+		// Если передан кастомный HSL цвет (например, "210, 100%, 50%")
+		if (typeof color === 'string' && color.includes(',')) {
+			return color;
+		}
+		// По умолчанию белый
+		return '0, 0%, 100%';
+	};
+	
+	const colorHSL = getColorHSL();
 	
 	const perspectiveStyles = perspective ? {
 		transform: isTop ? 'perspective(500px) rotateX(60deg)' : 'perspective(500px) rotateX(-60deg)',
@@ -47,10 +63,11 @@ export const LightGradient: React.FC<LightGradientProps> = ({
 		<AbsoluteFill
 			className={"light-gradient "+size}
 			style={{
+				filter: isInvert ? 'invert(1)' : 'none',
 				background: `radial-gradient(ellipse ${size} at ${xPosition}% ${verticalPosition}, 
-					rgba(${colorRGB}, ${Math.min(dynamicIntensity, 1)}) 0%, 
-					rgba(${colorRGB}, ${Math.min(secondaryIntensity, 1)}) 30%, 
-					rgba(${colorRGB}, ${Math.min(tertiaryIntensity, 1)}) 50%, 
+					hsla(${colorHSL}, ${Math.min(dynamicIntensity, 1)}) 0%, 
+					hsla(${colorHSL}, ${Math.min(secondaryIntensity, 1)}) 30%, 
+					hsla(${colorHSL}, ${Math.min(tertiaryIntensity, 1)}) 50%, 
 					transparent 70%)`,
 				pointerEvents: 'none',
 				mixBlendMode: isMain ? 'overlay' : 'soft-light',

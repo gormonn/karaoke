@@ -11,7 +11,8 @@ const InnerComponent: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Новый параметр для выбора режима
 	animationMode?: ANIMATION_MODE; // 🆕 Параметр для выбора режима анимации
-}> = ({segment, useAutoLines = false, animationMode}) => {
+	verticalAlign?: 'top' | 'center' | 'bottom'; // 🆕 Новый параметр для вертикального выравнивания
+}> = ({segment, useAutoLines = false, animationMode, verticalAlign = 'center'}) => {
 	// Проверяем, есть ли структура строк в сегменте
 	const hasLines = segment.lines && segment.lines.length > 0;
 	const hasParagraph = segment.paragraph && segment.paragraph.trim() !== '';
@@ -33,11 +34,42 @@ const InnerComponent: React.FC<{
 	// todo: create better function for this
 	const isChorus = segment.metaLines.includes("[Chorus 1]") || segment.metaLines.includes("[Chorus 2]");
 
+	// 🆕 Вычисляем стили выравнивания в зависимости от verticalAlign
+	const getAlignmentStyles = () => {
+		switch (verticalAlign) {
+			case 'top':
+				return {
+					display: 'flex' as const,
+					flexDirection: 'column' as const,
+					justifyContent: 'flex-start' as const,
+					alignItems: 'center' as const,
+				};
+			case 'bottom':
+				return {
+					display: 'flex' as const,
+					flexDirection: 'column' as const,
+					justifyContent: 'flex-end' as const,
+					alignItems: 'center' as const,
+				};
+			case 'center':
+			default:
+				return {
+					display: 'flex' as const,
+					flexDirection: 'column' as const,
+					justifyContent: 'center' as const,
+					alignItems: 'center' as const,
+				};
+		}
+	};
+
+	const alignmentStyles = getAlignmentStyles();
+
 	return (
 		<AbsoluteFill
 			style={{ 
 				lineHeight: 1,
 				padding: isChorus ? '25%' : '100px',
+				...alignmentStyles, // 🆕 Применяем стили выравнивания
 			}}
 		>
 			<ParagraphLineComponent segment={segment} />
@@ -49,7 +81,8 @@ export const SegmentComp: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Параметр для включения автоматической разбивки на линии
 	animationMode?: ANIMATION_MODE; // 🆕 Параметр для выбора режима анимации
-}> = ({segment, useAutoLines = false, animationMode}) => {
+	verticalAlign?: 'top' | 'center' | 'bottom'; // 🆕 Параметр для вертикального выравнивания
+}> = ({segment, useAutoLines = false, animationMode, verticalAlign = 'center'}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 
@@ -74,21 +107,21 @@ export const SegmentComp: React.FC<{
 
 		// Устанавливаем начальное состояние - полностью прозрачный
 		// Используем :scope для анимации самого ref элемента
-		timeline.set(':scope', { opacity: 0 }, 0);
+		// timeline.set(':scope', { opacity: 0 }, 0);
 		
-		// Fade-in анимация
-		timeline.to(':scope', {
-			opacity: 1,
-			duration: fadeInDuration,
-			ease: KARAOKE_CONFIG.segmentTransition.easing,
-		}, fadeInStart);
+		// // Fade-in анимация
+		// timeline.to(':scope', {
+		// 	opacity: 1,
+		// 	duration: fadeInDuration,
+		// 	ease: KARAOKE_CONFIG.segmentTransition.easing,
+		// }, fadeInStart);
 		
-		// Fade-out анимация
-		timeline.to(':scope', {
-			opacity: 0,
-			duration: fadeOutDuration,
-			ease: KARAOKE_CONFIG.segmentTransition.easing,
-		}, fadeOutStart);
+		// // Fade-out анимация
+		// timeline.to(':scope', {
+		// 	opacity: 0,
+		// 	duration: fadeOutDuration,
+		// 	ease: KARAOKE_CONFIG.segmentTransition.easing,
+		// }, fadeOutStart);
 
 		return timeline;
 	}, [start, end]);
@@ -117,6 +150,7 @@ export const SegmentComp: React.FC<{
 				segment={segment} 
 				useAutoLines={useAutoLines} 
 				animationMode={animationMode}
+				verticalAlign={verticalAlign}
 			/>
 		</div>
 	);

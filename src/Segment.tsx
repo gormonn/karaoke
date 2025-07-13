@@ -2,6 +2,7 @@ import React, {useMemo, useEffect, useRef} from 'react';
 import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
 import {lineHeight, padding} from './Dots';
 import {Segment, Word} from './types';
+import {KARAOKE_CONFIG} from './_config';
 
 // Импортируем настроенный GSAP из библиотеки
 import {gsap, SplitText} from './lib/gsap';
@@ -207,7 +208,7 @@ const LineComponent: React.FC<{
 			ref={lineRef}
 			className="line-container"
 			style={{
-				fontSize: '2rem',
+				fontSize: KARAOKE_CONFIG.fontSize,
 				lineHeight: lineHeight,
 				whiteSpace: 'pre-wrap',
 				fontWeight: 'bold',
@@ -391,7 +392,7 @@ const ParagraphLineComponent: React.FC<{
 			ref={containerRef}
 			className="paragraph-container"
 			style={{
-				fontSize: '2rem',
+				fontSize: KARAOKE_CONFIG.fontSize,
 				lineHeight: lineHeight,
 				fontWeight: 'bold',
 				position: 'relative',
@@ -406,17 +407,75 @@ const ParagraphLineComponent: React.FC<{
 const InnerComponent: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Новый параметр для выбора режима
-}> = ({segment, useAutoLines = false}) => {
+	verticalAlign?: 'top' | 'center' | 'bottom'; // 🆕 Новый параметр для вертикального выравнивания
+}> = ({segment, useAutoLines = false, verticalAlign = 'center'}) => {
+	const {height} = useVideoConfig(); // Получаем высоту экрана для выравнивания
+	
 	// Проверяем, есть ли структура строк в сегменте
 	const hasLines = segment.lines && segment.lines.length > 0;
 	const hasParagraph = segment.paragraph && segment.paragraph.trim() !== '';
+
+	// 🆕 Вычисляем количество строк для вертикального выравнивания
+	const getLineCount = () => {
+		if (useAutoLines && hasParagraph) {
+			// Для автоматической разбивки считаем более точное количество строк
+			const {width} = useVideoConfig();
+			// Извлекаем числовое значение из fontSize (например, "6rem" -> 6)
+			const fontSizeRem = parseFloat(KARAOKE_CONFIG.fontSize);
+			const fontSizePx = fontSizeRem * 16; // Конвертируем rem в px
+			const avgCharWidth = fontSizePx * 0.6; // Примерная ширина символа
+			const availableWidth = width - padding * 2;
+			const charsPerLine = Math.floor(availableWidth / avgCharWidth);
+			
+			// Считаем общее количество символов в paragraph
+			const totalChars = segment.paragraph?.replace(/\s/g, '').length || 0;
+			return Math.ceil(totalChars / charsPerLine);
+		} else if (hasLines) {
+			return segment.lines?.length || 0;
+		} else {
+			return 1; // Одна строка
+		}
+	};
+
+	const lineCount = getLineCount();
+	
+	// 🆕 Вычисляем стили выравнивания в зависимости от verticalAlign
+	const getAlignmentStyles = () => {
+		switch (verticalAlign) {
+			case 'top':
+				return {
+					display: 'flex' as const,
+					flexDirection: 'column' as const,
+					justifyContent: 'flex-start' as const,
+					alignItems: 'center' as const,
+				};
+			case 'bottom':
+				return {
+					display: 'flex' as const,
+					flexDirection: 'column' as const,
+					justifyContent: 'flex-end' as const,
+					alignItems: 'center' as const,
+				};
+			case 'center':
+			default:
+				return {
+					display: 'flex' as const,
+					flexDirection: 'column' as const,
+					justifyContent: 'center' as const,
+					alignItems: 'center' as const,
+				};
+		}
+	};
+
+	const alignmentStyles = getAlignmentStyles();
 
 	return (
 		<AbsoluteFill
 			style={{
 				fontWeight: 'bold',
 				lineHeight,
-				padding,
+				padding: `${padding}px`, // 🆕 Упрощенный padding
+				...alignmentStyles, // 🆕 Применяем стили выравнивания
 			}}
 		>
 			{useAutoLines && hasParagraph ? (
@@ -440,7 +499,8 @@ const InnerComponent: React.FC<{
 export const SegmentComp: React.FC<{
 	segment: Segment;
 	useAutoLines?: boolean; // 🆕 Параметр для включения автоматической разбивки на линии
-}> = ({segment, useAutoLines = false}) => {
+	verticalAlign?: 'top' | 'center' | 'bottom'; // 🆕 Параметр для вертикального выравнивания
+}> = ({segment, useAutoLines = false, verticalAlign = 'center'}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 
@@ -451,5 +511,5 @@ export const SegmentComp: React.FC<{
 		return null;
 	}
 
-	return <InnerComponent segment={segment} useAutoLines={useAutoLines} />;
+	return <InnerComponent segment={segment} useAutoLines={useAutoLines} verticalAlign={verticalAlign} />;
 };

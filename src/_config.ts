@@ -34,7 +34,7 @@ export const SONG_TARGET = {
 };
 
 const COLORS = {
-	BACKGROUND: 'hsl(0, 0%, 10%)',
+	BACKGROUND: 'hsl(0, 0.00%, 2%)',
 	// CHAR: 'hsl(350, 46%, 47%)',
 	CHAR: 'yellow',
 	CHAR_ACCENT: '#CCCCCC',

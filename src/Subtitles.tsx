@@ -7,7 +7,8 @@ import {useSubtitlesContext} from './context/subtitles';
 export const Subtitles: React.FC<{ 
 	useAutoLines?: boolean; // 🆕 Новый параметр для режима автоматической разбивки
 	animationMode?: ANIMATION_MODE; // 🆕 Параметр для выбора режима анимации (опциональный)
-}> = ({useAutoLines = false, animationMode}) => {
+	verticalAlign?: 'top' | 'center' | 'bottom'; // 🆕 Параметр для вертикального выравнивания
+}> = ({useAutoLines = false, animationMode, verticalAlign = 'center'}) => {
 	const finalSubs = useSubtitlesContext();
 	 
 	if (finalSubs === null) {
@@ -23,6 +24,7 @@ export const Subtitles: React.FC<{
 						segment={segment}
 						useAutoLines={useAutoLines}
 						animationMode={animationMode}
+						verticalAlign={verticalAlign}
 					/>
 				);
 			})}

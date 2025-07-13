@@ -22,14 +22,14 @@ export const SONG_SETTINGS = {
       // "[Pre-Chorus 1]": ANIMATION_MODE.ZOOM_IN_BLUR,
        // в данном случае, достаточно указать только для chorus.
        // т.к. остальные анимации default
-      // "[Chorus 1]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
-      // "[Chorus 2]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
+      "[Chorus 1]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
+      "[Chorus 2]": ANIMATION_MODE.ZOOM_IN_OUT, // rename to disco
       // "[Verse 2]": ANIMATION_MODE.ZOOM_IN,
       // "[Bridge]": ANIMATION_MODE.LETTERIZE2,
       // "[Final Chorus]": ANIMATION_MODE.LETTERIZE2,
     }
   },
-  IGNORE_CHAR_VIZ: ["[Chorus 1]", "[Chorus 2]"]
+  IGNORE_CHAR_VIZ: ["[Chorus 1]", "[Chorus 2]", "[Bridge]"]
 }
 
 // todo: (done)(high) исправить проблему не подсвечивания слов в такт бита

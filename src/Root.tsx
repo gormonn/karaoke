@@ -11,6 +11,7 @@ import {useFileContent} from './hooks/use-file-content';
 const fps = 30;
 
 const RootComponentWithContext = () => {
+	// Безопасная загрузка конфигурационных файлов
 	const {data: splitLinesConfig} = useFileContent(SONG_TARGET.splitLines);
 	const {data: splitWordsConfig} = useFileContent(SONG_TARGET.splitWords);
 	const musicSrc = useUnknownMusicFormat();
@@ -21,20 +22,28 @@ const RootComponentWithContext = () => {
 			component={MyComposition}
 			fps={fps}
 			calculateMetadata={async () => {
-				const {slowDurationInSeconds} = await parseMedia({
-					src: musicSrc,
-					fields: {slowDurationInSeconds: true},
-				});
+				try {
+					const {slowDurationInSeconds} = await parseMedia({
+						src: musicSrc,
+						fields: {slowDurationInSeconds: true},
+					});
 
-				return {
-					durationInFrames: Math.round(slowDurationInSeconds * fps),
-				};
+					return {
+						durationInFrames: Math.round(slowDurationInSeconds * fps),
+					};
+				} catch (error) {
+					console.warn('Failed to parse media, using default duration:', error);
+					// Возвращаем дефолтную длительность в случае ошибки
+					return {
+						durationInFrames: 300 * fps, // 5 минут по умолчанию
+					};
+				}
 			}}
 			schema={configSchema}
 			// похоже что так по-уебищному работает сохранение конфигурации из интерфейса remotion
 			// (хардкодом затирается конфиг прямо в Root.tsx)
 			// todo: (low) создать PR на сохранение конфигурации в localStorage
-			// а пока, просто не использовать интерфейс remotion для сохранения конфигурации
+			// а пока, просто не используем интерфейс remotion для сохранения конфигурации
 			
 			// Оригинальный код (если опять затрется):
 			// defaultProps={{
@@ -44,8 +53,8 @@ const RootComponentWithContext = () => {
 			// }}
 			defaultProps={{
 				...defaultProps,
-				splitLinesConfig,
-				splitWordsConfig,
+				splitLinesConfig: splitLinesConfig || '',
+				splitWordsConfig: splitWordsConfig || '',
 			}}
 			width={1280}
 			height={720}
@@ -53,7 +62,14 @@ const RootComponentWithContext = () => {
 	);
 };
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+	defaultOptions: {
+		queries: {
+			retry: 1,
+			retryDelay: 1000,
+		},
+	},
+});
 
 export const RemotionRoot: React.FC = () => {
 	return (

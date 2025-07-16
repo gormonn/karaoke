@@ -1,0 +1,5852 @@
+[
+  {
+    "start_s": 0.00016,
+    "end_s": 0.00098,
+    "text": "Standing"
+  },
+  {
+    "start_s": 0.00098,
+    "end_s": 1.00122,
+    "text": "in"
+  },
+  {
+    "start_s": 1.00122,
+    "end_s": 1.00161,
+    "text": "the"
+  },
+  {
+    "start_s": 1.00161,
+    "end_s": 2.00245,
+    "text": "kitchen"
+  },
+  {
+    "start_s": 2.00245,
+    "end_s": 2.00269,
+    "text": "at"
+  },
+  {
+    "start_s": 2.00269,
+    "end_s": 3.00306,
+    "text": "2"
+  },
+  {
+    "start_s": 3.00306,
+    "end_s": 3.00334,
+    "text": "am"
+  },
+  {
+    "start_s": 3.00334,
+    "end_s": 3.00352,
+    "text": "Sc"
+  },
+  {
+    "start_s": 3.00352,
+    "end_s": 4.00418,
+    "text": "rolling"
+  },
+  {
+    "start_s": 4.00418,
+    "end_s": 4.00484,
+    "text": "through"
+  },
+  {
+    "start_s": 4.00484,
+    "end_s": 5.00521,
+    "text": "your"
+  },
+  {
+    "start_s": 5.00521,
+    "end_s": 5.00568,
+    "text": "phone"
+  },
+  {
+    "start_s": 5.00568,
+    "end_s": 6.00618,
+    "text": "again"
+  },
+  {
+    "start_s": 6.00618,
+    "end_s": 6.00686,
+    "text": "While"
+  },
+  {
+    "start_s": 6.00686,
+    "end_s": 6.00699,
+    "text": "I"
+  },
+  {
+    "start_s": 6.00699,
+    "end_s": 7.00726,
+    "text": "'m"
+  },
+  {
+    "start_s": 7.00726,
+    "end_s": 8.00821,
+    "text": "talking"
+  },
+  {
+    "start_s": 8.00821,
+    "end_s": 8.00889,
+    "text": "about"
+  },
+  {
+    "start_s": 8.00889,
+    "end_s": 9.0093,
+    "text": "our"
+  },
+  {
+    "start_s": 9.0093,
+    "end_s": 10.01002,
+    "text": "plans"
+  },
+  {
+    "start_s": 10.01002,
+    "end_s": 10.01042,
+    "text": "But"
+  },
+  {
+    "start_s": 10.01042,
+    "end_s": 10.01068,
+    "text": "my"
+  },
+  {
+    "start_s": 10.01068,
+    "end_s": 11.01134,
+    "text": "words"
+  },
+  {
+    "start_s": 11.01134,
+    "end_s": 11.01187,
+    "text": "just"
+  },
+  {
+    "start_s": 11.01187,
+    "end_s": 12.01227,
+    "text": "hit"
+  },
+  {
+    "start_s": 12.01227,
+    "end_s": 12.01267,
+    "text": "the"
+  },
+  {
+    "start_s": 12.01267,
+    "end_s": 13.0131,
+    "text": "air"
+  },
+  {
+    "start_s": 13.0131,
+    "end_s": 13.01339,
+    "text": "It"
+  },
+  {
+    "start_s": 13.01339,
+    "end_s": 13.01367,
+    "text": "'s"
+  },
+  {
+    "start_s": 13.01367,
+    "end_s": 14.0141,
+    "text": "not"
+  },
+  {
+    "start_s": 14.0141,
+    "end_s": 14.01482,
+    "text": "clock"
+  },
+  {
+    "start_s": 14.01482,
+    "end_s": 15.01525,
+    "text": "ing"
+  },
+  {
+    "start_s": 15.01525,
+    "end_s": 15.01554,
+    "text": "to"
+  },
+  {
+    "start_s": 15.01554,
+    "end_s": 15.01597,
+    "text": "you"
+  },
+  {
+    "start_s": 15.01597,
+    "end_s": 16.01625,
+    "text": ","
+  },
+  {
+    "start_s": 16.01625,
+    "end_s": 16.01654,
+    "text": "is"
+  },
+  {
+    "start_s": 16.01654,
+    "end_s": 16.01683,
+    "text": "it"
+  },
+  {
+    "start_s": 16.01683,
+    "end_s": 17.0173,
+    "text": "?"
+  },
+  {
+    "start_s": 17.0173,
+    "end_s": 17.01768,
+    "text": "How"
+  },
+  {
+    "start_s": 17.01768,
+    "end_s": 17.01781,
+    "text": "I"
+  },
+  {
+    "start_s": 17.01781,
+    "end_s": 18.01808,
+    "text": "'m"
+  },
+  {
+    "start_s": 18.01808,
+    "end_s": 19.01921,
+    "text": "breaking"
+  },
+  {
+    "start_s": 19.01921,
+    "end_s": 19.01973,
+    "text": "piece"
+  },
+  {
+    "start_s": 19.01973,
+    "end_s": 19.01998,
+    "text": "by"
+  },
+  {
+    "start_s": 19.01998,
+    "end_s": 20.02066,
+    "text": "piece"
+  },
+  {
+    "start_s": 20.02066,
+    "end_s": 21.02122,
+    "text": "While"
+  },
+  {
+    "start_s": 21.02122,
+    "end_s": 21.02155,
+    "text": "you"
+  },
+  {
+    "start_s": 21.02155,
+    "end_s": 21.02188,
+    "text": "nod"
+  },
+  {
+    "start_s": 21.02188,
+    "end_s": 22.02221,
+    "text": "and"
+  },
+  {
+    "start_s": 22.02221,
+    "end_s": 22.02254,
+    "text": "say"
+  },
+  {
+    "start_s": 22.02254,
+    "end_s": 22.02265,
+    "text": "I"
+  },
+  {
+    "start_s": 22.02265,
+    "end_s": 22.02287,
+    "text": "'m"
+  },
+  {
+    "start_s": 22.02287,
+    "end_s": 23.02392,
+    "text": "listening"
+  },
+  {
+    "start_s": 23.02392,
+    "end_s": 24.02433,
+    "text": "But"
+  },
+  {
+    "start_s": 24.02433,
+    "end_s": 24.0249,
+    "text": "your"
+  },
+  {
+    "start_s": 24.0249,
+    "end_s": 25.02546,
+    "text": "mind"
+  },
+  {
+    "start_s": 25.02546,
+    "end_s": 25.02574,
+    "text": "'s"
+  },
+  {
+    "start_s": 25.02574,
+    "end_s": 26.02672,
+    "text": "already"
+  },
+  {
+    "start_s": 26.02672,
+    "end_s": 27.02786,
+    "text": "released"
+  },
+  {
+    "start_s": 28.02892,
+    "end_s": 29.02962,
+    "text": "This"
+  },
+  {
+    "start_s": 29.02962,
+    "end_s": 30.03072,
+    "text": "relationship"
+  },
+  {
+    "start_s": 30.03072,
+    "end_s": 31.0312,
+    "text": "means"
+  },
+  {
+    "start_s": 31.0312,
+    "end_s": 32.03229,
+    "text": "everything"
+  },
+  {
+    "start_s": 32.03229,
+    "end_s": 32.03251,
+    "text": "to"
+  },
+  {
+    "start_s": 32.03251,
+    "end_s": 32.03276,
+    "text": "me"
+  },
+  {
+    "start_s": 32.03276,
+    "end_s": 32.03287,
+    "text": "I"
+  },
+  {
+    "start_s": 32.03287,
+    "end_s": 33.03322,
+    "text": "'ve"
+  },
+  {
+    "start_s": 33.03322,
+    "end_s": 33.03378,
+    "text": "never"
+  },
+  {
+    "start_s": 33.03378,
+    "end_s": 34.03424,
+    "text": "felt"
+  },
+  {
+    "start_s": 34.03424,
+    "end_s": 34.0347,
+    "text": "this"
+  },
+  {
+    "start_s": 34.0347,
+    "end_s": 35.03504,
+    "text": "way"
+  },
+  {
+    "start_s": 35.03504,
+    "end_s": 35.03576,
+    "text": "before"
+  },
+  {
+    "start_s": 35.03576,
+    "end_s": 36.0361,
+    "text": "We"
+  },
+  {
+    "start_s": 36.0361,
+    "end_s": 37.03711,
+    "text": "should"
+  },
+  {
+    "start_s": 37.03711,
+    "end_s": 37.03779,
+    "text": "talk"
+  },
+  {
+    "start_s": 37.03779,
+    "end_s": 38.03873,
+    "text": "about"
+  },
+  {
+    "start_s": 38.03873,
+    "end_s": 39.03914,
+    "text": "our"
+  },
+  {
+    "start_s": 39.03914,
+    "end_s": 40.04018,
+    "text": "future"
+  },
+  {
+    "start_s": 40.04018,
+    "end_s": 40.04069,
+    "text": "Said"
+  },
+  {
+    "start_s": 40.04069,
+    "end_s": 40.04094,
+    "text": "no"
+  },
+  {
+    "start_s": 40.04094,
+    "end_s": 41.04132,
+    "text": "one"
+  },
+  {
+    "start_s": 41.04132,
+    "end_s": 41.04186,
+    "text": "ever"
+  },
+  {
+    "start_s": 41.04186,
+    "end_s": 42.04209,
+    "text": ","
+  },
+  {
+    "start_s": 42.04209,
+    "end_s": 42.04255,
+    "text": "said"
+  },
+  {
+    "start_s": 42.04255,
+    "end_s": 42.04278,
+    "text": "no"
+  },
+  {
+    "start_s": 42.04278,
+    "end_s": 43.04312,
+    "text": "one"
+  },
+  {
+    "start_s": 43.04312,
+    "end_s": 43.0436,
+    "text": "ever"
+  },
+  {
+    "start_s": 43.0436,
+    "end_s": 44.04418,
+    "text": "Who"
+  },
+  {
+    "start_s": 44.04418,
+    "end_s": 44.04476,
+    "text": "was"
+  },
+  {
+    "start_s": 44.04476,
+    "end_s": 46.04633,
+    "text": "checking"
+  },
+  {
+    "start_s": 46.04633,
+    "end_s": 46.04694,
+    "text": "out"
+  },
+  {
+    "start_s": 46.04694,
+    "end_s": 47.04748,
+    "text": "Said"
+  },
+  {
+    "start_s": 47.04748,
+    "end_s": 47.04775,
+    "text": "no"
+  },
+  {
+    "start_s": 47.04775,
+    "end_s": 48.04815,
+    "text": "one"
+  },
+  {
+    "start_s": 48.04815,
+    "end_s": 48.04869,
+    "text": "ever"
+  },
+  {
+    "start_s": 48.04869,
+    "end_s": 48.04896,
+    "text": ","
+  },
+  {
+    "start_s": 48.04896,
+    "end_s": 49.0495,
+    "text": "said"
+  },
+  {
+    "start_s": 49.0495,
+    "end_s": 49.04977,
+    "text": "no"
+  },
+  {
+    "start_s": 49.04977,
+    "end_s": 50.05017,
+    "text": "one"
+  },
+  {
+    "start_s": 50.05017,
+    "end_s": 50.05074,
+    "text": "ever"
+  },
+  {
+    "start_s": 50.05074,
+    "end_s": 51.05136,
+    "text": "When"
+  },
+  {
+    "start_s": 51.05136,
+    "end_s": 51.05198,
+    "text": "love"
+  },
+  {
+    "start_s": 51.05198,
+    "end_s": 52.05291,
+    "text": "turned"
+  },
+  {
+    "start_s": 52.05291,
+    "end_s": 53.05322,
+    "text": "to"
+  },
+  {
+    "start_s": 53.05322,
+    "end_s": 54.05402,
+    "text": "doubt"
+  },
+  {
+    "start_s": 54.05402,
+    "end_s": 54.05436,
+    "text": "It"
+  },
+  {
+    "start_s": 54.05436,
+    "end_s": 54.0547,
+    "text": "'s"
+  },
+  {
+    "start_s": 54.0547,
+    "end_s": 55.05522,
+    "text": "not"
+  },
+  {
+    "start_s": 55.05522,
+    "end_s": 56.05608,
+    "text": "clock"
+  },
+  {
+    "start_s": 56.05608,
+    "end_s": 56.0566,
+    "text": "ing"
+  },
+  {
+    "start_s": 56.0566,
+    "end_s": 56.05694,
+    "text": "to"
+  },
+  {
+    "start_s": 56.05694,
+    "end_s": 57.0575,
+    "text": "you"
+  },
+  {
+    "start_s": 57.05784,
+    "end_s": 58.05858,
+    "text": "That"
+  },
+  {
+    "start_s": 58.05858,
+    "end_s": 58.05876,
+    "text": "I"
+  },
+  {
+    "start_s": 58.05876,
+    "end_s": 59.05913,
+    "text": "'m"
+  },
+  {
+    "start_s": 59.05913,
+    "end_s": 60.00042,
+    "text": "already"
+  },
+  {
+    "start_s": 60.00042,
+    "end_s": 61.00118,
+    "text": "gone"
+  },
+  {
+    "start_s": 61.00118,
+    "end_s": 61.00179,
+    "text": "Said"
+  },
+  {
+    "start_s": 61.00179,
+    "end_s": 62.00209,
+    "text": "no"
+  },
+  {
+    "start_s": 62.00209,
+    "end_s": 62.00255,
+    "text": "one"
+  },
+  {
+    "start_s": 62.00255,
+    "end_s": 63.00318,
+    "text": "ever"
+  },
+  {
+    "start_s": 63.00318,
+    "end_s": 63.00343,
+    "text": ","
+  },
+  {
+    "start_s": 63.00343,
+    "end_s": 64.00408,
+    "text": "never"
+  },
+  {
+    "start_s": 64.00408,
+    "end_s": 64.00448,
+    "text": "said"
+  },
+  {
+    "start_s": 64.00448,
+    "end_s": 64.00482,
+    "text": "those"
+  },
+  {
+    "start_s": 64.00482,
+    "end_s": 65.00516,
+    "text": "words"
+  },
+  {
+    "start_s": 65.00516,
+    "end_s": 65.0055,
+    "text": "you"
+  },
+  {
+    "start_s": 65.0055,
+    "end_s": 65.00584,
+    "text": "'re"
+  },
+  {
+    "start_s": 65.00584,
+    "end_s": 66.00675,
+    "text": "thinking"
+  },
+  {
+    "start_s": 66.00675,
+    "end_s": 67.007,
+    "text": "of"
+  },
+  {
+    "start_s": 67.007,
+    "end_s": 67.00755,
+    "text": "Coffee"
+  },
+  {
+    "start_s": 67.00755,
+    "end_s": 68.00801,
+    "text": "dates"
+  },
+  {
+    "start_s": 68.00801,
+    "end_s": 68.00847,
+    "text": "where"
+  },
+  {
+    "start_s": 68.00847,
+    "end_s": 68.00874,
+    "text": "you"
+  },
+  {
+    "start_s": 68.00874,
+    "end_s": 69.00901,
+    "text": "'re"
+  },
+  {
+    "start_s": 69.00901,
+    "end_s": 69.00998,
+    "text": "explaining"
+  },
+  {
+    "start_s": 69.00998,
+    "end_s": 70.0104,
+    "text": "Why"
+  },
+  {
+    "start_s": 70.0104,
+    "end_s": 70.01084,
+    "text": "you"
+  },
+  {
+    "start_s": 70.01084,
+    "end_s": 71.01141,
+    "text": "need"
+  },
+  {
+    "start_s": 71.01141,
+    "end_s": 71.01198,
+    "text": "more"
+  },
+  {
+    "start_s": 71.01198,
+    "end_s": 72.01255,
+    "text": "time"
+  },
+  {
+    "start_s": 72.01255,
+    "end_s": 72.01284,
+    "text": "to"
+  },
+  {
+    "start_s": 72.01284,
+    "end_s": 73.0136,
+    "text": "think"
+  },
+  {
+    "start_s": 73.0136,
+    "end_s": 74.0143,
+    "text": "While"
+  },
+  {
+    "start_s": 74.0143,
+    "end_s": 74.01445,
+    "text": "I"
+  },
+  {
+    "start_s": 74.01445,
+    "end_s": 74.01473,
+    "text": "'m"
+  },
+  {
+    "start_s": 74.01473,
+    "end_s": 75.01587,
+    "text": "drowning"
+  },
+  {
+    "start_s": 75.01587,
+    "end_s": 76.01615,
+    "text": "in"
+  },
+  {
+    "start_s": 76.01615,
+    "end_s": 76.01657,
+    "text": "the"
+  },
+  {
+    "start_s": 76.01657,
+    "end_s": 77.0176,
+    "text": "silence"
+  },
+  {
+    "start_s": 77.0176,
+    "end_s": 77.01785,
+    "text": "Of"
+  },
+  {
+    "start_s": 77.01785,
+    "end_s": 78.01823,
+    "text": "the"
+  },
+  {
+    "start_s": 78.01823,
+    "end_s": 78.01887,
+    "text": "truth"
+  },
+  {
+    "start_s": 78.01887,
+    "end_s": 79.01924,
+    "text": "you"
+  },
+  {
+    "start_s": 79.01924,
+    "end_s": 79.01963,
+    "text": "'ll"
+  },
+  {
+    "start_s": 79.01963,
+    "end_s": 80.02029,
+    "text": "never"
+  },
+  {
+    "start_s": 80.02029,
+    "end_s": 80.02094,
+    "text": "speak"
+  },
+  {
+    "start_s": 80.02094,
+    "end_s": 81.0213,
+    "text": "But"
+  },
+  {
+    "start_s": 81.0213,
+    "end_s": 81.02154,
+    "text": "it"
+  },
+  {
+    "start_s": 81.02154,
+    "end_s": 81.02178,
+    "text": "'s"
+  },
+  {
+    "start_s": 81.02178,
+    "end_s": 82.02214,
+    "text": "not"
+  },
+  {
+    "start_s": 82.02214,
+    "end_s": 82.02275,
+    "text": "clock"
+  },
+  {
+    "start_s": 82.02275,
+    "end_s": 83.02311,
+    "text": "ing"
+  },
+  {
+    "start_s": 83.02311,
+    "end_s": 83.02335,
+    "text": "to"
+  },
+  {
+    "start_s": 83.02335,
+    "end_s": 83.02371,
+    "text": "you"
+  },
+  {
+    "start_s": 83.02371,
+    "end_s": 84.02406,
+    "text": ","
+  },
+  {
+    "start_s": 84.02406,
+    "end_s": 84.0245,
+    "text": "baby"
+  },
+  {
+    "start_s": 84.0245,
+    "end_s": 84.02473,
+    "text": "How"
+  },
+  {
+    "start_s": 84.02473,
+    "end_s": 85.02515,
+    "text": "these"
+  },
+  {
+    "start_s": 85.02515,
+    "end_s": 85.0257,
+    "text": "excuses"
+  },
+  {
+    "start_s": 85.0257,
+    "end_s": 86.0261,
+    "text": "taste"
+  },
+  {
+    "start_s": 86.0261,
+    "end_s": 86.02641,
+    "text": "like"
+  },
+  {
+    "start_s": 86.02641,
+    "end_s": 86.02676,
+    "text": "lies"
+  },
+  {
+    "start_s": 86.02676,
+    "end_s": 87.02706,
+    "text": "When"
+  },
+  {
+    "start_s": 87.02706,
+    "end_s": 87.02729,
+    "text": "you"
+  },
+  {
+    "start_s": 87.02729,
+    "end_s": 87.02751,
+    "text": "say"
+  },
+  {
+    "start_s": 87.02751,
+    "end_s": 87.02759,
+    "text": "I"
+  },
+  {
+    "start_s": 87.02759,
+    "end_s": 87.02774,
+    "text": "'m"
+  },
+  {
+    "start_s": 87.02774,
+    "end_s": 88.02819,
+    "text": "really"
+  },
+  {
+    "start_s": 88.02819,
+    "end_s": 88.02868,
+    "text": "trying"
+  },
+  {
+    "start_s": 88.02868,
+    "end_s": 89.029,
+    "text": "With"
+  },
+  {
+    "start_s": 89.029,
+    "end_s": 89.02987,
+    "text": "distraction"
+  },
+  {
+    "start_s": 89.02987,
+    "end_s": 90.03003,
+    "text": "in"
+  },
+  {
+    "start_s": 90.03003,
+    "end_s": 90.03035,
+    "text": "your"
+  },
+  {
+    "start_s": 90.03035,
+    "end_s": 90.03068,
+    "text": "eyes"
+  },
+  {
+    "start_s": 90.03068,
+    "end_s": 90.03075,
+    "text": "I"
+  },
+  {
+    "start_s": 90.03075,
+    "end_s": 91.03105,
+    "text": "just"
+  },
+  {
+    "start_s": 91.03105,
+    "end_s": 91.03135,
+    "text": "need"
+  },
+  {
+    "start_s": 91.03135,
+    "end_s": 91.03172,
+    "text": "space"
+  },
+  {
+    "start_s": 91.03172,
+    "end_s": 91.03188,
+    "text": "to"
+  },
+  {
+    "start_s": 91.03188,
+    "end_s": 92.03218,
+    "text": "find"
+  },
+  {
+    "start_s": 92.03218,
+    "end_s": 92.03268,
+    "text": "myself"
+  },
+  {
+    "start_s": 92.03268,
+    "end_s": 92.03289,
+    "text": "This"
+  },
+  {
+    "start_s": 92.03289,
+    "end_s": 92.03299,
+    "text": "is"
+  },
+  {
+    "start_s": 92.03299,
+    "end_s": 93.0333,
+    "text": "harder"
+  },
+  {
+    "start_s": 93.0333,
+    "end_s": 93.0334,
+    "text": "on"
+  },
+  {
+    "start_s": 93.0334,
+    "end_s": 93.03352,
+    "text": "me"
+  },
+  {
+    "start_s": 93.03352,
+    "end_s": 93.03368,
+    "text": "too"
+  },
+  {
+    "start_s": 93.03368,
+    "end_s": 93.03391,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 93.03391,
+    "end_s": 94.034,
+    "text": "we"
+  },
+  {
+    "start_s": 94.034,
+    "end_s": 94.03414,
+    "text": "can"
+  },
+  {
+    "start_s": 94.03414,
+    "end_s": 94.03433,
+    "text": "work"
+  },
+  {
+    "start_s": 94.03433,
+    "end_s": 94.03452,
+    "text": "this"
+  },
+  {
+    "start_s": 94.03452,
+    "end_s": 94.03468,
+    "text": "out"
+  },
+  {
+    "start_s": 94.03468,
+    "end_s": 94.03489,
+    "text": "Said"
+  },
+  {
+    "start_s": 94.03489,
+    "end_s": 94.03493,
+    "text": "no"
+  },
+  {
+    "start_s": 94.03493,
+    "end_s": 94.03499,
+    "text": "one"
+  },
+  {
+    "start_s": 94.03499,
+    "end_s": 95.03513,
+    "text": "ever"
+  },
+  {
+    "start_s": 95.03513,
+    "end_s": 95.03519,
+    "text": ","
+  },
+  {
+    "start_s": 95.03519,
+    "end_s": 95.03534,
+    "text": "said"
+  },
+  {
+    "start_s": 95.03534,
+    "end_s": 95.03541,
+    "text": "no"
+  },
+  {
+    "start_s": 95.03541,
+    "end_s": 95.03551,
+    "text": "one"
+  },
+  {
+    "start_s": 95.03551,
+    "end_s": 95.03568,
+    "text": "ever"
+  },
+  {
+    "start_s": 95.03568,
+    "end_s": 95.03583,
+    "text": "Who"
+  },
+  {
+    "start_s": 95.03583,
+    "end_s": 95.03598,
+    "text": "was"
+  },
+  {
+    "start_s": 95.03598,
+    "end_s": 96.03618,
+    "text": "half"
+  },
+  {
+    "start_s": 96.03618,
+    "end_s": 96.03634,
+    "text": "way"
+  },
+  {
+    "start_s": 96.03634,
+    "end_s": 96.03668,
+    "text": "through"
+  },
+  {
+    "start_s": 96.03668,
+    "end_s": 96.03668,
+    "text": "the"
+  },
+  {
+    "start_s": 96.03668,
+    "end_s": 96.03668,
+    "text": "night"
+  },
+  {
+    "start_s": 96.03668,
+    "end_s": 96.03678,
+    "text": "Who"
+  },
+  {
+    "start_s": 96.03678,
+    "end_s": 96.03687,
+    "text": "was"
+  },
+  {
+    "start_s": 96.03687,
+    "end_s": 96.03694,
+    "text": "half"
+  },
+  {
+    "start_s": 96.03694,
+    "end_s": 97.03712,
+    "text": "way"
+  },
+  {
+    "start_s": 97.03712,
+    "end_s": 97.03737,
+    "text": "through"
+  },
+  {
+    "start_s": 97.03737,
+    "end_s": 97.03747,
+    "text": "the"
+  },
+  {
+    "start_s": 97.03747,
+    "end_s": 97.03768,
+    "text": "night"
+  },
+  {
+    "start_s": 97.03768,
+    "end_s": 97.03774,
+    "text": "I"
+  },
+  {
+    "start_s": 97.03774,
+    "end_s": 97.03786,
+    "text": "'m"
+  },
+  {
+    "start_s": 97.03786,
+    "end_s": 98.03804,
+    "text": "not"
+  },
+  {
+    "start_s": 98.03804,
+    "end_s": 98.03822,
+    "text": "the"
+  },
+  {
+    "start_s": 98.03822,
+    "end_s": 98.03848,
+    "text": "only"
+  },
+  {
+    "start_s": 98.03848,
+    "end_s": 98.03868,
+    "text": "one"
+  },
+  {
+    "start_s": 98.03868,
+    "end_s": 98.03868,
+    "text": "who"
+  },
+  {
+    "start_s": 98.03868,
+    "end_s": 98.03868,
+    "text": "'s"
+  },
+  {
+    "start_s": 98.03868,
+    "end_s": 98.03868,
+    "text": "feeling"
+  },
+  {
+    "start_s": 98.03868,
+    "end_s": 98.03868,
+    "text": "the"
+  },
+  {
+    "start_s": 98.03868,
+    "end_s": 98.03868,
+    "text": "same"
+  },
+  {
+    "start_s": 98.03868,
+    "end_s": 98.0387,
+    "text": "I"
+  },
+  {
+    "start_s": 98.0387,
+    "end_s": 98.03875,
+    "text": "'m"
+  },
+  {
+    "start_s": 98.03875,
+    "end_s": 98.03883,
+    "text": "not"
+  },
+  {
+    "start_s": 98.03883,
+    "end_s": 98.03891,
+    "text": "the"
+  },
+  {
+    "start_s": 98.03891,
+    "end_s": 99.03902,
+    "text": "only"
+  },
+  {
+    "start_s": 99.03902,
+    "end_s": 99.0391,
+    "text": "one"
+  },
+  {
+    "start_s": 99.0391,
+    "end_s": 99.03918,
+    "text": "who"
+  },
+  {
+    "start_s": 99.03918,
+    "end_s": 99.03923,
+    "text": "'s"
+  },
+  {
+    "start_s": 99.03923,
+    "end_s": 99.03942,
+    "text": "feeling"
+  },
+  {
+    "start_s": 99.03942,
+    "end_s": 99.0395,
+    "text": "the"
+  },
+  {
+    "start_s": 99.0395,
+    "end_s": 99.03968,
+    "text": "same"
+  },
+  {
+    "start_s": 99.03968,
+    "end_s": 99.0397,
+    "text": "I"
+  },
+  {
+    "start_s": 99.0397,
+    "end_s": 99.03975,
+    "text": "'m"
+  },
+  {
+    "start_s": 99.03975,
+    "end_s": 99.03983,
+    "text": "not"
+  },
+  {
+    "start_s": 99.03983,
+    "end_s": 99.03991,
+    "text": "the"
+  },
+  {
+    "start_s": 99.03991,
+    "end_s": 100.04002,
+    "text": "only"
+  },
+  {
+    "start_s": 100.04002,
+    "end_s": 100.0401,
+    "text": "one"
+  },
+  {
+    "start_s": 100.0401,
+    "end_s": 100.04018,
+    "text": "who"
+  },
+  {
+    "start_s": 100.04018,
+    "end_s": 100.04023,
+    "text": "'s"
+  },
+  {
+    "start_s": 100.04023,
+    "end_s": 100.04042,
+    "text": "feeling"
+  },
+  {
+    "start_s": 100.04042,
+    "end_s": 100.0405,
+    "text": "the"
+  },
+  {
+    "start_s": 100.0405,
+    "end_s": 100.04068,
+    "text": "same"
+  },
+  {
+    "start_s": 100.04068,
+    "end_s": 100.0407,
+    "text": "I"
+  },
+  {
+    "start_s": 100.0407,
+    "end_s": 100.04075,
+    "text": "'m"
+  },
+  {
+    "start_s": 100.04075,
+    "end_s": 100.04083,
+    "text": "not"
+  },
+  {
+    "start_s": 100.04083,
+    "end_s": 100.04091,
+    "text": "the"
+  },
+  {
+    "start_s": 100.04091,
+    "end_s": 101.04102,
+    "text": "only"
+  },
+  {
+    "start_s": 101.04102,
+    "end_s": 101.04118,
+    "text": "one"
+  },
+  {
+    "start_s": 101.04118,
+    "end_s": 101.04119,
+    "text": "who"
+  },
+  {
+    "start_s": 101.04119,
+    "end_s": 101.04123,
+    "text": "'s"
+  },
+  {
+    "start_s": 101.04123,
+    "end_s": 101.04142,
+    "text": "feeling"
+  },
+  {
+    "start_s": 101.04142,
+    "end_s": 101.0415,
+    "text": "the"
+  },
+  {
+    "start_s": 101.0415,
+    "end_s": 101.04168,
+    "text": "same"
+  },
+  {
+    "start_s": 101.04168,
+    "end_s": 101.0417,
+    "text": "I"
+  },
+  {
+    "start_s": 101.0417,
+    "end_s": 101.04175,
+    "text": "'m"
+  },
+  {
+    "start_s": 101.04175,
+    "end_s": 101.04183,
+    "text": "not"
+  },
+  {
+    "start_s": 101.04183,
+    "end_s": 101.04191,
+    "text": "the"
+  },
+  {
+    "start_s": 101.04191,
+    "end_s": 102.04202,
+    "text": "only"
+  },
+  {
+    "start_s": 102.04202,
+    "end_s": 102.0421,
+    "text": "one"
+  },
+  {
+    "start_s": 102.0421,
+    "end_s": 102.04218,
+    "text": "who"
+  },
+  {
+    "start_s": 102.04218,
+    "end_s": 102.04223,
+    "text": "'s"
+  },
+  {
+    "start_s": 102.04223,
+    "end_s": 102.04242,
+    "text": "feeling"
+  },
+  {
+    "start_s": 102.04242,
+    "end_s": 102.0425,
+    "text": "the"
+  },
+  {
+    "start_s": 102.0425,
+    "end_s": 102.04268,
+    "text": "same"
+  },
+  {
+    "start_s": 102.04268,
+    "end_s": 102.0427,
+    "text": "I"
+  },
+  {
+    "start_s": 102.0427,
+    "end_s": 102.04275,
+    "text": "'m"
+  },
+  {
+    "start_s": 102.04275,
+    "end_s": 102.04283,
+    "text": "not"
+  },
+  {
+    "start_s": 102.04283,
+    "end_s": 102.04291,
+    "text": "the"
+  },
+  {
+    "start_s": 102.04291,
+    "end_s": 103.04302,
+    "text": "only"
+  },
+  {
+    "start_s": 103.04302,
+    "end_s": 103.0431,
+    "text": "one"
+  },
+  {
+    "start_s": 103.0431,
+    "end_s": 103.04318,
+    "text": "who"
+  },
+  {
+    "start_s": 103.04318,
+    "end_s": 103.04323,
+    "text": "'s"
+  },
+  {
+    "start_s": 103.04323,
+    "end_s": 103.04342,
+    "text": "feeling"
+  },
+  {
+    "start_s": 103.04342,
+    "end_s": 103.0435,
+    "text": "the"
+  },
+  {
+    "start_s": 103.0435,
+    "end_s": 103.04368,
+    "text": "same"
+  },
+  {
+    "start_s": 103.04368,
+    "end_s": 103.0437,
+    "text": "I"
+  },
+  {
+    "start_s": 103.0437,
+    "end_s": 103.04375,
+    "text": "'m"
+  },
+  {
+    "start_s": 103.04375,
+    "end_s": 103.04385,
+    "text": "not"
+  },
+  {
+    "start_s": 103.04385,
+    "end_s": 103.04391,
+    "text": "the"
+  },
+  {
+    "start_s": 103.04391,
+    "end_s": 104.04402,
+    "text": "only"
+  },
+  {
+    "start_s": 104.04402,
+    "end_s": 104.0441,
+    "text": "one"
+  },
+  {
+    "start_s": 104.0441,
+    "end_s": 104.04418,
+    "text": "who"
+  },
+  {
+    "start_s": 104.04418,
+    "end_s": 104.04422,
+    "text": "'s"
+  },
+  {
+    "start_s": 104.04422,
+    "end_s": 104.04442,
+    "text": "feeling"
+  },
+  {
+    "start_s": 104.04442,
+    "end_s": 104.0445,
+    "text": "the"
+  },
+  {
+    "start_s": 104.0445,
+    "end_s": 104.04468,
+    "text": "same"
+  },
+  {
+    "start_s": 104.04468,
+    "end_s": 104.0447,
+    "text": "I"
+  },
+  {
+    "start_s": 104.0447,
+    "end_s": 104.04475,
+    "text": "'m"
+  },
+  {
+    "start_s": 104.04475,
+    "end_s": 104.04483,
+    "text": "not"
+  },
+  {
+    "start_s": 104.04483,
+    "end_s": 104.04491,
+    "text": "the"
+  },
+  {
+    "start_s": 104.04491,
+    "end_s": 105.04502,
+    "text": "only"
+  },
+  {
+    "start_s": 105.04502,
+    "end_s": 105.0451,
+    "text": "one"
+  },
+  {
+    "start_s": 105.0451,
+    "end_s": 105.04518,
+    "text": "who"
+  },
+  {
+    "start_s": 105.04518,
+    "end_s": 105.04523,
+    "text": "'s"
+  },
+  {
+    "start_s": 105.04523,
+    "end_s": 105.04542,
+    "text": "feeling"
+  },
+  {
+    "start_s": 105.04542,
+    "end_s": 105.0455,
+    "text": "the"
+  },
+  {
+    "start_s": 105.0455,
+    "end_s": 105.04568,
+    "text": "same"
+  },
+  {
+    "start_s": 105.04568,
+    "end_s": 105.0457,
+    "text": "I"
+  },
+  {
+    "start_s": 105.0457,
+    "end_s": 105.04575,
+    "text": "'m"
+  },
+  {
+    "start_s": 105.04575,
+    "end_s": 105.04583,
+    "text": "not"
+  },
+  {
+    "start_s": 105.04583,
+    "end_s": 105.04591,
+    "text": "the"
+  },
+  {
+    "start_s": 105.04591,
+    "end_s": 106.04603,
+    "text": "only"
+  },
+  {
+    "start_s": 106.04603,
+    "end_s": 106.0461,
+    "text": "one"
+  },
+  {
+    "start_s": 106.0461,
+    "end_s": 106.04618,
+    "text": "who"
+  },
+  {
+    "start_s": 106.04618,
+    "end_s": 106.04623,
+    "text": "'s"
+  },
+  {
+    "start_s": 106.04623,
+    "end_s": 106.04642,
+    "text": "feeling"
+  },
+  {
+    "start_s": 106.04642,
+    "end_s": 106.0465,
+    "text": "the"
+  },
+  {
+    "start_s": 106.0465,
+    "end_s": 106.04668,
+    "text": "same"
+  },
+  {
+    "start_s": 106.04668,
+    "end_s": 106.0467,
+    "text": "I"
+  },
+  {
+    "start_s": 106.0467,
+    "end_s": 106.04675,
+    "text": "'m"
+  },
+  {
+    "start_s": 106.04675,
+    "end_s": 106.04683,
+    "text": "not"
+  },
+  {
+    "start_s": 106.04683,
+    "end_s": 106.04691,
+    "text": "the"
+  },
+  {
+    "start_s": 106.04691,
+    "end_s": 107.04702,
+    "text": "only"
+  },
+  {
+    "start_s": 107.04702,
+    "end_s": 107.0471,
+    "text": "one"
+  },
+  {
+    "start_s": 107.0471,
+    "end_s": 107.04718,
+    "text": "who"
+  },
+  {
+    "start_s": 107.04718,
+    "end_s": 107.04723,
+    "text": "'s"
+  },
+  {
+    "start_s": 107.04723,
+    "end_s": 107.04742,
+    "text": "feeling"
+  },
+  {
+    "start_s": 107.04742,
+    "end_s": 107.0475,
+    "text": "the"
+  },
+  {
+    "start_s": 107.0475,
+    "end_s": 107.04768,
+    "text": "same"
+  },
+  {
+    "start_s": 107.04768,
+    "end_s": 107.04771,
+    "text": "I"
+  },
+  {
+    "start_s": 107.04771,
+    "end_s": 107.04776,
+    "text": "'m"
+  },
+  {
+    "start_s": 107.04776,
+    "end_s": 107.04783,
+    "text": "not"
+  },
+  {
+    "start_s": 107.04783,
+    "end_s": 107.04791,
+    "text": "the"
+  },
+  {
+    "start_s": 107.04791,
+    "end_s": 108.04802,
+    "text": "only"
+  },
+  {
+    "start_s": 108.04802,
+    "end_s": 108.0481,
+    "text": "one"
+  },
+  {
+    "start_s": 108.0481,
+    "end_s": 108.04818,
+    "text": "who"
+  },
+  {
+    "start_s": 108.04818,
+    "end_s": 108.04823,
+    "text": "'s"
+  },
+  {
+    "start_s": 108.04823,
+    "end_s": 108.04842,
+    "text": "feeling"
+  },
+  {
+    "start_s": 108.04842,
+    "end_s": 108.0485,
+    "text": "the"
+  },
+  {
+    "start_s": 108.0485,
+    "end_s": 108.04868,
+    "text": "same"
+  },
+  {
+    "start_s": 108.04868,
+    "end_s": 108.04874,
+    "text": "I"
+  },
+  {
+    "start_s": 108.04874,
+    "end_s": 108.04886,
+    "text": "'m"
+  },
+  {
+    "start_s": 108.04886,
+    "end_s": 109.04904,
+    "text": "not"
+  },
+  {
+    "start_s": 109.04904,
+    "end_s": 109.04922,
+    "text": "the"
+  },
+  {
+    "start_s": 109.04922,
+    "end_s": 109.04946,
+    "text": "only"
+  },
+  {
+    "start_s": 109.04946,
+    "end_s": 109.04968,
+    "text": "one"
+  },
+  {
+    "start_s": 109.04968,
+    "end_s": 109.04968,
+    "text": "who"
+  },
+  {
+    "start_s": 109.04968,
+    "end_s": 109.04968,
+    "text": "'s"
+  },
+  {
+    "start_s": 109.04968,
+    "end_s": 109.04968,
+    "text": "feeling"
+  },
+  {
+    "start_s": 109.04968,
+    "end_s": 109.04968,
+    "text": "the"
+  },
+  {
+    "start_s": 109.04968,
+    "end_s": 109.04968,
+    "text": "same"
+  },
+  {
+    "start_s": 109.04968,
+    "end_s": 109.04974,
+    "text": "I"
+  },
+  {
+    "start_s": 109.04974,
+    "end_s": 109.04985,
+    "text": "'m"
+  },
+  {
+    "start_s": 109.04985,
+    "end_s": 110.05004,
+    "text": "not"
+  },
+  {
+    "start_s": 110.05004,
+    "end_s": 110.05022,
+    "text": "the"
+  },
+  {
+    "start_s": 110.05022,
+    "end_s": 110.05046,
+    "text": "only"
+  },
+  {
+    "start_s": 110.05046,
+    "end_s": 110.05068,
+    "text": "one"
+  },
+  {
+    "start_s": 110.05068,
+    "end_s": 110.05068,
+    "text": "who"
+  },
+  {
+    "start_s": 110.05068,
+    "end_s": 110.05068,
+    "text": "'s"
+  },
+  {
+    "start_s": 110.05068,
+    "end_s": 110.05068,
+    "text": "feeling"
+  },
+  {
+    "start_s": 110.05068,
+    "end_s": 110.05068,
+    "text": "the"
+  },
+  {
+    "start_s": 110.05068,
+    "end_s": 110.05068,
+    "text": "same"
+  },
+  {
+    "start_s": 110.05068,
+    "end_s": 110.05074,
+    "text": "I"
+  },
+  {
+    "start_s": 110.05074,
+    "end_s": 110.05086,
+    "text": "'m"
+  },
+  {
+    "start_s": 110.05086,
+    "end_s": 111.05104,
+    "text": "not"
+  },
+  {
+    "start_s": 111.05104,
+    "end_s": 111.05122,
+    "text": "the"
+  },
+  {
+    "start_s": 111.05122,
+    "end_s": 111.05153,
+    "text": "only"
+  },
+  {
+    "start_s": 111.05153,
+    "end_s": 111.05168,
+    "text": "one"
+  },
+  {
+    "start_s": 111.05168,
+    "end_s": 111.05168,
+    "text": "who"
+  },
+  {
+    "start_s": 111.05168,
+    "end_s": 111.05168,
+    "text": "'s"
+  },
+  {
+    "start_s": 111.05168,
+    "end_s": 111.05168,
+    "text": "feeling"
+  },
+  {
+    "start_s": 111.05168,
+    "end_s": 111.05168,
+    "text": "the"
+  },
+  {
+    "start_s": 111.05168,
+    "end_s": 111.05168,
+    "text": "same"
+  },
+  {
+    "start_s": 111.05168,
+    "end_s": 111.05198,
+    "text": "Said"
+  },
+  {
+    "start_s": 111.05198,
+    "end_s": 112.05213,
+    "text": "no"
+  },
+  {
+    "start_s": 112.05213,
+    "end_s": 112.05236,
+    "text": "one"
+  },
+  {
+    "start_s": 112.05236,
+    "end_s": 112.05268,
+    "text": "ever"
+  },
+  {
+    "start_s": 112.05268,
+    "end_s": 112.05268,
+    "text": ","
+  },
+  {
+    "start_s": 112.05268,
+    "end_s": 112.05268,
+    "text": "said"
+  },
+  {
+    "start_s": 112.05268,
+    "end_s": 112.05268,
+    "text": "no"
+  },
+  {
+    "start_s": 112.05268,
+    "end_s": 112.05268,
+    "text": "one"
+  },
+  {
+    "start_s": 112.05268,
+    "end_s": 112.05268,
+    "text": "ever"
+  },
+  {
+    "start_s": 112.05268,
+    "end_s": 112.05281,
+    "text": "Who"
+  },
+  {
+    "start_s": 112.05281,
+    "end_s": 112.05294,
+    "text": "was"
+  },
+  {
+    "start_s": 112.05294,
+    "end_s": 113.05311,
+    "text": "half"
+  },
+  {
+    "start_s": 113.05311,
+    "end_s": 113.05324,
+    "text": "way"
+  },
+  {
+    "start_s": 113.05324,
+    "end_s": 113.05337,
+    "text": "out"
+  },
+  {
+    "start_s": 113.05337,
+    "end_s": 113.0535,
+    "text": "the"
+  },
+  {
+    "start_s": 113.0535,
+    "end_s": 113.05368,
+    "text": "door"
+  },
+  {
+    "start_s": 113.05368,
+    "end_s": 113.05398,
+    "text": "Said"
+  },
+  {
+    "start_s": 113.05398,
+    "end_s": 114.05413,
+    "text": "no"
+  },
+  {
+    "start_s": 114.05413,
+    "end_s": 114.05436,
+    "text": "one"
+  },
+  {
+    "start_s": 114.05436,
+    "end_s": 114.05468,
+    "text": "ever"
+  },
+  {
+    "start_s": 114.05468,
+    "end_s": 114.05468,
+    "text": ","
+  },
+  {
+    "start_s": 114.05468,
+    "end_s": 114.05468,
+    "text": "said"
+  },
+  {
+    "start_s": 114.05468,
+    "end_s": 114.05468,
+    "text": "no"
+  },
+  {
+    "start_s": 114.05468,
+    "end_s": 114.05468,
+    "text": "one"
+  },
+  {
+    "start_s": 114.05468,
+    "end_s": 114.05468,
+    "text": "ever"
+  },
+  {
+    "start_s": 114.05468,
+    "end_s": 114.05479,
+    "text": "When"
+  },
+  {
+    "start_s": 114.05479,
+    "end_s": 114.0549,
+    "text": "they"
+  },
+  {
+    "start_s": 114.0549,
+    "end_s": 114.05495,
+    "text": "'d"
+  },
+  {
+    "start_s": 114.05495,
+    "end_s": 115.05514,
+    "text": "already"
+  },
+  {
+    "start_s": 115.05514,
+    "end_s": 115.05528,
+    "text": "found"
+  },
+  {
+    "start_s": 115.05528,
+    "end_s": 115.05553,
+    "text": "something"
+  },
+  {
+    "start_s": 115.05553,
+    "end_s": 115.05568,
+    "text": "more"
+  },
+  {
+    "start_s": 115.05568,
+    "end_s": 115.05578,
+    "text": "It"
+  },
+  {
+    "start_s": 115.05578,
+    "end_s": 115.05587,
+    "text": "'s"
+  },
+  {
+    "start_s": 115.05587,
+    "end_s": 116.05602,
+    "text": "not"
+  },
+  {
+    "start_s": 116.05602,
+    "end_s": 116.05626,
+    "text": "clock"
+  },
+  {
+    "start_s": 116.05626,
+    "end_s": 116.0564,
+    "text": "ing"
+  },
+  {
+    "start_s": 116.0564,
+    "end_s": 116.0565,
+    "text": "to"
+  },
+  {
+    "start_s": 116.0565,
+    "end_s": 116.05668,
+    "text": "you"
+  },
+  {
+    "start_s": 116.05668,
+    "end_s": 116.05687,
+    "text": "That"
+  },
+  {
+    "start_s": 116.05687,
+    "end_s": 116.05692,
+    "text": "I"
+  },
+  {
+    "start_s": 116.05692,
+    "end_s": 117.05707,
+    "text": "see"
+  },
+  {
+    "start_s": 117.05707,
+    "end_s": 117.05741,
+    "text": "through"
+  },
+  {
+    "start_s": 117.05741,
+    "end_s": 117.05751,
+    "text": "it"
+  },
+  {
+    "start_s": 117.05751,
+    "end_s": 117.05768,
+    "text": "all"
+  },
+  {
+    "start_s": 117.05768,
+    "end_s": 117.05798,
+    "text": "Said"
+  },
+  {
+    "start_s": 117.05798,
+    "end_s": 118.05813,
+    "text": "no"
+  },
+  {
+    "start_s": 118.05813,
+    "end_s": 118.05836,
+    "text": "one"
+  },
+  {
+    "start_s": 118.05836,
+    "end_s": 118.05868,
+    "text": "ever"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": ","
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": "never"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": "meant"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": "the"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": "words"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": "before"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": "you"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05868,
+    "text": "fall"
+  },
+  {
+    "start_s": 118.05868,
+    "end_s": 118.05876,
+    "text": "Said"
+  },
+  {
+    "start_s": 118.05876,
+    "end_s": 118.0588,
+    "text": "no"
+  },
+  {
+    "start_s": 118.0588,
+    "end_s": 118.05886,
+    "text": "one"
+  },
+  {
+    "start_s": 118.05886,
+    "end_s": 118.05894,
+    "text": "ever"
+  },
+  {
+    "start_s": 118.05894,
+    "end_s": 118.05898,
+    "text": ","
+  },
+  {
+    "start_s": 118.05898,
+    "end_s": 119.05908,
+    "text": "never"
+  },
+  {
+    "start_s": 119.05908,
+    "end_s": 119.05918,
+    "text": "meant"
+  },
+  {
+    "start_s": 119.05918,
+    "end_s": 119.05924,
+    "text": "the"
+  },
+  {
+    "start_s": 119.05924,
+    "end_s": 119.05934,
+    "text": "words"
+  },
+  {
+    "start_s": 119.05934,
+    "end_s": 119.05947,
+    "text": "before"
+  },
+  {
+    "start_s": 119.05947,
+    "end_s": 119.05953,
+    "text": "you"
+  },
+  {
+    "start_s": 119.05953,
+    "end_s": 119.05968,
+    "text": "fall"
+  },
+  {
+    "start_s": 119.05968,
+    "end_s": 119.05976,
+    "text": "Said"
+  },
+  {
+    "start_s": 119.05976,
+    "end_s": 119.0598,
+    "text": "no"
+  },
+  {
+    "start_s": 119.0598,
+    "end_s": 119.05986,
+    "text": "one"
+  },
+  {
+    "start_s": 119.05986,
+    "end_s": 119.05994,
+    "text": "ever"
+  },
+  {
+    "start_s": 119.05994,
+    "end_s": 119.05998,
+    "text": ","
+  },
+  {
+    "start_s": 119.05998,
+    "end_s": 120.00008,
+    "text": "never"
+  },
+  {
+    "start_s": 120.00008,
+    "end_s": 120.00018,
+    "text": "meant"
+  },
+  {
+    "start_s": 120.00018,
+    "end_s": 120.00024,
+    "text": "the"
+  },
+  {
+    "start_s": 120.00024,
+    "end_s": 120.00034,
+    "text": "words"
+  },
+  {
+    "start_s": 120.00034,
+    "end_s": 120.00047,
+    "text": "before"
+  },
+  {
+    "start_s": 120.00047,
+    "end_s": 120.00053,
+    "text": "you"
+  },
+  {
+    "start_s": 120.00053,
+    "end_s": 120.00068,
+    "text": "fall"
+  },
+  {
+    "start_s": 120.00068,
+    "end_s": 120.00076,
+    "text": "Said"
+  },
+  {
+    "start_s": 120.00076,
+    "end_s": 120.0008,
+    "text": "no"
+  },
+  {
+    "start_s": 120.0008,
+    "end_s": 120.00086,
+    "text": "one"
+  },
+  {
+    "start_s": 120.00086,
+    "end_s": 120.00094,
+    "text": "ever"
+  },
+  {
+    "start_s": 120.00094,
+    "end_s": 120.00098,
+    "text": ","
+  },
+  {
+    "start_s": 120.00098,
+    "end_s": 121.00108,
+    "text": "never"
+  },
+  {
+    "start_s": 121.00108,
+    "end_s": 121.00118,
+    "text": "meant"
+  },
+  {
+    "start_s": 121.00118,
+    "end_s": 121.00124,
+    "text": "the"
+  },
+  {
+    "start_s": 121.00124,
+    "end_s": 121.00134,
+    "text": "words"
+  },
+  {
+    "start_s": 121.00134,
+    "end_s": 121.00147,
+    "text": "before"
+  },
+  {
+    "start_s": 121.00147,
+    "end_s": 121.00153,
+    "text": "you"
+  },
+  {
+    "start_s": 121.00153,
+    "end_s": 121.00168,
+    "text": "fall"
+  },
+  {
+    "start_s": 121.00168,
+    "end_s": 121.00176,
+    "text": "Said"
+  },
+  {
+    "start_s": 121.00176,
+    "end_s": 121.0018,
+    "text": "no"
+  },
+  {
+    "start_s": 121.0018,
+    "end_s": 121.00186,
+    "text": "one"
+  },
+  {
+    "start_s": 121.00186,
+    "end_s": 121.00194,
+    "text": "ever"
+  },
+  {
+    "start_s": 121.00194,
+    "end_s": 121.00198,
+    "text": ","
+  },
+  {
+    "start_s": 121.00198,
+    "end_s": 122.00208,
+    "text": "never"
+  },
+  {
+    "start_s": 122.00208,
+    "end_s": 122.00218,
+    "text": "meant"
+  },
+  {
+    "start_s": 122.00218,
+    "end_s": 122.00224,
+    "text": "the"
+  },
+  {
+    "start_s": 122.00224,
+    "end_s": 122.00234,
+    "text": "words"
+  },
+  {
+    "start_s": 122.00234,
+    "end_s": 122.00247,
+    "text": "before"
+  },
+  {
+    "start_s": 122.00247,
+    "end_s": 122.00253,
+    "text": "you"
+  },
+  {
+    "start_s": 122.00253,
+    "end_s": 122.00268,
+    "text": "fall"
+  },
+  {
+    "start_s": 122.00268,
+    "end_s": 122.00276,
+    "text": "Said"
+  },
+  {
+    "start_s": 122.00276,
+    "end_s": 122.0028,
+    "text": "no"
+  },
+  {
+    "start_s": 122.0028,
+    "end_s": 122.00286,
+    "text": "one"
+  },
+  {
+    "start_s": 122.00286,
+    "end_s": 122.00294,
+    "text": "ever"
+  },
+  {
+    "start_s": 122.00294,
+    "end_s": 122.00298,
+    "text": ","
+  },
+  {
+    "start_s": 122.00298,
+    "end_s": 123.00308,
+    "text": "never"
+  },
+  {
+    "start_s": 123.00308,
+    "end_s": 123.00318,
+    "text": "meant"
+  },
+  {
+    "start_s": 123.00318,
+    "end_s": 123.00324,
+    "text": "the"
+  },
+  {
+    "start_s": 123.00324,
+    "end_s": 123.00334,
+    "text": "words"
+  },
+  {
+    "start_s": 123.00334,
+    "end_s": 123.00347,
+    "text": "before"
+  },
+  {
+    "start_s": 123.00347,
+    "end_s": 123.00353,
+    "text": "you"
+  },
+  {
+    "start_s": 123.00353,
+    "end_s": 123.00368,
+    "text": "fall"
+  },
+  {
+    "start_s": 123.00368,
+    "end_s": 123.00376,
+    "text": "Said"
+  },
+  {
+    "start_s": 123.00376,
+    "end_s": 123.0038,
+    "text": "no"
+  },
+  {
+    "start_s": 123.0038,
+    "end_s": 123.00386,
+    "text": "one"
+  },
+  {
+    "start_s": 123.00386,
+    "end_s": 123.00394,
+    "text": "ever"
+  },
+  {
+    "start_s": 123.00394,
+    "end_s": 123.00398,
+    "text": ","
+  },
+  {
+    "start_s": 123.00398,
+    "end_s": 124.00408,
+    "text": "never"
+  },
+  {
+    "start_s": 124.00408,
+    "end_s": 124.00418,
+    "text": "meant"
+  },
+  {
+    "start_s": 124.00418,
+    "end_s": 124.00424,
+    "text": "the"
+  },
+  {
+    "start_s": 124.00424,
+    "end_s": 124.00434,
+    "text": "words"
+  },
+  {
+    "start_s": 124.00434,
+    "end_s": 124.00447,
+    "text": "before"
+  },
+  {
+    "start_s": 124.00447,
+    "end_s": 124.00453,
+    "text": "you"
+  },
+  {
+    "start_s": 124.00453,
+    "end_s": 124.00468,
+    "text": "fall"
+  },
+  {
+    "start_s": 124.00468,
+    "end_s": 124.00476,
+    "text": "Said"
+  },
+  {
+    "start_s": 124.00476,
+    "end_s": 124.0048,
+    "text": "no"
+  },
+  {
+    "start_s": 124.0048,
+    "end_s": 124.00486,
+    "text": "one"
+  },
+  {
+    "start_s": 124.00486,
+    "end_s": 124.00494,
+    "text": "ever"
+  },
+  {
+    "start_s": 124.00494,
+    "end_s": 124.00498,
+    "text": ","
+  },
+  {
+    "start_s": 124.00498,
+    "end_s": 125.00508,
+    "text": "never"
+  },
+  {
+    "start_s": 125.00508,
+    "end_s": 125.00518,
+    "text": "meant"
+  },
+  {
+    "start_s": 125.00518,
+    "end_s": 125.00524,
+    "text": "the"
+  },
+  {
+    "start_s": 125.00524,
+    "end_s": 125.00534,
+    "text": "words"
+  },
+  {
+    "start_s": 125.00534,
+    "end_s": 125.00547,
+    "text": "before"
+  },
+  {
+    "start_s": 125.00547,
+    "end_s": 125.00553,
+    "text": "you"
+  },
+  {
+    "start_s": 125.00553,
+    "end_s": 125.00568,
+    "text": "fall"
+  },
+  {
+    "start_s": 125.00568,
+    "end_s": 125.00576,
+    "text": "Said"
+  },
+  {
+    "start_s": 125.00576,
+    "end_s": 125.0058,
+    "text": "no"
+  },
+  {
+    "start_s": 125.0058,
+    "end_s": 125.00586,
+    "text": "one"
+  },
+  {
+    "start_s": 125.00586,
+    "end_s": 125.00594,
+    "text": "ever"
+  },
+  {
+    "start_s": 125.00594,
+    "end_s": 125.00598,
+    "text": ","
+  },
+  {
+    "start_s": 125.00598,
+    "end_s": 126.00608,
+    "text": "never"
+  },
+  {
+    "start_s": 126.00608,
+    "end_s": 126.00618,
+    "text": "meant"
+  },
+  {
+    "start_s": 126.00618,
+    "end_s": 126.00624,
+    "text": "the"
+  },
+  {
+    "start_s": 126.00624,
+    "end_s": 126.00634,
+    "text": "words"
+  },
+  {
+    "start_s": 126.00634,
+    "end_s": 126.00647,
+    "text": "before"
+  },
+  {
+    "start_s": 126.00647,
+    "end_s": 126.00653,
+    "text": "you"
+  },
+  {
+    "start_s": 126.00653,
+    "end_s": 126.00668,
+    "text": "fall"
+  },
+  {
+    "start_s": 126.00668,
+    "end_s": 126.00676,
+    "text": "Said"
+  },
+  {
+    "start_s": 126.00676,
+    "end_s": 126.0068,
+    "text": "no"
+  },
+  {
+    "start_s": 126.0068,
+    "end_s": 126.00686,
+    "text": "one"
+  },
+  {
+    "start_s": 126.00686,
+    "end_s": 126.00694,
+    "text": "ever"
+  },
+  {
+    "start_s": 126.00694,
+    "end_s": 126.00698,
+    "text": ","
+  },
+  {
+    "start_s": 126.00698,
+    "end_s": 127.00708,
+    "text": "never"
+  },
+  {
+    "start_s": 127.00708,
+    "end_s": 127.00718,
+    "text": "meant"
+  },
+  {
+    "start_s": 127.00718,
+    "end_s": 127.00724,
+    "text": "the"
+  },
+  {
+    "start_s": 127.00724,
+    "end_s": 127.00734,
+    "text": "words"
+  },
+  {
+    "start_s": 127.00734,
+    "end_s": 127.00747,
+    "text": "before"
+  },
+  {
+    "start_s": 127.00747,
+    "end_s": 127.00753,
+    "text": "you"
+  },
+  {
+    "start_s": 127.00753,
+    "end_s": 127.00768,
+    "text": "fall"
+  },
+  {
+    "start_s": 127.00768,
+    "end_s": 127.00776,
+    "text": "Said"
+  },
+  {
+    "start_s": 127.00776,
+    "end_s": 127.0078,
+    "text": "no"
+  },
+  {
+    "start_s": 127.0078,
+    "end_s": 127.00786,
+    "text": "one"
+  },
+  {
+    "start_s": 127.00786,
+    "end_s": 127.00794,
+    "text": "ever"
+  },
+  {
+    "start_s": 127.00794,
+    "end_s": 127.00798,
+    "text": ","
+  },
+  {
+    "start_s": 127.00798,
+    "end_s": 128.00808,
+    "text": "never"
+  },
+  {
+    "start_s": 128.00808,
+    "end_s": 128.00818,
+    "text": "meant"
+  },
+  {
+    "start_s": 128.00818,
+    "end_s": 128.00824,
+    "text": "the"
+  },
+  {
+    "start_s": 128.00824,
+    "end_s": 128.00834,
+    "text": "words"
+  },
+  {
+    "start_s": 128.00834,
+    "end_s": 128.00847,
+    "text": "before"
+  },
+  {
+    "start_s": 128.00847,
+    "end_s": 128.00853,
+    "text": "you"
+  },
+  {
+    "start_s": 128.00853,
+    "end_s": 128.00868,
+    "text": "fall"
+  },
+  {
+    "start_s": 128.00868,
+    "end_s": 128.00876,
+    "text": "Said"
+  },
+  {
+    "start_s": 128.00876,
+    "end_s": 128.0088,
+    "text": "no"
+  },
+  {
+    "start_s": 128.0088,
+    "end_s": 128.00886,
+    "text": "one"
+  },
+  {
+    "start_s": 128.00886,
+    "end_s": 128.00894,
+    "text": "ever"
+  },
+  {
+    "start_s": 128.00894,
+    "end_s": 128.00898,
+    "text": ","
+  },
+  {
+    "start_s": 128.00898,
+    "end_s": 129.00908,
+    "text": "never"
+  },
+  {
+    "start_s": 129.00908,
+    "end_s": 129.00918,
+    "text": "meant"
+  },
+  {
+    "start_s": 129.00918,
+    "end_s": 129.00924,
+    "text": "the"
+  },
+  {
+    "start_s": 129.00924,
+    "end_s": 129.00934,
+    "text": "words"
+  },
+  {
+    "start_s": 129.00934,
+    "end_s": 129.00947,
+    "text": "before"
+  },
+  {
+    "start_s": 129.00947,
+    "end_s": 129.00953,
+    "text": "you"
+  },
+  {
+    "start_s": 129.00953,
+    "end_s": 129.00968,
+    "text": "fall"
+  },
+  {
+    "start_s": 129.00968,
+    "end_s": 129.00976,
+    "text": "Said"
+  },
+  {
+    "start_s": 129.00976,
+    "end_s": 129.0098,
+    "text": "no"
+  },
+  {
+    "start_s": 129.0098,
+    "end_s": 129.00986,
+    "text": "one"
+  },
+  {
+    "start_s": 129.00986,
+    "end_s": 129.00994,
+    "text": "ever"
+  },
+  {
+    "start_s": 129.00994,
+    "end_s": 129.00998,
+    "text": ","
+  },
+  {
+    "start_s": 129.00998,
+    "end_s": 130.01008,
+    "text": "never"
+  },
+  {
+    "start_s": 130.01008,
+    "end_s": 130.01018,
+    "text": "meant"
+  },
+  {
+    "start_s": 130.01018,
+    "end_s": 130.01024,
+    "text": "the"
+  },
+  {
+    "start_s": 130.01024,
+    "end_s": 130.01034,
+    "text": "words"
+  },
+  {
+    "start_s": 130.01034,
+    "end_s": 130.01047,
+    "text": "before"
+  },
+  {
+    "start_s": 130.01047,
+    "end_s": 130.01053,
+    "text": "you"
+  },
+  {
+    "start_s": 130.01053,
+    "end_s": 130.01068,
+    "text": "fall"
+  },
+  {
+    "start_s": 130.01068,
+    "end_s": 130.01076,
+    "text": "Said"
+  },
+  {
+    "start_s": 130.01076,
+    "end_s": 130.0108,
+    "text": "no"
+  },
+  {
+    "start_s": 130.0108,
+    "end_s": 130.01086,
+    "text": "one"
+  },
+  {
+    "start_s": 130.01086,
+    "end_s": 130.01094,
+    "text": "ever"
+  },
+  {
+    "start_s": 130.01094,
+    "end_s": 130.01098,
+    "text": ","
+  },
+  {
+    "start_s": 130.01098,
+    "end_s": 131.01108,
+    "text": "never"
+  },
+  {
+    "start_s": 131.01108,
+    "end_s": 131.01118,
+    "text": "meant"
+  },
+  {
+    "start_s": 131.01118,
+    "end_s": 131.01124,
+    "text": "the"
+  },
+  {
+    "start_s": 131.01124,
+    "end_s": 131.01134,
+    "text": "words"
+  },
+  {
+    "start_s": 131.01134,
+    "end_s": 131.01147,
+    "text": "before"
+  },
+  {
+    "start_s": 131.01147,
+    "end_s": 131.01153,
+    "text": "you"
+  },
+  {
+    "start_s": 131.01153,
+    "end_s": 131.01168,
+    "text": "fall"
+  },
+  {
+    "start_s": 131.01168,
+    "end_s": 131.01176,
+    "text": "Said"
+  },
+  {
+    "start_s": 131.01176,
+    "end_s": 131.0118,
+    "text": "no"
+  },
+  {
+    "start_s": 131.0118,
+    "end_s": 131.01186,
+    "text": "one"
+  },
+  {
+    "start_s": 131.01186,
+    "end_s": 131.01194,
+    "text": "ever"
+  },
+  {
+    "start_s": 131.01194,
+    "end_s": 131.01198,
+    "text": ","
+  },
+  {
+    "start_s": 131.01198,
+    "end_s": 132.01208,
+    "text": "never"
+  },
+  {
+    "start_s": 132.01208,
+    "end_s": 132.01218,
+    "text": "meant"
+  },
+  {
+    "start_s": 132.01218,
+    "end_s": 132.01224,
+    "text": "the"
+  },
+  {
+    "start_s": 132.01224,
+    "end_s": 132.01234,
+    "text": "words"
+  },
+  {
+    "start_s": 132.01234,
+    "end_s": 132.01247,
+    "text": "before"
+  },
+  {
+    "start_s": 132.01247,
+    "end_s": 132.01253,
+    "text": "you"
+  },
+  {
+    "start_s": 132.01253,
+    "end_s": 132.01268,
+    "text": "fall"
+  },
+  {
+    "start_s": 132.01268,
+    "end_s": 132.01276,
+    "text": "Said"
+  },
+  {
+    "start_s": 132.01276,
+    "end_s": 132.0128,
+    "text": "no"
+  },
+  {
+    "start_s": 132.0128,
+    "end_s": 132.01286,
+    "text": "one"
+  },
+  {
+    "start_s": 132.01286,
+    "end_s": 132.01294,
+    "text": "ever"
+  },
+  {
+    "start_s": 132.01294,
+    "end_s": 132.01298,
+    "text": ","
+  },
+  {
+    "start_s": 132.01298,
+    "end_s": 133.01308,
+    "text": "never"
+  },
+  {
+    "start_s": 133.01308,
+    "end_s": 133.01318,
+    "text": "meant"
+  },
+  {
+    "start_s": 133.01318,
+    "end_s": 133.01324,
+    "text": "the"
+  },
+  {
+    "start_s": 133.01324,
+    "end_s": 133.01334,
+    "text": "words"
+  },
+  {
+    "start_s": 133.01334,
+    "end_s": 133.01347,
+    "text": "before"
+  },
+  {
+    "start_s": 133.01347,
+    "end_s": 133.01353,
+    "text": "you"
+  },
+  {
+    "start_s": 133.01353,
+    "end_s": 133.01368,
+    "text": "fall"
+  },
+  {
+    "start_s": 133.01368,
+    "end_s": 133.01376,
+    "text": "Said"
+  },
+  {
+    "start_s": 133.01376,
+    "end_s": 133.0138,
+    "text": "no"
+  },
+  {
+    "start_s": 133.0138,
+    "end_s": 133.01386,
+    "text": "one"
+  },
+  {
+    "start_s": 133.01386,
+    "end_s": 133.01394,
+    "text": "ever"
+  },
+  {
+    "start_s": 133.01394,
+    "end_s": 133.01398,
+    "text": ","
+  },
+  {
+    "start_s": 133.01398,
+    "end_s": 134.01408,
+    "text": "never"
+  },
+  {
+    "start_s": 134.01408,
+    "end_s": 134.01418,
+    "text": "meant"
+  },
+  {
+    "start_s": 134.01418,
+    "end_s": 134.01424,
+    "text": "the"
+  },
+  {
+    "start_s": 134.01424,
+    "end_s": 134.01434,
+    "text": "words"
+  },
+  {
+    "start_s": 134.01434,
+    "end_s": 134.01447,
+    "text": "before"
+  },
+  {
+    "start_s": 134.01447,
+    "end_s": 134.01453,
+    "text": "you"
+  },
+  {
+    "start_s": 134.01453,
+    "end_s": 134.01468,
+    "text": "fall"
+  },
+  {
+    "start_s": 134.01468,
+    "end_s": 134.01476,
+    "text": "Said"
+  },
+  {
+    "start_s": 134.01476,
+    "end_s": 134.0148,
+    "text": "no"
+  },
+  {
+    "start_s": 134.0148,
+    "end_s": 134.01486,
+    "text": "one"
+  },
+  {
+    "start_s": 134.01486,
+    "end_s": 134.01494,
+    "text": "ever"
+  },
+  {
+    "start_s": 134.01494,
+    "end_s": 134.01498,
+    "text": ","
+  },
+  {
+    "start_s": 134.01498,
+    "end_s": 135.01508,
+    "text": "never"
+  },
+  {
+    "start_s": 135.01508,
+    "end_s": 135.01518,
+    "text": "meant"
+  },
+  {
+    "start_s": 135.01518,
+    "end_s": 135.01524,
+    "text": "the"
+  },
+  {
+    "start_s": 135.01524,
+    "end_s": 135.01534,
+    "text": "words"
+  },
+  {
+    "start_s": 135.01534,
+    "end_s": 135.01547,
+    "text": "before"
+  },
+  {
+    "start_s": 135.01547,
+    "end_s": 135.01553,
+    "text": "you"
+  },
+  {
+    "start_s": 135.01553,
+    "end_s": 135.01568,
+    "text": "fall"
+  },
+  {
+    "start_s": 135.01568,
+    "end_s": 135.01576,
+    "text": "Said"
+  },
+  {
+    "start_s": 135.01576,
+    "end_s": 135.0158,
+    "text": "no"
+  },
+  {
+    "start_s": 135.0158,
+    "end_s": 135.01586,
+    "text": "one"
+  },
+  {
+    "start_s": 135.01586,
+    "end_s": 135.01594,
+    "text": "ever"
+  },
+  {
+    "start_s": 135.01594,
+    "end_s": 135.01598,
+    "text": ","
+  },
+  {
+    "start_s": 135.01598,
+    "end_s": 136.01608,
+    "text": "never"
+  },
+  {
+    "start_s": 136.01608,
+    "end_s": 136.01618,
+    "text": "meant"
+  },
+  {
+    "start_s": 136.01618,
+    "end_s": 136.01624,
+    "text": "the"
+  },
+  {
+    "start_s": 136.01624,
+    "end_s": 136.01634,
+    "text": "words"
+  },
+  {
+    "start_s": 136.01634,
+    "end_s": 136.01647,
+    "text": "before"
+  },
+  {
+    "start_s": 136.01647,
+    "end_s": 136.01653,
+    "text": "you"
+  },
+  {
+    "start_s": 136.01653,
+    "end_s": 136.01668,
+    "text": "fall"
+  },
+  {
+    "start_s": 136.01668,
+    "end_s": 136.01676,
+    "text": "Said"
+  },
+  {
+    "start_s": 136.01676,
+    "end_s": 136.0168,
+    "text": "no"
+  },
+  {
+    "start_s": 136.0168,
+    "end_s": 136.01686,
+    "text": "one"
+  },
+  {
+    "start_s": 136.01686,
+    "end_s": 136.01694,
+    "text": "ever"
+  },
+  {
+    "start_s": 136.01694,
+    "end_s": 136.01698,
+    "text": ","
+  },
+  {
+    "start_s": 136.01698,
+    "end_s": 137.01708,
+    "text": "never"
+  },
+  {
+    "start_s": 137.01708,
+    "end_s": 137.01718,
+    "text": "meant"
+  },
+  {
+    "start_s": 137.01718,
+    "end_s": 137.01724,
+    "text": "the"
+  },
+  {
+    "start_s": 137.01724,
+    "end_s": 137.01734,
+    "text": "words"
+  },
+  {
+    "start_s": 137.01734,
+    "end_s": 137.01747,
+    "text": "before"
+  },
+  {
+    "start_s": 137.01747,
+    "end_s": 137.01753,
+    "text": "you"
+  },
+  {
+    "start_s": 137.01753,
+    "end_s": 137.01768,
+    "text": "fall"
+  },
+  {
+    "start_s": 137.01768,
+    "end_s": 137.01776,
+    "text": "Said"
+  },
+  {
+    "start_s": 137.01776,
+    "end_s": 137.0178,
+    "text": "no"
+  },
+  {
+    "start_s": 137.0178,
+    "end_s": 137.01786,
+    "text": "one"
+  },
+  {
+    "start_s": 137.01786,
+    "end_s": 137.01794,
+    "text": "ever"
+  },
+  {
+    "start_s": 137.01794,
+    "end_s": 137.01798,
+    "text": ","
+  },
+  {
+    "start_s": 137.01798,
+    "end_s": 138.01808,
+    "text": "never"
+  },
+  {
+    "start_s": 138.01808,
+    "end_s": 138.01818,
+    "text": "meant"
+  },
+  {
+    "start_s": 138.01818,
+    "end_s": 138.01824,
+    "text": "the"
+  },
+  {
+    "start_s": 138.01824,
+    "end_s": 138.01834,
+    "text": "words"
+  },
+  {
+    "start_s": 138.01834,
+    "end_s": 138.01847,
+    "text": "before"
+  },
+  {
+    "start_s": 138.01847,
+    "end_s": 138.01853,
+    "text": "you"
+  },
+  {
+    "start_s": 138.01853,
+    "end_s": 138.01868,
+    "text": "fall"
+  },
+  {
+    "start_s": 138.01868,
+    "end_s": 138.01876,
+    "text": "Said"
+  },
+  {
+    "start_s": 138.01876,
+    "end_s": 138.0188,
+    "text": "no"
+  },
+  {
+    "start_s": 138.0188,
+    "end_s": 138.01886,
+    "text": "one"
+  },
+  {
+    "start_s": 138.01886,
+    "end_s": 138.01894,
+    "text": "ever"
+  },
+  {
+    "start_s": 138.01894,
+    "end_s": 138.01898,
+    "text": ","
+  },
+  {
+    "start_s": 138.01898,
+    "end_s": 139.01908,
+    "text": "never"
+  },
+  {
+    "start_s": 139.01908,
+    "end_s": 139.01918,
+    "text": "meant"
+  },
+  {
+    "start_s": 139.01918,
+    "end_s": 139.01924,
+    "text": "the"
+  },
+  {
+    "start_s": 139.01924,
+    "end_s": 139.01934,
+    "text": "words"
+  },
+  {
+    "start_s": 139.01934,
+    "end_s": 139.01947,
+    "text": "before"
+  },
+  {
+    "start_s": 139.01947,
+    "end_s": 139.01953,
+    "text": "you"
+  },
+  {
+    "start_s": 139.01953,
+    "end_s": 139.01968,
+    "text": "fall"
+  },
+  {
+    "start_s": 139.01968,
+    "end_s": 140.02001,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 140.02001,
+    "end_s": 140.02007,
+    "text": "I"
+  },
+  {
+    "start_s": 140.02007,
+    "end_s": 140.0202,
+    "text": "'m"
+  },
+  {
+    "start_s": 140.0202,
+    "end_s": 140.0204,
+    "text": "the"
+  },
+  {
+    "start_s": 140.0204,
+    "end_s": 140.02068,
+    "text": "fool"
+  },
+  {
+    "start_s": 140.02068,
+    "end_s": 140.02068,
+    "text": "who"
+  },
+  {
+    "start_s": 140.02068,
+    "end_s": 140.02068,
+    "text": "can"
+  },
+  {
+    "start_s": 140.02068,
+    "end_s": 140.02068,
+    "text": "'t"
+  },
+  {
+    "start_s": 140.02068,
+    "end_s": 140.02068,
+    "text": "read"
+  },
+  {
+    "start_s": 140.02068,
+    "end_s": 140.02068,
+    "text": "signs"
+  },
+  {
+    "start_s": 140.02068,
+    "end_s": 140.02083,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 140.02083,
+    "end_s": 140.02086,
+    "text": "I"
+  },
+  {
+    "start_s": 140.02086,
+    "end_s": 140.02092,
+    "text": "'m"
+  },
+  {
+    "start_s": 140.02092,
+    "end_s": 141.02101,
+    "text": "the"
+  },
+  {
+    "start_s": 141.02101,
+    "end_s": 141.02113,
+    "text": "fool"
+  },
+  {
+    "start_s": 141.02113,
+    "end_s": 141.02122,
+    "text": "who"
+  },
+  {
+    "start_s": 141.02122,
+    "end_s": 141.02131,
+    "text": "can"
+  },
+  {
+    "start_s": 141.02131,
+    "end_s": 141.02137,
+    "text": "'t"
+  },
+  {
+    "start_s": 141.02137,
+    "end_s": 141.02149,
+    "text": "read"
+  },
+  {
+    "start_s": 141.02149,
+    "end_s": 141.02168,
+    "text": "signs"
+  },
+  {
+    "start_s": 141.02168,
+    "end_s": 141.02183,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 141.02183,
+    "end_s": 141.02186,
+    "text": "I"
+  },
+  {
+    "start_s": 141.02186,
+    "end_s": 141.02192,
+    "text": "'m"
+  },
+  {
+    "start_s": 141.02192,
+    "end_s": 142.02201,
+    "text": "the"
+  },
+  {
+    "start_s": 142.02201,
+    "end_s": 142.02213,
+    "text": "fool"
+  },
+  {
+    "start_s": 142.02213,
+    "end_s": 142.02222,
+    "text": "who"
+  },
+  {
+    "start_s": 142.02222,
+    "end_s": 142.02231,
+    "text": "can"
+  },
+  {
+    "start_s": 142.02231,
+    "end_s": 142.02237,
+    "text": "'t"
+  },
+  {
+    "start_s": 142.02237,
+    "end_s": 142.02249,
+    "text": "read"
+  },
+  {
+    "start_s": 142.02249,
+    "end_s": 142.02268,
+    "text": "signs"
+  },
+  {
+    "start_s": 142.02268,
+    "end_s": 142.02283,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 142.02283,
+    "end_s": 142.02286,
+    "text": "I"
+  },
+  {
+    "start_s": 142.02286,
+    "end_s": 142.02292,
+    "text": "'m"
+  },
+  {
+    "start_s": 142.02292,
+    "end_s": 143.02301,
+    "text": "the"
+  },
+  {
+    "start_s": 143.02301,
+    "end_s": 143.02313,
+    "text": "fool"
+  },
+  {
+    "start_s": 143.02313,
+    "end_s": 143.02322,
+    "text": "who"
+  },
+  {
+    "start_s": 143.02322,
+    "end_s": 143.02331,
+    "text": "can"
+  },
+  {
+    "start_s": 143.02331,
+    "end_s": 143.02337,
+    "text": "'t"
+  },
+  {
+    "start_s": 143.02337,
+    "end_s": 143.02349,
+    "text": "read"
+  },
+  {
+    "start_s": 143.02349,
+    "end_s": 143.02368,
+    "text": "signs"
+  },
+  {
+    "start_s": 143.02368,
+    "end_s": 143.02383,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 143.02383,
+    "end_s": 143.02386,
+    "text": "I"
+  },
+  {
+    "start_s": 143.02386,
+    "end_s": 143.02392,
+    "text": "'m"
+  },
+  {
+    "start_s": 143.02392,
+    "end_s": 144.02401,
+    "text": "the"
+  },
+  {
+    "start_s": 144.02401,
+    "end_s": 144.02413,
+    "text": "fool"
+  },
+  {
+    "start_s": 144.02413,
+    "end_s": 144.02422,
+    "text": "who"
+  },
+  {
+    "start_s": 144.02422,
+    "end_s": 144.02431,
+    "text": "can"
+  },
+  {
+    "start_s": 144.02431,
+    "end_s": 144.02437,
+    "text": "'t"
+  },
+  {
+    "start_s": 144.02437,
+    "end_s": 144.02449,
+    "text": "read"
+  },
+  {
+    "start_s": 144.02449,
+    "end_s": 144.02468,
+    "text": "signs"
+  },
+  {
+    "start_s": 144.02468,
+    "end_s": 144.02483,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 144.02483,
+    "end_s": 144.02486,
+    "text": "I"
+  },
+  {
+    "start_s": 144.02486,
+    "end_s": 144.02492,
+    "text": "'m"
+  },
+  {
+    "start_s": 144.02492,
+    "end_s": 145.02501,
+    "text": "the"
+  },
+  {
+    "start_s": 145.02501,
+    "end_s": 145.02513,
+    "text": "fool"
+  },
+  {
+    "start_s": 145.02513,
+    "end_s": 145.02522,
+    "text": "who"
+  },
+  {
+    "start_s": 145.02522,
+    "end_s": 145.02531,
+    "text": "can"
+  },
+  {
+    "start_s": 145.02531,
+    "end_s": 145.02537,
+    "text": "'t"
+  },
+  {
+    "start_s": 145.02537,
+    "end_s": 145.02549,
+    "text": "read"
+  },
+  {
+    "start_s": 145.02549,
+    "end_s": 145.02568,
+    "text": "signs"
+  },
+  {
+    "start_s": 145.02568,
+    "end_s": 145.02583,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 145.02583,
+    "end_s": 145.02586,
+    "text": "I"
+  },
+  {
+    "start_s": 145.02586,
+    "end_s": 145.02592,
+    "text": "'m"
+  },
+  {
+    "start_s": 145.02592,
+    "end_s": 146.02601,
+    "text": "the"
+  },
+  {
+    "start_s": 146.02601,
+    "end_s": 146.02613,
+    "text": "fool"
+  },
+  {
+    "start_s": 146.02613,
+    "end_s": 146.02622,
+    "text": "who"
+  },
+  {
+    "start_s": 146.02622,
+    "end_s": 146.02631,
+    "text": "can"
+  },
+  {
+    "start_s": 146.02631,
+    "end_s": 146.02637,
+    "text": "'t"
+  },
+  {
+    "start_s": 146.02637,
+    "end_s": 146.02649,
+    "text": "read"
+  },
+  {
+    "start_s": 146.02649,
+    "end_s": 146.02668,
+    "text": "signs"
+  },
+  {
+    "start_s": 146.02668,
+    "end_s": 146.02683,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 146.02683,
+    "end_s": 146.02686,
+    "text": "I"
+  },
+  {
+    "start_s": 146.02686,
+    "end_s": 146.02692,
+    "text": "'m"
+  },
+  {
+    "start_s": 146.02692,
+    "end_s": 147.02701,
+    "text": "the"
+  },
+  {
+    "start_s": 147.02701,
+    "end_s": 147.02713,
+    "text": "fool"
+  },
+  {
+    "start_s": 147.02713,
+    "end_s": 147.02722,
+    "text": "who"
+  },
+  {
+    "start_s": 147.02722,
+    "end_s": 147.02731,
+    "text": "can"
+  },
+  {
+    "start_s": 147.02731,
+    "end_s": 147.02737,
+    "text": "'t"
+  },
+  {
+    "start_s": 147.02737,
+    "end_s": 147.02749,
+    "text": "read"
+  },
+  {
+    "start_s": 147.02749,
+    "end_s": 147.02768,
+    "text": "signs"
+  },
+  {
+    "start_s": 147.02768,
+    "end_s": 147.02783,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 147.02783,
+    "end_s": 147.02786,
+    "text": "I"
+  },
+  {
+    "start_s": 147.02786,
+    "end_s": 147.02792,
+    "text": "'m"
+  },
+  {
+    "start_s": 147.02792,
+    "end_s": 148.02801,
+    "text": "the"
+  },
+  {
+    "start_s": 148.02801,
+    "end_s": 148.02813,
+    "text": "fool"
+  },
+  {
+    "start_s": 148.02813,
+    "end_s": 148.02822,
+    "text": "who"
+  },
+  {
+    "start_s": 148.02822,
+    "end_s": 148.02831,
+    "text": "can"
+  },
+  {
+    "start_s": 148.02831,
+    "end_s": 148.02837,
+    "text": "'t"
+  },
+  {
+    "start_s": 148.02837,
+    "end_s": 148.02849,
+    "text": "read"
+  },
+  {
+    "start_s": 148.02849,
+    "end_s": 148.02868,
+    "text": "signs"
+  },
+  {
+    "start_s": 148.02868,
+    "end_s": 148.02883,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 148.02883,
+    "end_s": 148.02886,
+    "text": "I"
+  },
+  {
+    "start_s": 148.02886,
+    "end_s": 148.02892,
+    "text": "'m"
+  },
+  {
+    "start_s": 148.02892,
+    "end_s": 149.02901,
+    "text": "the"
+  },
+  {
+    "start_s": 149.02901,
+    "end_s": 149.02913,
+    "text": "fool"
+  },
+  {
+    "start_s": 149.02913,
+    "end_s": 149.02922,
+    "text": "who"
+  },
+  {
+    "start_s": 149.02922,
+    "end_s": 149.02931,
+    "text": "can"
+  },
+  {
+    "start_s": 149.02931,
+    "end_s": 149.02937,
+    "text": "'t"
+  },
+  {
+    "start_s": 149.02937,
+    "end_s": 149.02949,
+    "text": "read"
+  },
+  {
+    "start_s": 149.02949,
+    "end_s": 149.02968,
+    "text": "signs"
+  },
+  {
+    "start_s": 149.02968,
+    "end_s": 149.02983,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 149.02983,
+    "end_s": 149.02986,
+    "text": "I"
+  },
+  {
+    "start_s": 149.02986,
+    "end_s": 149.02992,
+    "text": "'m"
+  },
+  {
+    "start_s": 149.02992,
+    "end_s": 150.03001,
+    "text": "the"
+  },
+  {
+    "start_s": 150.03001,
+    "end_s": 150.03013,
+    "text": "fool"
+  },
+  {
+    "start_s": 150.03013,
+    "end_s": 150.03022,
+    "text": "who"
+  },
+  {
+    "start_s": 150.03022,
+    "end_s": 150.03031,
+    "text": "can"
+  },
+  {
+    "start_s": 150.03031,
+    "end_s": 150.03037,
+    "text": "'t"
+  },
+  {
+    "start_s": 150.03037,
+    "end_s": 150.03049,
+    "text": "read"
+  },
+  {
+    "start_s": 150.03049,
+    "end_s": 150.03068,
+    "text": "signs"
+  },
+  {
+    "start_s": 150.03068,
+    "end_s": 150.03083,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 150.03083,
+    "end_s": 150.03086,
+    "text": "I"
+  },
+  {
+    "start_s": 150.03086,
+    "end_s": 150.03092,
+    "text": "'m"
+  },
+  {
+    "start_s": 150.03092,
+    "end_s": 151.03101,
+    "text": "the"
+  },
+  {
+    "start_s": 151.03101,
+    "end_s": 151.03113,
+    "text": "fool"
+  },
+  {
+    "start_s": 151.03113,
+    "end_s": 151.03122,
+    "text": "who"
+  },
+  {
+    "start_s": 151.03122,
+    "end_s": 151.03131,
+    "text": "can"
+  },
+  {
+    "start_s": 151.03131,
+    "end_s": 151.03137,
+    "text": "'t"
+  },
+  {
+    "start_s": 151.03137,
+    "end_s": 151.03149,
+    "text": "read"
+  },
+  {
+    "start_s": 151.03149,
+    "end_s": 151.03168,
+    "text": "signs"
+  },
+  {
+    "start_s": 151.03168,
+    "end_s": 151.03183,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 151.03183,
+    "end_s": 151.03186,
+    "text": "I"
+  },
+  {
+    "start_s": 151.03186,
+    "end_s": 151.03192,
+    "text": "'m"
+  },
+  {
+    "start_s": 151.03192,
+    "end_s": 152.03201,
+    "text": "the"
+  },
+  {
+    "start_s": 152.03201,
+    "end_s": 152.03213,
+    "text": "fool"
+  },
+  {
+    "start_s": 152.03213,
+    "end_s": 152.03222,
+    "text": "who"
+  },
+  {
+    "start_s": 152.03222,
+    "end_s": 152.03231,
+    "text": "can"
+  },
+  {
+    "start_s": 152.03231,
+    "end_s": 152.03237,
+    "text": "'t"
+  },
+  {
+    "start_s": 152.03237,
+    "end_s": 152.03249,
+    "text": "read"
+  },
+  {
+    "start_s": 152.03249,
+    "end_s": 152.03268,
+    "text": "signs"
+  },
+  {
+    "start_s": 152.03268,
+    "end_s": 152.03283,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 152.03283,
+    "end_s": 152.03286,
+    "text": "I"
+  },
+  {
+    "start_s": 152.03286,
+    "end_s": 152.03292,
+    "text": "'m"
+  },
+  {
+    "start_s": 152.03292,
+    "end_s": 153.03301,
+    "text": "the"
+  },
+  {
+    "start_s": 153.03301,
+    "end_s": 153.03313,
+    "text": "fool"
+  },
+  {
+    "start_s": 153.03313,
+    "end_s": 153.03322,
+    "text": "who"
+  },
+  {
+    "start_s": 153.03322,
+    "end_s": 153.03331,
+    "text": "can"
+  },
+  {
+    "start_s": 153.03331,
+    "end_s": 153.03337,
+    "text": "'t"
+  },
+  {
+    "start_s": 153.03337,
+    "end_s": 153.03349,
+    "text": "read"
+  },
+  {
+    "start_s": 153.03349,
+    "end_s": 153.03368,
+    "text": "signs"
+  },
+  {
+    "start_s": 153.03368,
+    "end_s": 153.03383,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 153.03383,
+    "end_s": 153.03386,
+    "text": "I"
+  },
+  {
+    "start_s": 153.03386,
+    "end_s": 153.03392,
+    "text": "'m"
+  },
+  {
+    "start_s": 153.03392,
+    "end_s": 154.03401,
+    "text": "the"
+  },
+  {
+    "start_s": 154.03401,
+    "end_s": 154.03413,
+    "text": "fool"
+  },
+  {
+    "start_s": 154.03413,
+    "end_s": 154.03422,
+    "text": "who"
+  },
+  {
+    "start_s": 154.03422,
+    "end_s": 154.03431,
+    "text": "can"
+  },
+  {
+    "start_s": 154.03431,
+    "end_s": 154.03437,
+    "text": "'t"
+  },
+  {
+    "start_s": 154.03437,
+    "end_s": 154.03449,
+    "text": "read"
+  },
+  {
+    "start_s": 154.03449,
+    "end_s": 154.03468,
+    "text": "signs"
+  },
+  {
+    "start_s": 154.03468,
+    "end_s": 154.03483,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 154.03483,
+    "end_s": 154.03486,
+    "text": "I"
+  },
+  {
+    "start_s": 154.03486,
+    "end_s": 154.03492,
+    "text": "'m"
+  },
+  {
+    "start_s": 154.03492,
+    "end_s": 155.03501,
+    "text": "the"
+  },
+  {
+    "start_s": 155.03501,
+    "end_s": 155.03513,
+    "text": "fool"
+  },
+  {
+    "start_s": 155.03513,
+    "end_s": 155.03522,
+    "text": "who"
+  },
+  {
+    "start_s": 155.03522,
+    "end_s": 155.03531,
+    "text": "can"
+  },
+  {
+    "start_s": 155.03531,
+    "end_s": 155.03537,
+    "text": "'t"
+  },
+  {
+    "start_s": 155.03537,
+    "end_s": 155.03549,
+    "text": "read"
+  },
+  {
+    "start_s": 155.03549,
+    "end_s": 155.03568,
+    "text": "signs"
+  },
+  {
+    "start_s": 155.03568,
+    "end_s": 155.03583,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 155.03583,
+    "end_s": 155.03586,
+    "text": "I"
+  },
+  {
+    "start_s": 155.03586,
+    "end_s": 155.03592,
+    "text": "'m"
+  },
+  {
+    "start_s": 155.03592,
+    "end_s": 156.03601,
+    "text": "the"
+  },
+  {
+    "start_s": 156.03601,
+    "end_s": 156.03613,
+    "text": "fool"
+  },
+  {
+    "start_s": 156.03613,
+    "end_s": 156.03622,
+    "text": "who"
+  },
+  {
+    "start_s": 156.03622,
+    "end_s": 156.03631,
+    "text": "can"
+  },
+  {
+    "start_s": 156.03631,
+    "end_s": 156.03637,
+    "text": "'t"
+  },
+  {
+    "start_s": 156.03637,
+    "end_s": 156.03649,
+    "text": "read"
+  },
+  {
+    "start_s": 156.03649,
+    "end_s": 156.03668,
+    "text": "signs"
+  },
+  {
+    "start_s": 156.03668,
+    "end_s": 156.03683,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 156.03683,
+    "end_s": 156.03686,
+    "text": "I"
+  },
+  {
+    "start_s": 156.03686,
+    "end_s": 156.03692,
+    "text": "'m"
+  },
+  {
+    "start_s": 156.03692,
+    "end_s": 157.03701,
+    "text": "the"
+  },
+  {
+    "start_s": 157.03701,
+    "end_s": 157.03713,
+    "text": "fool"
+  },
+  {
+    "start_s": 157.03713,
+    "end_s": 157.03722,
+    "text": "who"
+  },
+  {
+    "start_s": 157.03722,
+    "end_s": 157.03731,
+    "text": "can"
+  },
+  {
+    "start_s": 157.03731,
+    "end_s": 157.03737,
+    "text": "'t"
+  },
+  {
+    "start_s": 157.03737,
+    "end_s": 157.03749,
+    "text": "read"
+  },
+  {
+    "start_s": 157.03749,
+    "end_s": 157.03768,
+    "text": "signs"
+  },
+  {
+    "start_s": 157.03768,
+    "end_s": 157.03783,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 157.03783,
+    "end_s": 157.03786,
+    "text": "I"
+  },
+  {
+    "start_s": 157.03786,
+    "end_s": 157.03792,
+    "text": "'m"
+  },
+  {
+    "start_s": 157.03792,
+    "end_s": 158.03801,
+    "text": "the"
+  },
+  {
+    "start_s": 158.03801,
+    "end_s": 158.03813,
+    "text": "fool"
+  },
+  {
+    "start_s": 158.03813,
+    "end_s": 158.03822,
+    "text": "who"
+  },
+  {
+    "start_s": 158.03822,
+    "end_s": 158.03831,
+    "text": "can"
+  },
+  {
+    "start_s": 158.03831,
+    "end_s": 158.03837,
+    "text": "'t"
+  },
+  {
+    "start_s": 158.03837,
+    "end_s": 158.03849,
+    "text": "read"
+  },
+  {
+    "start_s": 158.03849,
+    "end_s": 158.03868,
+    "text": "signs"
+  },
+  {
+    "start_s": 158.03868,
+    "end_s": 158.03883,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 158.03883,
+    "end_s": 158.03886,
+    "text": "I"
+  },
+  {
+    "start_s": 158.03886,
+    "end_s": 158.03892,
+    "text": "'m"
+  },
+  {
+    "start_s": 158.03892,
+    "end_s": 159.03901,
+    "text": "the"
+  },
+  {
+    "start_s": 159.03901,
+    "end_s": 159.03913,
+    "text": "fool"
+  },
+  {
+    "start_s": 159.03913,
+    "end_s": 159.03922,
+    "text": "who"
+  },
+  {
+    "start_s": 159.03922,
+    "end_s": 159.03931,
+    "text": "can"
+  },
+  {
+    "start_s": 159.03931,
+    "end_s": 159.03937,
+    "text": "'t"
+  },
+  {
+    "start_s": 159.03937,
+    "end_s": 159.03949,
+    "text": "read"
+  },
+  {
+    "start_s": 159.03949,
+    "end_s": 159.03968,
+    "text": "signs"
+  },
+  {
+    "start_s": 159.03968,
+    "end_s": 159.03983,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 159.03983,
+    "end_s": 159.03986,
+    "text": "I"
+  },
+  {
+    "start_s": 159.03986,
+    "end_s": 159.03992,
+    "text": "'m"
+  },
+  {
+    "start_s": 159.03992,
+    "end_s": 160.04001,
+    "text": "the"
+  },
+  {
+    "start_s": 160.04001,
+    "end_s": 160.04013,
+    "text": "fool"
+  },
+  {
+    "start_s": 160.04013,
+    "end_s": 160.04022,
+    "text": "who"
+  },
+  {
+    "start_s": 160.04022,
+    "end_s": 160.04031,
+    "text": "can"
+  },
+  {
+    "start_s": 160.04031,
+    "end_s": 160.04037,
+    "text": "'t"
+  },
+  {
+    "start_s": 160.04037,
+    "end_s": 160.04049,
+    "text": "read"
+  },
+  {
+    "start_s": 160.04049,
+    "end_s": 160.04068,
+    "text": "signs"
+  },
+  {
+    "start_s": 160.04068,
+    "end_s": 160.04083,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 160.04083,
+    "end_s": 160.04086,
+    "text": "I"
+  },
+  {
+    "start_s": 160.04086,
+    "end_s": 160.04092,
+    "text": "'m"
+  },
+  {
+    "start_s": 160.04092,
+    "end_s": 161.04101,
+    "text": "the"
+  },
+  {
+    "start_s": 161.04101,
+    "end_s": 161.04113,
+    "text": "fool"
+  },
+  {
+    "start_s": 161.04113,
+    "end_s": 161.04122,
+    "text": "who"
+  },
+  {
+    "start_s": 161.04122,
+    "end_s": 161.04131,
+    "text": "can"
+  },
+  {
+    "start_s": 161.04131,
+    "end_s": 161.04137,
+    "text": "'t"
+  },
+  {
+    "start_s": 161.04137,
+    "end_s": 161.04149,
+    "text": "read"
+  },
+  {
+    "start_s": 161.04149,
+    "end_s": 161.04168,
+    "text": "signs"
+  },
+  {
+    "start_s": 161.04168,
+    "end_s": 161.04183,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 161.04183,
+    "end_s": 161.04186,
+    "text": "I"
+  },
+  {
+    "start_s": 161.04186,
+    "end_s": 161.04192,
+    "text": "'m"
+  },
+  {
+    "start_s": 161.04192,
+    "end_s": 162.04201,
+    "text": "the"
+  },
+  {
+    "start_s": 162.04201,
+    "end_s": 162.04213,
+    "text": "fool"
+  },
+  {
+    "start_s": 162.04213,
+    "end_s": 162.04222,
+    "text": "who"
+  },
+  {
+    "start_s": 162.04222,
+    "end_s": 162.04231,
+    "text": "can"
+  },
+  {
+    "start_s": 162.04231,
+    "end_s": 162.04237,
+    "text": "'t"
+  },
+  {
+    "start_s": 162.04237,
+    "end_s": 162.04248,
+    "text": "read"
+  },
+  {
+    "start_s": 162.04248,
+    "end_s": 162.04268,
+    "text": "signs"
+  },
+  {
+    "start_s": 162.04268,
+    "end_s": 162.04283,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 162.04283,
+    "end_s": 162.04286,
+    "text": "I"
+  },
+  {
+    "start_s": 162.04286,
+    "end_s": 162.04292,
+    "text": "'m"
+  },
+  {
+    "start_s": 162.04292,
+    "end_s": 163.04301,
+    "text": "the"
+  },
+  {
+    "start_s": 163.04301,
+    "end_s": 163.04313,
+    "text": "fool"
+  },
+  {
+    "start_s": 163.04313,
+    "end_s": 163.04322,
+    "text": "who"
+  },
+  {
+    "start_s": 163.04322,
+    "end_s": 163.04335,
+    "text": "can"
+  },
+  {
+    "start_s": 163.04335,
+    "end_s": 163.04337,
+    "text": "'t"
+  },
+  {
+    "start_s": 163.04337,
+    "end_s": 163.04349,
+    "text": "read"
+  },
+  {
+    "start_s": 163.04349,
+    "end_s": 163.04368,
+    "text": "signs"
+  },
+  {
+    "start_s": 163.04368,
+    "end_s": 163.04383,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 163.04383,
+    "end_s": 163.04386,
+    "text": "I"
+  },
+  {
+    "start_s": 163.04386,
+    "end_s": 163.04392,
+    "text": "'m"
+  },
+  {
+    "start_s": 163.04392,
+    "end_s": 164.04401,
+    "text": "the"
+  },
+  {
+    "start_s": 164.04401,
+    "end_s": 164.04422,
+    "text": "fool"
+  },
+  {
+    "start_s": 164.04422,
+    "end_s": 164.04424,
+    "text": "who"
+  },
+  {
+    "start_s": 164.04424,
+    "end_s": 164.04431,
+    "text": "can"
+  },
+  {
+    "start_s": 164.04431,
+    "end_s": 164.04437,
+    "text": "'t"
+  },
+  {
+    "start_s": 164.04437,
+    "end_s": 164.04449,
+    "text": "read"
+  },
+  {
+    "start_s": 164.04449,
+    "end_s": 164.04468,
+    "text": "signs"
+  },
+  {
+    "start_s": 164.04468,
+    "end_s": 164.04483,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 164.04483,
+    "end_s": 164.04489,
+    "text": "I"
+  },
+  {
+    "start_s": 164.04489,
+    "end_s": 164.04492,
+    "text": "'m"
+  },
+  {
+    "start_s": 164.04492,
+    "end_s": 165.04501,
+    "text": "the"
+  },
+  {
+    "start_s": 165.04501,
+    "end_s": 165.04513,
+    "text": "fool"
+  },
+  {
+    "start_s": 165.04513,
+    "end_s": 165.04522,
+    "text": "who"
+  },
+  {
+    "start_s": 165.04522,
+    "end_s": 165.04531,
+    "text": "can"
+  },
+  {
+    "start_s": 165.04531,
+    "end_s": 165.04537,
+    "text": "'t"
+  },
+  {
+    "start_s": 165.04537,
+    "end_s": 165.04549,
+    "text": "read"
+  },
+  {
+    "start_s": 165.04549,
+    "end_s": 165.04568,
+    "text": "signs"
+  },
+  {
+    "start_s": 165.04568,
+    "end_s": 165.04583,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 165.04583,
+    "end_s": 165.04586,
+    "text": "I"
+  },
+  {
+    "start_s": 165.04586,
+    "end_s": 165.04592,
+    "text": "'m"
+  },
+  {
+    "start_s": 165.04592,
+    "end_s": 166.04601,
+    "text": "the"
+  },
+  {
+    "start_s": 166.04601,
+    "end_s": 166.04613,
+    "text": "fool"
+  },
+  {
+    "start_s": 166.04613,
+    "end_s": 166.04621,
+    "text": "who"
+  },
+  {
+    "start_s": 166.04621,
+    "end_s": 166.04631,
+    "text": "can"
+  },
+  {
+    "start_s": 166.04631,
+    "end_s": 166.04637,
+    "text": "'t"
+  },
+  {
+    "start_s": 166.04637,
+    "end_s": 166.04649,
+    "text": "read"
+  },
+  {
+    "start_s": 166.04649,
+    "end_s": 166.04668,
+    "text": "signs"
+  },
+  {
+    "start_s": 166.04668,
+    "end_s": 166.04683,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 166.04683,
+    "end_s": 166.04686,
+    "text": "I"
+  },
+  {
+    "start_s": 166.04686,
+    "end_s": 166.04692,
+    "text": "'m"
+  },
+  {
+    "start_s": 166.04692,
+    "end_s": 167.04701,
+    "text": "the"
+  },
+  {
+    "start_s": 167.04701,
+    "end_s": 167.04713,
+    "text": "fool"
+  },
+  {
+    "start_s": 167.04713,
+    "end_s": 167.04722,
+    "text": "who"
+  },
+  {
+    "start_s": 167.04722,
+    "end_s": 167.04731,
+    "text": "can"
+  },
+  {
+    "start_s": 167.04731,
+    "end_s": 167.04737,
+    "text": "'t"
+  },
+  {
+    "start_s": 167.04737,
+    "end_s": 167.04749,
+    "text": "read"
+  },
+  {
+    "start_s": 167.04749,
+    "end_s": 167.04768,
+    "text": "signs"
+  },
+  {
+    "start_s": 167.04768,
+    "end_s": 167.04783,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 167.04783,
+    "end_s": 167.04786,
+    "text": "I"
+  },
+  {
+    "start_s": 167.04786,
+    "end_s": 167.04792,
+    "text": "'m"
+  },
+  {
+    "start_s": 167.04792,
+    "end_s": 168.04801,
+    "text": "the"
+  },
+  {
+    "start_s": 168.04801,
+    "end_s": 168.04813,
+    "text": "fool"
+  },
+  {
+    "start_s": 168.04813,
+    "end_s": 168.04822,
+    "text": "who"
+  },
+  {
+    "start_s": 168.04822,
+    "end_s": 168.04831,
+    "text": "can"
+  },
+  {
+    "start_s": 168.04831,
+    "end_s": 168.04837,
+    "text": "'t"
+  },
+  {
+    "start_s": 168.04837,
+    "end_s": 168.04849,
+    "text": "read"
+  },
+  {
+    "start_s": 168.04849,
+    "end_s": 168.04868,
+    "text": "signs"
+  },
+  {
+    "start_s": 168.04868,
+    "end_s": 168.04883,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 168.04883,
+    "end_s": 168.04886,
+    "text": "I"
+  },
+  {
+    "start_s": 168.04886,
+    "end_s": 168.04892,
+    "text": "'m"
+  },
+  {
+    "start_s": 168.04892,
+    "end_s": 169.04901,
+    "text": "the"
+  },
+  {
+    "start_s": 169.04901,
+    "end_s": 169.04913,
+    "text": "fool"
+  },
+  {
+    "start_s": 169.04913,
+    "end_s": 169.04922,
+    "text": "who"
+  },
+  {
+    "start_s": 169.04922,
+    "end_s": 169.04931,
+    "text": "can"
+  },
+  {
+    "start_s": 169.04931,
+    "end_s": 169.04937,
+    "text": "'t"
+  },
+  {
+    "start_s": 169.04937,
+    "end_s": 169.04949,
+    "text": "read"
+  },
+  {
+    "start_s": 169.04949,
+    "end_s": 169.04968,
+    "text": "signs"
+  },
+  {
+    "start_s": 169.04968,
+    "end_s": 169.04983,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 169.04983,
+    "end_s": 169.04986,
+    "text": "I"
+  },
+  {
+    "start_s": 169.04986,
+    "end_s": 169.04992,
+    "text": "'m"
+  },
+  {
+    "start_s": 169.04992,
+    "end_s": 170.05001,
+    "text": "the"
+  },
+  {
+    "start_s": 170.05001,
+    "end_s": 170.05013,
+    "text": "fool"
+  },
+  {
+    "start_s": 170.05013,
+    "end_s": 170.05022,
+    "text": "who"
+  },
+  {
+    "start_s": 170.05022,
+    "end_s": 170.05031,
+    "text": "can"
+  },
+  {
+    "start_s": 170.05031,
+    "end_s": 170.05037,
+    "text": "'t"
+  },
+  {
+    "start_s": 170.05037,
+    "end_s": 170.05049,
+    "text": "read"
+  },
+  {
+    "start_s": 170.05049,
+    "end_s": 170.05068,
+    "text": "signs"
+  },
+  {
+    "start_s": 170.05068,
+    "end_s": 170.05083,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 170.05083,
+    "end_s": 170.05086,
+    "text": "I"
+  },
+  {
+    "start_s": 170.05086,
+    "end_s": 170.05092,
+    "text": "'m"
+  },
+  {
+    "start_s": 170.05092,
+    "end_s": 171.05101,
+    "text": "the"
+  },
+  {
+    "start_s": 171.05101,
+    "end_s": 171.05113,
+    "text": "fool"
+  },
+  {
+    "start_s": 171.05113,
+    "end_s": 171.05122,
+    "text": "who"
+  },
+  {
+    "start_s": 171.05122,
+    "end_s": 171.05131,
+    "text": "can"
+  },
+  {
+    "start_s": 171.05131,
+    "end_s": 171.05137,
+    "text": "'t"
+  },
+  {
+    "start_s": 171.05137,
+    "end_s": 171.05149,
+    "text": "read"
+  },
+  {
+    "start_s": 171.05149,
+    "end_s": 171.05168,
+    "text": "signs"
+  },
+  {
+    "start_s": 171.05168,
+    "end_s": 171.05183,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 171.05183,
+    "end_s": 171.05186,
+    "text": "I"
+  },
+  {
+    "start_s": 171.05186,
+    "end_s": 171.05192,
+    "text": "'m"
+  },
+  {
+    "start_s": 171.05192,
+    "end_s": 172.05201,
+    "text": "the"
+  },
+  {
+    "start_s": 172.05201,
+    "end_s": 172.05213,
+    "text": "fool"
+  },
+  {
+    "start_s": 172.05213,
+    "end_s": 172.05222,
+    "text": "who"
+  },
+  {
+    "start_s": 172.05222,
+    "end_s": 172.05231,
+    "text": "can"
+  },
+  {
+    "start_s": 172.05231,
+    "end_s": 172.05237,
+    "text": "'t"
+  },
+  {
+    "start_s": 172.05237,
+    "end_s": 172.05249,
+    "text": "read"
+  },
+  {
+    "start_s": 172.05249,
+    "end_s": 172.05268,
+    "text": "signs"
+  },
+  {
+    "start_s": 172.05268,
+    "end_s": 172.05283,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 172.05283,
+    "end_s": 172.05286,
+    "text": "I"
+  },
+  {
+    "start_s": 172.05286,
+    "end_s": 172.05292,
+    "text": "'m"
+  },
+  {
+    "start_s": 172.05292,
+    "end_s": 173.05301,
+    "text": "the"
+  },
+  {
+    "start_s": 173.05301,
+    "end_s": 173.05313,
+    "text": "fool"
+  },
+  {
+    "start_s": 173.05313,
+    "end_s": 173.05322,
+    "text": "who"
+  },
+  {
+    "start_s": 173.05322,
+    "end_s": 173.05331,
+    "text": "can"
+  },
+  {
+    "start_s": 173.05331,
+    "end_s": 173.05337,
+    "text": "'t"
+  },
+  {
+    "start_s": 173.05337,
+    "end_s": 173.05349,
+    "text": "read"
+  },
+  {
+    "start_s": 173.05349,
+    "end_s": 173.05368,
+    "text": "signs"
+  },
+  {
+    "start_s": 173.05368,
+    "end_s": 173.05383,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 173.05383,
+    "end_s": 173.05386,
+    "text": "I"
+  },
+  {
+    "start_s": 173.05386,
+    "end_s": 173.05392,
+    "text": "'m"
+  },
+  {
+    "start_s": 173.05392,
+    "end_s": 174.05401,
+    "text": "the"
+  },
+  {
+    "start_s": 174.05401,
+    "end_s": 174.05413,
+    "text": "fool"
+  },
+  {
+    "start_s": 174.05413,
+    "end_s": 174.05422,
+    "text": "who"
+  },
+  {
+    "start_s": 174.05422,
+    "end_s": 174.05431,
+    "text": "can"
+  },
+  {
+    "start_s": 174.05431,
+    "end_s": 174.05437,
+    "text": "'t"
+  },
+  {
+    "start_s": 174.05437,
+    "end_s": 174.05449,
+    "text": "read"
+  },
+  {
+    "start_s": 174.05449,
+    "end_s": 174.05468,
+    "text": "signs"
+  },
+  {
+    "start_s": 174.05468,
+    "end_s": 174.05483,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 174.05483,
+    "end_s": 174.05486,
+    "text": "I"
+  },
+  {
+    "start_s": 174.05486,
+    "end_s": 174.05492,
+    "text": "'m"
+  },
+  {
+    "start_s": 174.05492,
+    "end_s": 175.05501,
+    "text": "the"
+  },
+  {
+    "start_s": 175.05501,
+    "end_s": 175.05513,
+    "text": "fool"
+  },
+  {
+    "start_s": 175.05513,
+    "end_s": 175.05522,
+    "text": "who"
+  },
+  {
+    "start_s": 175.05522,
+    "end_s": 175.05531,
+    "text": "can"
+  },
+  {
+    "start_s": 175.05531,
+    "end_s": 175.05537,
+    "text": "'t"
+  },
+  {
+    "start_s": 175.05537,
+    "end_s": 175.05549,
+    "text": "read"
+  },
+  {
+    "start_s": 175.05549,
+    "end_s": 175.05568,
+    "text": "signs"
+  },
+  {
+    "start_s": 175.05568,
+    "end_s": 175.05583,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 175.05583,
+    "end_s": 175.05586,
+    "text": "I"
+  },
+  {
+    "start_s": 175.05586,
+    "end_s": 175.05592,
+    "text": "'m"
+  },
+  {
+    "start_s": 175.05592,
+    "end_s": 176.05601,
+    "text": "the"
+  },
+  {
+    "start_s": 176.05601,
+    "end_s": 176.05613,
+    "text": "fool"
+  },
+  {
+    "start_s": 176.05613,
+    "end_s": 176.05622,
+    "text": "who"
+  },
+  {
+    "start_s": 176.05622,
+    "end_s": 176.05631,
+    "text": "can"
+  },
+  {
+    "start_s": 176.05631,
+    "end_s": 176.05637,
+    "text": "'t"
+  },
+  {
+    "start_s": 176.05637,
+    "end_s": 176.05649,
+    "text": "read"
+  },
+  {
+    "start_s": 176.05649,
+    "end_s": 176.05668,
+    "text": "signs"
+  },
+  {
+    "start_s": 176.05668,
+    "end_s": 176.05683,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 176.05683,
+    "end_s": 176.05686,
+    "text": "I"
+  },
+  {
+    "start_s": 176.05686,
+    "end_s": 176.05692,
+    "text": "'m"
+  },
+  {
+    "start_s": 176.05692,
+    "end_s": 177.05701,
+    "text": "the"
+  },
+  {
+    "start_s": 177.05701,
+    "end_s": 177.05713,
+    "text": "fool"
+  },
+  {
+    "start_s": 177.05713,
+    "end_s": 177.05722,
+    "text": "who"
+  },
+  {
+    "start_s": 177.05722,
+    "end_s": 177.05731,
+    "text": "can"
+  },
+  {
+    "start_s": 177.05731,
+    "end_s": 177.05737,
+    "text": "'t"
+  },
+  {
+    "start_s": 177.05737,
+    "end_s": 177.05749,
+    "text": "read"
+  },
+  {
+    "start_s": 177.05749,
+    "end_s": 177.05768,
+    "text": "signs"
+  },
+  {
+    "start_s": 177.05768,
+    "end_s": 177.05783,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 177.05783,
+    "end_s": 177.05786,
+    "text": "I"
+  },
+  {
+    "start_s": 177.05786,
+    "end_s": 177.05792,
+    "text": "'m"
+  },
+  {
+    "start_s": 177.05792,
+    "end_s": 178.05801,
+    "text": "the"
+  },
+  {
+    "start_s": 178.05801,
+    "end_s": 178.05813,
+    "text": "fool"
+  },
+  {
+    "start_s": 178.05813,
+    "end_s": 178.05822,
+    "text": "who"
+  },
+  {
+    "start_s": 178.05822,
+    "end_s": 178.05831,
+    "text": "can"
+  },
+  {
+    "start_s": 178.05831,
+    "end_s": 178.05837,
+    "text": "'t"
+  },
+  {
+    "start_s": 178.05837,
+    "end_s": 178.05849,
+    "text": "read"
+  },
+  {
+    "start_s": 178.05849,
+    "end_s": 178.05868,
+    "text": "signs"
+  },
+  {
+    "start_s": 178.05868,
+    "end_s": 178.05883,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 178.05883,
+    "end_s": 178.05886,
+    "text": "I"
+  },
+  {
+    "start_s": 178.05886,
+    "end_s": 178.05892,
+    "text": "'m"
+  },
+  {
+    "start_s": 178.05892,
+    "end_s": 179.05901,
+    "text": "the"
+  },
+  {
+    "start_s": 179.05901,
+    "end_s": 179.05913,
+    "text": "fool"
+  },
+  {
+    "start_s": 179.05913,
+    "end_s": 179.05922,
+    "text": "who"
+  },
+  {
+    "start_s": 179.05922,
+    "end_s": 179.05931,
+    "text": "can"
+  },
+  {
+    "start_s": 179.05931,
+    "end_s": 179.05937,
+    "text": "'t"
+  },
+  {
+    "start_s": 179.05937,
+    "end_s": 179.05949,
+    "text": "read"
+  },
+  {
+    "start_s": 179.05949,
+    "end_s": 179.05968,
+    "text": "signs"
+  },
+  {
+    "start_s": 179.05968,
+    "end_s": 179.05983,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 179.05983,
+    "end_s": 179.05986,
+    "text": "I"
+  },
+  {
+    "start_s": 179.05986,
+    "end_s": 179.05992,
+    "text": "'m"
+  },
+  {
+    "start_s": 179.05992,
+    "end_s": 180.00001,
+    "text": "the"
+  },
+  {
+    "start_s": 180.00001,
+    "end_s": 180.00013,
+    "text": "fool"
+  },
+  {
+    "start_s": 180.00013,
+    "end_s": 180.00022,
+    "text": "who"
+  },
+  {
+    "start_s": 180.00022,
+    "end_s": 180.00031,
+    "text": "can"
+  },
+  {
+    "start_s": 180.00031,
+    "end_s": 180.00037,
+    "text": "'t"
+  },
+  {
+    "start_s": 180.00037,
+    "end_s": 180.00049,
+    "text": "read"
+  },
+  {
+    "start_s": 180.00049,
+    "end_s": 180.00068,
+    "text": "signs"
+  },
+  {
+    "start_s": 180.00068,
+    "end_s": 180.00083,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 180.00083,
+    "end_s": 180.00086,
+    "text": "I"
+  },
+  {
+    "start_s": 180.00086,
+    "end_s": 180.00092,
+    "text": "'m"
+  },
+  {
+    "start_s": 180.00092,
+    "end_s": 181.00101,
+    "text": "the"
+  },
+  {
+    "start_s": 181.00101,
+    "end_s": 181.00113,
+    "text": "fool"
+  },
+  {
+    "start_s": 181.00113,
+    "end_s": 181.00122,
+    "text": "who"
+  },
+  {
+    "start_s": 181.00122,
+    "end_s": 181.00131,
+    "text": "can"
+  },
+  {
+    "start_s": 181.00131,
+    "end_s": 181.00137,
+    "text": "'t"
+  },
+  {
+    "start_s": 181.00137,
+    "end_s": 181.00149,
+    "text": "read"
+  },
+  {
+    "start_s": 181.00149,
+    "end_s": 181.00168,
+    "text": "signs"
+  },
+  {
+    "start_s": 181.00168,
+    "end_s": 181.00183,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 181.00183,
+    "end_s": 181.00186,
+    "text": "I"
+  },
+  {
+    "start_s": 181.00186,
+    "end_s": 181.00192,
+    "text": "'m"
+  },
+  {
+    "start_s": 181.00192,
+    "end_s": 182.00201,
+    "text": "the"
+  },
+  {
+    "start_s": 182.00201,
+    "end_s": 182.00213,
+    "text": "fool"
+  },
+  {
+    "start_s": 182.00213,
+    "end_s": 182.00222,
+    "text": "who"
+  },
+  {
+    "start_s": 182.00222,
+    "end_s": 182.00231,
+    "text": "can"
+  },
+  {
+    "start_s": 182.00231,
+    "end_s": 182.00237,
+    "text": "'t"
+  },
+  {
+    "start_s": 182.00237,
+    "end_s": 182.00249,
+    "text": "read"
+  },
+  {
+    "start_s": 182.00249,
+    "end_s": 182.00268,
+    "text": "signs"
+  },
+  {
+    "start_s": 182.00268,
+    "end_s": 182.00283,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 182.00283,
+    "end_s": 182.00286,
+    "text": "I"
+  },
+  {
+    "start_s": 182.00286,
+    "end_s": 182.00292,
+    "text": "'m"
+  },
+  {
+    "start_s": 182.00292,
+    "end_s": 183.00301,
+    "text": "the"
+  },
+  {
+    "start_s": 183.00301,
+    "end_s": 183.00313,
+    "text": "fool"
+  },
+  {
+    "start_s": 183.00313,
+    "end_s": 183.00322,
+    "text": "who"
+  },
+  {
+    "start_s": 183.00322,
+    "end_s": 183.00331,
+    "text": "can"
+  },
+  {
+    "start_s": 183.00331,
+    "end_s": 183.00337,
+    "text": "'t"
+  },
+  {
+    "start_s": 183.00337,
+    "end_s": 183.00349,
+    "text": "read"
+  },
+  {
+    "start_s": 183.00349,
+    "end_s": 183.00368,
+    "text": "signs"
+  },
+  {
+    "start_s": 183.00368,
+    "end_s": 183.00383,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 183.00383,
+    "end_s": 183.00386,
+    "text": "I"
+  },
+  {
+    "start_s": 183.00386,
+    "end_s": 183.00392,
+    "text": "'m"
+  },
+  {
+    "start_s": 183.00392,
+    "end_s": 184.00401,
+    "text": "the"
+  },
+  {
+    "start_s": 184.00401,
+    "end_s": 184.00413,
+    "text": "fool"
+  },
+  {
+    "start_s": 184.00413,
+    "end_s": 184.00422,
+    "text": "who"
+  },
+  {
+    "start_s": 184.00422,
+    "end_s": 184.00431,
+    "text": "can"
+  },
+  {
+    "start_s": 184.00431,
+    "end_s": 184.00437,
+    "text": "'t"
+  },
+  {
+    "start_s": 184.00437,
+    "end_s": 184.00449,
+    "text": "read"
+  },
+  {
+    "start_s": 184.00449,
+    "end_s": 184.00468,
+    "text": "signs"
+  },
+  {
+    "start_s": 184.00468,
+    "end_s": 184.00483,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 184.00483,
+    "end_s": 184.00486,
+    "text": "I"
+  },
+  {
+    "start_s": 184.00486,
+    "end_s": 184.00492,
+    "text": "'m"
+  },
+  {
+    "start_s": 184.00492,
+    "end_s": 185.00501,
+    "text": "the"
+  },
+  {
+    "start_s": 185.00501,
+    "end_s": 185.00513,
+    "text": "fool"
+  },
+  {
+    "start_s": 185.00513,
+    "end_s": 185.00522,
+    "text": "who"
+  },
+  {
+    "start_s": 185.00522,
+    "end_s": 185.00531,
+    "text": "can"
+  },
+  {
+    "start_s": 185.00531,
+    "end_s": 185.00537,
+    "text": "'t"
+  },
+  {
+    "start_s": 185.00537,
+    "end_s": 185.00549,
+    "text": "read"
+  },
+  {
+    "start_s": 185.00549,
+    "end_s": 185.00568,
+    "text": "signs"
+  },
+  {
+    "start_s": 185.00568,
+    "end_s": 185.00583,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 185.00583,
+    "end_s": 185.00586,
+    "text": "I"
+  },
+  {
+    "start_s": 185.00586,
+    "end_s": 185.00592,
+    "text": "'m"
+  },
+  {
+    "start_s": 185.00592,
+    "end_s": 186.00601,
+    "text": "the"
+  },
+  {
+    "start_s": 186.00601,
+    "end_s": 186.00613,
+    "text": "fool"
+  },
+  {
+    "start_s": 186.00613,
+    "end_s": 186.00622,
+    "text": "who"
+  },
+  {
+    "start_s": 186.00622,
+    "end_s": 186.00631,
+    "text": "can"
+  },
+  {
+    "start_s": 186.00631,
+    "end_s": 186.00637,
+    "text": "'t"
+  },
+  {
+    "start_s": 186.00637,
+    "end_s": 186.00649,
+    "text": "read"
+  },
+  {
+    "start_s": 186.00649,
+    "end_s": 186.00668,
+    "text": "signs"
+  },
+  {
+    "start_s": 186.00668,
+    "end_s": 186.00683,
+    "text": "Maybe"
+  },
+  {
+    "start_s": 186.00683,
+    "end_s": 186.00686,
+    "text": "I"
+  },
+  {
+    "start_s": 186.00686,
+    "end_s": 186.00692,
+    "text": "'m"
+  },
+  {
+    "start_s": 186.00692,
+    "end_s": 187.00701,
+    "text": "the"
+  },
+  {
+    "start_s": 187.00701,
+    "end_s": 187.00713,
+    "text": "fool"
+  },
+  {
+    "start_s": 187.00713,
+    "end_s": 187.00722,
+    "text": "who"
+  },
+  {
+    "start_s": 187.00722,
+    "end_s": 187.00731,
+    "text": "can"
+  },
+  {
+    "start_s": 187.00731,
+    "end_s": 187.00749,
+    "text": "'t"
+  },
+  {
+    "start_s": 187.00749,
+    "end_s": 187.00768,
+    "text": "read"
+  },
+  {
+    "start_s": 187.00768,
+    "end_s": 187.00768,
+    "text": "signs"
+  }
+]

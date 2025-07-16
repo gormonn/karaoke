@@ -40,6 +40,7 @@ export function mergeEditsWithConverted(
 	convertedData: MusicData,
 	editsData: EditsData
 ): MusicData {
+	return convertedData;
 	// Создаем глубокую копию converted данных
 	const mergedData = JSON.parse(JSON.stringify(convertedData));
 

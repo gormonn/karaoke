@@ -1,0 +1,8 @@
+openai-whisper
+ffmpeg-python
+tqdm
+transformers
+torch
+datasets
+librosa
+soundfile

@@ -73,6 +73,9 @@ export const KARAOKE_CONFIG = {
 		// duration: 0.4,           // Длительность анимации (сек)
 		duration: null,           // Длительность анимации (будет рассчитана в createLetterizeAnimation)
 		easing: 'power2.inOut',  // GSAP easing
+		// easing:  'circ.in', // interersting
+		// easing:  'expo.out',
+		// easing: 'bounce.inOut', 
 		blur: {
 			from: 4,             // Начальное размытие
 			to: 0,               // Конечное размытие

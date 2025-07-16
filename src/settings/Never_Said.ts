@@ -29,8 +29,56 @@ export const SONG_SETTINGS = {
       // "[Final Chorus]": ANIMATION_MODE.LETTERIZE2,
     }
   },
-  IGNORE_CHAR_VIZ: ["[Chorus 1]", "[Chorus 2]", "[Bridge]"]
+  IGNORE_CHAR_VIZ: ["[Chorus 1]", "[Chorus 2]", "[Bridge]"],
+  interpolationMetaLines: ["[Chorus 1]", "[Chorus 2]"],
+  // на основе sedgmentId-wordId из финального объекта (finalSubs)
+  doNotInterpolateSegmentWordIds: new Set([
+    
+    '2-11','2-13',
+
+    '3-5', '3-6', '3-10', '3-11', '3-12',
+
+    '4-0',
+    '4-1',
+    '4-2',
+    '4-3',
+    '4-4',
+    '4-5',
+    '4-6',
+    
+    '5-0',
+    '5-1',
+    '5-2',
+    '5-3',
+    '5-4',
+    '5-5',
+    '5-6',
+
+    '14-3', '14-4', '14-5', 
+
+    '15-0',
+    '15-1',
+    '15-2',
+    '15-3',
+    '15-4',
+    '15-5',
+    '15-6',
+
+    '16-0',
+    '16-1',
+    '16-2',
+    '16-3',
+    '16-4',
+    '16-5',
+  ]),
+  lights: ["[Chorus 1]", "[Chorus 2]"]
 }
+
+// todo: 
+//      "start": null,
+//      "end": null,
+// в сегментах игнорируются...
+// сейчас учитываются только start и end от words
 
 // todo: (done)(high) исправить проблему не подсвечивания слов в такт бита
 //       проблема заключается в конфликте между animation.ts и use-char-viz.ts, а именно из-за filters
@@ -55,7 +103,10 @@ export const SONG_SETTINGS = {
 // todo: (low) создавать файл после завершения converter.mjs
 // todo: (low) перенести stems сюда
 // todo: (low) переделать metaLines в json на строку, вместо массива
-// todo: (low) прикрутить wishper https://www.remotion.dev/docs/install-whisper-cpp/ | https://www.remotion.dev/docs/openai-whisper/
+// done: (low) прикрутить wishper https://www.remotion.dev/docs/install-whisper-cpp/ | https://www.remotion.dev/docs/openai-whisper/
+
+// todo: (low) подумать над оптимизацией файлов json без дублирования words
+
 
 
 // 

@@ -17,113 +17,6 @@
       ],
       "paragraph": "Standing in the kitchen at 2 AM\nScrolling through your phone again\nWhile I'm talking 'bout our plans\nBut my words just hit the air\nIt's not clocking to you, is it?\nHow I'm breaking piece by piece\nWhile you nod and say \"I'm listening\"\nBut your mind's already released",
       "words": [
-        {
-          "id": 5,
-          "word": "2 AM",
-          "start": 2.10,
-          "end": 3.03191,
-          "probability": 1
-        },
-
-        {
-          "id": 6,
-          "word": "Sc",
-          "start": 4.05,
-          "end": 4.09,
-          "probability": 1
-        },
-        {
-          "id": 7,
-          "word": "roll",
-          "start": 4.09,
-          "end": 4.16,
-          "probability": 1
-        },
-        {
-          "id": 8,
-          "word": "ing",
-          "start": 4.16,
-          "end": 4.23,
-          "probability": 1
-        },
-        {
-          "id": 9,
-          "word": "through",
-          "start": 4.23,
-          "end": 4.25,
-          "probability": 1
-        },
-        {
-          "id": 10,
-          "word": "your",
-          "start": 4.25,
-          "end": 5.05,
-          "probability": 1
-        },
-        {
-          "id": 11,
-          "word": "phone",
-          "start": 5.05,
-          "end": 5.12,
-          "probability": 1
-        },
-        {
-          "id": 12,
-          "word": "again",
-          "start": 5.12,
-          "end": 6.09,
-          "probability": 1
-        },
-
-        {
-          "id": 18,
-          "word": "plans",
-          "start": 9.07,
-          "end": 10.10,
-          "probability": 1
-        },
-        {
-          "id": 36,
-          "word": "breaking",
-          "start": 18.15,
-          "end": 19.01,
-          "probability": 1
-        },
-        {
-          "id": 37,
-          "word": "piece",
-          "start": 19.01,
-          "end": 19.17,
-          "probability": 1
-        },
-        {
-          "id": 38,
-          "word": "by",
-          "start": 19.17,
-          "end": 19.28,
-          "probability": 1
-        },
-        {
-          "id": 39,
-          "word": "piece",
-          "start": 19.28,
-          "end": 20.21,
-          "probability": 1
-        },
-        {
-          "id": 46,
-          "word": "listening\"",
-          "start": 23.14,
-          "end": 24.02,
-          "probability": 1
-        },
-        {
-          "id": 50,
-          "word": "already",
-          "start": 26.03,
-          "end": 26.21,
-          "probability": 1
-        }
       ],
       "lines": []
     },
@@ -138,69 +31,6 @@
       ],
       "paragraph": "\"This relationship means everything to me\"\n\"I've never felt this way before\"\n\"We should talk about our future\"",
       "words": [
-        {
-          "id": 3,
-          "word": "means",
-          "start": 30.71809,
-          "end": 31,
-          "probability": 1
-        },
-        {
-          "id": 4,
-          "word": "everything",
-          "start": 31.09,
-          "end": 32.15426,
-          "probability": 1
-        },
-        {
-          "id": 13,
-          "word": "before\"",
-          "start": 35.00,
-          "end": 35.24,
-          "probability": 1
-        },
-        {
-          "id": 14,
-          "word": "\"We",
-          "start": 37.19,
-          "end": 37.22,
-          "probability": 1
-        },
-        {
-          "id": 15,
-          "word": "should",
-          "start": 37.22,
-          "end": 37.29,
-          "probability": 1
-        },
-        {
-          "id": 16,
-          "word": "talk",
-          "start": 37.29,
-          "end": 38.13,
-          "probability": 1
-        },
-        {
-          "id": 17,
-          "word": "about",
-          "start": 38.13,
-          "end": 39.03,
-          "probability": 1
-        },
-        {
-          "id": 18,
-          "word": "our",
-          "start": 39.06,
-          "end": 39.12,
-          "probability": 1
-        },
-        {
-          "id": 19,
-          "word": "future\"",
-          "start": 39.14,
-          "end": 40.10,
-          "probability": 1
-        }
       ],
       "lines": []
     },
@@ -222,13 +52,6 @@
       ],
       "paragraph": "Said no one ever\nSaid no one ever\nWho was checking out\nSaid no one ever\nSaid no one ever\nWhen love turned to doubt\nIt's not clocking to you\nThat I'm already gone\nSaid no one ever\nNever said those words you're thinking of",
       "words": [
-        {
-          "id": 34,
-          "word": "already",
-          "start": 58.16,
-          "end": 60.22,
-          "probability": 1
-        }
       ],
       "lines": []
     },
@@ -248,49 +71,6 @@
       ],
       "paragraph": "Coffee dates where you're explaining\nWhy you need more time to think\nWhile I'm drowning in the silence\nOf the truth you'll never speak\nBut it's not clocking to you, baby\nHow these excuses taste like lies\nWhen you say \"I'm really trying\"\nWith distraction in your eyes",
       "words": [
-        
-        {
-          "id": 16,
-          "word": "While",
-          "start": 75.00,
-          "end": 75.09,
-          "probability": 1
-        },
-        {
-          "id": 17,
-          "word": "I'm",
-          "start": 75.09,
-          "end": 75.09,
-          "probability": 1
-        },
-        {
-          "id": 18,
-          "word": "drowning",
-          "start": 75.20,
-          "end": 76.07,
-          "probability": 1
-        },
-        {
-          "id": 19,
-          "word": "in",
-          "start": 76.07,
-          "end": 76.27,
-          "probability": 1
-        },
-        {
-          "id": 20,
-          "word": "the",
-          "start": 76.43617,
-          "end": 76.75532,
-          "probability": 1
-        },
-        {
-          "id": 21,
-          "word": "silence",
-          "start": 76.75532,
-          "end": 77.39362,
-          "probability": 1
-        }
       ],
       "lines": []
     },
@@ -308,51 +88,16 @@
         {
           "id": 0,
           "word": "\"I",
-          "start": 97.11,
-          "end": 97.17,
+          "start": 97.11, 
+          "end": 98.46639,
           "probability": 1
         },
         {
-          "id": 1,
-          "word": "just",
-          "start": 97.23,
-          "end": 97.28,
-          "probability": 1
-        },
-        {
-          "id": 2,
-          "word": "need",
-          "start": 97.28,
-          "end": 98.05,
-          "probability": 1
-        },
-        {
-          "id": 3,
-          "word": "space",
-          "start": 98.05,
-          "end": 98.21,
-          "probability": 1
-        },
-        {
-          "id": 4,
-          "word": "to",
-          "start": 98.28,
-          "end": 99.04,
-          "probability": 1
-        },
-        {
-          "id": 5,
-          "word": "find",
-          "start": 99.10,
-          "end": 99.22,
-          "probability": 1
-        },
-        {
-          "id": 6,
-          "word": "myself\"",
-          "start": 99.22,
-          "end": 100.18,
-          "probability": 1
+            "id": 1,
+            "word": "just",
+            "start": 97.788195,
+            "end": 99.144585,
+            "probability": 1
         }
       ],
       "lines": []

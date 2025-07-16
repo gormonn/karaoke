@@ -1,0 +1,3563 @@
+{
+  "segments": [
+    {
+      "start_s": 0.0,
+      "end_s": 27.24,
+      "text": " Standing in the kitchen at 2am Scrolling through your phone again While I'm talking about our plans But my words just hit the air It's not clocking to you, is it? How I'm breaking piece by piece While you nod and say I'm listening But your mind's already released",
+      "words": [
+        {
+          "word": " Standing",
+          "start_s": 0.0,
+          "end_s": 0.76
+        },
+        {
+          "word": " in",
+          "start_s": 0.76,
+          "end_s": 1.26
+        },
+        {
+          "word": " the",
+          "start_s": 1.26,
+          "end_s": 1.38
+        },
+        {
+          "word": " kitchen",
+          "start_s": 1.38,
+          "end_s": 1.82
+        },
+        {
+          "word": " at",
+          "start_s": 1.82,
+          "end_s": 2.12
+        },
+        {
+          "word": " 2am",
+          "start_s": 2.12,
+          "end_s": 3.06
+        },
+        {
+          "word": " Scrolling",
+          "start_s": 3.06,
+          "end_s": 4.54
+        },
+        {
+          "word": " through",
+          "start_s": 4.54,
+          "end_s": 4.84
+        },
+        {
+          "word": " your",
+          "start_s": 4.84,
+          "end_s": 5.04
+        },
+        {
+          "word": " phone",
+          "start_s": 5.04,
+          "end_s": 5.34
+        },
+        {
+          "word": " again",
+          "start_s": 5.34,
+          "end_s": 5.72
+        },
+        {
+          "word": " While",
+          "start_s": 5.72,
+          "end_s": 7.48
+        },
+        {
+          "word": " I'm",
+          "start_s": 7.48,
+          "end_s": 7.7
+        },
+        {
+          "word": " talking",
+          "start_s": 7.7,
+          "end_s": 8.12
+        },
+        {
+          "word": " about",
+          "start_s": 8.12,
+          "end_s": 8.44
+        },
+        {
+          "word": " our",
+          "start_s": 8.44,
+          "end_s": 8.9
+        },
+        {
+          "word": " plans",
+          "start_s": 8.9,
+          "end_s": 9.32
+        },
+        {
+          "word": " But",
+          "start_s": 9.32,
+          "end_s": 11.0
+        },
+        {
+          "word": " my",
+          "start_s": 11.0,
+          "end_s": 11.18
+        },
+        {
+          "word": " words",
+          "start_s": 11.18,
+          "end_s": 11.62
+        },
+        {
+          "word": " just",
+          "start_s": 11.62,
+          "end_s": 11.9
+        },
+        {
+          "word": " hit",
+          "start_s": 11.9,
+          "end_s": 12.32
+        },
+        {
+          "word": " the",
+          "start_s": 12.32,
+          "end_s": 12.52
+        },
+        {
+          "word": " air",
+          "start_s": 12.52,
+          "end_s": 12.94
+        },
+        {
+          "word": " It's",
+          "start_s": 12.94,
+          "end_s": 14.6
+        },
+        {
+          "word": " not",
+          "start_s": 14.6,
+          "end_s": 14.72
+        },
+        {
+          "word": " clocking",
+          "start_s": 14.72,
+          "end_s": 15.46
+        },
+        {
+          "word": " to",
+          "start_s": 15.46,
+          "end_s": 15.62
+        },
+        {
+          "word": " you,",
+          "start_s": 15.62,
+          "end_s": 16.12
+        },
+        {
+          "word": " is",
+          "start_s": 16.22,
+          "end_s": 16.56
+        },
+        {
+          "word": " it?",
+          "start_s": 16.56,
+          "end_s": 17.08
+        },
+        {
+          "word": " How",
+          "start_s": 17.22,
+          "end_s": 18.06
+        },
+        {
+          "word": " I'm",
+          "start_s": 18.06,
+          "end_s": 18.36
+        },
+        {
+          "word": " breaking",
+          "start_s": 18.36,
+          "end_s": 18.72
+        },
+        {
+          "word": " piece",
+          "start_s": 18.72,
+          "end_s": 19.18
+        },
+        {
+          "word": " by",
+          "start_s": 19.18,
+          "end_s": 19.66
+        },
+        {
+          "word": " piece",
+          "start_s": 19.66,
+          "end_s": 20.2
+        },
+        {
+          "word": " While",
+          "start_s": 20.2,
+          "end_s": 21.66
+        },
+        {
+          "word": " you",
+          "start_s": 21.66,
+          "end_s": 21.84
+        },
+        {
+          "word": " nod",
+          "start_s": 21.84,
+          "end_s": 22.12
+        },
+        {
+          "word": " and",
+          "start_s": 22.12,
+          "end_s": 22.4
+        },
+        {
+          "word": " say",
+          "start_s": 22.4,
+          "end_s": 22.72
+        },
+        {
+          "word": " I'm",
+          "start_s": 22.72,
+          "end_s": 23.28
+        },
+        {
+          "word": " listening",
+          "start_s": 23.28,
+          "end_s": 23.74
+        },
+        {
+          "word": " But",
+          "start_s": 23.74,
+          "end_s": 25.18
+        },
+        {
+          "word": " your",
+          "start_s": 25.18,
+          "end_s": 25.38
+        },
+        {
+          "word": " mind's",
+          "start_s": 25.38,
+          "end_s": 25.98
+        },
+        {
+          "word": " already",
+          "start_s": 25.98,
+          "end_s": 26.46
+        },
+        {
+          "word": " released",
+          "start_s": 26.46,
+          "end_s": 27.24
+        }
+      ]
+    },
+    {
+      "start_s": 28.48,
+      "end_s": 53.76,
+      "text": " This relationship means everything to me I've never felt this way before We should talk about our future Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever When love turned to doubt",
+      "words": [
+        {
+          "word": " This",
+          "start_s": 28.48,
+          "end_s": 29.56
+        },
+        {
+          "word": " relationship",
+          "start_s": 29.56,
+          "end_s": 30.32
+        },
+        {
+          "word": " means",
+          "start_s": 30.32,
+          "end_s": 30.78
+        },
+        {
+          "word": " everything",
+          "start_s": 30.78,
+          "end_s": 31.42
+        },
+        {
+          "word": " to",
+          "start_s": 31.42,
+          "end_s": 32.2
+        },
+        {
+          "word": " me",
+          "start_s": 32.2,
+          "end_s": 32.54
+        },
+        {
+          "word": " I've",
+          "start_s": 32.54,
+          "end_s": 33.46
+        },
+        {
+          "word": " never",
+          "start_s": 33.46,
+          "end_s": 33.72
+        },
+        {
+          "word": " felt",
+          "start_s": 33.72,
+          "end_s": 34.16
+        },
+        {
+          "word": " this",
+          "start_s": 34.16,
+          "end_s": 34.44
+        },
+        {
+          "word": " way",
+          "start_s": 34.44,
+          "end_s": 34.68
+        },
+        {
+          "word": " before",
+          "start_s": 34.68,
+          "end_s": 35.44
+        },
+        {
+          "word": " We",
+          "start_s": 35.44,
+          "end_s": 37.58
+        },
+        {
+          "word": " should",
+          "start_s": 37.58,
+          "end_s": 37.82
+        },
+        {
+          "word": " talk",
+          "start_s": 37.82,
+          "end_s": 38.1
+        },
+        {
+          "word": " about",
+          "start_s": 38.1,
+          "end_s": 38.78
+        },
+        {
+          "word": " our",
+          "start_s": 38.78,
+          "end_s": 39.3
+        },
+        {
+          "word": " future",
+          "start_s": 39.3,
+          "end_s": 39.96
+        },
+        {
+          "word": " Said",
+          "start_s": 39.96,
+          "end_s": 40.5
+        },
+        {
+          "word": " no",
+          "start_s": 40.5,
+          "end_s": 40.72
+        },
+        {
+          "word": " one",
+          "start_s": 40.72,
+          "end_s": 41.0
+        },
+        {
+          "word": " ever,",
+          "start_s": 41.0,
+          "end_s": 41.56
+        },
+        {
+          "word": " said",
+          "start_s": 41.8,
+          "end_s": 42.26
+        },
+        {
+          "word": " no",
+          "start_s": 42.26,
+          "end_s": 42.52
+        },
+        {
+          "word": " one",
+          "start_s": 42.52,
+          "end_s": 42.78
+        },
+        {
+          "word": " ever",
+          "start_s": 42.78,
+          "end_s": 43.36
+        },
+        {
+          "word": " Who",
+          "start_s": 43.36,
+          "end_s": 44.32
+        },
+        {
+          "word": " was",
+          "start_s": 44.32,
+          "end_s": 44.86
+        },
+        {
+          "word": " checking",
+          "start_s": 44.86,
+          "end_s": 45.6
+        },
+        {
+          "word": " out",
+          "start_s": 45.6,
+          "end_s": 46.7
+        },
+        {
+          "word": " Said",
+          "start_s": 46.7,
+          "end_s": 47.28
+        },
+        {
+          "word": " no",
+          "start_s": 47.28,
+          "end_s": 47.84
+        },
+        {
+          "word": " one",
+          "start_s": 47.84,
+          "end_s": 48.1
+        },
+        {
+          "word": " ever,",
+          "start_s": 48.1,
+          "end_s": 48.7
+        },
+        {
+          "word": " said",
+          "start_s": 48.88,
+          "end_s": 49.38
+        },
+        {
+          "word": " no",
+          "start_s": 49.38,
+          "end_s": 49.64
+        },
+        {
+          "word": " one",
+          "start_s": 49.64,
+          "end_s": 49.92
+        },
+        {
+          "word": " ever",
+          "start_s": 49.92,
+          "end_s": 50.5
+        },
+        {
+          "word": " When",
+          "start_s": 50.5,
+          "end_s": 51.22
+        },
+        {
+          "word": " love",
+          "start_s": 51.22,
+          "end_s": 51.58
+        },
+        {
+          "word": " turned",
+          "start_s": 51.58,
+          "end_s": 52.32
+        },
+        {
+          "word": " to",
+          "start_s": 52.32,
+          "end_s": 53.24
+        },
+        {
+          "word": " doubt",
+          "start_s": 53.24,
+          "end_s": 53.76
+        }
+      ]
+    },
+    {
+      "start_s": 53.76,
+      "end_s": 83.58,
+      "text": " It's not clocking to you That I'm already gone Said no one ever, never said those words you're thinking of Coffee dates where you're explaining Why you need more time to think While I'm drowning in the silence Of the truth you'll never speak But it's not clocking to you",
+      "words": [
+        {
+          "word": " It's",
+          "start_s": 53.76,
+          "end_s": 54.86
+        },
+        {
+          "word": " not",
+          "start_s": 54.86,
+          "end_s": 55.0
+        },
+        {
+          "word": " clocking",
+          "start_s": 55.0,
+          "end_s": 56.3
+        },
+        {
+          "word": " to",
+          "start_s": 56.3,
+          "end_s": 56.62
+        },
+        {
+          "word": " you",
+          "start_s": 56.62,
+          "end_s": 57.2
+        },
+        {
+          "word": " That",
+          "start_s": 57.2,
+          "end_s": 58.14
+        },
+        {
+          "word": " I'm",
+          "start_s": 58.14,
+          "end_s": 58.9
+        },
+        {
+          "word": " already",
+          "start_s": 58.9,
+          "end_s": 59.82
+        },
+        {
+          "word": " gone",
+          "start_s": 59.82,
+          "end_s": 60.82
+        },
+        {
+          "word": " Said",
+          "start_s": 60.82,
+          "end_s": 61.84
+        },
+        {
+          "word": " no",
+          "start_s": 61.84,
+          "end_s": 62.08
+        },
+        {
+          "word": " one",
+          "start_s": 62.08,
+          "end_s": 62.34
+        },
+        {
+          "word": " ever,",
+          "start_s": 62.34,
+          "end_s": 62.9
+        },
+        {
+          "word": " never",
+          "start_s": 62.96,
+          "end_s": 63.9
+        },
+        {
+          "word": " said",
+          "start_s": 63.9,
+          "end_s": 64.34
+        },
+        {
+          "word": " those",
+          "start_s": 64.34,
+          "end_s": 64.6
+        },
+        {
+          "word": " words",
+          "start_s": 64.6,
+          "end_s": 65.0
+        },
+        {
+          "word": " you're",
+          "start_s": 65.0,
+          "end_s": 65.34
+        },
+        {
+          "word": " thinking",
+          "start_s": 65.34,
+          "end_s": 65.82
+        },
+        {
+          "word": " of",
+          "start_s": 65.82,
+          "end_s": 66.5
+        },
+        {
+          "word": " Coffee",
+          "start_s": 66.5,
+          "end_s": 67.96
+        },
+        {
+          "word": " dates",
+          "start_s": 67.96,
+          "end_s": 68.42
+        },
+        {
+          "word": " where",
+          "start_s": 68.42,
+          "end_s": 68.74
+        },
+        {
+          "word": " you're",
+          "start_s": 68.74,
+          "end_s": 69.12
+        },
+        {
+          "word": " explaining",
+          "start_s": 69.12,
+          "end_s": 69.72
+        },
+        {
+          "word": " Why",
+          "start_s": 69.72,
+          "end_s": 71.4
+        },
+        {
+          "word": " you",
+          "start_s": 71.4,
+          "end_s": 71.64
+        },
+        {
+          "word": " need",
+          "start_s": 71.64,
+          "end_s": 71.88
+        },
+        {
+          "word": " more",
+          "start_s": 71.88,
+          "end_s": 72.14
+        },
+        {
+          "word": " time",
+          "start_s": 72.14,
+          "end_s": 72.64
+        },
+        {
+          "word": " to",
+          "start_s": 72.64,
+          "end_s": 72.9
+        },
+        {
+          "word": " think",
+          "start_s": 72.9,
+          "end_s": 73.34
+        },
+        {
+          "word": " While",
+          "start_s": 73.34,
+          "end_s": 75.04
+        },
+        {
+          "word": " I'm",
+          "start_s": 75.04,
+          "end_s": 75.28
+        },
+        {
+          "word": " drowning",
+          "start_s": 75.28,
+          "end_s": 75.74
+        },
+        {
+          "word": " in",
+          "start_s": 75.74,
+          "end_s": 76.24
+        },
+        {
+          "word": " the",
+          "start_s": 76.24,
+          "end_s": 76.42
+        },
+        {
+          "word": " silence",
+          "start_s": 76.42,
+          "end_s": 76.98
+        },
+        {
+          "word": " Of",
+          "start_s": 76.98,
+          "end_s": 78.52
+        },
+        {
+          "word": " the",
+          "start_s": 78.52,
+          "end_s": 78.66
+        },
+        {
+          "word": " truth",
+          "start_s": 78.66,
+          "end_s": 79.04
+        },
+        {
+          "word": " you'll",
+          "start_s": 79.04,
+          "end_s": 79.5
+        },
+        {
+          "word": " never",
+          "start_s": 79.5,
+          "end_s": 79.88
+        },
+        {
+          "word": " speak",
+          "start_s": 79.88,
+          "end_s": 80.32
+        },
+        {
+          "word": " But",
+          "start_s": 80.32,
+          "end_s": 81.94
+        },
+        {
+          "word": " it's",
+          "start_s": 81.94,
+          "end_s": 82.14
+        },
+        {
+          "word": " not",
+          "start_s": 82.14,
+          "end_s": 82.26
+        },
+        {
+          "word": " clocking",
+          "start_s": 82.26,
+          "end_s": 82.9
+        },
+        {
+          "word": " to",
+          "start_s": 82.9,
+          "end_s": 83.12
+        },
+        {
+          "word": " you",
+          "start_s": 83.12,
+          "end_s": 83.58
+        }
+      ]
+    },
+    {
+      "start_s": 83.58,
+      "end_s": 113.56,
+      "text": " Baby, how these excuses taste like lies When you say I'm really trying With distraction in your eyes I just need space to find myself This is harder on me too Maybe we can work this out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out Said no one ever, said no one ever Who was checking out",
+      "words": [
+        {
+          "word": " Baby,",
+          "start_s": 83.58,
+          "end_s": 84.08
+        },
+        {
+          "word": " how",
+          "start_s": 84.4,
+          "end_s": 85.38
+        },
+        {
+          "word": " these",
+          "start_s": 85.38,
+          "end_s": 85.62
+        },
+        {
+          "word": " excuses",
+          "start_s": 85.62,
+          "end_s": 86.12
+        },
+        {
+          "word": " taste",
+          "start_s": 86.12,
+          "end_s": 86.8
+        },
+        {
+          "word": " like",
+          "start_s": 86.8,
+          "end_s": 87.34
+        },
+        {
+          "word": " lies",
+          "start_s": 87.34,
+          "end_s": 87.64
+        },
+        {
+          "word": " When",
+          "start_s": 87.64,
+          "end_s": 89.18
+        },
+        {
+          "word": " you",
+          "start_s": 89.18,
+          "end_s": 89.34
+        },
+        {
+          "word": " say",
+          "start_s": 89.34,
+          "end_s": 89.66
+        },
+        {
+          "word": " I'm",
+          "start_s": 89.66,
+          "end_s": 90.1
+        },
+        {
+          "word": " really",
+          "start_s": 90.1,
+          "end_s": 90.4
+        },
+        {
+          "word": " trying",
+          "start_s": 90.4,
+          "end_s": 91.06
+        },
+        {
+          "word": " With",
+          "start_s": 91.06,
+          "end_s": 92.74
+        },
+        {
+          "word": " distraction",
+          "start_s": 92.74,
+          "end_s": 93.28
+        },
+        {
+          "word": " in",
+          "start_s": 93.28,
+          "end_s": 93.94
+        },
+        {
+          "word": " your",
+          "start_s": 93.94,
+          "end_s": 94.22
+        },
+        {
+          "word": " eyes",
+          "start_s": 94.22,
+          "end_s": 94.68
+        },
+        {
+          "word": " I",
+          "start_s": 94.68,
+          "end_s": 97.3
+        },
+        {
+          "word": " just",
+          "start_s": 97.3,
+          "end_s": 97.7
+        },
+        {
+          "word": " need",
+          "start_s": 97.7,
+          "end_s": 98.1
+        },
+        {
+          "word": " space",
+          "start_s": 98.1,
+          "end_s": 98.4
+        },
+        {
+          "word": " to",
+          "start_s": 98.4,
+          "end_s": 98.94
+        },
+        {
+          "word": " find",
+          "start_s": 98.94,
+          "end_s": 99.5
+        },
+        {
+          "word": " myself",
+          "start_s": 99.5,
+          "end_s": 100.1
+        },
+        {
+          "word": " This",
+          "start_s": 100.1,
+          "end_s": 101.28
+        },
+        {
+          "word": " is",
+          "start_s": 101.28,
+          "end_s": 101.68
+        },
+        {
+          "word": " harder",
+          "start_s": 101.68,
+          "end_s": 102.48
+        },
+        {
+          "word": " on",
+          "start_s": 102.48,
+          "end_s": 103.08
+        },
+        {
+          "word": " me",
+          "start_s": 103.08,
+          "end_s": 103.38
+        },
+        {
+          "word": " too",
+          "start_s": 103.38,
+          "end_s": 103.88
+        },
+        {
+          "word": " Maybe",
+          "start_s": 103.88,
+          "end_s": 105.84
+        },
+        {
+          "word": " we",
+          "start_s": 105.84,
+          "end_s": 106.48
+        },
+        {
+          "word": " can",
+          "start_s": 106.48,
+          "end_s": 106.96
+        },
+        {
+          "word": " work",
+          "start_s": 106.96,
+          "end_s": 107.48
+        },
+        {
+          "word": " this",
+          "start_s": 107.48,
+          "end_s": 107.98
+        },
+        {
+          "word": " out",
+          "start_s": 107.98,
+          "end_s": 109.08
+        },
+        {
+          "word": " Said",
+          "start_s": 109.08,
+          "end_s": 111.7
+        },
+        {
+          "word": " no",
+          "start_s": 111.7,
+          "end_s": 111.94
+        },
+        {
+          "word": " one",
+          "start_s": 111.94,
+          "end_s": 112.22
+        },
+        {
+          "word": " ever,",
+          "start_s": 112.22,
+          "end_s": 112.74
+        },
+        {
+          "word": " said",
+          "start_s": 112.92,
+          "end_s": 113.44
+        },
+        {
+          "word": " no",
+          "start_s": 113.44,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " said",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " no",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " one",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " ever",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " Who",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " was",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " checking",
+          "start_s": 113.56,
+          "end_s": 113.56
+        },
+        {
+          "word": " out",
+          "start_s": 113.56,
+          "end_s": 113.56
+        }
+      ]
+    },
+    {
+      "start_s": 113.56,
+      "end_s": 142.8,
+      "text": " Said no one ever, who was halfway out the door Said no one ever, said no one ever When they'd already found something more It's not clocking to you That I see through it all Said no one ever Never meant the words before you fall Maybe I'm the fool who can't read signs",
+      "words": [
+        {
+          "word": " Said",
+          "start_s": 113.56,
+          "end_s": 113.58
+        },
+        {
+          "word": " no",
+          "start_s": 113.58,
+          "end_s": 113.62
+        },
+        {
+          "word": " one",
+          "start_s": 113.62,
+          "end_s": 113.84
+        },
+        {
+          "word": " ever,",
+          "start_s": 113.84,
+          "end_s": 114.34
+        },
+        {
+          "word": " who",
+          "start_s": 114.66,
+          "end_s": 115.32
+        },
+        {
+          "word": " was",
+          "start_s": 115.32,
+          "end_s": 115.9
+        },
+        {
+          "word": " halfway",
+          "start_s": 115.9,
+          "end_s": 116.64
+        },
+        {
+          "word": " out",
+          "start_s": 116.64,
+          "end_s": 117.28
+        },
+        {
+          "word": " the",
+          "start_s": 117.28,
+          "end_s": 117.56
+        },
+        {
+          "word": " door",
+          "start_s": 117.56,
+          "end_s": 117.96
+        },
+        {
+          "word": " Said",
+          "start_s": 117.96,
+          "end_s": 118.72
+        },
+        {
+          "word": " no",
+          "start_s": 118.72,
+          "end_s": 118.96
+        },
+        {
+          "word": " one",
+          "start_s": 118.96,
+          "end_s": 119.22
+        },
+        {
+          "word": " ever,",
+          "start_s": 119.22,
+          "end_s": 119.82
+        },
+        {
+          "word": " said",
+          "start_s": 120.02,
+          "end_s": 120.5
+        },
+        {
+          "word": " no",
+          "start_s": 120.5,
+          "end_s": 120.72
+        },
+        {
+          "word": " one",
+          "start_s": 120.72,
+          "end_s": 121.02
+        },
+        {
+          "word": " ever",
+          "start_s": 121.02,
+          "end_s": 121.58
+        },
+        {
+          "word": " When",
+          "start_s": 121.58,
+          "end_s": 122.28
+        },
+        {
+          "word": " they'd",
+          "start_s": 122.28,
+          "end_s": 122.62
+        },
+        {
+          "word": " already",
+          "start_s": 122.62,
+          "end_s": 122.92
+        },
+        {
+          "word": " found",
+          "start_s": 122.92,
+          "end_s": 123.48
+        },
+        {
+          "word": " something",
+          "start_s": 123.48,
+          "end_s": 124.3
+        },
+        {
+          "word": " more",
+          "start_s": 124.3,
+          "end_s": 125.04
+        },
+        {
+          "word": " It's",
+          "start_s": 125.04,
+          "end_s": 125.94
+        },
+        {
+          "word": " not",
+          "start_s": 125.94,
+          "end_s": 126.18
+        },
+        {
+          "word": " clocking",
+          "start_s": 126.18,
+          "end_s": 127.4
+        },
+        {
+          "word": " to",
+          "start_s": 127.4,
+          "end_s": 127.74
+        },
+        {
+          "word": " you",
+          "start_s": 127.74,
+          "end_s": 128.46
+        },
+        {
+          "word": " That",
+          "start_s": 128.46,
+          "end_s": 129.2
+        },
+        {
+          "word": " I",
+          "start_s": 129.2,
+          "end_s": 129.64
+        },
+        {
+          "word": " see",
+          "start_s": 129.64,
+          "end_s": 130.12
+        },
+        {
+          "word": " through",
+          "start_s": 130.12,
+          "end_s": 130.94
+        },
+        {
+          "word": " it",
+          "start_s": 130.94,
+          "end_s": 131.52
+        },
+        {
+          "word": " all",
+          "start_s": 131.52,
+          "end_s": 132.02
+        },
+        {
+          "word": " Said",
+          "start_s": 132.02,
+          "end_s": 132.94
+        },
+        {
+          "word": " no",
+          "start_s": 132.94,
+          "end_s": 133.16
+        },
+        {
+          "word": " one",
+          "start_s": 133.16,
+          "end_s": 133.44
+        },
+        {
+          "word": " ever",
+          "start_s": 133.44,
+          "end_s": 133.88
+        },
+        {
+          "word": " Never",
+          "start_s": 133.88,
+          "end_s": 134.96
+        },
+        {
+          "word": " meant",
+          "start_s": 134.96,
+          "end_s": 135.42
+        },
+        {
+          "word": " the",
+          "start_s": 135.42,
+          "end_s": 135.62
+        },
+        {
+          "word": " words",
+          "start_s": 135.62,
+          "end_s": 136.02
+        },
+        {
+          "word": " before",
+          "start_s": 136.02,
+          "end_s": 136.46
+        },
+        {
+          "word": " you",
+          "start_s": 136.46,
+          "end_s": 136.96
+        },
+        {
+          "word": " fall",
+          "start_s": 136.96,
+          "end_s": 137.28
+        },
+        {
+          "word": " Maybe",
+          "start_s": 137.28,
+          "end_s": 139.9
+        },
+        {
+          "word": " I'm",
+          "start_s": 139.9,
+          "end_s": 140.52
+        },
+        {
+          "word": " the",
+          "start_s": 140.52,
+          "end_s": 140.7
+        },
+        {
+          "word": " fool",
+          "start_s": 140.7,
+          "end_s": 141.12
+        },
+        {
+          "word": " who",
+          "start_s": 141.12,
+          "end_s": 141.66
+        },
+        {
+          "word": " can't",
+          "start_s": 141.66,
+          "end_s": 142.12
+        },
+        {
+          "word": " read",
+          "start_s": 142.12,
+          "end_s": 142.38
+        },
+        {
+          "word": " signs",
+          "start_s": 142.38,
+          "end_s": 142.8
+        }
+      ]
+    },
+    {
+      "start_s": 142.8,
+      "end_s": 170.36,
+      "text": " Maybe I'm the one who's going blind But when you say forever with that tone I know you're already writing me a goodbye note I wanna stay and fight for this Said no one ever walking away This is just a phase we're going through Said no one ever Who's already moved on to someone new",
+      "words": [
+        {
+          "word": " Maybe",
+          "start_s": 142.8,
+          "end_s": 143.54
+        },
+        {
+          "word": " I'm",
+          "start_s": 143.54,
+          "end_s": 144.06
+        },
+        {
+          "word": " the",
+          "start_s": 144.06,
+          "end_s": 144.24
+        },
+        {
+          "word": " one",
+          "start_s": 144.24,
+          "end_s": 144.68
+        },
+        {
+          "word": " who's",
+          "start_s": 144.68,
+          "end_s": 145.24
+        },
+        {
+          "word": " going",
+          "start_s": 145.24,
+          "end_s": 145.56
+        },
+        {
+          "word": " blind",
+          "start_s": 145.56,
+          "end_s": 146.32
+        },
+        {
+          "word": " But",
+          "start_s": 146.32,
+          "end_s": 147.12
+        },
+        {
+          "word": " when",
+          "start_s": 147.12,
+          "end_s": 147.4
+        },
+        {
+          "word": " you",
+          "start_s": 147.4,
+          "end_s": 147.6
+        },
+        {
+          "word": " say",
+          "start_s": 147.6,
+          "end_s": 147.82
+        },
+        {
+          "word": " forever",
+          "start_s": 147.82,
+          "end_s": 148.3
+        },
+        {
+          "word": " with",
+          "start_s": 148.3,
+          "end_s": 149.0
+        },
+        {
+          "word": " that",
+          "start_s": 149.0,
+          "end_s": 149.48
+        },
+        {
+          "word": " tone",
+          "start_s": 149.48,
+          "end_s": 149.9
+        },
+        {
+          "word": " I",
+          "start_s": 149.9,
+          "end_s": 150.42
+        },
+        {
+          "word": " know",
+          "start_s": 150.42,
+          "end_s": 150.74
+        },
+        {
+          "word": " you're",
+          "start_s": 150.74,
+          "end_s": 151.02
+        },
+        {
+          "word": " already",
+          "start_s": 151.02,
+          "end_s": 151.52
+        },
+        {
+          "word": " writing",
+          "start_s": 151.52,
+          "end_s": 152.08
+        },
+        {
+          "word": " me",
+          "start_s": 152.08,
+          "end_s": 152.34
+        },
+        {
+          "word": " a",
+          "start_s": 152.34,
+          "end_s": 152.54
+        },
+        {
+          "word": " goodbye",
+          "start_s": 152.54,
+          "end_s": 153.1
+        },
+        {
+          "word": " note",
+          "start_s": 153.1,
+          "end_s": 153.68
+        },
+        {
+          "word": " I",
+          "start_s": 153.68,
+          "end_s": 155.92
+        },
+        {
+          "word": " wanna",
+          "start_s": 155.92,
+          "end_s": 156.36
+        },
+        {
+          "word": " stay",
+          "start_s": 156.36,
+          "end_s": 156.74
+        },
+        {
+          "word": " and",
+          "start_s": 156.74,
+          "end_s": 156.9
+        },
+        {
+          "word": " fight",
+          "start_s": 156.9,
+          "end_s": 157.26
+        },
+        {
+          "word": " for",
+          "start_s": 157.26,
+          "end_s": 157.62
+        },
+        {
+          "word": " this",
+          "start_s": 157.62,
+          "end_s": 158.2
+        },
+        {
+          "word": " Said",
+          "start_s": 158.2,
+          "end_s": 159.64
+        },
+        {
+          "word": " no",
+          "start_s": 159.64,
+          "end_s": 159.84
+        },
+        {
+          "word": " one",
+          "start_s": 159.84,
+          "end_s": 160.12
+        },
+        {
+          "word": " ever",
+          "start_s": 160.12,
+          "end_s": 160.4
+        },
+        {
+          "word": " walking",
+          "start_s": 160.4,
+          "end_s": 161.14
+        },
+        {
+          "word": " away",
+          "start_s": 161.14,
+          "end_s": 161.8
+        },
+        {
+          "word": " This",
+          "start_s": 161.8,
+          "end_s": 163.42
+        },
+        {
+          "word": " is",
+          "start_s": 163.42,
+          "end_s": 163.6
+        },
+        {
+          "word": " just",
+          "start_s": 163.6,
+          "end_s": 163.86
+        },
+        {
+          "word": " a",
+          "start_s": 163.86,
+          "end_s": 164.04
+        },
+        {
+          "word": " phase",
+          "start_s": 164.04,
+          "end_s": 164.46
+        },
+        {
+          "word": " we're",
+          "start_s": 164.46,
+          "end_s": 164.78
+        },
+        {
+          "word": " going",
+          "start_s": 164.78,
+          "end_s": 165.14
+        },
+        {
+          "word": " through",
+          "start_s": 165.14,
+          "end_s": 165.9
+        },
+        {
+          "word": " Said",
+          "start_s": 165.9,
+          "end_s": 166.7
+        },
+        {
+          "word": " no",
+          "start_s": 166.7,
+          "end_s": 166.9
+        },
+        {
+          "word": " one",
+          "start_s": 166.9,
+          "end_s": 167.22
+        },
+        {
+          "word": " ever",
+          "start_s": 167.22,
+          "end_s": 167.58
+        },
+        {
+          "word": " Who's",
+          "start_s": 167.58,
+          "end_s": 167.94
+        },
+        {
+          "word": " already",
+          "start_s": 167.94,
+          "end_s": 168.28
+        },
+        {
+          "word": " moved",
+          "start_s": 168.28,
+          "end_s": 168.8
+        },
+        {
+          "word": " on",
+          "start_s": 168.8,
+          "end_s": 169.28
+        },
+        {
+          "word": " to",
+          "start_s": 169.28,
+          "end_s": 169.4
+        },
+        {
+          "word": " someone",
+          "start_s": 169.4,
+          "end_s": 169.76
+        },
+        {
+          "word": " new",
+          "start_s": 169.76,
+          "end_s": 170.36
+        }
+      ]
+    },
+    {
+      "start_s": 170.36,
+      "end_s": 184.12,
+      "text": " It's not clocking to you That we're done before we started Said no one ever Said no one ever Who left brokenhearted",
+      "words": [
+        {
+          "word": " It's",
+          "start_s": 170.36,
+          "end_s": 170.6
+        },
+        {
+          "word": " not",
+          "start_s": 170.6,
+          "end_s": 170.72
+        },
+        {
+          "word": " clocking",
+          "start_s": 170.72,
+          "end_s": 171.88
+        },
+        {
+          "word": " to",
+          "start_s": 171.88,
+          "end_s": 172.18
+        },
+        {
+          "word": " you",
+          "start_s": 172.18,
+          "end_s": 172.78
+        },
+        {
+          "word": " That",
+          "start_s": 172.78,
+          "end_s": 173.74
+        },
+        {
+          "word": " we're",
+          "start_s": 173.74,
+          "end_s": 174.12
+        },
+        {
+          "word": " done",
+          "start_s": 174.12,
+          "end_s": 174.6
+        },
+        {
+          "word": " before",
+          "start_s": 174.6,
+          "end_s": 175.52
+        },
+        {
+          "word": " we",
+          "start_s": 175.52,
+          "end_s": 176.08
+        },
+        {
+          "word": " started",
+          "start_s": 176.08,
+          "end_s": 176.92
+        },
+        {
+          "word": " Said",
+          "start_s": 176.92,
+          "end_s": 177.36
+        },
+        {
+          "word": " no",
+          "start_s": 177.36,
+          "end_s": 177.62
+        },
+        {
+          "word": " one",
+          "start_s": 177.62,
+          "end_s": 177.92
+        },
+        {
+          "word": " ever",
+          "start_s": 177.92,
+          "end_s": 178.48
+        },
+        {
+          "word": " Said",
+          "start_s": 178.48,
+          "end_s": 179.08
+        },
+        {
+          "word": " no",
+          "start_s": 179.08,
+          "end_s": 179.38
+        },
+        {
+          "word": " one",
+          "start_s": 179.38,
+          "end_s": 179.66
+        },
+        {
+          "word": " ever",
+          "start_s": 179.66,
+          "end_s": 180.12
+        },
+        {
+          "word": " Who",
+          "start_s": 180.12,
+          "end_s": 180.76
+        },
+        {
+          "word": " left",
+          "start_s": 180.76,
+          "end_s": 181.24
+        },
+        {
+          "word": " brokenhearted",
+          "start_s": 181.24,
+          "end_s": 184.12
+        }
+      ]
+    },
+    {
+      "start_s": 184.12,
+      "end_s": 187.7,
+      "text": " Said no one ever, said no one ever Who was checking out Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever Said no one ever",
+      "words": [
+        {
+          "word": " Said",
+          "start_s": 184.12,
+          "end_s": 184.92
+        },
+        {
+          "word": " no",
+          "start_s": 184.92,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever,",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Who",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " was",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " checking",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " out",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " Said",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " no",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " one",
+          "start_s": 187.7,
+          "end_s": 187.7
+        },
+        {
+          "word": " ever",
+          "start_s": 187.7,
+          "end_s": 187.7
+        }
+      ]
+    },
+    {
+      "start_s": 187.68,
+      "end_s": 187.68,
+      "text": "",
+      "words": []
+    }
+  ],
+  "language": "en",
+  "model": "large-v3"
+}

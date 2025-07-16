@@ -1,9 +1,9 @@
 import {gsap} from '../lib/gsap';
-import {KARAOKE_CONFIG} from '../_config';
+import {KARAOKE_CONFIG, SONG_TARGET} from '../_config';
 import {CharTiming, Word} from '../types';
 
 // Функция для инициализации символов в режиме "letterize"
-export const initializeLetterizeChars = (chars: Element[], chars2?: Element[]) => {
+export const animInit = (chars: Element[], chars2?: Element[]) => {
 	// 🆕 Используем глобальный режим или дефолтный
 	const currentMode = window.KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
 	
@@ -127,7 +127,8 @@ export const createZoomInAnimation = (
 		opacity: 1,
 		scale: 1, 
 		duration: duration,
-		ease: config.easing,
+		// ease: config.easing,
+		ease: 'bounce.inOut',
 	}, timing.start);
 
 					// timeline.to(charElement2, {
@@ -176,7 +177,10 @@ export const createZoomInOutAnimation = (
 	// Используем время всего слова для длительности анимации
 	const duration = config.duration || timing.wordPart.end - timing.wordPart.start;
  
-	
+	// const easing1 = 'power2';
+	// const easing2 = 'inOut';
+	// const ease = `${easing1}.${easing2}`;
+
 	// Анимация появления (in)
 	timeline.to(charElement, {
 		opacity: 1,
@@ -184,6 +188,9 @@ export const createZoomInOutAnimation = (
 		filter: `blur(0px)`,
 		duration: duration,
 		ease: config.easing,
+		// ease: 'power2.inOut',
+		// ease,
+		// ease: 'bounce.in',
 	}, timing.start);
  
 	timeline.to(charElement, {
@@ -191,6 +198,9 @@ export const createZoomInOutAnimation = (
 		scale: 0,  
 		duration: duration,
 		ease: config.easing,
+		// ease: 'power2.inOut',
+		// ease
+		// ease: 'bounce.out',
 	}, timing.end); 
 };
 
@@ -371,53 +381,192 @@ export const createDefaultAnimation = (
 	// }, timing.end);
 };
 
+const MIN_WORD_DURATION = 0.07; // 70 мс
+const SHORT_WORD_ANIMATION_DURATION = 0.05; // 50 мс для анимации коротких слов
+
 // ✅ Общая функция для интерполяции символов внутри слов
-export const interpolateCharTimings = (words: Word[]): Array<CharTiming> => {
+export const interpolateCharTimings = (words: Word[], metaLines?: string[], segmentId?: number): Array<CharTiming> => {
+	// console.time('interpolateCharTimings');
 	const timings: Array<CharTiming> = [];
 
-	words.forEach((word) => {
-		const cleanWord = word.word.replace(/^\n/, '');
+	// Определяем, разрешена ли интерполяция для этих metaLines
+	let interpolateChars = KARAOKE_CONFIG.interpolateChars;
+	if (!interpolateChars && metaLines && SONG_TARGET.settings.interpolationMetaLines) {
+		interpolateChars = metaLines.some(meta => SONG_TARGET.settings.interpolationMetaLines.includes(meta));
+	}
+
+	// Группируем связанные слова (части одного слова)
+	const wordGroups: Word[][] = [];
+	let currentGroup: Word[] = [];
+	
+	for (let i = 0; i < words.length; i++) {
+		const currentWord = words[i];
+		const nextWord = words[i + 1];
 		
-		// Считаем только не-пробельные символы для интерполяции
-		const nonSpaceChars = cleanWord.replace(/ /g, '');
-		const wordDuration = word.end - word.start;
-		const charDuration = KARAOKE_CONFIG.interpolateChars && nonSpaceChars.length > 0 
-			? wordDuration / nonSpaceChars.length 
-			: 0;
+		// Проверяем, является ли текущее слово частью следующего слова
+		const isRelated = nextWord && (
+			// Случай 1: слова идут подряд без пробела и имеют очень короткие интервалы
+			// (признак того, что это части одного слова)
+			!currentWord.word.endsWith(' ') && !nextWord.word.startsWith(' ') &&
+			(nextWord.start - currentWord.end) < 0.05 && // интервал меньше 50мс
+			
+			// Случай 2: одно из слов очень короткое (1-3 символа) и идет рядом с другим
+			// без пробела, и интервал очень маленький
+			(currentWord.word.length <= 3 || nextWord.word.length <= 3) &&
+			!currentWord.word.endsWith(' ') && !nextWord.word.startsWith(' ') &&
+			(nextWord.start - currentWord.end) < 0.05 && // интервал меньше 50мс
+			
+			// Случай 3: слова образуют осмысленное слово при соединении И имеют очень короткий интервал
+			!currentWord.word.endsWith(' ') && !nextWord.word.startsWith(' ') &&
+			(currentWord.word + nextWord.word).toLowerCase().match(/^[a-z]+$/) &&
+			(nextWord.start - currentWord.end) < 0.05 // интервал меньше 50мс
+		);
+		
+		currentGroup.push(currentWord);
+		
+		if (!isRelated || i === words.length - 1) {
+			// Если слова не связаны или это последнее слово, завершаем группу
+			if (currentGroup.length > 0) {
+				wordGroups.push([...currentGroup]);
+				currentGroup = [];
+			}
+		}
+	}
 
-		let nonSpaceCharIndex = 0;
+	// Обрабатываем каждую группу слов
+	wordGroups.forEach((wordGroup, groupIndex) => {
+		// Отладочная информация
+		if (wordGroup.length > 1) {
+			const groupWords = wordGroup.map(w => w.word).join(' + ');
+			const groupTiming = `${wordGroup[0].start.toFixed(2)}s - ${wordGroup[wordGroup.length - 1].end.toFixed(2)}s`;
+			console.log(`🔗 Группа ${groupIndex}: [${groupWords}] (${groupTiming})`);
+		}
 
-		// Добавляем символы слова
-		for (let i = 0; i < cleanWord.length; i++) {
-			const char = cleanWord[i];
 
-			if (char !== ' ') {
-				let charStart, charEnd;
-				
-				if (KARAOKE_CONFIG.interpolateChars) {
-					// Интерполируем символы внутри времени слова
-					charStart = word.start + (nonSpaceCharIndex * charDuration);
-					charEnd = charStart + charDuration;
-				} else {
-					// Все символы слова используют время всего слова
-					charStart = word.start;
-					charEnd = word.end;
+		const getIsInterpolate = (word: Word) => {
+			const wordID = word.id;
+			const segmentWordId = `${segmentId}-${wordID}`;
+			const doNotInterpolateSegmentWordIds = SONG_TARGET.settings.doNotInterpolateSegmentWordIds;
+			const doNotInterpolate = doNotInterpolateSegmentWordIds.has(segmentWordId);
+			
+			let isInterpolate = doNotInterpolate ? false : interpolateChars;
+			return isInterpolate;
+		}
+
+		if (wordGroup.length === 1) {
+			// Обычное слово - используем стандартную интерполяцию
+			const word = wordGroup[0];
+			const cleanWord = word.word.replace(/^\n/, '');
+			const nonSpaceChars = cleanWord.replace(/ /g, '');
+			const wordDuration = word.end - word.start;
+
+
+			const isInterpolate = getIsInterpolate(word);
+
+			// if(doNotInterpolate){
+			// 	console.log('isInterpolate', isInterpolate,'word',word.word, segmentWordId);
+			// }
+
+			let nonSpaceCharIndex = 0;
+
+			for (let i = 0; i < cleanWord.length; i++) {
+				const char = cleanWord[i];
+
+				if (char !== ' ') {
+					let charStart, charEnd;
+					
+					if (wordDuration < MIN_WORD_DURATION) {
+						// Если слово очень короткое — все символы появляются одновременно
+						// но с короткой анимацией появления
+						charStart = word.start;
+						charEnd = word.start + SHORT_WORD_ANIMATION_DURATION;
+					} else if (isInterpolate) {
+						const charDuration = wordDuration / nonSpaceChars.length;
+						charStart = word.start + (nonSpaceCharIndex * charDuration);
+						charEnd = charStart + charDuration;
+					} else {
+						charStart = word.start;
+						charEnd = word.end;
+					}
+					
+					timings.push({
+						char,
+						start: charStart,
+						end: charEnd,
+						wordPart: word,
+						wordId: word.id,
+						word: word.word,
+						charIndexInWord: nonSpaceCharIndex,
+					});
+					
+					nonSpaceCharIndex++;
 				}
-				
-				timings.push({
-					char,
-					start: charStart,
-					end: charEnd,
-					wordPart: word,
-					wordId: word.id,
-					word: word.word,
-					charIndexInWord: nonSpaceCharIndex,
-				});
-				
-				nonSpaceCharIndex++;
+			}
+		} else {
+			// todo: тут какая-то хрень происходит, нужно разобраться
+			// Группа связанных слов - интерполируем символы по всей группе
+			const fullWord = wordGroup.map(w => w.word).join('');
+			const cleanFullWord = fullWord.replace(/^\n/, '');
+			const nonSpaceChars = cleanFullWord.replace(/ /g, '');
+			
+			// Общее время группы
+			const groupStart = wordGroup[0].start;
+			const groupEnd = wordGroup[wordGroup.length - 1].end;
+			const groupDuration = groupEnd - groupStart;
+
+			let nonSpaceCharIndex = 0;
+			let wordIndex = 0;
+			let charIndexInCurrentWord = 0;
+
+			for (let i = 0; i < cleanFullWord.length; i++) {
+				const char = cleanFullWord[i];
+
+				if (char !== ' ') {
+					let charStart, charEnd;
+
+					// Находим соответствующее слово в группе
+					const currentWord = wordGroup[wordIndex];
+					const isInterpolate = getIsInterpolate(currentWord);
+					
+					if (groupDuration < MIN_WORD_DURATION) {
+						// Если группа очень короткая — все символы появляются одновременно
+						// но с короткой анимацией появления
+						charStart = groupStart;
+						charEnd = groupStart + SHORT_WORD_ANIMATION_DURATION;
+					} else if (isInterpolate) {
+						const charDuration = groupDuration / nonSpaceChars.length;
+						charStart = groupStart + (nonSpaceCharIndex * charDuration);
+						charEnd = charStart + charDuration;
+					} else {
+						charStart = groupStart;
+						charEnd = groupEnd;
+					}
+					
+					
+					timings.push({
+						char,
+						start: charStart,
+						end: charEnd,
+						wordPart: currentWord,
+						wordId: currentWord.id,
+						word: currentWord.word,
+						charIndexInWord: charIndexInCurrentWord,
+					});
+					
+					nonSpaceCharIndex++;
+					charIndexInCurrentWord++;
+					
+					// Переходим к следующему слову, если достигли конца текущего
+					const currentWordClean = currentWord.word.replace(/^\n/, '').replace(/ /g, '');
+					if (charIndexInCurrentWord >= currentWordClean.length && wordIndex < wordGroup.length - 1) {
+						wordIndex++;
+						charIndexInCurrentWord = 0;
+					}
+				}
 			}
 		}
 	});
 
+	// console.timeEnd('interpolateCharTimings');
 	return timings;
 }; 

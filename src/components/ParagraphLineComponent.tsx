@@ -7,7 +7,7 @@ import {KARAOKE_CONFIG, SONG_TARGET} from '../_config';
 import {SplitText, useGsapTimeline, gsap} from '../lib/gsap';
 import {updateCharData} from '../stores/char-data'; // Нужно для не-припевных символов
 import {
-	initializeLetterizeChars,
+	animInit,
 	createLetterizeAnimation,
 	createLetterizeAnimation2,
 	createZoomAnimation,
@@ -242,8 +242,8 @@ export const ParagraphLineComponent: React.FC<{
 	// ✅ Используем общую функцию интерполяции
 	const charTimings = useMemo(() => {
 		if (!segment.words.length) return [];
-		return interpolateCharTimings(segment.words);
-	}, [segment.words]);
+		return interpolateCharTimings(segment.words, segment.metaLines, segment.id);
+	}, [segment.words, segment.metaLines]);
 
 	// ✅ Создаем карту символов для каждого слова
 	const wordCharMap = useMemo(() => {
@@ -270,7 +270,8 @@ export const ParagraphLineComponent: React.FC<{
 		if (!splitRef.current?.chars) return;
 		
 		const chars = splitRef.current.chars;
-		const isChorus = segment.metaLines.includes("[Chorus 1]") || segment.metaLines.includes("[Chorus 2]");
+		const lights = SONG_TARGET.settings.lights || [];
+		const isChorus = segment.metaLines.some(meta => lights.includes(meta));
 		
 		// Вычисляем drums intensity для всех символов
 		let drumsIntensity = 0;
@@ -384,64 +385,9 @@ export const ParagraphLineComponent: React.FC<{
 		updateCharacterLightEffects();
 	}, [updateCharacterLightEffects]);
 
-	// ✅ Синхронизируем GSAP анимации с Remotion timeline
-	const paragraphAnimationRef = useGsapTimeline(() => { 
-		if (!charTimings.length || !splitRef.current?.chars) return gsap.timeline();
-
-		const timeline = gsap.timeline();
-		const chars = splitRef.current.chars;
-		
-		// Символы уже инициализированы в useEffect, создаем только анимацию
-		// Создаем анимацию для каждого символа в зависимости от режима
-		charTimings.forEach((timing, timingIndex, timingsArray) => {
-			const wordMap = wordCharMap[timing.wordId];
-			if (!wordMap) return;
-
-			// ✅ Прямая ссылка на DOM элемент символа
-			const charGlobalIndex = wordMap.startCharIndex + timing.charIndexInWord;
-			const charElement = chars[charGlobalIndex];
-
-			if (!charElement) return;
-
-			// Используем текущий режим анимации
-			const currentMode = window.KARAOKE_ANIMATION_MODE || KARAOKE_CONFIG.animationMode;
-
-			// const futureTiming = timingsArray?.[timingIndex + 50];
-			switch (currentMode) {
-				case 'letterize':
-					createLetterizeAnimation(timeline, charElement,  timing);
-					break;
-				case 'letterize2':{
-					if(!splitRef2.current) return;
-					const chars2 = splitRef2.current.chars;
-					const charElement2 = chars2[charGlobalIndex];
-					createLetterizeAnimation2(timeline, [charElement, charElement2], timing);
-					}break;
-				case 'zoom':
-					createZoomAnimation(timeline, charElement, timing, timingsArray, timingIndex);
-					break;
-				case 'zoom-in':
-					createZoomInAnimation(timeline, charElement, timing);
-				break;
-				case 'zoom-in-blur':
-					createZoomInBlurAnimation(timeline, charElement, timing);
-				break;
-				case 'zoom-in-out':
-					createZoomInOutAnimation(timeline, charElement, timing);
-				break;
-				case 'default':
-					createDefaultAnimation(timeline, charElement, timing);
-					break;
-			}
-		});
-
-		return timeline;
-	}, [charTimings, segmentId, wordCharMap, splitRef.current?.chars, splitRef2.current?.chars]);
-
-
 	// 🆕 Получаем текущий режим анимации
 	const currentMode = useAnimationMode();
-	
+
 	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {
 		if (containerRef.current && containerRef2.current &&
@@ -476,10 +422,12 @@ export const ParagraphLineComponent: React.FC<{
 							: null;
 
 					// ✅ Сразу инициализируем все символы в зависимости от режима
+					// todo: баг - инициализируется раньше времени - влияет на символы с предыдущих сегментов
+					//  todo: quick-fix скорректировать конец проблемного сегмента
 					if (splitRef.current.chars && splitRef2?.current?.chars) {
-						initializeLetterizeChars(splitRef.current.chars, splitRef2.current.chars);
+						animInit(splitRef.current.chars, splitRef2.current.chars);
 					}else if (splitRef.current.chars) {
-						initializeLetterizeChars(splitRef.current.chars);
+						animInit(splitRef.current.chars);
 					} 
 				}
 			};
@@ -504,7 +452,60 @@ export const ParagraphLineComponent: React.FC<{
 			}
 
 		};
-	}, [segment.paragraph, segment.id]);
+	}, [currentMode, segment.paragraph, segment.id]);
+
+	
+	// ✅ Синхронизируем GSAP анимации с Remotion timeline
+	const paragraphAnimationRef = useGsapTimeline(() => { 
+		if (!charTimings.length || !splitRef.current?.chars) return gsap.timeline();
+
+		const timeline = gsap.timeline();
+		const chars = splitRef.current.chars;
+		
+		// Символы уже инициализированы в useEffect, создаем только анимацию
+		// Создаем анимацию для каждого символа в зависимости от режима
+		charTimings.forEach((timing, timingIndex, timingsArray) => {
+			const wordMap = wordCharMap[timing.wordId];
+			if (!wordMap) return;
+
+			// ✅ Прямая ссылка на DOM элемент символа
+			const charGlobalIndex = wordMap.startCharIndex + timing.charIndexInWord;
+			const charElement = chars[charGlobalIndex];
+
+			if (!charElement) return;
+
+			// const futureTiming = timingsArray?.[timingIndex + 50];
+			switch (currentMode) {
+				case 'letterize':
+					createLetterizeAnimation(timeline, charElement,  timing);
+					break;
+				case 'letterize2':{
+					if(!splitRef2.current) return;
+					const chars2 = splitRef2.current.chars;
+					const charElement2 = chars2[charGlobalIndex];
+					createLetterizeAnimation2(timeline, [charElement, charElement2], timing);
+					}break;
+				case 'zoom':
+					createZoomAnimation(timeline, charElement, timing, timingsArray, timingIndex);
+					break;
+				case 'zoom-in':
+					createZoomInAnimation(timeline, charElement, timing);
+				break;
+				case 'zoom-in-blur':
+					createZoomInBlurAnimation(timeline, charElement, timing);
+				break;
+				case 'zoom-in-out':
+					createZoomInOutAnimation(timeline, charElement, timing);
+				break;
+				case 'default':
+					createDefaultAnimation(timeline, charElement, timing);
+					break;
+			}
+		});
+
+		return timeline;
+	}, [currentMode, charTimings, segmentId, wordCharMap, splitRef.current?.chars, splitRef2.current?.chars]);
+
 
 	if (!segment.paragraph) {
 		return null;

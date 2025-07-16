@@ -15,7 +15,7 @@ Config.setProResProfile("4444");
 
 // Настройки для Studio
 Config.setStudioPort(3000);
-Config.setMaxTimelineTracks(20); // Увеличиваем количество треков
+Config.setMaxTimelineTracks(200); // Увеличиваем количество треков
 Config.setKeyboardShortcutsEnabled(true);
 Config.setLevel('info');
 

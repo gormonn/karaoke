@@ -20,8 +20,7 @@ const {fontFamily} = loadFont(); // "Titan One"
 const AudioComp = () => {
 	const music = useMusic();
 	return <Audio src={music} />;
-};
-
+}; 
 
 export const MyComposition:FC<ConfigProps> = (props) => { 
 	const {transparent} = props;
@@ -114,6 +113,7 @@ export const MyComposition:FC<ConfigProps> = (props) => {
 						: KARAOKE_CONFIG.COLORS.BACKGROUND,
 				}}
 			>
+				{/* <Example /> */}
 				{/* {!transparent && <AbsoluteFill>
 					<BackgroundComponent />
 				</AbsoluteFill>} */}

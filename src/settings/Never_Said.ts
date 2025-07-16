@@ -109,6 +109,19 @@ export const SONG_SETTINGS = {
   lights: ["[Chorus 1]", "[Chorus 2]"]
 }
 
+// minimal todo:
+// - fix "This relationship means everything to me"
+// - fix We should talk about future (в последнюю очередь)
+// - checking out
+// - clocking to you that im already gone
+// - "I just need space to find myself"
+// - already found something more
+// - clocking
+// - goodbye note
+
+
+
+
 // todo: 
 //      "start": null,
 //      "end": null,

@@ -446,8 +446,8 @@ export const interpolateCharTimings = (words: Word[], metaLines?: string[], segm
 		const getIsInterpolate = (word: Word) => {
 			const wordID = word.id;
 			const segmentWordId = `${segmentId}-${wordID}`;
-			const doNotInterpolateSegmentWordIds = SONG_TARGET.settings.doNotInterpolateSegmentWordIds;
-			const doNotInterpolate = doNotInterpolateSegmentWordIds.has(segmentWordId);
+			const {ignoreInterpolateList} = SONG_TARGET.settings;
+			const doNotInterpolate = ignoreInterpolateList.has(segmentWordId);
 			
 			let isInterpolate = doNotInterpolate ? false : interpolateChars;
 			return isInterpolate;

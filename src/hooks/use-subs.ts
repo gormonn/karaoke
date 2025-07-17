@@ -16,9 +16,13 @@ export const useSubtitles = (): WhisperResponse | null => {
 		// Загружаем оба файла параллельно
 		Promise.all([
 			fetch(SONG_TARGET.segments).then((res) => res.json()), // converted файл
-			fetch(SONG_TARGET.edits).then((res) => res.json()) // edits файл
-		]).then(([convertedData, editsData]) => {
+			// fetch(SONG_TARGET.edits).then((res) => res.json()) // edits файл
+		]).then(([
+			convertedData,
+			//editsData
+		]) => {
 			// Применяем мерж edits с converted данными
+			const editsData = SONG_TARGET.edits;
 			const mergedData = mergeEditsWithConverted(convertedData as MusicData, editsData as EditsData);
 			setSubtitles(mergedData as WhisperResponse);
 		});

@@ -32,27 +32,46 @@ export const SONG_SETTINGS = {
   IGNORE_CHAR_VIZ: ["[Chorus 1]", "[Chorus 2]", "[Bridge]"],
   interpolationMetaLines: ["[Chorus 1]", "[Chorus 2]"],
   // на основе sedgmentId-wordId из финального объекта (finalSubs)
-  doNotInterpolateSegmentWordIds: new Set([
-    
-    '2-11','2-13',
+  ignoreInterpolateList: new Set([
+    // '0-5', // 2 am hz
 
+    '2-10', '2-11','2-13',
+
+    // '3-0', // while
+    // '3-1', // you
+    // '3-2', // nod
     '3-5', '3-6', '3-10', '3-11', '3-12',
+    
+    // (Chorus 1)
+    // '53-0', // its 
+    // '54-0', // not 
+    // '55-0', // clocking 
+    // '56-0', // to
+    // '57-0', // you
+    // '58-0', // that
+    // '59-0', // im
+    // '60-0', // already
+    // '61-0', // gone
+    // (Chorus 1)
 
     '4-0',
-    '4-1',
-    '4-2',
+    // '4-1',
+    // '4-2',
     '4-3',
-    '4-4',
+    // '4-4',
     '4-5',
-    '4-6',
+    // '4-6',
     
     '5-0',
     '5-1',
     '5-2',
-    '5-3',
+    // '5-3',
     '5-4',
     '5-5',
-    '5-6',
+    // '5-6',
+
+    '11-8', // ining (beat)
+    // '11-11', // you (beat)
 
     '14-3', '14-4', '14-5', 
 
@@ -87,8 +106,19 @@ export const SONG_SETTINGS = {
     '22-13',
     '22-14',
 
-    '23-4',
-    '23-16',
+    '23-4', // forever
+    '23-5', // with
+    '23-6', // that
+    '23-7', // tone
+
+    '23-8', // i
+    '23-9', // already
+    '23-10', // gone
+    '23-11', // gone
+    '23-12', // gone
+    '23-13', // gone
+    '23-14', // gone
+    // '23-16',
     '23-17',
 
     // '24-0',
@@ -105,14 +135,38 @@ export const SONG_SETTINGS = {
     // '24-11',
     // '24-12',
     // '24-13',
+    // [Final Chorus]
+    '25-2', // just a
+    // '25-3', // phase
+    '25-4', // we
+    '25-5', // 're
+    // '25-6', // going
+    // '25-8', // said
+    // '25-9', // no 
+    // '25-10', // one
+    // '25-11'
+    
+    // '25-10', // a
+    // '25-11', // phase
+    // '25-12', // we're
+
+    // [Final Chorus]
+    '26-0', // it's
+    '26-4', // to
+    '26-5', // you
+    '26-12', // started
   ]),
   lights: ["[Chorus 1]", "[Chorus 2]"]
 }
 
 // minimal todo:
+// already gone
+
+
+
 // - fix "This relationship means everything to me"
 // - fix We should talk about future (в последнюю очередь)
-// - checking out
+// - (ok) checking out
 // - clocking to you that im already gone
 // - "I just need space to find myself"
 // - already found something more

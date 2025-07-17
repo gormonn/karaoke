@@ -1,5 +1,6 @@
 import {staticFile} from 'remotion'; 
 import {SONG_SETTINGS} from './settings/Never_Said';
+import {EDITS} from './settings/Never_Said-edits';
 
 export const SONG_NAME = `Never_Said`;
 
@@ -17,7 +18,8 @@ const calculateCharTranslateY = (fontSize: string): number => {
 
 export const SONG_TARGET = {
 	segments: staticFile(`${SONG_NAME}-converted.json`),
-	edits: staticFile(`${SONG_NAME}-converted-edits.json`),
+	// edits: staticFile(`${SONG_NAME}-converted-edits.json`),
+	edits: EDITS,
 	splitLines: staticFile(`stems/${SONG_NAME}/split-lines.txt`),
 	splitWords: staticFile(`stems/${SONG_NAME}/split-words.txt`),
 	music: staticFile(SONG_NAME),

@@ -1,4 +1,4 @@
-{
+export const EDITS = {
   "text": "Standing in the kitchen at 2 AMScrolling through your phone againWhile I'm talking 'bout our plansBut my words just hit the airIt's not clocking to you, is it?How I'm breaking piece by pieceWhile you nod and say \"I'm listening\"But your mind's already released\"This relationship means everything to me\"\"I've never felt this way before\"\"We should talk about our future\"Said no one everSaid no one everWho was checking outSaid no one everSaid no one everWhen love turned to doubtIt's not clocking to youThat I'm already goneSaid no one everNever said those words you're thinking ofCoffee dates where you're explainingWhy you need more time to thinkWhile I'm drowning in the silenceOf the truth you'll never speakBut it's not clocking to you, babyHow these excuses taste like liesWhen you say \"I'm really trying\"With distraction in your eyes\"I just need space to find myself\"\"This is harder on me too\"\"Maybe we can work this out\"Said no one everSaid no one everWho was halfway out the doorSaid no one everSaid no one everWhen they'd already found something moreIt's not clocking to youThat I see through it allSaid no one everNever meant the words before you fallMaybe I'm the fool who can't read signsMaybe I'm the one who's going blindBut when you say \"forever\" with that toneI know you're already writing me a goodbye note\"I want to stay and fight for this\"Said no one ever walking away\"This is just a phase we're going through\"Said no one everWho's already moved on to someone newIt's not clocking to youThat we're done before we startedSaid no one everSaid no one everWho left broken-hearted",
   "segments": [
     {
@@ -73,13 +73,60 @@
         "Said no one ever",
         "Said no one ever",
         "When love turned to doubt",
-        "It's not clocking to you",
+        "Its not clocking to you",
         "That I'm already gone",
         "Said no one ever",
         "Never said those words you're thinking of"
       ],
       "paragraph": "Said no one ever\nSaid no one ever\nWho was checking out\nSaid no one ever\nSaid no one ever\nWhen love turned to doubt\nIt's not clocking to you\nThat I'm already gone\nSaid no one ever\nNever said those words you're thinking of",
       "words": [
+        {
+          "id": 26,
+          "word": "Its",
+          "start": 54.65426,
+          "end": 54.73404,
+          "probability": 1
+        },
+        {
+          "id": 27,
+          "word": "not",
+          "start": 55.01319,
+          "end": 55.33234, // 55.10319
+          "probability": 1
+        },
+        {
+          "id": 28,
+          "word": "clock",
+          "start": 55.45213,
+          "end": 55.93085,
+          "probability": 1
+        },
+        {
+          "id": 29,
+          "word": "ing",
+          "start": 56.25,
+          "end": 56.48936,
+          "probability": 1
+        },
+
+        {
+          "id": 34,
+          "word": "already",
+          "start": 59.02, // 59.02
+          "end": 59.6583, // 59.02 + 0.6383 = 59.6583
+          "probability": 1
+        },
+        // space between 0.23936
+        // 59.6583 + 0.23936 = 59.89766
+        
+        {
+          "id": 35,
+          "word": "gone",
+          "start": 60.31,
+          "end": 60.70893, // 61.03723 - 60.6383 = 0.39893
+          // 0.39893 + 60.31 = 60.70893
+          "probability": 1
+        },
       ],
       "lines": []
     },
@@ -116,8 +163,8 @@
         {
           "id": 0,
           "word": "\"I",
-          "start": 97.09,
-          "end": 97.20,
+          "start": 97.12,
+          "end": 97.23,
           "probability": 1
         },
         {
@@ -130,8 +177,8 @@
         {
           "id": 2,
           "word": "need",
-          "start": 98.1383,
-          "end": 98.53723,
+          "start": 98.02,
+          "end": 98.41893,
           "probability": 1
         },
         {
@@ -144,8 +191,8 @@
         {
           "id": 4,
           "word": "to",
-          "start": 98.93617,
-          "end": 99.17553,
+          "start": 99.02,
+          "end": 99.25936,
           "probability": 1
         },
         {
@@ -304,6 +351,28 @@
       "paragraph": "Maybe I'm the fool who can't read signs\nMaybe I'm the one who's going blind\nBut when you say \"forever\" with that tone\nI know you're already writing me a goodbye note",
       "words": [
         {
+          "id": 27,
+          "word": "already",
+          "start": 151.35638,
+          "end": 151.75,  // оставляем как было
+          "probability": 1
+        },
+        {
+          "id": 28,
+          "word": "wr",
+          "start": 151.95,  // already.end + 0.2
+          "end": 152.15,    // увеличиваем длительность
+          "probability": 1
+        },
+        {
+          "id": 29,
+          "word": "iting",
+          "start": 152.15,  // начинается сразу после "wr"
+          "end": 152.45,    // увеличиваем общую длительность
+          "probability": 1
+        },
+
+        {
           "id": 31,
           "word": "goodbye",
           "start": 152.25,
@@ -356,16 +425,17 @@
           "id": 18,
           "word": "we'",
           "start": 164.20,
-          "end": 164.22,
+          "end": 164.90,
           "probability": 1
         },
         {
           "id": 19,
           "word": "re",
-          "start": 164.22,
-          "end": 165.24,
+          "start": 164.20,
+          "end": 164.90,
           "probability": 1
         },
+
         {
           "id": 20,
           "word": "going",
@@ -381,265 +451,19 @@
           "probability": 1
         },
         {
-          "id": 22,
-          "word": "Said",
-          "start": 166.22,
-          "end": 166.23,
-          "probability": 1
-        },
-        {
-          "id": 23,
-          "word": "no",
-          "start": 166.23,
-          "end": 167.03,
-          "probability": 1
-        },
-        {
-          "id": 24,
-          "word": "one",
-          "start": 167.03,
-          "end": 167.11,
-          "probability": 1
-        },
-        {
-          "id": 25,
-          "word": "ever",
-          "start": 167.11,
-          "end": 167.18,
-          "probability": 1
-        },
-        {
-          "id": 26,
-          "word": "Who's",
-          "start": 167.20,
-          "end": 168.01,
-          "probability": 1
-        },
-        {
-          "id": 27,
-          "word": "already",
-          "start": 168.01,
-          "end": 168.18,
-          "probability": 1
-        },
-        {
-          "id": 28,
-          "word": "moved",
-          "start": 168.18,
-          "end": 169.08,
-          "probability": 1
-        },
-        {
-          "id": 29,
-          "word": "on",
-          "start": 169.08,
-          "end": 169.10,
-          "probability": 1
-        },
-        {
-          "id": 30,
-          "word": "to",
-          "start": 169.10,
-          "end": 169.11,
-          "probability": 1
-        },
-        {
           "id": 31,
           "word": "someone",
-          "start": 169.12,
-          "end": 170.04,
+          "start": 169.37,
+          "end": 169.67,
           "probability": 1
         },
         {
           "id": 32,
           "word": "new",
-          "start": 170.05,
-          "end": 170.12,
+          "start": 169.87,
+          "end": 170.07,
           "probability": 1
         },
-
-        {
-          "id": 33,
-          "word": "It's",
-          "start": 170.17,
-          "end": 170.23,
-          "probability": 1
-        },
-        {
-          "id": 34,
-          "word": "not",
-          "start": 170.25,
-          "end": 171.01,
-          "probability": 1
-        },
-        {
-          "id": 35,
-          "word": "clock",
-          "start": 171.05,
-          "end": 171.21,
-          "probability": 1
-        },
-        {
-          "id": 36,
-          "word": "ing",
-          "start": 171.21,
-          "end": 172.04,
-          "probability": 1
-        },
-        {
-          "id": 37,
-          "word": "to",
-          "start": 172.06,
-          "end": 172.20,
-          "probability": 1
-        },
-        {
-          "id": 38,
-          "word": "you",
-          "start": 172.23,
-          "end": 173.08,
-          "probability": 1
-        },
-        {
-          "id": 39,
-          "word": "That",
-          "start": 173.18,
-          "end": 174.02,
-          "probability": 1
-        },
-        {
-          "id": 40,
-          "word": "we'",
-          "start": 174.05,
-          "end": 174.08,
-          "probability": 1
-        },
-        {
-          "id": 41,
-          "word": "re",
-          "start": 174.08,
-          "end": 174.11,
-          "probability": 1
-        },
-        {
-          "id": 42,
-          "word": "done",
-          "start": 174.18,
-          "end": 175.10,
-          "probability": 1
-        },
-        {
-          "id": 43,
-          "word": "before",
-          "start": 175.10,
-          "end": 175.26,
-          "probability": 1
-        },
-        {
-          "id": 44,
-          "word": "we",
-          "start": 176.02,
-          "end": 176.05,
-          "probability": 1
-        },
-        {
-          "id": 45,
-          "word": "started",
-          "start": 176.10,
-          "end": 177.03,
-          "probability": 1
-        },
-        {
-          "id": 46,
-          "word": "Said",
-          "start": 177.05,
-          "end": 177.13,
-          "probability": 1
-        },
-        {
-          "id": 47,
-          "word": "no",
-          "start": 177.16,
-          "end": 177.22,
-          "probability": 1
-        },
-        {
-          "id": 48,
-          "word": "one",
-          "start": 177.23,
-          "end": 178.01,
-          "probability": 1
-        },
-        {
-          "id": 49,
-          "word": "ever",
-          "start": 178.03,
-          "end": 178.22,
-          "probability": 1
-        },
-        {
-          "id": 50,
-          "word": "Said",
-          "start": 179.02,
-          "end": 179.06,
-          "probability": 1
-        },
-        {
-          "id": 51,
-          "word": "no",
-          "start": 179.08,
-          "end": 179.14,
-          "probability": 1
-        },
-        {
-          "id": 52,
-          "word": "one",
-          "start": 179.18,
-          "end": 179.22,
-          "probability": 1
-        },
-        {
-          "id": 53,
-          "word": "ever",
-          "start": 179.25,
-          "end": 180.20,
-          "probability": 1
-        },
-        {
-          "id": 54,
-          "word": "Who",
-          "start": 180.22,
-          "end": 181.03723,
-          "probability": 1
-        },
-        {
-          "id": 55,
-          "word": "left",
-          "start": 181.10,
-          "end": 182.15,
-          "probability": 1
-        },
-        {
-          "id": 56,
-          "word": "broken",
-          "start": 182.28,
-          "end": 183.21,
-          "probability": 1
-        },
-        {
-          "id": 57,
-          "word": "-heart",
-          "start": 183.21,
-          "end": 184.10,
-          "probability": 1
-        },
-        {
-          "id": 58,
-          "word": "ed",
-          "start": 184.10,
-          "end": 184.70745,
-          "probability": 1
-        }
       ],
       "lines": []
     }

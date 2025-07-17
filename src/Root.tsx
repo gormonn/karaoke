@@ -8,7 +8,7 @@ import {SONG_TARGET} from './_config';
 import {configSchema, defaultProps} from './hooks/use-config';
 import {useFileContent} from './hooks/use-file-content';
 
-const fps = 30;
+const fps = 60;
 
 const RootComponentWithContext = () => {
 	// Безопасная загрузка конфигурационных файлов

@@ -40,7 +40,7 @@ export function mergeEditsWithConverted(
 	convertedData: MusicData,
 	editsData: EditsData
 ): MusicData {
-	return convertedData;
+	// return convertedData;
 	// Создаем глубокую копию converted данных
 	const mergedData = JSON.parse(JSON.stringify(convertedData));
 
@@ -60,6 +60,8 @@ export function mergeEditsWithConverted(
 				targetSegment.end = editSegment.end;
 			}
 
+			targetSegment.text = editSegment.text;
+
 			// Если в edits есть слова с изменениями, применяем их
 			if (editSegment.words && editSegment.words.length > 0) {
 				editSegment.words.forEach((editWord) => {
@@ -75,6 +77,7 @@ export function mergeEditsWithConverted(
 						if (editWord.end !== null) {
 							targetWord.end = editWord.end;
 						}
+						targetWord.word = editWord.word;
 					}
 				});
 			}

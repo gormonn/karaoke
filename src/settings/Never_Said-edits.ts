@@ -765,29 +765,29 @@ export const EDITS = {
           "id": 17,
           "word": "phase",
           "start": 164.08,
-          "end": 164.18,
+          "end": 164.22,
           "probability": 1
         },
         {
           "id": 18,
           "word": "we'",
-          "start": 164.20,
-          "end": 164.90,
+          "start": 164.30,
+          "end": 164.40,
           "probability": 1
         },
         {
           "id": 19,
           "word": "re",
-          "start": 164.20,
-          "end": 164.90,
+          "start": 164.40,
+          "end": 164.50,
           "probability": 1
         },
 
         {
           "id": 20,
           "word": "going",
-          "start": 165.00,
-          "end": 165.20,
+          "start": 164.30,
+          "end": 164.60,
           "probability": 1
         },
         {

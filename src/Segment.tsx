@@ -3,6 +3,7 @@ import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
 import {lineHeight, padding} from './Dots';
 import {Segment, Word} from './types';
 import {KARAOKE_CONFIG} from './_config';
+import {countVisualChars} from './lib/text-utils';
 
 // Импортируем настроенный GSAP из библиотеки
 import {gsap, SplitText} from './lib/gsap';
@@ -231,10 +232,13 @@ const ParagraphLineComponent: React.FC<{
 
 	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {
-		if (containerRef.current && !splitRef.current && segment.paragraph) {
+		if (containerRef.current && !splitRef.current && segment.paragraph && segment.text.length > 0) {
 			// ✅ Согласно документации: элемент должен быть отображен так, как нужно в конце анимации
-			containerRef.current.innerHTML = segment.paragraph.replace(
-				/\n/g,
+			// containerRef.current.innerHTML = segment.paragraph.replace(
+			// 	/\n/g,
+			// 	'<br />'
+			// );
+			containerRef.current.innerHTML = segment.text.join(
 				'<br />'
 			);
 
@@ -271,7 +275,7 @@ const ParagraphLineComponent: React.FC<{
 				splitRef.current = null;
 			}
 		};
-	}, [segment.paragraph]);
+	}, [segment.paragraph, segment.text]);
 
 	// ✅ Оптимизированный алгоритм с мемоизацией карты символов
 	const charTimings = useMemo(() => {
@@ -427,8 +431,8 @@ const InnerComponent: React.FC<{
 			const availableWidth = width - padding * 2;
 			const charsPerLine = Math.floor(availableWidth / avgCharWidth);
 			
-			// Считаем общее количество символов в paragraph
-			const totalChars = segment.paragraph?.replace(/\s/g, '').length || 0;
+			// Считаем общее количество символов в text
+			const totalChars = segment.text?.join('') ? countVisualChars(segment.text.join('')) : 0;
 			return Math.ceil(totalChars / charsPerLine);
 		} else if (hasLines) {
 			return segment.lines?.length || 0;

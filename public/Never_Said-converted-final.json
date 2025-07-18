@@ -3497,13 +3497,13 @@
                   "id": 5,
                   "word": "with",
                   "start": 148.96277,
-                  "end": 149.44149,
+                  "end": 149.22,
                   "probability": 1
               },
               {
                   "id": 6,
                   "word": "that",
-                  "start": 149.44149,
+                  "start": 149.22,
                   "end": 149.76064,
                   "probability": 1
               },
@@ -3545,43 +3545,43 @@
               {
                   "id": 12,
                   "word": "already",
-                  "start": 151.35638,
-                  "end": 151.83511,
+                  "start": 151.22,
+                  "end": 151.66,
                   "probability": 1
               },
               {
                   "id": 13,
-                  "word": "wr",
-                  "start": 151.83511,
-                  "end": 152.07447,
+                  "word": "",
+                  "start": 151.88,
+                  "end": 152.22,
                   "probability": 1
               },
               {
                   "id": 14,
-                  "word": "iting",
-                  "start": 152.07447,
-                  "end": 152.23404,
+                  "word": "writing",
+                  "start": 151.88,
+                  "end": 152.44,
                   "probability": 1
               },
               {
                   "id": 15,
-                  "word": "me a",
-                  "start": 152.23404,
-                  "end": 152.4734,
+                  "word": "me",
+                  "start": 152.44,
+                  "end": 152.66,
                   "probability": 1
               },
               {
                   "id": 16,
-                  "word": "goodbye",
-                  "start": 153.1117,
-                  "end": 153.51064,
+                  "word": "a goodbye",
+                  "start": 153.88,
+                  "end": 154.99,
                   "probability": 1
               },
               {
                   "id": 17,
                   "word": "note",
-                  "start": 153.51064,
-                  "end": 153.90957,
+                  "start": 155.05,
+                  "end": 155.33,
                   "probability": 1
               }
           ]

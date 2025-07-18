@@ -384,6 +384,11 @@ export const createDefaultAnimation = (
 const MIN_WORD_DURATION = 0.07; // 70 мс
 const SHORT_WORD_ANIMATION_DURATION = 0.05; // 50 мс для анимации коротких слов
 
+// Функция для получения массива визуальных символов
+const getVisualChars = (str: string): string[] => {
+	return Array.from(str.replace(/\n| /g, ''));
+};
+
 // ✅ Общая функция для интерполяции символов внутри слов
 export const interpolateCharTimings = (words: Word[], metaLines?: string[], segmentId?: number): Array<CharTiming> => {
 	// console.time('interpolateCharTimings');
@@ -457,15 +462,10 @@ export const interpolateCharTimings = (words: Word[], metaLines?: string[], segm
 			// Обычное слово - используем стандартную интерполяцию
 			const word = wordGroup[0];
 			const cleanWord = word.word.replace(/^\n/, '');
-			const nonSpaceChars = cleanWord.replace(/ /g, '');
+			const visualChars = getVisualChars(cleanWord);
 			const wordDuration = word.end - word.start;
 
-
 			const isInterpolate = getIsInterpolate(word);
-
-			// if(doNotInterpolate){
-			// 	console.log('isInterpolate', isInterpolate,'word',word.word, segmentWordId);
-			// }
 
 			let nonSpaceCharIndex = 0;
 
@@ -476,12 +476,10 @@ export const interpolateCharTimings = (words: Word[], metaLines?: string[], segm
 					let charStart, charEnd;
 					
 					if (wordDuration < MIN_WORD_DURATION) {
-						// Если слово очень короткое — все символы появляются одновременно
-						// но с короткой анимацией появления
 						charStart = word.start;
 						charEnd = word.start + SHORT_WORD_ANIMATION_DURATION;
 					} else if (isInterpolate) {
-						const charDuration = wordDuration / nonSpaceChars.length;
+						const charDuration = wordDuration / visualChars.length;
 						charStart = word.start + (nonSpaceCharIndex * charDuration);
 						charEnd = charStart + charDuration;
 					} else {
@@ -503,11 +501,10 @@ export const interpolateCharTimings = (words: Word[], metaLines?: string[], segm
 				}
 			}
 		} else {
-			// todo: тут какая-то хрень происходит, нужно разобраться
-			// Группа связанных слов - интерполируем символы по всей группе
+			// Группа связанных слов
 			const fullWord = wordGroup.map(w => w.word).join('');
 			const cleanFullWord = fullWord.replace(/^\n/, '');
-			const nonSpaceChars = cleanFullWord.replace(/ /g, '');
+			const visualChars = getVisualChars(cleanFullWord);
 			
 			// Общее время группы
 			const groupStart = wordGroup[0].start;
@@ -529,19 +526,16 @@ export const interpolateCharTimings = (words: Word[], metaLines?: string[], segm
 					const isInterpolate = getIsInterpolate(currentWord);
 					
 					if (groupDuration < MIN_WORD_DURATION) {
-						// Если группа очень короткая — все символы появляются одновременно
-						// но с короткой анимацией появления
 						charStart = groupStart;
 						charEnd = groupStart + SHORT_WORD_ANIMATION_DURATION;
 					} else if (isInterpolate) {
-						const charDuration = groupDuration / nonSpaceChars.length;
+						const charDuration = groupDuration / visualChars.length;
 						charStart = groupStart + (nonSpaceCharIndex * charDuration);
 						charEnd = charStart + charDuration;
 					} else {
 						charStart = groupStart;
 						charEnd = groupEnd;
 					}
-					
 					
 					timings.push({
 						char,
@@ -557,8 +551,8 @@ export const interpolateCharTimings = (words: Word[], metaLines?: string[], segm
 					charIndexInCurrentWord++;
 					
 					// Переходим к следующему слову, если достигли конца текущего
-					const currentWordClean = currentWord.word.replace(/^\n/, '').replace(/ /g, '');
-					if (charIndexInCurrentWord >= currentWordClean.length && wordIndex < wordGroup.length - 1) {
+					const currentWordVisualChars = getVisualChars(currentWord.word);
+					if (charIndexInCurrentWord >= currentWordVisualChars.length && wordIndex < wordGroup.length - 1) {
 						wordIndex++;
 						charIndexInCurrentWord = 0;
 					}

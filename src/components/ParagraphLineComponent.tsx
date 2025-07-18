@@ -5,7 +5,8 @@ import {useCurrentFrame, useVideoConfig} from 'remotion';
 import {Segment, ANIMATION_MODE} from '../types';
 import {KARAOKE_CONFIG, SONG_TARGET} from '../_config';
 import {SplitText, useGsapTimeline, gsap} from '../lib/gsap';
-import {updateCharData} from '../stores/char-data'; // Нужно для не-припевных символов
+import {updateCharData} from '../stores/char-data';
+import {countVisualChars} from '../lib/text-utils';
 import {
 	animInit,
 	createLetterizeAnimation,
@@ -214,7 +215,6 @@ if (
 
 // Типы для данных о символах
 
-
 // 🆕 Компонент для автоматической разбивки на линии из paragraph
 export const ParagraphLineComponent: React.FC<{
 	segment: Segment;
@@ -245,14 +245,14 @@ export const ParagraphLineComponent: React.FC<{
 		return interpolateCharTimings(segment.words, segment.metaLines, segment.id);
 	}, [segment.words, segment.metaLines]);
 
-	// ✅ Создаем карту символов для каждого слова
+	// ✅ Создаем карту символов для каждого слова с учетом эмодзи
 	const wordCharMap = useMemo(() => {
 		const map: Record<number, { totalChars: number; startCharIndex: number }> = {};
 		let globalCharIndex = 0;
 
 		segment.words.forEach((word) => {
 			const cleanWord = word.word.replace(/\n/, '');
-			const nonSpaceChars = cleanWord.replace(/ /g, '').length;
+			const nonSpaceChars = countVisualChars(cleanWord);
 			
 			map[word.id] = {
 				totalChars: nonSpaceChars,
@@ -391,17 +391,14 @@ export const ParagraphLineComponent: React.FC<{
 	// ✅ Создаем SplitText для автоматической разбивки согласно документации
 	useEffect(() => {
 		if (containerRef.current && containerRef2.current &&
-			!splitRef.current && !splitRef2.current && segment.paragraph) {
+			!splitRef.current && !splitRef2.current && segment.text) {
 
-			// ✅ Согласно документации: элемент должен быть отображен так, как нужно в конце анимации
-			containerRef.current.innerHTML = segment.paragraph.replace(
-				/\n/g,
-				'<br />'
-			);
+			containerRef.current.innerHTML = segment.text.join('<br />');
 			containerRef2.current.innerHTML = currentMode === ANIMATION_MODE.LETTERIZE2
 				? containerRef.current.innerHTML
 				: '';
 
+				
 			const applySplit = () => {
 				if (!splitRef.current && containerRef.current
 					&& !splitRef2.current && containerRef2.current
@@ -452,7 +449,7 @@ export const ParagraphLineComponent: React.FC<{
 			}
 
 		};
-	}, [currentMode, segment.paragraph, segment.id]);
+	}, [currentMode, segment.text, segment.id]);
 
 	
 	// ✅ Синхронизируем GSAP анимации с Remotion timeline
@@ -507,7 +504,7 @@ export const ParagraphLineComponent: React.FC<{
 	}, [currentMode, charTimings, segmentId, wordCharMap, splitRef.current?.chars, splitRef2.current?.chars]);
 
 
-	if (!segment.paragraph) {
+	if (!segment.text) {
 		return null;
 	}
 

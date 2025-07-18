@@ -7,16 +7,86 @@ export const EDITS = {
       "end": null,
       "text": [
         "Standing in the kitchen at 2 AM",
-        "Scrolling through your phone again",
+        "Scrolling through your 📱 again",
         "While I'm talking 'bout our plans",
-        "But my words just hit the air",
-        "It's not clocking to you, is it?",
+        "But my words just 🎯 the 💨",
+        "It's not ⌚👀 to you, is it?",
         "How I'm breaking piece by piece",
-        "While you nod and say \"I'm listening\"",
-        "But your mind's already released"
+        "While you 💅 and say \"I'm listening\"",
+        "But your 🧠 already 🎈🌅"
       ],
       "paragraph": "Standing in the kitchen at 2 AM\nScrolling through your phone again\nWhile I'm talking 'bout our plans\nBut my words just hit the air\nIt's not clocking to you, is it?\nHow I'm breaking piece by piece\nWhile you nod and say \"I'm listening\"\nBut your mind's already released",
       "words": [
+        {
+          "id": 42,
+          "word": "💅",
+          "start": 22.10106,
+          "end": 22.18085,
+          "probability": 1
+        },
+        {
+          "id": 5,
+          "word": "2 AM",
+          "start": 2.79255,
+          "end": 3.03191,
+          "probability": 1
+        },
+        {
+          "id": 11,
+          "word": "📱",
+          "start": 5.26596,
+          "end": 5.74468,
+          "probability": 1
+        },
+        {
+          "id": 23,
+          "word": "🎯",
+          "start": 12.28723,
+          "end": 12.5266,
+          "probability": 1
+        },
+        {
+          "id": 25,
+          "word": "💨",
+          "start": 12.76596,
+          "end": 13.08511,
+          "probability": 1
+        },
+        {
+          "id": 28,
+          "word": "⌚",
+          "start": 15.07979,
+          "end": 15.39894,
+          "probability": 1
+        },
+        {
+          "id": 29,
+          "word": "👀",
+          "start": 15.39894,
+          "end": 15.6383,
+          "probability": 1
+        },
+        {
+          "id": 49,
+          "word": "🧠",
+          "start": 25.6117,
+          "end": 25.85106,
+          "probability": 1
+        },
+        {
+          "id": 51,
+          "word": "🎈",
+          "start": 26.8883,
+          "end": 27.20745,
+          "probability": 1
+        },
+        {
+          "id": 52,
+          "word": "🌅",
+          "start": 27.20745,
+          "end": 27.5266,
+          "probability": 1
+        }
       ],
       "lines": []
     },
@@ -25,9 +95,9 @@ export const EDITS = {
       "start": null,
       "end": null,
       "text": [
-        "\"This relationship means everything to me\"",
-        "\"I've never felt this way before\"",
-        "\"We should talk about our future\""
+        "\"This relationship means everything to me\"<br/>♾️",
+        "\"I've never felt this way before\"<br/>🫠",
+        "\"We should talk about our future\"<br/>🔮"
       ],
       "paragraph": "\"This relationship means everything to me\"\n\"I've never felt this way before\"\n\"We should talk about our future\"",
       "words": [
@@ -58,6 +128,27 @@ export const EDITS = {
           "start": 32.07,
           "end": 32.22957,
           "probability": 1
+        },
+        {
+          "id": 6,
+          "word": "me\"<br/>♾️",
+          "start": 32.31383,
+          "end": 32.55319,
+          "probability": 1
+        },
+        {
+          "id": 13,
+          "word": "before\"<br/>🫠",
+          "start": 35.18617,
+          "end": 35.74468,
+          "probability": 1
+        },
+        {
+          "id": 19,
+          "word": "future\"<br/>🔮",
+          "start": 39.65426,
+          "end": 40.21277,
+          "probability": 1
         }
       ],
       "lines": []
@@ -72,24 +163,80 @@ export const EDITS = {
         "Who was checking out",
         "Said no one ever",
         "Said no one ever",
-        "When love turned to doubt",
-        "Its not clocking to you",
+        "When LOVE turned to 🤔",
+        "It's not clocking to you",
         "That I'm already gone",
-        "Said no one ever",
+        "Said no one ever ",
         "Never said those words you're thinking of"
       ],
       "paragraph": "Said no one ever\nSaid no one ever\nWho was checking out\nSaid no one ever\nSaid no one ever\nWhen love turned to doubt\nIt's not clocking to you\nThat I'm already gone\nSaid no one ever\nNever said those words you're thinking of",
       "words": [
         {
+          "id": 3,
+          "word": "ever",
+          "start": 41.25,
+          "end": 41.64894,
+          "probability": 1
+        },
+        {
+          "id": 7,
+          "word": "ever",
+          "start": 43.00532,
+          "end": 43.40426,
+          "probability": 1
+        },
+        {
+          "id": 12,
+          "word": "out",
+          "start": 46.51596,
+          "end": 46.83511,
+          "probability": 1
+        },
+
+
+        {
+          "id": 16,
+          "word": "ever",
+          "start": 48.35106,
+          "end": 48.75,
+          "probability": 1
+        },
+
+        {
+          "id": 20,
+          "word": "ever",
+          "start": 50.10638,
+          "end": 50.50532,
+          "probability": 1
+        },
+
+
+        {
+          "id": 22,
+          "word": "LOVE",
+          "start": 51.46277,
+          "end": 51.8617,
+          "probability": 1
+        },
+
+        {
+          "id": 25,
+          "word": "🤔",
+          "start": 53.53723,
+          "end": 54.01596,
+          "probability": 1
+        },
+
+        {
           "id": 26,
-          "word": "Its",
+          "word": "It's not",
           "start": 54.65426,
-          "end": 54.73404,
+          "end": 55.33234,
           "probability": 1
         },
         {
           "id": 27,
-          "word": "not",
+          "word": "",
           "start": 55.01319,
           "end": 55.33234, // 55.10319
           "probability": 1
@@ -110,21 +257,31 @@ export const EDITS = {
         },
 
         {
+          "id": 32,
+          "word": "That I'm",
+          "start": 58.08511,
+          "end": 58.48404,
+          "probability": 1
+        },
+        {
+          "id": 33,
+          "word": "",
+          "start": 58.48404,
+          "end": 58.64362,
+          "probability": 1
+        },
+        {
           "id": 34,
           "word": "already",
           "start": 59.02, // 59.02
           "end": 59.6583, // 59.02 + 0.6383 = 59.6583
           "probability": 1
-        },
-        // space between 0.23936
-        // 59.6583 + 0.23936 = 59.89766
-        
+        }, 
         {
           "id": 35,
           "word": "gone",
           "start": 60.31,
-          "end": 60.70893, // 61.03723 - 60.6383 = 0.39893
-          // 0.39893 + 60.31 = 60.70893
+          "end": 60.70893,  
           "probability": 1
         },
       ],
@@ -177,36 +334,120 @@ export const EDITS = {
         {
           "id": 2,
           "word": "need",
-          "start": 98.02,
-          "end": 98.41893,
+          "start": 97.5,
+          "end": 98.21893,
           "probability": 1
         },
         {
           "id": 3,
           "word": "space",
-          "start": 98.53723,
-          "end": 98.93617,
+          "start": 98.03723,
+          "end": 98.40,
           "probability": 1
         },
         {
           "id": 4,
           "word": "to",
-          "start": 99.02,
-          "end": 99.25936,
+          "start": 98.50,
+          "end": 98.85,
           "probability": 1
         },
         {
           "id": 5,
           "word": "find",
-          "start": 99.41489,
+          "start": 99.00,
           "end": 99.81383,
           "probability": 1
         },
         {
           "id": 6,
           "word": "myself\"",
-          "start": 100.29255,
-          "end": 100.85106,
+          "start": 99.40,
+          "end": 100.20,
+          "probability": 1
+        },
+        {
+          "id": 7,
+          "word": "\"This",
+          "start": 101.00,
+          "end": 101.64894,
+          "probability": 1
+        },
+        {
+          "id": 8,
+          "word": "is",
+          "start": 101.33,
+          "end": 101.66,
+          "probability": 1
+        },
+        {
+          "id": 9,
+          "word": "harder",
+          "start": 101.82,
+          "end": 102.33,
+          "probability": 1
+        },
+        {
+          "id": 10,
+          "word": "on",
+          "start": 102.66,
+          "end": 103.16489,
+          "probability": 1
+        },
+        {
+          "id": 11,
+          "word": "me",
+          "start": 103.22,
+          "end": 103.64362,
+          "probability": 1
+        },
+        {
+          "id": 12,
+          "word": "too\"",
+          "start": 103.66,
+          "end": 104.12234,
+          "probability": 1
+        },
+        {
+          "id": 13,
+          "word": "\"Maybe",
+          "start": 105.33,
+          "end": 106.2766,
+          "probability": 1
+        },
+        {
+          "id": 14,
+          "word": "we",
+          "start": 106.51596,
+          "end": 106.75532,
+          "probability": 1
+        },
+        {
+          "id": 15,
+          "word": "can",
+          "start": 106.91489,
+          "end": 107.23404,
+          "probability": 1
+        },
+        {
+          "id": 16,
+          "word": "work",
+          "start": 107.39362,
+          "end": 107.79255,
+          "probability": 1
+        },
+        {
+          "id": 17,
+          "word": "this",
+          "start": 107.87234,
+          "end": 108.27128,
+          "probability": 1
+        },
+        {
+          "id": 18,
+          "word": "out\"",
+          "start": 108.67021,
+          "end": 108.98936,
           "probability": 1
         }
       ],
@@ -231,6 +472,55 @@ export const EDITS = {
       "paragraph": "Said no one ever\nSaid no one ever\nWho was halfway out the door\nSaid no one ever\nSaid no one ever\nWhen they'd already found something more\nIt's not clocking to you\nThat I see through it all\nSaid no one ever\nNever meant the words before you fall",
       "words": [
         {
+          "id": 8,
+          "word": "Who",
+          "start": 115.15,
+          "end": 115.54,
+          "probability": 1
+        },
+        {
+          "id": 9,
+          "word": "was",
+          "start": 115.62,
+          "end": 115.89,
+          "probability": 1
+        },
+        {
+          "id": 10,
+          "word": "half",
+          "start": 116.00,
+          "end": 116.72872,
+          "probability": 1
+        },
+        {
+          "id": 11,
+          "word": "way",
+          "start": 116.72872,
+          "end": 116.96809,
+          "probability": 1
+        },
+        {
+          "id": 12,
+          "word": "out",
+          "start": 117.12766,
+          "end": 117.44681,
+          "probability": 1
+        },
+        {
+          "id": 13,
+          "word": "the",
+          "start": 117.5266,
+          "end": 117.76596,
+          "probability": 1
+        },
+        {
+          "id": 14,
+          "word": "door",
+          "start": 117.76596,
+          "end": 118.16489,
+          "probability": 1
+        },
+        {
           "id": 25,
           "word": "already",
           "start": 122.24,
@@ -241,7 +531,7 @@ export const EDITS = {
           "id": 26,
           "word": "found",
           "start": 123.10,
-          "end": 123.25,
+          "end": 123.35,
           "probability": 1
         },
         {
@@ -255,19 +545,19 @@ export const EDITS = {
           "id": 28,
           "word": "more",
           "start": 124.70745,
-          "end": 124.78723,
+          "end": 125.10,
           "probability": 1
         },
         {
           "id": 29,
-          "word": "It's",
+          "word": "It's not",
           "start": 125.28,
           "end": 126.00,
           "probability": 1
         },
         {
           "id": 30,
-          "word": "not",
+          "word": "",
           "start": 126.00,
           "end": 126.11,
           "probability": 1
@@ -304,7 +594,7 @@ export const EDITS = {
           "id": 35,
           "word": "That I",
           "start": 129.03,
-          "end": 129.22,
+          "end": 129.33,
           "probability": 1
         },
         {
@@ -343,47 +633,103 @@ export const EDITS = {
       "start": null,
       "end": null,
       "text": [
-        "Maybe I'm the fool who can't read signs",
-        "Maybe I'm the one who's going blind",
+        "Maybe I'm the 🤡 who can't read signs",
+        "Maybe I'm the 🙈 who's going blind",
         "But when you say \"forever\" with that tone",
-        "I know you're already writing me a goodbye note"
+        "I know you're already writing me a goodbye 💌"
       ],
       "paragraph": "Maybe I'm the fool who can't read signs\nMaybe I'm the one who's going blind\nBut when you say \"forever\" with that tone\nI know you're already writing me a goodbye note",
       "words": [
         {
+          "id": 3,
+          "word": "🤡",
+          "start": 140.98404,
+          "end": 141.38298,
+          "probability": 1
+        },
+        {
+          "id": 7,
+          "word": "signs",
+          "start": 142.73936,
+          "end": 143.21809,
+          "probability": 1
+        },
+        {
+          "id": 11,
+          "word": "🙈",
+          "start": 144.49468,
+          "end": 144.81383,
+          "probability": 1
+        },
+        {
+          "id": 23,
+          "word": "I",
+          "start": 150.39894,
+          "end": 150.55851,
+          "probability": 1
+        },
+
+        {
+          "id": 24,
+          "word": "know",
+          "start": 150.6383,
+          "end": 150.87766,
+          "probability": 1
+        },
+        {
+          "id": 25,
+          "word": "you'",
+          "start": 150.87766,
+          "end": 150.95745,
+          "probability": 1
+        },
+        {
+          "id": 26,
+          "word": "re",
+          "start": 151.03723,
+          "end": 151.19681,
+          "probability": 1
+        },
+        {
           "id": 27,
           "word": "already",
-          "start": 151.35638,
-          "end": 151.75,  // оставляем как было
+          "start": 151.25,
+          "end": 151.60,
           "probability": 1
         },
         {
           "id": 28,
           "word": "wr",
-          "start": 151.95,  // already.end + 0.2
-          "end": 152.15,    // увеличиваем длительность
+          "start": 151.70,
+          "end": 151.80,
           "probability": 1
         },
         {
           "id": 29,
           "word": "iting",
-          "start": 152.15,  // начинается сразу после "wr"
-          "end": 152.45,    // увеличиваем общую длительность
+          "start": 151.80,
+          "end": 152.00,
           "probability": 1
         },
-
+        {
+          "id": 30,
+          "word": "me",
+          "start": 152.11,
+          "end": 152.22,
+          "probability": 1
+        },
         {
           "id": 31,
-          "word": "goodbye",
-          "start": 152.25,
-          "end": 152.64894,
+          "word": "a goodbye",
+          "start": 152.66,
+          "end": 153.55,
           "probability": 1
         },
         {
           "id": 32,
-          "word": "note",
-          "start": 152.64894,
-          "end": 153.48893,
+          "word": "💌",
+          "start": 153.66,
+          "end": 153.90957,
           "probability": 1
         }
       ],
@@ -397,16 +743,17 @@ export const EDITS = {
         "\"I want to stay and fight for this\"",
         "Said no one ever walking away",
         "\"This is just a phase we're going through\"",
-        "Said no one ever",
-        "Who's already moved on to someone new",
+        "Said no one ever🙄",
+        "Who's already moved on to someone new 💑",
         "It's not clocking to you",
         "That we're done before we started",
         "Said no one ever",
         "Said no one ever",
-        "Who left broken-hearted"
+        "Who left 💔broken-hearted💔"
       ],
       "paragraph": "\"I want to stay and fight for this\"\nSaid no one ever walking away\n\"This is just a phase we're going through\"\nSaid no one ever\nWho's already moved on to someone new\nIt's not clocking to you\nThat we're done before we started\nSaid no one ever\nSaid no one ever\nWho left broken-hearted",
       "words": [
+        // 🏃‍♂️ ⚔️  🥊
         {
           "id": 13,
           "word": "away",
@@ -450,6 +797,15 @@ export const EDITS = {
           "end": 166.08,
           "probability": 1
         },
+
+        {
+          "id": 25,
+          "word": "ever🙄",
+          "start": 167.39362,
+          "end": 167.79255,
+          "probability": 1
+        },
+
         {
           "id": 31,
           "word": "someone",
@@ -459,11 +815,39 @@ export const EDITS = {
         },
         {
           "id": 32,
-          "word": "new",
+          "word": "new 💑",
           "start": 169.87,
           "end": 170.07,
           "probability": 1
         },
+        {
+          "id": 36,
+          "word": "ing",
+          "start": 171.8617,
+          "end": 172.10106,
+          "probability": 1
+        },
+        {
+          "id": 42,
+          "word": "done",
+          "start": 174.49468,
+          "end": 174.89362,
+          "probability": 1
+        },
+        {
+          "id": 56,
+          "word": "💔broken",
+          "start": 182.95213,
+          "end": 183.51064,
+          "probability": 1
+        },
+        {
+          "id": 58,
+          "word": "ed💔",
+          "start": 184.3883,
+          "end": 184.70745,
+          "probability": 1
+        }
       ],
       "lines": []
     }

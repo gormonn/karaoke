@@ -136,6 +136,19 @@ export const getMetaByTime = (currentTimeInSeconds: number, segments?: Segment[]
   return currentSegment.metaLines[0];
 };
 
+
+
+export const useCurrentMeta = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  
+  // Конвертируем кадр в секунды
+  const currentTimeInSeconds = frame / fps;
+  
+  // Используем новый хук для получения текущей мета-линии
+  return useMetaByTime(currentTimeInSeconds);
+}
+
 /**
  * Хук для проверки, находится ли текущий кадр в пределах указанной мета-линии
  * @param metaLine - строка мета-линии (например, "[Chorus]", "[Verse 1]")
@@ -152,14 +165,8 @@ export const getMetaByTime = (currentTimeInSeconds: number, segments?: Segment[]
  * ```
  */
 export const useMeta = (metaLine: string): boolean => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  
-  // Конвертируем кадр в секунды
-  const currentTimeInSeconds = frame / fps;
-  
-  // Используем новый хук для получения текущей мета-линии
-  const currentMetaLine = useMetaByTime(currentTimeInSeconds);
+  const currentMetaLine = useCurrentMeta();
   
   return currentMetaLine === metaLine;
 }; 
+

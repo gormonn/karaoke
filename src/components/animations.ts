@@ -441,11 +441,11 @@ export const interpolateCharTimings = (words: Word[], metaLines?: string[], segm
 	// Обрабатываем каждую группу слов
 	wordGroups.forEach((wordGroup, groupIndex) => {
 		// Отладочная информация
-		if (wordGroup.length > 1) {
-			const groupWords = wordGroup.map(w => w.word).join(' + ');
-			const groupTiming = `${wordGroup[0].start.toFixed(2)}s - ${wordGroup[wordGroup.length - 1].end.toFixed(2)}s`;
-			console.log(`🔗 Группа ${groupIndex}: [${groupWords}] (${groupTiming})`);
-		}
+		// if (wordGroup.length > 1) {
+		// 	const groupWords = wordGroup.map(w => w.word).join(' + ');
+		// 	const groupTiming = `${wordGroup[0].start.toFixed(2)}s - ${wordGroup[wordGroup.length - 1].end.toFixed(2)}s`;
+		// 	console.log(`🔗 Группа ${groupIndex}: [${groupWords}] (${groupTiming})`);
+		// }
 
 
 		const getIsInterpolate = (word: Word) => {

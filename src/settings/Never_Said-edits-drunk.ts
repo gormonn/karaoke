@@ -9,8 +9,8 @@ export const EDITS = {
         "Standing in the kitchen at 2 AM",
         "Scrolling through your 📱 again",
         "While I'm talking 'bout our plans",
-        "But my words just hit the air",
-        "It's not clocking to you, is it?",
+        "But my words just 🎯 the 💨",
+        "It's not ⌚👀 to you, is it?",
         "How I'm breaking piece by piece",
         "While you 💅 and say \"I'm listening\"",
         "But your mind's already released"
@@ -47,28 +47,28 @@ export const EDITS = {
         },
         {
           "id": 23,
-          "word": "hit",
+          "word": "🎯",
           "start": 12.28723,
           "end": 12.5266,
           "probability": 1
         },
         {
           "id": 25,
-          "word": "air",
+          "word": "💨",
           "start": 12.76596,
           "end": 13.08511,
           "probability": 1
         },
         {
           "id": 28,
-          "word": "clock",
+          "word": "⌚",
           "start": 15.07979,
           "end": 15.39894,
           "probability": 1
         },
         {
           "id": 29,
-          "word": "ing",
+          "word": "👀",
           "start": 15.39894,
           "end": 15.6383,
           "probability": 1
@@ -82,7 +82,7 @@ export const EDITS = {
       "end": null,
       "text": [
         "\"This relationship means everything to me\"<br/>♾️",
-        "\"I've never felt this way before\"",
+        "\"I've never felt this way before\"<br/>🫠",
         "\"We should talk about our future\"<br/>🔮"
       ],
       "paragraph": "\"This relationship means everything to me\"\n\"I've never felt this way before\"\n\"We should talk about our future\"",
@@ -124,7 +124,7 @@ export const EDITS = {
         },
         {
           "id": 13,
-          "word": "before\"",
+          "word": "before\"<br/>🫠",
           "start": 35.18617,
           "end": 35.74468,
           "probability": 1
@@ -149,7 +149,7 @@ export const EDITS = {
         "Who was checking out",
         "Said no one ever",
         "Said no one ever",
-        "When LOVE turned to doubt",
+        "When LOVE turned to 🤔",
         "It's not clocking to you",
         "That I'm already gone",
         "Said no one ever ",
@@ -207,7 +207,7 @@ export const EDITS = {
 
         {
           "id": 25,
-          "word": "doubt",
+          "word": "🤔",
           "start": 53.53723,
           "end": 54.01596,
           "probability": 1
@@ -735,7 +735,7 @@ export const EDITS = {
         "That we're done before we started",
         "Said no one ever",
         "Said no one ever",
-        "Who left <br/>💔broken-hearted💔"
+        "Who left 💔broken-hearted💔"
       ],
       "paragraph": "\"I want to stay and fight for this\"\nSaid no one ever walking away\n\"This is just a phase we're going through\"\nSaid no one ever\nWho's already moved on to someone new\nIt's not clocking to you\nThat we're done before we started\nSaid no one ever\nSaid no one ever\nWho left broken-hearted",
       "words": [
@@ -822,7 +822,7 @@ export const EDITS = {
         },
         {
           "id": 56,
-          "word": "<br/>💔broken",
+          "word": "💔broken",
           "start": 182.95213,
           "end": 183.51064,
           "probability": 1

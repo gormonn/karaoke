@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { SplitText } from 'gsap/SplitText';
 import { useEffect, useRef } from 'react';
 import { useCurrentFrame, useVideoConfig } from 'remotion';
+import * as THREE from 'three';
 
 // Регистрируем все необходимые плагины
 gsap.registerPlugin(SplitText);
@@ -17,7 +18,7 @@ export { gsap, SplitText };
  * Hook для интеграции GSAP с Remotion
  * Синхронизирует GSAP timeline с Remotion useCurrentFrame()
  */
-export const useGsapTimeline = <T extends HTMLElement = HTMLDivElement>(
+export const useGsapTimeline = <T extends HTMLElement | THREE.Group = HTMLDivElement>(
   gsapTimelineFactory: () => GSAPTimeline,
   deps: React.DependencyList = []
 ) => {

@@ -14,6 +14,9 @@
 	"repository": {},
 	"license": "UNLICENSED",
 	"dependencies": {
+		"@react-three/drei": "^10.5.1",
+		"@react-three/fiber": "^9.2.0",
+		"@react-three/postprocessing": "^3.0.4",
 		"@remotion/captions": "4.0.323",
 		"@remotion/cli": "4.0.323",
 		"@remotion/google-fonts": "4.0.323",
@@ -22,6 +25,7 @@
 		"@remotion/media-parser": "4.0.323",
 		"@remotion/media-utils": "4.0.323",
 		"@remotion/player": "4.0.323",
+		"@remotion/three": "4.0.323",
 		"@remotion/zod-types": "4.0.323",
 		"@tanstack/react-query": "^5.83.0",
 		"animejs": "^4.0.1",
@@ -32,10 +36,12 @@
 		"leva": "^0.10.0",
 		"lottie-react": "^2.4.1",
 		"nanoid": "^5.1.5",
+		"postprocessing": "^6.37.6",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
 		"remotion": "4.0.323",
 		"tailwindcss": "^4.1.11",
+		"three": "^0.178.0",
 		"zod": "3.22.3"
 	},
 	"devDependencies": {

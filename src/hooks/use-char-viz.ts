@@ -1,7 +1,6 @@
-
 import {MediaUtilsAudioData, useAudioData, visualizeAudio} from '@remotion/media-utils';
 import {useCurrentFrame, useVideoConfig} from 'remotion';
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { SONG_TARGET } from "../_config";
 import { SONG_SETTINGS } from "../settings/Never_Said"; 
 import { useMetaByTime } from './use-meta';
@@ -9,7 +8,7 @@ import {SplitText, gsap} from '../lib/gsap';
  
 
 
-const useIgnoredByMeta = (ignoredBy: string[], currentTimeInSeconds: number) => {
+export const useIgnoredByMeta = (ignoredBy: string[], currentTimeInSeconds: number) => {
 	const currentMetaLine = useMetaByTime(currentTimeInSeconds);
  
 	return currentMetaLine ? ignoredBy.includes(currentMetaLine) : null;
@@ -21,6 +20,9 @@ export const useCharViz = (
 ) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
+
+	const prevBrightnessRef = useRef(1);
+	const prevContrastRef = useRef(1);
 
 	let drumsAudio: MediaUtilsAudioData | null = null;
 	let bassAudio: MediaUtilsAudioData | null = null;
@@ -34,8 +36,9 @@ export const useCharViz = (
 	// ✅ Интерполяция мерцания букв в такт drums и bass
 	useEffect(() => {
 		if (isIgnoredByMeta || !drumsAudio || !bassAudio || !splitRef.current?.chars) return;
-
-		console.log('?isIgnoredByMeta',isIgnoredByMeta)
+		
+		// Коэффициент экспоненциального сглаживания (0…1). Чем меньше, тем плавнее.
+		const SMOOTHING = 0.2;
 		
 		// Анализируем drums для обводки, яркости, размытия
 		const drumsVisualization = visualizeAudio({
@@ -70,31 +73,51 @@ export const useCharViz = (
 		// Применяем кубическую кривую для более резкой реакции
 		const normalizedBassIntensity = Math.pow(bassNormalized, 2.5);
 		
-		// Интерполируем яркость от 1.0 до 2.0 (drums)
-		const brightness = 1 + normalizedDrumsIntensity * 1.0;
+		// --- Пороговое значение, при котором начинается влияние на яркость/контраст.
+		// Всё, что ниже, считаем слишком слабым и игнорируем, чтобы убрать мелкое мерцание.
+		const DRUMS_VISUAL_THRESHOLD = 0.25; // 0-25 % — без изменений
 		
-		// Интерполируем контрастность от 1.0 до 1.5 (drums)
-		const contrast = 1 + normalizedDrumsIntensity * 0.5;
+		// Эффективная интенсивность после учёта порога (0-1)
+		const effectiveDrumsIntensity = normalizedDrumsIntensity <= DRUMS_VISUAL_THRESHOLD
+			? 0
+			: (normalizedDrumsIntensity - DRUMS_VISUAL_THRESHOLD) / (1 - DRUMS_VISUAL_THRESHOLD);
+		
+		// Интерполируем яркость от 1.0 до 1.8, но только после преодоления порога
+		const targetBrightness = 1 + effectiveDrumsIntensity * 0.8;
+		const brightness = prevBrightnessRef.current + (targetBrightness - prevBrightnessRef.current) * SMOOTHING;
+		prevBrightnessRef.current = brightness;
+		
+		// Интерполируем контрастность от 1.0 до 1.4
+		const targetContrast = 1 + effectiveDrumsIntensity * 0.4;
+		const contrast = prevContrastRef.current + (targetContrast - prevContrastRef.current) * SMOOTHING;
+		prevContrastRef.current = contrast;
 		
 		// Интенсивность blur-тряски от bass
 		const blurShakeIntensity = normalizedBassIntensity * 1.5;
 		 
 		
 		// Применяем blur-тряску индивидуально к каждому символу
-		if (blurShakeIntensity > 0.1) {
-			// Когда bass активен - drums повышает резкость (уменьшает blur)
-			// Базовое размытие 1.5px, drums уменьшает его до 0px
-			const baseBlur = 1 - (normalizedDrumsIntensity * 2);
+		// if (blurShakeIntensity > 0.1) {
+		// 	// Когда bass активен - drums повышает резкость (уменьшает blur)
+		// 	// Базовое размытие 1.5px, drums уменьшает его до 0px
+		// 	const baseBlur = 1 - (normalizedDrumsIntensity * 2);
 			
-			splitRef.current.chars.forEach((char: Element) => {
-				// Случайное размытие для каждого символа (создает эффект тряски)
-				const randomBlur = Math.max(0, baseBlur + (Math.random() * blurShakeIntensity));
+		// 	splitRef.current.chars.forEach((char: Element) => {
+		// 		// Случайное размытие для каждого символа (создает эффект тряски)
+		// 		const randomBlur = Math.max(0, baseBlur + (Math.random() * blurShakeIntensity));
 				
-				gsap.set(char, {
-					filter: `brightness(${brightness}) contrast(${contrast}) blur(${randomBlur}px)`,
-				});
-			});
-		} else if (brightness > 1.1 || contrast > 1.1) {
+		// 		gsap.set(char, {
+		// 			filter: `brightness(${brightness}) contrast(${contrast}) blur(${randomBlur}px)`,
+		// 		});
+		// 	});
+		// } else if (brightness > 1.1 || contrast > 1.1) {
+		// 	// Применяем одинаковое размытие ко всем символам
+		// 	gsap.set(splitRef.current.chars, {
+		// 		filter: `brightness(${brightness}) contrast(${contrast})`, 
+		// 	});
+		// } 
+
+		if (brightness > 1.1 || contrast > 1.1) {
 			// Применяем одинаковое размытие ко всем символам
 			gsap.set(splitRef.current.chars, {
 				filter: `brightness(${brightness}) contrast(${contrast})`, 

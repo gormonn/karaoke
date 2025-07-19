@@ -55,3 +55,9 @@ declare global {
 		KARAOKE_ANIMATION_MODE?: ANIMATION_MODE;
 	}
 }
+
+export interface CameraTarget {
+	position: [number, number, number];
+	rotation: [number, number, number];
+	fov: number;
+}

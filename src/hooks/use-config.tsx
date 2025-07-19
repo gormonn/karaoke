@@ -8,6 +8,10 @@ export const configSchema = z.object({
     splitLinesConfig: z.string(),
     splitWords: z.boolean(),
     splitWordsConfig: z.string(),
+    coverText: z.string().optional(),
+    coverTop: z.string().optional(),
+    coverBottom: z.string().optional(),
+    coverEmoji: z.string().optional(),
 	stems: z.nullable(z.object({
 		guitar: z.boolean(),
 		bass: z.boolean(),
@@ -33,7 +37,11 @@ export const defaultProps = {
         percussion: true,
         synth: true,
         vocals: true,
-    }
+    },
+    coverText: '',
+    coverTop: '',
+    coverBottom: '',
+    coverEmoji: '',
 }
 
 export const ConfigContext = createContext<ConfigProps>(defaultProps);

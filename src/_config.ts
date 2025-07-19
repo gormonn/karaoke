@@ -42,7 +42,7 @@ const COLORS = {
 	CHAR_ACCENT: '#CCCCCC',
 };
 
-const fontSize = '6rem';
+const fontSize = '5rem';
 // ✅ Настройки караоке анимации
 export const KARAOKE_CONFIG = {
 	COLORS,

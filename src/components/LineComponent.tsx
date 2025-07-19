@@ -5,7 +5,7 @@ import {Word, CharTiming} from '../types';
 import {KARAOKE_CONFIG} from '../_config';
 import {SplitText, useGsapTimeline, gsap} from '../lib/gsap';
 import {
-	initializeLetterizeChars,
+	animInit,
 	createLetterizeAnimation,
 	createDefaultAnimation,
 	interpolateCharTimings
@@ -94,7 +94,7 @@ export const LineComponent: React.FC<{
 
 					// ✅ Сразу инициализируем все символы в зависимости от режима
 					if (splitRef.current.chars) {
-						initializeLetterizeChars(splitRef.current.chars);
+						animInit(splitRef.current.chars);
 					}
 
 					// Логирование для отладки
